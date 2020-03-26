@@ -1,0 +1,273 @@
+---
+layout: default
+title: Research Group
+---
+<style>
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: block}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Caption text */
+.text {
+  color:black;
+  background-color: white;
+  font-size: 12px;
+  padding: 3px 3px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Caption text for thumbnails */
+.text2 {
+  color:white;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 11px;
+  padding: 0px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #050505;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  background-color: black;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+</style>
+
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>CSU Tropical Weather and Climate Research</p>
+						<h2>The Research Group</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Main -->
+			<div id="main" class="container">
+
+				<!-- Elements -->
+					<div class="row 200%">
+						<div class="6u 12u$(medium)">
+
+							<header class="align-center">
+								<p class="special">Group Photos</b></p>
+							</header>
+							<br>	
+
+
+						
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Group/Group_2020Jan.jpg" style="width:100%;height:auto;" alt="Group photo 1">
+  <div class="text">January 2020 (left to right) Naufal, Jen, Alex, Chelsea, Ellie, Jon, Ali, Ting-Yu, Dandan, Kate, Brianna, Chandra, Rung, Jhordanne, and Michael </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Group/Group_2019.jpg" style="width:100%;height:auto;" alt="Group photo 2">
+  <div class="text">Halloween 2019 (left to right) Naufal, Michael, Ben, Rung, Alex, Jon, Ali, Jen, Ellie, Chandra, Jhordanne, Chelsea, Ting-Yu, and Dandan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Group/Group_2018.jpg" style="width:100%;height:auto;" alt="Group photo 3">
+  <div class="text">November 2018 (left to right) Michael, Ting-Yu, Bruno, Chelsea, Dandan, Alex, Chandra, Jhordanne, Rung, Ellie, Jen, Ben, Ya-Chien, Jon, and Naufal</div>
+</div>
+
+
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+ <hr />
+
+					<header class="align-center">
+                                                <p><b>Please click the photo to find more info about each member</b></p>
+                                        </header>
+                                        <div class="box alt">
+						<div class="row 50% uniform">
+							<div class="2u"><span class="image fit"><a href="https://www.atmos.colostate.edu/people/faculty/bell/"><img src="Group/mmbellportrait.jpg" alt="" /></a>
+								<div class="text2">Michael</div></span></div>
+							<div class="2u"><span class="image fit"><a href="http://tropical.colostate.edu/personnel"><img src="Group/Klotzbach.jpg" alt="" /></a><div class="text2">Phil</div></span></div>
+                                                        <div class="2u"><span class="image fit"><a href="Group/Tao/index.html"><img src="Group/tao_crop.png" alt="" /></a><div class="text2">Dandan</div></span></div>
+                                                        <div class="2u"><span class="image fit"><a href="Group/Dehart/index.html"><img src="Group/Dehart_crop.jpg" alt="" /><div class="text2">Jen</div></a></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <!-- Break -->
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <!-- Break -->
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                                               </div>
+
+                                        </div>
+						</div>
+
+
+
+						<div class="6u$ 12u$(medium)">
+							<header class="align-center">
+								<p class="special">Brief intro of each member</b></p>
+							</header>
+							<br>	
+							<h4 id="elements"><u>Principal Investigater</u></h4>
+								<h3>Michael Bell</h3>
+								<p><span class="image left"><img src="Group/mmbellportrait.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Michael is an associate professor and the principal investigator of Bell's Research Group. He obtained his Ph.D. from the Naval Postgraduate School and joined the CSU Faculty in 2016. <a href="https://www.atmos.colostate.edu/people/faculty/bell/"><u>link to personal webpage</u></a> </p>									
+<br><br>
+							<hr />
+							<h4 id="elements"><u>Research Scientists</u></h4>
+								<h3>Phil Klotzbach</h3>	
+								<p><span class="image left"><img src="Group/Klotzbach.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px"  /></span>Phil Klotzbach is a Research Scientist III. Phil's primary research interests are in intra-seasonal and seasonal forecasts of Atlantic hurricane activity.  He has been an author on the Atlantic basin seasonal forecasts at Colorado State University since 2001 and took over as lead author in 2006.  He also studies the impacts of climate change on hurricane activity.  Phil engages actively with the general public via his Twitter feed <a href="https://twitter.com/philklotzbach" class="icon fa-twitter"><span class="label">Twitter</span></a>  as well as conducting hundreds of media interviews throughout the course of the year. In his spare time, Phil enjoys running, cycling and hiking.  He has climbed all 54 14,000-foot peaks in Colorado and has thru-hiked the 2100+ mile Appalachian Trail. <a href="http://tropical.colostate.edu/personnel/"><u>link to personal webpage</u></a></p>
+
+								<h3>Dandan Tao</h3>
+								<p><span class="image left"><img src="Group/tao_crop.png" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Dandan obtained her Ph.D. from the Pennsylvania State University and is a Research Scientist I, working with Prof. Michael Bell and Prof. Peter Jan van Leeuwen. Her research interests include all about tropical cyclones. <a href="https://taodandan.github.io/"><u>link to personal webpage</u></a></p>
+<br><br>					
+<hr />
+
+						</div>
+
+					</div>
+
+			</div>
