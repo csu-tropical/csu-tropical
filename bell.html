@@ -66,16 +66,21 @@ title: Publications
 								</header>
 								<div class="2u 12u$(xsmall)">
 									<div class="select-wrapper">
-										<select name="category" id="category" onchange="window.open(category.value,'newtab')">
+										<select name="category" id="category" onchange="gotoPage(this)">
 											<option value="#">- Author -</option>
 											<option value="bell.html">Michael M. Bell</option>
 											<option value="1">Phil</option>
 											<option value="1">Dandan Tao</option>
 											<option value="1">Jennifer C. DeHart</option>
-											<option value="cha.html">Ting-Yu Cha</option>
 										</select>
 									</div>
 								</div>
+
+								<script type="text/javascript">
+									function gotoPage(select){
+    								window.location = select.value;
+											}
+								</script>
 
 								<div class="content">
 									<h3>2020</h3>
