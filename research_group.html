@@ -122,7 +122,19 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: .8em;
+  text-indent: 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
 </style>
+
 
 
 		<!-- One -->
@@ -138,12 +150,10 @@ img {vertical-align: middle;}
 		<!-- Main -->
 			<div id="main" class="container">
 
-				<!-- Elements -->
-					<div class="row 200%">
-						<div class="6u 12u$(medium)">
-
+				<!--1) Element: Group photo -->
+						<div class="box">
 							<header class="align-center">
-								<p class="special">Group Photos</b></p>
+								<p class="speciial"><b>Group Photos</b></p>
 							</header>
 							<br>	
 
@@ -211,63 +221,192 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+</div>
 <br>
- <hr />
-
+				<!--2) Element: Thumbnails -->
 					<header class="align-center">
                                                 <p><b>Please click the photo to find more info about each member</b></p>
                                         </header>
                                         <div class="box alt">
 						<div class="row 50% uniform">
-							<div class="2u"><span class="image fit"><a href="https://www.atmos.colostate.edu/people/faculty/bell/"><img src="Group/mmbellportrait.jpg" alt="" /></a>
-								<div class="text2">Michael</div></span></div>
-							<div class="2u"><span class="image fit"><a href="http://tropical.colostate.edu/personnel"><img src="Group/Klotzbach.jpg" alt="" /></a><div class="text2">Phil</div></span></div>
-                                                        <div class="2u"><span class="image fit"><a href="Group/Tao/index.html"><img src="Group/tao_crop.png" alt="" /></a><div class="text2">Dandan</div></span></div>
-                                                        <div class="2u"><span class="image fit"><a href="Group/Dehart/index.html"><img src="Group/Dehart_crop.jpg" alt="" /><div class="text2">Jen</div></a></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <!-- Break -->
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <!-- Break -->
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                                                                <div class="2u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                               </div>
+                                                        <!-- Break every 4 people (12 people in a row)-->
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#michael"><img src="Group/michael.jpg" alt="" /></a>
+								<figcaption>Michael Bell, Professor</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#phil"><img src="Group/phil.jpg" alt="" /></a>
+								<figcaption>Phil Klotzbach, Research Scientist III</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#jen"><img src="Group/jen.jpg" alt="" /></a>
+								<figcaption>Jen DeHart, Research Scientist I</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#dandan"><img src="Group/dandan.jpg" alt="" /></a>
+								<figcaption>Dandan Tao, Research Scientist I</figcaption></figure></span></div>
+							<!-- Break -->
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#brianna"><img src="Group/brianna.jpg" alt="" /></a>
+								<figcaption>Brianna Lund, Research Associate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#kate"><img src="Group/kate.jpg" alt="" /></a>
+								<figcaption>Kate Young, Research Associate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#ellie"><img src="Group/ellie.jpg" alt="" /></a>
+								<figcaption>Eleanor Casas, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#ali"><img src="Group/ali.jpg" alt="" /></a>
+								<figcaption>Alexandra Cole, M.S. Student</figcaption></figure></span></div>
+							<!-- Break -->
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#tingyu"><img src="Group/tingyu.jpg" alt="" /></a>
+								<figcaption>Ting-Yu Cha, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#alex"><img src="Group/alex.jpg" alt="" /></a>
+								<figcaption>Alex DesRosiers, M.S. Student</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#jhordy"><img src="Group/jhordy.jpg" alt="" /></a>
+								<figcaption>Jhordanne Jones, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u$"><span class="image fit">
+								<figure>
+								<a href="#jon"><img src="Group/jon.jpg" alt="" /></a>
+								<figcaption>Jonathan Martinez, Ph.D. Candidate</figcaption></figure></span></div>
+                                                        <!-- 2nd-row: Break -->
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#chelsea"><img src="Group/chelsea.jpg" alt="" /></a>
+								<figcaption>C. Chelsea Nam, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#chandra"><img src="Group/chandra.jpg" alt="" /></a>
+								<figcaption>Chandra Pasillas, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#rung"><img src="Group/rung.jpg" alt="" /></a>
+								<figcaption>Rung Panasawat-wong, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#naufal"><img src="Group/naufal.jpg" alt="" /></a>
+								<figcaption>Naufal Razin, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<a href="#ben"><img src="Group/ben.jpg" alt="" /></a>
+								<figcaption>Ben Trabing, Ph.D. Candidate</figcaption></figure></span></div>
+							<div class="1u$"><span class="image fit">
+								<figure>
+								<a href="#alumni"><img src="Group/alumni_cat.jpg" alt="" /></a>
+								</figure></span></div>
+						 </div>
 
                                         </div>
-						</div>
-
-
-
-						<div class="6u$ 12u$(medium)">
-							<header class="align-center">
-								<p class="special">Brief intro of each member</b></p>
-							</header>
-							<br>	
-							<h4 id="elements"><u>Principal Investigater</u></h4>
-								<h3>Michael Bell</h3>
-								<p><span class="image left"><img src="Group/mmbellportrait.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Michael is an associate professor and the principal investigator of Bell's Research Group. He obtained his Ph.D. from the Naval Postgraduate School and joined the CSU Faculty in 2016. <a href="https://www.atmos.colostate.edu/people/faculty/bell/"><u>link to personal webpage</u></a> </p>									
+	
 <br><br>
+				<!--3) Element: Intro paragraph  -->
+				
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<p><b>Brief intro of each member</b></p>
+							</header>
+	<br>
+							<h4 id="elements">PRINCIPAL INVESTIGATOR</h4>
+								<h2 id="michael">Michael Bell</h2> 
+								<p><span class="image left"><img src="Group/michael.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Michael is an associate professor and the principal investigator of Bell's Research Group. He obtained his Ph.D. from the Naval Postgraduate School and joined the CSU Faculty in 2016. </p>
+							<ul class="icons"><li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li></ul>
+							<ul class="actions"><li><a href="https://www.atmos.colostate.edu/people/faculty/bell/" class="button special small">Webpage</a></li></ul> 
+								
+							 									
+<br><br><br><br>
 							<hr />
-							<h4 id="elements"><u>Research Scientists</u></h4>
-								<h3>Phil Klotzbach</h3>	
-								<p><span class="image left"><img src="Group/Klotzbach.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px"  /></span>Phil Klotzbach is a Research Scientist III. Phil's primary research interests are in intra-seasonal and seasonal forecasts of Atlantic hurricane activity.  He has been an author on the Atlantic basin seasonal forecasts at Colorado State University since 2001 and took over as lead author in 2006.  He also studies the impacts of climate change on hurricane activity.  Phil engages actively with the general public via his Twitter feed <a href="https://twitter.com/philklotzbach" class="icon fa-twitter"><span class="label">Twitter</span></a>  as well as conducting hundreds of media interviews throughout the course of the year. In his spare time, Phil enjoys running, cycling and hiking.  He has climbed all 54 14,000-foot peaks in Colorado and has thru-hiked the 2100+ mile Appalachian Trail. <a href="http://tropical.colostate.edu/personnel/"><u>link to personal webpage</u></a></p>
-
-								<h3>Dandan Tao</h3>
-								<p><span class="image left"><img src="Group/tao_crop.png" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Dandan obtained her Ph.D. from the Pennsylvania State University and is a Research Scientist I, working with Prof. Michael Bell and Prof. Peter Jan van Leeuwen. Her research interests include all about tropical cyclones. <a href="https://taodandan.github.io/"><u>link to personal webpage</u></a></p>
+<br>
+							<h4 id="elements">RESEARCH SCIENTISTS</h4>
+								<h2 id="phil">Phil Klotzbach</h2>
+								<p><span class="image left"><img src="Group/phil.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px"  /></span>Phil is a Research Scientist III. Phil's primary research interests are in intra-seasonal and seasonal forecasts of Atlantic hurricane activity.  He has been an author on the Atlantic basin seasonal forecasts at Colorado State University since 2001 and took over as lead author in 2006.  He also studies the impacts of climate change on hurricane activity.  Phil engages actively with the general public via his Twitter feed <a href="https://twitter.com/philklotzbach" class="icon fa-twitter"><span class="label">Twitter</span></a>  as well as conducting hundreds of media interviews throughout the course of the year. In his spare time, Phil enjoys running, cycling and hiking.  He has climbed all 54 14,000-foot peaks in Colorado and has thru-hiked the 2100+ mile Appalachian Trail. <a href="http://tropical.colostate.edu/personnel/"><u>link to personal webpage</u></a></p>
+<br>
+								<h2 id="jen">Jen DeHart</h2>
+								<p><span class="image left"><img src="Group/jen.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Jen obtained her Ph.D. from the University of Washington and is a Research Scientist I. Jen's current research uses polarimetric radar data to understand the processes controlling tropical cyclone precipitation intensity and duration. Her other research interests include the effects of vertical wind shear and passage over complex terrain on TC precipitation processes. <a href="./Group/Dehart/index.html"><u>link to personal webpage</u></a></p>
 <br><br>					
+								<h2 id="dandan">Dandan Tao</h2>
+								<p><span class="image left"><img src="Group/dandan.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>Dandan obtained her Ph.D. from the Pennsylvania State University and is a Research Scientist I, working with Prof. Michael Bell and Prof. Peter Jan van Leeuwen. Her research interests include all about tropical cyclones. <a href="https://taodandan.github.io/"><u>link to personal webpage</u></a></p>
+<br><br><br><br><br>					
+<hr />
+<br>
+							<h4 id="elements">GRADUATE STUDENTS</h4>
+								<h2 id="ellie">Eleanor Casas</h2>
+								<span class="image left"><img src="Group/ellie.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
+								<p>Eleanor Casas is a Ph.D. candidate, and she is researching the tropical cyclone boundary layer (TCBL) and its relationship to TC intensification processes. Prior to attending Colorado State University, Eleanor received her Bachelor of Science in Meteorology from Valparaiso University where she researched lake-effect snow, and she began her graduate studies with Dr. Michael Bell at the University of Hawaii at Manoa. Her Master's of Atmospheric Science from Colorado State University identified a simplified logistic growth equation framework that relates the surface drag coefficient to TCBL structure and short-term TC intensification potential, and Eleanor is interested in expanding the applicability of this framework. Additionally, Eleanor is also interested in investigating several processes that influence TC rapid intensification, and she prefers to use a combination of observations, numerical modeling, and theory to address her research questions. <a href="./Group/Delpa/index.html"><u>link to personal webpage</u></a></p>
+<br>
+
+
+								<h2 id="ali">Alexandra Cole</h2>
+								<span class="image left"><img src="Group/ali.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
+<p> Ali is a master's student researching mechanisms of heavy rainfall. She graduated from Arizona State University with a B.S. in both computational math and meteorology-climatology. <a href="./Group/Cole/index.html"><u>link to personal webpage</u></a></p>
+<br><br><br><br>
+
+<hr />
+<br>
+
+
+							<h4 id="elements">RESEARCH ASSOCIATE</h4>
+								<h2 id="brianna">Brianna Lund</h2>
+								<span class="image left"><img src="Group/brianna.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
+								<p> Brianna is a research associate. She is working for the Bell Research Group and the van den Heever Research Group. </p>
+<br><br><br><br><br>
+								<h2 id="kate">Kate Young</h2>
+								<span class="image left"><img src="Group/kate.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
+								<p> Kate is a research associate. She joined our group in 2020. </p>
+<br><br><br><br><br><br>
+
 <hr />
 
-						</div>
+<br>
+							<header class="align-center">
+								<p id="alumni"><b>Group Alumni</b></p>
+							</header>
+<br>
+<h2> Ya-Chien Feng </h2>
+<p>Postdoc from 2017 to 2019</p>
+<p>Current Affilation: ASP Postdoc at National Center for Atmospheric Research (NCAR)</p>
 
+<br>
+<h2> Bonnie Brown </h2>
+<p>Postdoc from 2014 to 2016</p>
+<p>Program Coordinator at NOAA/OAR/Off. of Weather and Air Quality </p>
+
+<br>
+<h2> Annette Foerster</h2> 
+<p>Ph.D. in 2017</p>
+<p>Thesis: Radar-derived Thermodynamic Structure of a Major Hurricane in Vertical Wind Shear </p>
+<p>Current Affiliation:  ITGAIN Consulting Gesellschaft für IT-Beratung mbH </p>
+
+<br>
+<h2> Andrew Frambach </h2>
+<p>M.S. in 2015 </p>
+<p>Thesis: Dual-polarization Radar Characteristics of Convection in Hawaii during HERO </p>
+<p>Current Affiliation: Center for Severe Weather Research, Boulder, CO</p>
+
+<br>
+<h2> Shannon McElhinney</h2>
+<p>M.S. in 2014 </p>
+<p>Thesis: Observations of Supergradient Winds in the Tropical Cyclone Boundary Layer </p>
+<p>Current Affiliation: Geophysical Fluid Dynamics Laboratory, Princeton, NJ </p>
+
+	<br><br><br><br>
+
+					
+
+
+
+						</div>
 					</div>
 
 			</div>
