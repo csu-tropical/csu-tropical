@@ -1,4 +1,9 @@
-
+---
+layout: post
+title: Cha_et_al_GRL_2020
+category: TC Dynamics
+tags: [Asymmetric Dynamics, Weather Radar, TC Case Study]
+---
 
 ### Cha, T-Y., M. M. Bell, W.-C. Lee, A. J. DesRosiers, 2020: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane Michael (2018), In prep.  
 

@@ -1,0 +1,24 @@
+---
+layout: category
+title: Categories
+---
+
+
+<section id="two" class="wrapper style2">
+
+  {% for post in site.categories %}
+   <h3>{{post.title | capitalize}} </h3>
+
+
+
+      <li>
+<a href="{{ post.url }}">{{ post.title }}</a>
+
+        </li>
+  {% endfor %}
+
+<br>
+<br>
+
+
+</section>
