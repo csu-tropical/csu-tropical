@@ -159,10 +159,10 @@ figure img {
 							<header class="align-center">
 								<p class="speciial"><b>Group Photos</b></p>
 							</header>
-							<br>	
+							<br>
 
 
-						
+
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -318,184 +318,111 @@ function showSlides(n) {
 						 </div>
 
                                         </div>
-	
+
 <br><br>
 				<!--3) Element: Intro paragraph  -->
-				
-					<div class="box">
-						<div class="content">
-							<header class="align-center">
-								<p><b>Brief intro of each member</b></p>
-							</header>
-	<br>
-							<h4 id="elements">PRINCIPAL INVESTIGATOR</h4>
-								<div id="container">
-								<h2 id="michael">Michael Bell &nbsp;&nbsp;</h2> 							
-								<ul class="actions"><a href="mailto:mmbell@rams.colostate.edu" class="button alt small"><i class="fas fa-envelope-square"></i> Email</a></ul> 
-								<ul class="actions"><a href="https://www.atmos.colostate.edu/people/faculty/bell/" class="button alt small"><i class="fas fa-link"></i> Webpage</a></ul> 
-								<ul class="actions"><a href="https://github.com/mmbell" class="button alt small"><i class="fab fa-github"></i> GitHub</a></ul> 
-								<ul class="actions"><a href="https://twitter.com/michaelmbell?lang=en" class="button alt small"><i class="fab fa-twitter"></i> twitter</a></ul> 
-								</div>
-								<span class="image left"><img src="Group/michael.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown michael.md %}
-								
-							 									
-<br><br>
-							<hr />
-<br>
-							<h4 id="elements">RESEARCH SCIENTISTS</h4>
-								<div id="container">
-								<h2 id="phil">Phil Klotzbach</h2>
-								</div>	
-								<span class="image left"><img src="Group/phil.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px"  /></span>
-								{% markdown phil.md %}
-<br>
-								<div id="container">
-								<h2 id="jen">Jen DeHart</h2>
-								</div>	
-								<span class="image left"><img src="Group/jen.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown jen.md %}
-<br>								
-								<div id="container">
-								<h2 id="dandan">Dandan Tao</h2>
-								</div>	
-								<span class="image left"><img src="Group/dandan.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown dandan.md %}
-<br><br>					
-<hr />
-<br>
-							<h4 id="elements">GRADUATE STUDENTS</h4>
-								<div id="container">
-								<h2 id="ellie">Eleanor Casas</h2>
-								</div>	
-								<span class="image left"><img src="Group/ellie.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown ellie.md %}
-<br>
 
+        <div class="box">
+          <div class="content">
+            <header class="align-center">
+              <p><b>Brief intro of each member</b></p>
+            </header>
+      <br>
+            <h4 id="elements">PRINCIPAL INVESTIGATOR</h4>
+                {% for org_hash in site.data.member.PI %}
+                {% assign org = org_hash[1] %}
+                <div id="container">
+                <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
+                <ul class="actions"><a href={{ org.email }} class="button alt small"><i class="fas fa-envelope-square"></i> Email</a></ul>
+                <ul class="actions"><a href={{ org.github }} class="button alt small"><i class="fab fa-github"></i> GitHub</a></ul>
+                <ul class="actions"><a href={{ org.webpage }} class="button alt small"><i class="fas fa-link"></i> Webpage</a></ul>
+                <ul class="actions"><a href={{ org.twitter }} class="button alt small"><i class="fab fa-twitter"></i> Twitter</a></ul>
+                </div>
+                <span class="image left"><img src= {{ org.photo }} alt="headshot" style="float:left;width:150px;height:150px;margin:10px" /></span>
+                <p> {{ org.bio }}</p>
+                <br>
+                {% endfor %}
+            <hr />
+            <br>
 
-								<div id="container">
-								<h2 id="ali">Alexandra Cole</h2>
-								</div>	
-								<span class="image left"><img src="Group/ali.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown ali.md %}
-<br>
+            <h4 id="elements">RESEARCH SCIENTIST</h4>
+                {% for org_hash in site.data.member.RS%}
+                {% assign org = org_hash[1] %}
+                <div id="container">
+                <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
+                <ul class="actions"><a href={{ org.email }} class="button alt small"><i class="fas fa-envelope-square"></i> Email</a></ul>
+                {% if  org.github  != false %}<ul class="actions"><a href={{ org.github }} class="button alt small"><i class="fab fa-github"></i> GitHub</a></ul>{% endif %}
+                {% if  org.webpage  != false %}<ul class="actions"><a href={{ org.webpage }} class="button alt small"><i class="fas fa-link"></i> Webpage </a></ul>{% endif %}
+                {% if  org.twitter  != false %}<ul class="actions"><a href={{ org.twitter }} class="button alt small"><i class="fab fa-twitter"></i> Twitter </a></ul>{% endif %}
+                </div>
+                <span class="image left"><img src= {{ org.photo }} alt="headshot" style="float:left;width:150px;height:150px;margin:10px" /></span>
+                <p> {{ org.bio }}</p>
+                <br>
+                {% endfor %}
+            <br>
+            <hr />
 
-								<div id="container">
-								<h2 id="tingyu">Ting-Yu Cha</h2>
-								</div>	
-								<span class="image left"><img src="Group/tingyu.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown tingyu.md %}
-<br>
-								<div id="container">
-								<h2 id="alex">Alex DesRosiers</h2>
-								</div>	
-								<span class="image left"><img src="Group/alex.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown alex.md %}
-<br>
-								<div id="container">
-								<h2 id="jhordy">Jhordanne Jones</h2>
-								</div>	
-								<span class="image left"><img src="Group/jhordy.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown jhordanne.md %}
-<br>
-								<div id="container">
-								<h2 id="jon">Jonathan Martinez</h2>
-								</div>	
-								<span class="image left"><img src="Group/jon.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown jon.md %}
-<br>
-								<div id="container">
-								<h2 id="chelsea">Chaehyeon Chelsea Nam</h2>
-								</div>	
-								<span class="image left"><img src="Group/chelsea.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown chelsea.md %}
-<br>
-								<div id="container">
-								<h2 id="chandra">Chandra Pasillas</h2>
-								</div>	
-								<span class="image left"><img src="Group/chandra.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown chandra.md %}
-<br>
-								<div id="container">
-								<h2 id="rung">Rung Panasawatwong</h2>
-								</div>	
-								<span class="image left"><img src="Group/rung.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown rung.md %}
-<br>
-								<div id="container">
-								<h2 id="naufal">Naufal Razin</h2>
-								</div>	
-								<span class="image left"><img src="Group/naufal.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown naufal.md %}
-<br>
-								<div id="container">
-								<h2 id="ben">Ben Trabing</h2>
-								</div>	
-								<span class="image left"><img src="Group/ben.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown ben.md %}
-<br>
-<br>								
+            <br>
 
-<br>
-<hr />
-<br>
+            <h4 id="elements">GRADUATE STUDENT</h4>
+                {% for org_hash in site.data.member.students%}
+                {% assign org = org_hash[1] %}
+                <div id="container">
+                <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
+                <ul class="actions"><a href={{ org.email }} class="button alt small"><i class="fas fa-envelope-square"></i> Email</a></ul>
+                {% if  org.github  != false %}<ul class="actions"><a href={{ org.github }} class="button alt small"><i class="fab fa-github"></i> GitHub</a></ul>{% endif %}
+                {% if  org.webpage  != false %}<ul class="actions"><a href={{ org.webpage }} class="button alt small"><i class="fas fa-link"></i> Webpage </a></ul>{% endif %}
+                {% if  org.twitter  != false %}<ul class="actions"><a href={{ org.twitter }} class="button alt small"><i class="fab fa-twitter"></i> Twitter </a></ul>{% endif %}
+                </div>
+                <span class="image left"><img src= {{ org.photo }} alt="headshot" style="float:left;width:150px;height:150px;margin:10px" /></span>
+                <p> {{ org.bio }}</p>
+                <br>
+                {% endfor %}
+            <br>
+            <hr />
 
+            <br>
 
-							<h4 id="elements">RESEARCH ASSOCIATE</h4>
-								<div id="container">
-								<h2 id="brianna">Brianna Lund</h2>
-								</div>	
-								<span class="image left"><img src="Group/brianna.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown brianna.md %}
-<br>
-								<div id="container">
-								<h2 id="kate">Kate Young</h2>
-								</div>	
-								<span class="image left"><img src="Group/kate.jpg" alt="" style="float:left;width:150px;height:150px;margin:10px" /></span>
-								{% markdown kate.md %}
-<br>
+            <h4 id="elements">RESEARCH ASSOCIATE</h4>
+                {% for org_hash in site.data.member.RA%}
+                {% assign org = org_hash[1] %}
+                <div id="container">
+                <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
+                <ul class="actions"><a href={{ org.email }} class="button alt small"><i class="fas fa-envelope-square"></i> Email</a></ul>
+                {% if  org.github  != false %}<ul class="actions"><a href={{ org.github }} class="button alt small"><i class="fab fa-github"></i> GitHub</a></ul>{% endif %}
+                {% if  org.webpage  != false %}<ul class="actions"><a href={{ org.webpage }} class="button alt small"><i class="fas fa-link"></i> Webpage </a></ul>{% endif %}
+                {% if  org.twitter  != false %}<ul class="actions"><a href={{ org.twitter }} class="button alt small"><i class="fab fa-twitter"></i> Twitter </a></ul>{% endif %}
+                </div>
+                <span class="image left"><img src= {{ org.photo }} alt="headshot" style="float:left;width:150px;height:150px;margin:10px" /></span>
+                <p> {{ org.bio }}</p>
+                <br>
+                {% endfor %}
+            <br>
+            <hr />
 
-<hr />
+            <br>
 
-<br>
-							<header class="align-center">
-								<p id="alumni"><b>Group Alumni</b></p>
-							</header>
-<br>
-<h2> Ya-Chien Feng </h2>
-<p>Postdoc from 2017 to 2019</p>
-<p>Current Affilation: ASP Postdoc at National Center for Atmospheric Research (NCAR)</p>
+          <header class="align-center">
+            <p id="alumni"><b>Group Alumni</b></p>
+          </header>
+            <br>
+            {% for org_hash in site.data.member.alumni%}
+            {% assign org = org_hash[1] %}
 
-<br>
-<h2> Bonnie Brown </h2>
-<p>Postdoc from 2014 to 2016</p>
-<p>Program Coordinator at NOAA/OAR/Off. of Weather and Air Quality </p>
+            <h2> {{ org.name }} </h2>
+            <p>{{org.time}}</p>
+            {% if  org.thesis  != false %}<p>Thesis: {{org.thesis}} </p>{% endif %}
+            <p>Current Affilation: {{org.job}}</p>
 
-<br>
-<h2> Annette Foerster</h2> 
-<p>Ph.D. in 2017</p>
-<p>Thesis: Radar-derived Thermodynamic Structure of a Major Hurricane in Vertical Wind Shear </p>
-<p>Current Affiliation:  ITGAIN Consulting Gesellschaft für IT-Beratung mbH </p>
+            <br>
+            {% endfor %}
 
-<br>
-<h2> Andrew Frambach </h2>
-<p>M.S. in 2015 </p>
-<p>Thesis: Dual-polarization Radar Characteristics of Convection in Hawaii during HERO </p>
-<p>Current Affiliation: Center for Severe Weather Research, Boulder, CO</p>
-
-<br>
-<h2> Shannon McElhinney</h2>
-<p>M.S. in 2014 </p>
-<p>Thesis: Observations of Supergradient Winds in the Tropical Cyclone Boundary Layer </p>
-<p>Current Affiliation: Geophysical Fluid Dynamics Laboratory, Princeton, NJ </p>
-
-	<br><br><br><br>
-
-					
+              <br><br><br><br>
 
 
 
-						</div>
-					</div>
 
-			</div>
+
+      </div>
+   </div>
+</div>
