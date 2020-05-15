@@ -1694,6 +1694,7 @@
 
 	h2 {
 		font-size: 1.75rem;
+		display: inline-block;
 	}
 
 	h3 {
@@ -2387,6 +2388,8 @@
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		display: inline-block;
+
 	}
 
 		ul li {
