@@ -2,6 +2,9 @@
 layout: default
 title: CSU Tropical Weather and Climate Research
 ---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
 
 		<!-- Banner -->
 			<section class="banner full">
@@ -9,7 +12,7 @@ title: CSU Tropical Weather and Climate Research
 					<img src="images/slide01.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Colorado State University Tropical Weather and Climate Research</p>
+							<p>Colorado State University</p>
 							<h2>Tropical Cyclones</h2>
 						</header>
 					</div>
@@ -18,7 +21,7 @@ title: CSU Tropical Weather and Climate Research
 					<img src="images/slide02.jpg" alt="" />
 					<div class="inner">
 						<header>
-							<p>Colorado State University Tropical Weather and Climate Research</p>
+							<p>Colorado State University</p>
 							<h2>High Impact Weather</h2>
 						</header>
 					</div>
@@ -27,7 +30,7 @@ title: CSU Tropical Weather and Climate Research
 					<img src="images/slide03.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Colorado State University Tropical Weather and Climate Research</p>
+							<p>Colorado State University</p>
 							<h2>Extreme Rainfall</h2>
 						</header>
 					</div>
@@ -36,7 +39,7 @@ title: CSU Tropical Weather and Climate Research
 					<img src="images/slide04.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Colorado State University Tropical Weather and Climate Research</p>
+							<p>Colorado State University</p>
 							<h2>Weather Radar</h2>
 						</header>
 					</div>
@@ -45,7 +48,7 @@ title: CSU Tropical Weather and Climate Research
 					<img src="images/slide05.jpg"  alt="" />
 					<div class="inner">
 						<header>
-							<p>Colorado State University Tropical Weather and Climate Research</p>
+							<p>Colorado State University</p>
 							<h2>Field Experiments</h2>
 						</header>
 					</div>
@@ -65,7 +68,7 @@ title: CSU Tropical Weather and Climate Research
 								<div class="content">
 									<header class="align-center">
 										<p>Tropical Cyclone Seasonal and Weather Forecasts</p>
-										<h2>Forecasting</h2>
+										<h2><b>Forecasting</b></h2>
 									</header>
 									<p> Colorado State University has issued forecasts of Atlantic basin hurricane activity for over 36 years. Following the pioneering work of Prof. William Gray, our group continues the long CSU tradition in forecasting with continually improving techniques for predicting tropical cyclone activity powered by new research. </p>
 									<footer class="align-center">
@@ -83,7 +86,7 @@ title: CSU Tropical Weather and Climate Research
 								<div class="content">
 									<header class="align-center">
 										<p>Tropical Weather and Climate Research</p>
-										<h2>Research</h2>
+										<h2><b>Research</b></h2>
 									</header>
 									<p> We conduct cutting-edge research to advance knowledge and prediction of the weather and climate system. Our research group is focused on improved understanding and prediction of tropical weather, including hurricanes and typhoons, extreme rainfall, and other high impact weather.</p>
 									<footer class="align-center">
@@ -101,15 +104,44 @@ title: CSU Tropical Weather and Climate Research
 			<section id="two" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<h2>Latest Posts</h2>
+						<p>What's happening in the group</p>
+						<h2><b>Latest News</b></h2>
 					</header>
-						<ul class="alt">
-							<li><h3>Jon Martinez awarded prestigious NCAR Advanced Study Program Postdoctoral Fellowship</h3></li>
-							<li><h3>Ben Trabing and Jon Martinez receive Student Poster Awards at AMS Annual Meeting</h3></li>
-							<li><h3>New paper published on the active 2018 hurricane season</h3></li>
+					<br><br>
+					<div>
+					<span class="image right"><img src= {{ site.posts.first.image }} alt="image" style="float:left;width:350px;height:250px;margin:15px" /></span>
+					<!-- <a href="{{ site.posts.first.url }}"><h3>{{ site.posts.first.title }}</h3></a> -->
+					<p class="align-left">({{ site.posts.first.date | date: "%Y-%m-%d" }})</p>
+					<h3>{{ site.posts.first.title }}</h3>
+
+					{{ site.posts.first.excerpt }}
+					<footer class="align-center">
+					<a href="{{ site.posts.first.url }}"> ... READ MORE</a>
+					</footer>
+					<div/>
+					<hr/>
+					<br>
+						<ul>
+							<div id="container">
+								<p>({{ site.posts[1].date | date: "%Y-%m-%d" }})
+								<a href="{{ site.posts[1].url }}"><h3>{{ site.posts[1].title  }}</h3></a></p>
+							</div>
+							<div id="container">
+								<p>({{ site.posts[2].date | date: "%Y-%m-%d" }})
+								<a href="{{ site.posts[2].url }}"><h3>{{ site.posts[2].title  }}</h3></a></p>
+							</div>
+							<div id="container">
+								<p>({{ site.posts[3].date | date: "%Y-%m-%d" }})
+								<a href="{{ site.posts[3].url }}"><h3>{{ site.posts[3].title  }}</h3></a></p>
+							</div>
+							<!-- <a href="{{ site.posts[2].url }}"><h3>{{ site.posts[2].title  }} ({{ site.posts[2].date | date: "%Y-%m-%d" }})</h3></a>
+							<a href="{{ site.posts[3].url }}"><h3>{{ site.posts[3].title  }} ({{ site.posts[3].date | date: "%Y-%m-%d" }})</h3></a> -->
+
 						</ul>
 						<br><br>
-						<h2><a href="news.html"><em><u>View more posts</u></em></a></h2>
+						<footer class="align-center">
+						<ul class="actions"><a href="news.html" class="button alt"><i class="far fa-newspaper"></i> more news</a></ul>
+						</footer>
 				</div>
 			</section>
 
