@@ -5,7 +5,14 @@ title: CSU Tropical Weather and Climate Research
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
 </head>
-
+<!-- to shrink the line space for the news list -->
+<style>
+p.small {
+  line-height: 0.;
+	margin:0;
+  padding:0;
+}
+</style>
 		<!-- Banner -->
 			<section class="banner full">
 				<article>
@@ -22,7 +29,7 @@ title: CSU Tropical Weather and Climate Research
 					<div class="inner">
 						<header>
 							<p>Colorado State University</p>
-							<h2>High Impact Weather</h2>
+							<a href="/research_group.html"><h2>Research Team</h2></a>
 						</header>
 					</div>
 				</article>
@@ -62,6 +69,7 @@ title: CSU Tropical Weather and Climate Research
 
 						<div>
 							<div class="box">
+								<br>
 								<div class="image fit">
 									<img src="images/April-forecast-predictors.png" alt="" />
 								</div>
@@ -80,6 +88,7 @@ title: CSU Tropical Weather and Climate Research
 
 						<div>
 							<div class="box">
+								<br>
 								<div class="image fit">
 									<img src="images/Rita.png" alt="" />
 								</div>
@@ -110,37 +119,28 @@ title: CSU Tropical Weather and Climate Research
 					<br><br>
 					<div>
 					<span class="image right"><img src= {{ site.posts.first.image }} alt="image" style="float:left;width:350px;height:250px;margin:15px" /></span>
-					<!-- <a href="{{ site.posts.first.url }}"><h3>{{ site.posts.first.title }}</h3></a> -->
-					<p class="align-left">({{ site.posts.first.date | date: "%Y-%m-%d" }})</p>
-					<h3>{{ site.posts.first.title }}</h3>
+
+					<p class="small">({{ site.posts.first.date | date: "%Y-%m-%d" }})</p>
+					<!-- <h3>{{ site.posts.first.title }}</h3> -->
+					<a href="{{ site.posts.first.url }}"><h3>{{ site.posts.first.title }}</h3></a>
 
 					{{ site.posts.first.excerpt }}
-					<footer class="align-center">
+					<!-- <footer class="align-center">
 					<a href="{{ site.posts.first.url }}"> ... READ MORE</a>
-					</footer>
+					</footer> -->
 					<div/>
 					<hr/>
-					<br>
-						<ul>
-							<div id="container">
-								<p>({{ site.posts[1].date | date: "%Y-%m-%d" }})
-								<a href="{{ site.posts[1].url }}"><h3>{{ site.posts[1].title  }}</h3></a></p>
-							</div>
-							<div id="container">
-								<p>({{ site.posts[2].date | date: "%Y-%m-%d" }})
-								<a href="{{ site.posts[2].url }}"><h3>{{ site.posts[2].title  }}</h3></a></p>
-							</div>
-							<div id="container">
-								<p>({{ site.posts[3].date | date: "%Y-%m-%d" }})
-								<a href="{{ site.posts[3].url }}"><h3>{{ site.posts[3].title  }}</h3></a></p>
-							</div>
-							<!-- <a href="{{ site.posts[2].url }}"><h3>{{ site.posts[2].title  }} ({{ site.posts[2].date | date: "%Y-%m-%d" }})</h3></a>
-							<a href="{{ site.posts[3].url }}"><h3>{{ site.posts[3].title  }} ({{ site.posts[3].date | date: "%Y-%m-%d" }})</h3></a> -->
 
+						<ul>
+								<p class="small">({{ site.posts[1].date | date: "%Y-%m-%d" }})</p>
+								<a href="{{ site.posts[1].url }}"><h3>{{ site.posts[1].title  }}</h3></a>
+
+								<p class="small">({{ site.posts[2].date | date: "%Y-%m-%d" }})</p>
+								<a href="{{ site.posts[2].url }}"><h3>{{ site.posts[2].title  }}</h3></a>
 						</ul>
-						<br><br>
+						<br>
 						<footer class="align-center">
-						<ul class="actions"><a href="news.html" class="button alt"><i class="far fa-newspaper"></i> more news</a></ul>
+						<ul class="actions"><a href="news.html" class="button special"><i class="far fa-newspaper"></i> more news</a></ul>
 						</footer>
 				</div>
 			</section>
@@ -151,29 +151,38 @@ title: CSU Tropical Weather and Climate Research
 				<div class="inner">
 					<header class="align-center">
 						<p class="special">Research sponsored by National Science Foundation, Office of Naval Research, NOAA, NCAR, NASA, G. Unger Vetlsen Foundation, Interstate Restoration, Ironshore, and the Insurance Information Institute</p>
-						<h2>Research Gallery</h2>
+						<h2><b>Research Gallery</b></h2>
 					</header>
 					<div class="gallery">
 						<div>
 							<div class="image fit">
 								<a href="#"><img src="images/pic01.jpg" alt="" /></a>
+								<div class="centered"><h2 style="color:white">TC research tools</h2></div>
 							</div>
 						</div>
 						<div>
 							<div class="image fit">
 								<a href="#"><img src="images/pic02.jpg" alt="" /></a>
+								<div class="centered"><h2 style="color:white">PRECIP</h2></div>
 							</div>
 						</div>
 						<div>
 							<div class="image fit">
 								<a href="#"><img src="images/pic03.jpg" alt="" /></a>
+								<div class="centered"><h2 style="color:white">TCRI</h2></div>
 							</div>
 						</div>
 						<div>
 							<div class="image fit">
 								<a href="#"><img src="images/pic04.jpg" alt="" /></a>
+								<div class="centered"><h2 style="color:white">PISTON</h2></div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<br>
+				<footer class="align-center">
+				<ul class="actions"><a href="research.html" class="button special"><i class="fas fa-search"></i> more research projects </a></ul>
+				</footer>
+				<br>
 			</section>
