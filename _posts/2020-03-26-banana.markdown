@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jill
-image: "/images/newspaper.png"
+image: "/images/news/newspaper.png"
 title: "Jon Martinez awarded prestigious NCAR Advanced Study Program Postdoctoral Fellowship"
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds

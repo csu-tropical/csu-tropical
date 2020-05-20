@@ -49,6 +49,15 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	/* Centered text */
+	.centered {
+	  position: absolute;
+		font: inherit;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {

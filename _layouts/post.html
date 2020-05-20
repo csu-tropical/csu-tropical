@@ -24,7 +24,7 @@ noindex: true
 		                        </section>
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.html"><i class="icon fa-home"></i></a> CSU Tropical Weather & Climate Research </div>
+				<div class="logo"><a href="/index.html"><i class="icon fa-home"></i></a> CSU Tropical Weather & Climate Research </div>
 				<a href="#menu">Menu</a>
 			</header>
 
@@ -33,7 +33,7 @@ noindex: true
 				<ul class="links">
 					<li><a href="/index.html">Home</a></li>
 					<li><a href="/research.html">Research</a></li>
-					<li><a href="/research_group.html">Group members</a></li>
+					<li><a href="/research_group.html">Team members</a></li>
 					<li><a href="/news.html">News</a></li>
 				</ul>
 			</nav>
@@ -48,8 +48,8 @@ noindex: true
 
 					<h3>{{ page.title }}</h3>
 					<br>
-					<p>({{ page.date | date: "%Y-%m-%d"  }}) </p>
-					{% if  page.author  == true %}<p>Written by {{ page.author }}</p>{% endif %}
+					<p>({{ page.date | date: "%Y-%m-%d"  }})
+					{% if  page.author  != false %}-- written by {{ page.author }}</p>{% endif %}
 
 					{{ content }}
 				</div>
@@ -58,20 +58,7 @@ noindex: true
 			</div>
 			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					&copy; Untitled. All rights reserved.
-				</div>
-			</footer>
+
 
 		<!-- Scripts -->
 			<script src="http://127.0.0.1:4000//assets/js/jquery.min.js"></script>

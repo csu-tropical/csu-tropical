@@ -2,7 +2,7 @@
 layout: post
 title:  "New paper published on the active 2018 hurricane season"
 date:   2020-03-11 22:46:55 -0600
-image: "/images/newspaper.png"
+image: "/images/news/newspaper.png"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
