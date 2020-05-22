@@ -1913,6 +1913,18 @@
 		white-space: nowrap;
 	}
 
+		input[type="button"].doubleline,
+		button.doubleline,
+		.button.doubleline {
+			display: block;
+			margin: 0 0 0.8rem 0;
+			width: 100%;
+			white-space: normal;
+			height: 4rem;
+			line-height: 1.2rem;
+			padding: 0.7rem 0.7rem;
+
+		}
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -3997,6 +4009,38 @@
 			transform: translateX(0);
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
+		}
+		#menu.dropbtn {
+		  cursor: pointer;
+		}
+
+		#menu.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		#menu.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		#menu.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		#menu.dropdown-content a:hover {background-color: #f1f1f1}
+
+		#menu.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+
+		#menu.dropdown:hover .dropbtn {
+		  background-color: gray;
 		}
 
 		@media screen and (max-width: 736px) {
