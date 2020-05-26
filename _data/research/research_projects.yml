@@ -33,7 +33,7 @@
 - id: tcri
   title: Heating, Cooling, and Rapid Intensity Change in Tropical Cyclones
   grant: ONR TCRI
-  description: The central objectives of this research are to improve our understanding of diabatic heating and cooling during TC rapid intensification. The proposed research will accomplish these objectives through an analysis of field observations in conjunction with high-resolution numerical modeling. The central hypothesis of this research is that RI is caused by high efficiency diabatic heating and associated potential vorticity generation that requires cooperation across multiple spatial and temporal scales.
+  description: The central objectives of this research are to improve our understanding of diabatic heating and cooling during TC rapid intensification (RI). The proposed research will accomplish these objectives through an analysis of field observations in conjunction with high-resolution numerical modeling. The central hypothesis of this research is that RI is caused by high efficiency diabatic heating and associated potential vorticity generation that requires cooperation across multiple spatial and temporal scales.
   image: ./images/grants/tcri.png
   acknowledgement: National Science Foundation <br> <br> <br>
   url: tcri.html

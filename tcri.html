@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A generic page
+title: TCRI
 ---
 <style>
 .box header h2 {
@@ -36,22 +36,33 @@ title: A generic page
 			<section id="One" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>Heating, Cooling, and Rapid Intensity Change in Tropical Cyclones</p>
-						<h2>TCRI</h2>
+						<p>Colorado State University</p>
+						<h2>ONR Tropical Cyclone Rapid Intensification</h2>
 					</header>
 				</div>
 			</section>
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2">
-				{% for entry in site.data.research.index_card %}
-				<div class="inner">
 
+				<div class="inner">
+          {% for topic in site.data.research.research_projects %}
+            {% if topic.id == "tcri" %}
+            <header class="align-center">
+              <h3> <b>{{topic.title}} </b></h3>
+            </header>
+              <h4 class="align-justify"> {{topic.description}} </h4>
+              <hr>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% for entry in site.data.research.index_card %}
+          <div class="inner">
 					<div class="box">
 						<div class="content">
 							<header class="left">
 								{% if entry.tcri == true %}
-								<h2>{{ entry.title}}</h2>
+								<h2 id= {{entry.id}}>{{ entry.title}}</h2>
 							</header>
 							<div class="container_fig">
 								<div class="image left">
