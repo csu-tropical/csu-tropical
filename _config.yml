@@ -37,6 +37,14 @@ collections:
   category:
     output: true
 
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'list_long'
+    template: 'pubpage'
+    name: 'id'
+    dir: 'pub'
+
 defaults:
   -
     scope:

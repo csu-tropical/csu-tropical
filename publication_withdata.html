@@ -41,36 +41,6 @@ title: Publications
 					<div class="inner">
 						<div class="box">
 							<div class="content">
-								<header class="align-center special">
-									<!--p>Quick Search for related research</p-->
-									<h2>Quick Search by Research Category</h2>
-								</header>
-                <div class="6u 12u$(xsmall)">
-									<div class="1.3u 12u$(xsmall) select-wrapper">
-										<select name="category" id="category" onchange="window.open(category.value,'newtab')">
-											<option value="#">- Keywords -</option>
-											<option value="#">Axisymmetric Dynamics</option>
-											<option value="#"">Asymmetric Dynamics</option>
-											<option value="#">Rapid Intensification</option>
-											<option value="#">Radiation</option>
-											<option value="#">Eyewall Replacement Cycle</option>
-										</select>
-									</div>
-								</div>
-								<!--div class="6u$ 12u$(medium) wrapper style3"-->
-								<div class="content">
-								<!-- Buttons -->
-									<ul class="actions align-center button-space">
-										<li><a href="dynamics.html" class="button alt">TC Dynamics</a></li>
-										<li><a href="#" class="button alt">Case Study</a></li>
-										<li><a href="#" class="button alt">TC heavy precipitation</a></li>
-										<li><a href="#" class="button alt">TC seasonal forecasts</a></li>
-										<li><a href="#" class="button alt">TC microphysics</a></li>
-										<li><a href="#" class="button alt">TC genesis</a></li>
-										<li><a href="#" class="button alt">TC boundary layer</a></li>
-										<li><a href="#" class="button alt">Weather Radar</a></li>
-									</ul>
-								</div>
 
 								<header class="align-center special">
 									<!--p class="special">Full list of publications</p-->
@@ -90,23 +60,43 @@ title: Publications
 								</div>
 
 								<div class="content">
-                  {% for item in site.data.publication.list.docs %}
-                    <h3>{{ item.year }}</h3>
-                    <ul>
-                      {% for entry in item.subfolderitems %}
-                      <li style="margin-botton: 10px;"> {{ entry.authors}}, {{item.year}}: <a href="{{ entry.url }}"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</li>
-                      {% endfor %}
-                    </ul>
+                  <h3>2020</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2020"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="{{ entry.url }}"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</li>
+                  </ul>
+                  {% endif %}
                   {% endfor %}
-                    <ul>
-                   {% for authors in site.data.publication.list %}
-                   <h3>{{authors.Year}}</h3>
-                     <li>
-                       {{ authors.Authors}}
-                     </li>
 
-                   {% endfor %}
-                   </ul>
+                  <h3>2019</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2019"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="{{ entry.url }}"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                  <h3>2018</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2018"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="{{ entry.url }}"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                  <h3>2017</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2017"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="{{ entry.url }}"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+
 								</div>
 							</div>
 						</div>

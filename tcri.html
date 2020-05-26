@@ -1,0 +1,90 @@
+---
+layout: default
+title: A generic page
+---
+<style>
+.box header h2 {
+                        margin-bottom: 2rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+	border-radius: 0px 0px 0px 0px;
+	line-height: 5rem;}
+
+.align-justify {
+    text-align: justify;
+          }
+
+.container_fig{
+  width: 600px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.container_text {
+	width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+        }
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Heating, Cooling, and Rapid Intensity Change in Tropical Cyclones</p>
+						<h2>TCRI</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				{% for entry in site.data.research.index_card %}
+				<div class="inner">
+
+					<div class="box">
+						<div class="content">
+							<header class="left">
+								{% if entry.tcri == true %}
+								<h2>{{ entry.title}}</h2>
+							</header>
+							<div class="container_fig">
+								<div class="image left">
+									<a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+								</div>
+							</div>
+							<div id="container_text">
+								<h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+									{% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+									{% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+									{% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+								</a></h4>
+
+								<p class="align-justify">{{ entry.description}} </p>
+								<ul class="actions fit align-left button-space">
+									{% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+									{% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+									{% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+									{% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+								</ul>
+							</div>
+							<ul class="actions fit">
+								<li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+								<li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+								<li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+								<li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+								<li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+							</ul>
+							{% endif %}
+
+
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</section>
