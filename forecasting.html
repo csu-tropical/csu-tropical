@@ -1,0 +1,228 @@
+---
+layout: default
+title: CSU Hurricane Seasonal Forecasting
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+sup {
+  font-size: x-small;
+}
+figure {
+  margin: auto;
+  text-align: center;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  font-size:normal;
+  text-align: center;
+}
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Seasonal Hurricane Forecasting</h2>
+					</header>
+				</div>
+			</section>
+
+
+		<!-- Two -->
+			<section id="two" class="wrapper style4" style="margin:-40px 0px -40px 0px;">
+				<!-- <div class="align-center">
+				<ul class="actions" style="text-align:center;line-height:1em;margin:-30px 0 -30px 0px;">
+					<li><a href="/Forecast/archive.html" class="button fit" target="_blank" style="text-transform:none;width:700px;"><i class="fas fa-external-link-alt"></i><b> ARCHIVE </b>(TC activity in previous seasons)</a></li>
+					<li><a href="/Forecast/resources.html" class="button fit" target="_blank" style="text-transform:none;width:700px;"><i class="fas fa-external-link-alt"></i><b> RESOURCES </b>(our methods & other educational materials)</a></li>
+				</ul>
+				</div>
+				<hr/> -->
+
+				<div id="main" class="container">
+				<!-- <div class="inner"> -->
+					<div class="box" style="margin:0px -60px 0px -120px;">
+				<!-- Two column for twitter feed -->
+						<div class="row 200%" style="margin:-30px 0px -30px 0px;">
+						<div class="9u 12u$(medium)">
+							<header class="align-center">
+								<p>Atlantic Seasonal Hurricane Activity</p>
+								<h2>Forecast for {{site.data.forecasting.current.year}} Hurricane Activity (as of {{site.data.forecasting.current.fulldate}})</h2>
+							</header>
+
+							<!-- Table -->
+							<div class="content">
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Forecast Parameters</th>
+											<th>CSU Forecast for 2020</th>
+											<th>Average for 1981-2010 </th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Named Storms</td>
+											<td>{{site.data.forecasting.current.NS}}</td>
+											<td>{{site.data.forecasting.average.NS}}</td>
+										</tr>
+										<tr>
+											<td>Named Storm Days</td>
+											<td>{{site.data.forecasting.current.NSD}}</td>
+											<td>{{site.data.forecasting.average.NSD}}</td>
+										</tr>
+										<tr>
+											<td>Hurricanes</td>
+											<td>{{site.data.forecasting.current.H}}</td>
+											<td>{{site.data.forecasting.average.H}}</td>
+										</tr>
+										<tr>
+											<td>Hurricane Days</td>
+											<td>{{site.data.forecasting.current.HD}}</td>
+											<td>{{site.data.forecasting.average.HD}}</td>
+										</tr>
+										<tr>
+											<td>Major Hurricanes</td>
+											<td>{{site.data.forecasting.current.MH}}</td>
+											<td>{{site.data.forecasting.average.MH}}</td>
+										</tr>
+										<tr>
+											<td>Major Hurricane Days</td>
+											<td>{{site.data.forecasting.current.MHD}}</td>
+											<td>{{site.data.forecasting.average.MHD}}</td>
+										</tr>
+										<tr>
+											<td>Accumulated Cyclone Energy Index*</td>
+											<td>{{site.data.forecasting.current.ACE}}</td>
+											<td>{{site.data.forecasting.average.ACE}}</td>
+										</tr>
+										<!-- <tr>
+											<td>Net Tropical Cyclone Activity**</td>
+											<td>{{site.data.forecasting.average.NTCA}}</td>
+											<td>{{site.data.forecasting.current.NTCA}}</td>
+										</tr> -->
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="3" style="font-size: small;">*A measure of a named storm’s potential for wind and storm surge destruction defined
+												as the sum of the square of a named storm’s maximum wind speed (in 10<sup>4</sup> knots<sup>2</sup>) for each 6-hour
+												 period of its existence. </td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<p><b>We anticipate that the 2020 Atlantic basin hurricane season will have above-normal
+							activity. </b></p>
+
+							<p>Current warm neutral ENSO conditions appear likely to transition to cool
+							neutral ENSO or potentially even weak La Niña conditions by this summer/fall. Sea
+							surface temperatures averaged across the tropical Atlantic are somewhat above normal.
+							Our Atlantic Multi-decadal Oscillation index is below its long-term average; however,
+							most of the tropical Atlantic is warmer than normal. We anticipate an above-average
+							probability for major hurricanes making landfall along the continental United States
+							coastline and in the Caribbean. </p>
+
+							<p>As is the case with all hurricane seasons, coastal
+							residents are reminded that it only takes one hurricane making landfall to make it an
+							active season for them. They should prepare the same for every season, regardless of
+							how much activity is predicted.</p>
+
+							<a href="Forecast/2020-04.pdf" target="_blank" >Read the full document </a>
+
+						</div>
+						</div>
+						<div class="3u$ 12u$(medium)">
+							<a class="twitter-timeline" data-width="320" data-height="1000" data-theme="dark"
+							href="https://twitter.com/philklotzbach?ref_src=twsrc%5Etfw">Tweets by philklotzbach</a>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						</div>
+						<hr/>
+						<h3 style="text-align:center;">{{site.data.forecasting.current.year}} CSU Tropical Meteorology Project Forecast Schedule</h3>
+						<div id="schedule" class="align-center">
+							<ul class="actions" style="text-align:center;">
+								<li><a href="Forecast/2019-11" class="button small doubleline special" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Nov 27, 2019) <br>Verification for 2019 </a></li>
+								<li><a href="Forecast/2019-12.pdf" class="button small doubleline special fit" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Dec 12, 2019) <br>Discussion for 2020 </a></li>
+								<li><a href="Forecast/2020-04.pdf" class="button small doubleline special fit" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Apr 2, 2020) <br>Forecast for 2020 </a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Jun 4, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Jul 7, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Aug 6, 2020) <br>Forecast for 2020</a></li>
+							</ul>
+						</div>
+					</div>
+
+					</div>
+			</section>
+
+			<!-- Three: real-time stat -->
+			<section id="three" class="wrapper style3">
+				<div id="main" class="container" style="margin-top:-30px;">
+			  	<div class="inner" style="margin:-70px 0 0px 0px;">
+						<header class="align-center">
+							<p>Real-time statistics calculated from operational best tracks of NHC, CPHC and JTWC</p>
+							<h2>Real-Time Tropical Cyclone Statistics</h2>
+						</header>
+						<br>
+						<br>
+						<figure style="width:1000px;">
+						  <span class="image center"><img src="/images/real-time_atlantic.png" alt="" style="width:1000px"/></span>
+						  <p>North Atlantic Ocean storm statistics were last modified: May 22 2020 09:00 MT. Statistics calculated from operational best tracks of the National Hurricane Center.</p>
+						</figure>
+					</div>
+				</div>
+				</section>
+
+        <!-- Four: archive and resources -->
+          <section id="four" class="wrapper style2">
+            <div class="inner">
+    					<div class="gallery" style="margin:-40px 0px -40px 0px;">
+    						<div>
+    							<div class="image fit">
+    								<a href="/Forecast/archive.html"><img src="images/forecast/archive.png" alt="" style="filter:brightness(30%)"/></a>
+    								<div class="centered-above"><a href="/Forecast/archive.html"><h2 style="color:white;"><i class="fas fa-external-link-alt"></i> ARCHIVE</h2></a></div>
+                    <div class="centered-below"><p> <a href="/Forecast/archive.html" style="color:white">CLICK HERE</a> to learn more about the TC activity in previous seasons</p></div>
+    							</div>
+    						</div>
+    						<div>
+    							<div class="image fit">
+    								<a href="/Forecast/resources.html"><img src="images/forecast/resources2.png" alt="" style="filter:brightness(40%)"/></a>
+                    <div class="centered-above"><a href="/Forecast/resources.html"><h2 style="color:white;"><i class="fas fa-external-link-alt"></i> RESOURCES</h2></a></div>
+    								<div class="centered-below"><p><a href="/Forecast/resources.html" style="color:white">CLICK HERE</a> to learn more about <br> our methods & other educational materials including FAQs</p></div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+          </section>
+
+			<!-- Five: factors -->
+			<section id="four" class="wrapper style2">
+				<div id="main" class="container" style="margin-top:-20px;">
+
+					<div class="inner" style="margin:-70px 0px -40px 0px;">
+					<div class="box">
+						<div class="inner" style="margin-left:50px;margin-right:50px;">
+							<br>
+						<header class="align-center">
+							<p>DESCRIPTION OF CLIMATE FACTORS INFLUENCING ATLANTIC HURRICANE ACTIVITY</p>
+							<h2>Forecast Factors</h2>
+						</header>
+						{% include forecasting_factors.html %}
+						<br><br>
+						<a href="Forecast/resource.html#faq" class="button small alt fit">Learn More (FAQs)</a>
+						<br>
+						</div>
+					</div>
+					</div>
+				</div>
+
+			</section>
