@@ -57,74 +57,10 @@ div.ex3 {
 					<div class="inner">
 						<div class="box">
 							<div class="content">
-                {% for entry_hash in site.data.publication.2020 %}
+                {% for entry_hash in site.data.test3 %}
                 {% assign entry = entry_hash[1] %}
-                <!--ul>
-                  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
-                </ul-->
-                  <h3>{{ entry.authors}}, {{item.year}}: {{ entry.title }}. <i>{{ entry.journal }}</i>, {{ entry.others }}, {{ entry.doi }}</h3>
-                  <p class="align-justify">
-                    <li style="margin-botton: 10px;"> {{ entry.keypoint1}}</li>
-                  {% if entry.keypoint2 != false %}<li style="margin-botton: 10px;"> {{ entry.keypoint2}}</li> {% endif %}
-                  {% if entry.keypoint3 != false %}<li style="margin-botton: 10px;"> {{ entry.keypoint3}}</li> {% endif %}
-                  </p>
+                    <li><a href="#">{{ entry_hash }}</a></li>
 
-                  <hr>
-
-                  <div class="row">
-                    <div class="6u 12u$(medium) ex3">
-                    {% if entry.summary != false %}
-                    <center> <h3>Plain Language Summary</h3> </center>
-                    <center>
-                    <p class="align-justify">
-                      {{ entry.summary }}
-                    </p>
-                    </center>
-                    {% endif %}
-                    <center> <h3>Abstract</h3> </center>
-                      <center>
-                      <p class="align-justify">
-                        {{ entry.abstract }}
-                      </p>
-                      </center>
-
-                    </div>
-                    <div class="6u$ 12u$(medium)">
-                    <center> <h3>Key Figure</h3> </center>
-                      <center>
-                      <p class="image fit" style="width:85%">
-                      <a href="#"><img src="{{ entry.image }}" alt="" /></a>  </p>
-                      </center>
-
-                      <center>
-                      <p class="align-justify">
-                        {{ entry.caption }}
-                      </p>
-
-                      <center> <h3>Acknowledgments</h3> </center>
-                      <p class="align-justify">
-                        {{ entry.acknowledgement }}
-                      </p>
-
-                      <ul class="actions align-center button-space">
-                        <li><a href= "{{ entry.pdf }}" class="button alt">PDF</a></li>
-                        <li><a href= "{{ entry.bibtex }}" class="button alt">BibTex </a></li>
-                      </ul>
-                      </center>
-
-                    </div>
-                </div>
-
-
-                <hr>
-
-                <div class="12u$ 12u$(medium)">
-                  <ul class="actions fit">
-                    <li><a href="#" class="button special fit">{{ entry.keyword1 }}</a></li>
-                    <li><a href="#" class="button special fit">{{ entry.keyword2 }}</a></li>
-                    <li><a href="#" class="button special fit">{{ entry.keyword3 }}</a></li>
-                  </ul>
-                </div>
 
                 {% endfor %}
 

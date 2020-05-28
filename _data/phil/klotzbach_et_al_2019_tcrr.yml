@@ -1,0 +1,23 @@
+- id: klotzbachtcrr2019
+  year: '2019'
+  title: Seasonal Tropical Cyclone Forecasting
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Klotzbach, P. J., E. Blake, J. Camp, L.-P. Caron, J. C. L. Chan, N.-Y. Kang, Y. Kuleshov, S.-M. Lee, H. Murakami, M. Saunders, Y. Takaya, F. Vitart, R. Zhan
+  journal: Tropical Cyclone Research and Review
+  others: 8, 134-149
+  doi: https://doi.org/10.6057/2019TCRR03.03
+  keypoint1: This manuscript examines several of the currently-available seasonal tropical cyclone forecasts for various tropical cyclone basins around the globe. 
+  keypoint2: false
+  keypoint3: false
+  abstract: This paper summarizes the forecast methods, outputs and skill offered by twelve agencies for seasonal tropical cyclone (TC) activity around the world. These agencies use a variety of techniques ranging from statistical models to dynamical models to predict basinwide activity and regional activity. In addition, several dynamical and hybrid statistical/dynamical models now predict TC track density as well as landfall likelihood. Realtime Atlantic seasonal hurricane forecasts have shown low skill in April, modest skill in June and good skill in August at predicting basinwide TC activity when evaluated over 2003-2018. Real-time western North Pacific seasonal TC forecasts have shown good skill by July for basinwide intense typhoon numbers and the ACE index when evaluated for 2003-2018. Both hindcasts and real-time forecasts have shown skill for other TC basins. A summary of recent research into forecasting TC activity beyond seasonal (e.g., multi-year) timescales is included. Recommendations for future areas of research are also discussed.
+  summary: false
+  image: ./Publications/figures/klotzbach_et_al_2019_tcrr_Fig1.jpg 
+  caption: FIG. 1. Real-time skill of North Atlantic seasonal tropical cyclone outlooks assessed for the 16-year period 2003-2018. The skill of the seasonal outlooks issued by CSU (red lines), Tropical Storm Risk (TSR, blue lines) and the National Oceanic and Atmospheric Administration (NOAA, green lines) are compared for (a) ACE, (b) major hurricane numbers, (c) hurricane numbers and (d) named storm numbers. The skill is shown as the Pearson correlation (r) between the forecast values (issued separately in early April, early June and early August) and the observed values.
+  acknowledgement: An anonymous reviewer provided very thorough comments and helpful suggestions. We would like to thank Gerry Bell for compiling NOAA’s eastern North Pacific seasonal hurricane forecast verification statistics. P. Klotzbach was supported by the G. Unger Vetlesen Foundation. L.-P. Caron would like to acknowledge financial support from the European Union’s Horizon 2020 Research and Innovation programme (EUCP; grant agreement no. 776613) and from the Ministerio de Economía y Competitividad (MINECO) as part of the CLINSA (CGL2017-85791-R) and HIATUS (CGL2015-70353-R) projects. Y. Takaya would like to acknowledge support of JSPS KAKENHI Grant Numbers JP17K14395 and JP17K01223. N.-Y. Kang would like to acknowledge financial support from the National Typhoon Center at the Korea Meteorological Administration (“Research and Development for Numerical Weather Prediction and Earthquake Services” project). J. Camp would like to acknowledge support from the UK Public Weather Service research programme. The work of J. C. L. Chan was supported by the Research Grants Council of the Hong Kong Special Administrative Region of China Grant E-CityU101/16.
+  bibtex: ./Publications/bibtex/klotzbach_et_al_2019_tcrr_bibtex.bib
+  pdf: ./Publications/papers/klotzbach_et_al_2019_tcrr.pdf
+  keyword1: Seasonal
+  keyword2: Forecasting
+  keyword3: 

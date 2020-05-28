@@ -1,0 +1,345 @@
+---
+layout: default_withdata
+title: Research Project
+---
+<html>
+
+
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
+
+<style>
+.box header h2 {
+                        margin-bottom: 2rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+	border-radius: 0px 0px 0px 0px;
+	line-height: 5rem;}
+
+.align-justify {
+    text-align: justify;
+          }
+
+.container_fig{
+  width: 600px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.container_text {
+	width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+        }
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>{{page.full_name}}</h2>
+					</header>
+				</div>
+			</section>
+
+
+      <!-- Two -->
+      <section id="two" class="wrapper style2">
+
+        <div class="inner">
+            <header class="align-center">
+              <h3> <b>{{page.title}} </b></h3>
+            </header>
+              <h4 class="align-justify"> {{page.description}} </h4>
+              <hr>
+
+
+          </div>
+          {% for entry in site.data.research.index_card %}
+          {% if entry.tcri == true and page.id == "tcri"%}
+          <div class="inner">
+          <div class="box">
+            <div class="content">
+
+              <header class="left">
+
+                <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+              </header>
+
+              <div class="container_fig">
+                <div class="image left">
+                  <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+                </div>
+              </div>
+              <div id="container_text">
+                <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+                  {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+                  {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+                  {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+                </a></h4>
+
+                <p class="align-justify">{{ entry.description}} </p>
+                <ul class="actions fit align-left button-space">
+                  {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+                  {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+                  {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+                  {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+                </ul>
+              </div>
+              <ul class="actions fit">
+                <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+                <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+                <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+                <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+                <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+              </ul>
+              {% endif %}
+
+
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+        {% for entry in site.data.research.index_card %}
+        {% if entry.career == true and page.id == "career"%}
+        <div class="inner">
+        <div class="box">
+          <div class="content">
+
+            <header class="left">
+
+              <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+            </header>
+
+            <div class="container_fig">
+              <div class="image left">
+                <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+              </div>
+            </div>
+            <div id="container_text">
+              <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+                {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+                {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+                {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+              </a></h4>
+
+              <p class="align-justify">{{ entry.description}} </p>
+              <ul class="actions fit align-left button-space">
+                {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+                {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+                {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+                {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+              </ul>
+            </div>
+            <ul class="actions fit">
+              <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+              <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+              <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+              <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+              <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+            </ul>
+            {% endif %}
+
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% for entry in site.data.research.index_card %}
+      {% if entry.pecase == true and page.id == "pecase"%}
+      <div class="inner">
+      <div class="box">
+        <div class="content">
+
+          <header class="left">
+
+            <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+          </header>
+
+          <div class="container_fig">
+            <div class="image left">
+              <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+            </div>
+          </div>
+          <div id="container_text">
+            <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+              {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+              {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+              {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+            </a></h4>
+
+            <p class="align-justify">{{ entry.description}} </p>
+            <ul class="actions fit align-left button-space">
+              {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+              {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+              {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+              {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+            </ul>
+          </div>
+          <ul class="actions fit">
+            <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+            <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+            <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+            <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+            <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+          </ul>
+          {% endif %}
+
+
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+    {% for entry in site.data.research.index_card %}
+    {% if entry.remote == true and page.id == "remote"%}
+    <div class="inner">
+    <div class="box">
+      <div class="content">
+
+        <header class="left">
+
+          <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+        </header>
+
+        <div class="container_fig">
+          <div class="image left">
+            <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+          </div>
+        </div>
+        <div id="container_text">
+          <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+            {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+            {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+            {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+          </a></h4>
+
+          <p class="align-justify">{{ entry.description}} </p>
+          <ul class="actions fit align-left button-space">
+            {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+            {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+            {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+            {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+          </ul>
+        </div>
+        <ul class="actions fit">
+          <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+          <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+          <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+          <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+          <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+        </ul>
+        {% endif %}
+
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for entry in site.data.research.index_card %}
+  {% if entry.precip == true and page.id == "precip"%}
+  <div class="inner">
+  <div class="box">
+    <div class="content">
+
+      <header class="left">
+
+        <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+      </header>
+
+      <div class="container_fig">
+        <div class="image left">
+          <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+        </div>
+      </div>
+      <div id="container_text">
+        <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+          {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+          {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+          {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+        </a></h4>
+
+        <p class="align-justify">{{ entry.description}} </p>
+        <ul class="actions fit align-left button-space">
+          {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+          {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+          {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+          {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+        </ul>
+      </div>
+      <ul class="actions fit">
+        <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+        <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+        <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+        <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+        <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+      </ul>
+      {% endif %}
+
+
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+{% for entry in site.data.research.index_card %}
+{% if entry.forecast == true and page.id == "forecast"%}
+<div class="inner">
+<div class="box">
+  <div class="content">
+
+    <header class="left">
+
+      <h2 id= {{entry.id}}>{{ entry.title}}</h2>
+    </header>
+
+    <div class="container_fig">
+      <div class="image left">
+        <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+      </div>
+    </div>
+    <div id="container_text">
+      <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+        {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+        {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+        {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+      </a></h4>
+
+      <p class="align-justify">{{ entry.description}} </p>
+      <ul class="actions fit align-left button-space">
+        {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank">Conference Presentation</a></li>{% endif %}
+        {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Poster Presentation</a></li>{% endif %}
+        {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank">Publication</a></li>{% endif %}
+        {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank">Publication</a></li>{% endif %}
+      </ul>
+    </div>
+    <ul class="actions fit">
+      <li><a href="#" class="button special small fit" >{{ entry.keyword1}}</a></li>
+      <li><a href="#" class="button special small fit" >{{ entry.keyword2}}</a></li>
+      <li><a href="#" class="button special small fit" >{{ entry.keyword3}}</a></li>
+      <li><a href="#" class="button special small fit" >{{ entry.keyword4}}</a></li>
+      <li><a href="#" class="button special small fit" >{{ entry.keyword5}}</a></li>
+    </ul>
+    {% endif %}
+
+
+  </div>
+</div>
+</div>
+{% endfor %}
+      </section>

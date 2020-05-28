@@ -40,10 +40,24 @@ collections:
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
 page_gen:
+  - data: 'members'
+    template: 'member'
+    name: 'id'
+    dir: 'member'
   - data: 'list_long'
     template: 'pubpage'
     name: 'id'
     dir: 'pub'
+  - data: 'research_projects'
+    template: 'projects'
+    name: 'id'
+    dir: 'projects'
+  - data: 'test3'
+    template: 'keywords'
+    name: 'id'
+    dir: 'keywords'
+
+
 
 defaults:
   -

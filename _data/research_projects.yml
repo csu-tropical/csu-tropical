@@ -5,7 +5,7 @@
   description: This study is investigating convective and stratiform processes in TC intensification through analysis of mesoscale observations, with a focus on aircraft and Doppler radar data. Recent studies have suggested that the radial location of deep convective bursts and stratiform precipitation relative to the RMW may play an important role in intensification efficiency. Testing new hypotheses using observations is needed to diagnose the physical processes responsible for TC intensity change and forecasts.
   image: ./images/grants/1.jpg
   acknowledgement: National Science Foundation
-  url: ./projects/career.html
+  url: career.html
 
 - id: pecase
   title: Multiscale Interactions in Tropical Cyclone Structure and Intensity Change
@@ -14,7 +14,7 @@
   description: The proposed research will improve our understanding of the multiscale interactions that result in TC genesis, rapid intensification, and weakening through an analysis of field observations collected during the Tropical Cyclone Intensity 2015 (TCI-2015) and Propagation of Intra-Seasonal Oscillations (PISTON) field projects in conjunction with numerical modeling. A better understanding of multiscale processes will enable improved environmental predictive capabilities for tactical planning and decision making.
   image: ./images/grants/piston.jpg
   acknowledgement: Office of Naval Research
-  url: ./projects/pecase.html
+  url: pecase.html
 
 - id: remotesensing
   title: High Impact Weather Research Tools
@@ -23,7 +23,7 @@
   description: Remote sensing observation tools such as radar, lidar, and satellite provide important data to better understand and forecast various aspects of high impact weather. This project will assist in developing new technology and tools such as APAR and LROSE to address community needs, as well as utilize machine learning in tandem with satellite multi-spectral infrared and passive microwave brightness temperatures to address scientific hypotheses and develop new forecasting tools.
   image: ./images/grants/remotesensing.png
   acknowledgement: National Science Foundation
-  url: ./projects/remotesensing.html
+  url: remotesensing.html
 
 - id: precip
   title: Prediction of Rainfall Extremes Campaign In the Pacific
@@ -32,7 +32,7 @@
   description: Extreme rainfall is a high impact weather phenomenon that profoundly affects people around the world, but our fundamental understanding and quantitative forecast skill for these events remains limited. To address these important scientific and forecast challenges, PRECIP in summer 2021 over Taiwan will be conducted to improve our understanding of the multi-scale dynamic, thermodynamic, and microphysical processes that produce extreme precipitation. <br> <br>
   image: ./images/grants/precip.png
   acknowledgement: National Science Foundation
-  url: ./projects/precip.html
+  url: precip.html
 
 - id: tcri
   title: Heating, Cooling, and Rapid Intensity Change in Tropical Cyclones
@@ -41,7 +41,7 @@
   description: The central objectives of this research are to improve our understanding of diabatic heating and cooling during TC rapid intensification (RI). The proposed research will accomplish these objectives through an analysis of field observations in conjunction with high-resolution numerical modeling. The central hypothesis of this research is that RI is caused by high efficiency diabatic heating and associated potential vorticity generation that requires cooperation across multiple spatial and temporal scales.
   image: ./images/grants/tcri.png
   acknowledgement: National Science Foundation <br> <br> <br>
-  url: ./projects/tcri.html
+  url: tcri.html
 
 - id: tcforecast
   title: Improvement of sub-seasonal to seasonal Atlantic basin hurricane forecasts
@@ -50,4 +50,4 @@
   description: CSU has been issuing seasonal Atlantic hurricane forecasts since 1984. These forecasts have evolved in the 35+ years and now include sub-seasonal (e.g., two-week) forecasts issued during the peak months of the Atlantic hurricane season. While these forecasts have shown skill when issued in real time, there remains significant room for improvement.  Current research involves a better understanding of the drivers of sub-seasonal to seasonal variability driving Atlantic hurricane activity, with a focus on vertical wind shear.
   image: ./images/grants/tcforecast.png
   acknowledgement: G. Unger Vetlesen Foundation and our project sponsors -- Ironshore Insurance, Insurance Information Institute and Interstate Restoration
-  url: ./projects/tcforecast.html
+  url: tcforecast.html

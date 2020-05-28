@@ -36,38 +36,26 @@ title: Publications
 				</div>
 			</section>
 
-			<!-- Two -->
+      <!-- Two -->
 				<section id="two" class="wrapper style2">
 					<div class="inner">
 						<div class="box">
 							<div class="content">
-								<header class="align-center special">
+                <header class="align-center special">
 									<!--p>Quick Search for related research</p-->
 									<h2>Phil Klotzbach's full list of publications</h2>
 								</header>
-								<div class="2u 12u$(xsmall)">
-									<div class="select-wrapper">
-										<select name="category" id="category" onchange="window.open(category.value,'newtab')">
-											<option value="#">- Author -</option>
-											<option value="bell.html">Michael M. Bell</option>
-											<option value="klotzbach.html">Phil Klotzbach</option>
-											<option value="1">Dandan Tao</option>
-											<option value="1">Jennifer C. DeHart</option>
-                      <option value="cha.html">Ting-Yu Cha</option>
-										</select>
-									</div>
-								</div>
+                <hr>
 
-								<script type="text/javascript">
-									function gotoPage(select){
-    								window.location = select.value;
-											}
-								</script>
+                {% for entry in site.data.list_long %}
+                {% if entry.author1 == "klotzbach" or entry.author2 == "klotzbach" or entry.author3 == "klotzbach"%}
+                <ul>
+                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> <i>{{ entry.doi }} </i></a> </li>
+                </ul>
+                  {% endif %}
+                {% endfor %}
 
-								<div class="content">
-									<h3>2020</h3>
-									<li style="margin-botton: 10px;"> <a href="Massonet_et_al_2020.html"> Caron, L.-P., F. Massonet, <b> P. J. Klotzbach</b>, T. Philp, and J. Stroeve, 2020: Making seasonal outlooks of Arctic sea ice and Atlantic hurricanes valuable &#8211; not just skillful. <i> Bull. Amer. Meteor. Soc., </i> <b> 101, </b> E36-E42, doi:10.1175/BAMS-D-18-0314.1. </a> </li>
-								</div>
+
 							</div>
 						</div>
 					</div>
