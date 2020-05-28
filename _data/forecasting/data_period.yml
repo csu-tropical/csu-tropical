@@ -1,0 +1,21 @@
+---
+description: Time Period of Highest Quality Data by Basin
+doc:
+  - fullname: North Atlantic
+    time: 1966-present
+    reason: Geostationary satellite data available
+  - fullname: Eastern North Pacific
+    time: 1988-present
+    reason: National Hurricane Center took over observational responsibilities
+  - fullname: Western North Pacific
+    time: 1985-present
+    reason: Joint Typhoon Warning Center deems these best tracks to be of highest quality
+  - fullname: North Indian Ocean
+    time: 1985-present
+    reason: Joint Typhoon Warning Center deems these best tracks to be of highest quality
+  - fullname: South Indian Ocean
+    time: 1985-present
+    reason: Joint Typhoon Warning Center deems these best tracks to be of highest quality
+  - fullname: South Pacific
+    time: 1985-present
+    reason: Joint Typhoon Warning Center deems these best tracks to be of highest quality
