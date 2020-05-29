@@ -7,7 +7,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.year == "2020"%}
 <ul>
-  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
 </ul>
 {% endif %}
 {% endfor %}
@@ -16,7 +16,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.year == "2019"%}
 <ul>
-  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank">{{ entry.doi }} </a> </li>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
 </ul>
 {% endif %}
 {% endfor %}
@@ -25,7 +25,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.year == "2018"%}
 <ul>
-  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }} </a> </li>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
 </ul>
 {% endif %}
 {% endfor %}
@@ -34,7 +34,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.year == "2017"%}
 <ul>
-  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> <i>{{ entry.doi }} </i></a> </li>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
 </ul>
 {% endif %}
 {% endfor %}

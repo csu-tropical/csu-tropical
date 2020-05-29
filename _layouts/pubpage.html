@@ -73,7 +73,7 @@ div.ex3 {
                 <!--ul>
                   <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
                 </ul-->
-                  <h3>{{ page.authors}}, {{item.year}}: {{ page.title }}. <i>{{ page.journal }}</i>, {{ page.others }} {% if page.doi != false %}, <a href="{{ page.doi }}" target="_blank"> {{ page.doi }}</a> {% endif %}</h3>
+                  <h3>{{ page.authors}}, {{item.year}}: {{ page.title }}. <i>{{ page.journal }}</i>, {% if page.others != false %}{{ page.others }}{% endif %} {% if page.doi != false %}, <a href="{{ page.doi }}" target="_blank"> {{ page.doi }}</a> {% endif %}</h3>
                   <p class="align-justify">
                     <li style="margin-botton: 10px;"> {{ page.keypoint1}}</li>
                   {% if page.keypoint2 != false %}<li style="margin-botton: 10px;"> {{ page.keypoint2}}</li> {% endif %}
@@ -137,9 +137,9 @@ div.ex3 {
 
                 <div class="12u$ 12u$(medium)">
                   <ul class="actions fit">
-                    {% for entry in site.data.test3 %}{% if page.keyword1 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword1 }}</a></li>{% endif %}{% endfor %}
-                    {% for entry in site.data.test3 %}{% if page.keyword2 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword2 }}</a></li>{% endif %}{% endfor %}
-                    {% for entry in site.data.test3 %}{% if page.keyword3 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword3 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.keywords %}{% if page.keyword1 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword1 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.keywords %}{% if page.keyword2 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword2 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.keywords %}{% if page.keyword3 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword3 }}</a></li>{% endif %}{% endfor %}
                   </ul>
                 </div>
                 <div class="4u$ 12u$(medium)">

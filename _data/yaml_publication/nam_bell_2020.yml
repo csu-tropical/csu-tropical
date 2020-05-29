@@ -1,0 +1,39 @@
+
+
+###Template Start HERE
+
+- id: nammwr2020
+  year: '2020'
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: "In review"
+  doi: false
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new insight for the supporting role of low-level VWS providing horizontal vorticity and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic to meso scales using airborne Doppler radar observations of pre-depression Hagupit during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations reveal complex localized convective and vortical characteristics of a pre-depression in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric trough during the observation period. The strong deep-layer VWS (> 20 m s -1) had a negative impact on the development through misalignment of the low and mid-level circulations and dry air intrusion. However, the low-level circulation persisted and the system ultimately formed into a tropical cyclone after it left the high-shear zone. Here we propose that a key process that enabled the predepression to survive through the upper-tropospheric trough interaction was persistent vorticity amplification on the meso-gamma scale that was aggregated on the mesoalpha scale within the pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the low-level horizontal vorticity into the vertical in the early stage of convective life-cycle, followed by stretching from maturing deep convection. Variations in low-level VWS on the meso-beta scale affect convective organization and horizontal vorticity generation. The results provide new insights into multi-scale processes during TC genesis and the interactions of a pre-depression with VWS at various spatial scales.
+  summary: false
+  image: ./Publications/figures/Nam_Bell_2020_Fig13.pdf
+  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis. a) Synoptic scale’s active features
+are upper-level trough and easterly waves, which carry the marsupial wave pouch shown as red circulation.
+b) Inside the meso-a scale wave pouch, shown are the low-level cyclonic stream lines with its center marked
+with black cross and mid-level center as yellow cross. Over the clouds shifted to southwest from the low-level center is vorticity
+ (positive - red, negative - blue), showing vorticity dipoles from tilting, enhanced bigger vortex
+from stretching, and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig. 7b), the
+squall-like NW-SE convection can be explained by the local wind shear profile consist of winds from cyclonic
+circulation inside pouch, marsupial wave propagation, and the trough. Thick black lines in the lowerleft corner
+of the circle indicates convective line; L indicates ENE low-level shear; M indicates WNW mid-level shear. d)
+Meso-g scale convective cells produce vorticity that serves as building block for the wave pouch intensification
+through tilting the horizontal shear (S cell) and stretching the existent vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225 and 412 Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+  bibtex: false
+  pdf: false
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study

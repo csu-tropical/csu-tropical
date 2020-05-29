@@ -82,7 +82,7 @@ div.ex3 {
                 {% for entry in site.data.list_long %}
                 {% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id%}
                 <ul>
-                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
                 </ul>
                   {% endif %}
                 {% endfor %}
