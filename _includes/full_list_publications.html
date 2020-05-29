@@ -7,7 +7,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.others == 'In review' %}
   <ul>
-    <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../Publications/papers//pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+    <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
   </ul>
 {% endif %}
 {% endfor %}
@@ -16,7 +16,7 @@
 {% for entry in site.data.list_long %}
 {% if entry.others == 'In press' %}
   <ul>
-    <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../Publications/papers//pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+    <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
   </ul>
 {% endif %}
 {% endfor %}
@@ -30,7 +30,7 @@
   {% for entry in site.data.list_long %}
     {% if entry.year == index %}
     <ul>
-      <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="../Publications/papers//pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+      <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
     </ul>
     {% endif %}
   {% endfor %}
@@ -47,7 +47,25 @@
 <li style="margin-bottom: 10px;">Song, J., and P. J. Klotzbach, 2018: <a href="../Publications/papers/Song_et_al_2018.pdf">What has controlled the poleward migration of annual averaged location of tropical cyclone lifetime maximum intensity over the western North Pacific since 1961?</a> Geophys. Res. Lett, doi: 10.1002/2017GL076883. </li>
 <li style="margin-bottom: 10px;">Zhao, H., G. B. Raga, and P. J. Klotzbach, 2018: <a href="../Publications/papers/Zhao_et_al_2018.pdf">Impact of the boreal summer quasi-biweekly oscillation on Eastern North Pacific tropical cyclone activity.</a>  Int. Journ. Clim., 38, 1353-1365.</li>
 <li style="margin-bottom: 10px;">Tang, X., W.-C. Lee, and M. M. Bell, 2018: <a href="../Publications/papers/Tang_etal_MWR2018.pdf"> Sub-Rainband structure and dynamic characteristics in the Principal Rainband of Typhoon Haguipit (2008)</a> Mon. Wea. Rev., 146, 157–173.</li>
-<li style="margin-bottom: 10px;">
+<li style="margin-bottom: 10px;">Klotzbach, P. J., S. G. Bowen, R. Pielke Jr., and M. M. Bell, 2018: <a href="../Publications/papers/klotzbach_et_al_2018_bams.pdf">Continental United States landfall frequency and associated damage: Observations and future risks. </a> Bull. Amer. Meteor. Soc., 99, 1359-1376. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., C. J. Schreck III, J. M. Collins, M. M. Bell, E. S. Blake, and D. R. Roache, 2018: <a href="../Publications/papers/klotzbach_et_al_2018_mwr.pdf">The extremely active 2017 North Atlantic hurricane season. </a> Mon. Wea. Rev., 146, 3425-3443. </li>
+
+<li style="margin-bottom: 10px;">Song, J., and P. J. Klotzbach, 2018: <a href="../Publications/papers/song_and_klotzbach_2018.pdf">What has controlled the poleward migration of annual averaged location of tropical cyclone lifetime maximum intensity over the western North Pacific since 1961? </a> Geophys. Res. Lett., 45, 1148-1156. </li>
+
+<li style="margin-bottom: 10px;">Zhao, H., G. B. Raga, and P. J. Klotzbach, 2018: <a href="../Publications/papers/zhao_et_al_2018_intjclim.pdf">Impact of the boreal summer quasi-biweekly oscillation on Eastern North Pacific tropical cyclone activity. </a> Int. Journ. Clim., 38, 1353-1365. </li>
+
+<li style="margin-bottom: 10px;">Wang, S.-Y., L. Zhao, J.-H. Yoon, P. J. Klotzbach, and R. Gillies, 2018: <a href="../Publications/papers/wang_et_al_2018.pdf">Attribution of climate effects on Hurricane Harvey�s extreme rainfall in Texas. </a> Environ. Res. Lett., 13, 054014. </li>
+
+<li style="margin-bottom: 10px;">Patricola, C. M., S. J. Camargo, P. J. Klotzbach, R. Saravanan, and P. Chang, 2018: <a href="../Publications/papers/patricola_et_al_2018.pdf">The influence of ENSO flavors on western North Pacific tropical cyclone activity. </a> J. Climate, 31, 5395-5416. </li>
+
+<li style="margin-bottom: 10px;">Song, J., P. J. Klotzbach, J. Ting, and Y. Wang, 2018: <a href="../Publications/papers/song_et_al_2018.pdf">The increasing variability of tropical cyclone maximum lifetime intensity. </a> Scientific Reports, 8, 16641. </li>
+
+<li style="margin-bottom: 10px;">Zhao, H., X. Duan, G. B. Raga, and P. J. Klotzbach, 2018: <a href="../Publications/papers/zhao_et_al_2018_jclim_ri.pdf">Changes in characteristics of rapidly intensifying western North Pacific tropical cyclones related to climate regime shifts. </a> J. Climate, 31, 8163-8179. </li>
+
+<li style="margin-bottom: 10px;">Weinkle, J., C. Landsea, D. Collins, R. Masulin, R. P. Crompton, P. J. Klotzbach, and R. Pielke Jr., 2018: <a href="../Publications/papers/weinkle_et_al_2018.pdf">Normalized hurricane damage in the continental United States 1900-2017. </a> Nature Sustainability, 1, 808-813. </li>
+
+<li style="margin-bottom: 10px;">Zhao, H., S. Chen, P. J. Klotzbach, and G. B. Raga, 2018: <a href="../Publications/papers/xhao_et_al_2018_jclim_cloudcluster.pdf">Impact of the extended boreal summer Madden-Julian Oscillation on western North Pacific tropical cloud cluster genesis productivity. </a> J. Climate, 31, 9175-9191. </li>
 
 <h3>2017</h3>
 <li style="margin-bottom: 10px;">Foerster, A., and M. M. Bell,  2017: <a href="../Publications/papers/Foerster_Bell_JTECH2017.pdf">Thermodynamic Retrieval in Rapidly Rotating Vortices from Multiple-Doppler Radar. </a>  J. Atmospheric Ocean. Technol., 34, 2353-2374. </li>
@@ -60,56 +78,116 @@
 <li style="margin-bottom: 10px;">Klotzbach, P. J., J. C. L. Chan, P. J. Fitzpatrick, W. M. Frank, C. W. Landsea, and J. L. McBride, 2017: <a href="../Publications/papers/Klotzbach_etal_BAMS2017.pdf">The science of William M. Gray: His contributions to the knowledge of tropical meteorology and tropical cyclones.</a>  Bull. Amer. Meteor. Soc, 98, 2311-2336.</li>
 <li style="margin-bottom: 10px;">Saunders, M. A., P. J. Klotzbach, and A. S. R. Lea, 2017: <a href="../Publications/papers/Saunders_etal_JGR2017.pdf">Replicating annual North Atlantic hurricane activity 1878-2012 from environmental variables.</a> JGR-Atmospheres, 122, 6284-6297, doi: 10.1002/2017JD026492.</li>
 <li style="margin-bottom: 10px;">Ghelani, R. P. S., E. C. J. Oliver, N. J. Holbrook, M. C. Wheeler, and P. J. Klotzbach, 2017:<a href="../Publications/papers/Ghelani_etal_GRL2017.pdf">Joint modulation of intraseasonal rainfall in tropical Australia by the Madden-Julian Oscillation and El Niño-Southern Oscillation.</a> Geophys. Res. Lett., 44, 10,754-10,761, doi: 10.1002/2017GL075452.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., J. C. L. Chan, P. J. Fitzpatrick, W. M. Frank, C. W. Landsea, and J. L. McBride, 2017: <a href="../Publications/papers/klotzbach_et_al_2017.pdf">The science of William M. Gray: His contributions to the knowledge of tropical meteorology and tropical cyclones. </a> Bull. Amer. Meteor. Soc., 98, 2311-2336. </li>
+
+<li style="margin-bottom: 10px;">Saunders, M. A., P. J. Klotzbach, and A. S. R. Lea, 2017: <a href="../Publications/papers/saunders_et_al_2017.pdf">Replicating annual North Atlantic hurricane activity 1878-2012 from environmental variables. </a> JGR-Atmospheres, 122, 6284-6297. </li>
+
+<li style="margin-bottom: 10px;">Ghelani, R. P. S., E. C. J. Oliver, N. J. Holbrook, M. C. Wheeler, and P. J. Klotzbach, 2017: <a href="../Publications/papers/ghelani_et_al_2017.pdf">Joint modulation of intraseasonal rainfall in tropical Australia by the Madden-Julian Oscillation and El Ni�o-Southern Oscillation. </a> Geophys. Res. Lett., 44, 10,754-10,761. </li>
+
+<li style="margin-bottom: 10px;">Richman, M. B., L. M. Leslie, H. A. Ramsay, and P. J. Klotzbach, 2017: <a href="../Publications/papers/richman_et_al_2017.pdf">Reducing tropical cyclone prediction errors using machine learning approaches. </a> Procedia Computer Science, 114, 314-323. </li>
 
 <h3>2016</h3>
 <li style="margin-bottom: 10px;">Brown, B. R., M. M. Bell, and A. Frambach, 2016: <a href="../Publications/papers/Brown_Bell_Frambach_GRL2016.pdf">Validation of Simulated Hurricane Drop Size Distributions using Polarimetric Radar.</a> Geophys. Res. Lett., 43, doi:10.1002/2015GL067278.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., E. C. J. Oliver, R. Leeper, and C. J. Schreck III, 2016: <a href="../Publications/papers/klotzbach_et_al_2016.pdf">The relationship between the Madden-Julian Oscillation (MJO) and southeastern New England snowfall. </a> Mon. Wea. Rev., 144, 1355-1362. </li>
+
+<li style="margin-bottom: 10px;">Collins, J. M., P. J. Klotzbach, R. N. Maue, D. R. Roache, E. S. Blake, C. H. Paxton and C. A. Mehta, 2016: <a href="../Publications/papers/collins_et_al_2016.pdf">The record-breaking 2015 hurricane season in the Eastern North Pacific: An analysis of environmental conditions. </a> Geophys. Res. Lett., 43, 9217-9224. </li>
+
+<li style="margin-bottom: 10px;">Song, J., and P. J. Klotzbach, 2016: <a href="../Publications/papers/song_and_klotzbach_2016.pdf">Wind structure discrepancies between two best-track data sets for western North Pacific tropical cyclones. J. Climate, 45, 4533-4551. </li>
 
 <h3>2015</h3>
 <li style="margin-bottom: 10px;">Bell, M. M., R. Ballard, M. Bauman, A. Foerster, A. Frambach, K. Kosiba, W.-C. Lee, S. Rees, and J. Wurman, 2015: <a href="../Publications/papers/Bell_etal_BAMS2015.pdf">The Hawaiian Educational Radar Opportunity (HERO).</a> Bull. Amer. Meteor. Soc., 96, 2167-2181.</li>
 <li style="margin-bottom: 10px;">Penny, A. B., P. A. Harr, and M. M. Bell, 2015: <a href="../Publications/papers/Penny_etal_MWR2015">Observations of a non-developing tropical disturbance in the western North Pacific during TCS-08 (2008).</a> Mon. Wea. Rev., 143, 2459-2484.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and E. C. J. Oliver, 2015: <a href="../Publications/papers/klotzbach_and_oliver_2015_jclim.pdf">Modulation of Atlantic basin tropical cyclone activity by the Madden-Julian Oscillation (MJO) from 1905-2011. </a> J. Climate, 28, 204-217. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and E. C. J. Oliver, 2015: <a href="../Publications/papers/klotzbach_and_oliver_2015_grl.pdf">Variations in global tropical cyclone activity and the Madden-Julian Oscillation since the midtwentieth century. </a> Geophys. Res. Lett, 42, 4199-4207. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., W. M. Gray, and C. T. Fogarty, 2015: <a href="../Publications/papers/klotzbach_et_al_2015.pdf">Active Atlantic hurricane era at its end? </a> Nature Geoscience, 8, 737-738. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and C. W. Landsea, 2015: <a href="../Publications/papers/klotzbach_and_landsea_2015.pdf">Extremely intense hurricanes: Revisiting Webster et al. (2005) after 10 years. J. Climate, 28, 7621-7629. </li>
+
+<li style="margin-bottom: 10px;">Moon, I-J, S-H Kim, P. J. Klotzbach, and J. C. L. Chan, 2015: <a href="../Publications/papers/moon_et_al_2015.pdf">Roles of interbasin frequency changes in the poleward shift of the maximum intensity location of tropical cyclones. </a>  Env. Res. Lett, 10, 104004. </li>
+
+<li style="margin-bottom: 10px;">Walsh, K. J., J. L. McBride, P. J. Klotzbach, S. Balachandran, S. J. Camargo, G. Holland, T. R. Knutson, J. Kossin, T.-C. Lee, and A. Sobel, 2015: <a href="../Publications/papers/walsh_et_al_2015.pdf"> Tropical cyclones and climate change. </a> WIREs Climate Change, 7, 65-89. </li>
 
 <h3>2014</h3>
 <li style="margin-bottom: 10px;">Foerster, A. M., M. M. Bell, S. C. Jones, and P. A. Harr, 2014: <a href="../Publications/papers/Foerster_etal_MWR2014.pdf">Observations of the eyewall structure of Typhoon Sinlaku (2008) during the transformation stage of extratropical transition.</a> Mon. Wea. Rev., 142, 3372-3392.</li>
 <li style="margin-bottom: 10px;">Quinting, J. F., M. M. Bell, P. A. Harr, and S. C. Jones, 2014: <a href="../Publications/papers/Quinting_etal_MWR2014.pdf">Structural characteristics of T-PARC Typhoon Sinlaku during its extratropical transition.</a> Mon. Wea. Rev., 142, 1945-1961.</li>
 <li style="margin-bottom: 10px;">Tang, X., W.-C. Lee, M. M. Bell, and Y. Wang, 2014: <a href="../Publications/papers/Tang_etal_JAS2014.pdf">A Squall line like principal rainband in Typhoon Hagupit (2008) observed by airborne Doppler radar.</a> J. Atmos. Sci., 71, 2733-2746.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2014: <a href="../Publications/papers/klotzbach_2014_jclim.pdf">The Madden-Julian Oscillation's impacts on worldwide tropical cyclone activity. </a> J. Climate, 27, 2317-2330. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2014: <a href="../Publications/papers/klotzbach_2014_wefo.pdf">Prediction of seasonal Atlantic basin accumulated cyclone energy from 1 July. </a> Wea. Forecasting, 29, 115-121. </li>
 
 <h3>2013</h3>
 <li style="margin-bottom: 10px;">Lussier, L. L., M. T. Montgomery, and M. M. Bell, 2013: <a href="../Publications/papers/Lussier_etal_ACP2014.pdf">The genesis of Typhoon Nuri as observed during the Tropical Cyclone Structure 2008 (TCS08) field experiment - Part 3: Kinematical and dynamical aspects of genesis.</a> Atmos. Chem. and Phys, 14, 8795-8812, doi:10.5194/acp-14-8795-2014.</li>
 <li style="margin-bottom: 10px;">Bell, M. M., W.-C. Lee, C. Wolff, and H. Cai, 2013: <a href="../Publications/papers/Bell_etal_JAMC2013.pdf">A Solo-based automated quality control algorithm for airborne Doppler tail radar data.</a> J. Appl. Meteor. and Clim., 52, 2509-2528.</li>
 <li style="margin-bottom: 10px;">Sanger, N. T., M. T. Montgomery, R. K. Smith, and M. M. Bell, 2013: <a href="../Publications/papers/Sanger_etal_MWR2013.pdf">An observational study of tropical-cyclone spin-up in Supertyphoon Jangmi (2008) from 24-27 September.</a> Mon. Wea. Rev., 124, 3-28.</li>
-
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and E. S. Blake, 2013: <a href="../Publications/papers/klotzbach_and_blake_2013.pdf">North Central Pacific tropical cyclones: Impacts of El Nino-Southern Oscillation and the Madden-Julian Oscillation. </a> J. Climate, 26, 7720-7733. </li>
 <h3>2012</h3>
 <li style="margin-bottom: 10px;">Bell, M. M., M. T. Montgomery, and K. E. Emanuel, 2012: <a href="../Publications/papers/Bell_etal_JAS2012b.pdf">Air-sea enthalpy and momentum exchange at major hurricane wind speeds observed during CBLAST.</a> J. Atmos. Sci., 69, 3197-3122.</li>
 <li style="margin-bottom: 10px;">Bell, M. M., M. T. Montgomery, and W.-C. Lee, 2012: <a href="../Publications/papers/Bell_etal_JAS2012a.pdf">An axisymmetric view of concentric eyewall evolution in Hurricane Rita (2005).</a> J. Atmos. Sci., 69, 2414-2432.</li>
 <li style="margin-bottom: 10px;">Bell, M. M., and W.-C. Lee, 2012: <a href="../Publications/papers/Bell_Lee_JAMC2012.pdf">Objective tropical cyclone center tracking using single Doppler radar.</a> J. Appl. Meteor. And Clim., 51, 878-896.</li>
 <li style="margin-bottom: 10px;">Montgomery, M. T., C. Davis, T. Dunkerton, Z. Wang, C. Velden, R. Torn, S. Majumdar, F. Zhang, R. Smith, L. Bosart, M. Bell, J. Haase, M. A. Boothe, J. Jensen, and T. Campos, 2012: <a href="../Publications/papers/Montgomery_etal_BAMS2012.pdf">The Pre-Depression Investigation of Cloud Systems in the Tropics (PREDICT) Experiment: Scientific Basis, New Analysis Tools and Some First Results.</a> Bull. Amer. Meteor. Soc., 93, 153-172.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2012: <a href="../Publications/papers/klotzbach_2012.pdf">El Ni�o-Southern Oscillation, the Madden-Julian Oscillation and Atlantic basin tropical cyclone rapid intensification. </a> J. Geophys. Res., 117, D14104. </li>
 
 <h3>2011</h3>
 <li style="margin-bottom: 10px;">Murillo, S. T., W.-C. Lee, M. M. Bell, F. D. Marks Jr., P. P. Dodge, and G. M. Barnes, 2011: <a href="../Publications/papers/Murillo_etal_MWR2011.pdf">Intercomparison of GBVTD-retrieved circulation centers and structures of Hurricane Danny (1997) from two coastal WSR-88Ds.</a> Mon. Wea. Rev., 139, 153-174.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2011: <a href="../Publications/papers/klotzbach_2011_jclim_caribbean.pdf">The influence of El Ni�o � Southern Oscillation and the Atlantic Multi-decadal Oscillation on Caribbean tropical cyclone activity. </a> J. Climate, 24, 721-731. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2011: <a href="../Publications/papers/klotzbach_2011_jclim_uslandfalls.pdf">El Ni�o � Southern Oscillation�s Impact on Atlantic Basin hurricanes and U.S. landfalls. J. Climate, 24, 1252-1263. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2011: <a href="../Publications/papers/klotzbach_2011_grl.pdf">A simplified Atlantic basin seasonal hurricane prediction scheme from 1 August. </a> Geophys. Res. Lett, 38, L16710. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2011: <a href="../Publications/papers/klotzbach_2011_jgr.pdf">Forecasting October-November Caribbean hurricane days. </a> J. Geophys. Res., 116, D18117. </li>
 
 <h3>2010</h3>
 <li style="margin-bottom: 10px;">Bell, M. M., and M. T. Montgomery, 2010: <a href="../Publications/papers/Bell_Montgomery_GRL2010.pdf">Sheared deep vortical convection in pre-depression Hagupit during TCS08.</a> Geophys. Res. Lett., 37, L06802, doi:10.1029/2009GL042313.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2010: <a href="../Publications/papers/klotzbach_2010.pdf">On the Madden-Julian oscillation � Atlantic hurricane relationship. </a> J. Climate, 23, 282-293. </li>
+
+<li style="margin-bottom: 10px;">Christy, J. R., B. Herman, R. Pielke Sr., P. J. Klotzbach, R. T. McNider, J. Hnilo, R. W. Spencer, T. Chase, and D. Douglass, 2010: <a href="../Publications/papers/christy_et_al_2010.pdf">What do observational datasets say about modeled tropospheric temperature trends since 1979? </a> Remote Sensing, 2, 2148-2169. </li>
 
 <h3>2009</h3>
 <li style="margin-bottom: 10px;">Houze, R. A., Lee, W.-C., M. M. Bell, 2009: <a href="../Publications/papers/Houze_etal_MWR2009.pdf">Convective contributions to the genesis of Hurricane Ophelia (2005): Observations from RAINEX.</a> Mon. Wea. Rev., 137, 2778-2800.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2009: <a href="../Publications/papers/klotzbach_and_gray_2009.pdf">25 years of Atlantic basin seasonal hurricane forecasts. </a> Geophys. Res. Lett., 36, L09711. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., R. A. Pielke Sr., R. A. Pielke Jr., J. Christy, R. McNider, 2009: <a href="../Publications/papers/klotzbach_et_al_2009.pdf">An alternative explanation for differential temperature trends at the surface and in the lower troposphere. </a> J. Geophys. Res., 114, D21102. </li>
+
+<li style="margin-bottom: 10px;">Grossmann, I., and P. J. Klotzbach, 2009: <a href="../Publications/papers/grossmann_and_klotzbach_2009.pdf">A review of North Atlantic modes of natural variability and their driving mechanisms. </a> J. Geophys. Res, 114, D24107. </li>
 
 <h3>2008</h3>
 <li style="margin-bottom: 10px;">Lee, W.-C., M. M. Bell, and K. A. Goodman, 2008: <a href="../Publications/papers/Lee_etal_GRL2008.pdf">Supercells and mesocyclones in the outer rainbands of Hurricane Katrina (2005).</a> Geophys. Res. Lett., 35, L16803, doi:10.1029/2008GL034724</li>
 <li style="margin-bottom: 10px;">Bell, M. M., and M. T. Montgomery, 2008: <a href="../Publications/papers/Bell_Montgomery_MWR2008.pdf">Observed structure, evolution, and potential intensity of category five Hurricane Isabel (2003) from 12 - 14 September.</a> Mon. Wea. Rev., 136, 2023-2046.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2008: <a href="../Publications/papers/klotzbach_and_gray_2008.pdf">Multi-decadal variability in North Atlantic tropical cyclone activity. </a> J. Climate, 21, 3929-3935. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2008: <a href="../Publications/papers/klotzbach_2008.pdf">Refinements to Atlantic basin seasonal hurricane prediction from 1 December. </a> J. Geophys. Res., 113, D17109. </li>
 
 <h3>2007</h3>
 <li style="margin-bottom: 10px;">Houze, R. A., S. S. Chen, B. F. Smull, W.-C. Lee, and M. M. Bell, 2007: <a href="../Publications/papers/Houze_etal_Science2007.pdf">Hurricane Intensity Change and Eyewall Replacement.</a> Science, 315, 1235-1239.</li>
 <li style="margin-bottom: 10px;">Tanamachi, R., H. Bluestein, W.-C. Lee, M. M. Bell, A. Pazmany, 2007: <a href="../Publications/papers/Tanamachi_etal_MWR2007.pdf">Ground-Based Velocity Track Display (GBVTD) Analysis of W-Band Doppler Radar Data in a Tornado near Stockton, Kansas on 15 May 1999.</a> Mon. Wea. Rev., 135, 783-800.</li>
 <li style="margin-bottom: 10px;">Lee, W.-C., and M. M. Bell, 2007: <a href="../Publications/papers/Lee_Bell_GRL2007.pdf">Rapid intensification, eyewall contraction, and breakdown of Hurricane Charley (2004) near landfall.</a> Geophys. Res. Lett., 34, L02802, doi:10.1029/2006GL027889.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2007: <a href="../Publications/papers/klotzbach_2007_tellusa.pdf">Recent developments in statistical prediction of seasonal Atlantic basin tropical cyclone activity. </a> Tellus A, 59, 511-518. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2007: <a href="../Publications/papers/klotzbach_2007_wefo.pdf">Revised prediction of seasonal Atlantic basin tropical cyclone activity from 1 August. </a> Wea. and Forecasting, 22, 937-949. </li>
+
+<li style="margin-bottom: 10px;">Camargo, S. J., A. G. Barnston, P. J. Klotzbach, and C. W. Landsea, 2007: <a href="../Publications/papers/camargo_et_al_2007.pdf">Seasonal tropical cyclone forecasts. </a> WMO Bull., 56, 297-309. </li>
 
 <h3>2006</h3>
 <li style="margin-bottom: 10px;">Houze, R. A., S. S. Chen, W.-C. Lee, R. F. Rogers, J. A. Moore, G. J. Stossmeister, J. L. Cetrone,W. Zhao, and M. M. Bell, 2006: <a href="../Publications/papers/Houze_etal_BAMS2006.pdf">The Hurricane Rainband and Intensity Change Experiment (RAINEX): Observations and modeling of Hurricanes Katrina, Ophelia, and Rita (2005).</a> Bull. Amer. Meteor. Soc., 87, 1503-1521.</li>
 <li style="margin-bottom: 10px;">Montgomery, M. T., M. M. Bell, S. Aberson, M. Black, 2006: <a href="../Publications/papers/Montgomery_etal_BAMS2006.pdf">Superintense winds in Hurricane Isabel (2003). Part I: Mean Vortex Structure and Maximum Intensity Estimates.</a> Bull. Amer. Meteor. Soc., 87, 1335-1347.</li>
 <li style="margin-bottom: 10px;">Aberson, S., M. Montgomery, M. M. Bell, M. Black, 2006: <a href="../Publications/papers/Aberson_etal_BAMS2006.pdf">Superintense winds in Hurricane Isabel (2003). Part II: Extreme Wind Speeds.</a> Bull. Amer. Meteor. Soc., 87, 1349-1354.</li>
 <li style="margin-bottom: 10px;">Lee, W.-C. M. M. Bell, P. Harasti, B. Jou, M.-H. Chang, 2006: <a href="../Publications/papers/Lee_etal_TAO2006.pdf">Doppler Velocity Signatures of Idealized Elliptical Vortices.</a> Terrestrial Atmos. and Oceans, 17, 429-446.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., 2006: <a href="../Publications/papers/klotzbach_2006.pdf">Trends in global tropical cyclone activity over the past twenty years (1986�2005). </a> Geophys. Res. Lett., 33, L10805. </li>
+
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2006: <a href="../Publications/papers/klotzbach_and_gray_2006.pdf">Causes of the unusually destructive 2004 Atlantic basin hurricane season. </a> Bull. Amer. Meteor. Soc., 87, 1325-1333. </li>
+
+<h3>2005</h3>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2005: <a href="../Publications/papers/klotzbach_and_gray_2005.pdf">Summary of 2004 Atlantic basin tropical cyclone activity and verification of seasonal forecasts. </a> Shore and Beach, 73, 20-24. </li>
+
+<h3>2004</h3>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2004: <a href="../Publications/papers/klotzbach_and_gray_2004.pdf">Updated 6-11-month prediction of Atlantic basin seasonal hurricane activity. </a> Wea. and Forecasting, 19, 917-934. </li>
 
 <h3>2003</h3>
 <li style="margin-bottom: 10px;">Bluestein, H. B., W.-C. Lee, M. M. Bell, C. C. Weiss, A. L. Pazmany, 2003: <a href="../Publications/papers/Bluestein_etal_MWR2003.pdf">Mobile Doppler radar observations of a tornado in a supercell near Bassett, Nebraska, on 5 June 1999. Part II: Tornado-vortex structure.</a> Mon. Wea. Rev., 131, 2968-2894.</li>
+<li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2003: <a href="../Publications/papers/klotzbach_and_gray_2003.pdf">Forecasting September Atlantic basin tropical cyclone activity. </a> Wea. and Forecasting, 18, 1109-1128. </li>
 
 <h3>Book Chapters</h3>
 <ul><li style="margin-bottom: 10px;">Aberson, S. D., J. Cione, C.-C. Wu, M. M. Bell, J. Halverson, C. Fogarty, and M. Weissmann, 2010: Aircraft used to observe tropical cyclones. Chapter in "Global Perspectives on Tropical Cyclones", World Scientific, Johnny Chan, Ed., 448 pp.</li>
