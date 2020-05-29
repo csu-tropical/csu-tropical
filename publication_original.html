@@ -1,0 +1,116 @@
+---
+layout: default
+title: Publications
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+.box header h2 {
+                        margin-bottom: 0rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+
+	border-radius: 3px 3px 3px 3px;
+	line-height: 5rem;
+}
+
+.select-wrapper {
+                text-decoration: none;
+                display: block;
+                position: absolute;
+								left: 950px;
+        }
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Refereed Publications</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2">
+					<div class="inner">
+						<div class="box">
+							<div class="content">
+                <p style="margin-left:600px;margin-top:-20px;color:black"> * Click the title to get a summary of the publication </p>
+								<header class="align-center special">
+									<!--p class="special">Full list of publications</p-->
+									<h2>Full list of publications</h2>
+								</header>
+                <div class="align-center">
+                <ul class="actions" style="text-align:center;line-height:1em;">
+                  <li><a class="button alt fit specital" id="btn_faq", onclick="showDiv('btn_faq','faq','eye1','txt1')" style="text-transform:none;width:300px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> FAQs</p></a></li>
+                  <li><a class="button alt fit" id="btn_csu", onclick="showDiv('btn_csu','int','eye2','txt2')" style="text-transform:none;width:300px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> CSU Resources </p></a></li>
+                  <li><a class="button alt fit" id="btn_ext", onclick="showDiv('btn_ext','ext','eye3','txt3')" style="text-transform:none;width:300px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> External Resources </p></a></li>
+                </ul>
+                </div>
+
+								<div class="2u 12u$(small)">
+
+									<div class="select-wrapper">
+										<select name="category" id="category" onchange="window.open(category.value,'newtab')">
+											<option value="#">- Author -</option>
+                      {% for entry in site.data.members %}
+                      <option value="/member/{{entry.id}}.html">{{entry.full_name}}</option>
+                      {% endfor %}
+										</select>
+									</div>
+								</div>
+
+								<div class="content">
+
+                  <h3>2020</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2020"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                  <h3>2019</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2019"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank">{{ entry.doi }} </a> </li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                  <h3>2018</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2018"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }} </a> </li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                  <h3>2017</h3>
+                  {% for entry in site.data.list_long %}
+                  {% if entry.year == "2017"%}
+                  <ul>
+                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> <i>{{ entry.doi }} </i></a> </li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>

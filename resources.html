@@ -1,0 +1,93 @@
+---
+layout: default
+title: CSU Hurricane Seasonal Forecasting Archive
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Forecast Resources </h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="align-center">
+				<ul class="actions" style="text-align:center;line-height:1em;margin:-150px 0 0px 0px;">
+					<li><a class="button fit special" id="btn_faq", onclick="showDiv('btn_faq','faq','eye1','txt1')" style="text-transform:none;width:300px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> FAQs</p></a></li>
+					<li><a class="button alt fit" id="btn_csu", onclick="showDiv('btn_csu','int','eye2','txt2')" style="text-transform:none;width:300px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> CSU Resources </p></a></li>
+					<li><a class="button alt fit" id="btn_ext", onclick="showDiv('btn_ext','ext','eye3','txt3')" style="text-transform:none;width:300px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> External Resources </p></a></li>
+					<li><a href="/forecasting.html" class="button small fit"><i class="fas fa-step-backward"></i>Go back to main Forecasting page</a></li>
+				</ul>
+				</div>
+				<div class="inner" id="faq">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Data Quality and Methodology Questions</p>
+							<h2>Frequently Asked Questions</h2>
+						</header>
+
+					</div>
+					</div>
+				</div>
+				<div class="inner" id="int" style="display:none">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Resources Created by the CSU Tropical Group</p>
+							<h2>CSU Resources</h2>
+						</header>
+
+					</div>
+					</div>
+				</div>
+				<div class="inner" id="ext" style="display:none">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Our Curated List of Helpful Resources in the TC Community</p>
+							<h2>External Resources</h2>
+						</header>
+
+					</div>
+					</div>
+				</div>
+
+
+			</section>
+
+
+			<script>
+			function showDiv(btn,ctn,eye,txt) {
+				var ic = document.getElementById(eye)
+				var x = document.getElementById(ctn);
+				var property = document.getElementById(btn);
+				var str = document.getElementById(txt)
+				if (x.style.display === "none") {
+					x.style.display = "block";
+					property.style.backgroundColor = "#8a4680";
+					str.style.color = "white"
+					ic.style.color = "white"
+					ic.classList.replace('fa-eye-slash','fa-eye');
+				} else {
+					x.style.display = "none";
+					property.style.backgroundColor = "#f2f2f2";
+					str.style.color = "black"
+					ic.style.color="black"
+					ic.classList.replace('fa-eye','fa-eye-slash');
+				}
+
+
+			}
+
+
+
+
+
+			</script>

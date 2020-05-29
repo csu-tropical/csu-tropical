@@ -2,6 +2,10 @@
 layout: default
 title: Publications
 ---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+
 <style>
 .box header h2 {
                         margin-bottom: 0rem;
@@ -30,7 +34,7 @@ title: Publications
 			<section id="One" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>Colorado State University Tropical Weather and Climate Research</p>
+						<p>Colorado State University</p>
 						<h2>Refereed Publications</h2>
 					</header>
 				</div>
@@ -40,66 +44,89 @@ title: Publications
 				<section id="two" class="wrapper style2">
 					<div class="inner">
 						<div class="box">
-							<div class="content">
-                <p style="margin-left:600px;margin-top:-20px;color:black"> * Click the title to get a summary of the publication </p>
-								<header class="align-center special">
-									<!--p class="special">Full list of publications</p-->
-									<h2>Full list of publications</h2>
-								</header>
+              <br style="margin-top:-20px;">
+                <div class="align-center">
+                <ul class="actions" style="text-align:center;line-height:1em;">
+                  <li><a class="button fit specital" id="btn_full_list", onclick="showDiv('btn_full_list','full_list','eye1','txt1')" style="text-transform:none;width:300px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> Full List</p></a></li>
+                  <li><a class="button alt fit" id="btn_author_list", onclick="showDiv('btn_author_list','author_list','eye2','txt2')" style="text-transform:none;width:300px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Authors </p></a></li>
+                  <li><a class="button alt fit" id="btn_keyword_list", onclick="showDiv('btn_keyword_list','keyword_list','eye3','txt3')" style="text-transform:none;width:300px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> Keywords </p></a></li>
+                </ul>
+                </div>
 
-								<div class="2u 12u$(small)">
-
-									<div class="select-wrapper">
-										<select name="category" id="category" onchange="window.open(category.value,'newtab')">
-											<option value="#">- Author -</option>
-                      {% for entry in site.data.members %}
-                      <option value="/member/{{entry.id}}.html">{{entry.full_name}}</option>
-                      {% endfor %}
-										</select>
-									</div>
-								</div>
-
-								<div class="content">
-
-                  <h3>2020</h3>
-                  {% for entry in site.data.list_long %}
-                  {% if entry.year == "2020"%}
-                  <ul>
-                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
-                  </ul>
-                  {% endif %}
-                  {% endfor %}
-
-                  <h3>2019</h3>
-                  {% for entry in site.data.list_long %}
-                  {% if entry.year == "2019"%}
-                  <ul>
-                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank">{{ entry.doi }} </a> </li>
-                  </ul>
-                  {% endif %}
-                  {% endfor %}
-
-                  <h3>2018</h3>
-                  {% for entry in site.data.list_long %}
-                  {% if entry.year == "2018"%}
-                  <ul>
-                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }} </a> </li>
-                  </ul>
-                  {% endif %}
-                  {% endfor %}
-
-                  <h3>2017</h3>
-                  {% for entry in site.data.list_long %}
-                  {% if entry.year == "2017"%}
-                  <ul>
-                    <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> <i>{{ entry.doi }} </i></a> </li>
-                  </ul>
-                  {% endif %}
-                  {% endfor %}
+                <div class="content" id="full_list" style="margin-top:-40px;">
+                <header class="align-center special">
+                  <!--p class="special">Full list of publications</p-->
+                  <h2>Full list of publications</h2>
+                </header>
+                <p class="align-center" style="margin-top:10px;"> * Click the title to get a summary of the publication </p>
+                <hr>
+                {% include full_list_publications.html %}
 
 
-								</div>
 							</div>
+
+              <div class="content" id="author_list" style="display:none;margin-top:-40px;">
+              <header class="align-center special">
+                <h2>Publications sorted by Authors</h2>
+              </header>
+              <hr>
+
+              <div class="align-justify">
+              <ul class="actions" style="text-align:center;line-height:1em;">
+                {% for entry in site.data.members %}
+                <li><a href="/member_publication/{{entry.id}}.html" style="height:40px;width:300px;"><p><i id="eye3" class="fas fa-user-check"></i> {{entry.full_name}} </p></a></li>
+                {% endfor %}
+              </ul>
+              </div>
+              </div>
+
+              <div class="content" id="keyword_list" style="display:none;margin-top:-40px;">
+              <header class="align-center special">
+                <h2>Publications sorted by Keywords</h2>
+              </header>
+              <hr>
+
+              <div class="align-jutify">
+              <ul class="actions" style="text-align:left;line-height:1em;">
+                {% for entry in site.data.test3 %}
+                <li><a href="/keywords/{{entry.id}}.html" class="button special fit" style="margin-left:20px;height:40px;width:300px;" ><p><i id="eye3" class="fas fa-cloud-rain"></i> {{entry.id}} </p></a></li>
+                {% endfor %}
+              </ul>
+              </div>
+              </div>
+
+
+
+
+            </div>
 						</div>
-					</div>
 				</section>
+
+        <script>
+        function showDiv(btn,ctn,eye,txt) {
+          var ic = document.getElementById(eye)
+          var x = document.getElementById(ctn);
+          var property = document.getElementById(btn);
+          var str = document.getElementById(txt)
+          if (x.style.display === "none") {
+            x.style.display = "block";
+            property.style.backgroundColor = "#8a4680";
+            str.style.color = "white"
+            ic.style.color = "white"
+            ic.classList.replace('fa-eye-slash','fa-eye');
+          } else {
+            x.style.display = "none";
+            property.style.backgroundColor = "#f2f2f2";
+            str.style.color = "black"
+            ic.style.color="black"
+            ic.classList.replace('fa-eye','fa-eye-slash');
+          }
+
+
+        }
+
+
+
+
+
+        </script>

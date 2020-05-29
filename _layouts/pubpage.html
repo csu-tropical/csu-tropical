@@ -1,7 +1,10 @@
 ---
 layout: default_withdata
-title: Publications
+title: CSU Tropical Research Publications
 ---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
 <html>
   <link rel="stylesheet" href="../assets/css/main.css" />
   <!-- Scripts -->
@@ -107,7 +110,7 @@ div.ex3 {
                     <center> <h3>Key Figure</h3> </center>
                       <center>
                       <p class="image fit" style="width:85%">
-                      <a href="#"><img src="{{ page.image }}" alt="" /></a>  </p>
+                      <a href="#"><img src="{{ page.image }}" alt="Key Figure" /></a>  </p>
                       </center>
 
                       <center>
@@ -120,9 +123,9 @@ div.ex3 {
                         {{ page.acknowledgement }}
                       </p>
 
-                      <ul class="actions align-center button-space">
-                        <li><a href= "{{ page.pdf }}" class="button alt">PDF</a></li>
-                        <li><a href= "{{ page.bibtex }}" class="button alt">BibTex </a></li>
+                      <ul class="actions fit align-center button-space">
+                        {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit"> <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
+                        {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit"> <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
                       </ul>
                       </center>
 
@@ -134,10 +137,15 @@ div.ex3 {
 
                 <div class="12u$ 12u$(medium)">
                   <ul class="actions fit">
-                    {% for entry in site.data.test3 %}{% if page.keyword1 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit">{{ page.keyword1 }}</a></li>{% endif %}{% endfor %}
-                    {% for entry in site.data.test3 %}{% if page.keyword2 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit">{{ page.keyword2 }}</a></li>{% endif %}{% endfor %}
-                    {% for entry in site.data.test3 %}{% if page.keyword3 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit">{{ page.keyword3 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.test3 %}{% if page.keyword1 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword1 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.test3 %}{% if page.keyword2 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword2 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.test3 %}{% if page.keyword3 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword3 }}</a></li>{% endif %}{% endfor %}
                   </ul>
+                </div>
+                <div class="4u$ 12u$(medium)">
+                <ul class="actions fit" style="margin-top:0px;margin-left:323px;margin-bottom:-10px;text-align:center;">
+                  <li><a href="../publication.html" class="button fit"><i class="fas fa-step-backward"></i> Go back to Publication page</a></li>
+                </ul>
                 </div>
 
 							</div>

@@ -1,0 +1,96 @@
+---
+layout: default_withdata
+title: CSU Tropical Research Projects
+---
+<html>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  .box header h2 {
+                          margin-bottom: 2rem;
+                  }
+
+  .special header h2 + p {
+  								                font-size: 1.25rem;
+  								                margin-top: -15rem;
+  								        }
+  .button-space{
+  	border-radius: 0px 0px 0px 0px;
+  	line-height: 5rem;}
+
+  .align-justify {
+      text-align: justify;
+            }
+
+  .container_fig{
+    width: 600px;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+
+  .container_text {
+  	width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+          }
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University Tropical Weather and Climate Research</p>
+						<h2>Research</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2">
+					<div class="inner">
+            <header class="align-center special" >
+              <h2><b>{{page.id}}</b></h2>
+            </header>
+            <center style="margin-top:10px;"><a href="../keywords/{{page.id}}"><i>Check the publication list of the related research</i></a></center>
+            <hr>
+
+                {% for entry in site.data.research.index_card %}
+                {% if entry.keyword1 == page.id%}
+                {% include keywords_projects.html %}
+                {% endif %}
+
+                {% if entry.keyword2 == page.id%}
+                {% include keywords_projects.html %}
+                {% endif %}
+
+                {% if entry.keyword3 == page.id%}
+                {% include keywords_projects.html %}
+                {% endif %}
+
+                {% if entry.keyword4 == page.id%}
+                {% include keywords_projects.html %}
+                {% endif %}
+
+                {% if entry.keyword5 == page.id%}
+                {% include keywords_projects.html %}
+                {% endif %}
+                {% endfor %}
+
+                <div class="4u$ 12u$(medium)">
+                <ul class="actions fit" style="margin-top:0px;margin-left:400px;margin-bottom:-10px;text-align:center;">
+                  <li><a href="../research.html" class="button fit"><i class="fas fa-step-backward"></i>Go back to Research page</a></li>
+                </ul>
+                </div>
+
+							</div>
+				</section>

@@ -22,10 +22,10 @@
   keyword5: Modeling
   career: false
   pecase: false
-  lrose: false
   precip: false
   tcri: true
   forecast: false
+  remote: false
 
 - id: michael_cha2020
   member1: Ting-Yu Cha
@@ -43,15 +43,15 @@
   description: While polygonal eyewall shapes have been seen in previous hurricanes, the corresponding evolution of wind asymmetries has never been quantitatively deduced due to limitations from previous observations. Here we show the first observational evidence of the evolving wind field of a polygonal eyewall during RI to Category 5 intensity by deducing the winds at 5-minute intervals from single-Doppler Next Generation Weather Radar (NEXRAD) observations.
   oral: https://cscenter.co.jp/icrm2019/program/data/abstracts/Session11B-01_1.pdf
   poster: false
-  publication: ../Publications/papers/Cha_et_al_GRL_2020.pdf
+  publication: ../pub/chagrl2020.html
   keyword1: Asymmetric Dynamics
   keyword2: Radar
   keyword3: TC case study
   keyword4: TC Structure
   keyword5: TC Intensity
-  career: false
-  pecase: false
-  lrose: true
+  career: true
+  pecase: true
   precip: false
   tcri: true
   forecast: false
+  remote: true

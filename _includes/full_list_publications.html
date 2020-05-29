@@ -1,0 +1,42 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+
+<h3>2020</h3>
+{% for entry in site.data.list_long %}
+{% if entry.year == "2020"%}
+<ul>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+</ul>
+{% endif %}
+{% endfor %}
+
+<h3>2019</h3>
+{% for entry in site.data.list_long %}
+{% if entry.year == "2019"%}
+<ul>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank">{{ entry.doi }} </a> </li>
+</ul>
+{% endif %}
+{% endfor %}
+
+<h3>2018</h3>
+{% for entry in site.data.list_long %}
+{% if entry.year == "2018"%}
+<ul>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }} </a> </li>
+</ul>
+{% endif %}
+{% endfor %}
+
+<h3>2017</h3>
+{% for entry in site.data.list_long %}
+{% if entry.year == "2017"%}
+<ul>
+  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }}, <a href="{{ entry.doi }}" target="_blank"> <i>{{ entry.doi }} </i></a> </li>
+</ul>
+{% endif %}
+{% endfor %}
+
+</html>

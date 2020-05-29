@@ -41,9 +41,13 @@ page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
 page_gen:
   - data: 'members'
-    template: 'member'
+    template: 'member_publication'
     name: 'id'
-    dir: 'member'
+    dir: 'member_publication'
+  - data: 'members'
+    template: 'member_research'
+    name: 'id'
+    dir: 'member_research'
   - data: 'list_long'
     template: 'pubpage'
     name: 'id'
@@ -56,6 +60,10 @@ page_gen:
     template: 'keywords'
     name: 'id'
     dir: 'keywords'
+  - data: 'test3'
+    template: 'keywords_projects'
+    name: 'id'
+    dir: 'keywords_projects'
 
 
 

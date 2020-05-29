@@ -1,6 +1,6 @@
 ---
 layout: default_withdata
-title: Publication Keywords
+title: CSU Tropical Research Publications
 ---
 <html>
   <link rel="stylesheet" href="../assets/css/main.css" />
@@ -11,6 +11,9 @@ title: Publication Keywords
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
 </html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
 <style>
 .box header h2 {
                         margin-bottom: 0rem;
@@ -48,15 +51,17 @@ title: Publication Keywords
 			<!-- Two -->
 				<section id="two" class="wrapper style2">
 					<div class="inner">
-						<div class="box">
+					   <div class="box">
 							<div class="content">
                 <p style="margin-left:600px;margin-top:-20px;color:black"> * Click the title to get a summary of the publication </p>
-								<header class="align-center special">
-									<h2>{{page.id}}</h2>
+                <header class="align-center special" >
+									<h2><b>{{page.id}}</b></h2>
 								</header>
+                <center style="margin-top:10px;"><a href="../keywords_projects/{{page.id}}"><i>Learn More about the related research</i></a></center>
                 <hr>
 
-                {% for entry in site.data.list_long | sort: "year"%}
+
+                {% for entry in site.data.list_long%}
                 {% if entry.keyword1 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
@@ -64,7 +69,7 @@ title: Publication Keywords
                 {% endif %}
                 {% endfor %}
 
-                {% for entry in site.data.list_long | sort: "year"%}
+                {% for entry in site.data.list_long%}
                 {% if entry.keyword2 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
@@ -72,13 +77,19 @@ title: Publication Keywords
                 {% endif %}
                 {% endfor %}
 
-                {% for entry in site.data.list_long | sort: "year"%}
+                {% for entry in site.data.list_long%}
                 {% if entry.keyword3 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
                 </ul>
                 {% endif %}
                 {% endfor %}
+
+                <div class="4u$ 12u$(medium)">
+                <ul class="actions fit" style="margin-top:0px;margin-left:323px;margin-bottom:-10px;text-align:center;">
+                  <li><a href="../publication.html" class="button fit"><i class="fas fa-step-backward"></i>Go back to Publication page</a></li>
+                </ul>
+                </div>
 
 							</div>
 						</div>
