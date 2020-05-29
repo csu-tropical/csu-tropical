@@ -1,0 +1,77 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<style>
+div.innerbox {
+  border-style: solid;
+  border-color: gray;
+}
+td:first-child {
+  font-weight: bold
+}
+</style>
+</head>
+
+<div class="innerbox">
+<div class="content">
+  <header class="align-center" style="margin-top:-20px;margin-bottom:10px">
+    <p style="font-size:xxsmall">CSU Atlantic Multi-Decadal Oscillation (AMO) index</p>
+    <h3 style="color:gray">AMO index</h3>
+  </header>
+  <p>In 2008, Phil Klotzbach and Bill Gray published <a href="/Forecast/AMO_paper.pdf" target="_blank">a paper in Journal of Climate</a> discussing a newly-developed Atlantic Multi-Decadal Oscillation index that utilized a combination of two predictors: 1) Sea surface temperatures (SSTs) in the far North Atlantic from 50-60°N, 50-10°W and 2) sea level pressures (SLPs) in the North Atlantic from 0-50°N, 70-10°W. At present, the index is calculated by weighing the SST component as 60% of the index and the SLP component as the remaining 40%. All values are standardized using the 1981-2010 climatological average as a baseline. Real-time monthly values are calculated from the NCEP/NCAR Reanalysis and are typically updated by the 5th of the following month.</p>
+
+  <figure class="center" style="width:900px">
+    <img src="/images/forecast/amo_short.png" alt="Monthly AMO values" style="width:400px"/>
+    <img src="/images/forecast/amo_tcactivity.png" alt="AMO_TC relationship" style="width:400px"/>
+  </figure>
+
+  <!-- Table -->
+  <div class="content" style="margin-top:30px">
+    <h4 class="align-center">Standardized monthly values of the Klotzbach and Gray (2008) AMO index from 1950-present </h4>
+  <div class="table-wrapper">
+    <table class="alt">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Jan</th>
+          <th>Feb</th>
+          <th>Mar</th>
+          <th>Apr</th>
+          <th>May</th>
+          <th>Jun</th>
+          <th>Jul</th>
+          <th>Aug</th>
+          <th>Sep</th>
+          <th>Oct</th>
+          <th>Nov</th>
+          <th>Dec</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in site.data.forecasting.amo %}
+        <tr>
+          <td>{{item.Year}}</td>
+          <td>{{item.Jan}}</td>
+          <td>{{item.Feb}}</td>
+          <td>{{item.Mar}}</td>
+          <td>{{item.Apr}}</td>
+          <td>{{item.May}}</td>
+          <td>{{item.Jun}}</td>
+          <td>{{item.Jul}}</td>
+          <td>{{item.Aug}}</td>
+          <td>{{item.Sep}}</td>
+          <td>{{item.Oct}}</td>
+          <td>{{item.Nov}}</td>
+          <td>{{item.Dec}}</td>
+
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+</div>
+
+</html>
