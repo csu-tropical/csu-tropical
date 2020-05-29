@@ -17,8 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+<<<<<<< HEAD
 
 title: CSU Tropical Weather & Climate Research
+=======
+title: Your awesome title
+>>>>>>> origin/staging
 email: your-email@example.com
 description: "Tropical Weather and Climate Research Group in the Department of Atmospheric
 Science at Colorado State Univiersity"
@@ -31,6 +35,7 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
+<<<<<<< HEAD
 markdown: kramdown
 
 # News post settings
@@ -77,6 +82,11 @@ defaults:
       type: category
     values:
       layout: "category"
+=======
+# News post settings
+excerpt_separator: <!--more-->
+
+>>>>>>> origin/staging
 
 # Exclude from processing.
 # The following items will not be processed, by default.

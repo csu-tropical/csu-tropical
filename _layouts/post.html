@@ -1,0 +1,71 @@
+---
+layout: default
+noindex: true
+---
+
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		                <!-- One -->
+		                        <section id="One" class="wrapper style3">
+		                                <div class="inner">
+		                                        <header class="align-center">
+		                                                <p>Colorado State University</p>
+		                                                <h2>Posts</h2>
+		                                        </header>
+		                                </div>
+		                        </section>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="/index.html"><i class="icon fa-home"></i></a> CSU Tropical Weather & Climate Research </div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/research.html">Research</a></li>
+					<li><a href="/research_group.html">Team members</a></li>
+					<li><a href="/news.html">News</a></li>
+				</ul>
+			</nav>
+
+			<section id="two" class="wrapper style2">
+							<div class="inner">
+								<div class="box">
+			<div id="main" class="container">
+
+			<!-- Elements -->
+				<div class="content">
+
+					<h3>{{ page.title }}</h3>
+					<br>
+					<p>({{ page.date | date: "%Y-%m-%d"  }})
+					{% if  page.author  != false %}-- written by {{ page.author }}</p>{% endif %}
+
+					{{ content }}
+				</div>
+			</div>
+			</div>
+			</div>
+			</section>
+
+
+
+		<!-- Scripts -->
+			<script src="http://127.0.0.1:4000//assets/js/jquery.min.js"></script>
+			<script src="http://127.0.0.1:4000//assets/js/jquery.scrollex.min.js"></script>
+			<script src="http://127.0.0.1:4000//assets/js/skel.min.js"></script>
+			<script src="http://127.0.0.1:4000//assets/js/util.js"></script>
+			<script src="http://127.0.0.1:4000//assets/js/main.js"></script>
+
+	</body>
+</html>

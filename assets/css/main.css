@@ -49,6 +49,15 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	/* Centered text */
+	.centered {
+	  position: absolute;
+		font: inherit;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1694,6 +1703,7 @@
 
 	h2 {
 		font-size: 1.75rem;
+		display: inline-block;
 	}
 
 	h3 {
@@ -2387,6 +2397,8 @@
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		display: inline-block;
+
 	}
 
 		ul li {
