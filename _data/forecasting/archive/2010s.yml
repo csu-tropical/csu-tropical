@@ -1,43 +1,393 @@
 ---
-toc:
-- id: "1984-06"
+toc:   
+- id: "2010-04"
   subfolderitems:
   - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
-    date: 24 May
-    year: 1984
-    pdf: /Forecast/Archived_Forecasts/1980s/1984-06.pdf
+    date: 7 April
+    year: 2010
+    pdf: /Forecast/Archived_Forecasts/2010s/2010-04.pdf    
+    
+- id: "2010-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 2 June
+    year: 2010
+    pdf: /Forecast/Archived_Forecasts/2010s/2010-06.pdf
 
-- id: "1984-08"
+- id: "2010-08"
   subfolderitems:
   - title: Forecast of Atlantic Seasonal Hurricane Activity
-    date: 30 July
-    year: 1984
-    pdf: /Forecast/Archived_Forecasts/1980s/1984-08.pdf
+    date: 4 August
+    year: 2010
+    pdf: /Forecast/Archived_Forecasts/2010s/2010-08.pdf
 
-- id: "1984-11"
+- id: "2010-11"
   subfolderitems:
-  - title: Summary of 1984 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+  - title: Summary of 2010 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 10 November
+    year: 2010
+    pdf: /Forecast/Archived_Forecasts/2010s/2010-11.pdf
+    
+- id: "2010-12"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 8 December
+    year: 2010
+    pdf: /Forecast/Archived_Forecasts/2010s/2010-12.pdf 
+    
+- id: "2011-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 6 April
+    year: 2011
+    pdf: /Forecast/Archived_Forecasts/2010s/2011-04.pdf    
+    
+- id: "2011-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2011
+    pdf: /Forecast/Archived_Forecasts/2010s/2011-06.pdf
+
+- id: "2011-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 3 August
+    year: 2011
+    pdf: /Forecast/Archived_Forecasts/2010s/2011-08.pdf
+
+- id: "2011-11"
+  subfolderitems:
+  - title: Summary of 2011 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 30 November
+    year: 2011
+    pdf: /Forecast/Archived_Forecasts/2010s/2011-11.pdf
+    
+- id: "2011-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 7 December
+    year: 2011
+    pdf: /Forecast/Archived_Forecasts/2010s/2011-12.pdf     
+
+- id: "2012-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 April
+    year: 2012
+    pdf: /Forecast/Archived_Forecasts/2010s/2012-04.pdf    
+    
+- id: "2012-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2012
+    pdf: /Forecast/Archived_Forecasts/2010s/2012-06.pdf
+
+- id: "2012-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 3 August
+    year: 2012
+    pdf: /Forecast/Archived_Forecasts/2010s/2012-08.pdf
+
+- id: "2012-11"
+  subfolderitems:
+  - title: Summary of 2012 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 29 November
+    year: 2012
+    pdf: /Forecast/Archived_Forecasts/2010s/2012-11.pdf
+    
+- id: "2012-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 7 December
+    year: 2012
+    pdf: /Forecast/Archived_Forecasts/2010s/2012-12.pdf
+    
+- id: "2013-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 10 April
+    year: 2013
+    pdf: /Forecast/Archived_Forecasts/2010s/2013-04.pdf    
+    
+- id: "2013-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 3 June
+    year: 2013
+    pdf: /Forecast/Archived_Forecasts/2010s/2013-06.pdf
+
+- id: "2013-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 2 August
+    year: 2013
+    pdf: /Forecast/Archived_Forecasts/2010s/2013-08.pdf
+
+- id: "2013-11"
+  subfolderitems:
+  - title: Summary of 2013 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 19 November
+    year: 2013
+    pdf: /Forecast/Archived_Forecasts/2010s/2013-11.pdf
+    
+- id: "2013-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 10 December
+    year: 2013
+    pdf: /Forecast/Archived_Forecasts/2010s/2013-12.pdf   
+    
+- id: "2014-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 10 April
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-04.pdf    
+    
+- id: "2014-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 2 June
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-06.pdf
+    
+- id: "2014-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 July
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-06.pdf    
+
+- id: "2014-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 31 July
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-08.pdf
+
+- id: "2014-11"
+  subfolderitems:
+  - title: Summary of 2014 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 19 November
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-11.pdf
+    
+- id: "2014-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 11 December
+    year: 2014
+    pdf: /Forecast/Archived_Forecasts/2010s/2014-12.pdf  
+    
+- id: "2015-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 April
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-04.pdf    
+    
+- id: "2015-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-06.pdf
+    
+- id: "2015-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 July
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-06.pdf    
+
+- id: "2015-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 August
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-08.pdf
+
+- id: "2015-11"
+  subfolderitems:
+  - title: Summary of 2015 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 30 November
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-11.pdf
+    
+- id: "2015-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 10 December
+    year: 2015
+    pdf: /Forecast/Archived_Forecasts/2010s/2015-12.pdf 
+        
+- id: "2016-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 14 April
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-04.pdf    
+    
+- id: "2016-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-06.pdf
+    
+- id: "2016-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 July
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-06.pdf    
+
+- id: "2016-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 August
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-08.pdf
+
+- id: "2016-11"
+  subfolderitems:
+  - title: Summary of 2016 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 30 November
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-11.pdf
+    
+- id: "2016-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 14 December
+    year: 2016
+    pdf: /Forecast/Archived_Forecasts/2010s/2016-12.pdf     
+
+- id: "2017-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 6 April
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-04.pdf    
+    
+- id: "2017-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-06.pdf
+    
+- id: "2017-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 5 July
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-06.pdf    
+
+- id: "2017-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 August
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-08.pdf
+
+- id: "2017-11"
+  subfolderitems:
+  - title: Summary of 2017 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 30 November
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-11.pdf
+    
+- id: "2017-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 13 December
+    year: 2017
+    pdf: /Forecast/Archived_Forecasts/2010s/2017-12.pdf  
+    
+- id: "2018-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 5 April
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-04.pdf    
+    
+- id: "2018-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 31 May
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-06.pdf
+    
+- id: "2018-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 2 July
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-06.pdf    
+
+- id: "2018-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 2 August
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-08.pdf
+
+- id: "2018-11"
+  subfolderitems:
+  - title: Summary of 2018 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
     date: 28 November
-    year: 1984
-    pdf: /Forecast/Archived_Forecasts/1980s/1984-11.pdf
-
-- id: "1985-06"
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-11.pdf
+    
+- id: "2018-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 13 December
+    year: 2018
+    pdf: /Forecast/Archived_Forecasts/2010s/2018-12.pdf 
+    
+- id: "2019-04"
   subfolderitems:
   - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
-    date: 28 May
-    year: 1985
-    pdf: /Forecast/Archived_Forecasts/1980s/1985-06.pdf
-
-- id: "1985-08"
+    date: 4 April
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-04.pdf    
+    
+- id: "2019-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 4 June
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-06.pdf
+    
+- id: "2019-07"
   subfolderitems:
   - title: Forecast of Atlantic Seasonal Hurricane Activity
-    date: 27 July
-    year: 1985
-    pdf: /Forecast/Archived_Forecasts/1980s/1985-08.pdf
+    date: 9 July
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-06.pdf    
 
-- id: "1985-11"
+- id: "2019-08"
   subfolderitems:
-  - title: Summary of 1985 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
-    date: 25 November
-    year: 1985
-    pdf: /Forecast/Archived_Forecasts/1980s/1985-11.pdf
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 5 August
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-08.pdf
+
+- id: "2019-11"
+  subfolderitems:
+  - title: Summary of 2019 Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 27 November
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-11.pdf
+    
+- id: "2019-12"
+  subfolderitems:
+  - title: Qualitative Discussion of Atlantic Seasonal Hurricane Activity
+    date: 12 December
+    year: 2019
+    pdf: /Forecast/Archived_Forecasts/2010s/2019-12.pdf     
