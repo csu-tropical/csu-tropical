@@ -79,7 +79,8 @@ div.ex3 {
                 <center style="margin-top:10px;"><a href="../member_research/{{page.id}}"><i>Learn more about {{page.full_name}}'s current and past research</i> <i class="far fa-smile"></i></a></center>
                 <hr>
 
-                {% for entry in site.data.list_long %}
+                {% assign chronological_order = site.data.list_long | sort: "year" %}
+                {% for entry in chronological_order reversed%}
                 {% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
