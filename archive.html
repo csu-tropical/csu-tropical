@@ -1,0 +1,237 @@
+---
+layout: default
+title: CSU Hurricane Seasonal Forecasting Archive
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<style>
+div.innerbox {
+  border-style: solid;
+  border-color: gray;
+}
+td:first-child {
+  font-weight: bold
+}
+</style>
+</head>
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Forecast Archive </h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="align-center" style="margin-top:-50px">
+				<ul class="actions" style="text-align:center;line-height:1em;margin:-150px 0 0px 0px;">
+					<li><a href="#forecasts" class="button fit special" id="btn_forecast", onclick="showDiv('btn_forecast','forecasts','eye1','txt1')" style="text-transform:none;width:300px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> Previous Forecasts</p></a></li>
+					<li><a href="#data" class="button fit special" id="btn_data", onclick="showDiv('btn_data','data','eye2','txt2')" style="text-transform:none;width:350px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt2"><i id="eye2" class="fas fa-eye"></i> Downloadable Data & Figures</p></a></li>
+					<li><a href="#bill_gray" class="button fit special" id="btn_gray", onclick="showDiv('btn_gray','bill_gray','eye3','txt3')" style="text-transform:none;width:300px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt3"><i id="eye3" class="fas fa-eye"></i> In Memory of Dr. Bill Gray</p></a></li>
+					<li><a href="/forecasting.html" class="button small fit"><i class="fas fa-step-backward"></i>Go back to main Forecasting page</a></li>
+				</ul>
+				</div>
+				<div class="inner" id="forecasts">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Archived Forecast Discussions from Previous Years</p>
+							<h2>Previous Forecasts</h2>
+						</header>
+						<div class="align-left" style="margin-top:20px">
+						<ul class="actions" style="text-align:center;line-height:1em;margin:-150px 0 0px 0px;">
+							<li><a href="#list_2010s" class="button fit alt" id="btn_2010s", onclick="showDiv('btn_2010s','list_2010s','eye_a1','txt_a1')"><p id="txt_a1"><i id="eye_a1" class="fas fa-eye-slash"></i> 2010s</p></a></li>
+							<li><a href="#list_2000s" class="button fit alt" id="btn_2000s", onclick="showDiv('btn_2000s','list_2000s','eye_a2','txt_a2')"><p id="txt_a2"><i id="eye_a2" class="fas fa-eye-slash"></i> 2000s</p></a></li>
+							<li><a href="#list_1990s" class="button fit alt" id="btn_1990s", onclick="showDiv('btn_1990s','list_1990s','eye_a3','txt_a3')"><p id="txt_a3"><i id="eye_a3" class="fas fa-eye-slash"></i> 1990s</p></a></li>
+							<li><a href="#list_1980s" class="button fit alt" id="btn_1980s", onclick="showDiv('btn_1980s','list_1980s','eye_a4','txt_a4')"><p id="txt_a4"><i id="eye_a4" class="fas fa-eye-slash"></i> 1980s</p></a></li>
+						</ul>
+						</div>
+					</div>
+						<div class="inner" id="list_2010s" style="display:none">
+							<div class="content">
+								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
+									<h3 style="color:gray">Forecasts for 2010s</h3>
+								</header>
+							{% for yyyy in (2010..2019) reversed %}
+							<h4 id="elements">{{yyyy}}</h4>
+							{% for item in site.data.forecasting.archive.2010s.toc %}
+								{% for entry in item.subfolderitems %}
+								{% if entry.year == {{yyyy}} %}
+								<li style="margin-top: 5px;"> <a href={{entry.pdf}} target="_blank">{{ entry.title}}</a> <br>&nbsp;&nbsp;&nbsp;&nbsp; {{entry.date}}, {{entry.year}}</li>
+
+								{% endif %}
+								{% endfor %}
+							{% endfor %}
+							<hr />
+							{% endfor %}
+							</div>
+						</div>
+						<div class="inner" id="list_2000s" style="display:none">
+							<div class="content">
+								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
+									<h3 style="color:gray">Forecasts for 2000s</h3>
+								</header>
+							{% for yyyy in (2000..2009) reversed %}
+							<h4 id="elements">{{yyyy}}</h4>
+							{% for item in site.data.forecasting.archive.2000s.toc %}
+								{% for entry in item.subfolderitems %}
+								{% if entry.year == {{yyyy}} %}
+								<li style="margin-top: 5px;"> <a href={{entry.pdf}} target="_blank">{{ entry.title}}</a> <br>&nbsp;&nbsp;&nbsp;&nbsp; {{entry.date}}, {{entry.year}}</li>
+
+								{% endif %}
+								{% endfor %}
+							{% endfor %}
+							<hr />
+							{% endfor %}
+							</div>
+						</div>
+						<div class="inner" id="list_1990s" style="display:none">
+							<div class="content">
+								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
+									<h3 style="color:gray">Forecasts for 1990s</h3>
+								</header>
+							{% for yyyy in (1990..1999) reversed %}
+							<h4 id="elements">{{yyyy}}</h4>
+							{% for item in site.data.forecasting.archive.1990s.toc %}
+								{% for entry in item.subfolderitems %}
+								{% if entry.year == {{yyyy}} %}
+								<li style="margin-top: 5px;"> <a href={{entry.pdf}} target="_blank">{{ entry.title}}</a> <br>&nbsp;&nbsp;&nbsp;&nbsp; {{entry.date}}, {{entry.year}}</li>
+
+								{% endif %}
+								{% endfor %}
+							{% endfor %}
+							<hr />
+							{% endfor %}
+							</div>
+						</div>
+						<div class="inner" id="list_1980s" style="display:none">
+							<div class="content">
+								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
+									<h3 style="color:gray">Forecasts for 1980s</h3>
+								</header>
+							{% for yyyy in (1984..1989) reversed %}
+							<h4 id="elements">{{yyyy}}</h4>
+									{% for item in site.data.forecasting.archive.1980s.toc %}
+										{% for entry in item.subfolderitems %}
+										{% if entry.year == {{yyyy}} %}
+										<li style="margin-top: 5px;"> <a href={{entry.pdf}} target="_blank">{{ entry.title}}</a> <br>&nbsp;&nbsp;&nbsp;&nbsp; {{entry.date}}, {{entry.year}}</li>
+
+										{% endif %}
+										{% endfor %}
+									{% endfor %}
+							<hr />
+							{% endfor %}
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="inner" id="data">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Archived Forecast Discussions from Previous Years</p>
+							<h2>Downloadable Data & Figures</h2>
+						</header>
+						<div class="align-left" style="margin-top:20px">
+						<ul class="actions" style="text-align:center;line-height:1em;margin:-130px 0 0px 0px;">
+							<li><a href="#verification" class="button small alt fit" id="btn_ver" onclick="showDiv('btn_ver','verification','eye_b0','txt_b0')"><p id="txt_b0"><i id="eye_b0" class="fas fa-eye-slash"></i> Forecast Verification</p></a></li>
+							<li><a href="#tc_stat" class="button small alt fit" id="btn_stat" onclick="showDiv('btn_stat','tc_stat','eye_b1','txt_b1')"><p id="txt_b1"><i id="eye_b1" class="fas fa-eye-slash"></i> TC Statistics</p></a></li>
+							<li><a href="#amo" class="button small alt fit" id="btn_amo", onclick="showDiv('btn_amo','amo','eye_b2','txt_b2')"><p id="txt_b2"><i id="eye_b2" class="fas fa-eye-slash"></i> AMO index</p></a></li>
+							<li><a href="#best_track" class="button small alt fit" id="btn_bt", onclick="showDiv('btn_bt','best_track','eye_b3','txt_b3')"><p id="txt_b3"><i id="eye_b3" class="fas fa-eye-slash"></i> TC track & climatology</p></a></li>
+						</ul>
+						</div>
+
+						<div class="inner" id="verification" style="display:none">
+							<div class="content">
+								<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
+									<p style="font-size:xxsmall">Verifications of CSU’s seasonal hurricane forecasts</p>
+									<h3 style="color:gray">Forecast Verification</h3>
+								</header>
+							</div>
+						<hr>
+						</div>
+
+
+						<div class="inner" id="tc_stat" style="display:none">
+							<div class="content">
+								<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
+									<p style="font-size:xxsmall">Historical Tropical Cyclone Statistics</p>
+									<h3 style="color:gray">TC Statistics</h3>
+								</header>
+							</div>
+								<hr>
+						</div>
+
+
+						<div class="inner" id="amo" style="display:none">
+						{% include archive_amo.html %}
+							<hr>
+						</div>
+
+
+					<div class="inner" id="best_track" style="display:none">
+						<div class="content">
+							<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
+								<p style="font-size:xxsmall">TC genesis, track, and landfall maps</p>
+								<h3 style="color:gray">Tropical Cyclone Track & Climatology</h3>
+							</header>
+							<br>
+							<p class="align-center" style="color:black;font-size:18px"><i class="fas fa-tools"></i> Under Construction <br> Check us back later! </p>
+						</div>
+						<hr>
+					</div>
+
+
+					</div>
+					</div>
+
+				</div>
+
+
+				<div class="inner" id="bill_gray">
+					<div class="box">
+					<div class="content">
+						<header class="align-center">
+							<p>Archived Forecast Discussions from Previous Years</p>
+							<h2>In Memory of Dr. William (Bill) Gray</h2>
+						</header>
+												{% include bill_gray.html %}
+					</div>
+					</div>
+				</div>
+
+
+			</section>
+
+
+			<script>
+				function showDiv(btn,ctn,eye,txt) {
+					var ic = document.getElementById(eye)
+					var x = document.getElementById(ctn);
+					var property = document.getElementById(btn);
+					var str = document.getElementById(txt)
+					if (x.style.display === "none") {
+						x.style.display = "block";
+						property.style.backgroundColor = "#8a4680";
+						str.style.color = "white"
+						ic.classList.replace('fa-eye-slash','fa-eye');
+					} else {
+						x.style.display = "none";
+						property.style.backgroundColor = "transparent";
+						str.style.color = "black"
+						ic.classList.replace('fa-eye','fa-eye-slash');
+					}
+
+
+				}
+
+
+
+
+
+			</script>
