@@ -28,27 +28,29 @@ td:first-child {
   <!-- Table -->
   <div class="content" style="margin-top:30px">
     <h4 class="align-center">Standardized monthly values of the Klotzbach and Gray (2008) AMO index from 1950-present </h4>
-  <div class="table-wrapper">
-    <table class="alt">
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:500px;overflow:auto;">
+    <table class="alt" id="amo_table">
       <thead>
         <tr>
-          <th>Year</th>
-          <th>Jan</th>
-          <th>Feb</th>
-          <th>Mar</th>
-          <th>Apr</th>
-          <th>May</th>
-          <th>Jun</th>
-          <th>Jul</th>
-          <th>Aug</th>
-          <th>Sep</th>
-          <th>Oct</th>
-          <th>Nov</th>
-          <th>Dec</th>
+          <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',0)" class="fas fa-sort-down"></i></a></th>
+          <th>Jan <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',1)" class="fas fa-sort-down"></i></a></th>
+          <th>Feb <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',2)" class="fas fa-sort-down"></i></a></th>
+          <th>Mar <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',3)" class="fas fa-sort-down"></i></a></th>
+          <th>Apr <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',4)" class="fas fa-sort-down"></i></a></th>
+          <th>May <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',5)" class="fas fa-sort-down"></i></a></th>
+          <th>Jun <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',6)" class="fas fa-sort-down"></i></a></th>
+          <th>Jul <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',7)" class="fas fa-sort-down"></i></a></th>
+          <th>Aug <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',8)" class="fas fa-sort-down"></i></a></th>
+          <th>Sep <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',9)" class="fas fa-sort-down"></i></a></th>
+          <th>Oct <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',10)" class="fas fa-sort-down"></i></a></th>
+          <th>Nov <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',11)" class="fas fa-sort-down"></i></a></th>
+          <th>Dec <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('amo_table',12)" class="fas fa-sort-down"></i></a></th>
         </tr>
       </thead>
+
       <tbody>
-        {% for item in site.data.forecasting.amo %}
+        {% for item in site.data.forecasting.csu_amo %}
         <tr>
           <td>{{item.Year}}</td>
           <td>{{item.Jan}}</td>
@@ -70,8 +72,14 @@ td:first-child {
     </table>
   </div>
 </div>
+<div class="align-center" style="margin-top:0px">
+<ul class="actions" style="text-align:center;line-height:1em;margin:10px 0 -10px 0px;">
+  <li><a href="/Forecast/downloadable/csu_amo.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i> Download Table (.csv)</a></li>
+</ul>
+</div>
 
 </div>
 </div>
+
 
 </html>
