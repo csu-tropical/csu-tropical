@@ -60,24 +60,18 @@ title: CSU Tropical Research Publications
                 <center style="margin-top:10px;"><a href="../keywords_projects/{{page.id}}"><i>Learn More about the related research</i></a></center>
                 <hr>
 
-
-                {% for entry in site.data.list_long%}
+                {% assign chronological_order = site.data.list_long | sort: "year" %}
+                {% for entry in chronological_order reversed%}
                 {% if entry.keyword1 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
                 </ul>
                 {% endif %}
-                {% endfor %}
-
-                {% for entry in site.data.list_long%}
                 {% if entry.keyword2 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
                 </ul>
                 {% endif %}
-                {% endfor %}
-
-                {% for entry in site.data.list_long%}
                 {% if entry.keyword3 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
