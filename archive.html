@@ -139,19 +139,16 @@ td:first-child {
 						</header>
 						<div class="align-left" style="margin-top:20px">
 						<ul class="actions" style="text-align:center;line-height:1em;margin:-130px 0 0px 0px;">
-							<li><a href="#verification" class="button small alt fit" id="btn_ver" onclick="showDiv('btn_ver','verification','eye_b0','txt_b0')"><p id="txt_b0"><i id="eye_b0" class="fas fa-eye-slash"></i> Forecast Verification</p></a></li>
-							<li><a href="#tc_stat" class="button small alt fit" id="btn_stat" onclick="showDiv('btn_stat','tc_stat','eye_b1','txt_b1')"><p id="txt_b1"><i id="eye_b1" class="fas fa-eye-slash"></i> TC Statistics</p></a></li>
-							<li><a href="#amo" class="button small alt fit" id="btn_amo", onclick="showDiv('btn_amo','amo','eye_b2','txt_b2')"><p id="txt_b2"><i id="eye_b2" class="fas fa-eye-slash"></i> AMO index</p></a></li>
-							<li><a href="#best_track" class="button small alt fit" id="btn_bt", onclick="showDiv('btn_bt','best_track','eye_b3','txt_b3')"><p id="txt_b3"><i id="eye_b3" class="fas fa-eye-slash"></i> TC track & climatology</p></a></li>
+							<li><a href="#verification" class="button alt fit" id="btn_ver" onclick="showDiv('btn_ver','verification','eye_b0','txt_b0')"><p id="txt_b0"><i id="eye_b0" class="fas fa-eye-slash"></i> Forecast Verification</p></a></li>
+							<li><a href="#tc_stat" class="button alt fit" id="btn_stat" onclick="showDiv('btn_stat','tc_stat','eye_b1','txt_b1')"><p id="txt_b1"><i id="eye_b1" class="fas fa-eye-slash"></i> TC Statistics</p></a></li>
+							<li><a href="#amo" class="button alt fit" id="btn_amo", onclick="showDiv('btn_amo','amo','eye_b2','txt_b2')"><p id="txt_b2"><i id="eye_b2" class="fas fa-eye-slash"></i> AMO index</p></a></li>
+							<li><a href="#best_track" class="button alt fit" id="btn_bt", onclick="showDiv('btn_bt','best_track','eye_b3','txt_b3')"><p id="txt_b3"><i id="eye_b3" class="fas fa-eye-slash"></i> TC track & climatology</p></a></li>
 						</ul>
 						</div>
 
 						<div class="inner" id="verification" style="display:none">
 							<div class="content">
-								<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
-									<p style="font-size:xxsmall">Verifications of CSU’s seasonal hurricane forecasts</p>
-									<h3 style="color:gray">Forecast Verification</h3>
-								</header>
+								{% include verification.html %}
 							</div>
 						<hr>
 						</div>
@@ -159,10 +156,8 @@ td:first-child {
 
 						<div class="inner" id="tc_stat" style="display:none">
 							<div class="content">
-								<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
-									<p style="font-size:xxsmall">Historical Tropical Cyclone Statistics</p>
-									<h3 style="color:gray">TC Statistics</h3>
-								</header>
+								{% include tc_stat.html %}
+
 							</div>
 								<hr>
 						</div>
@@ -175,14 +170,7 @@ td:first-child {
 
 
 					<div class="inner" id="best_track" style="display:none">
-						<div class="content">
-							<header class="align-center" style="margin-top:-20px;margin-bottom:10px">
-								<p style="font-size:xxsmall">TC genesis, track, and landfall maps</p>
-								<h3 style="color:gray">Tropical Cyclone Track & Climatology</h3>
-							</header>
-							<br>
-							<p class="align-center" style="color:black;font-size:18px"><i class="fas fa-tools"></i> Under Construction <br> Check us back later! </p>
-						</div>
+						{% include track_clim.html %}
 						<hr>
 					</div>
 
@@ -207,31 +195,77 @@ td:first-child {
 
 
 			</section>
-
-
+			
 			<script>
-				function showDiv(btn,ctn,eye,txt) {
-					var ic = document.getElementById(eye)
-					var x = document.getElementById(ctn);
-					var property = document.getElementById(btn);
-					var str = document.getElementById(txt)
-					if (x.style.display === "none") {
-						x.style.display = "block";
-						property.style.backgroundColor = "#8a4680";
-						str.style.color = "white"
-						ic.classList.replace('fa-eye-slash','fa-eye');
-					} else {
-						x.style.display = "none";
-						property.style.backgroundColor = "transparent";
-						str.style.color = "black"
-						ic.classList.replace('fa-eye','fa-eye-slash');
-					}
-
-
-				}
-
-
-
-
-
+			  function showDiv(btn,ctn,eye,txt) {
+			    var ic = document.getElementById(eye)
+			    var x = document.getElementById(ctn);
+			    var property = document.getElementById(btn);
+			    var str = document.getElementById(txt)
+			    if (x.style.display === "none") {
+			      x.style.display = "block";
+			      property.style.backgroundColor = "#8a4680";
+			      str.style.color = "white"
+			      ic.classList.replace('fa-eye-slash','fa-eye');
+			    } else {
+			      x.style.display = "none";
+			      property.style.backgroundColor = "transparent";
+			      str.style.color = "black"
+			      ic.classList.replace('fa-eye','fa-eye-slash');
+			    }
+			  }
+			    function sortTable(tablename,n) {
+			      var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+			      table = document.getElementById(tablename);
+			      switching = true;
+			      //Set the sorting direction to descending:
+			      dir = "desc";
+			      /*Make a loop that will continue until
+			      no switching has been done:*/
+			      while (switching) {
+			        //start by saying: no switching is done:
+			        switching = false;
+			        rows = table.rows;
+			        /*Loop through all table rows (except the
+			        first, which contains table headers):*/
+			        for (i = 1; i < (rows.length - 1); i++) {
+			          //start by saying there should be no switching:
+			          shouldSwitch = false;
+			          /*Get the two elements you want to compare,
+			          one from current row and one from the next:*/
+			          x = rows[i].getElementsByTagName("TD")[n];
+			          y = rows[i + 1].getElementsByTagName("TD")[n];
+			          /*check if the two rows should switch place,
+			          based on the direction, asc or desc:*/
+			          if (dir == "asc") {
+			            if (Number(x.innerHTML) > Number(y.innerHTML)) {
+			              //if so, mark as a switch and break the loop:
+			              shouldSwitch= true;
+			              break;
+			            }
+			          } else if (dir == "desc") {
+			            if (Number(x.innerHTML) < Number(y.innerHTML)) {
+			              //if so, mark as a switch and break the loop:
+			              shouldSwitch = true;
+			              break;
+			            }
+			          }
+			        }
+			        if (shouldSwitch) {
+			          /*If a switch has been marked, make the switch
+			          and mark that a switch has been done:*/
+			          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+			          switching = true;
+			          //Each time a switch is done, increase this count by 1:
+			          switchcount ++;
+			        } else {
+			          /*If no switching has been done AND the direction is "desc",
+			          set the direction to "asc" and run the while loop again.*/
+			          if (switchcount == 0 && dir == "desc") {
+			            dir = "asc";
+			            switching = true;
+			          }
+			        }
+			      }
+			    }
 			</script>
