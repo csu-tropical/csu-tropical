@@ -1,0 +1,118 @@
+---
+layout: default_withdata
+title: CSU Tropical Research Projects
+---
+<html>
+
+
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+
+
+<style>
+.box header h2 {
+                        margin-bottom: 2rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+	border-radius: 0px 0px 0px 0px;
+	line-height: 5rem;}
+
+.align-justify {
+    text-align: justify;
+          }
+
+.container_fig{
+  width: 600px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.container_text {
+	width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+        }
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>{{page.full_name}}</h2>
+					</header>
+				</div>
+			</section>
+
+
+      <!-- Two -->
+      <section id="two" class="wrapper style2">
+
+        <div class="inner">
+            <header class="align-center">
+              <h3> <b> {{page.title}} </b></h3>
+            </header>
+              <h4 class="align-justify"> {{page.description}} {% if page.notes != false %} {{page.notes}} {% endif %}</h4>
+              <p class="align-center"> <i>Acknowledgement: {{page.acknowledgement}}</i></p>
+              <hr>
+
+
+          </div>
+          {% for entry in site.data.research.index_card %}
+          {% if entry.tcri == true and page.id == "tcri"%}
+
+         {% include index_card.html %}
+         {% endif %}
+        {% endfor %}
+
+        {% for entry in site.data.research.index_card %}
+        {% if entry.career == true and page.id == "career"%}
+
+        {% include index_card.html %}
+        {% endif %}
+      {% endfor %}
+
+      {% for entry in site.data.research.index_card %}
+      {% if entry.pecase == true and page.id == "pecase"%}
+      {% include index_card.html %}
+      {% endif %}
+    {% endfor %}
+
+    {% for entry in site.data.research.index_card %}
+    {% if entry.remote == true and page.id == "remotesensing"%}
+  {% include index_card.html %}
+  {% endif %}
+  {% endfor %}
+
+  {% for entry in site.data.research.index_card %}
+  {% if entry.precip == true and page.id == "precip"%}
+  {% include index_card.html %}
+  {% endif %}
+{% endfor %}
+
+{% for entry in site.data.research.index_card %}
+{% if entry.forecast == true and page.id == "tcforecast"%}
+{% include index_card.html %}
+{% endif %}
+{% endfor %}
+
+<div class="4u$ 12u$(medium)">
+<ul class="actions fit" style="margin-top:0px;margin-left:400px;margin-bottom:-10px;text-align:center;">
+  <li><a href="../research.html" class="button fit"><i class="fas fa-step-backward"></i>Go back to Research page</a></li>
+</ul>
+</div>
+      </section>

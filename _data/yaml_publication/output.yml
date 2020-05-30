@@ -1,0 +1,816 @@
+- # lastname,journal,year
+  id: belljas2019
+  # Published year of the paper
+  year: '2019'
+  # Title
+  title: Mesoscale Processes during the Genesis of Hurricane Karl (2010)
+  # Related Authors of the paper in our group. If none, please set it to 'false'
+  author1: bell
+  author2: false
+  author3: false
+  # Complete List of all authors.
+  authors: Bell, M. M., M. T. Montgomery
+  # Journal
+  journal: Journal of Atmospheric Sciences
+  # volume,number,pages, etc.
+  others: 76, 2235–2255
+  # DOI of the paper
+  doi: https://doi.org/10.1175/JAS-D-18-0161.1
+  # You can choose either to fill in the capsule summary or keypoints of the paper.
+  # For capsule summary, please put it in keypoint1, and set keypoint2 and keypoint3 to 'false'
+  keypoint1: Observations from PREDICT/GRIP/IFEX field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010).
+  keypoint2: The onset of deep convection and associated low-level spinup were closely
+    related to the coupling of the vorticity and moisture fields at low and midlevels.
+  keypoint3: The convective cycle in Karl alternately built the low- and midlevel
+    circulations leading to genesis episodically.
+  # Abstract of the paper.
+  abstract: Observations from the Pre-Depression Investigation of Cloud Systems in
+    the Tropics (PREDICT), Genesis and Rapid Intensification Processes (GRIP), and
+    Intensity Forecast Experiment (IFEX) field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010). Research aircraft missions provided Doppler radar, in situ flight level,
+    and dropsonde data documenting the structural changes of the predepression disturbance.
+    Following the pre-Karl wave pouch, variational analyses at the meso-β and meso-α
+    scales suggest that the convective cycle in Karl alternately built the low- and
+    midlevel circulations leading to genesis episodically rather than through a sustained
+    lowering of the convective mass flux from increased stabilization. Convective
+    bursts that erupt in the vorticity-rich environment of the recirculating pouch
+    region enhance the low-level meso-β- and meso-α-scale circulation through vortex
+    stretching. As the convection wanes, the resulting stratiform precipitation strengthens
+    the midlevel circulation through convergence associated with ice microphysical
+    processes, protecting the disturbance from the intrusion of dry environmental
+    air. Once the column saturation fraction returns to a critical value, a subsequent
+    convective burst below the midlevel circulation further enhances the low-level
+    circulation, and the convective cycle repeats. The analyses suggest that the onset
+    of deep convection and associated low-level spinup were closely related to the
+    coupling of the vorticity and moisture fields at low and midlevels. Our interpretation
+    of the observational analysis presented in this study reaffirms a primary role
+    of deep convection in the genesis process and provides a hypothesis for the supporting
+    role of stratiform precipitation and the midlevel vortex.
+  # Plain Language summary of the paper. If you decide to not include a plain language summary, please set it to 'false'
+  summary: false
+  # Provide a key figure of the paper. Change the name of the figure
+  image: ./Publications/figures/Bell_Montgomery_2019_Fig11.pdf # Key figure of the paper
+  # Caption of the key figure
+  caption: FIG. 11. Analyzed time series of meso-a-averaged quantities from initial
+    aircraft mission to Karl’s genesis. (a) Circulation tendency [1025 s21 3 (600
+    km)2 day21] at 850 (red circles) and 500 hPa (blue squares) using the left abscissa
+    and saturation fraction up to 700 hPa (green triangles) and cold-cloud fraction
+    below 2608C from Davis and Ahijevych (2012) using the right abscissa. (b) Relative
+    humidity at 850 hPa (green triangles, %), virtual potential temperature anomaly
+    at 850 hPa (purple squares, K), and virtual potential temperature anomaly at 500hPa
+    (black diamonds, K). The anomaly was calculated by removing the mean uy from the
+    time series at each respective level. Red stars below (b) denote mission times,
+    with 0000 and 1200 UTC 13 Sep highlighted.
+  # Acknowledgement of the research.
+  acknowledgement: This study was supported by the National Science Foundation (NSF)
+    Award AGS- 0851077. MMB also acknowledges support by the NSF CAREER Award AGS-1701225
+    and the Office of Naval Research (ONR) Director of Research Early Career Grant
+    N000141613033. MTM acknowledges the support of NSF Grant AGS-1313948, IAA-1656075,
+    NOAA HFIP Grant N0017315WR00048, NASA Grant NNG11PK021, ONR Grant 0001417WX00336,
+    and the U.S. Naval Postgraduate School. The authors thank the PREDICT, GRIP, and
+    IFEX teams for collecting the data used in this study. We would also like to thank
+    David Raymond and two anonymous reviewers for their insightful re- views that
+    improved the manuscript. All code and data used in this study are available upon
+    request.
+  # Provide the bibtex of the paper and change the name here
+  bibtex: ./Publications/bibtex/Bell_Montgomery_2019_bibtex.bib
+  # Modify the name of your paper pdf. Please check the google doc: https://docs.google.com/document/d/1U1OrkOIsccfD5M2mo8Dw9zp1JwMbnQSLfTjSd5t57YU/edit?usp=sharing
+  # If your pdf is not in there, please provide the pdf to us, and modify the path
+  pdf: ./Publications/papers/Bell_Montgomery_JAS2019.pdf
+  # Choose three keywords of your paper. ONLY THREE!
+  keyword1: Genesis
+  keyword2: Mesoscale
+  keyword3: TC case study
+- id: caronbams2020
+  year: '2020'
+  title: Making Seasonal Outlooks of Arctic Sea Ice and Atlantic Hurricanes Valuable—Not
+    Just Skillful
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Caron, L.-P., F. Massonet, P. J. Klotzbach, T. J. Philp, J. Stroeve
+  journal: Bulletin of the American Meteorological Society
+  others: 101, E36-E42
+  doi: https://doi.org/10.1175/BAMS-D-18-0314.1
+  keypoint1: This in box article for BAMS briefly examines seasonal forecasts of Atlantic
+    hurricane activity and Arctic sea ice. Both seasonal hurricane forecasts and Arctic
+    sea ice predictions need to continue to develop to be more useful for stakeholders
+    for risk transfer and mitigation purposes.
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: ./Publications/figures/caron_et_al_2020_Fig1.jpg
+  caption: FIG. 1. Forecasts of North Atlantic basinwide hurricane number and verification
+    data. The observed number of hurricanes for each season is shown in gray (Landsea
+    and Franklin 2013). The light blue dots are all of the latest indi-vidual hurricane
+    outlooks collected since 2015 (one dot per group). The dark blue line is the median
+    of those outlooks. The green and purple lines are two benchmark forecasts - the
+    climatology forecast is defined as the average of all hurricane counts from 1969
+    to the current year minus one (green), and the 10-yr persistence forecast is defined
+    as the average of all hurricane counts from the 10 preceding years (purple). The
+    numbers along the x axis indicate the number of forecast that have been submitted
+    for a given year for that particular variable.
+  acknowledgement: We would like to acknowledge the participation of the numerous
+    forecasting organizations that submit their forecasts to both platforms on a regular
+    basis, without whose support neither projects would be possible. LPC and PJK would
+    like to acknowledge the support of XL Catlin (now AXA XL). FM is a F.R.S.–FNRS
+    Research Associate. PJK would also like to acknowledge support from the G. Unger
+    Vetlesen Foundation. JS acknowledges the support of NE/R017123/1 [NSFGEO-NERC
+    Advancing Predictability of Sea Ice, Phase 2 of the Sea Ice Prediction Network
+    (SIPN2)]. Finally, we are grateful to three anonymous reviewers who provided us
+    with helpful comments.
+  bibtex: ./Publications/bibtex/caron_et_al_2020_bibtex.bib
+  pdf: ./Publications/papers/caron_et_al_2020.pdf
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Human/societal impacts
+- id: dehartbelljgr2020
+  year: '2020'
+  title: A Comparison of the Polarimetric Radar Characteristics of Heavy Rainfall
+    from Hurricanes Harvey (2017) and Florence (2018)
+  firstauthor: dehart
+  authors: DeHart, J. C., M. M. Bell
+  journal: Journal of Geophysical Research - Atmospheres
+  others: early online release
+  doi: https://doi.org/10.1029/2019JD032212
+  keypoint1: Rain drop size distributions in Harvey and Florence were broadly similar
+    to other tropical cyclones
+  keypoint2: High-concentrations of midsize drops were more common and widespread
+    in Harvey than in Florence
+  keypoint3: Harvey's rainfall was more intense and asymmetric due to vertical wind
+    shear and a weaker intensity
+  abstract: Polarimetric coastal radar data are used to compare the rainfall characteristics
+    of Hurricanes Harvey (2017) and Florence (2018). Intense rainfall was an infrequent
+    yet important contributor to the total rainfall in Harvey, but its relative contribution
+    varied spatially. The total rainfall over land maximized near the coast over Beaumont,
+    TX due to intense convection resulting from prolonged onshore flow downshear from
+    the circulation center. Overall, polarimetric radar observations in Harvey show
+    a dominance of high concentrations of small-to-medium drops, consistent with prior
+    tropical cyclone studies. The microphysical characteristics were spatially and
+    temporally inhomogeneous however, with larger drops more frequent on 27 August
+    and higher number concentrations more frequent on 28 and 30 August. The polarimetric
+    variables and raindrop characteristics observed during Florence share broad similarities
+    to Harvey, but had reduced variability, fewer observations of stronger reflectivity
+    and differential reflectivity, and a lower frequency of high number concentrations
+    and medium-sized drops. The radar data indicate Florence had reduced coverage
+    of stronger convection compared to Harvey. We hypothesize that differences in
+    storm motion, intensity decay rates, and vertical wind shear produce the distinct
+    precipitation structures and microphysical differences seen in Harvey and Florence.
+  summary: false
+  image: ./Publications/figures/DeHart_Bell_JGR_2020_Fig9.jpg
+  caption: >
+    FIG. 9. a) Joint probability distribution (contours) of range-weighted $N_W$ and
+    $D_0$ values calculated from the KHGX polarimetric data for Harvey between 0000
+    UTC on 26 August and 0000 UTC on 31 August. Theoretical LWC values (colors) are
+    calculated from Equation 2. Labels indicate the different DSD quadrants (SL: low-concentration
+    small drops, ML: low-concentration medium drops, SH: high-concentration small
+    drops, and MH: high-concentration medium drops). b) As in a), but for data from
+    KMHX for Florence between 0000 UTC on 13 September and 1922 UTC on 15 September,
+    when the radar went offline and c) the difference joint probability distribution
+    between Florence/KMHX and Harvey/KHGX (dashed contours indicate frequencies were
+    greater for KHGX).
+
+  acknowledgement: This study was supported by National Science Foundation awards
+    AGS-1701225, AGS-1854607, and OAC-1661663. The authors would like to thank Dr.
+    Ya-Chien Feng for her comments on the manuscript. The authors would also like
+    to thank the three anonymous reviewers, whose comments helped improve this manuscript.
+  bibtex: ./Publications/bibtex/DeHart_Bell_JGR_2020.bib
+  pdf: ./Publications/papers/DeHart_Bell_JGR_2020.pdf
+  keyword1: Heavy Rainfall
+  keyword2: Radar
+  keyword3: TC Case Study
+- id: jones2020tropical
+  year: '2020'
+  title: Tropical and Subtropical North Atlantic Vertical Wind Shear and Seasonal
+    Tropical Cyclone Activity
+  author1: jones
+  author2: bell
+  author3: klotzbach
+  authors: Jones, Jhordanne J., Michael M. Bell, Philip J. Klotzbach
+  journal: Journal of Climate
+  others: false
+  # DOI of paper
+  doi: https://doi.org/10.1175/JCLI-D-19-0474.1
+  # Keypoints of Paper & Abstract
+  keypoint1: Anti-cyclonic wave breaking (AWB) activity is shown to be associated
+    with the second leading EOF mode in tropical North Atlantic vertical wind shear
+    (VWS) and accounts for 23% of the structured variance.
+  keypoint2: While the tropical sources of VWS from ENSO and the AMM remain the dominant
+    drivers of tropical North Atlantic VWS, the extratropical sources of VWS from
+    AWB are an important contribution to tropical and subtropical VWS variability
+    and tropical cyclone (TC) activity.
+  keypoint3: VWS anomalies induced by AWB activity may be a suitable indicator of
+    AWB impacts on VWS and its subsequent influence on seasonal TC activity.
+  abstract: Given recent insights into the role of anticyclonic Rossby wave breaking
+    (AWB) in driving subseasonal and seasonal North Atlantic tropical cyclone (TC)
+    activity, this study further examines tropical versus subtropical impacts on TC
+    activity by considering large-scale influences on boreal summer tropical zonal
+    vertical wind shear (VWS) variability, a key predictor of seasonal TC activity.
+    Through an empirical orthogonal function analysis, it is shown that subtropical
+    AWB activity drives the second mode of variability in tropical zonal VWS, while
+    El Niño-Southern Oscillation (ENSO) primarily drives the leading mode of variability.
+    Linear regressions of the four leading principal components against tropical North
+    Atlantic zonal VWS and accumulated cyclone energy show that, while the leading
+    mode holds much of the regression strength, some improvement can be achieved with
+    the addition of the second and third modes. Furthermore, an index of AWB-associated
+    VWS anomalies, a proxy for AWB impacts on the large-scale environment, may be
+    a better indicator of summertime VWS anomalies. The utilization of this index
+    may be used to better understand AWB’s contribution to seasonal TC activity.
+  summary: false
+  # Key Image
+  image: ./Publications/figures/Jones_etal_Figure7.pdf
+  caption: FIG. 7. The first four principal components (PC) of July-September tropical
+    North Atlantic zonal VWS anomalies. The PCs are expressed as a unit variance from
+    the zero-mean. Each PC (in black) is plotted along with the July-September climate
+    index (in blue) showing the largest correlation with the PC. PCs 3 and 4 are multiplied
+    by a factor of -1 to better highlight the correlation between the corresponding
+    climate index. The Walker circulation and Sahel rainfall indices are standardized
+    to be comparable to PCs 3 and 4. The blue dashed lines indicate $\pm$1 standard
+    deviation.
+  # Acknowledgements
+  acknowledgement: This research was supported by the Office of Naval Research Award
+    N000141613033, the Fulbright Foreign Student Program, the Institute of International
+    Education (IIE), and the G. Unger Vetlesen Foundation. Special thanks to Philippe
+    Papin for his many insights and to Ben Trabing for his invaluable comments and
+    suggestions in the writing of this manuscript. We would also like to thank the
+    Editor and the three anonymous reviewers who provided us with many helpful comments
+    and suggestions that improved the papers final form.
+  bibtex: ./Publications/bibtex/Jones_etal_2020.bib
+  pdf: ./Publications/papers/Jones_etal_JCLI_2020.pdf
+  keyword1: seasonal TC activity
+  keyword2: vertical wind shear
+  keyword3: anticyclonic wave breaking
+- id: klotzbachscirep2019
+  year: '2019'
+  title: On the Emerging Relationship between the Stratospheric Quasi-Biennial Oscillation
+    and the Madden-Julian Oscillation
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J., A. Santra, H. H. Hendon, M. M. Bell, C. Lucas, A. G.
+    Marshall, E. C. J. Oliver
+  journal: Scientific Reports
+  others: 9, 2981
+  doi: https://doi.org/10.1038/s41598-019-40034-6
+  keypoint1: This manuscript examines the relationship between the QBO and the MJO
+    during the boreal winter and finds that the strong relationship observed in recent
+    years did not exist prior to the mid 1970s.  We hypothesize that climate change
+    has strengthened the relationship between the MJO and QBO.
+  keypoint2: false
+  keypoint3: false
+  abstract: A strong relationship between the quasi-biennial oscillation (QBO) of
+    equatorial stratospheric winds and the amplitude of the Madden-Julian oscillation
+    (MJO) during the boreal winter has recently been uncovered using observational
+    data from the mid-1970s to the present. When the QBO is in its easterly phase
+    in the lower stratosphere, it favors stronger MJO activity during boreal winter,
+    while the MJO tends to be weaker during the westerly phase of the QBO. Here we
+    show using reconstructed indices of the MJO and QBO back to 1905 that the relationship
+    between enhanced boreal winter MJO activity and the easterly phase of the QBO
+    has only emerged since the early 1980s. The emergence of this relationship coincides
+    with the recent cooling trend in the equatorial lower stratosphere and the warming
+    trend in the equatorial upper troposphere, which appears to have sensitized MJO
+    convective activity to QBO-induced changes in static stability near the tropopause.
+    Climate change is thus suggested to have played a role in promoting coupling between
+    the MJO and the QBO.
+  summary: false
+  image: ./Publications/figures/klotzbach_et_al_2019_scirep_Fig2.jpg
+  caption: FIG. 2. 30-year running correlation between DJF-averaged MJO amplitude
+    and the QBO index. Correlation values are shown using the Wheeler-Hendon MJO index
+    (red line), the JRA-55 MJO index (blue line) and the long-term reconstructed MJO
+    (OT) index (thick black solid line) with the ordinate on the x-axis given by the
+    central year of the 30-year running window. Maximum and minimum 30-year running
+    correlations for the reconstructed index are also displayed (thin black solid
+    lines), calculated from the 56 members of the long-term MJO index ensemble. The
+    dashed line represents the 5% statistical significance level.
+  acknowledgement: >
+    P.K. acknowledges support from the G. Unger Vetlesen Foundation. M.B. and P.K.
+    were supported by Office of Naval Research Award N000141613033. S.A. would like
+    to acknowledge support from the Rural Research and Development for Profit Program
+    of the Department of Agriculture and Water Resources of the Australian Government.
+    E.O. was supported by the National Sciences and Engineering Council of Canada
+    (NSERC) Discovery Grant RGPIN-2018-05255. The reconstructed MJO index was obtained
+    from E.O.’s website: https://ecjoliver.weebly.com/mjo-reconstruction.html.
+
+  bibtex: ./Publications/bibtex/klotzbach_et_al_2019_scirep_bibtex.bib
+  pdf: ./Publications/papers/klotzbach_et_al_2019_scirep.pdf
+  keyword1: Quasi-biennial oscillation
+  keyword2: Madden-Julian oscillation
+  keyword3: Seasonal
+- id: klotzbachtcrr2019
+  year: '2019'
+  title: Seasonal Tropical Cyclone Forecasting
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Klotzbach, P. J., E. Blake, J. Camp, L.-P. Caron, J. C. L. Chan, N.-Y.
+    Kang, Y. Kuleshov, S.-M. Lee, H. Murakami, M. Saunders, Y. Takaya, F. Vitart,
+    R. Zhan
+  journal: Tropical Cyclone Research and Review
+  others: 8, 134-149
+  doi: https://doi.org/10.6057/2019TCRR03.03
+  keypoint1: This manuscript examines several of the currently-available seasonal
+    tropical cyclone forecasts for various tropical cyclone basins around the globe.
+  keypoint2: false
+  keypoint3: false
+  abstract: This paper summarizes the forecast methods, outputs and skill offered
+    by twelve agencies for seasonal tropical cyclone (TC) activity around the world.
+    These agencies use a variety of techniques ranging from statistical models to
+    dynamical models to predict basinwide activity and regional activity. In addition,
+    several dynamical and hybrid statistical/dynamical models now predict TC track
+    density as well as landfall likelihood. Realtime Atlantic seasonal hurricane forecasts
+    have shown low skill in April, modest skill in June and good skill in August at
+    predicting basinwide TC activity when evaluated over 2003-2018. Real-time western
+    North Pacific seasonal TC forecasts have shown good skill by July for basinwide
+    intense typhoon numbers and the ACE index when evaluated for 2003-2018. Both hindcasts
+    and real-time forecasts have shown skill for other TC basins. A summary of recent
+    research into forecasting TC activity beyond seasonal (e.g., multi-year) timescales
+    is included. Recommendations for future areas of research are also discussed.
+  summary: false
+  image: ./Publications/figures/klotzbach_et_al_2019_tcrr_Fig1.jpg
+  caption: FIG. 1. Real-time skill of North Atlantic seasonal tropical cyclone outlooks
+    assessed for the 16-year period 2003-2018. The skill of the seasonal outlooks
+    issued by CSU (red lines), Tropical Storm Risk (TSR, blue lines) and the National
+    Oceanic and Atmospheric Administration (NOAA, green lines) are compared for (a)
+    ACE, (b) major hurricane numbers, (c) hurricane numbers and (d) named storm numbers.
+    The skill is shown as the Pearson correlation (r) between the forecast values
+    (issued separately in early April, early June and early August) and the observed
+    values.
+  acknowledgement: An anonymous reviewer provided very thorough comments and helpful
+    suggestions. We would like to thank Gerry Bell for compiling NOAA’s eastern North
+    Pacific seasonal hurricane forecast verification statistics. P. Klotzbach was
+    supported by the G. Unger Vetlesen Foundation. L.-P. Caron would like to acknowledge
+    financial support from the European Union’s Horizon 2020 Research and Innovation
+    programme (EUCP; grant agreement no. 776613) and from the Ministerio de Economía
+    y Competitividad (MINECO) as part of the CLINSA (CGL2017-85791-R) and HIATUS (CGL2015-70353-R)
+    projects. Y. Takaya would like to acknowledge support of JSPS KAKENHI Grant Numbers
+    JP17K14395 and JP17K01223. N.-Y. Kang would like to acknowledge financial support
+    from the National Typhoon Center at the Korea Meteorological Administration (“Research
+    and Development for Numerical Weather Prediction and Earthquake Services” project).
+    J. Camp would like to acknowledge support from the UK Public Weather Service research
+    programme. The work of J. C. L. Chan was supported by the Research Grants Council
+    of the Hong Kong Special Administrative Region of China Grant E-CityU101/16.
+  bibtex: ./Publications/bibtex/klotzbach_et_al_2019_tcrr_bibtex.bib
+  pdf: ./Publications/papers/klotzbach_et_al_2019_tcrr.pdf
+  keyword1: Seasonal
+  keyword2: Forecasting
+  keyword3:
+- id: chagrl2020 # lastname,journal,year
+  year: '2020'
+  title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane
+    Michael (2018)
+  author1: cha
+  author2: bell
+  author3: desrosiers
+  authors: Cha, T-Y., M. M. Bell, W.-C. Lee, A. J. DesRosiers
+  journal: Geophysical Research Letters
+  others: In review
+  doi: false
+  keypoint1: Single Doppler radar retrievals capture the structural evolution of Hurricane
+    Michael's polygonal eyewall during rapid intensification. # It can be capsule summary or keypoint
+  keypoint2: The propagation speeds of asymmetric winds and reflectivity are consistent
+    with linear vortex Rossby wave theory.
+  keypoint3: Coastal radar observations and the generalized velocity track display
+    technique can help to improve tropical cyclone intensity forecasts.
+  abstract: Hurricane Matthew (2016) was observed by the NEXRAD KAMX polarimetric
+    radar and NOAA P-3 airborne radar near the coast of the southeastern United States
+    for several hours, providing a novel opportunity to evaluate and compare single
+    and multiple Doppler wind retrieval techniques for tropical cyclone flows. The
+    generalized velocity track display (GVTD) technique can retrieve a subset of the
+    wind field from a single ground-based Doppler radar under the assumption of nearly
+    axisymmetric rotational wind, but is shown to have errors from aliasing of unresolved
+    wind components. An improved technique that mitigates errors due to storm motion
+    is derived in this study, although some spatial aliasing remains due to limited
+    information content from the single Doppler measurements. A spline-based variational
+    wind retrieval technique called SAMURAI can retrieve the full three-dimensional
+    wind field from airborne radar fore-aft pseudo-dual Doppler scanning, but is shown
+    to have errors due to temporal aliasing from the non-simultaneous Doppler measurements.
+    A comparison between the two techniques shows that the axisymmetric tangential
+    winds are generally comparable between the two techniques after the improvements
+    to GVTD retrievals. Fourier decomposition of asymmetric kinematic and convective
+    structure shows more discrepancies due to spatial and temporal aliasing in the
+    retrievals. The advantages and disadvantages of each technique for studying tropical
+    cyclone structure are discussed, and suggest that complementary information can
+    be retrieved from both single and multiple Doppler retrievals. Future improvements
+    to the asymmetric flow assumptions in single Doppler analysis and steady-state
+    assumptions in pseudo-dual Doppler analysis are required to reconcile differences
+    in retrieved tropical cyclone structure.
+  summary: Polygonal eyewall asymmetries of Hurricane Michael (2018) during rapid
+    intensification (RI) are analyzed from ground-based single Doppler radar. Here
+    we present the first observational evidence of the evolving wind field of a polygonal
+    eyewall during RI to Category 5 intensity by deducing the axisymmetric and asymmetric
+    winds at 5-minute intervals. Spectral time decomposition of the retrieved tangential
+    wind structure shows quantitative evidence of high-order azimuthal wavenumbers
+    with propagation speeds that are consistent with linear wave theory on a radial
+    vorticity gradient, suggesting the presence of rapidly-evolving vortex Rossby
+    waves. Dual-Doppler winds from the airborne NOAA P-3 Hurricane Hunter provide
+    further evidence of the three-dimensional vortex structure that supports growth
+    of asymmetries during RI. Both reflectivity and tangential wind fields show polygonal
+    structure and propagate at similar speeds, suggesting a close coupling of the
+    dynamics and the convective organization during the intensification.
+  image: ../Publications/figures/Cha_et_al_GRL_2020.png
+  caption: Spectral time decomposition of m = 1 - 4 (a) tangential wind components
+    (b) reflectivity components. The derived propagation speeds of each (c) tangential
+    wavenumber and (d) reflectivity wavenumber and the theoretical VRWs propagation
+    speed from the linear wave theory. Figure is derived from Fig. 4 in Cha et al.
+    2020.
+  acknowledgement: Supported by National Science Foundation awards AGS-1701225 and
+    OAC-1661663, and Office of Naval Research awards N000141613033 and N000142012069.
+  bibtex: ../Publications/bibtex/Cha_et_al_GRL_2020.tex
+  pdf: ../Publications/papers/Cha_et_al_GRL_2020.pdf
+  keyword1: Asymmetric Dynamics
+  keyword2: Radar
+  keyword3: TC case study
+- id: belljas2019
+  year: '2019'
+  title: Mesoscale Processes during the Genesis of Hurricane Karl (2010)
+  author1: bell
+  author2: false
+  author3: false
+  authors: Bell, M. M., M. T. Montgomery
+  journal: Journal of Atmospheric Sciences
+  others: 76, 2235–2255
+  doi: https://doi.org/10.1175/JAS-D-18-0161.1
+  keypoint1: Observations from PREDICT/GRIP/IFEX field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010).
+  keypoint2: The onset of deep convection and associated low-level spinup were closely
+    related to the coupling of the vorticity and moisture fields at low and midlevels.
+  keypoint3: The convective cycle in Karl alternately built the low- and midlevel
+    circulations leading to genesis episodically.
+  abstract: Observations from the Pre-Depression Investigation of Cloud Systems in
+    the Tropics (PREDICT), Genesis and Rapid Intensification Processes (GRIP), and
+    Intensity Forecast Experiment (IFEX) field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010). Research aircraft missions provided Doppler radar, in situ flight level,
+    and dropsonde data documenting the structural changes of the predepression disturbance.
+    Following the pre-Karl wave pouch, variational analyses at the meso-β and meso-α
+    scales suggest that the convective cycle in Karl alternately built the low- and
+    midlevel circulations leading to genesis episodically rather than through a sustained
+    lowering of the convective mass flux from increased stabilization. Convective
+    bursts that erupt in the vorticity-rich environment of the recirculating pouch
+    region enhance the low-level meso-β- and meso-α-scale circulation through vortex
+    stretching. As the convection wanes, the resulting stratiform precipitation strengthens
+    the midlevel circulation through convergence associated with ice microphysical
+    processes, protecting the disturbance from the intrusion of dry environmental
+    air. Once the column saturation fraction returns to a critical value, a subsequent
+    convective burst below the midlevel circulation further enhances the low-level
+    circulation, and the convective cycle repeats. The analyses suggest that the onset
+    of deep convection and associated low-level spinup were closely related to the
+    coupling of the vorticity and moisture fields at low and midlevels. Our interpretation
+    of the observational analysis presented in this study reaffirms a primary role
+    of deep convection in the genesis process and provides a hypothesis for the supporting
+    role of stratiform precipitation and the midlevel vortex.
+  summary: false
+  image: ../Publications/figures/Bell_Montgomery_2019_Fig11.pdf
+  caption: FIG. 11. Analyzed time series of meso-a-averaged quantities from initial
+    aircraft mission to Karl’s genesis. (a) Circulation tendency [1025 s21 3 (600
+    km)2 day21] at 850 (red circles) and 500 hPa (blue squares) using the left abscissa
+    and saturation fraction up to 700 hPa (green triangles) and cold-cloud fraction
+    below 2608C from Davis and Ahijevych (2012) using the right abscissa. (b) Relative
+    humidity at 850 hPa (green triangles, %), virtual potential temperature anomaly
+    at 850 hPa (purple squares, K), and virtual potential temperature anomaly at 500hPa
+    (black diamonds, K). The anomaly was calculated by removing the mean uy from the
+    time series at each respective level. Red stars below (b) denote mission times,
+    with 0000 and 1200 UTC 13 Sep highlighted.
+  acknowledgement: This study was supported by the National Science Foundation (NSF)
+    Award AGS- 0851077. MMB also acknowledges support by the NSF CAREER Award AGS-1701225
+    and the Office of Naval Research (ONR) Director of Research Early Career Grant
+    N000141613033. MTM acknowledges the support of NSF Grant AGS-1313948, IAA-1656075,
+    NOAA HFIP Grant N0017315WR00048, NASA Grant NNG11PK021, ONR Grant 0001417WX00336,
+    and the U.S. Naval Postgraduate School. The authors thank the PREDICT, GRIP, and
+    IFEX teams for collecting the data used in this study. We would also like to thank
+    David Raymond and two anonymous reviewers for their insightful re- views that
+    improved the manuscript. All code and data used in this study are available upon
+    request.
+  bibtex: ../Publications/bibtex/Bell_Montgomery_2019_bibtex.bib
+  pdf: ../Publications/papers/Bell_Montgomery_JAS2019.pdf
+  keyword1: Genesis
+  keyword2: Mesoscale
+  keyword3: TC case study
+- id: nammwr2020
+  year: '2020'
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: "In review"
+  doi: false
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with
+    vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales
+    using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity
+    inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new
+    insight for the supporting role of low-level VWS providing horizontal vorticity
+    and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic
+    to meso scales using airborne Doppler radar observations of pre-depression Hagupit
+    during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional
+    Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations
+    reveal complex localized convective and vortical characteristics of a pre-depression
+    in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric
+    trough during the observation period. The strong deep-layer VWS (> 20 m s -1)
+    had a negative impact on the development through misalignment of the low and mid-level
+    circulations and dry air intrusion. However, the low-level circulation persisted
+    and the system ultimately formed into a tropical cyclone after it left the high-shear
+    zone. Here we propose that a key process that enabled the predepression to survive
+    through the upper-tropospheric trough interaction was persistent vorticity amplification
+    on the meso-gamma scale that was aggregated on the mesoalpha scale within the
+    pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the
+    low-level horizontal vorticity into the vertical in the early stage of convective
+    life-cycle, followed by stretching from maturing deep convection. Variations in
+    low-level VWS on the meso-beta scale affect convective organization and horizontal
+    vorticity generation. The results provide new insights into multi-scale processes
+    during TC genesis and the interactions of a pre-depression with VWS at various
+    spatial scales.
+
+  summary: false
+  image: ./Publications/figures/Nam_Bell_2020_Fig13.pdf
+  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
+    a) Synoptic scale’s active features are upper-level trough and easterly waves,
+    which carry the marsupial wave pouch shown as red circulation. b) Inside the meso-a
+    scale wave pouch, shown are the low-level cyclonic stream lines with its center
+    marked with black cross and mid-level center as yellow cross. Over the clouds
+    shifted to southwest from the low-level center is vorticity (positive - red, negative
+    - blue), showing vorticity dipoles from tilting, enhanced bigger vortex from stretching,
+    and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig.
+    7b), the squall-like NW-SE convection can be explained by the local wind shear
+    profile consist of winds from cyclonic circulation inside pouch, marsupial wave
+    propagation, and the trough. Thick black lines in the lowerleft corner of the
+    circle indicates convective line; L indicates ENE low-level shear; M indicates
+    WNW mid-level shear. d) Meso-g scale convective cells produce vorticity that serves
+    as building block for the wave pouch intensification through tilting the horizontal
+    shear (S cell) and stretching the existent vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225
+    and 412 Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+
+  bibtex: false
+  pdf: false
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+- id: saundersess2020
+  year: '2020'
+  title: Quantifying the Probability and Causes of the Surprisingly Active 2018 North
+    Atlantic hurricane season
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Saunders, M. A., P. J. Klotzbach, A. S. R. Lea, C. J. Schreck, M. M. Bell
+  journal: Earth and Space Science
+  others: 7, e2019EA000852
+  doi: https://doi.org/10.1029/2019EA000852
+  keypoint1: The 2018 North Atlantic hurricane season witnessed activity 25% above
+    the long-term average, due mainly to high activity in the subtropics
+  keypoint2: The environmental fields that explain most variance in long-term hurricane
+    activity all predicted a below-normal 2018 hurricane season
+  keypoint3: The 2018 hurricane season highlights the need for seasonal hurricane
+    outlooks to be issued in terms of probability of exceedance
+  abstract: The 2018 North Atlantic hurricane season was a destructive season with
+    hurricanes Florence and Michael causing significant damage in the southeastern
+    United States. In keeping with most destructive hurricane seasons, basinwide tropical
+    cyclone activity was above average in 2018?by ~25% for named storm numbers, hurricane
+    numbers, and Accumulated Cyclone Energy (ACE). In contrast to this above-normal
+    activity, the August?September tropical environmental fields that explain ~50%
+    of the variance in Atlantic basin hurricane activity between 1950 and 2017 anticipated
+    a well below-average 2018 hurricane season. The surprisingly large mismatch between
+    the observed and replicated levels of hurricane activity in 2018 is an extreme
+    example of the uncertainty inherent in seasonal hurricane outlooks and highlights
+    the need for these outlooks to be issued in terms of probability of exceedance.
+    Such probabilistic information would better clarify the uncertainty associated
+    with hurricane outlooks to the benefit of users. With retrospective knowledge
+    of the August?September 2018 key tropical environmental fields, the chance that
+    the observed 2018 Atlantic hurricane activity would occur is about 5%. The reasons
+    for the surprisingly high hurricane activity in 2018 are a hurricane outbreak
+    in early September and, in particular, the occurrence of unusually high tropical
+    cyclone activity in the subtropical North Atlantic. The hyperactive subtropical
+    activity was not anticipated because contemporary statistical models of seasonal
+    Atlantic hurricane activity lack skill in anticipating subtropical ACE compared
+    to tropical ACE.
+  summary: Seasonal outlooks for North Atlantic hurricane activity contribute to the
+    anticipation of risk for insurance companies, other weather-sensitive businesses,
+    and local and national governments. However, the uncertainty associated with such
+    forecasts is often unclear. This reduces their benefit and contributes to the
+    perception of forecast “busts.” The issue is highlighted by the destructive and
+    surprising 25% above-average 2018 Atlantic hurricane season. Retrospective examination
+    of the key August–September 2018 environmental fields that explain ~50% of long‐term
+    Atlantic hurricane activity shows that all were consistent with a well below‐average
+    2018 hurricane season. A below‐normal season was also anticipated by hurricane
+    outlooks issued in early August 2018. The large mismatch between the observed
+    and replicated levels of hurricane activity in 2018 is an extreme example of the
+    uncertainty inherent in hurricane outlooks. We show that this uncertainty may
+    be properly clarified by expressing outlooks in terms of probability of exceedance.
+    The likelihood that the observed 2018 hurricane activity would occur with retrospective
+    knowledge of the key environmental fields is about 5%. Hyperactive storm activity
+    in the subtropical North Atlantic contributed to the surprisingly active 2018
+    hurricane season. The unusual subtropical activity was not anticipated because
+    statistical models lack skill in anticipating such activity.
+  image: ./Publications/figures/saunders_et_al_2020_Fig3.jpg
+  caption: FIG. 3. Scatter plots showing the nature and the strength of the links
+    between three key environmental fields in Table 1 and ACE (×104 kt2). These links
+    are displayed for 1950–2017 data (left column) and for 1979–2017 data (right column).
+    The environmental fields are (a and b) August–September 925 hPa uT, (c and d)
+    August–September MDR SST, and (e and f) August–September 200–850 hPa zonal VWS.
+    Each panel shows the best fit linear regression line (computed by transforming
+    ACE and each environmental field to normal distributions and then transforming
+    back) and the percentage of the ACE variance that this line explains (r2). Red
+    circles denote the 2018 values. Green circles denote the 2013 values (mentioned
+    in section 6.1).
+  acknowledgement: We thank Ryan Truchelut and two anonymous reviewers for their thorough
+    reading of the manuscript and for helpful comments and suggestions. P. J. Klotzbach
+    acknowledges support from the Office of Naval Research (Award N000141613033) and
+    from the G. Unger Vetlesen Foundation. C. J. Schreck acknowledges support from
+    NOAA through the Cooperative Institute for Climate and Satellites‐North Carolina
+    (Cooperative Agreement NA14NES432003). M. M. Bell acknowledges support from the
+    Office of Naval Research (Award N000141613033). The authors declare that they
+    have no financial conflicts of interest.
+  bibtex: ./Publications/bibtex/saunders_et_al_2020_bibtex.bib
+  pdf: ./Publications/papers/saunders_et_al_2020.pdf
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Human/societal impacts
+- id: wahiduzzamanintjclim2019
+  year: '2019'
+  title: A Statistical Seasonal Forecast Model of North Indian Ocean Tropical Cyclones
+    using the Quasi-Biennial Oscillation
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Wahiduzzaman, M., E. C. J. Oliver, P. J. Klotzbach, S. J. Wotherspoon,
+    N. J. Holbrook
+  journal: International Journal of Climatology
+  others: 39, 934-952
+  doi: https://doi.org/10.1002/joc.5853
+  keypoint1: This manuscript proposes using the QBO to model cyclone tracks over the
+    North Indian Ocean
+  keypoint2: More North Indian Ocean TCs were found to form when the QBO was in its
+    east phase than when the QBO was in its west phase, and these TCs were more likely
+    to track westward and northwestward.
+  keypoint3: Alternatively, when the QBO was in its west phase, TCs were more likely
+    to track northward and northeastward.
+  abstract: Previous studies have shown that the skill of seasonal forecasts of tropical
+    cyclone (TC) activity over the North Indian Ocean (NIO) tends to be poor. This
+    paper investigates the forecast potential of TC formation, trajectories and points
+    of landfall in the NIO region using an index of the stratospheric quasi-biennial
+    oscillation (QBO) as the predictor variable in a new statistical seasonal forecast
+    model. Genesis was modelled by kernel density estimation, tracks were fitted using
+    a generalized additive model (GAM) approach with an Euler integration step, and
+    landfall location was estimated using a country mask. The model was trained on
+    30 years of TC observations (1980–2009) from the Joint Typhoon Warning Center
+    and the QBO index at lags from 0 to 6 months. Over this time period, and within
+    each season and QBO phase, the kernel density estimator modelled the distribution
+    of genesis points, and the cyclone trajectories were then fit by the GAM along
+    the observed cyclone tracks as smooth functions of location. Trajectories were
+    simulated from randomly selected genesis points in the kernel density estimates.
+    Ensembles of cyclone paths were traced, taking account of random innovations every
+    6-hr along the GAM-fitted velocity fields, to determine the points of landfall.
+    Lead–lag analysis was used to assess the best predictor timescales for TC forecast
+    potential. We found that the best model utilized the QBO index with a 3-month
+    lead. Two hindcast validation methods were applied. First, leave-one-out cross-validation
+    was performed where the country of landfall was decided by the majority vote of
+    the simulated tracks. Second, the distances between the landfall locations in
+    the observations and simulations were calculated. Application of seasonal forecast
+    analysis further indicated that including information on the state of the QBO
+    has the potential to improve the skill of TC seasonal forecasts in the NIO region.
+  summary: false
+  image: ./Publications/figures/wahiduzzaman_et_al_2019_Fig7.jpg
+  caption: FIG. 7. Probabilities of TC landfall (%) by model simulation across the
+    NIO rim states for both QBO phases. Grey indicates that no landfalls are simulated.
+  acknowledgement: We would like to sincerely thank the anonymous reviewers for their
+    insightful comments that helped us to significantly improve the quality of this
+    manuscript. M.W. was supported by a Tasmania Graduate Research Scholarship (TGRS)
+    for this PhD research undertaken at the University of Tasmania, Hobart, Tasmania,
+    Australia. P.J.K. by a grant from the G. Unger Vetlesen Foundation and N.J.H.
+    by funding from CE170100023.
+  bibtex: ./Publications/bibtex/wahiduzzaman_et_al_2019_bibtex.bib
+  pdf: ./Publications/papers/wahiduzzaman_et_al_2019.pdf
+  keyword1: Quasi-biennial oscillation
+  keyword2: Forecasting
+  keyword3: Seasonal
+- id: zhaoetal2019climdynequatorialwaves2019
+  year: '2019'
+  title: Multi-scale interactions of equatorial waves associated with tropical cyclogenesis
+    over the western North Pacific
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Zhao, H., X. Jiang, L. Wu, P. J. Klotzbach
+  journal: Climate Dynamics
+  others: 52, 3023-3038
+  doi: https://doi.org/10.1007/s00382-018-4307-z
+  keypoint1: This manuscript investigated the roles of several different atmospheric
+    wave types on western North Pacific TC formation
+  keypoint2: Nearly 80% of western North Pacific TCs were a result of two or more
+    different wave types
+  keypoint3: When the convectively-enhanced phases of the MJO and equatorial Rossby
+    waves were present, synoptic-scale waves tended to be stronger and more organized,
+    enhancing TC formation likelihood
+  abstract: The tropical cyclone (TC)-centric approach developed in previous studies
+    tends to overemphasize the direct impact of tropical waves and underestimates
+    their large-scale modulation of western North Pacific (WNP) tropical cyclogenesis
+    (TCG). To overcome these limitations, this study proposes a new approach based
+    on empirical orthogonal function analyses to re-examine associations of multiple
+    waves, including the Madden–Julian oscillation (MJO), quasi-biweekly oscillation
+    (QBWO), convective equatorial Rossby (ER) waves, and synoptic scale waves (SSWs),
+    with WNP TCG events. There is a close association between WNP TCG events (total
+    of 273 TCs in this study) and SSWs (~ 64%), MJO (~ 68%), QBWO (~ 64%) and ER (~ 65%)
+    waves. These suggest that SSW is critical for many TCG events, and all of these
+    intra-seasonal waves significantly modulate TCG events. A majority of TCs (~ 79%)
+    were found to be related to more than one wave type, indicating an important role
+    for a combination of dynamic and thermodynamic conditions associated with multiple
+    waves in TCG events. Further analyses show that SSW activity is strongly modulated
+    by the MJO and ER waves, while the QBWO has no significant impact on SSWs. During
+    convectively active MJO and ER phases, stronger SSW trains with more distinct
+    southeast-northwestward aligned structures can be found compared to convectively
+    inactive phases. Similar intra-seasonal modulation of the transition from the
+    mixed Rossby-gravity waves from the equatorial central Pacific to the SSW trains
+    over the WNP by the three waves is noted, with such transitions largely favored
+    during convectively active MJO and ER phases.
+  summary: false
+  image: ./Publications/figures/zhao_et_al_2019_climdyn_equatorialwaves_Fig3.jpg
+  caption: FIG. 3. Composites of the filtered anomalies of 850 hPa-winds and TRMM
+    rainfall relative to the TCG location and time for the MJO-associated (a), QBWO-associated
+    (b), ER-associated (c), and SSW-associated categories (d). Only values of 850
+    hPa wind anomalies exceeding the 95% confidence level have been plotted.
+  acknowledgement: H. Zhao thanks the support from the National Natural Science Foundation
+    of China (41675072, 41730961), the QingLan Project of Jiangsu Province (R2017Q01)
+    and the Priority Academic Program Development of Jiangsu Higher Education Institutions
+    (PAPD). L. Wu acknowledges the National Basic Research Program of China (2013CB430103,
+    2015CB452803), the Natural Science Foundation for Higher Education Institutions
+    in Jiangsu Province (15KJB170008). X. Jiang acknowledges support by US NSF Climate
+    and Large-Scale Dynamics Program under Award AGS-1228302, and NOAA Climate Program
+    Office under Awards NA12OAR4310075, NA15OAR4310098 and NA15OAR4310177. P. Klotzbach
+    acknowledges funding from the G. Unger Vetlesen Foundation.
+  bibtex: ./Publications/bibtex/zhao_et_al_2019_climdyn_equatorialwaves_bibtex.bib
+  pdf: ./Publications/papers/zhao_et_al_2019_climdyn_equatorialwaves.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Mesoscale
+  keyword3: Equatorial waves
+- id: zhaoetal2019climdyncloudclusters2019
+  year: '2019'
+  title: Recent decrease in genesis productivity of tropical cloud clusters over the
+    Western North Pacific
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Zhao, H., S. Chen, G. B. Raga, P. J. Klotzbach
+  journal: Climate Dynamics
+  others: 52, 5819-5831
+  doi: https://doi.org/10.1007/s00382-018-4477-8
+  keypoint1: Since the late 1990s, tropical cloud clusters have increased over the
+    western North Pacific, especially over the eastern portion of the western North
+    Pacific, but the frequency of TCs had decreased.
+  keypoint2: There has been a decrease in genesis productivity, which was shown to
+    be primarily due to increases in vertical wind shear in the eastern part of the
+    western North Pacific.
+  keypoint3: Since the late 1990s, the monsoon circulation in the western North Pacific
+    has also weakened, shifting the upper-tropospheric trough farther west and increasing
+    shear in the eastern part of the western North Pacific.
+  abstract: Tropical cloud clusters (TCCs) play a critical role in sustaining tropical
+    large-scale systems and are traditionally viewed as precursors for tropical cyclone
+    (TC) genesis. This study focuses on the decadal changes in genesis productivity
+    (GP), e.g. the efficiency of TCCs developing into TCs, and shows a significant
+    decrease in GP over the western North Pacific (WNP) basin since 1998, when a climate
+    regime change occurred. The significant decrease in TC frequency and the significant
+    increase in TCCs, especially over the eastern region of the WNP basin, have combined
+    to result in a reduced GP since 1998. These changes are dependent on the combined
+    changes in large-scale atmospheric-oceanic conditions over the WNP basin. A decadal
+    change in vertical wind shear, especially over the eastern portion of the WNP
+    basin, appears to be the most important contributor to the recent decrease in
+    GP. Increased vertical wind shear suppresses TC genesis but enhances the frequency
+    of TCCs. Secondary positive contributions to the recent decrease in GP are from
+    local sea surface temperatures (SSTs) and low-level relative vorticity. These
+    positive contributions to the recent decrease in GP are partly cancelled out by
+    a negative contribution from enhanced mid-relative moisture. Changes in these
+    large-scale conditions associated with the recent decrease in GP over the WNP
+    basin since 1998 are closely related to the weakening monsoon circulation and
+    the westward shift of the tropical upper-tropospheric trough over the WNP. This
+    is likely related to the changes observed in tropical SST anomalies around the
+    globe.
+  summary: false
+  image: ./Publications/figures/zhao_et_al_2019_climdyn_cloudclusters_Fig5.jpg
+  caption: FIG. 5. Correlations of inter-annual boreal summer (July–October)(a) tropical
+    cyclone (TC) counts and (b) tropical cloud cluster (TCC) counts of the western
+    North Pacific basin with averaged vertical wind shear averaged over the eastern
+    region [0°–30°N, 140°E–180°] during 1982–2009.
+  acknowledgement: This research was jointly supported by the National Natural Science
+    Foundation of China (Grant nos. 41675072, 41730961 and 41475091), the Natural
+    Science Foundation of Jiangsu Province (Grants No. BK20181412), the QingLan Project
+    of Jiangsu Province (R2017Q01) and the Priority Academic Program Development of
+    Jiangsu Higher Education Institutions (PAPD). P. Klotzbach would like to acknowledge
+    a grant from the G. Unger Vetlesen Foundation. The authors would like to thank
+    the two anonymous reviewers for helpful comments that have significantly improved
+    the manuscript.
+  bibtex: ./Publications/bibtex/zhao_et_al_2019_climdyn_cloudclusters_bibtex.bib
+  pdf: ./Publications/papers/zhao_et_al_2019_climdyn_cloudclusters.pdf
+  keyword1: Tropical cloud clusters
+  keyword2: Mesoscale
+  keyword3: Monsoon circulation
