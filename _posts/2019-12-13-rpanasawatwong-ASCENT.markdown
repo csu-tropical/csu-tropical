@@ -2,13 +2,13 @@
 layout: post
 image: "/images/news/ASCENT_KathrynRungJingyuan.jpg"
 title: "Rung Panasawatwong receives ASCENT scholarship"
-author: "Jamie Deloss"
+author: "Jayme DeLoss"
 ---
-
 
 Four atmospheric science graduate students received scholarships this year from a department fund established to enrich the graduate experience. Jingyuan Li, Rung Panasawatwong, Kathryn Moore and Michael Cheeseman all are applying their Assisting Students, Cultivating Excellence, Nurturing Talent (ASCENT) awards to international research opportunities.
 
-
 <https://engr.source.colostate.edu/ascent-scholarships-fund-graduate-students-international-research/>
-
-
+<!--more-->
+<img src="/images/news/3.24.20_Martinez_NCAR_postdoc3.jpg"
+     alt="news image"
+     style="float: center; margin-right: 10px; width: 450px" />
