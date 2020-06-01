@@ -1,0 +1,22 @@
+- id: camargoetal2019
+  year: 2019
+  title: Tropical cyclone prediction on sub-seasonal timescales
+  firstauthor: klotzbach
+  authors: Camargo, S. J., J. Camp, R. L. Elsberry, P. A. Gregory, P. J. Klotzbach, C. J. Schreck III, A. H. Sobel, M. J. Ventrice, F. Vitart, Z. Wang, M. C. Wheeler, M. Yamaguchi, and R. Zhan
+  journal: Tropical Cyclone Research and Review
+  others: 8, 150-165
+  doi: https://doi.org/10.6057/2019TCRR03.04
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Here we discuss recent progress in understanding tropical cyclone (TC) subseasonal variability and its prediction. There has been a concerted effort to understand the sources of predictability at subseasonal time-scales, and this effort has continued to make progress in recent years. Besides the Madden-Julian Oscillation (MJO), other modes of variability affect TCs at these time-scales, in particular various equatorial waves. Additionally, TC activity is also modulated by extratropical processes via Rossby wave breaking. There has also been progress in the ability of models to simulate the MJO and its modulation of TC activity. Community efforts have created multi-model ensemble datasets, which have made it possible to evaluate the forecast skill of the MJO and TCs on subseasonal time-scales in multiple forecasting systems. While there is positive skill in some cases, there is strong dependence on the ensemble system considered, the basin examined, and whether the storms have extratropical influences or not. Furthermore, the definition of skill differs among studies. Forecasting centers are currently issuing subseasonal TC forecasts using various techniques (statistical, statistical-dynamical and dynamical). There is also a strong interest in the private sector for forecasts with 3-4 weeks lead time.
+  summary: false
+  image: ../Publications/figures/camargo_et_al_2019_Fig3.jpg
+  caption: >
+    Fig. 3. Plots of the MJO–TC relationship in the observations and from the S2S models from week 2 forecasts. The color of each circle indicates the PDF (%) in the corresponding MJO phase in the basin. The sum of the circles across the MJO phases in each basin is 100%. The black circle outline indicates that the value is above the 90th percentile while the cross symbol (x) at the center means the value is below the 10th percentile. The percentage on the title corresponds to the spatial correlation of that model plot with observations (top panel). Figure from Lee et al. (2018),
+  acknowledgement: SJC and AHS acknowledge support from NOAA grant NA16OAR4310079. We thank Zongjian Ke and Jianyun Gao for their contributions to the China Meteorological Administration forecast summary.
+  bibtex: ../Publications/bibtex/camargo_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/camargo_et_al_2019.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Sub-seasonal
+  keyword3: Forecasting

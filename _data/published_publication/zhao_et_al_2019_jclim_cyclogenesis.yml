@@ -1,0 +1,22 @@
+- id: zhaoetal2019jclimcyclogenesis
+  year: 2019
+  title: Recent increased co-variability of tropical cyclogenesis latitude-longitude over the western North Pacific during the extended boreal summer
+  firstauthor: klotzbach
+  authors: Zhao, H., J. Zhang, P. J. Klotzbach, and S. Chen
+  journal: Journal of Climate
+  others: 32, 8167-8179
+  doi: https://doi.org/10.1175/JCLI-D-19-0009.1
+  keypoint1: Increasing covariability of western North Pacific tropical cylogenesis latitude-longitude has been observed since 1998
+  keypoint2: Strengthening of the relationship may be due to changing ENSO conditions, with Central Pacific El Nino events more common since 1998
+  keypoint3: Changes in tropical Indian Ocean SST may also play a role in the observed changing cyclogenesis latitude-longitude relationship
+  abstract: This study examines interdecadal changes in the interannual relationship between the extended boreal summer (May–November) tropical cyclogenesis (TCG) latitude and longitude over the western North Pacific Ocean (WNP) during 1979–2016. Increasing covariability of WNP TCG latitude and longitude is observed since 1998, which is found to be closely linked to shifting ENSO conditions and a tropical Pacific climate regime shift. Accompanied by an increasing occurrence in central Pacific (CP) ENSO events during recent decades, there has been a more consistent northwestward or southeastward shift of WNP TCG location since 1998. These coherent latitude and longitude shifts were generally not evident during 1979–97, a period characterized by a more conventional eastern Pacific (EP) ENSO pattern. Our statistical results show a robust relationship between TCG latitude and the Hadley circulation and between longitude and the Walker circulation during the period prior to and since the regime shift, and a possible physical explanation for the recent increased covariability of TCG latitude and longitude is given. During 1998–2016, there is a significant association of CP ENSO events with the intensity of both the Hadley and Walker circulations that likely caused the recent increase in the covariability of TCG latitude and longitude. However, the strong association of EP ENSO events with the intensity of the Hadley circulation but not with the Walker circulation during 1979–97 weakened the covariability of TCG latitude and longitude. In addition, changes in tropical Indian Ocean sea surface temperatures appear to also importantly contribute to the recent increased covariability of WNP TCG location.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jclim_cyclogenesis_Fig1.jpg
+  caption: >
+    Fig. 1. Time series of TCG latitude (black) and TCG longitude (red) from JTWC over the WNP basin during 1979–2016. Correlations between the two time series and the annual average of TCG latitude and TCG longitude during 1979–97 and 1998–2016 are also respectively plotted. An asterisk indicates that the correlation is significant at a 95% confidence level.
+  acknowledgement: This research was jointly supported by the National Natural Science Foundation of China (Grants 41675072, 41922033, and 41675051), the QingLan Project of Jiangsu Province (R2017Q01), the project of the Six Talent Peaks Project in Jiangsu Province (2019-JY-100), and the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD). Author Klotzbach acknowledges a grant from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jclim_cyclogenesis_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jclim_cyclogenesis.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Genesis

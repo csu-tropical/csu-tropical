@@ -85,8 +85,14 @@ div.ex3 {
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
                 </ul>
-                  {% endif %}
+                {% endif %}
                 {% endfor %}
+                {% if page.id == "klotzbach" %}
+                {% include klotzbach_2003-2018.html %}
+                {% endif %}
+                {% if page.id == "bell" %}
+                {% include bell_2003-2018.html %}
+                {% endif %}
                 <div>
                 <ul class="actions fit">
                   <center><li><a href="../publication.html" class="button small fit"><i class="fas fa-step-backward"></i> Go back to Publication page</a></li></center>

@@ -1,0 +1,22 @@
+- id: zhaoetal2019jclimmonsoon
+  year: 2019
+  title: Recent strengthening of the relationship between the western North Pacific monsoon and western North Pacific tropical cyclone activity during the boreal summer
+  firstauthor: klotzbach
+  authors: Zhao, H., S. Chen, and P. J. Klotzbach
+  journal: Journal of Climate
+  others: 32, 8283-8299
+  doi: https://doi.org/10.1175/JCLI-D-19-0016.1
+  keypoint1: Interannual relationship between the western North Pacific monsoon and western North Pacific tropical cyclone frequency has increased since 1998
+  keypoint2: false
+  keypoint3: false
+  abstract: This study examines the association between the western North Pacific (WNP) summer monsoon (WNPSM) and WNP tropical cyclone (TC) frequency during June–August from 1979 to 2016. The interannual relationship between the WNPSM and the total number of WNP TCs has strengthened since 1998. There has also been a significant reduction in the number of TCs forming within the WNP monsoon trough (WNPMT)—hereafter called ITCs, for internal or inside TCs—since 1998. These two important features are found to be closely associated with the climate regime shift that occurred around 1998. During 1998–2016, the Pacific decadal oscillation (PDO) tended to be in a cold phase, with an increasing occurrence of central Pacific–type El Niño–Southern Oscillation (ENSO) events, whereas the 1979–97 period tended to be characterized by a warm phase of the PDO and east Pacific–type ENSO events. During 1998–2016, the tropical Pacific was characterized by enhanced easterlies, which led to a westward-retreated WNPMT that caused a significant decrease in ITCs over the WNP basin. However, there was little change in TCs outside of the WNPMT region (hereafter called OTCs) compared to that before 1998. A significant in-phase (out-of-phase) relationship between the WNPSM and the number of ITCs (OTCs) is observed before 1998, thus greatly weakening the WNPSM–TC relationship. The recent enhanced relationship between the WNPSM and TCs is mainly due to a strong in-phase relationship between the WNPSM and ITCs. The interannual change in ITCZ is mainly controlled by WNPSM changes since 1998, while OTC changes are mainly modulated by changes in the tropical upper-tropospheric trough.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jclim_monsoon_Fig1.jpg
+  caption: >
+    Fig. 2. (a) Time series of the boreal summer average WNPMI (gray bars) and total TC count (red solid line) during 1979–2016. The average WNPMI during 1979–97 and 1998–2016 is indicated by the black dashed line, and the average total TC count for these two subperiods is indicated by the red dashed line. The average for the two subperiods and the correlation coefficient between the total TC count and WNPMI during the two subperiods are also listed. (b) Time series of the standardized summer average WNPMI (black line), Niño-3.4 index (green line), EMI (blue line), and total TC count (red line). The correlation coefficients among the WNPMI, EMI, and Niño-3.4 index during the two subperiods are also listed. Double asterisks indicate statistical significance at a 95% confidence level.
+  acknowledgement: We thank the three anonymous reviewers as well as the editor for helpful comments that significantly improved this manuscript. This research was jointly supported by the National Natural Science Foundation of China (Grants 41675072, 41922033, and 41730961), the Natural Science Foundation of Jiangsu Province (Grants BK20181412), the QingLan Project of Jiangsu Province (R2017Q01), the National Basic Research Program of China (2015CB452802), the project of the Six Talent Peaks Project in Jiangsu Province (2019-JY-100), and the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD). P. Klotzbach would like to acknowledge a grant from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jclim_monsoon_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jclim_monsoon.pdf
+  keyword1: Monsoon
+  keyword2: Seasonal
+  keyword3: Genesis
