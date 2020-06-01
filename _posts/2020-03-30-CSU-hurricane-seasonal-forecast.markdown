@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Researchers predicting above-average 2020 Atlantic hurricane season"
-date:  2020-03-30 22:46:55 -0600
+date:   2020-03-30 22:46:55 -0600
 image: "/images/news/news_forecast_2020_APR.png"
 tags: [tropical cyclone, forecasting, seasonal]
 author: "Phil Klotzbach"
@@ -21,6 +21,5 @@ The tropical Atlantic is somewhat warmer than normal right now. Warmer-than-norm
 
 The CSU Tropical Meteorology Project team is predicting 16 named storms during the Atlantic hurricane season, which runs from June 1 to November 30. Of those, researchers expect eight to become hurricanes and four to reach major hurricane strength (Saffir/Simpson category 3-4-5) with sustained winds of 111 miles per hour or greater.
 
-<img src="/images/news/news_forecast_2020_APR.png" alt="" style="width:500px;"/>
 
 The team bases its forecasts on a statistical model, as well as two new models that use a combination of statistical information and forecasts from dynamical models from the UK Met Office and the European Centre for Medium-Range Weather Forecasts. These models are built on 25-40 years of historical hurricane seasons and evaluate conditions including: Atlantic sea surface temperatures, sea level pressures, vertical wind shear levels (the change in wind direction and speed with height in the atmosphere), El Niño (warming of waters in the central and eastern tropical Pacific), and other factors.
