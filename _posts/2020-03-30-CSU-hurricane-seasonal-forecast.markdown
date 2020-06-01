@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Researchers predicting above-average 2020 Atlantic hurricane season"
-date:   2020-03-30 22:46:55 -0600
+date:  2020-03-30 22:46:55 -0600
 image: "/images/news/news_forecast_2020_APR.png"
 tags: [tropical cyclone, forecasting, seasonal]
 author: "Phil Klotzbach"
