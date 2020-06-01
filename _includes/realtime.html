@@ -1,0 +1,464 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('atl_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season North Atlantic Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.atlanticacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.atlanticacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('nwp_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season Northwest Pacific Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.northwestpacificacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.northwestpacificacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('nep_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season Northeast Pacific Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.northeastpacificacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.northeastpacificacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('ni_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season North Indian Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.northindianacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.northindianacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('sp_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season South Pacific Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.southpacificacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.southpacificacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('si_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season South Indian Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.southindianacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.southindianacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
+
+<script>
+function showDiv(btn,ctn,eye,txt) {
+  var ic = document.getElementById(eye)
+  var x = document.getElementById(ctn);
+  var property = document.getElementById(btn);
+  var str = document.getElementById(txt)
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    property.style.backgroundColor = "#8a4680";
+    ic.classList.replace('fa-eye-slash','fa-eye');
+  } else {
+    x.style.display = "none";
+    property.style.backgroundColor = "transparent";
+    ic.classList.replace('fa-eye','fa-eye-slash');
+  }
+}
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var H = Highcharts,
+    map = H.maps['countries/world'],
+    chart;
+
+    chart = Highcharts.mapChart('tcmap', {
+    title: {
+        text: 'Global Tropical Cyclone Activity'
+    },
+
+    subtitle: {
+        text: 'For informational use only. Please refer to the <a href="https://www.nhc.noaa.gov/">National Hurricane Center</a> for official forecasts'
+    },
+    xAxis: {
+        crosshair: {
+                    zIndex: 5,
+                    dashStyle: 'dot',
+                    snap: false,
+                    color: 'gray'
+                }
+            },
+
+            yAxis: {
+                crosshair: {
+                    zIndex: 5,
+                    dashStyle: 'dot',
+                    snap: false,
+                    color: 'gray'
+                }
+            },
+
+    tooltip: {
+        pointFormat: '{point.name} ({point.basin}{point.charnam})<br>' +
+                    'Lat: {point.lat} Lon: {point.lon}<br>' +
+                    'MSLP: {point.mslp} hPa, ' +
+                    'Intensity: {point.intensity} kts<br>' +
+                    'Status: {point.status}'
+    },
+
+    mapNavigation: {
+           enabled: true,
+           buttonOptions: {
+               verticalAlign: 'bottom'
+           }
+       },
+    series: [{
+        name: 'Basemap',
+        mapData: Highcharts.maps['custom/world'],
+        borderColor: '#606060',
+        nullColor: 'rgba(200, 200, 200, 0.2)',
+        showInLegend: false },
+        {
+        type: 'mappoint',
+        name: 'Tropical Cyclones',
+        data:[
+          {% for item in site.data.tc_stats.atlanticstormstats %}
+          {
+            name: '{{item.name}}',
+            lat: {{item.latitude}},
+            lon: {{item.longitude}},
+            basin: '{{item.basin}}',
+            charnam: '{{item.storm_charnumber}}',
+            mslp: {{item.mslp}},
+            intensity: {{item.intensity}},
+            status: 'Inactive'
+            //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+            //{% else %}
+            //  status: 'Active'
+            //{% endif %}
+          },
+        {% endfor %}
+        {% for item in site.data.tc_stats.northwestpacificstormstats %}
+        {
+          name: '{{item.name}}',
+          lat: {{item.latitude}},
+          lon: {{item.longitude}},
+          basin: '{{item.basin}}',
+          charnam: '{{item.storm_charnumber}}',
+          mslp: {{item.mslp}},
+          intensity: {{item.intensity}},
+          status: 'Inactive'
+          //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+          //{% else %}
+          //  status: 'Active'
+          //{% endif %}
+        },
+      {% endfor %}
+      {% for item in site.data.tc_stats.northeastpacificstormstats %}
+      {
+        name: '{{item.name}}',
+        lat: {{item.latitude}},
+        lon: {{item.longitude}},
+        basin: '{{item.basin}}',
+        charnam: '{{item.storm_charnumber}}',
+        mslp: {{item.mslp}},
+        intensity: {{item.intensity}},
+        status: 'Inactive'
+        //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+        //{% else %}
+        //  status: 'Active'
+        //{% endif %}
+      },
+    {% endfor %}
+    {% for item in site.data.tc_stats.southindianstormstats %}
+    {
+      name: '{{item.name}}',
+      lat: {{item.latitude}},
+      lon: {{item.longitude}},
+      basin: '{{item.basin}}',
+      charnam: '{{item.storm_charnumber}}',
+      mslp: {{item.mslp}},
+      intensity: {{item.intensity}},
+      status: 'Inactive'
+      //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+      //{% else %}
+      //  status: 'Active'
+      //{% endif %}
+    },
+  {% endfor %}
+  {% for item in site.data.tc_stats.southpacificstormstats %}
+  {
+    name: '{{item.name}}',
+    lat: {{item.latitude}},
+    lon: {{item.longitude}},
+    basin: '{{item.basin}}',
+    charnam: '{{item.storm_charnumber}}',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
+    status: 'Inactive'
+    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+    //{% else %}
+    //  status: 'Active'
+    //{% endif %}
+  },
+  {% endfor %}
+  {% for item in site.data.tc_stats.northindianstormstats %}
+  {
+    name: '{{item.name}}',
+    lat: {{item.latitude}},
+    lon: {{item.longitude}},
+    basin: '{{item.basin}}',
+    charnam: '{{item.storm_charnumber}}',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
+    status: 'Inactive'
+    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+    //{% else %}
+    //  status: 'Active'
+    //{% endif %}
+  },
+{% endfor %}
+        ]
+      }]
+
+    });
+  // Display custom label with lat/lon next to crosshairs
+  document.getElementById('tcmap').addEventListener('mousemove', function (e) {
+      var position;
+      if (chart) {
+          if (!chart.lab) {
+              chart.lab = chart.renderer.text('', 0, 0)
+                  .attr({
+                      zIndex: 5
+                  })
+                  .css({
+                      color: '#505050'
+                  })
+                  .add();
+          }
+
+          e = chart.pointer.normalize(e);
+          position = chart.fromPointToLatLon({
+              x: chart.xAxis[0].toValue(e.chartX),
+              y: chart.yAxis[0].toValue(e.chartY)
+          });
+
+          chart.lab.attr({
+              x: e.chartX + 5,
+              y: e.chartY - 22,
+              text: 'Lat: ' + position.lat.toFixed(2) + '<br>Lon: ' + position.lon.toFixed(2)
+          });
+      }
+  });
+
+  document.getElementById('tcmap').addEventListener('mouseout', function () {
+      if (chart && chart.lab) {
+          chart.lab.destroy();
+          chart.lab = null;
+      }
+  });
+});
+
+</script>
