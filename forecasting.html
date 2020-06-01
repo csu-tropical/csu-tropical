@@ -4,6 +4,8 @@ title: CSU Hurricane Seasonal Forecasting
 ---
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<script src="/assets/js/highcharts.js"></script>
+{% include realtime.html %}
 </head>
 <style>
 sup {
@@ -173,11 +175,20 @@ figure figcaption {
 							<h2>Real-Time Tropical Cyclone Statistics</h2>
 						</header>
 						<br>
+            <div id="schedule" class="align-center">
+							<ul class="actions" style="text-align:center;">
+								<li><span class="menu button small doubleline special fit" target="_blank" style="width:150px;" onclick="atlantic_ace()"> North Atlantic</span></li>
+								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="nwpacific_ace()"> Northwest Pacific</span></li>
+								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> Northeast Pacific</span></li>
+                <li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> North Indian</span></li>
+								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> South Pacific</span></li>
+								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> South Indian</span></li>
+							</ul>
+						</div>
 						<br>
-						<figure style="width:1000px;">
-						  <span class="image center"><img src="/images/real-time_atlantic.png" alt="" style="width:1000px"/></span>
-						  <p>North Atlantic Ocean storm statistics were last modified: May 22 2020 09:00 MT. Statistics calculated from operational best tracks of the National Hurricane Center.</p>
-						</figure>
+            <div name="realtime" id="atlantic_ace" style="width:1000px; margin:auto;"></div>
+            <br>
+						<p>North Atlantic Ocean storm statistics were last modified: May 22 2020 09:00 MT. Statistics calculated from operational best tracks of the National Hurricane Center.</p>
 					</div>
 				</div>
 				</section>

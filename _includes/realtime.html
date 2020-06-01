@@ -1,0 +1,41 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('atlantic_ace', {
+    chart: {
+      type: 'line'
+    },
+    title: {
+      useHTML: true,
+      text: "Current Season North Atlantic Ocean ACE (1981-2010 Climo)"
+    },
+    yAxis: {
+      title: {
+        useHTML: true,
+        text: "ACE (10<sup>4</sup>kt<sup>2</sup>)"
+      },
+    },
+    xAxis: {
+      title: {
+        text: "Date",
+      },
+      type: 'datetime',
+      labels: {
+            format: '{value:%e-%b}',
+            rotation: 45,
+            align: 'left'
+        }
+    },
+    series: [{
+      name: 'Observed',
+      data:[ {% for item in site.data.tc_stats.atlanticacetodatevsclimo %}
+{% if item.Observed %} [Date.parse('{{item.Date}}-2020'),{{item.Observed}}],{% endif %} {% endfor %}
+      ]
+    },{
+      name: 'Climatology',
+      data:[ {% for item in site.data.tc_stats.atlanticacetodatevsclimo %}
+{% if item.Climatology %} [Date.parse('{{item.Date}}-2020'),{{item.Climatology}}],{% endif %} {% endfor %}
+      ]
+    }]
+    });
+  });
+</script>
