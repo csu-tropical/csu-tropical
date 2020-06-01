@@ -13,7 +13,12 @@ Note to reporters: You can [get the PDF](/Forecast/2020-04-pressrelease.pdf) dir
 
 <!--more-->
 
+<img src="/images/news/news_forecast_2020_APR.png"
+     alt="news image"
+     style="float: left; margin-right: 10px; width: 450px" />
+
 The tropical Pacific currently has warm neutral ENSO conditions, that is, the waters are slightly warmer than normal in the eastern and central tropical Pacific.  CSU currently anticipates that these waters are likely to cool relative to their long-term averages over the next several months. Consequently, they do not anticipate El Niño for the peak of the Atlantic hurricane season. El Niño tends to increase upper-level westerly winds across the Caribbean into the tropical Atlantic, tearing apart hurricanes as they try to form.
+
 
 The tropical Atlantic is somewhat warmer than normal right now. Warmer-than-normal sea surface temperatures in the tropical Atlantic provide more fuel for tropical cyclone formation and intensification. They are also associated with a more unstable atmosphere as well as moister air, both of which favor organized thunderstorm activity that is necessary for hurricane development.
 
