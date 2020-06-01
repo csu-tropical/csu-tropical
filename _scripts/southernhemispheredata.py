@@ -32,9 +32,12 @@ nsformationyear = 0
 windradii = 0
 allstats = open('../_data/tc_stats/sixhoursouthernhemispherestats.txt', 'w')
 allstats.write( "YEAR" ' ' "MONTH" ' ' "DAY" ' ' "LATITUDE" ' ' "LONGITUDE" ' ' "MAX_WIND" ' ' "MSLP" ' ' "CATEGORY" ' ' "ACE" ' ' "STORM_NAME" "\n")
-southpacificstormstats = open('../_data/tc_stats/southpacificstormstats.txt', 'w')
+southpacificstormstats = open('../_data/tc_stats/southpacificstormstats.csv', 'w')
+southpacificstormstats.write('year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber' "\n")
 southpacificstormstats.close()
-southindianstormstats = open('../_data/tc_stats/southindianstormstats.txt', 'w')
+
+southindianstormstats = open('../_data/tc_stats/southindianstormstats.csv', 'w')
+southindianstormstats.write('year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber' "\n")
 southindianstormstats.close()
 basinstats = open('../_data/tc_stats/globalstats.txt', 'a')
 
@@ -212,14 +215,14 @@ while (filenumber <= numfiles):
     storm_charnumber = storm_charnumber.strip()
 
     if ((maxintensity >0) and ((formation_longitude > 135) or (formation_longitude < 0))):
-        southpacificstormstats =  open('../_data/tc_stats/southpacificstormstats.txt', 'a')
-        southpacificstormstats.write(' '.join((str(year), str(southpacificstormnumber), stormname, str(nsformationmonth), str(nsformationday), str(nsdissipationmonth), str(nsdissipationday), \
+        southpacificstormstats =  open('../_data/tc_stats/southpacificstormstats.csv', 'a')
+        southpacificstormstats.write(','.join((str(year), str(southpacificstormnumber), stormname, str(nsformationmonth), str(nsformationday), str(nsdissipationmonth), str(nsdissipationday), \
         str(formation_latitude), str(formation_longitude), str(maxintensity), str(stormmslp), str(stormnsd), str(stormhd), str(stormmhd), str(stormace), str(storm_abbreviation), str(storm_charnumber), "\n")))
         southpacificstormstats.close()
 
     if ((maxintensity >0) and ((formation_longitude > 30) and (formation_longitude < 135))):
-        southindianstormstats =  open('../_data/tc_stats/southindianstormstats.txt', 'a')
-        southindianstormstats.write(' '.join((str(year), str(southindianstormnumber), stormname, str(nsformationmonth), str(nsformationday), str (nsdissipationmonth), str(nsdissipationday), \
+        southindianstormstats =  open('../_data/tc_stats/southindianstormstats.csv', 'a')
+        southindianstormstats.write(','.join((str(year), str(southindianstormnumber), stormname, str(nsformationmonth), str(nsformationday), str (nsdissipationmonth), str(nsdissipationday), \
         str(formation_latitude), str(formation_longitude), str(maxintensity), str(stormmslp), str(stormnsd), str(stormhd), str(stormmhd), str(stormace), str(storm_abbreviation), str(storm_charnumber), "\n")))
         southindianstormstats.close()
 

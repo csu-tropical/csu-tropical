@@ -25,7 +25,8 @@ nsformationyear = 0
 windradii = 0
 allstats = open('../_data/tc_stats/sixhournorthernhemispherestats.txt', 'a')
 allstats.close()
-northindianstormstats = open('../_data/tc_stats/northindianstormstats.txt', 'w')
+northindianstormstats = open('../_data/tc_stats/northindianstormstats.csv', 'w')
+northindianstormstats.write('year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber' "\n")
 northindianstormstats.close()
 basinstats = open('../_data/tc_stats/globalstats.txt', 'a')
 
@@ -145,8 +146,8 @@ while (filenumber <= numfiles):
     storm_charnumber = storminfo[0][1]
     storm_charnumber = storm_charnumber.strip()
     if (maxintensity >0):
-        northindianstormstats =  open('../_data/tc_stats/northindianstormstats.txt', 'a')
-        northindianstormstats.write(' '.join((str(year), str(stormnumber), stormname, str(nsformationmonth), str(nsformationday), str(nsdissipationmonth), str(nsdissipationday), \
+        northindianstormstats =  open('../_data/tc_stats/northindianstormstats.csv', 'a')
+        northindianstormstats.write(','.join((str(year), str(stormnumber), stormname, str(nsformationmonth), str(nsformationday), str(nsdissipationmonth), str(nsdissipationday), \
         str(formation_latitude), str(formation_longitude), str(maxintensity), str(stormmslp), str(stormnsd), str(stormhd), str(stormmhd), str(stormace), str(storm_abbreviation), str(storm_charnumber), "\n")))
         northindianstormstats.close()
 

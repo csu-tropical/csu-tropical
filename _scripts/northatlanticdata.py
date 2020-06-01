@@ -26,7 +26,8 @@ windradii = 0
 allstats = open('../_data/tc_stats/sixhournorthernhemispherestats.txt', 'w')
 allstats.write( "YEAR" ' ' "MONTH" ' ' "DAY" ' ' "LATITUDE" ' ' "LONGITUDE" ' ' "MAX_WIND" ' ' "MSLP" ' ' "CATEGORY" ' ' "ACE" ' ' "STORM_NAME" "\n")
 allstats.close()
-atlanticstormstats = open('../_data/tc_stats/atlanticstormstats.txt', 'w')
+atlanticstormstats = open('../_data/tc_stats/atlanticstormstats.csv', 'w')
+atlanticstormstats.write('year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber' "\n")
 atlanticstormstats.close()
 basinstats = open('../_data/tc_stats/globalstats.txt', 'w')
 basinstats.close()
@@ -148,8 +149,8 @@ while (filenumber <= numfiles):
     storm_charnumber = storminfo[0][1]
     storm_charnumber = storm_charnumber.strip()
     if (maxintensity >0):
-        atlanticstormstats =  open('../_data/tc_stats/atlanticstormstats.txt', 'a')
-        atlanticstormstats.write(' '.join((str(year), str(stormnumber), stormname, str(nsformationmonth), str(nsformationday), str (nsdissipationmonth), \
+        atlanticstormstats =  open('../_data/tc_stats/atlanticstormstats.csv', 'a')
+        atlanticstormstats.write(','.join((str(year), str(stormnumber), stormname, str(nsformationmonth), str(nsformationday), str (nsdissipationmonth), \
         str (nsdissipationday), str(formation_latitude), str(formation_longitude), str(maxintensity), str(stormmslp), str(stormnsd), str(stormhd), \
         str(stormmhd), str(stormace), str(storm_abbreviation), str(storm_charnumber), "\n")))
         atlanticstormstats.close()

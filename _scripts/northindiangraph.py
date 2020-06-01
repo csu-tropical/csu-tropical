@@ -29,7 +29,7 @@ if (currenthour>=18):
 	basinacetodatetable.close()
 #Open additional files necessary to create ACE to date .csv file for graphing
 	basinacetodatevsclimotable = open('../_data/tc_stats/northindianacetodatevsclimo.csv', 'w')
-	basinacetodatevsclimotable.write(' '.join(('Date,Observed,Climatology',"\n")))
+	basinacetodatevsclimotable.write(''.join(('Date,Observed,Climatology',"\n")))
 #Open .csv file with basin ACE to date
 	basinacetodatetable = open('../_data/tc_stats/northindianacetodate.txt', 'r')
 	basincsv = csv.reader(basinacetodatetable, delimiter=' ')

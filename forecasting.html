@@ -177,18 +177,235 @@ figure figcaption {
 						<br>
             <div id="schedule" class="align-center">
 							<ul class="actions" style="text-align:center;">
-								<li><span class="menu button small doubleline special fit" target="_blank" style="width:150px;" onclick="atlantic_ace()"> North Atlantic</span></li>
-								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="nwpacific_ace()"> Northwest Pacific</span></li>
-								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> Northeast Pacific</span></li>
-                <li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> North Indian</span></li>
-								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> South Pacific</span></li>
-								<li><span class="button small doubleline special fit" target="_blank" style="width:150px;" onclick="realtime_select()"> South Indian</span></li>
+                <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
+      					<li><a href="#nwp" class="button small doubleline alt" id="btn_nwp", onclick="showDiv('btn_nwp','nwp','eye2','txt2')" style="text-transform:none;width:150px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Northwest Pacific </p></a></li>
+      					<li><a href="#nep" class="button small doubleline alt" id="btn_nep", onclick="showDiv('btn_nep','nep','eye3','txt3')" style="text-transform:none;width:150px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> Northeast Pacific </p></a></li>
+      					<li><a href="#ni" class="button small doubleline alt" id="btn_ni", onclick="showDiv('btn_ni','ni','eye4','txt4')" style="text-transform:none;width:150px;"><p id="txt4"><i id="eye4" class="fas fa-eye-slash"></i> North Indian </p></a></li>
+      					<li><a href="#sp" class="button small doubleline alt" id="btn_sp", onclick="showDiv('btn_sp','sp','eye5','txt5')" style="text-transform:none;width:150px;"><p id="txt5"><i id="eye5" class="fas fa-eye-slash"></i> South Pacific </p></a></li>
+                <li><a href="#si" class="button small doubleline alt" id="btn_si", onclick="showDiv('btn_si','si','eye6','txt6')" style="text-transform:none;width:150px;"><p id="txt6"><i id="eye6" class="fas fa-eye-slash"></i> South Indian </p></a></li>
 							</ul>
 						</div>
 						<br>
-            <div name="realtime" id="atlantic_ace" style="width:1000px; margin:auto;"></div>
+            <div class="inner" id="atl">
+              <div class="content">
+              <h4 class="align-center">Real-Time North Atlantic Ocean Statistics by Storm for 2020</h4>
+              <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+              <table id="atl_table" class="alt">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Storm #</th>
+                    <th>Name</th>
+                    <th>Start Month</th>
+                    <th>Start Day</th>
+                    <th>End Month</th>
+                    <th>End Day</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Intensity (kts)</th>
+                    <th>MSLP (hPa)</th>
+                    <th>Named Storm Days</th>
+                    <th>Hurricane Days</th>
+                    <th>Major Hurricane Days</th>
+                    <th>Accumulated Cyclone Energy</th>
+                    <th>Ocean Basin</th>
+                    <th>Storm Charnumber</th>
+                  </tr>
+                </thead>
+                {% for row in site.data.tc_stats.atlanticstormstats %}
+                  {% tablerow pair in row %}
+                    {{ pair[1] }}
+                  {% endtablerow %}
+                {% endfor %}
+              </table>
+              </div>
+                <div name="realtime" id="atl_ace" style="width:1000px; margin:auto;"></div>
+                <br>
+            </div></div>
+
+            <div class="inner" id="nwp" style="display:none">
+            <div class="content">
+            <h4 class="align-center">Real-Time Northwest Pacific Ocean Statistics by Storm for 2020</h4>
+            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+            <table id="atl_table" class="alt">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Storm #</th>
+                  <th>Name</th>
+                  <th>Start Month</th>
+                  <th>Start Day</th>
+                  <th>End Month</th>
+                  <th>End Day</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Intensity (kts)</th>
+                  <th>MSLP (hPa)</th>
+                  <th>Named Storm Days</th>
+                  <th>Hurricane Days</th>
+                  <th>Major Hurricane Days</th>
+                  <th>Accumulated Cyclone Energy</th>
+                  <th>Ocean Basin</th>
+                  <th>Storm Charnumber</th>
+                </tr>
+              </thead>
+              {% for row in site.data.tc_stats.northwestpacificstormstats %}
+                {% tablerow pair in row %}
+                  {{ pair[1] }}
+                {% endtablerow %}
+              {% endfor %}
+            </table>
+            </div>
+              <div name="realtime" id="nwp_ace" style="width:1000px; margin:auto;"></div>
+              <br>
+            </div></div>
+
+            <div class="inner" id="nep" style="display:none">
+            <div class="content">
+            <h4 class="align-center">Real-Time Northeast Pacific Ocean Statistics by Storm for 2020</h4>
+            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+            <table id="atl_table" class="alt">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Storm #</th>
+                  <th>Name</th>
+                  <th>Start Month</th>
+                  <th>Start Day</th>
+                  <th>End Month</th>
+                  <th>End Day</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Intensity (kts)</th>
+                  <th>MSLP (hPa)</th>
+                  <th>Named Storm Days</th>
+                  <th>Hurricane Days</th>
+                  <th>Major Hurricane Days</th>
+                  <th>Accumulated Cyclone Energy</th>
+                  <th>Ocean Basin</th>
+                  <th>Storm Charnumber</th>
+                </tr>
+              </thead>
+              {% for row in site.data.tc_stats.northeastpacificstormstats %}
+                {% tablerow pair in row %}
+                  {{ pair[1] }}
+                {% endtablerow %}
+              {% endfor %}
+            </table></div>
+              <div name="realtime" id="nep_ace" style="width:1000px; margin:auto;"></div>
+              <br>
+            </div></div>
+
+            <div class="inner" id="ni" style="display:none">
+            <div class="content">
+            <h4 class="align-center">Real-Time North Indian Ocean Statistics by Storm for 2020</h4>
+            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+            <table id="atl_table" class="alt">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Storm #</th>
+                  <th>Name</th>
+                  <th>Start Month</th>
+                  <th>Start Day</th>
+                  <th>End Month</th>
+                  <th>End Day</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Intensity (kts)</th>
+                  <th>MSLP (hPa)</th>
+                  <th>Named Storm Days</th>
+                  <th>Hurricane Days</th>
+                  <th>Major Hurricane Days</th>
+                  <th>Accumulated Cyclone Energy</th>
+                  <th>Ocean Basin</th>
+                  <th>Storm Charnumber</th>
+                </tr>
+              </thead>
+              {% for row in site.data.tc_stats.northindianstormstats %}
+                {% tablerow pair in row %}
+                  {{ pair[1] }}
+                {% endtablerow %}
+              {% endfor %}
+            </table></div>
+              <div name="realtime" id="ni_ace" style="width:1000px; margin:auto;"></div>
+              <br>
+            </div></div>
+
+            <div class="inner" id="sp" style="display:none">
+            <div class="content">
+            <h4 class="align-center">Real-Time South Pacific Ocean Statistics by Storm for 2020</h4>
+            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+            <table id="atl_table" class="alt">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Storm #</th>
+                  <th>Name</th>
+                  <th>Start Month</th>
+                  <th>Start Day</th>
+                  <th>End Month</th>
+                  <th>End Day</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Intensity (kts)</th>
+                  <th>MSLP (hPa)</th>
+                  <th>Named Storm Days</th>
+                  <th>Hurricane Days</th>
+                  <th>Major Hurricane Days</th>
+                  <th>Accumulated Cyclone Energy</th>
+                  <th>Ocean Basin</th>
+                  <th>Storm Charnumber</th>
+                </tr>
+              </thead>
+              {% for row in site.data.tc_stats.southpacificstormstats %}
+                {% tablerow pair in row %}
+                  {{ pair[1] }}
+                {% endtablerow %}
+              {% endfor %}
+            </table></div>
+              <div name="realtime" id="sp_ace" style="width:1000px; margin:auto;"></div>
+              <br>
+            </div></div>
+
+            <div class="inner" id="si" style="display:none">
+            <div class="content">
+            <h4 class="align-center">Real-Time South Indian Ocean Statistics by Storm for 2020</h4>
+            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+            <table id="atl_table" class="alt">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Storm #</th>
+                  <th>Name</th>
+                  <th>Start Month</th>
+                  <th>Start Day</th>
+                  <th>End Month</th>
+                  <th>End Day</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Intensity (kts)</th>
+                  <th>MSLP (hPa)</th>
+                  <th>Named Storm Days</th>
+                  <th>Hurricane Days</th>
+                  <th>Major Hurricane Days</th>
+                  <th>Accumulated Cyclone Energy</th>
+                  <th>Ocean Basin</th>
+                  <th>Storm Charnumber</th>
+                </tr>
+              </thead>
+              {% for row in site.data.tc_stats.southindianstormstats %}
+                {% tablerow pair in row %}
+                  {{ pair[1] }}
+                {% endtablerow %}
+              {% endfor %}
+            </table></div>
+              <div name="realtime" id="si_ace" style="width:1000px; margin:auto;"></div>
+              <br>
+            </div></div>
+
             <br>
-						<p>North Atlantic Ocean storm statistics were last modified: May 22 2020 09:00 MT. Statistics calculated from operational best tracks of the National Hurricane Center.</p>
+						<p>North Atlantic Ocean storm statistics were last modified: {{ date }}. Statistics calculated from operational best tracks of the National Hurricane Center.</p>
 					</div>
 				</div>
 				</section>

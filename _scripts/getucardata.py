@@ -31,7 +31,7 @@ centralpacificstormcount = 0
 nepacificstormcount = 0
 nwpacificstormcount = 0
 indianstormcount = 0
-shstormcount = 0
+shstormcount = 5
 
 #North Atlantic
 count=1
