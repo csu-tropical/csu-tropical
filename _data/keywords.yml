@@ -11,7 +11,6 @@
 - id: Anticyclonic wave breaking
 - id: Quasi-biennial oscillation
 - id: Madden-Julian oscillation
-- id: Seasonal
 - id: Asymmetric Dynamics
 - id: Equatorial waves
 - id: Tropical cloud clusters
@@ -21,3 +20,12 @@
 - id: TC Structure
 - id: TC Intensity
 - id: Modeling
+- id: Bay of Bengal
+- id: Cyclone
+- id: Sub-seasonal
+- id: Pacific North American Pattern
+- id: El Nino
+- id: Rapid intensification
+- id: Equatorial waves
+- id: Monsoon
+- id: Typhoon Onset

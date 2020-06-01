@@ -1,0 +1,22 @@
+- id: klotzbachetal2020bams
+  year: 2020
+  title: Surface pressure a more skillful predictor of normalized hurricane damage than maximum sustained wind
+  firstauthor: klotzbach
+  authors: Klotzbach, P. J., M. M. Bell, S. G. Bowen, E. J. Gibney, K. R. Knapp, and C. J. Schreck III
+  journal: Bulletin of the American Meteorological Society
+  others: in press
+  doi: https://doi.org/10.1175/BAMS-D-19-0062.1
+  keypoint1: Pressure is more skillful than maximum sustained wind at predicting normalized hurricane damage for the continental US from 1900-2018
+  keypoint2: Pressure is more akin to an integrated metric than is maximum sustained wind and consequently is a more accurate metric of overall storm intensity
+  keypoint3: Pressure is also much easier to measure than maximum sustained wind, both with aircraft as well as with surface observations
+  abstract: Atlantic hurricane seasons have a long history of causing significant financial impacts, with Harvey, Irma, Maria, Florence, and Michael combining to incur more than 345 billion USD in direct economic damage during 2017-2018.  While Michael’s damage was primarily wind and storm surge-driven, Florence’s and Harvey’s damage was predominantly rainfall and inland flood-driven.  Several revised scales have been proposed to replace the Saffir-Simpson Hurricane Wind Scale (SSHWS), which currently only categorizes the hurricane wind threat, while not explicitly handling the totality of storm impacts including storm surge and rainfall. However, most of these newly-proposed scales are not easily calculated in real-time, nor can they be reliably calculated historically. In particular, they depend on storm wind radii, which remain very uncertain. Herein, we analyze the relationship between normalized historical damage caused by continental United States (CONUS) landfalling hurricanes from 1900-2018 with both maximum sustained wind speed (Vmax) and minimum sea level pressure (MSLP).  We show that MSLP is a more skillful predictor of normalized damage than Vmax, with a significantly higher rank correlation between normalized damage and MSLP (rrank = 0.77) than between normalized damage and Vmax (rrank = 0.66) for all CONUS landfalling hurricanes.  MSLP has served as a much better predictor of hurricane damage in recent years than Vmax, with large hurricanes such as Ike (2008) and Sandy (2012) causing much more damage than anticipated from their SSHWS ranking. MSLP is also a more accurately-measured quantity than is Vmax, making it an ideal quantity for evaluating a hurricane’s potential damage.
+  summary: false
+  image: ../Publications/figures/klotzbach_et_al_2020_Fig1.jpg
+  caption: >
+    Fig. 1.  Normalized hurricane damage relationship with Vmax and MSLP.  (a) For CONUS normalized damage vs. Vmax (1900-2018), (b) for CONUS normalized damage vs. MSLP (1900-2018), (c) for CONUS normalized damage vs. Vmax (2007-2018), (d) for CONUS normalized damage vs. MSLP (2007-2018), (e) for Georgia to Maine normalized damage vs. Vmax (1900-2018) and (f) for Georgia to Maine normalized damage vs. MSLP (1900-2018).   Individual CONUS hurricane landfalls are labeled on panels (c) and (d).  
+  acknowledgement: We would like to acknowledge Dan Chavas, two anonymous reviews and the editor, Chris Landsea, for valuable comments that improved this manuscript.  We would like to thank Roger Pielke Jr. for providing the normalized hurricane damage dataset.  P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research.  E. Gibney’s research was supported by NOAA's Science Collaboration Program and administered by UCAR's Cooperative Programs for the Advancement of Earth System Science (CPAESS) under awards NA16NWS4620043 and NA18NWS4620043B. C. Schreck was supported by NOAA through the Cooperative Institute for Climate and Satellites - North Carolina under Cooperative Agreement NA14NES432003. M. Bell was supported by National Science Foundation award AGS-1701225 and Office of Naval Research Award N000141613033.
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_bams.bib
+  pdf: ../Publications/papers/klotzbach_et_al_2020.pdf
+  keyword1: Human societal impacts
+  keyword2: TC intensity
+  keyword3:
