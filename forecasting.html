@@ -156,12 +156,12 @@ figure figcaption {
 						<h3 style="text-align:center;">{{site.data.forecasting.current.year}} CSU Tropical Meteorology Project Forecast Schedule</h3>
 						<div id="schedule" class="align-center">
 							<ul class="actions" style="text-align:center;">
-								<li><a href="Forecast/2019-11" class="button small doubleline special" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Nov 27, 2019) <br>Verification for 2019 </a></li>
-								<li><a href="Forecast/2019-12.pdf" class="button small doubleline special fit" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Dec 12, 2019) <br>Discussion for 2020 </a></li>
-								<li><a href="Forecast/2020-04.pdf" class="button small doubleline special fit" target="_blank" style="width:200px;"><i class="fas fa-download"></i> (Apr 2, 2020) <br>Forecast for 2020 </a></li>
-								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Jun 4, 2020) <br>Forecast for 2020</a></li>
-								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Jul 7, 2020) <br>Forecast for 2020</a></li>
-								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:200px;"><i class="far fa-pause-circle"></i> (Aug 6, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="Forecast/2019-11" class="button small doubleline special" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Nov 27, 2019) <br>Verification for 2019 </a></li>
+								<li><a href="Forecast/2019-12.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Dec 12, 2019) <br>Discussion for 2020 </a></li>
+								<li><a href="Forecast/2020-04.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Apr 2, 2020) <br>Forecast for 2020 </a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Jun 4, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Jul 7, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Aug 6, 2020) <br>Forecast for 2020</a></li>
 							</ul>
 						</div>
 					</div>
@@ -180,9 +180,11 @@ figure figcaption {
 						<br>
             <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
             <br>
-            <div id="schedule" class="align-center">
+            <hr>
+            <br>
+            <div id="basin" class="align-center" style="margin:0px -20px">
 							<ul class="actions" style="text-align:center;">
-                <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
+                <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
       					<li><a href="#nwp" class="button small doubleline alt" id="btn_nwp", onclick="showDiv('btn_nwp','nwp','eye2','txt2')" style="text-transform:none;width:150px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Northwest Pacific </p></a></li>
       					<li><a href="#nep" class="button small doubleline alt" id="btn_nep", onclick="showDiv('btn_nep','nep','eye3','txt3')" style="text-transform:none;width:150px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> Northeast Pacific </p></a></li>
       					<li><a href="#ni" class="button small doubleline alt" id="btn_ni", onclick="showDiv('btn_ni','ni','eye4','txt4')" style="text-transform:none;width:150px;"><p id="txt4"><i id="eye4" class="fas fa-eye-slash"></i> North Indian </p></a></li>
@@ -191,7 +193,7 @@ figure figcaption {
 							</ul>
 						</div>
 						<br>
-            <div class="inner" id="atl">
+            <div class="inner" id="atl" style="margin-top:-20px">
               <div class="content">
               <h4 class="align-center">Real-Time North Atlantic Ocean Statistics by Storm for 2020</h4>
               <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
