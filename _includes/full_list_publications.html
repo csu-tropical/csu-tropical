@@ -1,26 +1,46 @@
 <html>
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
-</head>
+<style>
+.dropcontent {
+  background-color:transparent;
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  width : 100%;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+}
 
-<h3>Submitted</h3>
-{% for entry in site.data.publication_submitted %}
-{% if entry.others == 'In review' or entry.others == 'in review'%}
-  <ul>
-    <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
-  </ul>
-{% endif %}
-{% endfor %}
-{% for entry in site.data.publication_submitted %}
-{% if entry.others == 'submitted'%}
-  <ul>
-    <li style="margin-botton: 10px;"> {{ entry.authors}}: {{ entry.title }}. <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
-  </ul>
-{% endif %}
-{% endfor %}
+</style>
+
+</head>
+<div class="12u$ 12u$(medium)">
+<ul class="actions fit" style="text-align:left;line-height:1em;">
+  <li><a class="button alt fit" id="btn_submitted", onclick="showDiv2('btn_submitted','submitted','eye1','txt1')" ><h3 id="txt1" style="text-align:left;line-height:2em;box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 0.15);"><i id="eye1" class="fas fa-folder-plus"></i> Submitted Manuscripts</h3></a></li>
+</ul>
+<div class="content" id="submitted" style="display:none;margin-top:-40px;">
+  {% for entry in site.data.publication_submitted %}
+  {% if entry.others == 'In review' or entry.others == 'in review'%}
+    <ul>
+      <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+    </ul>
+  {% endif %}
+  {% endfor %}
+  {% for entry in site.data.publication_submitted %}
+  {% if entry.others == 'submitted'%}
+    <ul>
+      <li style="margin-botton: 10px;"> {{ entry.authors}}: {{ entry.title }}. <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+    </ul>
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
 
 
 <h3>In Press</h3>
+
 {% for entry in site.data.list_long %}
 {% if entry.others == 'in press' %}
   <ul>
@@ -201,4 +221,27 @@
 <ul><li style="margin-bottom: 10px;">Bluestein, H. B., W.-C. Lee, M. M. Bell, C. C. Weiss, A. L. Pazmany, 2003: <a href="../Publications/papers/Bluestein_etal_MWR2003.pdf">Mobile Doppler radar observations of a tornado in a supercell near Bassett, Nebraska, on 5 June 1999. Part II: Tornado-vortex structure.</a> Mon. Wea. Rev., 131, 2968-2894.</li></ul>
 <ul><li style="margin-bottom: 10px;">Klotzbach, P. J., and W. M. Gray, 2003: <a href="../Publications/papers/klotzbach_and_gray_2003.pdf">Forecasting September Atlantic basin tropical cyclone activity. </a> Wea. and Forecasting, 18, 1109-1128. </li></ul>
 
+<script>
+function showDiv2(btn,ctn,eye,txt) {
+  var ic = document.getElementById(eye)
+  var x = document.getElementById(ctn);
+  var property = document.getElementById(btn);
+  var str = document.getElementById(txt)
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    property.style.backgroundColor = "transparent";
+    str.style.color = "white"
+    ic.style.color = "white"
+    ic.classList.replace('fas fa-folder-plus','fas fa-folder-open');
+  } else {
+    x.style.display = "none";
+    property.style.backgroundColor = "transparent";
+    str.style.color = "black"
+    ic.style.color="black"
+    ic.classList.replace('fas fa-folder-open','fas fa-folder-plus');
+  }
+
+
+}
+</script>
 </html>

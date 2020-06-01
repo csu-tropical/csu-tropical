@@ -40,44 +40,50 @@
         }
 </style>
 <div class="inner">
-<div class="box">
-  <div class="content">
+  <div class="box">
+    <div class="content">
 
-    <header class="left">
-      <h2 id= {{entry.id}}> {{entry.title}} </h2>
-    </header>
-
-    <div class="container_fig">
-      <div class="image left">
-        <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+      <header class="left">
+        <h2 id= {{entry.id}}> {{entry.title}} </h2>
+      </header>
+      <div class="row">
+      <div class="4u 12u$(small)">
+        <div class="image fit">
+          <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
+        </div>
       </div>
+
+      <div class="8u$ 12u$(small)">
+        <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
+          {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
+          {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
+          {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
+        </a></h4>
+          <p class="align-justify">{{ entry.description}} </p>
+          <ul class="actions">
+            {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" target="_blank"><i class="fas fa-external-link-alt"></i> Conference Presentation </a></li>{% endif %}
+            {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
+            {% if entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
+          </ul>
+      </div>
+      </div>
+      <hr>
+      <div class="12u$ 12u$(small)">
+      <ul class="actions fit" style="text-align:center;">
+
+        {% for org in site.data.keywords %}{% if entry.keyword1 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword1}}</a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword2 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword2}}</a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword3 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword3}}</a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword4 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword4}}</a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword5 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword5}}</a></li>{% endif %}{% endfor %}
+
+      </ul>
+      </div>
+
+
+
+
     </div>
-    <div id="container_text">
-      <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
-        {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
-        {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
-        {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
-      </a></h4>
-        <p class="align-justify">{{ entry.description}} </p>
-        <ul class="actions" style="text-align:center;">
-          {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" target="_blank"><i class="fas fa-external-link-alt"></i> Conference Presentation </a></li>{% endif %}
-          {% if entry.oral == false and entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
-          {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
-          {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
-          {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
-        </ul>
-    </div>
-    <ul class="actions">
-      {% for org in site.data.keywords %}{% if entry.keyword1 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword1}}</a></li>{% endif %}{% endfor %}
-      {% for org in site.data.keywords %}{% if entry.keyword2 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword2}}</a></li>{% endif %}{% endfor %}
-      {% for org in site.data.keywords %}{% if entry.keyword3 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword3}}</a></li>{% endif %}{% endfor %}
-      {% for org in site.data.keywords %}{% if entry.keyword4 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword4}}</a></li>{% endif %}{% endfor %}
-      {% for org in site.data.keywords %}{% if entry.keyword5 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword5}}</a></li>{% endif %}{% endfor %}
-    </ul>
-
-
-
   </div>
-</div>
 </div>
 </html>

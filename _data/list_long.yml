@@ -2,7 +2,7 @@
   year: 2019
   title: Modulation of Bay of Bengal tropical cyclone activity by the Madden-Julian
     oscillation
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Bhardwaj. P., O. Singh, D. R. Pattaniak, and P. J. Klotzbach
   journal: Atmospheric Research
   others: 229, 23-38
@@ -50,7 +50,7 @@
 - id: camargoetal2019
   year: 2019
   title: Tropical cyclone prediction on sub-seasonal timescales
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Camargo, S. J., J. Camp, R. L. Elsberry, P. A. Gregory, P. J. Klotzbach,
     C. J. Schreck III, A. H. Sobel, M. J. Ventrice, F. Vitart, Z. Wang, M. C. Wheeler,
     M. Yamaguchi, and R. Zhan
@@ -101,7 +101,7 @@
   year: 2019
   title: Relationship between the Pacific-North American pattern and the frequency
     of tropical cyclones over the western North Pacific
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Song, J., and P. J. Klotzbach
   journal: Geophysical Research Letters
   others: 46, 6118-6127
@@ -164,7 +164,7 @@
   year: 2020
   title: Increasing trend in rapid intensification magnitude of tropical cyclones
     over the western North Pacific
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: Environmental Research Letters
   others: in press
@@ -215,7 +215,7 @@
   year: 2020
   title: Revisiting the relationship between tropical cyclone size and intensity over
     the western North Pacific
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Song, J., Y. Duan, and P. J. Klotzbach
   journal: Geophysical Research Letters
   others: in press
@@ -278,7 +278,7 @@
 - id: woodetal2019
   year: 2019
   title: The record-setting 2018 eastern North Pacific hurricane season
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Wood, K., P. J. Klotzbach, J. M. Collins, and C. J. Schreck III
   journal: Geophysical Research Letters
   others: 46, 10072-10081
@@ -334,7 +334,7 @@
   year: 2019
   title: Multi-scale interactions of equatorial waves associated with tropical cyclogenesis
     over the western North Pacific
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Zhao, H., X. Jiang, L. Wu, and P. J. Klotzbach
   journal: Climate Dynamics
   others: 52, 3023-3038
@@ -389,7 +389,7 @@
   year: 2019
   title: Recent increased co-variability of tropical cyclogenesis latitude-longitude
     over the western North Pacific during the extended boreal summer
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Zhao, H., J. Zhang, P. J. Klotzbach, and S. Chen
   journal: Journal of Climate
   others: 32, 8167-8179
@@ -446,7 +446,7 @@
   title: Recent strengthening of the relationship between the western North Pacific
     monsoon and western North Pacific tropical cyclone activity during the boreal
     summer
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Zhao, H., S. Chen, and P. J. Klotzbach
   journal: Journal of Climate
   others: 32, 8283-8299
@@ -508,7 +508,7 @@
   year: 2019
   title: Consistent late onset of the western North Pacific tropical cyclone season
     following major El Nino events
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Zhao, H., L. Wu, C. Wang, and P. J. Klotzbach
   journal: Journal of the Meteorological Society of Japan
   others: 97, 673-688
@@ -569,7 +569,7 @@
   year: 2020
   title: Surface pressure a more skillful predictor of normalized hurricane damage
     than maximum sustained wind
-  firstauthor: klotzbach
+  author1: klotzbach
   authors: Klotzbach, P. J., M. M. Bell, S. G. Bowen, E. J. Gibney, K. R. Knapp, and
     C. J. Schreck III
   journal: Bulletin of the American Meteorological Society
@@ -762,7 +762,8 @@
   year: 2020
   title: A Comparison of the Polarimetric Radar Characteristics of Heavy Rainfall
     from Hurricanes Harvey (2017) and Florence (2018)
-  firstauthor: dehart
+  author1: dehart
+  author2: bell
   authors: DeHart, J. C., M. M. Bell
   journal: Journal of Geophysical Research - Atmospheres
   others: early online release
@@ -1443,4 +1444,50 @@
   pdf: ../Publications/papers/zhao_et_al_2019_climdyn_cloudclusters.pdf
   keyword1: Tropical cloud clusters
   keyword2: Mesoscale
-  keyword3: Monsoon circulation
+  keyword3: Monsoon
+
+- id: Martinez_etal_MWR2017
+  year: 2017
+  title: Examining tropical cyclone structure and intensification with the FLIGHT+ Dataset from 1999 to 2012
+  author1: martinez
+  author2: bell
+  authors: Martinez, J., M. M. Bell, J. L. Vigh, R. F. Rogers
+  journal: Monthly Weather Review
+  others: 145, 4401-4421
+  doi: https://doi.org/10.1175/MWR-D-17-0011.1
+  keypoint1: Structural differences are observed in tropical cyclone composites organaized by intensity, intensity change, age, and the presence of a secondary wind maximum.
+  keypoint2: Intensifying tropical cyclones are distinguished from their steady-state and weakening counterparts by the presence of a vorticity ring structure, higher inner- and outer-core moisture, and a notably drier eye.
+  keypoint3: Structural differences in the tangential wind profiles of minor hurricanes are predominant in the inner-core region during the early life cycle whereas structural differences in the tangential wind profiles of major hurricanes are predominant in the outer-core region during the late life cycle.
+  abstract: A comprehensive examination of tropical cyclone (TC) kinematic and thermodynamic structure in the Atlantic basin is created from the Extended Flight Level Dataset (FLIGHT+) for Tropical Cyclones (Version 1.1). In situ data collected at the 700-hPa flight level by NOAA WP-3D and USAF WC-130 aircraft from 1999 to 2012 are analyzed. A total of 233 azimuthal mean profiles comprising 1498 radial legs are stratified by TC intensity and 12-hour intensity change. A matrix of composite structures is created for minor (category 1 and 2) and major (category 3 and above) hurricanes that are intensifying [intensity increase greater than or equal to 10 kt in 12 h], steady-state [intensity change between +/- 5 kt in 12 h], and weakening [intensity decrease less than or equal to -10 kt in 12 h]. Additional considerations to the impacts of age on TC structure are given as well. Axisymmetric radial composites reveal that intensifying TCs have statistically significant structural differences from TCs that are steady-state or weakening, but that these differences also depend on the intensity of the TC. Intensifying TCs (both minor and major hurricanes) are characterized by steep tangential wind gradients radially inward of the radius of maximum tangential wind (RMW) that contributes to a ring-like structure of vorticity and inertial stability. Tangential wind structural differences are more pronounced in the eye of minor hurricanes compared to major hurricanes. Intensifying TCs are found to have higher inner and outer-core moisture compared to steady-state and weakening TCs. Furthermore, intensifying major hurricanes possess drier eyes compared to steady-state and weakening major hurricanes.
+  summary: false
+  image: ../Publications/figures/Martinez_etal_MWR2017_Figure7.png
+  caption: Storm-relative axisymmetric vertical vorticity composite means for (a) minor hurricanes and (b) major hurricanes. Intensifying (IN) TCs are denoted in solid red, steady-state (SS) TCs are denoted in dashed green, and weakening (WK) TCs are denoted in dotted blue. Radial locations where two composite means are significantly different at the 5% level appear thicker on the respective composite-mean curves and radial locations where all composite means are significantly different at the 5% level are shaded in gray.
+  acknowledgement: This study was supported by the National Science Foundation (NSF) CAREER Award AGS-1349881 and Office of Naval Research Award N000141410118. JM was supported, in part, by the Significant Opportunities in Atmospheric Research and Science (SOARS) Program, NSF Grant AGS-1120459 and the National Science Foundation Bridge to the Doctorate Fellowship, NSF Grant 004863-00003. We thank the crews of both the 53rd Weather Reconnaissance Squadron and NOAA Aircraft Operations Center whose hours of hard work and dedication to collecting high-quality observations in tropical cyclones made this research possible. We would also like to thank Gary Barnes, Yuqing Wang, Jim Kossin, and two anonymous reviewers for their insightful comments that improved the quality of the manuscript. The Extended Flight Level Dataset (FLIGHT+) for tropical cyclones was created by the Research Applications Laboratory at the National Center for Atmospheric Research (NCAR) from data provided by the NOAA Hurricane Research Division of AOML and U.S. Air Force Reserve. The National Center for Atmospheric Research is sponsored by the National Science Foundation. The creation of this dataset was funded through a grant from the Bermuda Institute of Ocean Sciences Risk Prediction Initiative (RPI2.0). We especially thank Neal Dorst (AOML/HRD) for creating the wind center tracks and assembling the data and metadata that were vital for creation of the FLIGHT+ dataset.
+  bibtex: ../Publications/bibtex/Martinez_etal_MWR2017_bibtex.bib
+  pdf: ../Publications/papers/Martinez_etal_MWR2017.pdf
+  keyword1: TC structure
+  keyword2: Observations
+  keyword3: FLIGHT+ Dataset
+
+- id: Martinez_etal_JAS2019
+  year: 2019
+  title: Axisymmetric potential vorticity evolution of Hurricane Patricia (2015)
+  author1: martinez
+  author2: bell
+  authors: Martinez, J., M. M. Bell, R. F. Rogers, J. D. Doyle
+  journal: Journal of the Atmospheric Sciences
+  others: 76, 2043-2063
+  doi: https://doi.org/10.1175/JAS-D-18-0373.1
+  keypoint1: Patricia's structure was predominantly characterized by a hollow potential vorticity tower during its rapid intensification.
+  keypoint2: Symmetric heating remained fixed to the same absolute angular momentum surfaces as they contracted in physical space, contributing to a rapid concentration of potential vorticity.
+  keypoint3: Patricia's rapid over-water weakening was charactized by a dilution of the hollow potential vorticity tower and eddy mixing near the eye and eyewall region.
+  abstract: Operational numerical models failed to predict the record-setting rapid intensification and rapid over-water weakening of Hurricane Patricia (2015) in the eastern North Pacific basin, resulting in large intensity forecast errors. In an effort to better understand the mesoscale processes contributing to Patricia's rapid intensity changes, we analyze high-resolution aircraft observations collected on 22-23 October. Spline-based variational analyses are created from observations collected via in situ measurements, Doppler radar, and full-tropospheric dropsonde profiles as part of the Office of Naval Research Tropical Cyclone Intensity (TCI) experiment and the National Oceanic and Atmospheric Administration Intensity Forecasting Experiment (IFEX). We present the first full-tropospheric calculation of the dry, axisymmetric Ertel's potential vorticity (PV) in a tropical cyclone without relying on balance assumptions. Detailed analyses reveal the formation of a "hollow tower" PV structure as Patricia rapidly approached its maximum intensity, and a subsequent breakdown of this structure during Patricia's rapid over-water weakening phase. Transforming the axisymmetric PV analyses from radius-height to potential radius-isentropic coordinates reveals that Patricia's rapid intensification was closely related to the distribution of diabatic heating and eddy mixing. During Patricia's rapid over-water weakening phase, eddy mixing processes are hypothesized to be the primary factor rearranging the PV distribution near the eye-eyewall region, diluting the PV previously confined to the hollow tower while approximately conserving the absolute circulation.
+  summary: false
+  image: ../Publications/figures/Martinez_etal_JAS2019_Figure10.png
+  caption: Dry Ertel's PV (shading, PVU) and the diabatic heating estimate (white, contours at 220, 50, 100, 150, and 200 K/h) are shown in potential radius and potential temperature space for the (a) rapid intensification (RI), (b) near maximum intensity (MI), and (c) rapid weakening (RW) intensive observing periods (IOPs) in Hurricane Patricia.
+  acknowledgement: This work was funded by the Office of Naval Research awards N000141613033 and N000141410118 under the Tropical Cyclone Intensity Departmental Research Initiative. MMB was also supported by the National Science Foundation (NSF) Award AGS-1701225, and JM was supported by the NSF Bridge to the Doctorate Fellowship Award 004863-00003. We thank the crews of both the NOAA P-3 and the NASA WB-57, and the TCI Science Team for collecting and quality controlling the observations used in this study. Insightful discussions with Wayne H. Schubert aided in developing the potential vorticity conceptual model presented in this study. We also thank Dave Nolan and one anonymous reviewer for helpful comments, which improved the overall quality of the manuscript.
+  bibtex: ../Publications/bibtex/Martinez_etal_2019JAS_bibtex.bib
+  pdf: ../Publications/papers/Martinez_etal_2019JAS.pdf
+  keyword1: Rapid intensity change
+  keyword2: Potential vorticity
+  keyword3: Observations

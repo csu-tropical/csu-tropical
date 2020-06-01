@@ -77,7 +77,7 @@ div.ex3 {
 
                 {% for entry in site.data.research.index_card %}
                 {% if entry.member1 == page.full_name or entry.member2 == page.full_name or entry.member3 == page.full_name or entry.member4 == page.full_name or entry.member5 == page.full_name%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                   {% endif %}
                 {% endfor %}
                 <div>
