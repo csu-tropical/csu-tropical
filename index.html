@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: default_popup
 title: CSU Tropical Weather and Climate Research
 ---
-<head>
-<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
-</head>
+<html>
+ <head>
+  <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+ </head>
+
 <!-- to shrink the line space for the news list -->
 <style>
 p.small {
@@ -13,6 +15,26 @@ p.small {
   padding:0;
 }
 </style>
+<body>
+
+  <!-- The Modal (pop-up window) -->
+   <!-- Change "display:none" right below to "display:block" to use the pop-up modal function-->
+  <div id="myModal" class="modal" style="display:none">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h3 style="color:white;"><i class="far fa-bell"></i> NEW FORECAST <i class="far fa-bell"></i></h3>
+      </div>
+      <div class="modal-body">
+        <li>CSU Extended Range Forecast of Atlantic Seasonal Hurricane Activity is newly released on June 4. </li>
+        <li>View our prediction for hurricane activity in 2020 <a style="font-width:bold;font-size:22px" href="/forecasting.html">HERE</a>  </li>
+        <li>Close this pop-up window to go to the home page.</li>
+      </div>
+    </div>
+  </div>
+
 <!-- Banner -->
   <section class="banner full">
     <article>
@@ -188,3 +210,6 @@ p.small {
 				</footer>
 				<br>
 			</section>
+
+</body>
+</html>
