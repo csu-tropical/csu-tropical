@@ -340,6 +340,86 @@ function showDiv(btn,ctn,eye,txt) {
             //{% endif %}
           },
         {% endfor %}
+        {% for item in site.data.tc_stats.northwestpacificstormstats %}
+        {
+          name: '{{item.name}}',
+          lat: {{item.latitude}},
+          lon: {{item.longitude}},
+          basin: '{{item.basin}}',
+          charnam: '{{item.storm_charnumber}}',
+          mslp: {{item.mslp}},
+          intensity: {{item.intensity}},
+          status: 'Inactive'
+          //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+          //{% else %}
+          //  status: 'Active'
+          //{% endif %}
+        },
+      {% endfor %}
+      {% for item in site.data.tc_stats.northeastpacificstormstats %}
+      {
+        name: '{{item.name}}',
+        lat: {{item.latitude}},
+        lon: {{item.longitude}},
+        basin: '{{item.basin}}',
+        charnam: '{{item.storm_charnumber}}',
+        mslp: {{item.mslp}},
+        intensity: {{item.intensity}},
+        status: 'Inactive'
+        //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+        //{% else %}
+        //  status: 'Active'
+        //{% endif %}
+      },
+    {% endfor %}
+    {% for item in site.data.tc_stats.southindianstormstats %}
+    {
+      name: '{{item.name}}',
+      lat: {{item.latitude}},
+      lon: {{item.longitude}},
+      basin: '{{item.basin}}',
+      charnam: '{{item.storm_charnumber}}',
+      mslp: {{item.mslp}},
+      intensity: {{item.intensity}},
+      status: 'Inactive'
+      //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+      //{% else %}
+      //  status: 'Active'
+      //{% endif %}
+    },
+  {% endfor %}
+  {% for item in site.data.tc_stats.southpacificstormstats %}
+  {
+    name: '{{item.name}}',
+    lat: {{item.latitude}},
+    lon: {{item.longitude}},
+    basin: '{{item.basin}}',
+    charnam: '{{item.storm_charnumber}}',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
+    status: 'Inactive'
+    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+    //{% else %}
+    //  status: 'Active'
+    //{% endif %}
+  },
+  {% endfor %}
+  {% for item in site.data.tc_stats.northindianstormstats %}
+  {
+    name: '{{item.name}}',
+    lat: {{item.latitude}},
+    lon: {{item.longitude}},
+    basin: '{{item.basin}}',
+    charnam: '{{item.storm_charnumber}}',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
+    status: 'Inactive'
+    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+    //{% else %}
+    //  status: 'Active'
+    //{% endif %}
+  },
+{% endfor %}
         ]
       }]
 
