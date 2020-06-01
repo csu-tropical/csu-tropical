@@ -1,3 +1,633 @@
+- id: bhardwajetal2019
+  year: 2019
+  title: Modulation of Bay of Bengal tropical cyclone activity by the Madden-Julian
+    oscillation
+  firstauthor: klotzbach
+  authors: Bhardwaj. P., O. Singh, D. R. Pattaniak, and P. J. Klotzbach
+  journal: Atmospheric Research
+  others: 229, 23-38
+  doi: https://doi.org/10.1016/j.atmosres.2019.06.010
+  keypoint1: Bay of Bengal TC activity is significantly enhanced when the convectively
+    active MJO phase is positioned over the eastern Indian Ocean and the Maritime
+    Continent
+  keypoint2: Bay of Bengal TC activity is significantly suppressed when the convectively
+    active MJO phase is positioned over the Western Hemisphere and Africa
+  keypoint3: MJO modulations of Bay of Bengal TC activity are stronger in the post-monsoon
+    than pre-monsoon cyclone season
+  abstract: The influence of the Madden-Julian oscillation (MJO) on global tropical
+    cyclone (TC) activity has been well documented in many earlier studies. However,
+    no prior studies have focused specifically on the MJO's impacts on TCs in the
+    Bay of Bengal (BoB). Therefore, the present study examines the impact of the MJO
+    on BoB TC activity during the two peak TC periods i.e. April–June (AMJ) and October–December
+    (OND) from 1974 to 2015. The MJO considerably modulates various measures of TC
+    activity in the BoB, including the number of TCs, the number of TC days, accumulated
+    cyclone energy, the power dissipation index, TC genesis location and TC tracks.
+    TC activity is significantly enhanced (suppressed) over the BoB when the convectively
+    active MJO phase is positioned over the eastern Indian Ocean and the Maritime
+    Continent (the Western Hemisphere and Africa). Alterations in the TC genesis locations
+    and their tracks are more pronounced in OND than in AMJ. These changes in TC characteristics
+    are mainly attributed to MJO-driven modulations in large-scale environmental conditions
+    such as deep convection, mid-tropospheric relative humidity, sea surface temperature,
+    sea level pressure, lower and upper-level winds and vertical wind shear. A comprehensive
+    knowledge of the MJO-TC relationship may be beneficial for short-term predictions
+    of TC activity in the BoB.
+  summary: false
+  image: ../Publications/figures/bhardwaj_et_al_2019_Fig2.jpg
+  caption: >
+    Fig. 2. The relationship between TC genesis and MJO phase during (a) AMJ and (b)
+    OND from 1974 to 2015 (excluding 1978). The phase amplitude diagram is constructed
+    with the principal components RMM1 and RMM2 of the MJO. The black dots represent
+    days where TC genesis occurred. The circle in the center with an amplitude of
+    0.75 represents the days with weak MJO activity.
+
+  acknowledgement: The authors thank the anonymous reviewer for critical comments
+    and constructive suggestions which improved the overall quality of the manuscript.
+  bibtex: ../Publications/bibtex/bhardwaj_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/bhardwaj_et_al_2019.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Bay of Bengal
+  keyword3: Cyclone
+- id: camargoetal2019
+  year: 2019
+  title: Tropical cyclone prediction on sub-seasonal timescales
+  firstauthor: klotzbach
+  authors: Camargo, S. J., J. Camp, R. L. Elsberry, P. A. Gregory, P. J. Klotzbach,
+    C. J. Schreck III, A. H. Sobel, M. J. Ventrice, F. Vitart, Z. Wang, M. C. Wheeler,
+    M. Yamaguchi, and R. Zhan
+  journal: Tropical Cyclone Research and Review
+  others: 8, 150-165
+  doi: https://doi.org/10.6057/2019TCRR03.04
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Here we discuss recent progress in understanding tropical cyclone (TC)
+    subseasonal variability and its prediction. There has been a concerted effort
+    to understand the sources of predictability at subseasonal time-scales, and this
+    effort has continued to make progress in recent years. Besides the Madden-Julian
+    Oscillation (MJO), other modes of variability affect TCs at these time-scales,
+    in particular various equatorial waves. Additionally, TC activity is also modulated
+    by extratropical processes via Rossby wave breaking. There has also been progress
+    in the ability of models to simulate the MJO and its modulation of TC activity.
+    Community efforts have created multi-model ensemble datasets, which have made
+    it possible to evaluate the forecast skill of the MJO and TCs on subseasonal time-scales
+    in multiple forecasting systems. While there is positive skill in some cases,
+    there is strong dependence on the ensemble system considered, the basin examined,
+    and whether the storms have extratropical influences or not. Furthermore, the
+    definition of skill differs among studies. Forecasting centers are currently issuing
+    subseasonal TC forecasts using various techniques (statistical, statistical-dynamical
+    and dynamical). There is also a strong interest in the private sector for forecasts
+    with 3-4 weeks lead time.
+  summary: false
+  image: ../Publications/figures/camargo_et_al_2019_Fig3.jpg
+  caption: >
+    Fig. 3. Plots of the MJO–TC relationship in the observations and from the S2S
+    models from week 2 forecasts. The color of each circle indicates the PDF (%) in
+    the corresponding MJO phase in the basin. The sum of the circles across the MJO
+    phases in each basin is 100%. The black circle outline indicates that the value
+    is above the 90th percentile while the cross symbol (x) at the center means the
+    value is below the 10th percentile. The percentage on the title corresponds to
+    the spatial correlation of that model plot with observations (top panel). Figure
+    from Lee et al. (2018),
+
+  acknowledgement: SJC and AHS acknowledge support from NOAA grant NA16OAR4310079.
+    We thank Zongjian Ke and Jianyun Gao for their contributions to the China Meteorological
+    Administration forecast summary.
+  bibtex: ../Publications/bibtex/camargo_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/camargo_et_al_2019.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Sub-seasonal
+  keyword3: Forecasting
+- id: songandklotzbach2019
+  year: 2019
+  title: Relationship between the Pacific-North American pattern and the frequency
+    of tropical cyclones over the western North Pacific
+  firstauthor: klotzbach
+  authors: Song, J., and P. J. Klotzbach
+  journal: Geophysical Research Letters
+  others: 46, 6118-6127
+  doi: https://doi.org/10.1029/2019GL082925
+  keypoint1: Boreal summer western North Pacific tropical cyclone frequency is inversely
+    linked to the concurrent Pacific-North American pattern
+  keypoint2: A greater number of tropical cyclones form north (south) of 12.5°N during
+    low (high) Pacific-North American pattern phases
+  keypoint3: The Pacific-North American pattern influences tropical cyclone genesis
+    predominately by modulating large-scale dynamic conditions
+  abstract: The frequency of tropical cyclones (TCs) over the western North Pacific
+    during June–November has a significant inverse correlation with the concurrent
+    Pacific-North American (PNA) pattern from 1965 to 2016. During low PNA years,
+    more TCs form north of 12.5°N, with significantly greater  TC occurrences from
+    15 to 20°N, compared to high PNA years. The difference in TC genesis location
+    can be explained by the differences in the genesis potential index derived from
+    the environmental variables in both PNA phases. The PNA influences TC formation
+    primarily by modulating large-scale dynamic conditions, with thermodynamic conditions
+    playing a lesser role. In low PNA years, low-level anomalous cyclonic lows over
+    the Philippines and in the subtropical central Pacific provide significant positive
+    relative vorticity anomalies favorable for TC genesis. Additionally, there is
+    also less vertical wind shear to the north of the Philippines due to enhanced
+    winds at low levels and weaker winds at upper levels.
+  summary: Tropical cyclones (TCs) are the most devastating natural disasters in many
+    coastal regions, including over the western North Pacific (WNP). Therefore, the
+    characteristics and driving mechanisms of WNP TC activity have been studied extensively
+    over the past several decades. Previous publications indicated that El Niño-Southern
+    Oscillation (ENSO) played the most important role on an interannual basis in modulating
+    WNP TC formation, movement, and intensity. However, the interannual frequency
+    of WNP TCs is only weakly influenced by ENSO. Here we find that there exists a
+    significant negative correlation between the annual number of boreal summer WNP
+    TCs and the concurrent Pacific-North American (PNA) pattern. Distinct from other
+    climate modes (e.g., the North Atlantic Oscillation and the Arctic Oscillation),
+    the inverse relationship between WNP TC frequency and the PNA is relatively stable
+    and independent of the period analyzed. Furthermore, the PNA influences the formation
+    of WNP TCs through a modulation of the large-scale environment, particularly the
+    dynamic conditions. During low PNA years, the large-scale dynamic conditions are
+    more favorable for TC development, compared to high PNA years. Our results imply
+    that one may be able to improve the prediction of WNP TC frequency by considering
+    variations in the PNA pattern.
+  image: ../Publications/figures/song_and_klotzbach_2019_Fig2.jpg
+  caption: >
+    Fig. 2. (a) Time series of WNP TC number and the PNA index over theperiod from
+    1965 to 2016. (b) Thirty-year moving correlation coefficients between WNP TC number
+    and the PNA (black line), the NAO (red line), and the AO (blue line) from 1965
+    to 2016.
+
+  acknowledgement: This work was jointly funded by the National Key Research and Development
+    Program of China (2018YFC1507305 and 2018YFA0606003) and the National Grand Fundamental
+    Research 973 Program of China (2015CB452800). Klotzbach would like to acknowledge
+    financial support from the G. Unger Vetlesen Foundation. We thank the two anonymous
+    reviewers for very useful comments, which significantly improved the quality of
+    the manuscript.
+  bibtex: ../Publications/bibtex/song_and_klotzbach_2019_bibtex.bib
+  pdf: ../Publications/papers/song_and_klotzbach_2019.pdf
+  keyword1: Pacific North American Pattern
+  keyword2: El Nino
+  keyword3: Seasonal
+- id: songetal2020erl
+  year: 2020
+  title: Increasing trend in rapid intensification magnitude of tropical cyclones
+    over the western North Pacific
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: Environmental Research Letters
+  others: in press
+  doi: https://doi.org/10.1088/1748-9326/ab9140
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Rapid intensification (RI) refers to a significant increase in tropical
+    cyclone (TC) intensity over a short period of time. A TC can also undergo multiple
+    RI events during its lifetime, and these RI events pose a significant challenge
+    for operational forecasting. The long-term tendency in RI magnitude of TCs over
+    the western North Pacific is investigated in this study. During 1979-2018, a significant
+    increasing trend is found in RI magnitude, which primarily results from the significant
+    increasing number of strong RI events, defined as 24-h intensity increases of
+    at least 50 kt. Furthermore, there are significantly more (slightly fewer) strong
+    RI occurrences west (east) of 155°E in 1999-2018 than in 1979-1998. Significant
+    increases in strong RI occurrences are located over the region bounded by 10°~20°N,
+    120°~150°E. These changes are likely induced by the warming ocean but appear uncorrelated
+    with changes in the atmospheric environment. By contrast, there are slight decreases
+    in strong RI occurrences over the region bounded by 12.5°~22.5°N, 155°~170°E,
+    likely due to the offset between RI-favorable influences of the warming ocean
+    and RI-unfavorable influences of increasing vertical wind shear (VWS).
+  summary: false
+  image: ../Publications/figures/song_et_al_2020_erl_Fig2.jpg
+  caption: "Fig. 2. (a) Slope of the quantiles for 24-h intensity changes (ΔV24s)
+    for all TCs over the WNP from 1979-2018. Circles represent the slope derived by
+    the least squares of ΔV24 as a function of year for each quantile from 5% to 95%
+    in 5% intervals. Filled circles indicate that the slope is significant at the
+    0.05 level. Shading denotes the standard error of the estimated slope, representing
+    the average distance that the original values fall from the regression line. (b)
+    Annual averages for RI magnitude of WNP TCs from 1979 to 2018. The dashed line
+    shows the long-term linear trend obtained by least squares. (c) Annual numbers
+    of 24-h WNP RI events in weak-moderate (< 50 kt) and strong RI (≥50 kt) categories
+    during 1979-2018. Gray and black lines denote the numbers of weak-moderate RI
+    events and strong RI events, respectively. Dashed lines indicate linear trends
+    derived from least squares.   \n"
+  acknowledgement: We would like to express our sincere thanks to three anonymous
+    reviewers for their helpful comments on an earlier manuscript. This work was jointly
+    funded by the National Nature Science Foundation of China (61827901) and the National
+    Key Research and Development Program of China (2018YFC1507305). Klotzbach would
+    like to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/song_et_al_2020_erl.bib
+  pdf: ../Publications/papers/song_et_al_2020_erl.pdf
+  keyword1: Rapid intensification
+  keyword2: TC intensity
+  keyword3: false
+- id: songetal2020grltcsize
+  year: 2020
+  title: Revisiting the relationship between tropical cyclone size and intensity over
+    the western North Pacific
+  firstauthor: klotzbach
+  authors: Song, J., Y. Duan, and P. J. Klotzbach
+  journal: Geophysical Research Letters
+  others: in press
+  doi: https://doi.org/10.1029/2020GL088217
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: This study revisits the nonlinear relationship between tropical cyclone
+    (TC) size and intensity over the western North Pacific (WNP). Using best track
+    data from the Japan Meteorological Agency from 2007‐2019, we find that the statistical
+    turning point on a fitted size‐intensity curve only exists for TCs with greater
+    lifetime peak intensities (e.g. typhoons). The track and evolution type are two
+    factors determining the statistical size‐intensity relationship. The nonlinear
+    size‐intensity relationship is only observed for recurving typhoons reaching their
+    peak intensities and sizes at different times, due to a non‐monotonic size change
+    during the weakening stage. The slight size decrease in the initial weakening
+    stage can be linked to a TC weakening‐induced shrinkage balanced by a baroclinic
+    expansion when recurving typhoons move into higher latitudes. Finally, different
+    evolution types for WNP typhoons can be determined by the ratio of intensity/size
+    to its theoretical maximum.
+  summary: Tropical cyclone (TC) size and intensity are two primary metrics determining
+    the destructive potential of a TC. Previous studies have reported a nonlinear
+    size‐intensity relationship, in which TC size substantially increases with intensity
+    to an upper bound and then remains constant or even decreases with increasing
+    intensity. Using best tracks from the Japan Meteorological Agency (JMA) for 2007‐2019,
+    we find that this statistical nonlinear size‐intensity relationship only occurs
+    for TCs with stronger lifetime maximum intensities (e.g. typhoons). Whether the
+    size‐intensity relationship is linear or nonlinear is jointly determined by the
+    track that the TC takes and its evolution type on a size‐intensity diagram. There
+    is a linear size‐intensity relationship for recurving typhoons reaching their
+    peak intensities and sizes simultaneously and for typhoons that are relatively
+    straight‐moving. For other recurving typhoons, the nonlinear size‐intensity relationship
+    is primarily caused by a nonlinear size decrease during the weakening stage. We
+    speculate that, as recurving typhoons move poleward, weakening TCs often begin
+    to shrink, while the interaction between the TC and the midlatitude circulation
+    leads to a baroclinic expansion of TC size. Finally, different evolution types
+    for WNP typhoons can be determined by the ratio of intensity/size to its theoretical
+    maximum.
+  image: ../Publications/figures/song_et_al_2020_grl_tcsize_Fig1.jpg
+  caption: >
+    Fig. 1. (a) Relationship between TC size (R30) and intensity (VMAX) for (a) all
+    TCs, (b) tropical storms (34 kt≤LMI<64 kt), (c) category 1-2 typhoons (64 kt≤LMI<96
+    kt) and (d) category 3- 5 typhoons (LMI≥96 kt) during 2007-2019. Solid black lines
+    represent the best-fit quadratic curves that are all significant at the 0.01 level
+    based on an F-test, with their maximum indicated by triangles. Red lines denote
+    the mean (solid) and the standard deviation (dashed) of R30. Filling contours
+    refer to the probability density through a Gaussian kernel density estimation.
+
+  acknowledgement: We would like to express our sincere thanks to four anonymous reviewers
+    for their helpful comments on an earlier version of this manuscript. This work
+    was jointly funded by the National Natural Science Foundation of China (61827901),
+    the National Key Research and Development Program of China (2018YFC1507305) and
+    the National Natural Science Foundation of China (41575044). Klotzbach would like
+    to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/song_et_al_2020_grl_tcsize.bib
+  pdf: ../Publications/papers/song_et_al_2020_grl_tcsize.pdf
+  keyword1: TC size
+  keyword2: TC intensity
+  keyword3: false
+- id: woodetal2019
+  year: 2019
+  title: The record-setting 2018 eastern North Pacific hurricane season
+  firstauthor: klotzbach
+  authors: Wood, K., P. J. Klotzbach, J. M. Collins, and C. J. Schreck III
+  journal: Geophysical Research Letters
+  others: 46, 10072-10081
+  doi: https://doi.org/10.1029/2019GL083657
+  keypoint1: The eastern North Pacific set records for hurricane activity in 2018
+    with relatively little influence from El Niño-Southern Oscillation
+  keypoint2: Combined above (below)-average sea surface temperatures and moisture
+    (shear) during August and September contributed to the record season
+  keypoint3: The strongly positive Pacific Meridional Mode also supported the increase
+    in eastern North Pacific hurricane activity
+  abstract: The extremely active 2018 eastern North Pacific (ENP) hurricane season
+    set records for number of hurricane days, major hurricane days, and accumulated
+    cyclone energy (ACE). The Western Development Region (116°W–180°) was especially
+    active, shattering its prior record for ACE set in 2015. In addition, Hawaii was
+    impacted by Hurricane Lane in August and Tropical Storm Olivia in September. Despite
+    above-normal sea surface temperatures (SSTs) and below-normal vertical wind shear
+    in 2018, large-scale conditions were generally less conducive for tropical cyclone
+    (TC) formation than in 2015. However, the strong subtropical ridge in August and
+    September of 2018 enhanced westward steering flow, thereby keeping TCs over hurricane-favorable
+    conditions and preventing recurvature toward lower SSTs and higher vertical wind
+    shear. The 2018 ENP hurricane season highlights that El Niño conditions are not
+    necessary for extremely high ENP TC activity.
+  summary: The 2018 eastern North Pacific hurricane season broke records, particularly
+    when considering an index that accounts for frequency, intensity, and duration
+    of hurricanes. The previous record was set in 2015 during a strong El Niño event
+    that increased ocean warmth and thus provided more fuel for hurricanes. Even though
+    a weak El Niño did not develop until late in the 2018 hurricane season, the ocean
+    was warmer than normal in the region where the hurricanes formed, which helped
+    support their development. After the hurricanes formed, the flow of the atmosphere
+    generally kept them over warmer water, helping them last longer. We need to study
+    more seasons like 2018 to better understand when eastern North Pacific hurricane
+    seasons will be active without the presence of a strong El Niño.
+  image: ../Publications/figures/wood_et_al_2019_Fig2.jpg
+  caption: >
+    Fig. 2. Cumulative accumulated cyclone energy (ACE; 10^4 kt^2) from 15 May to
+    30 November for 1988–2017 (black), 2015 (orange), and 2018 (purple) in the (a)
+    Western Development Region and (b) Eastern Development Region. (c) Sum of all
+    ACE (10^4 kt^2) generated within 10° longitude bins for 1988–2017 (black) and
+    the 1992 (green), 2015 (orange), and 2018 (purple) seasons.
+
+  acknowledgement: The authors thank Dr. Suzana Camargo and two anonymous reviewers
+    for their valuable feedback on earlier versions of this manuscript. K. Wood was
+    supported by the Mississippi State University Office of Research and Economic
+    Development. P. Klotzbach acknowledges funding from the G. Unger Vetlesen Foundation.
+    C. Schreck was supported by NOAA through the Cooperative Institute for Climate
+    and Satellites – North Carolina under Cooperative Agreement NA14NES432003.
+  bibtex: ../Publications/bibtex/wood_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/wood_et_al_2019.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Forecasting
+- id: zhaoetal2019climdynequatorialwaves
+  year: 2019
+  title: Multi-scale interactions of equatorial waves associated with tropical cyclogenesis
+    over the western North Pacific
+  firstauthor: klotzbach
+  authors: Zhao, H., X. Jiang, L. Wu, and P. J. Klotzbach
+  journal: Climate Dynamics
+  others: 52, 3023-3038
+  doi: https://doi.org/10.1007/s00382-018-4307-z
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: The tropical cyclone (TC)-centric approach developed in previous studies
+    tends to overemphasize the direct impact of tropical waves and underestimates
+    their large-scale modulation of western North Pacific (WNP) tropical cyclogenesis
+    (TCG). To overcome these limitations, this study proposes a new approach based
+    on empirical orthogonal function analyses to re-examine associations of multiple
+    waves, including the Madden–Julian oscillation (MJO), quasi-biweekly oscillation
+    (QBWO), convective equatorial Rossby (ER) waves, and synoptic scale waves (SSWs),
+    with WNP TCG events. There is a close association between WNP TCG events (total
+    of 273 TCs in this study) and SSWs (~ 64%), MJO (~ 68%), QBWO (~ 64%) and ER (~ 65%)
+    waves. These suggest that SSW is critical for many TCG events, and all of these
+    intra-seasonal waves significantly modulate TCG events. A majority of TCs (~ 79%)
+    were found to be related to more than one wave type, indicating an important role
+    for a combination of dynamic and thermodynamic conditions associated with multiple
+    waves in TCG events. Further analyses show that SSW activity is strongly modulated
+    by the MJO and ER waves, while the QBWO has no significant impact on SSWs. During
+    convectively active MJO and ER phases, stronger SSW trains with more distinct
+    southeast-northwestward aligned structures can be found compared to convectively
+    inactive phases. Similar intra-seasonal modulation of the transition from the
+    mixed Rossby-gravity waves from the equatorial central Pacific to the SSW trains
+    over the WNP by the three waves is noted, with such transitions largely favored
+    during convectively active MJO and ER phases.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_climdyn_equatorialwaves_Fig3.jpg
+  caption: >
+    Fig. 3. (Composites of the filtered anomalies of 850 hPa-winds and TRMM rainfall
+    relative to the TCG location and time for the MJO-associated (a), QBWO-associated
+    (b), ER-associated (c), and SSW-associated categories (d). Only values of 850
+    hPa wind anomalies exceeding the 95% confidence level have been plotted.
+
+  acknowledgement: H. Zhao thanks the support from the National Natural Science Foundation
+    of China (41675072, 41730961), the QingLan Project of Jiangsu Province (R2017Q01)
+    and the Priority Academic Program Development of Jiangsu Higher Education Institutions
+    (PAPD). L. Wu acknowledges the National Basic Research Program of China (2013CB430103,
+    2015CB452803), the Natural Science Foundation for Higher Education Institutions
+    in Jiangsu Province (15KJB170008). X. Jiang acknowledges support by US NSF Climate
+    and Large-Scale Dynamics Program under Award AGS-1228302, and NOAA Climate Program
+    Office under Awards NA12OAR4310075, NA15OAR4310098 and NA15OAR4310177. P. Klotzbach
+    acknowledges funding from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_climdyn_equatorialwaves_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_climdyn_equatorialwaves.pdf
+  keyword1: Equatorial waves
+  keyword2: Genesis
+  keyword3: false
+- id: zhaoetal2019jclimcyclogenesis
+  year: 2019
+  title: Recent increased co-variability of tropical cyclogenesis latitude-longitude
+    over the western North Pacific during the extended boreal summer
+  firstauthor: klotzbach
+  authors: Zhao, H., J. Zhang, P. J. Klotzbach, and S. Chen
+  journal: Journal of Climate
+  others: 32, 8167-8179
+  doi: https://doi.org/10.1175/JCLI-D-19-0009.1
+  keypoint1: Increasing covariability of western North Pacific tropical cylogenesis
+    latitude-longitude has been observed since 1998
+  keypoint2: Strengthening of the relationship may be due to changing ENSO conditions,
+    with Central Pacific El Nino events more common since 1998
+  keypoint3: Changes in tropical Indian Ocean SST may also play a role in the observed
+    changing cyclogenesis latitude-longitude relationship
+  abstract: This study examines interdecadal changes in the interannual relationship
+    between the extended boreal summer (May–November) tropical cyclogenesis (TCG)
+    latitude and longitude over the western North Pacific Ocean (WNP) during 1979–2016.
+    Increasing covariability of WNP TCG latitude and longitude is observed since 1998,
+    which is found to be closely linked to shifting ENSO conditions and a tropical
+    Pacific climate regime shift. Accompanied by an increasing occurrence in central
+    Pacific (CP) ENSO events during recent decades, there has been a more consistent
+    northwestward or southeastward shift of WNP TCG location since 1998. These coherent
+    latitude and longitude shifts were generally not evident during 1979–97, a period
+    characterized by a more conventional eastern Pacific (EP) ENSO pattern. Our statistical
+    results show a robust relationship between TCG latitude and the Hadley circulation
+    and between longitude and the Walker circulation during the period prior to and
+    since the regime shift, and a possible physical explanation for the recent increased
+    covariability of TCG latitude and longitude is given. During 1998–2016, there
+    is a significant association of CP ENSO events with the intensity of both the
+    Hadley and Walker circulations that likely caused the recent increase in the covariability
+    of TCG latitude and longitude. However, the strong association of EP ENSO events
+    with the intensity of the Hadley circulation but not with the Walker circulation
+    during 1979–97 weakened the covariability of TCG latitude and longitude. In addition,
+    changes in tropical Indian Ocean sea surface temperatures appear to also importantly
+    contribute to the recent increased covariability of WNP TCG location.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jclim_cyclogenesis_Fig1.jpg
+  caption: >
+    Fig. 1. Time series of TCG latitude (black) and TCG longitude (red) from JTWC
+    over the WNP basin during 1979–2016. Correlations between the two time series
+    and the annual average of TCG latitude and TCG longitude during 1979–97 and 1998–2016
+    are also respectively plotted. An asterisk indicates that the correlation is significant
+    at a 95% confidence level.
+
+  acknowledgement: This research was jointly supported by the National Natural Science
+    Foundation of China (Grants 41675072, 41922033, and 41675051), the QingLan Project
+    of Jiangsu Province (R2017Q01), the project of the Six Talent Peaks Project in
+    Jiangsu Province (2019-JY-100), and the Priority Academic Program Development
+    of Jiangsu Higher Education Institutions (PAPD). Author Klotzbach acknowledges
+    a grant from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jclim_cyclogenesis_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jclim_cyclogenesis.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Genesis
+- id: zhaoetal2019jclimmonsoon
+  year: 2019
+  title: Recent strengthening of the relationship between the western North Pacific
+    monsoon and western North Pacific tropical cyclone activity during the boreal
+    summer
+  firstauthor: klotzbach
+  authors: Zhao, H., S. Chen, and P. J. Klotzbach
+  journal: Journal of Climate
+  others: 32, 8283-8299
+  doi: https://doi.org/10.1175/JCLI-D-19-0016.1
+  keypoint1: Interannual relationship between the western North Pacific monsoon and
+    western North Pacific tropical cyclone frequency has increased since 1998
+  keypoint2: false
+  keypoint3: false
+  abstract: This study examines the association between the western North Pacific
+    (WNP) summer monsoon (WNPSM) and WNP tropical cyclone (TC) frequency during June–August
+    from 1979 to 2016. The interannual relationship between the WNPSM and the total
+    number of WNP TCs has strengthened since 1998. There has also been a significant
+    reduction in the number of TCs forming within the WNP monsoon trough (WNPMT)—hereafter
+    called ITCs, for internal or inside TCs—since 1998. These two important features
+    are found to be closely associated with the climate regime shift that occurred
+    around 1998. During 1998–2016, the Pacific decadal oscillation (PDO) tended to
+    be in a cold phase, with an increasing occurrence of central Pacific–type El Niño–Southern
+    Oscillation (ENSO) events, whereas the 1979–97 period tended to be characterized
+    by a warm phase of the PDO and east Pacific–type ENSO events. During 1998–2016,
+    the tropical Pacific was characterized by enhanced easterlies, which led to a
+    westward-retreated WNPMT that caused a significant decrease in ITCs over the WNP
+    basin. However, there was little change in TCs outside of the WNPMT region (hereafter
+    called OTCs) compared to that before 1998. A significant in-phase (out-of-phase)
+    relationship between the WNPSM and the number of ITCs (OTCs) is observed before
+    1998, thus greatly weakening the WNPSM–TC relationship. The recent enhanced relationship
+    between the WNPSM and TCs is mainly due to a strong in-phase relationship between
+    the WNPSM and ITCs. The interannual change in ITCZ is mainly controlled by WNPSM
+    changes since 1998, while OTC changes are mainly modulated by changes in the tropical
+    upper-tropospheric trough.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jclim_monsoon_Fig1.jpg
+  caption: >
+    Fig. 2. (a) Time series of the boreal summer average WNPMI (gray bars) and total
+    TC count (red solid line) during 1979–2016. The average WNPMI during 1979–97 and
+    1998–2016 is indicated by the black dashed line, and the average total TC count
+    for these two subperiods is indicated by the red dashed line. The average for
+    the two subperiods and the correlation coefficient between the total TC count
+    and WNPMI during the two subperiods are also listed. (b) Time series of the standardized
+    summer average WNPMI (black line), Niño-3.4 index (green line), EMI (blue line),
+    and total TC count (red line). The correlation coefficients among the WNPMI, EMI,
+    and Niño-3.4 index during the two subperiods are also listed. Double asterisks
+    indicate statistical significance at a 95% confidence level.
+
+  acknowledgement: We thank the three anonymous reviewers as well as the editor for
+    helpful comments that significantly improved this manuscript. This research was
+    jointly supported by the National Natural Science Foundation of China (Grants
+    41675072, 41922033, and 41730961), the Natural Science Foundation of Jiangsu Province
+    (Grants BK20181412), the QingLan Project of Jiangsu Province (R2017Q01), the National
+    Basic Research Program of China (2015CB452802), the project of the Six Talent
+    Peaks Project in Jiangsu Province (2019-JY-100), and the Priority Academic Program
+    Development of Jiangsu Higher Education Institutions (PAPD). P. Klotzbach would
+    like to acknowledge a grant from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jclim_monsoon_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jclim_monsoon.pdf
+  keyword1: Monsoon
+  keyword2: Seasonal
+  keyword3: Genesis
+- id: zhaoetal2019jmetsocjapan
+  year: 2019
+  title: Consistent late onset of the western North Pacific tropical cyclone season
+    following major El Nino events
+  firstauthor: klotzbach
+  authors: Zhao, H., L. Wu, C. Wang, and P. J. Klotzbach
+  journal: Journal of the Meteorological Society of Japan
+  others: 97, 673-688
+  doi: https://doi.org/10.2151/jmsj.2019-039
+  keypoint1: Relationship between ENSO and Western North Pacific tropical cyclone
+    season onset changed in the late 1990s
+  keypoint2: Strong El Nino events have been associated with late starting Western
+    North Pacific tropical cyclone seasons throughout the satellite era
+  keypoint3: false
+  abstract: Most studies have focused on variations of tropical cyclone (TC) frequency,
+    intensity, and track over the western North Pacific (WNP), but variability of
+    WNP TC season onset date (TCSO) has been less studied. Recent research has indicated
+    a close association between WNP TCSO and sea surface temperature (SST) over the
+    tropical Indian Ocean and the tropical central-eastern Pacific. This study has
+    found that relationship between TCSO and SST underwent an inter-decadal change
+    in the late 1990s, likely due to a climate shift that occurred around that time.
+    An observed significant correlation between TCSO and SST before the late 1990s
+    has been insignificant since that time. This was confirmed by the fact that El
+    Niño Southern Oscillation (ENSO) at 0.46 positively correlates with TCSO from
+    1965 – 1999 (significant at the 95 % level), and the correlation becomes insignificant
+    (0.16) during 1998 – 2016. Further analysis suggests that the close association
+    between TCSO and SST is robust only for major El Niño events, with consistently
+    extreme late TCSO following major El Niños during the satellite era. Accompanying
+    the decay of major El Niños, tropical equatorial easterly anomalies in the WNP
+    are driven by a Matsuno–Gill-type response to the specific SST anomaly pattern
+    over the tropical Indo–Pacific sector. This in turn induces an anomalous anticyclone,
+    anomalous westerly vertical wind shear, reduced mid-level moisture and suppressed
+    convection over the WNP basin—all of which are unfavorable for WNP TCs, resulting
+    in delayed TCSO following major El Niño events. These inter-decadal changes in
+    the inter-annual correlation between TCSO and ENSO are largely due to the changing
+    influence of moderate El Niño events on TCSO before and after the late 1990s.
+    This study improves understanding of the ENSO–TC relationship, which should aid
+    seasonal outlooks of WNP TC activity.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jmetsocjapan_Fig3.jpg
+  caption: >
+    Fig. 3. (a) Inter-annual correlation between the standardized onset date of the
+    WNP TC season and the December-February (DJF) Niño-3.4 index. Correlations during
+    1965 – 2016, 1965 – 1998 and 1999 – 2016, respectively, are 0.37 (significant
+    at the 95 % confidence level), 0.46 (significant at the 95 % confidence level)
+    and 0.16 (not significant at the 95 % confidence level). (b) Evolution of SST
+    anomalies over the Niño-3.4 region and tropical Indian Ocean composited on four
+    strong El Niño events (i.e., 1972/1973, 1982/1983, 1997/1998, and 2015/2016).
+
+  acknowledgement: This research was jointly supported by the National Natural Science
+    Foundation of China (41675072 and 41730961), the Qinglan Project of Jiangsu Province
+    (R2017Q01), the Natural Science Foundation of Jiangsu Province (BK20170941), and
+    the Priority Academic Program Development of Jiangsu Higher Education Institutions
+    (PAPD). P. Klotzbach would like to acknowledge a grant from the G. Unger Vetlesen
+    Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jmetsocjapan_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jmetsocjapan.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Typhoon Onset
+
+- id: klotzbachetal2020bams
+  year: 2020
+  title: Surface pressure a more skillful predictor of normalized hurricane damage
+    than maximum sustained wind
+  firstauthor: klotzbach
+  authors: Klotzbach, P. J., M. M. Bell, S. G. Bowen, E. J. Gibney, K. R. Knapp, and
+    C. J. Schreck III
+  journal: Bulletin of the American Meteorological Society
+  others: in press
+  doi: https://doi.org/10.1175/BAMS-D-19-0062.1
+  keypoint1: Pressure is more skillful than maximum sustained wind at predicting normalized
+    hurricane damage for the continental US from 1900-2018
+  keypoint2: Pressure is more akin to an integrated metric than is maximum sustained
+    wind and consequently is a more accurate metric of overall storm intensity
+  keypoint3: Pressure is also much easier to measure than maximum sustained wind,
+    both with aircraft as well as with surface observations
+  abstract: Atlantic hurricane seasons have a long history of causing significant
+    financial impacts, with Harvey, Irma, Maria, Florence, and Michael combining to
+    incur more than 345 billion USD in direct economic damage during 2017-2018.  While
+    Michael’s damage was primarily wind and storm surge-driven, Florence’s and Harvey’s
+    damage was predominantly rainfall and inland flood-driven.  Several revised scales
+    have been proposed to replace the Saffir-Simpson Hurricane Wind Scale (SSHWS),
+    which currently only categorizes the hurricane wind threat, while not explicitly
+    handling the totality of storm impacts including storm surge and rainfall. However,
+    most of these newly-proposed scales are not easily calculated in real-time, nor
+    can they be reliably calculated historically. In particular, they depend on storm
+    wind radii, which remain very uncertain. Herein, we analyze the relationship between
+    normalized historical damage caused by continental United States (CONUS) landfalling
+    hurricanes from 1900-2018 with both maximum sustained wind speed (Vmax) and minimum
+    sea level pressure (MSLP).  We show that MSLP is a more skillful predictor of
+    normalized damage than Vmax, with a significantly higher rank correlation between
+    normalized damage and MSLP (rrank = 0.77) than between normalized damage and Vmax
+    (rrank = 0.66) for all CONUS landfalling hurricanes.  MSLP has served as a much
+    better predictor of hurricane damage in recent years than Vmax, with large hurricanes
+    such as Ike (2008) and Sandy (2012) causing much more damage than anticipated
+    from their SSHWS ranking. MSLP is also a more accurately-measured quantity than
+    is Vmax, making it an ideal quantity for evaluating a hurricane’s potential damage.
+  summary: false
+  image: ../Publications/figures/klotzbach_et_al_2020_bams_Fig1.jpg
+  caption: "Fig. 1.  Normalized hurricane damage relationship with Vmax and MSLP.
+    \ (a) For CONUS normalized damage vs. Vmax (1900-2018), (b) for CONUS normalized
+    damage vs. MSLP (1900-2018), (c) for CONUS normalized damage vs. Vmax (2007-2018),
+    (d) for CONUS normalized damage vs. MSLP (2007-2018), (e) for Georgia to Maine
+    normalized damage vs. Vmax (1900-2018) and (f) for Georgia to Maine normalized
+    damage vs. MSLP (1900-2018).   Individual CONUS hurricane landfalls are labeled
+    on panels (c) and (d).  \n"
+  acknowledgement: We would like to acknowledge Dan Chavas, two anonymous reviews
+    and the editor, Chris Landsea, for valuable comments that improved this manuscript.  We
+    would like to thank Roger Pielke Jr. for providing the normalized hurricane damage
+    dataset.  P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support
+    that helped fund this research.  E. Gibney’s research was supported by NOAA's
+    Science Collaboration Program and administered by UCAR's Cooperative Programs
+    for the Advancement of Earth System Science (CPAESS) under awards NA16NWS4620043
+    and NA18NWS4620043B. C. Schreck was supported by NOAA through the Cooperative
+    Institute for Climate and Satellites - North Carolina under Cooperative Agreement
+    NA14NES432003. M. Bell was supported by National Science Foundation award AGS-1701225
+    and Office of Naval Research Award N000141613033.
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_bams.bib
+  pdf: ../Publications/papers/klotzbach_et_al_2020.pdf
+  keyword1: Human societal impacts
+  keyword2: TC intensity
+  keyword3:
+
 - # lastname,journal,year
   id: belljas2019
   # Published year of the paper
@@ -127,7 +757,7 @@
   pdf: ../Publications/papers/caron_et_al_2020.pdf
   keyword1: Forecasting
   keyword2: Seasonal
-  keyword3: Human/societal impacts
+  keyword3: Human societal impacts
 - id: dehartbelljgr2020
   year: 2020
   title: A Comparison of the Polarimetric Radar Characteristics of Heavy Rainfall
@@ -241,9 +871,9 @@
     and suggestions that improved the papers final form.
   bibtex: ../Publications/bibtex/Jones_etal_2020.bib
   pdf: ../Publications/papers/Jones_etal_JCLI_2020.pdf
-  keyword1: seasonal TC activity
-  keyword2: vertical wind shear
-  keyword3: anticyclonic wave breaking
+  keyword1: Seasonal
+  keyword2: Vertical wind shear
+  keyword3: Anticyclonic wave breaking
 - id: klotzbachscirep2019
   year: 2019
   title: On the Emerging Relationship between the Stratospheric Quasi-Biennial Oscillation
@@ -636,7 +1266,7 @@
   pdf: ../Publications/papers/saunders_et_al_2020.pdf
   keyword1: Forecasting
   keyword2: Seasonal
-  keyword3: Human/societal impacts
+  keyword3: Human societal impacts
 - id: wahiduzzamanintjclim2019
   year: 2019
   title: A Statistical Seasonal Forecast Model of North Indian Ocean Tropical Cyclones

@@ -66,23 +66,23 @@ title: CSU Tropical Research Projects
 
                 {% for entry in site.data.research.index_card %}
                 {% if entry.keyword1 == page.id%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                 {% endif %}
 
                 {% if entry.keyword2 == page.id%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                 {% endif %}
 
                 {% if entry.keyword3 == page.id%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                 {% endif %}
 
                 {% if entry.keyword4 == page.id%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                 {% endif %}
 
                 {% if entry.keyword5 == page.id%}
-                {% include keywords_projects.html %}
+                {% include index_card.html %}
                 {% endif %}
                 {% endfor %}
 

@@ -58,16 +58,16 @@
         {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
         {% if entry.member5 != false %} <a href="{{ entry.url5}}" target="_blank">, {{ entry.member5}}</a> {% endif %}
       </a></h4>
-
-      <p class="align-justify">{{ entry.description}} </p>
-      <ul class="actions fit align-left button-space">
-        {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" style="margin-top: -55px; margin-left: 270px; width:60%" target="_blank"><i class="fas fa-external-link-alt"></i> Conference Presentation </a></li>{% endif %}
-        {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
-        {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 150px;" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
-        {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" style="margin-top: -55px; width:60%; margin-left: 30px;" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
-      </ul>
+        <p class="align-justify">{{ entry.description}} </p>
+        <ul class="actions" style="text-align:center;">
+          {% if entry.oral != false %}<li><a href="{{ entry.oral}}" class="button alt small fit" target="_blank"><i class="fas fa-external-link-alt"></i> Conference Presentation </a></li>{% endif %}
+          {% if entry.oral == false and entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
+          {% if entry.poster != false %}<li><a href="{{ entry.poster}}" class="button alt small fit" target="_blank"><i class="fas fa-file-alt"></i> Poster Presentation </a></li>{% endif %}
+          {% if entry.poster == false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
+          {% if entry.poster != false and entry.publication != false %}<li><a href="{{ entry.publication}}" class="button alt small fit" target="_blank"><i class="fas fa-link"></i> Publication </a></li>{% endif %}
+        </ul>
     </div>
-    <ul class="actions fit">
+    <ul class="actions">
       {% for org in site.data.keywords %}{% if entry.keyword1 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword1}}</a></li>{% endif %}{% endfor %}
       {% for org in site.data.keywords %}{% if entry.keyword2 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword2}}</a></li>{% endif %}{% endfor %}
       {% for org in site.data.keywords %}{% if entry.keyword3 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" ><i class="fas fa-cloud-rain"></i>{{ entry.keyword3}}</a></li>{% endif %}{% endfor %}

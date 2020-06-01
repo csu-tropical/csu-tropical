@@ -3,7 +3,7 @@
 ###Template Start HERE
 
 - id: nammwr2020
-  year: '2020'
+  year: 2020
   title: Multi-scale shear impacts during the genesis of Hagupit (2008)
   author1: nam
   author2: bell
@@ -18,7 +18,7 @@
   abstract: >
     The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic to meso scales using airborne Doppler radar observations of pre-depression Hagupit during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations reveal complex localized convective and vortical characteristics of a pre-depression in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric trough during the observation period. The strong deep-layer VWS (> 20 m s -1) had a negative impact on the development through misalignment of the low and mid-level circulations and dry air intrusion. However, the low-level circulation persisted and the system ultimately formed into a tropical cyclone after it left the high-shear zone. Here we propose that a key process that enabled the predepression to survive through the upper-tropospheric trough interaction was persistent vorticity amplification on the meso-gamma scale that was aggregated on the mesoalpha scale within the pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the low-level horizontal vorticity into the vertical in the early stage of convective life-cycle, followed by stretching from maturing deep convection. Variations in low-level VWS on the meso-beta scale affect convective organization and horizontal vorticity generation. The results provide new insights into multi-scale processes during TC genesis and the interactions of a pre-depression with VWS at various spatial scales.
   summary: false
-  image: ./Publications/figures/Nam_Bell_2020_Fig13.pdf
+  image: ../Publications/figures/Nam_Bell_2020_Fig13.pdf
   caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis. a) Synoptic scale’s active features
 are upper-level trough and easterly waves, which carry the marsupial wave pouch shown as red circulation.
 b) Inside the meso-a scale wave pouch, shown are the low-level cyclonic stream lines with its center marked

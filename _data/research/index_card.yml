@@ -38,9 +38,9 @@
   url4: false
   member5: false
   url5: false
-  title: What are the convective and kinematic structure of Hurricane Michael's polygonal eyewall during its rapid intensification?
+  title: Are the asymmetric dynamics of Hurricane Michael (2018) polygonal eyewall consistent with vortex Rossby wave (VRW) theory?
   image: ../Research/img/cha_michael_grl2.png
-  description: While polygonal eyewall shapes have been seen in previous hurricanes, the corresponding evolution of wind asymmetries has never been quantitatively deduced due to limitations from previous observations. Here we show the first observational evidence of the evolving wind field of a polygonal eyewall during RI to Category 5 intensity by deducing the winds at 5-minute intervals from single-Doppler Next Generation Weather Radar (NEXRAD) observations.
+  description: While polygonal eyewall shapes have been seen in previous hurricanes, the corresponding evolution of wind asymmetries has never been quantitatively deduced due to limitations from previous observations. Here we show the first observational evidence of the evolving wind field of a polygonal eyewall during RI to Category 5 intensity by deducing the winds at 5-minute intervals from single-Doppler Next Generation Weather Radar (NEXRAD) observations. The single Doppler radar analysis shows that the propagation speeds of different VRWs are consistent with linear wave theory.
   oral: https://cscenter.co.jp/icrm2019/program/data/abstracts/Session11B-01_1.pdf
   poster: false
   publication: ../pub/chagrl2020.html
@@ -55,3 +55,133 @@
   tcri: true
   forecast: false
   remote: true
+
+- id: 2018atlantichurricaneseason_saunders2020
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: Why was the 2018 Atlantic hurricane season more active than anticipated and
+    how we can better characterize uncertainty in seasonal hurricane forecasts?
+  image: /Publications/figures/saunders_et_al_2020_Fig3.jpg
+  description: Our group at CSU collaborated with Tropical Storm Risk, based at the
+    University College-London, to investigate the 2018 Atlantic hurricane season in
+    detail. We noted that the season was more active than was anticipated by seasonal
+    forecasts issued prior to the peak of the season (e.g., before mid-August).  The
+    season was also more active than would be anticipated given long-term historical
+    relationships between large-scale conditions known to impact Atlantic hurricanes
+    during the peak of the season (August-September) and Atlantic hurricanes.  The
+    season ended up above-average for most TC parameters, despite above-normal tropical
+    Atlantic vertical wind shear, below-normal tropical Atlantic SSTs and borderline
+    weak El Niño conditions - all of which generally lead to below-average Atlantic
+    hurricane activity.  Much of the activity in 2018 occurred at higher latitudes,
+    where Atlantic seasonal TC forecasts generally have little (if any) predictability.  Our
+    study argues that probabilistic methods be used to issue Atlantic seasonal forecasts
+    in future years, in order to better account for these types of outlier seasons.
+  # Latest conference oral presentation (can either provide a PDF or a link to the agenda)
+  oral: false
+  # Latest conference poster (can either provide a PDF or a link to the agenda). If none, set it to false
+  poster: false
+  # Publication
+  publication: ../pub/saundersess2020.html
+  # Provide 5 keywords of this research
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Human societal impacts
+  keyword4: false
+  keyword5: false
+  # The funding of this research. If you are not sure, please check with Michael
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true
+- id: qbomjo_klotzbach2019
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How has the relationship between the Madden-Julian oscillation and Quasi-Biennial
+    oscillation changed going back in time?
+  image: ../Publications/figures/klotzbach_et_al_2019_scirep_Fig2.jpg
+  description: Klotzbach et al. (2019) examined the relationship between the quasi-biennial
+    oscillation (QBO) and the Madden-Julian oscillation (MJO) using long-term reconstructed
+    indices.  There have been several studies noting a strong relationship between
+    boreal winter QBO phase and MJO amplitude since the late 1970s, with an east phase
+    of the QBO associated with higher MJO amplitude.  This study finds that the relationship
+    has only become strong since the late 1970s, with no significant relationship
+    between QBO phase and MJO amplitude prior to that time.  While there is increased
+    uncertainty going back in time with both QBO and MJO indices, there is relatively
+    high confidence in these indices at least since the late 1950s.  This study argues
+    that changes in static stability associated with a cooling lower stratosphere
+    and warming upper troposphere (likely caused by climate change) may have sensitized
+    the region near the tropopause to QBO-induced changes in stability profiles.
+  oral: false
+  poster: false
+  publication: ../pub/klotzbachscirep2019.html
+  keyword1: Quasi-Biennial Oscillation
+  keyword2: Madden-Julian Oscillation
+  keyword3: Seasonal
+  keyword4: false
+  keyword5: false
+  # The funding of this research. If you are not sure, please check with Michael
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true
+- id: vmaxmslp_klotzbach2020
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How do maximum sustained wind and minimum sea level pressure relate to normalized
+    damage?
+  image: ../Publications/figures/klotzbach_et_al_2020_bams_Fig1.jpg
+  description: Atlantic hurricanes have historically been categorized using the Saffir-Simpson
+    Hurricane Wind Scale, which ranks hurricanes based on their maximum sustained
+    wind (e.g., V<sub>max</sub>).  In this study, we investigate whether V<sub>max</sub>
+    or minimum sea level pressure (MSLP) historically has worked as a better predictor
+    of continental US hurricane landfall damage.  We use the normalized hurricane
+    damage dataset from Weinkle et al. (2018) and show that MSLP (r = 0.77) has a
+    more significant correlation with damage than has V<sub>max</sub> (r = 0.66) for
+    165 continental US landfalling hurricane events since 1900 (Figure 7).  The relationship
+    has been much stronger for MSLP in recent years, where recent hurricanes like
+    Ike (2008) and Sandy (2012) have done much more damage than would have been expected
+    from their Saffir-Simpson Hurricane Wind Scale ranking.  MSLP has also been a
+    much better predictor of damage for hurricanes making landfall from Georgia to
+    Maine, where hurricanes tend to be larger and more sprawling.
+  oral: false
+  poster: false
+  publication: ../pub/klotzbachetal2020bams.html
+  keyword1: Human societal impacts
+  keyword2: TC Intensity
+  keyword3: false
+  keyword4: false
+  keyword5: false
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true

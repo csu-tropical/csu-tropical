@@ -4,17 +4,25 @@
 </head>
 
 <h3>Submitted</h3>
-{% for entry in site.data.list_long %}
-{% if entry.others == 'In review' %}
+{% for entry in site.data.publication_submitted %}
+{% if entry.others == 'In review' or entry.others == 'in review'%}
   <ul>
     <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
   </ul>
 {% endif %}
 {% endfor %}
+{% for entry in site.data.publication_submitted %}
+{% if entry.others == 'submitted'%}
+  <ul>
+    <li style="margin-botton: 10px;"> {{ entry.authors}}: {{ entry.title }}. <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+  </ul>
+{% endif %}
+{% endfor %}
+
 
 <h3>In Press</h3>
 {% for entry in site.data.list_long %}
-{% if entry.others == 'In press' %}
+{% if entry.others == 'in press' %}
   <ul>
     <li style="margin-botton: 10px;"> {{ entry.authors}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
   </ul>
@@ -29,9 +37,11 @@
   {% assign index = i %}
   {% for entry in site.data.list_long %}
     {% if entry.year == index and entry.others != 'In review'%}
-    <ul>
-      <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
-    </ul>
+      {% if entry.others != 'in press'%}
+      <ul>
+        <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="../pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="../Publications/papers/{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
+      </ul>
+      {% endif %}
     {% endif %}
   {% endfor %}
 {% endfor %}
