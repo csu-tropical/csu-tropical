@@ -276,7 +276,7 @@ function showDiv(btn,ctn,eye,txt) {
 
     chart = Highcharts.mapChart('tcmap', {
     title: {
-        text: 'Current Global Tropical Cyclone Activity'
+        text: 'Global Tropical Cyclone Activity'
     },
 
     subtitle: {
@@ -302,10 +302,10 @@ function showDiv(btn,ctn,eye,txt) {
 
     tooltip: {
         pointFormat: '{point.name} ({point.basin}{point.charnam})<br>' +
-                    'Lat: {point.lat}<br>' +
-                    'Lon: {point.lon}<br>' +
+                    'Lat: {point.lat} Lon: {point.lon}<br>' +
                     'MSLP: {point.mslp} hPa, ' +
-                    'Intensity: {point.intensity} kts'
+                    'Intensity: {point.intensity} kts<br>' +
+                    'Status: {point.status}'
     },
 
     mapNavigation: {
@@ -325,7 +325,6 @@ function showDiv(btn,ctn,eye,txt) {
         name: 'Tropical Cyclones',
         data:[
           {% for item in site.data.tc_stats.atlanticstormstats %}
-          {% if Date.parse({{item.end_month}}/{{row.end_day}}/2020) < Date.now() %}
           {
             name: '{{item.name}}',
             lat: {{item.latitude}},
@@ -334,8 +333,12 @@ function showDiv(btn,ctn,eye,txt) {
             charnam: '{{item.storm_charnumber}}',
             mslp: {{item.mslp}},
             intensity: {{item.intensity}},
+            status: 'Inactive'
+            //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
+            //{% else %}
+            //  status: 'Active'
+            //{% endif %}
           },
-        {% endif %}
         {% endfor %}
         ]
       }]
