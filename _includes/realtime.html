@@ -267,3 +267,115 @@ function showDiv(btn,ctn,eye,txt) {
   }
 }
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var H = Highcharts,
+    map = H.maps['countries/world'],
+    chart;
+
+    chart = Highcharts.mapChart('tcmap', {
+    title: {
+        text: 'Current Global Tropical Cyclone Activity'
+    },
+
+    subtitle: {
+        text: 'For informational use only. Please refer to the <a href="https://www.nhc.noaa.gov/">National Hurricane Center</a> for official forecasts'
+    },
+    xAxis: {
+        crosshair: {
+                    zIndex: 5,
+                    dashStyle: 'dot',
+                    snap: false,
+                    color: 'gray'
+                }
+            },
+
+            yAxis: {
+                crosshair: {
+                    zIndex: 5,
+                    dashStyle: 'dot',
+                    snap: false,
+                    color: 'gray'
+                }
+            },
+
+    tooltip: {
+        pointFormat: '{point.name} ({point.basin}{point.charnam})<br>' +
+                    'Lat: {point.lat}<br>' +
+                    'Lon: {point.lon}<br>' +
+                    'MSLP: {point.mslp} hPa, ' +
+                    'Intensity: {point.intensity} kts'
+    },
+
+    mapNavigation: {
+           enabled: true,
+           buttonOptions: {
+               verticalAlign: 'bottom'
+           }
+       },
+    series: [{
+        name: 'Basemap',
+        mapData: Highcharts.maps['custom/world'],
+        borderColor: '#606060',
+        nullColor: 'rgba(200, 200, 200, 0.2)',
+        showInLegend: false },
+        {
+        type: 'mappoint',
+        name: 'Tropical Cyclones',
+        data:[
+          {% for item in site.data.tc_stats.atlanticstormstats %}
+          {% if Date.parse({{item.end_month}}/{{row.end_day}}/2020) < Date.now() %}
+          {
+            name: '{{item.name}}',
+            lat: {{item.latitude}},
+            lon: {{item.longitude}},
+            basin: '{{item.basin}}',
+            charnam: '{{item.storm_charnumber}}',
+            mslp: {{item.mslp}},
+            intensity: {{item.intensity}},
+          },
+        {% endif %}
+        {% endfor %}
+        ]
+      }]
+
+    });
+  // Display custom label with lat/lon next to crosshairs
+  document.getElementById('tcmap').addEventListener('mousemove', function (e) {
+      var position;
+      if (chart) {
+          if (!chart.lab) {
+              chart.lab = chart.renderer.text('', 0, 0)
+                  .attr({
+                      zIndex: 5
+                  })
+                  .css({
+                      color: '#505050'
+                  })
+                  .add();
+          }
+
+          e = chart.pointer.normalize(e);
+          position = chart.fromPointToLatLon({
+              x: chart.xAxis[0].toValue(e.chartX),
+              y: chart.yAxis[0].toValue(e.chartY)
+          });
+
+          chart.lab.attr({
+              x: e.chartX + 5,
+              y: e.chartY - 22,
+              text: 'Lat: ' + position.lat.toFixed(2) + '<br>Lon: ' + position.lon.toFixed(2)
+          });
+      }
+  });
+
+  document.getElementById('tcmap').addEventListener('mouseout', function () {
+      if (chart && chart.lab) {
+          chart.lab.destroy();
+          chart.lab = null;
+      }
+  });
+});
+
+</script>

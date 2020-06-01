@@ -5,6 +5,9 @@ title: CSU Hurricane Seasonal Forecasting
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
 <script src="/assets/js/highcharts.js"></script>
+<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
 {% include realtime.html %}
 </head>
 <style>
@@ -175,6 +178,8 @@ figure figcaption {
 							<h2>Real-Time Tropical Cyclone Statistics</h2>
 						</header>
 						<br>
+            <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
+            <br>
             <div id="schedule" class="align-center">
 							<ul class="actions" style="text-align:center;">
                 <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
@@ -189,34 +194,38 @@ figure figcaption {
             <div class="inner" id="atl">
               <div class="content">
               <h4 class="align-center">Real-Time North Atlantic Ocean Statistics by Storm for 2020</h4>
-              <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
+              <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
               <table id="atl_table" class="alt">
                 <thead>
                   <tr>
                     <th>Year</th>
                     <th>Storm #</th>
                     <th>Name</th>
-                    <th>Start Month</th>
-                    <th>Start Day</th>
-                    <th>End Month</th>
-                    <th>End Day</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th>Intensity (kts)</th>
-                    <th>MSLP (hPa)</th>
-                    <th>Named Storm Days</th>
-                    <th>Hurricane Days</th>
-                    <th>Major Hurricane Days</th>
-                    <th>Accumulated Cyclone Energy</th>
-                    <th>Ocean Basin</th>
-                    <th>Storm Charnumber</th>
+                    <th>Active Dates</th>
+                    <th>Intensity<br>(kts)</th>
+                    <th>MSLP<br>(hPa)</th>
+                    <th>Named<br>Storm<br>Days</th>
+                    <th>Hurricane<br>Days</th>
+                    <th>Major<br>Hurricane<br>Days</th>
+                    <th>Accumulated<br>Cyclone<br>Energy</th>
                   </tr>
                 </thead>
+                <tbody>
                 {% for row in site.data.tc_stats.atlanticstormstats %}
-                  {% tablerow pair in row %}
-                    {{ pair[1] }}
-                  {% endtablerow %}
+                <tr>
+                  <td>{{row.year}}</td>
+                  <td>{{row.storm_number}}</td>
+                  <td>{{row.name}}</td>
+                  <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                  <td>{{row.intensity}}</td>
+                  <td>{{row.mslp}}</td>
+                  <td>{{row.nsd}}</td>
+                  <td>{{row.hd}}</td>
+                  <td>{{row.mhd}}</td>
+                  <td>{{row.ace}}</td>
+                </tr>
                 {% endfor %}
+                </tbody>
               </table>
               </div>
                 <div name="realtime" id="atl_ace" style="width:1000px; margin:auto;"></div>
@@ -226,34 +235,38 @@ figure figcaption {
             <div class="inner" id="nwp" style="display:none">
             <div class="content">
             <h4 class="align-center">Real-Time Northwest Pacific Ocean Statistics by Storm for 2020</h4>
-            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
-            <table id="atl_table" class="alt">
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+            <table id="nwp_table" class="alt">
               <thead>
                 <tr>
                   <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
-                  <th>Start Month</th>
-                  <th>Start Day</th>
-                  <th>End Month</th>
-                  <th>End Day</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Intensity (kts)</th>
-                  <th>MSLP (hPa)</th>
-                  <th>Named Storm Days</th>
-                  <th>Hurricane Days</th>
-                  <th>Major Hurricane Days</th>
-                  <th>Accumulated Cyclone Energy</th>
-                  <th>Ocean Basin</th>
-                  <th>Storm Charnumber</th>
+                  <th>Active Dates</th>
+                  <th>Intensity<br>(kts)</th>
+                  <th>MSLP<br>(hPa)</th>
+                  <th>Named<br>Storm<br>Days</th>
+                  <th>Hurricane<br>Days</th>
+                  <th>Major<br>Hurricane<br>Days</th>
+                  <th>Accumulated<br>Cyclone<br>Energy</th>
                 </tr>
               </thead>
+              <tbody>
               {% for row in site.data.tc_stats.northwestpacificstormstats %}
-                {% tablerow pair in row %}
-                  {{ pair[1] }}
-                {% endtablerow %}
+              <tr>
+                <td>{{row.year}}</td>
+                <td>{{row.storm_number}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td>{{row.intensity}}</td>
+                <td>{{row.mslp}}</td>
+                <td>{{row.nsd}}</td>
+                <td>{{row.hd}}</td>
+                <td>{{row.mhd}}</td>
+                <td>{{row.ace}}</td>
+              </tr>
               {% endfor %}
+              </tbody>
             </table>
             </div>
               <div name="realtime" id="nwp_ace" style="width:1000px; margin:auto;"></div>
@@ -263,34 +276,38 @@ figure figcaption {
             <div class="inner" id="nep" style="display:none">
             <div class="content">
             <h4 class="align-center">Real-Time Northeast Pacific Ocean Statistics by Storm for 2020</h4>
-            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
-            <table id="atl_table" class="alt">
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+            <table id="nep_table" class="alt">
               <thead>
                 <tr>
                   <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
-                  <th>Start Month</th>
-                  <th>Start Day</th>
-                  <th>End Month</th>
-                  <th>End Day</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Intensity (kts)</th>
-                  <th>MSLP (hPa)</th>
-                  <th>Named Storm Days</th>
-                  <th>Hurricane Days</th>
-                  <th>Major Hurricane Days</th>
-                  <th>Accumulated Cyclone Energy</th>
-                  <th>Ocean Basin</th>
-                  <th>Storm Charnumber</th>
+                  <th>Active Dates</th>
+                  <th>Intensity<br>(kts)</th>
+                  <th>MSLP<br>(hPa)</th>
+                  <th>Named<br>Storm<br>Days</th>
+                  <th>Hurricane<br>Days</th>
+                  <th>Major<br>Hurricane<br>Days</th>
+                  <th>Accumulated<br>Cyclone<br>Energy</th>
                 </tr>
               </thead>
+              <tbody>
               {% for row in site.data.tc_stats.northeastpacificstormstats %}
-                {% tablerow pair in row %}
-                  {{ pair[1] }}
-                {% endtablerow %}
+              <tr>
+                <td>{{row.year}}</td>
+                <td>{{row.storm_number}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td>{{row.intensity}}</td>
+                <td>{{row.mslp}}</td>
+                <td>{{row.nsd}}</td>
+                <td>{{row.hd}}</td>
+                <td>{{row.mhd}}</td>
+                <td>{{row.ace}}</td>
+              </tr>
               {% endfor %}
+              </tbody>
             </table></div>
               <div name="realtime" id="nep_ace" style="width:1000px; margin:auto;"></div>
               <br>
@@ -299,34 +316,38 @@ figure figcaption {
             <div class="inner" id="ni" style="display:none">
             <div class="content">
             <h4 class="align-center">Real-Time North Indian Ocean Statistics by Storm for 2020</h4>
-            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
-            <table id="atl_table" class="alt">
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+            <table id="ni_table" class="alt">
               <thead>
                 <tr>
                   <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
-                  <th>Start Month</th>
-                  <th>Start Day</th>
-                  <th>End Month</th>
-                  <th>End Day</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Intensity (kts)</th>
-                  <th>MSLP (hPa)</th>
-                  <th>Named Storm Days</th>
-                  <th>Hurricane Days</th>
-                  <th>Major Hurricane Days</th>
-                  <th>Accumulated Cyclone Energy</th>
-                  <th>Ocean Basin</th>
-                  <th>Storm Charnumber</th>
+                  <th>Active Dates</th>
+                  <th>Intensity<br>(kts)</th>
+                  <th>MSLP<br>(hPa)</th>
+                  <th>Named<br>Storm<br>Days</th>
+                  <th>Hurricane<br>Days</th>
+                  <th>Major<br>Hurricane<br>Days</th>
+                  <th>Accumulated<br>Cyclone<br>Energy</th>
                 </tr>
               </thead>
+              <tbody>
               {% for row in site.data.tc_stats.northindianstormstats %}
-                {% tablerow pair in row %}
-                  {{ pair[1] }}
-                {% endtablerow %}
+              <tr>
+                <td>{{row.year}}</td>
+                <td>{{row.storm_number}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td>{{row.intensity}}</td>
+                <td>{{row.mslp}}</td>
+                <td>{{row.nsd}}</td>
+                <td>{{row.hd}}</td>
+                <td>{{row.mhd}}</td>
+                <td>{{row.ace}}</td>
+              </tr>
               {% endfor %}
+              </tbody>
             </table></div>
               <div name="realtime" id="ni_ace" style="width:1000px; margin:auto;"></div>
               <br>
@@ -335,34 +356,38 @@ figure figcaption {
             <div class="inner" id="sp" style="display:none">
             <div class="content">
             <h4 class="align-center">Real-Time South Pacific Ocean Statistics by Storm for 2020</h4>
-            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
-            <table id="atl_table" class="alt">
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+            <table id="sp_table" class="alt">
               <thead>
                 <tr>
                   <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
-                  <th>Start Month</th>
-                  <th>Start Day</th>
-                  <th>End Month</th>
-                  <th>End Day</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Intensity (kts)</th>
-                  <th>MSLP (hPa)</th>
-                  <th>Named Storm Days</th>
-                  <th>Hurricane Days</th>
-                  <th>Major Hurricane Days</th>
-                  <th>Accumulated Cyclone Energy</th>
-                  <th>Ocean Basin</th>
-                  <th>Storm Charnumber</th>
+                  <th>Active Dates</th>
+                  <th>Intensity<br>(kts)</th>
+                  <th>MSLP<br>(hPa)</th>
+                  <th>Named<br>Storm<br>Days</th>
+                  <th>Hurricane<br>Days</th>
+                  <th>Major<br>Hurricane<br>Days</th>
+                  <th>Accumulated<br>Cyclone<br>Energy</th>
                 </tr>
               </thead>
+              <tbody>
               {% for row in site.data.tc_stats.southpacificstormstats %}
-                {% tablerow pair in row %}
-                  {{ pair[1] }}
-                {% endtablerow %}
+              <tr>
+                <td>{{row.year}}</td>
+                <td>{{row.storm_number}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td>{{row.intensity}}</td>
+                <td>{{row.mslp}}</td>
+                <td>{{row.nsd}}</td>
+                <td>{{row.hd}}</td>
+                <td>{{row.mhd}}</td>
+                <td>{{row.ace}}</td>
+              </tr>
               {% endfor %}
+              </tbody>
             </table></div>
               <div name="realtime" id="sp_ace" style="width:1000px; margin:auto;"></div>
               <br>
@@ -371,34 +396,38 @@ figure figcaption {
             <div class="inner" id="si" style="display:none">
             <div class="content">
             <h4 class="align-center">Real-Time South Indian Ocean Statistics by Storm for 2020</h4>
-            <div class="table-wrapper" style="width:1000px;overflow:auto;align-center">
-            <table id="atl_table" class="alt">
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+            <table id="si_table" class="alt">
               <thead>
                 <tr>
                   <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
-                  <th>Start Month</th>
-                  <th>Start Day</th>
-                  <th>End Month</th>
-                  <th>End Day</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                  <th>Intensity (kts)</th>
-                  <th>MSLP (hPa)</th>
-                  <th>Named Storm Days</th>
-                  <th>Hurricane Days</th>
-                  <th>Major Hurricane Days</th>
-                  <th>Accumulated Cyclone Energy</th>
-                  <th>Ocean Basin</th>
-                  <th>Storm Charnumber</th>
+                  <th>Active Dates</th>
+                  <th>Intensity<br>(kts)</th>
+                  <th>MSLP<br>(hPa)</th>
+                  <th>Named<br>Storm<br>Days</th>
+                  <th>Hurricane<br>Days</th>
+                  <th>Major<br>Hurricane<br>Days</th>
+                  <th>Accumulated<br>Cyclone<br>Energy</th>
                 </tr>
               </thead>
+              <tbody>
               {% for row in site.data.tc_stats.southindianstormstats %}
-                {% tablerow pair in row %}
-                  {{ pair[1] }}
-                {% endtablerow %}
+              <tr>
+                <td>{{row.year}}</td>
+                <td>{{row.storm_number}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td>{{row.intensity}}</td>
+                <td>{{row.mslp}}</td>
+                <td>{{row.nsd}}</td>
+                <td>{{row.hd}}</td>
+                <td>{{row.mhd}}</td>
+                <td>{{row.ace}}</td>
+              </tr>
               {% endfor %}
+              </tbody>
             </table></div>
               <div name="realtime" id="si_ace" style="width:1000px; margin:auto;"></div>
               <br>
