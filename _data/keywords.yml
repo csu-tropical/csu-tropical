@@ -32,7 +32,7 @@
 - id: Satellite
 - id: Passive Microwave
 - id: Infrared
-- id: GPROF Precipitation Retrieval
+- id: GPROF Retrieval
 - id: Environmental Diagnostics
 - id: PRECIP
 - id: Meiyu
@@ -43,7 +43,6 @@
 - id: Potential vorticity
 - id: Rapid intensity change
 - id: TC expansion
-- id: Idealized numerical simulations
 - id: Outer-core convection
 - id: Angular momentum convergence
 - id: Axisymmetric dynamics

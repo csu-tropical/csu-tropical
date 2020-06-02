@@ -2,21 +2,6 @@
 layout: default_withdata
 title: CSU Tropical Research Projects
 ---
-<html>
-
-
-  <link rel="stylesheet" href="../assets/css/main.css" />
-  <!-- Scripts -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.scrollex.min.js"></script>
-    <script src="../assets/js/skel.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <script src="../assets/js/main.js"></script>
-</html>
-<head>
-<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
-</head>
-
 
 <style>
 .box header h2 {
@@ -90,25 +75,25 @@ title: CSU Tropical Research Projects
       {% if entry.pecase == true and page.id == "pecase"%}
       {% include index_card.html %}
       {% endif %}
-    {% endfor %}
+      {% endfor %}
 
     {% for entry in site.data.research.index_card %}
-    {% if entry.remote == true and page.id == "remotesensing"%}
-  {% include index_card.html %}
-  {% endif %}
-  {% endfor %}
+    {% if entry.remote == true and page.id == "remote"%}
+    {% include index_card.html %}
+    {% endif %}
+    {% endfor %}
 
-  {% for entry in site.data.research.index_card %}
-  {% if entry.precip == true and page.id == "precip"%}
-  {% include index_card.html %}
-  {% endif %}
-{% endfor %}
+      {% for entry in site.data.research.index_card %}
+      {% if entry.precip == true and page.id == "precip"%}
+      {% include index_card.html %}
+      {% endif %}
+      {% endfor %}
 
-{% for entry in site.data.research.index_card %}
-{% if entry.forecast == true and page.id == "tcforecast"%}
-{% include index_card.html %}
-{% endif %}
-{% endfor %}
+    {% for entry in site.data.research.index_card %}
+    {% if entry.forecast == true and page.id == "forecast"%}
+    {% include index_card.html %}
+    {% endif %}
+    {% endfor %}
 
 <div>
 <ul class="actions fit">

@@ -16,7 +16,7 @@
   acknowledgement: ONR N000142012069
   url: ./projects/tcri.html
 
-- id: tcforecast
+- id: forecast
   title: Improvement of sub-seasonal to seasonal Atlantic basin hurricane forecasts
   grant: TC Forecasting
   full_name: Tropical Cyclone Forecasting
@@ -24,16 +24,16 @@
   notes: More details about current and past TC forecasts can be found <a href="../forecasting.html">HERE</a>.
   image: ./images/grants/tcforecast.png
   acknowledgement: G. Unger Vetlesen Foundation and our project sponsors -- Ironshore Insurance, Insurance Information Institute and Interstate Restoration
-  url: ./projects/tcforecast.html
+  url: ./projects/forecast.html
 
-- id: remotesensing
+- id: remote
   title: Development of High Impact Weather Research Tools and Technology
   grant: Remote Sensing
   full_name: Remote Sensing
   description: Remote sensing observation tools such as radar, lidar, and satellite provide important data to better understand and forecast various aspects of high impact weather. This project will assist in developing new technology and tools such as APAR and LROSE to address community needs, as well as utilize machine learning in tandem with satellite multi-spectral infrared and passive microwave brightness temperatures to address scientific hypotheses and develop new forecasting tools.
   image: ./images/grants/remotesensing.png
   acknowledgement: NSF SI2-LROSE OAC-1661663, NOAA APAR NA19OAR4590245, NASA Earth and Space Science Fellowship, United States Air Force -- Air Force Institute of Technology
-  url: ./projects/remotesensing.html
+  url: ./projects/remote.html
 
 - id: career
   title: Impacts of convective and stratiform processes on tropical cyclone intensity change
