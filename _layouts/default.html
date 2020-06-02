@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<link rel="icon" href="/images/logo/BellTClogo.png">
 		<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+		{% if jekyll.environment == 'production' %}
+			{% include analytics.html %}
+		{% endif %}
 	</head>
 	<body>
 
@@ -52,7 +55,7 @@
 					<ul class="icons" style="text-align:center;">
 						<li style="color:gray"><i class="fas fa-map-marker-alt" style="color:white"></i>&nbsp; Dept. of Atmospheric Science, 1371 Campus Delivery, Fort Collins, CO, 80523, USA </li>
 						<br><li style="color:gray"><i class="fas fa-phone-alt" style="color:white"></i>&nbsp; +1-970-491-8345 </li>
-					  <li style="color:gray"><i class="far fa-envelope" style="color:white"></i>&nbsp; kate.young@colostate.edu </li>
+					  <li style="color:gray"><i class="far fa-envelope" style="color:white"></i>&nbsp; mmbell@colostate.edu </li>
 					</ul>
 				</div>
 
@@ -78,7 +81,7 @@
 						<br>
 					<h4><b> Our Sponsors </b> </h4>
 					<p>We gratefully acknowledge support from the following organizations.</p>
-					<ul class="actions"><span class="image center"><img src="/images/logo/partner1.png" alt="" style="float:left;width:80px;height:80px;margin:10px 0px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner1.png" alt="" style="float:left;width:80px;height:80px;margin:10px opx" /></span></ul>
 					<ul class="actions"><span class="image center"><img src="/images/logo/partner2.png" alt="" style="float:left;width:140px;height:60px;margin:10px" /></span></ul>
 					<ul class="actions"><span class="image center"><img src="/images/logo/partner3.png" alt="" style="float:left;width:70px;height:70px;margin:10px" /></span></ul>
 					<ul class="actions"><span class="image center"><img src="/images/logo/nasa.png" alt="" style="float:left;width:80px;height:70px;margin:10px" /></span></ul>
@@ -105,11 +108,11 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/jquery.scrollex.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<script src="/assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

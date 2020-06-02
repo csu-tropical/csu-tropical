@@ -38,22 +38,27 @@
   margin-left: 0px;
   margin-right: auto;
         }
+        div.ex3 {
+
+                  height: 330px;
+                  overflow: auto;
+                }
 </style>
-<div class="inner">
-  <div class="box">
-    <div class="content">
+<div class="inner" style="z-index:-10;">
+  <div class="box" style="z-index:-10;">
+    <div class="content" style="z-index:-10000;">
 
       <header class="left">
         <h2 id= {{entry.id}}> {{entry.title}} </h2>
       </header>
       <div class="row">
-      <div class="4u 12u$(small)">
+      <div class="4u 12u$(medium) ex3">
         <div class="image fit">
           <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
         </div>
       </div>
 
-      <div class="8u$ 12u$(small)">
+      <div class="8u$ 12u$(medium) ex3">
         <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
           {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
           {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
@@ -71,16 +76,16 @@
       <div class="12u$ 12u$(small) align-center button-space">
       <ul class="actions fit" style="text-align:center;">
 
-        {% for org in site.data.keywords %}{% if entry.keyword1 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword1}} </a></li>{% endif %}{% endfor %}
-        {% for org in site.data.keywords %}{% if entry.keyword2 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword2}} </a></li>{% endif %}{% endfor %}
-        {% for org in site.data.keywords %}{% if entry.keyword3 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword3}} </a></li>{% endif %}{% endfor %}
-        {% for org in site.data.keywords %}{% if entry.keyword4 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword4}} </a></li>{% endif %}{% endfor %}
-        {% for org in site.data.keywords %}{% if entry.keyword5 == org.id%}<li><a href="../keywords_projects/{{org.id}}" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword5}} </a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword1 == org.id%}<li><a href="../keywords_projects/{{org.id}}.html" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword1}} </a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword2 == org.id%}<li><a href="../keywords_projects/{{org.id}}.html" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword2}} </a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword3 == org.id%}<li><a href="../keywords_projects/{{org.id}}.html" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword3}} </a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword4 == org.id%}<li><a href="../keywords_projects/{{org.id}}.html" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword4}} </a></li>{% endif %}{% endfor %}
+        {% for org in site.data.keywords %}{% if entry.keyword5 == org.id%}<li><a href="../keywords_projects/{{org.id}}.html" class="button special small fit" style="text-align:center;"><i class="fas fa-cloud-rain" style="margin-left:-6px"></i> {{entry.keyword5}} </a></li>{% endif %}{% endfor %}
 
       </ul>
       </div>
 
-      
+
 
 
     </div>

@@ -1,3 +1,50 @@
+- id: Taoetal2020GRL
+  year: 2020
+  title: Why Do the Maximum Intensities in Modeled Tropical Cyclones Vary Under the Same Environmental Conditions?
+  author1: tao
+  author2: bell
+  authors: Tao, D., R. Rotunno, M. Bell, P.J. van Leeuwen
+  journal: Geophysical Research Letters
+  others: 47, e2019GL085980
+  doi: https://doi.org/10.1029/2019GL085980
+  keypoint1: The steady‐state radius of maximum wind rm has a linear relationship to the absolute angular momentum Mm that rm = aMm+b
+  keypoint2: The nonnegligible intercept b is responsible for the various steady‐state maximum intensities
+  keypoint3: Horizontal turbulent mixing acts a role on the steady‐state maximum intensities through adjusting the linear relationship between rm and Mm
+  abstract: In this study w e explored why the different initial tropical cyclone structures can result in different steady‐state maximum intensities in model simulations with the same environmental conditions. We discovered a linear relationsh ip between the radius of maximum wind (rm) and the absolute angular momentum that passes through rm (Mm) in the model simulated steady‐state tropical cyclones that rm = aMm+b. This nonnegligible intercept b is found to be the key to making a steady‐state storm with a largerMm more intense. The sensitivity experiments show that this nonzero b results mainly from horizontal turbulent mixing and decreases with decreased horizontal mixing. Using this linear relationship from the simulations, it is also found that the degree ofsupergradient wind is a function ofMm as well as the turbulent mixing length such that both a larger Mm and/or a reduced turbulent mixing length result in larger supergradient winds.
+  summary: According to the maximum potential intensity theory, the maximum intensities for tropical cyclones should be the same given the same environmental conditions, which means the radius of maximum wind (rm) at the boundary layer top should be linearly proportional to the absolute angular momentum such that rm~aMm. In model simulations, however, different initial vortex structures usually result in different quasi‐steady‐state maximum intensities. In this paper, an axisymmetric numerical model is used to evaluate the TC's maximum intensities at the quasi‐steady state and explore the cause of this discrepancy between the model simulations and the maximum potential intensity theory. The model results exhibit that the various values of rm do have a linear relation with Mm, which is predicted by the maximum potential intensity theory. However, there is a non‐negligible intercept term, b, in this linear relation (rm = aMm+b), which is found to be the key to making a steady‐state storm with a larger Mm more intense.
+  ### Image file can only be .png or .jpg. NO PDF format!
+  image: ../Publications/figures/Taoetal2020GRL.png
+  caption: Figure 3. (a–c) Dots are the final 24‐hr mean of rm as a function of the final 24‐hr mean ofMm at z = 1.55 km. The dash lines are the linear regression of the dots. (d–f) Dots are the final 24‐hr mean of maximum tangential wind as a function of the final 24‐hr mean ofMm at z = 1.55 km. The dash lines are maximum tangential wind calculated from the linear regression of the first row using (2). (left column) CkCd0.5. (middle column) CkCd1.0. (right column) CkCd1.5.
+  acknowledgement: >
+    Authors D. Tao and M. Bell are supported by grant Office of Naval Research award N000141613033 and National Science Foundation (NSF) award AGS‐1701225. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under cooperative agreement 1852977. P.J. van Leeuwen is supported by Colorado State University. Computing was performed at a local computer server at the Department of Atmospheric Science, Colorado State University. The data used in this paper are available through zenodo using the link https://doi.org/10.5281/zenodo.3530892.
+  bibtex: false
+  pdf: ../Publications/papers/Taoetal2020GRL.pdf
+  keyword1: Radius of maximum wind
+  keyword2: Steady-state TC
+  keyword3: Angular momentum
+- id: Taoetal2019JAS
+  year: 2019
+  title: Evaluation of the Assumptions in the Steady-State Tropical Cyclone Self-Stratified Outflow Using Three-Dimensional Convection-Allowing Simulations
+  author1: tao
+  author2: bell
+  authors: Tao, D., K. Emanuel, F. Zhang, R. Rotunno, M. Bell, R. Nystrom
+  journal: Journal of Atmospheric Sciences
+  others: false
+  doi: https://doi.org/10.1175/JAS-D-19-0033.1
+  keypoint1: Outflow temperature is stratified on M
+  keypoint2: Moist neutrality holds near Mm
+  keypoint3: Low Richardson number is observed in the outflow region
+  abstract: The criteria and assumptions that were used to derive the steady-state tropical cyclone intensity and structure theory of Emanuel and Rotunno are assessed using three-dimensional convection-allowing simulations using the Weather Research and Forecasting Model. One real-data case of Hurricane Patricia (2015) and two idealized simulations with and without vertical wind shear are examined. In all three simulations, the gradient wind balance is valid in the inner-core region above the boundary layer. The angular momentum M and saturation entropy surfaces s^* near the top of the boundary layer, in the outflow region and along the angular momentum surface that passes the low-level radius of maximum wind M_RMW are nearly congruent, satisfying the criterion of slantwise moist neutrality in the vicinity of M_RMW. The theoretically derived maximum wind magnitude above the boundary layer compares well with the simulated maximum tangential wind and gradient wind using the azimuthally averaged pressure field during the intensification and quasi-steady state of the simulated storms. The Richardson number analysis of the simulated storms shows that small Richardson number (0 < Ri < 1) exists in the outflow region, related to both large local shear and small static stability. This criticality of the Richardson number indicates the existence of small-scale turbulence in the outflow region. We also show that the stratification of temperature along the M surfaces at the outflow region for steady-state hurricanes is approximately applicable in these three-dimensional simulations, while the radial distribution of gradient wind is qualitatively comparable to the theoretical radial profiles. Some caveats regarding the theory are also discussed.
+  summary: false
+  image: ../Publications/figures/Taoetal2019JAS.png
+  caption: Figure 6. (left) N^2 (10^-4 s^-2), (center) shear (m s^-1 km^-1), and (right) Richardson number calculated from azimuthally averaged fields for (a)–(c) Patricia at 40 h, (d)–(f) NOFLOW at 132 h, and (g)-(i) SH5 at 132 h. M_RMW is the red line, V_t=0ms^-1 is the orange contour, and Ri = 1 is the green contour. The blue dashed lines are the locations for the profiles in Fig. 7. Black dash lines separate the area with full azimuthal data (radius <= 135 km in Patricia and radius <= 270km in NOFLOW and SH5) and the area with partial azimuthal data (radius > 135km in Patricia and radius > 270 km in NOFLOW and SH5).
+  acknowledgement: Authors Tao and Zhang were partially supported by NSF Grant AGS-1305798,ONR Grant N000140910526, and NOAA HFIP. Robert Nystrom was supported by NASA Grant 17-EARTH17F-184. Kerry Emanuel was supported by the Office of Naval Research under GrantONRN00014-18-1-2458. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. Michael Bell was supported by ONR Grant N000141613033 and NSF Grant AGS-1701225. Computing was performed at the Texas Advanced Computer Center.
+  bibtex: ../Publications/bibtex/Taoetal2019JAS.bib
+  pdf: ../Publications/papers/Taoetal2019JAS.pdf
+  keyword1: Moist slantwise neutrality
+  keyword2: Low Richardson number
+  keyword3: TC Structure
+
 - id: bhardwajetal2019
   year: 2019
   title: Modulation of Bay of Bengal tropical cyclone activity by the Madden-Julian
@@ -766,7 +813,7 @@
   author2: bell
   authors: DeHart, J. C., M. M. Bell
   journal: Journal of Geophysical Research - Atmospheres
-  others: early online release
+  others: in press
   doi: https://doi.org/10.1029/2019JD032212
   keypoint1: Rain drop size distributions in Harvey and Florence were broadly similar
     to other tropical cyclones
@@ -1050,8 +1097,8 @@
     2020.
   acknowledgement: Supported by National Science Foundation awards AGS-1701225 and
     OAC-1661663, and Office of Naval Research awards N000141613033 and N000142012069.
-  bibtex: ../Publications/bibtex/Cha_et_al_GRL_2020.tex
-  pdf: ../Publications/papers/Cha_et_al_GRL_2020.pdf
+  bibtex: false
+  pdf: false
   keyword1: Asymmetric Dynamics
   keyword2: Radar
   keyword3: TC case study
