@@ -44,7 +44,7 @@
 - id: Rapid intensity change
 - id: TC expansion
 - id: Outer-core convection
-- id: Angular momentum convergence
+- id: Angular momentum
 - id: Axisymmetric dynamics
 - id: Theory
 - id: GVTD
@@ -52,3 +52,7 @@
 - id: Machine Learning
 - id: Extratropical transition
 - id: Climate change
+- id: Moist slantwise neutrality
+- id: Low Richardson number
+- id: Steady-state TC
+- id: Radius of maximum wind
