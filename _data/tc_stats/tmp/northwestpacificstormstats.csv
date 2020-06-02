@@ -1,2 +1,0 @@
-year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
-2020,1,VONGFONG,5,12,5,16,11.9,129.2,105,957,3.25,2.0,0.5,7.08,WP,01,

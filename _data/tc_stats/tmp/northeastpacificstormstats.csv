@@ -1,2 +1,0 @@
-year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
-2020,1,AMANDA,5,31,5,31,13.3,-90.5,35,1003,0.5,0,0,0.24,EP,02,

@@ -15,5 +15,3 @@ Ben Trabing and Kai-Chih Tseng were honored  for outstanding student publication
 <img src="/images/news/4.19.19_Riehl-AlumniAwards.jpg"
      alt="news image"
      style="float: center; margin-right: 10px; width: 450px" />
-
-<https://www.atmos.colostate.edu/2019/04/ben-trabing-and-kai-chih-tseng-receive-department-honors-for-student-research/>

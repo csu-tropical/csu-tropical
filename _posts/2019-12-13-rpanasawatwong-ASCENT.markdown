@@ -9,6 +9,7 @@ Four atmospheric science graduate students received scholarships this year from 
 
 <https://engr.source.colostate.edu/ascent-scholarships-fund-graduate-students-international-research/>
 <!--more-->
-<img src="/images/news/3.24.20_Martinez_NCAR_postdoc3.jpg"
+<br>
+<img src="/images/news/ASCENT_KathrynRungJingyuan.jpg"
      alt="news image"
-     style="float: center; margin-right: 10px; width: 450px" />
+     style="float:center; margin: 20px; width: 450px" />
