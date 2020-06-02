@@ -38,6 +38,11 @@
   margin-left: 0px;
   margin-right: auto;
         }
+        div.ex3 {
+
+                  height: 330px;
+                  overflow: auto;
+                }
 </style>
 <div class="inner" style="z-index:-10;">
   <div class="box" style="z-index:-10;">
@@ -47,13 +52,13 @@
         <h2 id= {{entry.id}}> {{entry.title}} </h2>
       </header>
       <div class="row">
-      <div class="4u 12u$(small)">
+      <div class="4u 12u$(medium) ex3">
         <div class="image fit">
           <a href="#"><img src="{{ entry.image}}" alt="Figure" style="float:left" /></a>
         </div>
       </div>
 
-      <div class="8u$ 12u$(small)">
+      <div class="8u$ 12u$(medium) ex3">
         <h4> Group Members: <a href="{{ entry.url1}}" target="_blank"> {{ entry.member1}} </a>, <a href="{{ entry.url2}}" target="_blank"> {{ entry.member2 }}
           {% if entry.member3 != false %} <a href="{{ entry.url3}}" target="_blank">, {{ entry.member3}}</a> {% endif %}
           {% if entry.member4 != false %} <a href="{{ entry.url4}}" target="_blank">, {{ entry.member4}}</a> {% endif %}
