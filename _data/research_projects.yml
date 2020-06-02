@@ -30,6 +30,7 @@
   title: Development of High Impact Weather Research Tools and Technology
   grant: Remote Sensing
   full_name: Remote Sensing
+  notes: More details about LROSE can be found <a href="http://lrose.net/">HERE</a>.
   description: Remote sensing observation tools such as radar, lidar, and satellite provide important data to better understand and forecast various aspects of high impact weather. This project will assist in developing new technology and tools such as APAR and LROSE to address community needs, as well as utilize machine learning in tandem with satellite multi-spectral infrared and passive microwave brightness temperatures to address scientific hypotheses and develop new forecasting tools.
   image: ./images/grants/remotesensing.png
   acknowledgement: NSF SI2-LROSE OAC-1661663, NOAA APAR NA19OAR4590245, NASA Earth and Space Science Fellowship, United States Air Force -- Air Force Institute of Technology
@@ -39,7 +40,7 @@
   title: Impacts of convective and stratiform processes on tropical cyclone intensity change
   grant: NSF CAREER
   full_name: NSF CAREER
-  description: This study is investigating convective and stratiform processes in TC intensification through analysis of mesoscale observations, with a focus on aircraft and Doppler radar data. Recent studies have suggested that the radial location of deep convective bursts and stratiform precipitation relative to the RMW may play an important role in intensification efficiency. Testing new hypotheses using observations is needed to diagnose the physical processes responsible for TC intensity change and forecasts. 
+  description: This study is investigating convective and stratiform processes in TC intensification through analysis of mesoscale observations, with a focus on aircraft and Doppler radar data. Recent studies have suggested that the radial location of deep convective bursts and stratiform precipitation relative to the RMW may play an important role in intensification efficiency. Testing new hypotheses using observations is needed to diagnose the physical processes responsible for TC intensity change and forecasts. <br> <br>
   image: ./images/grants/1.jpg
   acknowledgement: NSF AGS-1701225
   url: ./projects/career.html
