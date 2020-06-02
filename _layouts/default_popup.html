@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<link rel="icon" href="/images/logo/BellTClogo.png">
 		<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+		{% if jekyll.environment == 'production' %}
+			{% include analytics.html %}
+		{% endif %}
 		<style>
 
 		/* The Modal (background) */
