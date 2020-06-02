@@ -1,0 +1,91 @@
+---
+layout: default_withdata
+title: CSU Tropical Research Publications
+---
+<html>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+.box header h2 {
+                        margin-bottom: 0rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+
+	border-radius: 3px 3px 3px 3px;
+	line-height: 5rem;
+}
+
+.select-wrapper {
+                text-decoration: none;
+                display: block;
+                position: absolute;
+								left: 950px;
+        }
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University Tropical Weather and Climate Research</p>
+						<h2>Refereed Publications</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2">
+					<div class="inner">
+					   <div class="box">
+							<div class="content">
+                <p style="margin-left:600px;margin-top:-20px;color:black"> * Click the title to get a summary of the publication </p>
+                <header class="align-center special" >
+									<h2><b>{{page.id}}</b></h2>
+								</header>
+                <center style="margin-top:10px;"><a href="../keywords_projects/{{page.id}}"><i>Learn More about the related research</i></a></center>
+                <hr>
+
+                {% assign chronological_order = site.data.list_long | sort: "year" %}
+                {% for entry in chronological_order reversed%}
+                {% if entry.keyword1 == page.id%}
+                <ul>
+                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
+                </ul>
+                {% endif %}
+                {% if entry.keyword2 == page.id%}
+                <ul>
+                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
+                </ul>
+                {% endif %}
+                {% if entry.keyword3 == page.id%}
+                <ul>
+                  <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {{ entry.others }} {% if entry.doi != false %}, <a href="{{ entry.doi }}" target="_blank"> {{ entry.doi }}</a> {% endif %}</li>
+                </ul>
+                {% endif %}
+                {% endfor %}
+
+                <div>
+                <ul class="actions fit">
+                  <center><li><a href="../publication.html" class="button small fit"><i class="fas fa-step-backward"></i> Go back to Publication page</a></li></center>
+                </ul>
+                </div>
+
+							</div>
+						</div>
+					</div>
+				</section>

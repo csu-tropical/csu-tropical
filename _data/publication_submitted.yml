@@ -1,0 +1,406 @@
+- id: chagrl2020 # lastname,journal,year
+  year: 2020
+  title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane
+    Michael (2018)
+  author1: cha
+  author2: bell
+  author3: desrosiers
+  authors: Cha, T-Y., M. M. Bell, W.-C. Lee, A. J. DesRosiers
+  journal: Geophysical Research Letters
+  others: In review
+  doi: false
+  keypoint1: Single Doppler radar retrievals capture the structural evolution of Hurricane
+    Michael's polygonal eyewall during rapid intensification. # It can be capsule summary or keypoint
+  keypoint2: The propagation speeds of asymmetric winds and reflectivity are consistent
+    with linear vortex Rossby wave theory.
+  keypoint3: Coastal radar observations and the generalized velocity track display
+    technique can help to improve tropical cyclone intensity forecasts.
+  abstract: Hurricane Matthew (2016) was observed by the NEXRAD KAMX polarimetric
+    radar and NOAA P-3 airborne radar near the coast of the southeastern United States
+    for several hours, providing a novel opportunity to evaluate and compare single
+    and multiple Doppler wind retrieval techniques for tropical cyclone flows. The
+    generalized velocity track display (GVTD) technique can retrieve a subset of the
+    wind field from a single ground-based Doppler radar under the assumption of nearly
+    axisymmetric rotational wind, but is shown to have errors from aliasing of unresolved
+    wind components. An improved technique that mitigates errors due to storm motion
+    is derived in this study, although some spatial aliasing remains due to limited
+    information content from the single Doppler measurements. A spline-based variational
+    wind retrieval technique called SAMURAI can retrieve the full three-dimensional
+    wind field from airborne radar fore-aft pseudo-dual Doppler scanning, but is shown
+    to have errors due to temporal aliasing from the non-simultaneous Doppler measurements.
+    A comparison between the two techniques shows that the axisymmetric tangential
+    winds are generally comparable between the two techniques after the improvements
+    to GVTD retrievals. Fourier decomposition of asymmetric kinematic and convective
+    structure shows more discrepancies due to spatial and temporal aliasing in the
+    retrievals. The advantages and disadvantages of each technique for studying tropical
+    cyclone structure are discussed, and suggest that complementary information can
+    be retrieved from both single and multiple Doppler retrievals. Future improvements
+    to the asymmetric flow assumptions in single Doppler analysis and steady-state
+    assumptions in pseudo-dual Doppler analysis are required to reconcile differences
+    in retrieved tropical cyclone structure.
+  summary: Polygonal eyewall asymmetries of Hurricane Michael (2018) during rapid
+    intensification (RI) are analyzed from ground-based single Doppler radar. Here
+    we present the first observational evidence of the evolving wind field of a polygonal
+    eyewall during RI to Category 5 intensity by deducing the axisymmetric and asymmetric
+    winds at 5-minute intervals. Spectral time decomposition of the retrieved tangential
+    wind structure shows quantitative evidence of high-order azimuthal wavenumbers
+    with propagation speeds that are consistent with linear wave theory on a radial
+    vorticity gradient, suggesting the presence of rapidly-evolving vortex Rossby
+    waves. Dual-Doppler winds from the airborne NOAA P-3 Hurricane Hunter provide
+    further evidence of the three-dimensional vortex structure that supports growth
+    of asymmetries during RI. Both reflectivity and tangential wind fields show polygonal
+    structure and propagate at similar speeds, suggesting a close coupling of the
+    dynamics and the convective organization during the intensification.
+  image: ../Publications/figures/Cha_et_al_GRL_2020.png
+  caption: Spectral time decomposition of m = 1 - 4 (a) tangential wind components
+    (b) reflectivity components. The derived propagation speeds of each (c) tangential
+    wavenumber and (d) reflectivity wavenumber and the theoretical VRWs propagation
+    speed from the linear wave theory. Figure is derived from Fig. 4 in Cha et al.
+    2020.
+  acknowledgement: Supported by National Science Foundation awards AGS-1701225 and
+    OAC-1661663, and Office of Naval Research awards N000141613033 and N000142012069.
+  bibtex: ../Publications/bibtex/Cha_et_al_GRL_2020.tex
+  pdf: ../Publications/papers/Cha_et_al_GRL_2020.pdf
+  keyword1: Asymmetric Dynamics
+  keyword2: Radar
+  keyword3: TC case study
+- id: chenetaltransbasin
+  year: false
+  title: Decadal modulation of trans-basin variability on extended boreal summer tropical
+    cyclone activity in the tropical North Pacific and Atlantic basins
+  firstauthor: klotzbach
+  authors: Chen S., H. Zhao, P. J. Klotzbach, G. B. Raga, J. Cao, and C. Wang
+  journal: Journal of Climate
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: gaoetalri
+  year: false
+  title: Possible influence of tropical Indian Ocean sea surface temperatures on the
+    proportion of rapidly intensifying western North Pacific tropical cyclones during
+    the extended boreal summer
+  firstauthor: klotzbach
+  authors: Gao, J., H. Zhao, P. J. Klotzbach, C. Wang, G. B. Raga, and S. Chen
+  journal: Journal of Climate
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: nammwr2020
+  year: 2020
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: "In review"
+  doi: false
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with
+    vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales
+    using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity
+    inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new
+    insight for the supporting role of low-level VWS providing horizontal vorticity
+    and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic
+    to meso scales using airborne Doppler radar observations of pre-depression Hagupit
+    during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional
+    Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations
+    reveal complex localized convective and vortical characteristics of a pre-depression
+    in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric
+    trough during the observation period. The strong deep-layer VWS (> 20 m s -1)
+    had a negative impact on the development through misalignment of the low and mid-level
+    circulations and dry air intrusion. However, the low-level circulation persisted
+    and the system ultimately formed into a tropical cyclone after it left the high-shear
+    zone. Here we propose that a key process that enabled the predepression to survive
+    through the upper-tropospheric trough interaction was persistent vorticity amplification
+    on the meso-gamma scale that was aggregated on the mesoalpha scale within the
+    pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the
+    low-level horizontal vorticity into the vertical in the early stage of convective
+    life-cycle, followed by stretching from maturing deep convection. Variations in
+    low-level VWS on the meso-beta scale affect convective organization and horizontal
+    vorticity generation. The results provide new insights into multi-scale processes
+    during TC genesis and the interactions of a pre-depression with VWS at various
+    spatial scales.
+
+  summary: false
+  image: ../Publications/figures/Nam_Bell_2020_Fig13.pdf
+  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
+    a) Synoptic scale’s active features are upper-level trough and easterly waves,
+    which carry the marsupial wave pouch shown as red circulation. b) Inside the meso-a
+    scale wave pouch, shown are the low-level cyclonic stream lines with its center
+    marked with black cross and mid-level center as yellow cross. Over the clouds
+    shifted to southwest from the low-level center is vorticity (positive - red, negative
+    - blue), showing vorticity dipoles from tilting, enhanced bigger vortex from stretching,
+    and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig.
+    7b), the squall-like NW-SE convection can be explained by the local wind shear
+    profile consist of winds from cyclonic circulation inside pouch, marsupial wave
+    propagation, and the trough. Thick black lines in the lowerleft corner of the
+    circle indicates convective line; L indicates ENE low-level shear; M indicates
+    WNW mid-level shear. d) Meso-g scale convective cells produce vorticity that serves
+    as building block for the wave pouch intensification through tilting the horizontal
+    shear (S cell) and stretching the existent vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225
+    and 412 Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+
+  bibtex: false
+  pdf: false
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+- id: songetaldeceleration
+  year: false
+  title: What has caused the deceleration of tropical cyclone motion over the western
+    North Pacific during the past 70 years
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: Earth and Space Science
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: songetalspringtcfrequency
+  year: false
+  title: Relationship between spring tropical cyclone frequency over the western North
+    Pacific and El Nino - Southern Oscillation
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: International Journal of Climatology
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: songetalthreenesoflavors
+  year: false
+  title: Differences in western North Pacific tropical cyclone activity among three
+    El Nino phases
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: Journal of Climate
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: titusetalseasonaltc
+  year: false
+  title: Statistical reconstruction of seasonal tropical cyclone activity in the North
+    Atlantic basin
+  firstauthor: klotzbach
+  authors: Titus, M. L., K. R. Thompson, E. J. Oliver, and P. J. Klotzbach
+  journal: Journal of Geophysical Research - Atmospheres
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: woodetal2019atlantic
+  year: false
+  title: >
+    North Atlantic hurricane activity in ENSO-neutral conditions: Factors affecting
+    the 2019 season and the role of the Indian Ocean Dipole
+
+  firstauthor: klotzbach
+  authors: Wood, K. M., P. J. Klotzbach, J. M. Collins, R. E. Truchelut, L.-P. Caron,
+    and C. J. Schreck III
+  journal: Geophysical Research Letters
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: xianetalatmoschemdust
+  year: false
+  title: >
+    Revisiting the relationship between Atlantic dust and tropical cyclone activity
+    using aerosol optical depth reanalyses: 2003-2018
+
+  firstauthor: klotzbach
+  authors: Xian. P., P. J. Klotzbach, J. P. Dunion, M. A. Janiga, J. S. Reid, P. R.
+    Colarco, and Z. Kipling
+  journal: Atmospheric Chemistry and Physics
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: xiangetalclimdyntibet
+  year: false
+  title: Possible role of the interannual variation of boreal winter Tibetan Plateau
+    snow cover in modulating the impact of the Madden-Julian Oscillation on tropical
+    cyclogenesis during the following boreal summer
+  firstauthor: klotzbach
+  authors: Xiang, H, H. Zhao, P. J. Klotzbach, L. Wu, and G. B. Raga
+  journal: Climate Dynamics
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: zhaoetalinterdecadal
+  year: false
+  title: Inter-decadal change in extended boreal summer tropical cyclogenesis associated
+    with large-scale flow patterns over the western North Pacific
+  firstauthor: klotzbach
+  authors: Zhao, K., H. Zhao, G. B. Raga, R. Yoshida, W. Wang, and P. J. Klotzbach
+  journal: Climate Dynamics
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: zhaoetaljclimglobalsst
+  year: false
+  title: Dominant influence of ENSO-like and global sea surface temperature patterns
+    on changes in boreal summer tropical cyclone tracks over the western North Pacific
+  firstauthor: klotzbach
+  authors: Zhao, H., P. J. Klotzbach, and S. Chen
+  journal: Journal of Climate
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: zhaoetalmeridional
+  year: false
+  title: >
+    Meridional migration of eastern North Pacific tropical cyclogenesis: Joint contribution
+    of interhemispheric temperature differential and ENSO
+
+  firstauthor: klotzbach
+  authors: Zhao, H., K. Zhao, J. Cao, P. J. Klotzbach, and G. Raga
+  journal: Journal of Geophysical Research - Atmospheres
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false

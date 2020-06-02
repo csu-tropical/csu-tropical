@@ -1,0 +1,22 @@
+- id: woodetal2019
+  year: 2019
+  title: The record-setting 2018 eastern North Pacific hurricane season
+  firstauthor: klotzbach
+  authors: Wood, K., P. J. Klotzbach, J. M. Collins, and C. J. Schreck III
+  journal: Geophysical Research Letters
+  others: 46, 10072-10081
+  doi: https://doi.org/10.1029/2019GL083657
+  keypoint1: The eastern North Pacific set records for hurricane activity in 2018 with relatively little influence from El Niño-Southern Oscillation
+  keypoint2: Combined above (below)-average sea surface temperatures and moisture (shear) during August and September contributed to the record season
+  keypoint3: The strongly positive Pacific Meridional Mode also supported the increase in eastern North Pacific hurricane activity
+  abstract: The extremely active 2018 eastern North Pacific (ENP) hurricane season set records for number of hurricane days, major hurricane days, and accumulated cyclone energy (ACE). The Western Development Region (116°W–180°) was especially active, shattering its prior record for ACE set in 2015. In addition, Hawaii was impacted by Hurricane Lane in August and Tropical Storm Olivia in September. Despite above-normal sea surface temperatures (SSTs) and below-normal vertical wind shear in 2018, large-scale conditions were generally less conducive for tropical cyclone (TC) formation than in 2015. However, the strong subtropical ridge in August and September of 2018 enhanced westward steering flow, thereby keeping TCs over hurricane-favorable conditions and preventing recurvature toward lower SSTs and higher vertical wind shear. The 2018 ENP hurricane season highlights that El Niño conditions are not necessary for extremely high ENP TC activity.
+  summary: The 2018 eastern North Pacific hurricane season broke records, particularly when considering an index that accounts for frequency, intensity, and duration of hurricanes. The previous record was set in 2015 during a strong El Niño event that increased ocean warmth and thus provided more fuel for hurricanes. Even though a weak El Niño did not develop until late in the 2018 hurricane season, the ocean was warmer than normal in the region where the hurricanes formed, which helped support their development. After the hurricanes formed, the flow of the atmosphere generally kept them over warmer water, helping them last longer. We need to study more seasons like 2018 to better understand when eastern North Pacific hurricane seasons will be active without the presence of a strong El Niño.
+  image: ../Publications/figures/wood_et_al_2019_Fig2.jpg
+  caption: >
+    Fig. 2. Cumulative accumulated cyclone energy (ACE; 10^4 kt^2) from 15 May to 30 November for 1988–2017 (black), 2015 (orange), and 2018 (purple) in the (a) Western Development Region and (b) Eastern Development Region. (c) Sum of all ACE (10^4 kt^2) generated within 10° longitude bins for 1988–2017 (black) and the 1992 (green), 2015 (orange), and 2018 (purple) seasons.
+  acknowledgement: The authors thank Dr. Suzana Camargo and two anonymous reviewers for their valuable feedback on earlier versions of this manuscript. K. Wood was supported by the Mississippi State University Office of Research and Economic Development. P. Klotzbach acknowledges funding from the G. Unger Vetlesen Foundation. C. Schreck was supported by NOAA through the Cooperative Institute for Climate and Satellites – North Carolina under Cooperative Agreement NA14NES432003.
+  bibtex: ../Publications/bibtex/wood_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/wood_et_al_2019.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Forecasting

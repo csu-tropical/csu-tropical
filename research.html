@@ -1,0 +1,86 @@
+---
+layout: default
+title: Research
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.align-justify {
+	    text-align: justify;
+	          }
+
+.grid-container {
+				  display: grid;
+				  grid-template-columns: auto auto;
+				  grid-gap: 15px;
+				  padding: -50px;
+
+				}
+
+
+
+				.crop {
+				    height: 320px;
+				    overflow: hidden;
+				}
+
+				.image-fig {
+				  width: 100%;
+				  height: 300px;
+				  border: 1px;
+				}
+
+				img {
+				  width: 100%;
+				  height: 100%;
+				  object-fit: cover;
+				}
+				@media only screen and (max-width: 700px) {
+				  .image-wrapper {
+				    grid-template-columns: 1fr;
+				    row-gap: 30px;
+				    padding: 10px;
+				  }
+				}
+
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Research</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+		<section id="one" class="wrapper style2">
+			<div class="inner">
+				<h4 class="align-justify">Our primary interests are in <b>tropical, mesoscale</b>, and <b>radar meteorology </b>. A central focus of our research is studying the mesoscale structure and intensification of tropical cyclones throughout their life-cycle from genesis to extratropical transition. This research is accomplished through the collection and analysis of research quality observations from aircraft and Doppler radars, in conjunction with high-resolution numerical modeling. A significant component of our research effort is also aimed at improving mesoscale and radar analysis techniques and open source software tools. </h4>
+				<hr>
+				<div class="grid-container">
+					{% for entry in site.data.research_projects %}
+					<div >
+						<div class="box">
+							<div class="image fit image-wrapper" id={{entry.id}}>
+								<center><a href="{{entry.url}}"><img class="image-fig" style="width:auto;padding:10px;" src= "{{ entry.image }}" alt="Figure" class="center"/></a> </center>
+							</div>
+							<div class="content">
+								<header class="align-center">
+									<p style="margin-top:-30px;font-size:9.3px">{{ entry.title}}</p>
+									<h3> <b>{{ entry.grant}}</b> </h3>
+								</header>
+								<p class="align-justify" style="margin-top:-10px;"> {{ entry.description}} </p>
+								<footer class="align-center">
+									<a href="{{entry.url}}" class="button alt">Learn More</a>
+								</footer>
+								<center><p style="margin-top:20px;margin-bottom:-20px;"><em>Acknowledgement: {{ entry.acknowledgement}} </em></p></center>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</section>

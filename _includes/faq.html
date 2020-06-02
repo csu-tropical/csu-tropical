@@ -1,0 +1,178 @@
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color:transparent;
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  width : 100%;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.15);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightgray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width : 100%;
+}
+
+.dropdown-content {
+  display: none;
+  width : 100%;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown p:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+<div class="dropdown">
+  <div onclick="myFunction('a1')" class="dropbtn">1. How did the CSU seasonal hurricane forecast get started?</div>
+  <div id="a1" class="dropdown-content">
+    <p> <a href="/archive.html#bill_gray" target="_blank">Dr. Bill Gray</a> first started seasonal Atlantic hurricane predictions  at Colorado State University in 1984. Prior to
+his development of these forecasts, not only were there were no publicly issued predictions for overall Atlantic basinwide activity,
+but Atlantic TC teleconnection patterns had only been rudimentarily investigated (Ballenzweig 1959 J. Meteor.). His final
+Ph.D. student, Phil Klotzbach and the CSU tropical weather and climate research team continues the legacy and regularly issues the forecast to the present day.</p>
+  </div>
+</div>
+<div class="dropdown">
+  <div onclick="myFunction('a2')" class="dropbtn">2. Why do you study hurricanes in Colorado?</div>
+  <div id="a2" class="dropdown-content">
+    <p> "Storm Surge can't get you at 5,000 feet!" ~ <a href="/archive.html#bill_gray" target="_blank">Dr. Bill Gray</a> </p>
+  </div>
+</div>
+<div class="dropdown">
+  <div onclick="myFunction('a3')" class="dropbtn">3. What features of weather and climate do you look at when preparing a forecast?</div>
+  <div id="a3" class="dropdown-content">
+    <p> In 1984, Dr. Bill Gray at Colorado State University documented that Atlantic hurricane activity responded to a variety of large-scale atmospheric and oceanic parameters spanning various portions of the globe. These large-scale factors interact with the global climate system in such a way that then alter the environment of the tropical Atlantic, where most major hurricanes develop and intensify. For example, hurricanes are more likely to develop when they traverse through an environment of low vertical wind shear (the change in wind direction and speed with height in the atmosphere), high sea surface temperatures and high mid-level moisture. Several parameters that have been documented to impact Atlantic hurricanes are discussed here in more detail <a href="/forecasting.html#four">HERE</a> </p>
+  </div>
+</div>
+<div class="dropdown">
+  <div onclick="myFunction('a4')" class="dropbtn">4. What data sources are you using for your calculations?</div>
+  <div id="a4" class="dropdown-content">
+    <p> Real-time estimates of global tropical cyclone activity are calculated from the operational b-decks as archived on <a href="http://hurricanes.ral.ucar.edu/repository/data/bdecks_open/" target="_blank">the University Corporation of Atmospheric Research</a>
+These are operational estimates of intensity and have not been subject to any thorough review. When tropical cyclones are active, these files are updated every six hours with estimates of location, maximum wind, minimum sea level pressure and a variety of wind radii information.
+More information on the b-decks is available on <a href=http://hurricanes.ral.ucar.edu/realtime/current/ target="_blank">the National Corporation for Atmospheric Research’s Tropical Cyclone Guidance Project.</a> </p>
+  </div>
+</div>
+<div class="dropdown">
+  <div onclick="myFunction('a5')" class="dropbtn">5. How good is the data?</div>
+  <div id="a5" class="dropdown-content">
+    <p style="margin-bottom:-15px"> As you go back in time, the quality of the best track data generally degrades. The quality of this data is also very heavily basin dependent. For example, the North Atlantic is the only basin that currently has operational aircraft reconnaissance. For all other basins, intensity estimates are currently based virtually entirely on satellite data. The Dvorak technique is the primary technique currently used today to estimate tropical cyclone intensity from satellite imagery. This technique was first initiated in 1972; however, the quality of satellite data in the 1970s through the mid-1980s likely led to significant underestimates in intensity, especially for the most intense systems.</p>
+    <p style="margin-bottom:-30px">  Here are the time periods that I typically consider to be the most reliable for each TC basin. </p>
+    <!-- Table -->
+    <div class="content" style="margin-top:-30px">
+    <div class="table-wrapper">
+      <table class="alt">
+        <thead>
+          <tr>
+            <th>Basin</th>
+            <th>Time Period of Highest Quality Data</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in site.data.forecasting.data_period.doc %}
+          <tr>
+            <td>{{item.fullname}}</td>
+            <td>{{item.time}}</td>
+            <td>{{item.reason}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+    <p style="margin-top:-45px"> Here is a list of a few publications discussing various issues with data quality:</p>
+    <ul style="margin-left:30px;margin-top:-30px">
+    <li><a href="https://www.metoc.navy.mil/jtwc/products/best-tracks/tc-bt-report.html" target="_blank">Joint Typhoon Warning Center Best Tracks Documentation</a> – Describes the quality of the JTWC best track since 1945. </li>
+    <li><a href="/Forecast/klotzbachlandsea2015.pdf" target="_blank">Extremely Intense Hurricanes</a> – Revisiting Webster et al. after 10 Years – Discusses changes in observational platforms that may have led to a spurious increase in Category 4-5 hurricanes prior to 1990.</li>
+    <li><a href="https://journals.ametsoc.org/doi/full/10.1175/2008JCLI2178.1" target="_blank"> On estimates of historical North Atlantic tropical cyclone activity </a>– Discusses likely under-estimates in tropical cyclone counts for the North Atlantic basin prior to 1965.</li>
+  </ul>
+
+  </div>
+</div>
+
+<div class="dropdown">
+  <div onclick="myFunction('a6')" class="dropbtn">6. How do you make your climatological calculations?</div>
+  <div id="a6" class="dropdown-content">
+    <p> Climatological calculations are made from the best tracks provided by the National Hurricane Center, the Central Pacific Hurricane Center and the Joint Typhoon Warning Center as archived on <a href="https://www.ncdc.noaa.gov/ibtracs/index.php" target="_blank">the International Best Track Archive for Climate Stewardship</a>.
+Best tracks are the best estimate by the operational center for a tropical cyclone’s intensity for every six-hour period when a tropical cyclone is active. Other times may be included in the best track when additional information is provided (e.g., landfall, aircraft reconnaissance).</p>
+  </div>
+</div>
+
+<div class="dropdown">
+  <div onclick="myFunction('a7')" class="dropbtn">7. What is Accumulated Cyclone Energy (ACE)?</div>
+  <div id="a7" class="dropdown-content">
+    <p> ACE is calculated by summing the square of the maximum sustained winds of each tropical cyclone (in knots) every six hours when the system is classified as either tropical or sub-tropical. The resulting value is then divided by 10,000. Details of the calculation are available on <a href="https://en.wikipedia.org/wiki/Accumulated_cyclone_energy" target="_blank"> Wikipedia</a>. </p>
+  </div>
+</div>
+
+<div class="dropdown">
+  <div onclick="myFunction('a8')" class="dropbtn">8. Why do the hemispheric totals not equal the global total in a particular year?</div>
+  <div id="a8" class="dropdown-content">
+    <p>The Northern Hemisphere season is defined to run from January 1 through December 31, while the Southern Hemisphere season is defined to run from
+July 1 through June 30. Global totals are based on the calendar year (January 1 – December 31), but the Northern Hemisphere and Southern Hemisphere
+totals have a six-month offset. </p>
+  </div>
+</div>
+
+<div class="dropdown">
+  <div onclick="myFunction('a9')" class="dropbtn">9. How do you account for tropical cyclones that cross basin boundaries?</div>
+  <div id="a9" class="dropdown-content">
+    <p> Occasionally tropical cyclones will cross boundaries between basins. This most frequently occurs between the Northeast Pacific and Northwest Pacific basins, as well as the South Indian and South Pacific basins. In this case, days as a tropical cyclone are counted in the basin where the storm was located. So, if a storm was in the Northeast Pacific as a tropical storm for 4 days, then passed into the Northwest Pacific as a tropical storm for 2 more days, it would count as 4 named storm days for the Northeast Pacific and 2 named storm days for the Northwest Pacific. In terms of storm counting, this particular tropical cyclone would count as 1 named storm in the Northeast Pacific and 0 named storms in the Northwest Pacific (in order to avoid double-counting).</p>
+
+    <p>As another example, if a system becomes named in the Northeast Pacific but intensifies into a typhoon in the Northwest Pacific, it would count as 1 named storm and 0 hurricanes in the Northeast Pacific and as 0 named storms and 1 hurricane/typhoon in the Northwest Pacific.</p>
+
+    <p>All statistics for an individual storm are displayed under the basin in which it formed. This is to avoid confusion of having TCs listed in multiple basins. Consequently, if there are basin crossers in a particular year, the named storm days for each tropical cyclone in a basin may not add up to the total days observed in a basin. </p>
+  </div>
+</div>
+
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction(divID) {
+  var x = document.getElementById(divID)
+  x.classList.toggle("show");
+
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</html>

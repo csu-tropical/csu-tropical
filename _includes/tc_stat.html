@@ -1,0 +1,349 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<style>
+div.innerbox {
+  border-style: solid;
+  border-color: gray;
+}
+sup {
+  font-size: x-small;
+}
+</style>
+</head>
+
+<div class="innerbox" style="margin-bottom:-50px">
+<div class="content"  style="margin-bottom:-50px">
+  <header class="align-center" style="margin-top:-20px;margin-bottom:30px">
+    <p style="font-size:xxsmall">Historical Tropical Cyclone Statistics</p>
+    <h3 style="color:gray">TC Statistics</h3>
+  </header>
+  <ul class="content" style="margin-top:-20px;margin-bottom:-10px">
+  <li>Statistics are calculated from best tracks archived in the International Best Track Archive for Climate Stewardship
+    (IBTrACS, available online <a href="https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access" target="_blank">HERE</a>).</li>
+  <li>In the Southern Hemishphere, tropical cyclone seasons are defined to start on July 1 of the previous year.
+    <br>For example, the 1980 season ran from July 1, 1979 through June 30, 1980.</li>
+  </ul>
+  <figure class="center">
+    <img src="/images/forecast/archive.png" alt="North Atlantic Named Storms" style="width:600px;height:300px;border: 1px solid #ddd;padding: 5px;"/>
+  </figure>
+
+  <h3 class="align-center" style="margin-top:50px">Historical Tropical Cyclone Statistics over each basin</h3>
+
+  <div class="align-center" style="margin-top:50px;margin-bottom:-50px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin-bottom:-10px">
+    <li><a href="#NA" class="button fit small special" id="btn_NA", onclick="showDiv('btn_NA','NA','eye_s1','txt_s1')" style="box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt_s1"><i id="eye_s1" class="fas fa-eye"></i> North Atlantic</p></a></li>
+    <li><a href="#ENP" class="button fit small alt" id="btn_ENP", onclick="showDiv('btn_ENP','ENP','eye_s2','txt_s2')"><p id="txt_s2"><i id="eye_s2" class="fas fa-eye-slash"></i> Eastern North Pacific</p></a></li>
+    <li><a href="#WNP" class="button fit small alt" id="btn_WNP", onclick="showDiv('btn_WNP','WNP','eye_s3','txt_s3')"><p id="txt_s3"><i id="eye_s3" class="fas fa-eye-slash"></i> Western North Pacific</p></a></li><br>
+    <li><a href="#NIO" class="button fit small alt" id="btn_NIO", onclick="showDiv('btn_NIO','NIO','eye_s4','txt_s4')"><p id="txt_s4"><i id="eye_s4" class="fas fa-eye-slash"></i> North Indian</p></a></li>
+    <li><a href="#SIO" class="button fit small alt" id="btn_SIO", onclick="showDiv('btn_SIO','SIO','eye_s5','txt_s5')"><p id="txt_s5"><i id="eye_s5" class="fas fa-eye-slash"></i> South Indian</p></a></li>
+    <li><a href="#SP" class="button fit small alt" id="btn_SP", onclick="showDiv('btn_SP','SP','eye_s6','txt_v6')"><p id="txt_s6"><i id="eye_s6" class="fas fa-eye-slash"></i> South Pacific</p></a></li><br>
+    <li><a href="#NH" class="button fit small alt" id="btn_NH", onclick="showDiv('btn_NH','NH','eye_s7','txt_s7')"><p id="txt_s7"><i id="eye_s7" class="fas fa-eye-slash"></i> Northern Hemisphere</p></a></li>
+    <li><a href="#SH" class="button fit small alt" id="btn_SH", onclick="showDiv('btn_SH','SH','eye_s8','txt_s8')"><p id="txt_s8"><i id="eye_s8" class="fas fa-eye-slash"></i> Southern Hemisphere</p></a></li>
+    <li><a href="#Global" class="button fit small alt" id="btn_Global", onclick="showDiv('btn_Global','Global','eye_v9','txt_s9')"><p id="txt_s9"><i id="eye_s9" class="fas fa-eye-slash"></i> Global</p></a></li>
+  </ul>
+  <hr>
+  </div>
+
+
+<!-- Table NA -->
+<div class="content" id="NA" style="margin-bottom:-50px;">
+    <h4 class="align-center"><b>North Atlantic</b> Ocean Historical TC statistics </h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+    <table id="NA_table">
+      <thead>
+        <tr>
+          <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',0)" class="fas fa-sort-down"></i></a></th>
+          <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',1)" class="fas fa-sort-down"></i></a></th>
+          <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',2)" class="fas fa-sort-down"></i></a></th>
+          <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',3)" class="fas fa-sort-down"></i></a></th>
+          <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',4)" class="fas fa-sort-down"></i></a></th>
+          <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',5)" class="fas fa-sort-down"></i></a></th>
+          <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',6)" class="fas fa-sort-down"></i></a></th>
+          <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NA_table',7)" class="fas fa-sort-down"></i></a></th>
+        </tr>
+      </thead>
+      {% for row in site.data.forecasting.stat.archive_NA %}
+        {% tablerow pair in row %}
+          {{ pair[1] }}
+        {% endtablerow %}
+      {% endfor %}
+    </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_NA.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table ENP -->
+<div class="content" id="ENP" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>Eastern North Pacific</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="ENP_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('ENP_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_ENP %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_ENP.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table WNP -->
+<div class="content" id="WNP" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>Western North Pacific</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="WNP_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('WNP_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_WNP %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_WNP.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table NIO -->
+<div class="content" id="NIO" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>North Indian</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="NIO_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NIO_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_NIO %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_NIO.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table SIO -->
+<div class="content" id="SIO" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>South Indian</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="SIO_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SIO_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_SIO %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_SIO.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table SP -->
+<div class="content" id="SP" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>South Pacific</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="SP_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SP_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_SP %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_SP.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table NH -->
+<div class="content" id="NH" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>Northern Hemispheric</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="NH_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('NH_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_NH %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_NH.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table SH -->
+<div class="content" id="SH" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>Southern Hemispheric</b> Ocean Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="SH_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('SH_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_SH %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_SH.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+<!-- Table GLOBAL -->
+<div class="content" id="Global" style="margin-bottom:-50px;display:none;">
+  <h4 class="align-center"><b>Global</b> Historical TC statistics </h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:450px;overflow:auto;">
+  <table id="global_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storms <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>Named Storm Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',4)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricanes <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',5)" class="fas fa-sort-down"></i></a></th>
+        <th>Major Hurricane Days <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',6)" class="fas fa-sort-down"></i></a></th>
+        <th>Accumulated Cyclone Energy <a style="cursor:pointer;font-size:20px"><i onclick="sortTable('global_table',7)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+    {% for row in site.data.forecasting.stat.archive_global %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+  </div>
+  <div class="align-center" style="margin-top:20px">
+  <ul class="actions" style="text-align:center;line-height:1em;margin:30px 0 -10px 0px;">
+    <li><a href="/Forecast/downloadable/archive_global.csv" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i>  Download Table (.csv)</a></li>
+  </ul>
+  </div>
+  <hr>
+</div>
+
+</div>
+</div>
+
+</html>

@@ -1,0 +1,145 @@
+---
+layout: default
+title: Publications
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+.box header h2 {
+                        margin-bottom: 0rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+
+	border-radius: 3px 3px 3px 3px;
+	line-height: 5rem;
+}
+
+.select-wrapper {
+                text-decoration: none;
+                display: block;
+                position: absolute;
+								left: 950px;
+        }
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Publications</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2">
+					<div class="inner">
+						<div class="box">
+              <br style="margin-top:-20px;">
+                <div class="align-center">
+                <ul class="actions" style="text-align:center;line-height:1em;">
+                  <li><a class="button special fit" id="btn_full_list", onclick="showDiv('btn_full_list','full_list','eye1','txt1')" style="text-transform:none;width:250px;box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> Full List</p></a></li>
+                  <li><a class="button alt fit" id="btn_book_list", onclick="showDiv('btn_book_list','book_list','eye4','txt4')" style="text-transform:none;width:250px;"><p id="txt4"><i id="eye4" class="fas fa-eye-slash"></i> Chapters/Sidebars/Thesis </p></a></li>
+                  <li><a class="button alt fit" id="btn_author_list", onclick="showDiv('btn_author_list','author_list','eye2','txt2')" style="text-transform:none;width:250px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Authors </p></a></li>
+                  <li><a class="button alt fit" id="btn_keyword_list", onclick="showDiv('btn_keyword_list','keyword_list','eye3','txt3')" style="text-transform:none;width:250px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> Keywords </p></a></li>
+                </ul>
+                </div>
+
+                <div class="content" id="full_list" style="margin-top:-40px;">
+                <header class="align-center special">
+                  <!--p class="special">Full list of publications</p-->
+                  <h2>Full list of publications</h2>
+                </header>
+                <p class="align-center" style="margin-top:10px;"> * Click the title to get a summary of the publication </p>
+                <hr>
+                {% include full_list_publications.html %}
+
+
+							</div>
+
+              <div class="content" id="book_list" style="display:none;margin-top:-40px;">
+                <header class="align-center special">
+                  <!--p class="special">Full list of publications</p-->
+                  <h2>Publications of Book Chapters, Climate Sidebars, and Thesis/Dissertation</h2>
+                </header>
+                <p class="align-center" style="margin-top:10px;"> * Click the title to get a summary of the publication </p>
+                <hr>
+                {% include book_sidesbars_others_publications.html %}
+              </div>
+
+              <div class="content" id="author_list" style="display:none;margin-top:-40px;">
+              <header class="align-center special">
+                <h2>Publications sorted by Authors</h2>
+              </header>
+              <p class="align-center" style="margin-top:10px;"> * Click the member's name to get a list of his/her publications </p>
+              <hr>
+
+              <div class="align-justify">
+              <ul class="actions" style="text-align:center;line-height:1em;">
+                {% for entry in site.data.members %}
+                <li><a href="/member_publication/{{entry.id}}.html" style="height:40px;width:300px;"><p><i id="eye3" class="fas fa-user-check"></i> {{entry.full_name}} </p></a></li>
+                {% endfor %}
+              </ul>
+              </div>
+              </div>
+
+              <div class="content" id="keyword_list" style="display:none;margin-top:-40px;">
+              <header class="align-center special">
+                <h2>Publications sorted by Keywords</h2>
+              </header>
+              <p class="align-center" style="margin-top:10px;"> * Click the keyword to get a list of the related publications </p>
+              <hr>
+
+              <div class="align-jutify">
+              <ul class="actions" style="text-align:center;line-height:1em;">
+                {% for entry in site.data.keywords %}
+                <li><a href="/keywords/{{entry.id}}.html" class="button special small fit" style="height:40px;width:305px;" ><p><i id="eye3" class="fas fa-cloud-rain"></i> {{entry.id}} </p></a></li>
+                {% endfor %}
+              </ul>
+              </div>
+              </div>
+
+
+
+
+            </div>
+						</div>
+				</section>
+
+        <script>
+        function showDiv(btn,ctn,eye,txt) {
+          var ic = document.getElementById(eye)
+          var x = document.getElementById(ctn);
+          var property = document.getElementById(btn);
+          var str = document.getElementById(txt)
+          if (x.style.display === "none") {
+            x.style.display = "block";
+            property.style.backgroundColor = "#8a4680";
+            str.style.color = "white"
+            ic.style.color = "white"
+            ic.classList.replace('fa-eye-slash','fa-eye');
+          } else {
+            x.style.display = "none";
+            property.style.backgroundColor = "transparent";
+            str.style.color = "black"
+            ic.style.color="black"
+            ic.classList.replace('fa-eye','fa-eye-slash');
+          }
+
+
+        }
+
+
+
+
+
+        </script>

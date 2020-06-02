@@ -1,0 +1,551 @@
+- id: cd_casas2020
+  member1: Eleanor Casas
+  url1: ../research_group.html#casas
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How does C<sub>D</sub> influence TC intensification?
+  image: ../Research/img/Ellie_TC_schematic_art.png
+  description: We developed a new, simplified conceptual model that relates TC boundary layer structural quantities---the maximum tangential wind, its radius, its height, its underlying vertical gradient, and its underlying drag coefficient---to the TC’s potential for further intensification. In addition, the new conceptual model is also able to be inverted and be used to retrieve values of interest, namely the drag coefficient under the maximum tangential wind.
+  oral: https://ams.confex.com/ams/33HURRICANE/webprogram/Paper340099.html
+  poster: ../Research/poster/YSSAR_Poster_Ellie_CD.pdf
+  publication: false
+  keyword1: Drag Coefficient
+  keyword2: TC Boundary layer
+  keyword3: TC Structure
+  keyword4: TC Intensity
+  keyword5: Modeling
+  career: false
+  pecase: false
+  precip: false
+  tcri: true
+  forecast: false
+  remote: false
+
+- id: michael_cha2020
+  member1: Ting-Yu Cha
+  url1: ../research_group.html#tingyu
+  member2: Michael M. Bell
+  url2: ../research_group.html#michael
+  member3: Alex DesRosiers
+  url3: ../research_group.html#alex
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: Are the asymmetric dynamics of Hurricane Michael (2018) polygonal eyewall consistent with vortex Rossby wave (VRW) theory?
+  image: ../Research/img/cha_michael_grl2.png
+  description: While polygonal eyewall shapes have been seen in previous hurricanes, the corresponding evolution of wind asymmetries has never been quantitatively deduced due to limitations from previous observations. Here we show the first observational evidence of the evolving wind field of a polygonal eyewall during RI to Category 5 intensity by deducing the winds at 5-minute intervals from single-Doppler Next Generation Weather Radar (NEXRAD) observations. The single Doppler radar analysis shows that the propagation speeds of different VRWs are consistent with linear wave theory.
+  oral: https://cscenter.co.jp/icrm2019/program/data/abstracts/Session11B-01_1.pdf
+  poster: false
+  publication: ../pub/chagrl2020.html
+  keyword1: Asymmetric Dynamics
+  keyword2: Radar
+  keyword3: TC case study
+  keyword4: GVTD
+  keyword5: Vortex Rossby Wave
+  career: true
+  pecase: true
+  precip: false
+  tcri: true
+  forecast: false
+  remote: true
+
+- id: 2018atlantichurricaneseason_saunders2020
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: Why was the 2018 Atlantic hurricane season more active than anticipated and
+    how we can better characterize uncertainty in seasonal hurricane forecasts?
+  image: /Publications/figures/saunders_et_al_2020_Fig3.jpg
+  description: Our group at CSU collaborated with Tropical Storm Risk, based at the
+    University College-London, to investigate the 2018 Atlantic hurricane season in
+    detail. We noted that the season was more active than was anticipated by seasonal
+    forecasts issued prior to the peak of the season (e.g., before mid-August).  The
+    season was also more active than would be anticipated given long-term historical
+    relationships between large-scale conditions known to impact Atlantic hurricanes
+    during the peak of the season (August-September) and Atlantic hurricanes.  The
+    season ended up above-average for most TC parameters, despite above-normal tropical
+    Atlantic vertical wind shear, below-normal tropical Atlantic SSTs and borderline
+    weak El Niño conditions - all of which generally lead to below-average Atlantic
+    hurricane activity.  Much of the activity in 2018 occurred at higher latitudes,
+    where Atlantic seasonal TC forecasts generally have little (if any) predictability.  Our
+    study argues that probabilistic methods be used to issue Atlantic seasonal forecasts
+    in future years, in order to better account for these types of outlier seasons.
+  # Latest conference oral presentation (can either provide a PDF or a link to the agenda)
+  oral: false
+  # Latest conference poster (can either provide a PDF or a link to the agenda). If none, set it to false
+  poster: false
+  # Publication
+  publication: ../pub/saundersess2020.html
+  # Provide 5 keywords of this research
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Human societal impacts
+  keyword4: false
+  keyword5: false
+  # The funding of this research. If you are not sure, please check with Michael
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true
+- id: qbomjo_klotzbach2019
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How has the relationship between the Madden-Julian oscillation and Quasi-Biennial
+    oscillation changed going back in time?
+  image: ../Publications/figures/klotzbach_et_al_2019_scirep_Fig2.jpg
+  description: Klotzbach et al. (2019) examined the relationship between the quasi-biennial
+    oscillation (QBO) and the Madden-Julian oscillation (MJO) using long-term reconstructed
+    indices.  There have been several studies noting a strong relationship between
+    boreal winter QBO phase and MJO amplitude since the late 1970s, with an east phase
+    of the QBO associated with higher MJO amplitude.  This study finds that the relationship
+    has only become strong since the late 1970s, with no significant relationship
+    between QBO phase and MJO amplitude prior to that time.  While there is increased
+    uncertainty going back in time with both QBO and MJO indices, there is relatively
+    high confidence in these indices at least since the late 1950s.  This study argues
+    that changes in static stability associated with a cooling lower stratosphere
+    and warming upper troposphere (likely caused by climate change) may have sensitized
+    the region near the tropopause to QBO-induced changes in stability profiles.
+  oral: false
+  poster: false
+  publication: ../pub/klotzbachscirep2019.html
+  keyword1: Quasi-Biennial Oscillation
+  keyword2: Madden-Julian Oscillation
+  keyword3: Seasonal
+  keyword4: false
+  keyword5: false
+  # The funding of this research. If you are not sure, please check with Michael
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true
+- id: vmaxmslp_klotzbach2020
+  member1: Philip J. Klotzbach
+  url1: ../research_group.html#klotzbach
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How do maximum sustained wind and minimum sea level pressure relate to normalized
+    damage?
+  image: ../Publications/figures/klotzbach_et_al_2020_bams_Fig1.jpg
+  description: Atlantic hurricanes have historically been categorized using the Saffir-Simpson
+    Hurricane Wind Scale, which ranks hurricanes based on their maximum sustained
+    wind (e.g., V<sub>max</sub>).  In this study, we investigate whether V<sub>max</sub>
+    or minimum sea level pressure (MSLP) historically has worked as a better predictor
+    of continental US hurricane landfall damage.  We use the normalized hurricane
+    damage dataset from Weinkle et al. (2018) and show that MSLP (r = 0.77) has a
+    more significant correlation with damage than has V<sub>max</sub> (r = 0.66) for
+    165 continental US landfalling hurricane events since 1900 (Figure 7).  The relationship
+    has been much stronger for MSLP in recent years, where recent hurricanes like
+    Ike (2008) and Sandy (2012) have done much more damage than would have been expected
+    from their Saffir-Simpson Hurricane Wind Scale ranking.  MSLP has also been a
+    much better predictor of damage for hurricanes making landfall from Georgia to
+    Maine, where hurricanes tend to be larger and more sprawling.
+  oral: false
+  poster: false
+  publication: ../pub/klotzbachetal2020bams.html
+  keyword1: Human societal impacts
+  keyword2: TC Intensity
+  keyword3: false
+  keyword4: false
+  keyword5: false
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: true
+
+- id: meiyu_dehart2020
+  member1: Jennifer C. DeHart
+  url1: ../research_group.html#dehart
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: Mechanisms Contributing to the Heavy Rainfall Associated with a Meiyu Front
+    near Taiwan
+  image: ../Research/img/front_time_rain.png
+  description: We are analyzing a WRF simulation of a Meiyu front event near Taiwan
+    during June 2017. We objectively identify the Meiyu front through time in order
+    to test the importance of several mechanisms in heavy rainfall production.
+  oral: ../Research/oral/ams_2020_jcdehart.pdf
+  poster: false
+  publication: false
+  keyword1: PRECIP
+  keyword2: Heavy Rainfall
+  keyword3: Modeling
+  keyword4: Mesoscale
+  keyword5: Meiyu
+  career: false
+  pecase: false
+  remote: false
+  precip: true
+  tcri: false
+  forecast: false
+- id: harvey_dehart2020
+  member1: Jennifer C. DeHart
+  url1: ../research_group.html#dehart
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: A Comparison of the Polarimetric Radar Characteristics of Heavy Rainfall
+    From Hurricanes Harvey (2017) and Florence (2018)
+  image: ../Research/img/DeHart_Bell_JGR_2020_Fig9.jpg
+  description: Polarimetric coastal radar data are used to compare the rainfall characteristics
+    of Hurricanes Harvey (2017) and Florence (2018). Intense rainfall was an infrequent
+    yet important contributor to the total rainfall in Harvey, but its relative contribution
+    varied spatially. The total rainfall over land maximized near the coast over Beaumont,
+    TX due to intense convection resulting from prolonged onshore flow downshear from
+    the circulation center. Overall, polarimetric radar observations in Harvey show
+    a dominance of high concentrations of small-to-medium drops, consistent with prior
+    tropical cyclone studies. The microphysical characteristics were spatially and
+    temporally inhomogeneous however, with larger drops more frequent on 27 August
+    and higher number concentrations more frequent on 28 and 30 August. The polarimetric
+    variables and raindrop characteristics observed during Florence share broad similarities
+    to Harvey, but had reduced variability, fewer observations of stronger reflectivity
+    and differential reflectivity, and a lower frequency of high number concentrations
+    and medium-sized drops. The radar data indicate Florence had reduced coverage
+    of stronger convection compared to Harvey. We hypothesize that differences in
+    storm motion, intensity decay rates, and vertical wind shear produce the distinct
+    precipitation structures and microphysical differences seen in Harvey and Florence.
+  oral: false
+  poster: ../Research/poster/DeHart_Bell_amsradar_2019.pdf
+  publication: ../pub/dehartbelljgr2020.html # be consistent with your publication yaml id, for example: "../pub/chagrl2020.html"
+  keyword1: Heavy Rainfall
+  keyword2: Radar
+  keyword3: TC Case Study
+  keyword4: Observations
+  keyword5: Rainbands
+  career: false
+  pecase: false
+  remote: true
+  precip: true
+  tcri: false
+  forecast: false
+- id: tcprimed
+  member1: Naufal Razin
+  url1: ../research_group.html#razin
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset
+    (TC PRIMED)
+  image: ../Research/img/tcprimed.png
+  description: TC PRIMED is a comprehensive dataset of global tropical cyclone (TC)
+    satellite passive microwave observations. The central components of this dataset
+    are TC-centered 1) multi-channel microwave brightness temperatures inter-calibrated
+    across all available imagers using NASA's Global Precipitation Measurement (GPM)
+    mission's microwave imager and 2) rainfall retrieval from NASA's Goddard Profiling
+    Algorithm (GPROF). Auxiliary data include nearly coincident geostationary satellite
+    infrared imagery around the satellite overpass time, TC best-track information,
+    ECMWF ERA5 reanalysis fields and derived environmental diagnostics at each synoptic
+    time, and TRMM/GPM precipitation radar variables. This dataset includes \157,\400
+    overpasses of \1996 storms from \1998 to \2018, and will be updated annually.
+  oral: false
+  poster: ../Research/poster/CoRP_poster.png
+  publication: false
+  keyword1: Satellite
+  keyword2: Passive Microwave
+  keyword3: Infrared
+  keyword4: GPROF Precipitation Retrieval
+  keyword5: Environmental Diagnostics
+  career: false
+  pecase: false
+  remote: true
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: nam-Hagupit
+  member1: C. Chelsea Nam
+  url1: ../research_group.html#nam
+  member2: Michael Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How the wave pouch and vertical wind shear interactions play important roles in cyclongenesis in multi-scales?
+  image: ../Research/img/nam_Hagupit_indexcard.png
+  description: >
+    Tropical cyclogenesis of pre-depression Hagupit was delayed while it interacted with upper-level trough, experiencing strong VWS.
+    For the downscale cascade from the synoptic to meso-alpha scale, our analysis showed that pre-depression Hagupit was significantly affected by the strong northwesterly vertical wind shear.
+    However, Hagupit survived through the hostile, strongly sheared environment, and eventually developed into a tropical cyclone after it escaped from the influence of upper-level trough.
+    The upscale cascade from the persistent deep convection and its vorticity amplification through vortex tube stretching was a key process that enabled the pouch to persist even under 20 m/s VWS.
+    We highlight the roles of localized low-level shear and cumulus congestus clouds inside the wave pouch as the localized vertical vorticity generated from the convective cells is aggregated through a vortex merger process inside the marsupial pouch.
+  oral: false
+  poster: ../Research/poster/poster_ams_tropical2018_nam.pdf
+  publication: ../pub/nammwr2020.html
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: Multi-scale interaction
+  keyword4: Radar
+  keyword5: TC case study
+  career: true
+  pecase: true
+  remote: false
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: ophelia2005
+  member1: Naufal Razin
+  url1: ../research_group.html#razin
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia (2005)
+  image: ../Research/img/Ophelia_index.png
+  description: Using flight-level and airborne radar data, Hurricane Ophelia was shown to have undergone an unconventional eyewall replacement cycle (ERC). Ophelia\'s ERC was unconventional because it occurred while the storm was at Category \1 intensity and located over anomalously cold sea surface temperatures. Airborne radar analyses showed that the expansion of Ophelia\'s wind field associated with the ERC occurred in the dominantly stratiform rainbands, indicating that the stratiform kinematics in Ophelia's rainbands played a dominant role in Ophelia's ERC.
+  oral: https://ams.confex.com/ams/33HURRICANE/webprogram/Paper339795.html
+  poster: false
+  publication: false
+  keyword1: Eyewall replacement cycle
+  keyword2: Stratiform rainband
+  keyword3: TC case study
+  keyword4: Observations
+  keyword5: Radar
+  career: true
+  pecase: false
+  remote: false
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: cha-matthew
+  member1: Ting-Yu Cha
+  url1: ../research_group.html#cha
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: Alex DesRosiers
+  url3: ../research_group.html#alex
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How do the asymmetric processes impact Hurricane Matthew's (2016) Eyewall replacement cycle?
+  image: ../Research/img/cha_matthew.png
+  description: Hurricane Matthew was observed by the NEXRAD KAMX, KMLB, and KJAX polarimetric radars and NOAA P-3 airborne radar when it approached the southeastern United States during an ERC event. The radar observations indicate that Matthew's primary eyewall was replaced with a weaker outer eyewall, but unlike a classic ERC, Matthew did not reintensify after the inner eyewall disappeared. The single-Doppler analyses indicate that the inner eyewall decayed a few hours after the P-3 flight, while the outer eyewall contracted but did not reintensify and the asymmetries increased episodically. The analysis suggests that the resilient outer eyewall was influenced by both environmental vertical wind shear and an internal vortex Rossby wave damping mechanism during the ERC evolution.
+  oral: https://ams.confex.com/ams/33HURRICANE/webprogram/Paper339873.html
+  poster: false
+  publication: false
+  keyword1: Eyewall replacement cycle
+  keyword2: Vortex Rossby Wave
+  keyword3: TC case study
+  keyword4: GVTD
+  keyword5: Radar
+  career: true
+  pecase: false
+  remote: true
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: nam-Bifurcation
+  member1: C. Chelsea Nam
+  url1: ../research_group.html#nam
+  member2: Dandan Tao
+  url2: ../research_group.html#tao
+  member3: Michael M. Bell
+  url3: ../research_group.html#bell
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: What separates developing and nondeveloping disturbances?
+  image: ../Research/img/nam_Bifurcation_indexcard.png
+  description: >
+    To be, or not to be, that is the question of tropical cyclogenesis. Only about 15-20 % of African Easterly Waves develop into tropical cyclones (TCs).
+    A WRF ensemble was created with multiple TC simulations spanning the relevant parameter space for three variables; 1) the VWS magnitude, 2) the environmental humidity, and 3) the initial vortex intensity.
+    Unmeasurable random perturbations result in widely diverging scenarios in TC genesis in moderately sheared and dry environments.
+    Here we hypothesize that the combination of moderate shear and dry air makes an unstable condition for a vortex to intensify or decay, which implifies that TC genesis in such environments may be intrinsically unpredictable in deterministic sense.
+    We are currently looking at the link between the deep convection and the realignment of mid-level and low-level vortices comparing the developing and non-developing ensemble members.
+  oral: https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/585217
+  poster: false
+  publication: false
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: Modeling
+  keyword4: TC Structure
+  keyword5: Mesoscale
+  career: true
+  pecase: true
+  remote: false
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: Martinez_etal_2020JGR
+  member1: Jonathan Martinez
+  url1: ../research_group.html#martinez
+  member2: C. Chelsea Nam
+  url2: ../research_group.html#nam
+  member3: Michael M. Bell
+  url3: ../research_group.html#bell
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: On the contributions of incipient vortex circulation and environmental moisture to tropical cyclone expansion
+  image: ../Research/img/Martinez_etal_2020JGR_Figure7.png
+  description: >
+    Idealized numerical simulations of tropical cyclones are created to investigate the relative contributions of incipient vortex circulation and environmental moisture to tropical cyclone expansion. The principal findings demonstrate that an initially large vortex can expand more quickly than its relatively smaller counterpart. Increasing the environmental moisture further promotes expansion but mostly expedites the intensification process. Differences in the amount and scale of outer-core convection are associated with varying the incipient vortex circulation, resulting in variable expansion rates. Note: This project was also funded by the National Science Foundation Bridge to the Doctorate Fellowship Award 004863-00003.
+  oral: false
+  poster: ../Research/poster/Martinez_etal_2020AMS_poster.pdf
+  publication: false
+  keyword1: TC expansion
+  keyword2: TC structure
+  keyword3: Modeling
+  keyword4: Outer-core convection
+  keyword5: Angular momentum convergence
+  career: true
+  pecase: false
+  remote: false
+  precip: false
+  tcri: true
+  forecast: false
+
+- id: Martinez_and_Bell_2020
+  member1: Jonathan Martinez
+  url1: ../research_group.html#martinez
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: On the nature and evolution of asymmetric structures during tropical cyclone rapid intensification
+  image: ../Research/img/asymmetric_full_structures_late_RI_z1km.png
+  description: >
+    Do asymmetries facilitate or interfere with tropical cyclone (TC) intensification? An idealized, high-resolution simulation of a rapidly intensifying TC is examined to assess asymmetric contributions to the intensification process. Scale-dependent contributions to the azimuthal-mean PV tendency reveal positive contributions from asymmetries that vary throughout the intensification period. Note: This project was also funded by the National Science Foundation Bridge to the Doctorate Fellowship Award 004863-00003.
+  oral: false
+  poster: ../Research/poster/Martinez_and_Bell_2020AMS_poster.pdf
+  publication: false
+  keyword1: TC intensification
+  keyword2: Axisymmetric dynamics
+  keyword3: Asymmetric dynamics
+  keyword4: Modeling
+  keyword5: Potential vorticity
+  career: false
+  pecase: false
+  remote: false
+  precip: false
+  tcri: true
+  forecast: false
+
+- id: nam-EasterlyWave
+  member1: C. Chelsea Nam
+  url1: ../research_group.html#nam
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: How do the precursor waves develop prior to Tropical Cyclogenesis?
+  image: ../Research/img/nam_EasterlyWave_indexcard.png
+  description: >
+    PISTON 2018 saw enhanced seasonal vorticity anomaly over western North Pacific that supports easterly wave propagation.
+    Invest98 was an interesting cast that the disturbance was intensifying after spinning up from Super Typhoon Jebi's rainband.
+    Invest98 produced more than 200mm rain over our shipborne Sea-Pol radar. Convective systems ranging from isolated to linearly organized MCS.
+    With this case study, we aim to learn more about the multi-scale TC genesis problem, bridging the gap between large-scale wave mode and meso-scale convection.
+  oral: ../Research/oral/PISTON-workshop_Nam.pdf
+  poster: false
+  publication: false
+  keyword1: Genesis
+  keyword2: Multi-scale interaction
+  keyword3: Observations
+  keyword4: Radar
+  keyword5: Theory
+  career: false
+  pecase: true
+  remote: false
+  precip: false
+  tcri: false
+  forecast: false
+
+- id: cha-GVTD
+  member1: Ting-Yu Cha
+  url1: ../research_group.html#cha
+  member2: Michael M. Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: What are the pros and cons of using single Doppler radar technique (GVTD) and pseudo-dual Doppler airborne retrievals for studying advantages and disadvantages of each technique for studying tropical cyclone structure?
+  image: ../Research/img/cha_radartechnique.png
+  description: >
+    In this study, a comparison between the two techniques shows that the axisymmetric tangential winds are generally comparable between the two techniques after the improvements to Generalized Velocity Track Display (GVTD) retrievals. Fourier decomposition of asymmetric kinematic and convective structure shows more discrepancies due to spatial and temporal aliasing in the retrievals. Complementary information can be retrieved from both single and multiple Doppler retrievals.
+  oral: false
+  poster: ../Research/poster/Cha_radartechnique.pdf
+  publication: false
+  keyword1: Radar
+  keyword2: Observations
+  keyword3: GVTD
+  keyword4: Asymmetric Dynamics
+  keyword5: false
+  career: false
+  pecase: false
+  remote: true
+  precip: false
+  tcri: false
+  forecast: false

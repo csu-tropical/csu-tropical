@@ -1,0 +1,154 @@
+---
+layout: default_withdata
+title: CSU Tropical Research Publications
+---
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+</head>
+<html>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
+
+<style>
+.box header h2 {
+                        margin-bottom: 2rem;
+                }
+
+.special header h2 + p {
+								                font-size: 1.25rem;
+								                margin-top: -15rem;
+								        }
+.button-space{
+	border-radius: 3px 3px 3px 3px;
+	line-height: 5rem;}
+
+.align-justify {
+    text-align: justify;
+          }
+
+.container_fig{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.select-wrapper {
+                text-decoration: none;
+                display: block;
+                position: absolute;
+								left: 1000px;
+        }
+
+div.ex3 {
+
+          height: 670px;
+          overflow: auto;
+        }
+
+</style>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Colorado State University</p>
+						<h2>Refereed Publications</h2>
+					</header>
+				</div>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="wrapper style2">
+					<div class="inner">
+						<div class="box">
+							<div class="content">
+                <!--ul>
+                  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                </ul-->
+                  <h3>{{ page.authors}}, {{item.year}}: {{ page.title }}. <i>{{ page.journal }}</i>, {% if page.others != false %}{{ page.others }}{% endif %} {% if page.doi != false %}, <a href="{{ page.doi }}" target="_blank"> {{ page.doi }}</a> {% endif %}</h3>
+                  <p class="align-justify">
+                    <li style="margin-botton: 10px;"> {{ page.keypoint1}}</li>
+                  {% if page.keypoint2 != false %}<li style="margin-botton: 10px;"> {{ page.keypoint2}}</li> {% endif %}
+                  {% if page.keypoint3 != false %}<li style="margin-botton: 10px;"> {{ page.keypoint3}}</li> {% endif %}
+                  </p>
+
+                  <hr>
+
+                  <div class="row">
+                    <div class="6u 12u$(medium) ex3">
+                    {% if page.summary != false %}
+                    <center> <h3>Plain Language Summary</h3> </center>
+                    <center>
+                    <p class="align-justify">
+                      {{ page.summary }}
+                    </p>
+                    </center>
+                    {% endif %}
+
+                    <center> <h3>Abstract</h3> </center>
+                    {% if page.abstract != false %}
+                      <center>
+                      <p class="align-justify">
+                        {{ page.abstract }}
+                      </p>
+                      {% else %}
+                      <p class="align-justify">
+                        No abstract.
+                      </p>
+                      </center>
+                      {% endif %}
+                    </div>
+                    <div class="6u$ 12u$(medium) ex3">
+                    <center> <h3>Key Figure</h3> </center>
+                      <center>
+                      <p class="image fit" style="width:85%">
+                      <a href="#"><img src="{{ page.image }}" alt="Key Figure" /></a>  </p>
+                      </center>
+
+                      <center>
+                      <p class="align-justify">
+                        {{ page.caption }}
+                      </p>
+
+                      <center> <h3>Acknowledgments</h3> </center>
+                      <p class="align-justify">
+                        {{ page.acknowledgement }}
+                      </p>
+
+                      <ul class="actions fit align-center button-space">
+                        {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit"> <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
+                        {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit"> <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
+                      </ul>
+                      </center>
+
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <div class="12u$ 12u$(medium)">
+                  <ul class="actions fit">
+                    {% for entry in site.data.keywords %}{% if page.keyword1 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special small fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword1 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.keywords %}{% if page.keyword2 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special small fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword2 }}</a></li>{% endif %}{% endfor %}
+                    {% for entry in site.data.keywords %}{% if page.keyword3 == entry.id%}<li><a href="../keywords/{{entry.id}}" class="button special small fit"><i class="fas fa-cloud-rain"></i> {{ page.keyword3 }}</a></li>{% endif %}{% endfor %}
+                  </ul>
+                </div>
+                <div>
+                <ul class="actions fit">
+                  <center><li><a href="../publication.html" class="button small fit"><i class="fas fa-step-backward"></i> Go back to Publication page</a></li></center>
+                </ul>
+                </div>
+
+							</div>
+						</div>
+					</div>
+				</section>

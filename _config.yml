@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: CSU Tropical Weather & Climate Research
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Tropical Weather and Climate Research Group in the Department of Atmospheric
+Science at Colorado State Univiersity"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -32,6 +30,55 @@ github_username:  jekyll
 # Build settings
 plugins:
   - jekyll-feed
+
+
+markdown: kramdown
+
+# News post settings
+excerpt_separator: <!--more-->
+
+collections:
+  category:
+    output: true
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'members'
+    template: 'member_publication'
+    name: 'id'
+    dir: 'member_publication'
+  - data: 'members'
+    template: 'member_research'
+    name: 'id'
+    dir: 'member_research'
+  - data: 'list_long'
+    template: 'pubpage'
+    name: 'id'
+    dir: 'pub'
+  - data: 'research_projects'
+    template: 'projects'
+    name: 'id'
+    dir: 'projects'
+  - data: 'keywords'
+    template: 'keywords'
+    name: 'id'
+    dir: 'keywords'
+  - data: 'keywords'
+    template: 'keywords_projects'
+    name: 'id'
+    dir: 'keywords_projects'
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

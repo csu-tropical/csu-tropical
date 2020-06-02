@@ -1,0 +1,232 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<style>
+div.innerbox {
+  border-style: solid;
+  border-color: gray;
+}
+sup {
+  font-size: x-small;
+}
+</style>
+</head>
+
+<div class="innerbox" style="margin-bottom:-50px">
+<div class="content"  style="margin-bottom:-50px">
+  <header class="align-center" style="margin-top:-20px;margin-bottom:50px">
+    <p style="font-size:xxsmall">Verifications of CSU’s seasonal hurricane forecasts</p>
+    <h3 style="color:gray">Forecast Verification</h3>
+  </header>
+
+  <figure class="center" style="width:900px">
+    <img src="/images/forecast/verification_ACE.png" alt="verification ACE" style="width:440px"/>
+    <img src="/images/forecast/verification_NS.png" alt="verification NS" style="width:440px"/>
+  </figure>
+
+  <h3 class="align-center" style="margin-top:80px">CSU seasonal hurricane forecast (released in early April, June and August)<br>
+     against the observed value each year</h3>
+
+  <div class="align-center" style="margin-top:80px;margin-bottom:-50px">
+    <p style="text-transform:uppercase;margin-bottom:5px">Tropical Cyclone Metric: </p>
+  <ul class="actions" style="text-align:center;line-height:1em;margin-bottom:-10px">
+    <li><a href="#NS" class="button fit small special" id="btn_NS", onclick="showDiv('btn_NS','NS','eye_v1','txt_v1')" style="box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);"><p id="txt_v1"><i id="eye_v1" class="fas fa-eye"></i> Named Storms</p></a></li>
+    <li><a href="#NSD" class="button fit small alt" id="btn_NSD", onclick="showDiv('btn_NSD','NSD','eye_v2','txt_v2')"><p id="txt_v2"><i id="eye_v2" class="fas fa-eye-slash"></i> Named Storm Days</p></a></li>
+    <li><a href="#H" class="button fit small alt" id="btn_H", onclick="showDiv('btn_H','H','eye_v3','txt_v3')"><p id="txt_v3"><i id="eye_v3" class="fas fa-eye-slash"></i> Hurricane</p></a></li>
+    <li><a href="#HD" class="button fit small alt" id="btn_HD", onclick="showDiv('btn_HD','HD','eye_v4','txt_v4')"><p id="txt_v4"><i id="eye_v4" class="fas fa-eye-slash"></i> Hurricane Days</p></a></li><br>
+    <li><a href="#MH" class="button fit small alt" id="btn_MH", onclick="showDiv('btn_MH','MH','eye_v5','txt_v5')"><p id="txt_v5"><i id="eye_v5" class="fas fa-eye-slash"></i> Major Hurricanes</p></a></li>
+    <li><a href="#MHD" class="button fit small alt" id="btn_MHD", onclick="showDiv('btn_MHD','MHD','eye_v6','txt_v6')"><p id="txt_v6"><i id="eye_v6" class="fas fa-eye-slash"></i> Major Hurricane Days</p></a></li>
+    <li><a href="#ACE" class="button fit small alt" id="btn_ACE", onclick="showDiv('btn_ACE','ACE','eye_v7','txt_v7')"><p id="txt_v7"><i id="eye_v7" class="fas fa-eye-slash"></i> Accumulated Cyclone Energy</p></a></li>
+    <br><br>
+    <li><a href="/Forecast/downloadable/CSU_Forecast_Verifications(198402019).xlsx" class="button fit" style="text-transform:none;"><i class="fas fa-file-download"></i> Download Data for All Metrics (.xlsx)</a></li>
+  </ul>
+  <hr>
+  </div>
+
+
+  <!-- Table NS -->
+  <div class="content" id="NS" style="margin-bottom:-50px;">
+    <h4 class="align-center">The number of <b>Named Storms</b> in each Atlantic hurricane season</h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+  <div class="table-wrapper" style="height:400px;overflow:auto;">
+    <table id="NS_table">
+      <thead>
+        <tr>
+          <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NS_table',0)" class="fas fa-sort-down"></i></a></th>
+          <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NS_table',1)" class="fas fa-sort-down"></i></a></th>
+          <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NS_table',2)" class="fas fa-sort-down"></i></a></th>
+          <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NS_table',3)" class="fas fa-sort-down"></i></a></th>
+          <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NS_table',4)" class="fas fa-sort-down"></i></a></th>
+        </tr>
+      </thead>
+
+      {% for row in site.data.forecasting.verification.verify_NS %}
+        {% tablerow pair in row %}
+          {{ pair[1] }}
+        {% endtablerow %}
+      {% endfor %}
+    </table>
+  </div>
+  <hr>
+</div>
+
+<!-- Table NSD -->
+<div class="content" id="NSD" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center">The number of <b>Named Storm Days</b> in each Atlantic hurricane season</h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="NSD_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NSD_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NSD_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NSD_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NSD_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('NSD_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_NSD %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+<!-- Table H -->
+<div class="content" id="H" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center">The number of <b>Hurricanes</b> in each Atlantic hurricane season</h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="H_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('H_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('H_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('H_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('H_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('H_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_H %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+<!-- Table HD -->
+<div class="content" id="HD" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center">The number of <b>Hurricanes Days</b> in each Atlantic hurricane season</h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="HD_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('HD_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('HD_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('HD_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('HD_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('HD_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_HD %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+<!-- Table MH -->
+<div class="content" id="MH" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center">The number of <b>Major Hurricanes</b> in each Atlantic hurricane season</h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="MH_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MH_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MH_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MH_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MH_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MH_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_MH %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+<!-- Table MHD -->
+<div class="content" id="MHD" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center">The number of <b>Major Hurricanes Days</b> in each Atlantic hurricane season</h4>
+    <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="MHD_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MHD_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MHD_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MHD_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MHD_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('MHD_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_MHD %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+<!-- Table ACE -->
+<div class="content" id="ACE" style="margin-bottom:-40px;display:none;">
+  <h4 class="align-center"><b>Accumulated Cyclone Energy</b> index (in 10<sup>4</sup> knots<sup>2</sup>) in each Atlantic hurricane season</h4>
+  <p class="align-center" style="color:black">All columns are sortable - click (<i class="fas fa-sort-down" style="font-size:30px;color:#8a4680"></i>) </p>
+<div class="table-wrapper" style="height:400px;overflow:auto;">
+  <table id="ACE_table">
+    <thead>
+      <tr>
+        <th>Year <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('ACE_table',0)" class="fas fa-sort-down"></i></a></th>
+        <th>April <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('ACE_table',1)" class="fas fa-sort-down"></i></a></th>
+        <th>June <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('ACE_table',2)" class="fas fa-sort-down"></i></a></th>
+        <th>August <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('ACE_table',3)" class="fas fa-sort-down"></i></a></th>
+        <th>Observed <a style="cursor:pointer;font-size:30px"><i onclick="sortTable('ACE_table',4)" class="fas fa-sort-down"></i></a></th>
+      </tr>
+    </thead>
+
+    {% for row in site.data.forecasting.verification.verify_ACE %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+</div>
+
+
+</div>
+</div>
+</html>
