@@ -80,11 +80,13 @@ div.ex3 {
                 <hr>
 
                 {% assign chronological_order = site.data.list_long | sort: "year" %}
+                {% assign counter = 0 %}
                 {% for entry in chronological_order reversed%}
                 {% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id%}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
                 </ul>
+                {% assign counter = 1 %}
                 {% endif %}
                 {% endfor %}
                 {% if page.id == "klotzbach" %}
@@ -92,6 +94,10 @@ div.ex3 {
                 {% endif %}
                 {% if page.id == "bell" %}
                 {% include bell_2003-2018.html %}
+                {% endif %}
+
+                {% if counter == 0 %}
+                <center><h4> <i class="fas fa-bullhorn"></i> Stay tuned for {{page.full_name}}'s exciting research <i class="fas fa-bullhorn"></i> </h4></center>
                 {% endif %}
                 <div>
                 <ul class="actions fit">
