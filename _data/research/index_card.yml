@@ -549,3 +549,36 @@
   precip: false
   tcri: false
   forecast: false
+
+- id: nam-RainRisk
+  member1: C. Chelsea Nam
+  url1: ../research_group.html#nam
+  member2: Michael Bell
+  url2: ../research_group.html#bell
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title: What is the most decisive factors for Typhoon Risk in South Korea and how will that change with climate chage?
+  image: ../Research/img/nam_risk_indexcard.png
+  description: >
+    In tropical cyclone (TC) risk assessment, many of previous studies have attempted to construct the statistical relationship of TC damage and TC intensity.
+    This study shows that, in a decision tree analysis for TCs that made landfall in South Korea during 1979–2014, impact angle and extratropical transition (ET) are the most important factors to decide whether the TC risk to be activated as a catastrophe or to stay in the potential status.
+    Our findings reaffirm that risk communication should focus more on the local hazards that residents in different areas actually experience (e.g. rainfall) rather than one representative intensify (e.g. central wind intensity) that is concentrated on the inner-core of a TC.
+    We are currently collaborating with Dr. Doo-Sun R. Park (https://sites.google.com/view/dsrpark/) to examine how the TC risk, in particular heavy rainfall caused by TCs, would change with global warming.
+  oral: https://ams.confex.com/ams/33HURRICANE/webprogram/Paper340246.html
+  poster: false
+  publication: https://www.nat-hazards-earth-syst-sci.net/18/3225/2018/
+  keyword1: Human societal impacts
+  keyword2: Machine Learning
+  keyword3: Heavy Rainfall
+  keyword4: Extratropical transition
+  keyword5: Climate Change
+  career: false
+  pecase: false
+  remote: false
+  precip: true
+  tcri: false
+  forecast: true
