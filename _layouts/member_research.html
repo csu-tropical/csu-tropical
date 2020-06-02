@@ -74,12 +74,17 @@ div.ex3 {
 								</header>
                 <center style="margin-top:10px;"><a href="../member_publication/{{page.id}}"><i>Check {{page.full_name}}'s Publication List</i>  <i class="far fa-smile"></i></a></center>
                 <hr>
-
+                {% assign counter = 0 %}
                 {% for entry in site.data.research.index_card %}
-                {% if entry.member1 == page.full_name or entry.member2 == page.full_name or entry.member3 == page.full_name or entry.member4 == page.full_name or entry.member5 == page.full_name%}
+                {% if entry.member1 == page.full_name or entry.member2 == page.full_name or entry.member3 == page.full_name or entry.member4 == page.full_name or entry.member5 == page.full_name %}
+                {% assign counter = 1 %}
                 {% include index_card.html %}
-                  {% endif %}
+                {% endif %}
                 {% endfor %}
+
+                {% if counter == 0 %}
+                <center><h4><i class="fas fa-bullhorn"></i> Stay tuned for {{page.full_name}}'s exciting research <i class="fas fa-bullhorn"></i> </h4></center>
+                {% endif %}
                 <div>
                 <ul class="actions fit">
                   <center><li><a href="../research.html" class="button small fit"><i class="fas fa-step-backward"></i> Go back to Research page</a></li></center>
