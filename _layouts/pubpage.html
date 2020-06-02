@@ -127,6 +127,9 @@ div.ex3 {
                         {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit"> <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
                         {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit"> <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
                       </ul>
+
+                      {% if page.pdf == false%}<h3 class="align-center">In Review. Stay tuned for updates 🤞</h3>{% endif %}
+
                       </center>
 
                     </div>

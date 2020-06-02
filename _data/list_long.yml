@@ -766,7 +766,7 @@
   author2: bell
   authors: DeHart, J. C., M. M. Bell
   journal: Journal of Geophysical Research - Atmospheres
-  others: early online release
+  others: in press
   doi: https://doi.org/10.1029/2019JD032212
   keypoint1: Rain drop size distributions in Harvey and Florence were broadly similar
     to other tropical cyclones
@@ -1050,8 +1050,8 @@
     2020.
   acknowledgement: Supported by National Science Foundation awards AGS-1701225 and
     OAC-1661663, and Office of Naval Research awards N000141613033 and N000142012069.
-  bibtex: ../Publications/bibtex/Cha_et_al_GRL_2020.tex
-  pdf: ../Publications/papers/Cha_et_al_GRL_2020.pdf
+  bibtex: false
+  pdf: false
   keyword1: Asymmetric Dynamics
   keyword2: Radar
   keyword3: TC case study
