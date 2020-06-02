@@ -1,0 +1,25 @@
+- id:
+  year:   # No need '' or " "
+  title:
+  author1:
+  author2:
+  author3:
+  authors:
+  journal:
+  others: # In review, submitted, in press, or [volume,pages etc.]
+  doi:
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract:
+  summary:
+  image: ../Publications/figures/[FIGURENAME] ### Image file can only be .png or .jpg. NO PDF format!
+  caption:
+  acknowledgement:
+  bibtex: ../Publications/bibtex/[BIBTEX.bib]
+  pdf: ../Publications/papers/[FILE.pdf]
+  keyword1:
+  keyword2:
+  keyword3:
+
+# If any content doesn't exit, put false!
