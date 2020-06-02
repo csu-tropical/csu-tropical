@@ -69,17 +69,6 @@ page_gen:
     name: 'id'
     dir: 'keywords_projects'
 
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
-
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
