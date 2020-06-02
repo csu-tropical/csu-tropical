@@ -18,32 +18,27 @@
 		/* The Modal (background) */
 		.modal {
 		  display: block; /* Hidden by default */
-		  position: fixed; /* Stay in place */
-		  z-index: 4; /* Sit on top */
-			padding-top: 150px;
+		  position: relative; /* Stay in place */
+		  z-index: 1; /* Sit on top */
+			padding-top: 0px;
 		  left: 0;
 		  top: 0;
-		  width: 100%; /* Full width */
-		  height: 100%; /* Full height */
-		  overflow: auto; /* Enable scroll if needed */
-		  background-color: black;
-		  background-color: rgb(0,0,0); /* Fallback color */
-		  background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
+
 		}
 
 		/* Modal Content */
 		.modal-content {
 		  position: relative;
 		  background-color: #fefefe;
-		  margin: auto;
+		  margin: 0;
 		  padding: 0;
 		  border: 1px solid black;
-		  width: 50%;
+		  width: 100%;
 		  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 		}
 
 		.modal-header {
-		  padding: 10px 30px;
+		  padding: 2px 30px;
 		  background-color: #8a4680;
 		  color: white;
 		  text-align: center;
@@ -52,6 +47,7 @@
 		.modal-body {
 		  padding: 2px 30px;
 		  font-size: 16px;
+			font-weight: bolder;
 		}
 
 		/* The Close Button */
@@ -74,10 +70,10 @@
 							}
 
 	.grid-container {
-						display: grid;
-						grid-template-columns: auto auto;
-						grid-gap: 15px;
-						padding: -50px;
+								display: grid;
+								grid-template-columns: auto auto;
+								grid-gap: 15px;
+								padding: -50px;
 
 					}
 
@@ -191,13 +187,12 @@
 				<span class="image center"><img src="/images/logo/CSU-Ram-Rev.png" alt="CSU logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
 				<span class="image center"><img src="/images/logo/BellTClogo.png" alt="Team logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
 
-				<div style="padding: 20px 0;display:none">
+				<div style="padding: 20px 0;display:block">
 				<h4><b> Acknowledgement </b></h4>
-					<ul class="align-left">
-					<li>Website developed by <a href="/research_group.html#nam">Chelsea Nam</a>, <a href="/research_group.html#cha">Ting-Yu Cha</a>, and <a href="/research_group.html#bell">Michael Bell</a> based on <a href="https://templated.co/hielo" target="_blank">hielo template.</a></li>
-					<li>Design by <a href="/research_group.html#casas">Ellie Casas</a>, <a href="/research_group.html#cha">Ting-Yu Cha</a>, <a href="/research_group.html#nam">Chelsea Nam</a> and <a href="/research_group.html#young">Kate Young</a>.</li>
-					<li>Cotents provided by <a href="/research_group.html#klotzbach">Phil Klotzbach</a>, <a href="/research_group.html#bell">Michael Bell</a>, <a href="/research_group.html#young">Kate Young</a> and all the other CSU tropical research team members.</li>
-					</ul>
+					<p>Website design and development by <a href="/research_group.html#nam">Chelsea Nam</a>, <a href="/research_group.html#cha">Ting-Yu Cha</a>,
+						<a href="/research_group.html#casas">Ellie Casas</a>, <a href="/research_group.html#klotzbach">Phil Klotzbach</a>, <a href="/research_group.html#young">Kate Young</a>,
+						and <a href="/research_group.html#bell">Michael Bell</a> based on the <a href="https://templated.co/hielo" target="_blank">hielo template.</a></p>
+
 			  </div>
 
 				</div>
