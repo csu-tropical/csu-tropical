@@ -1,0 +1,30 @@
+- id:
+  member1:
+  url1: ../research_group.html#[member]
+  member2:
+  url2: ../research_group.html#[member]
+  member3: false
+  url3: false
+  member4: false
+  url4: false
+  member5: false
+  url5: false
+  title:
+  image: ../Research/img/[figure] # can only be either jpg or png format
+  description:
+  oral: ../Research/oral/[oral] # can remove the directory if you provide the html
+  poster: ../Research/poster/[poster] # can remove the directory if you provide the html
+  publication: false # be consistent with your publication yaml id, for example: "../pub/chagrl2020.html"
+  keyword1:
+  keyword2:
+  keyword3:
+  keyword4:
+  keyword5:
+  career:
+  pecase:
+  remote:
+  precip:
+  tcri:
+  forecast:
+
+# If any content doesn't exit, put false!
