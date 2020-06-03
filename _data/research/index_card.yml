@@ -284,8 +284,8 @@
     Algorithm (GPROF). Auxiliary data include nearly coincident geostationary satellite
     infrared imagery around the satellite overpass time, TC best-track information,
     ECMWF ERA5 reanalysis fields and derived environmental diagnostics at each synoptic
-    time, and TRMM/GPM precipitation radar variables. This dataset includes \157,\400
-    overpasses of \1996 storms from \1998 to \2018, and will be updated annually.
+    time, and TRMM/GPM precipitation radar variables. This dataset includes 157,400
+    overpasses of 1996 storms from 1998 to 2018, and will be updated annually.
   oral: false
   poster: ../Research/poster/CoRP_poster.png
   publication: false
