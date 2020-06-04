@@ -17,7 +17,7 @@ For more information on the NCAR/UCAR Advanced Study Program : <https://asp.ucar
 
 <img src="/images/news/3.24.20_Martinez_NCAR_postdoc3.jpg"
      alt="news image"
-     style="float: left; margin: 20px; width: 450px" />
+     style="float: left; margin: 20px; width: 350px" />
 
 “This is a very selective program, and this honor is a testament to all of Jon’s hard work during his Ph.D.,” said Associate Professor Michael Bell, Martinez’s adviser.
 
