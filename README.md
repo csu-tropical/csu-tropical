@@ -48,6 +48,77 @@ This page automatically generates the list of the news posts reading the *_post*
 7. Check both of the news post and the news list to make sure everything looks good.
 
 
+## 3. Team Member: /research_group.html
+
+### structure of Team Member page
+- Using “group” layout (/_layout/group.html): Group layout is based on the default layout but it contains the CSS elements specific to thumbnails and the group photo slider. 
+- Big chunks:
+     - The first thing below the header is the photo slider for the group photos. You display the most recent three group photos there.
+     - The second section is the thumbnails, clickable by viewers and it directs them to each member’s bio section.
+     - The third and last section is the bio section.
+
+### You have a new group photo to add
+1. Make the new photo 16:9 ratio (important! Otherwise, the photo slider ratio will go very ugly)
+2. Add the image file (.jpg or .png) onto /Group folder
+3. Go to line #32 OR <div class=”slideshow-container”> 
+4. Replace the oldest one with the second oldest one (the third one is deleted and the second one replaces the third one), and replace the second one with the first one.
+5. Now put the information of the figure in the first one. 
+6. Change the red underlined section with the name of the new image file.
+7. Change the caption accordingly.
+8. You may want to replace the group photo on the home page banner as well. Go to index.html to make that change.
+
+### Add a new member
+1. Let the member provide the yaml file (you can find the sample yaml file in /_data/member/PI/michael.yml) and a head-shot profile
+     - The head-shot profile photo has to be square, if not the ratio will look awkward.
+     -  For the items in the yaml file: 
+          - id is your surname with small letters
+          - If you don’t have webpage or other contacts then put “webpage: false” 
+          - Bio should be 5-7 sentence long, otherwise the layout of the team member webpage could go off.
+2. Add the headshot photo in the /Group folder.
+3. Place the yaml file in one of /RA, /RS,/students folders. RA is for Research Associate, and RS is for Research Scientist.
+4. So, this is the most tricky part! Thumbnail!
+     - The thumbnail is in the alphabetical order of surnames once it’s sorted out by the job titles.
+     - Each image takes 1/12 of the space. 
+     - For now, I put the blank image for the first slot, and you mark the end of the row with <div class=”1u$>
+     - So, copy the four lines of code starting from <div class=”1u”> OR <div class=”1u$”> and replace the image and the figure caption.
+     - Be sure to check if the final layout is looking good and center-aligned.
+
+### Move a member to alumni section
+1. Move the yaml file for the member to /_data/member/alumni folder. 
+2. Add time, thesis and job tag referring to the other yaml files in the folder.
+3. Delete the person from the thumbnail section
+     - Delete the four lines of code starting from <div class=”1u”> OR <div class=”1u$”> for that member.
+     - If that person’s thumbnail was on the first row, you’d want to move one person in the second row to the first row. 
+     - Each image takes 1/12 of the space. 
+     - For now, I put the blank image for the first slot, and you mark the end of the row with <div class=”1u$>
+     - Be sure to check if the final thumbnail layout is looking good and center-aligned.
+
+### Update a member’s info
+- Update the person’s yaml file in _data/member folder
+- If needed, update the figure caption of the thumbnail photos
+- Replace the headshot image with a new file (it will transfer smoothly if you keep the same name for the image file)
+
+## 4. Forecasting: /forecasting.html
+
+### Add new seasonal forecast released
+1. Add the pdf file to /Forecast/
+2. Go to _data/archive/2020s.yml and add the name of the pdf file there.
+3. Write a news item for the new forecast
+4. Change the Pop-up box accordingly (go to Home page documentation)
+5. Change the current.yml file in _data/forecasting directory with the number form the current forecast
+6. Change the paragraphs below the current forecast table accordingly.
+7. Make sure you turn off the forecast pop-up box sometime later
+
+### ARCHIVE (/archive.html): Update the data
+- Update AMO index in  _data/forecasting/csu_amo.csv
+- Update Verification data in _data/forecasting/verification. The files are sorted by each TC parameter in separate .csv
+- Update TC stat data in _data/forecasting/stat folder. The files are sorted by basins named as archive_NA.csv, archive_WNP.csv etc
+
+### RESOURCES (/resources.html): 
+- Add new CSU resources: go to /_include/CSU_resources.html to add new stuff
+- Add new external resources link: go to /_inlcue/external_resources.html to change the link or add a new link
+- Add FAQ item: go to /_include/faq.html 
+
 
 ## 5. Publication: publication.html
 
