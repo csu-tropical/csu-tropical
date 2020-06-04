@@ -1,5 +1,5 @@
 # Documentation for the tropical website maintainance
-url: tropical.colostate.edu AND bell.atmos.colostate.edu
+[link to the website](tropical.colostate.edu)
 
 ### Research and Publication documented by Ting-Yu Cha 06/02/2020
 
@@ -69,7 +69,7 @@ All the research and publication blank and example files can be found in the exa
 Yaml files are case sensitive, so make sure the keywords in research index card and publication are consistent with the keywords.yml
 If there is a colon (:) in the parameter, make sure to add > , and press enter and tab (or space), like the figure showing below.
 
-<img src="/images/YAML_example_doc.png"
-     alt="YAML_example_doc.png"
+<img src="/images/yaml_example_documentation.png"
+     alt="yaml_example_documentation.png"
      style="float: center; margin: 10px;" />
 
