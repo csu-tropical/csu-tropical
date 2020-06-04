@@ -1,16 +1,17 @@
 # Documentation for the tropical website maintainance
 [link to the website](tropical.colostate.edu)
 
-* For testing the staging branch: http://taku.atmos.colostate.edu:8080 (you need to use secure.colostate.edu if you are logging in outside of CSU network)
-* Order of webpages in this document: Home, News, Team member, Forecasting, Research and Publication
+* Order: 1. Home, 2. News, 3. Team member, 4. Forecasting, 5. Publication and 6. Research
 * This documentation does not explain every bit of the website and it focuses on the maintenance of the website - adding and removing contents 
+* For testing the staging branch: http://taku.atmos.colostate.edu:8080 (you need to use secure.colostate.edu if you are logging in outside of CSU network)
 
-#### Research and Publication documented by Ting-Yu Cha 06/02/2020
-#### Home, News, Team member, and Forecasting documented by Chelsea Nam 06/04/2020
+* Written by
+     - Research and Publication documented by Ting-Yu Cha 06/02/2020
+     - Home, News, Team member, and Forecasting documented by Chelsea Nam 06/04/2020
 
 
 
-## Home: index.html
+## 1. Home: index.html
 ### structure of Home page
 * Banner 
      - Banner images are stored in /images/banner folder
@@ -33,9 +34,22 @@
      - To change the text in the footer go to/_layout/ folder, and change all the five files (default.html, default_group.html, default_member.html, default_popup.html, default_withdata.html) 
      - It’s commented as “<-- Footer -->”.
 
+## 2. News: news.html
+This page automatically generates the list of the news posts reading the *_post* folder.
+
+### Add a news item
+
+1. Prepare an image for the news item and put in in */images/news/* folder.
+2. Copy a markdown file in the _post folder.
+3. Rename the file as “yyyy-mm-dd-YOUR-NEW-TITLE.markdown”
+4.Change the tags of [image, title, and author] accordingly.
+5. Note the html code of <img />. Change the image source there, and you can move the location of code.
+6. “<-- more -->” indicates where to break for the post excerpt. Make sure you put about one paragraph above the “<-- more -->” indicator to avoid the breakdown of the format of the news list.
+7. Check both of the news post and the news list to make sure everything looks good.
 
 
-## Publication: publication.html
+
+## 5. Publication: publication.html
 
 ### Structure of publication page:
 - Full list of publications (code can be found: _includes/full_list_publications.html)
@@ -77,7 +91,7 @@
 
 
 
-## Research: research.html
+## 6. Research: research.html
 ### Structure of research page:
 - For now the research projects are grants-based. The research projects can be found in _data/research_projects.yml, and we have 6 projects.
 - The sub-pages for each research project are generated from _layouts/projects.html, and the research index cards are produced by _data/research/index_card.yml. The layout of research index card can be found: _layouts/index_card.html
