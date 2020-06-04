@@ -1806,7 +1806,7 @@
 	}
 
 	a {
-		color: #8a4680;
+		color: #1E4D2B;
 	}
 
 	strong, b {
@@ -2075,7 +2075,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #8a4680;
+			background-color: #1E4D2B;
 			color: #ffffff !important;
 		}
 
@@ -2281,8 +2281,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8a4680;
-			box-shadow: 0 0 0 1px #8a4680;
+			border-color: #1E4D2B;
+			box-shadow: 0 0 0 1px #1E4D2B;
 		}
 
 	.select-wrapper:before {
@@ -2302,15 +2302,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #8a4680;
-		border-color: #8a4680;
+		background-color: #1E4D2B;
+		border-color: #1E4D2B;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #8a4680;
-		box-shadow: 0 0 0 1px #8a4680;
+		border-color: #1E4D2B;
+		box-shadow: 0 0 0 1px #1E4D2B;
 	}
 
 	::-webkit-input-placeholder {
@@ -2720,7 +2720,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #8a4680;
+			background-color: #1E4D2B;
 			color: #e2d1df;
 		}
 
@@ -2822,7 +2822,7 @@
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
 					background-color: #ffffff;
-					color: #8a4680 !important;
+					color: #1E4D2B !important;
 				}
 
 			.wrapper.style1 label {
@@ -2866,7 +2866,7 @@
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #8a4680;
+				color: #1E4D2B;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -2937,7 +2937,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #8a4680;
+				color: #1E4D2B;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3013,7 +3013,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #8a4680;
+					background-color: #1E4D2B;
 					color: #ffffff !important;
 				}
 
@@ -3051,8 +3051,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #8a4680;
-					box-shadow: 0 0 0 1px #8a4680;
+					border-color: #1E4D2B;
+					box-shadow: 0 0 0 1px #1E4D2B;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3072,15 +3072,15 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #8a4680;
-				border-color: #8a4680;
+				background-color: #1E4D2B;
+				border-color: #1E4D2B;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #8a4680;
-				box-shadow: 0 0 0 1px #8a4680;
+				border-color: #1E4D2B;
+				box-shadow: 0 0 0 1px #1E4D2B;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3150,7 +3150,7 @@
 			}
 
 			.wrapper.style3 a {
-				color: #8a4680;
+				color: #1E4D2B;
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3242,7 +3242,7 @@
 				.wrapper.style3 input[type="button"].special,
 				.wrapper.style3 button.special,
 				.wrapper.style3 .button.special {
-					background-color: #8a4680;
+					background-color: #1E4D2B;
 					color: #ffffff !important;
 				}
 
@@ -3280,8 +3280,8 @@
 				.wrapper.style3 input[type="email"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #8a4680;
-					box-shadow: 0 0 0 1px #8a4680;
+					border-color: #1E4D2B;
+					box-shadow: 0 0 0 1px #1E4D2B;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -3301,15 +3301,15 @@
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: #8a4680;
-				border-color: #8a4680;
+				background-color: #1E4D2B;
+				border-color: #1E4D2B;
 				color: #ffffff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #8a4680;
-				box-shadow: 0 0 0 1px #8a4680;
+				border-color: #1E4D2B;
+				box-shadow: 0 0 0 1px #1E4D2B;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -4069,7 +4069,7 @@
 /* Banner */
 
 	.banner {
-		background-color: #8a4680;
+		background-color: #1E4D2B;
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
