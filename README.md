@@ -20,7 +20,7 @@
      - Change the hyperlink and the header as you wish.
 * Pop-up box (for new seasonal forecast release)
      - Turn on and off the pop-up box function by changing *style=”display:block”* to *style=”display:none”*
-     - Change the header( starting with <h3 style=”color:white;”>) and the content of the pop-up box (starting with <p style=”text-align:center”>) accordingly.
+     - Change the header(starting with <h3 style=) and the content of the pop-up box (starting with <p style=”text-align:center) accordingly.
 * Forecast and Research Buttons 
 * News section
      - This section is automatically generated through Jekyll Liquid code based on the list of news posts in /_post/ folder. You can just add a post and figure and the home page will show the 3 most recent posts.
@@ -63,8 +63,11 @@ This page automatically generates the list of the news posts reading the *_post*
 3. Go to line #32 OR <div class=”slideshow-container”> 
 4. Replace the oldest one with the second oldest one (the third one is deleted and the second one replaces the third one), and replace the second one with the first one.
 5. Now put the information of the figure in the first one. 
+  <img src="/images/group_example_documentation.png"
+     alt="group_example_documentation.png"
+     style="float: center; margin: 10px;" />   
 6. Change the red underlined section with the name of the new image file.
-7. Change the caption accordingly.
+7. Change the caption (blue underlined) accordingly.
 8. You may want to replace the group photo on the home page banner as well. Go to index.html to make that change.
 
 ### Add a new member
