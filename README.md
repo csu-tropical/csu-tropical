@@ -1,7 +1,38 @@
 # Documentation for the tropical website maintainance
 [link to the website](tropical.colostate.edu)
 
-### Research and Publication documented by Ting-Yu Cha 06/02/2020
+* For testing the staging branch: http://taku.atmos.colostate.edu:8080 (you need to use secure.colostate.edu if you are logging in outside of CSU network)
+* Order of webpages in this document: Home, News, Team member, Forecasting, Research and Publication
+* This documentation does not explain every bit of the website and it focuses on the maintenance of the website - adding and removing contents 
+
+#### Research and Publication documented by Ting-Yu Cha 06/02/2020
+#### Home, News, Team member, and Forecasting documented by Chelsea Nam 06/04/2020
+
+
+
+## Home: index.html
+### structure of Home page
+* Banner 
+     - Banner images are stored in /images/banner folder
+     - The maximum number of banner slide is 6.
+     - To replace or add image in the banner put the image file in the /images/banner folder, and put them in <img src=” /images/banner/YOUR_IMAGE_FILE”>
+     - Change the hyperlink and the header as you wish.
+* Pop-up box (for new seasonal forecast release)
+     - Turn on and off the pop-up box function by changing *style=”display:block”* to *style=”display:none”*
+     - Change the header( starting with <h3 style=”color:white;”>) and the content of the pop-up box (starting with <p style=”text-align:center”>) accordingly.
+* Forecast and Research Buttons 
+* News section
+     - This section is automatically generated through Jekyll Liquid code based on the list of news posts in /_post/ folder. You can just add a post and figure and the home page will show the 3 most recent posts.
+* Research gallery
+     - The image of the research gallery photos should be in 16:9 ratio.
+     - The images are to be stored in /images/gallery folder.
+     - Change the hyperlink and the header, and the images.
+     - Note that both the header and the images should be hyperlinked.
+* Footer
+     - They are controlled by htmls in _layout to change things in the footer go /_layout/
+     - To change the text in the footer go to/_layout/ folder, and change all the five files (default.html, default_group.html, default_member.html, default_popup.html, default_withdata.html) 
+     - It’s commented as “<-- Footer -->”.
+
 
 
 ## Publication: publication.html
