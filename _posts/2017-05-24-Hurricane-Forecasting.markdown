@@ -2,6 +2,7 @@
 layout: post
 image: "/images/news/radar_image.png"
 title: "Forecasting the Atlantic Hurricane Season (from 'The Conversation')"
+date: 2017-05-24 
 ---
 
 
