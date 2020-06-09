@@ -4,7 +4,7 @@ name: Kate Young
 photo: './Group/kate.jpg'
 email: 'mailto:Kate.Young@colostate.edu'
 github: 'https://github.com/KateYoung-RS/CSU'
-webpage: false
+webpage: 'http://katebeierleyoung.com' 
 twitter: false
 bio: >
   Kate joined CSU’s Atmospheric Science Department as a Research Associate in

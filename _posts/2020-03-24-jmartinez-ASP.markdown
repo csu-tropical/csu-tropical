@@ -2,6 +2,7 @@
 layout: post
 image: "/images/news/3.24.20_Martinez_NCAR_postdoc3.jpg"
 title: "Jon Martinez awarded prestigious NCAR Advanced Study Program Postdoctoral Fellowship"
+date: 2020-03-24
 author: "Jayme DeLoss"
 ---
 
@@ -17,7 +18,7 @@ For more information on the NCAR/UCAR Advanced Study Program : <https://asp.ucar
 
 <img src="/images/news/3.24.20_Martinez_NCAR_postdoc3.jpg"
      alt="news image"
-     style="float: left; margin: 20px; width: 350px" />
+     style="float: left; margin: 20px; width: 450px" />
 
 “This is a very selective program, and this honor is a testament to all of Jon’s hard work during his Ph.D.,” said Associate Professor Michael Bell, Martinez’s adviser.
 

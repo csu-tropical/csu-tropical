@@ -2,6 +2,7 @@
 layout: post
 image: "/images/news/mmbellportrait.jpg"
 title: "Dr. Michael Bell has been awarded the highly competitive Presidential Early Career Award for Scientists and Engineers"
+date:   2017-01-09
 author: "Jayme DeLoss"
 ---
 

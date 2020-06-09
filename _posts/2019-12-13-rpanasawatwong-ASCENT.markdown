@@ -2,6 +2,7 @@
 layout: post
 image: "/images/news/ASCENT_KathrynRungJingyuan.jpg"
 title: "Rung Panasawatwong receives ASCENT scholarship"
+date: 2019-12-13
 author: "Jayme DeLoss"
 ---
 

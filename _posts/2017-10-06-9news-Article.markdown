@@ -2,6 +2,7 @@
 layout: post
 image: "/images/news/9news_logo.jpg"
 title: "9 News Interview about Hurricane Irma"
+date: 2017-10-06 
 ---
 
 
