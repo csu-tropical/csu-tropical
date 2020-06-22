@@ -195,7 +195,7 @@ This page automatically generates the list of the news posts reading the *_post*
 ## 7. Deployment
 - The website is hosted on a WSCOE server called 'engr.colostate.edu' accessible via Samba network mount: smb://www.engr.colostate.edu/atmos-www/bell 
 - The interface to deploy web content is to log in as a user named 'webmaster' on taku.atmos.colostate.edu (Michael's iMac) with the password 'CSU-tropical'
-- In webmaster's home directory, there are 2 scripts called 'stage.sh' and 'deploy.sh'. Both scripts perform the following actions: 
+- In webmaster's home directory, there are 2 scripts called 'stage.sh' and 'deploy.sh'. Both scripts are automated and perform the following actions: 
      1. Pull down the latest content from GitHub on either the staging (stage) or master (deploy) branch
      2. Run the getglobaltcdata.sh script to get the latest real-time TC stats and update the data files
      3. Run jekyll build in the production environment
