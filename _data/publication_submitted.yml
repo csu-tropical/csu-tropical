@@ -1,4 +1,4 @@
-- id: klotzbachetalstatisticaldynamical
+- id: klotzbachetal_statisticaldynamical
   year: false
   title: A statistical/dynamical model for North Atlantic seasonal hurricane prediction
   firstauthor: klotzbach
@@ -19,7 +19,7 @@
   keyword1: false
   keyword2: false
   keyword3: false
-- id: klotzbachetal1933hurricane
+- id: klotzbachetal_1933hurricane
   year: false
   title: The record-breaking 1933 Atlantic hurricane season
   firstauthor: klotzbach
