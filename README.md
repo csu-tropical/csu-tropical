@@ -1,7 +1,7 @@
 # Documentation for the tropical website maintainance
 [link to the website](tropical.colostate.edu)
 
-* Order: 1. Home, 2. News, 3. Team member, 4. Forecasting, 5. Publication and 6. Research
+* Order: 1. Home, 2. News, 3. Team member, 4. Forecasting, 5. Publication, 6. Research, and 7. Deployment
 * This documentation does not explain every bit of the website and it focuses on the maintenance of the website - adding and removing contents 
 * For testing the staging branch: http://taku.atmos.colostate.edu:8080 (you need to use secure.colostate.edu if you are logging in outside of CSU network)
 
@@ -192,3 +192,15 @@ This page automatically generates the list of the news posts reading the *_post*
      alt="yaml_example_documentation.png"
      style="float: center; margin: 10px;" />
 
+## 7. Deployment
+- The website is hosted on a WSCOE server called 'engr.colostate.edu' accessible via Samba network mount: smb://www.engr.colostate.edu/atmos-www/bell 
+- The interface to deploy web content is to log in as a user named 'webmaster' on taku.atmos.colostate.edu (Michael's iMac) with the password 'CSU-tropical'
+- In webmaster's home directory, there are 2 scripts called 'stage.sh' and 'deploy.sh'. Both scripts are automated and perform the following actions: 
+     1. Pull down the latest content from GitHub on either the staging (stage) or master (deploy) branch
+     2. Run the getglobaltcdata.sh script to get the latest real-time TC stats and update the data files
+     3. Run jekyll build in the production environment
+     4. Rsync any updated files from \_site subdirectory to the atmos-www/bell network mount
+- The deploy script is run automatically 4 times per day at 3, 9, 15, and 21 MDT via cron to provide automated updates of the TC stats
+- Manual updates should be tested first using the 'stage' script which will deploy to the staging nginx server at http://taku.atmos.colostate.edu:8080 which is only accessible to internal CSU viewers via VPN.
+- Note that webmaster has 'read-only' access to the csu-tropical repository on GitHub. It is not a full GitHub user account, just a simple deploy account that has ssh read-only access. That account can't be used to make content changes, only to stage or deploy content that has already been committed and pushed to GitHub by another (full) user.
+- If all looks good with the staging, then under your own user account (not webmaster) merge the staging branch to master ('git checkout master' then 'git merge staging'). As webmaster, run the deploy script.

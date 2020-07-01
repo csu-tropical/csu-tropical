@@ -1,50 +1,47 @@
-- id: Taoetal2020GRL
+- id: songetal2020ijoc
   year: 2020
-  title: Why Do the Maximum Intensities in Modeled Tropical Cyclones Vary Under the Same Environmental Conditions?
-  author1: tao
-  author2: bell
-  authors: Tao, D., R. Rotunno, M. Bell, P.J. van Leeuwen
-  journal: Geophysical Research Letters
-  others: 47, e2019GL085980
-  doi: https://doi.org/10.1029/2019GL085980
-  keypoint1: The steady‐state radius of maximum wind rm has a linear relationship to the absolute angular momentum Mm that rm = aMm+b
-  keypoint2: The nonnegligible intercept b is responsible for the various steady‐state maximum intensities
-  keypoint3: Horizontal turbulent mixing acts a role on the steady‐state maximum intensities through adjusting the linear relationship between rm and Mm
-  abstract: In this study w e explored why the different initial tropical cyclone structures can result in different steady‐state maximum intensities in model simulations with the same environmental conditions. We discovered a linear relationsh ip between the radius of maximum wind (rm) and the absolute angular momentum that passes through rm (Mm) in the model simulated steady‐state tropical cyclones that rm = aMm+b. This nonnegligible intercept b is found to be the key to making a steady‐state storm with a largerMm more intense. The sensitivity experiments show that this nonzero b results mainly from horizontal turbulent mixing and decreases with decreased horizontal mixing. Using this linear relationship from the simulations, it is also found that the degree ofsupergradient wind is a function ofMm as well as the turbulent mixing length such that both a larger Mm and/or a reduced turbulent mixing length result in larger supergradient winds.
-  summary: According to the maximum potential intensity theory, the maximum intensities for tropical cyclones should be the same given the same environmental conditions, which means the radius of maximum wind (rm) at the boundary layer top should be linearly proportional to the absolute angular momentum such that rm~aMm. In model simulations, however, different initial vortex structures usually result in different quasi‐steady‐state maximum intensities. In this paper, an axisymmetric numerical model is used to evaluate the TC's maximum intensities at the quasi‐steady state and explore the cause of this discrepancy between the model simulations and the maximum potential intensity theory. The model results exhibit that the various values of rm do have a linear relation with Mm, which is predicted by the maximum potential intensity theory. However, there is a non‐negligible intercept term, b, in this linear relation (rm = aMm+b), which is found to be the key to making a steady‐state storm with a larger Mm more intense.
-  ### Image file can only be .png or .jpg. NO PDF format!
-  image: ../Publications/figures/Taoetal2020GRL.png
-  caption: Figure 3. (a–c) Dots are the final 24‐hr mean of rm as a function of the final 24‐hr mean ofMm at z = 1.55 km. The dash lines are the linear regression of the dots. (d–f) Dots are the final 24‐hr mean of maximum tangential wind as a function of the final 24‐hr mean ofMm at z = 1.55 km. The dash lines are maximum tangential wind calculated from the linear regression of the first row using (2). (left column) CkCd0.5. (middle column) CkCd1.0. (right column) CkCd1.5.
-  acknowledgement: >
-    Authors D. Tao and M. Bell are supported by grant Office of Naval Research award N000141613033 and National Science Foundation (NSF) award AGS‐1701225. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under cooperative agreement 1852977. P.J. van Leeuwen is supported by Colorado State University. Computing was performed at a local computer server at the Department of Atmospheric Science, Colorado State University. The data used in this paper are available through zenodo using the link https://doi.org/10.5281/zenodo.3530892.
-  bibtex: false
-  pdf: ../Publications/papers/Taoetal2020GRL.pdf
-  keyword1: Radius of maximum wind
-  keyword2: Steady-state TC
-  keyword3: Angular momentum
-- id: Taoetal2019JAS
-  year: 2019
-  title: Evaluation of the Assumptions in the Steady-State Tropical Cyclone Self-Stratified Outflow Using Three-Dimensional Convection-Allowing Simulations
-  author1: tao
-  author2: bell
-  authors: Tao, D., K. Emanuel, F. Zhang, R. Rotunno, M. Bell, R. Nystrom
-  journal: Journal of Atmospheric Sciences
-  others: false
-  doi: https://doi.org/10.1175/JAS-D-19-0033.1
-  keypoint1: Outflow temperature is stratified on M
-  keypoint2: Moist neutrality holds near Mm
-  keypoint3: Low Richardson number is observed in the outflow region
-  abstract: The criteria and assumptions that were used to derive the steady-state tropical cyclone intensity and structure theory of Emanuel and Rotunno are assessed using three-dimensional convection-allowing simulations using the Weather Research and Forecasting Model. One real-data case of Hurricane Patricia (2015) and two idealized simulations with and without vertical wind shear are examined. In all three simulations, the gradient wind balance is valid in the inner-core region above the boundary layer. The angular momentum M and saturation entropy surfaces s^* near the top of the boundary layer, in the outflow region and along the angular momentum surface that passes the low-level radius of maximum wind M_RMW are nearly congruent, satisfying the criterion of slantwise moist neutrality in the vicinity of M_RMW. The theoretically derived maximum wind magnitude above the boundary layer compares well with the simulated maximum tangential wind and gradient wind using the azimuthally averaged pressure field during the intensification and quasi-steady state of the simulated storms. The Richardson number analysis of the simulated storms shows that small Richardson number (0 < Ri < 1) exists in the outflow region, related to both large local shear and small static stability. This criticality of the Richardson number indicates the existence of small-scale turbulence in the outflow region. We also show that the stratification of temperature along the M surfaces at the outflow region for steady-state hurricanes is approximately applicable in these three-dimensional simulations, while the radial distribution of gradient wind is qualitatively comparable to the theoretical radial profiles. Some caveats regarding the theory are also discussed.
+  title: Relationship between spring tropical cyclone frequency over the western North Pacific and El Niño-Southern Oscillation
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: International Journal of Climatology
+  others: in press
+  doi: https://doi.org/10.1002/joc.6703
+  keypoint1: More tropical cyclones form in the western North Pacific during the boreal spring in La Niña years versus El Niño years
+  keypoint2: Increased mid-level moisture appears to be primary reason for increased TC activity in La Niña springs
+  keypoint3: false
+  abstract: The number of tropical cyclones (TCs) over the western North Pacific (WNP) during spring (March-May) has a significant inverse correlation with concurrent El Niño-Southern Oscillation (ENSO) conditions during the period from 1979-2018. This relationship is different from the previously-documented weak relationship between TC frequency and ENSO during the climatologically most active portion of the TC season. In general, TCs seldom occur in El Niño years during March-May, whereas they frequently form over the western part of the WNP, particularly to the southeast of the Philippines, in La Niña years. This difference can be largely explained by ENSO-driven differences in the genesis potential index as derived from environmental variables. In La Niña years, the abnormally moist mid-troposphere, which relates to the strengthened vertical transport of water vapor induced by the enhanced Walker Circulation, primarily favors TC development, while increased sea surface temperatures and positive low-level relative vorticity anomalies appear to play a lesser role in impacting TC formation.
   summary: false
-  image: ../Publications/figures/Taoetal2019JAS.png
-  caption: Figure 6. (left) N^2 (10^-4 s^-2), (center) shear (m s^-1 km^-1), and (right) Richardson number calculated from azimuthally averaged fields for (a)–(c) Patricia at 40 h, (d)–(f) NOFLOW at 132 h, and (g)-(i) SH5 at 132 h. M_RMW is the red line, V_t=0ms^-1 is the orange contour, and Ri = 1 is the green contour. The blue dashed lines are the locations for the profiles in Fig. 7. Black dash lines separate the area with full azimuthal data (radius <= 135 km in Patricia and radius <= 270km in NOFLOW and SH5) and the area with partial azimuthal data (radius > 135km in Patricia and radius > 270 km in NOFLOW and SH5).
-  acknowledgement: Authors Tao and Zhang were partially supported by NSF Grant AGS-1305798,ONR Grant N000140910526, and NOAA HFIP. Robert Nystrom was supported by NASA Grant 17-EARTH17F-184. Kerry Emanuel was supported by the Office of Naval Research under GrantONRN00014-18-1-2458. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. Michael Bell was supported by ONR Grant N000141613033 and NSF Grant AGS-1701225. Computing was performed at the Texas Advanced Computer Center.
-  bibtex: ../Publications/bibtex/Taoetal2019JAS.bib
-  pdf: ../Publications/papers/Taoetal2019JAS.pdf
-  keyword1: Moist slantwise neutrality
-  keyword2: Low Richardson number
-  keyword3: TC Structure
-
+  image: ../Publications/figures/song_et_al_2020_ijoc_Fig3.jpg
+  caption: >
+    Fig. 3. La Niña minus El Niño differences in environmental variables during March-May over the western North Pacific. (a) Sea surface temperature (°C), (b) 600-hPa relative humidity (%), (c) 850-hPa relative vorticity (×10-6 s-1) and (d) 850-200-hPa vertical wind shear (m s-1). Differences significant at the 0.05 level are represented with black crosses.
+  acknowledgement: We would like to express our sincere thanks to two anonymous reviewers for their helpful comments on an earlier version of this manuscript. This work was jointly funded by the National Natural Science Foundation of China (61827901), the National Key Research and Development Program of China (2018YFC1507305) and the National Natural Science Foundation of China (41575044). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/song_et_al_2020_bibtex.bib
+  pdf: ../Publications/papers/song_et_al_2020_ijoc.pdf
+  keyword1: Seasonal
+  keyword2: El Nino
+  keyword3: Forecasting
+- id: woodetal2020atlantic
+  year: 2020
+  title: Factors affecting the 2019 Atlantic hurricane season and the role of the Indian Ocean Dipole
+  firstauthor: klotzbach
+  authors: Wood, K. M., P. J. Klotzbach, J. M. Collins, R. E. Truchelut, L.-P. Caron, and C. J. Schreck III
+  journal: Geophysical Research Letters
+  others: in press
+  doi: https://doi.org/10.1029/2020GL087781
+  keypoint1: Most 2019 Atlantic tropical cyclone activity occurred during a six-week period of conducive environmental conditions.
+  keypoint2: The subtropical Atlantic was more favorable than normal for tropical cyclones.
+  keypoint3: The strongly positive Indian Ocean Dipole likely contributed to below-normal Atlantic tropical cyclone activity in October.
+  abstract: The 2019 Atlantic hurricane season exhibited above-average Accumulated Cyclone Energy<97>60% of which was produced by Hurricanes Dorian and Lorenzo. Most tropical cyclone (TC) activity was concentrated in a ~6-week period from late August to early October. During the early part of the season, relatively TC-unfavorable conditions persisted in the maindevelopment region (MDR). The MDR environment became largely favorable in September followed by an abrupt shift back to less conducive conditions in October coincident with a strongly positive Indian Ocean Dipole (IOD). The IOD produced an El Niño-like teleconnection pattern observed through 200-hPa velocity potential anomalies. In the subtropical Atlantic, above-average sea surface temperatures persisted for much of the season, which may have contributed to increased activity at higher latitudes. Given the neutral El Niño-Southern Oscillation conditions during the 2019 hurricane season, our study highlights the need for further analysis of IOD impacts on Atlantic TC activity.
+  summary: In 2019, the Atlantic produced above-average activity according to Accumulated Cyclone Energy (ACE), an index that captures storm intensity and longevity. The two strongest hurricanes, Dorian and Lorenzo, contributed 60% of the season<92>s total ACE. Most storms occurred in an active 6-week period from late August to early October when the environment became more favorable for hurricanes. But after that, conditions became less favorable when the western Indian Ocean became much warmer than normal and the eastern Indian Ocean became much colder than normal, an oceanic phenomenon referred to as a positive Indian Ocean Dipole. This strong positive Indian Ocean Dipole event produced sinking air across much of the tropics, including the Atlantic, a pattern that is El Niño-like. Since knowledge of El Niño helps us predict Atlantic seasonal hurricane activity, it is possible that understanding more about the Indian Ocean Dipole<92>s impacts on Atlantic hurricane activity will help us improve seasonal hurricane forecasts.
+  image: ../Publications/figures/wood_et_al_2020_Fig5.jpg
+  caption: >
+    Fig. 5. (a) October IOD index versus October ONI values during 1960-2019 (red dot indicates October 2019). The dashed black line shows the linear regression between the two indices (r = 0.51). (b) Partial rank correlations between Atlantic ACE and the IOD index with the ONI removed for running 30-year periods during 1960-2019 for August-October (black), August (blue), September (orange), and October (green). The horizontal dashed line represents 5% statistical significance. (c) As in (b) but computed between ERA5 200-hPa velocity potential anomalies in the MDR and the IOD index during 1979-2019.
+  acknowledgement: All data examined in this study are available from the UCAR, ECMWF, NCEP, and JMA websites cited in the text. K. Wood was supported by the Office of Research and Economic Development and the Department of Geosciences at Mississippi State University. P. Klotzbach acknowledges a grant from the G. Unger Vetlesen Foundation. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002. The authors thank Dr. Chris Landsea and an anonymous reviewer for their helpful feedback, especially during the COVID-19 pandemic.
+  bibtex: ../Publications/bibtex/wood_et_al_2020_bibtex.bib
+  pdf: ../Publications/papers/wood_et_al_2020.pdf
+  keyword1: Seasonal
+  keyword2: El Nino
+  keyword3: Forecasting
 - id: bhardwajetal2019
   year: 2019
   title: Modulation of Bay of Bengal tropical cyclone activity by the Madden-Julian
@@ -1101,6 +1098,73 @@
   pdf: false
   keyword1: Asymmetric Dynamics
   keyword2: Radar
+  keyword3: TC case study
+- id: belljas2019
+  year: 2019
+  title: Mesoscale Processes during the Genesis of Hurricane Karl (2010)
+  author1: bell
+  author2: false
+  author3: false
+  authors: Bell, M. M., M. T. Montgomery
+  journal: Journal of Atmospheric Sciences
+  others: 76, 2235–2255
+  doi: https://doi.org/10.1175/JAS-D-18-0161.1
+  keypoint1: Observations from PREDICT/GRIP/IFEX field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010).
+  keypoint2: The onset of deep convection and associated low-level spinup were closely
+    related to the coupling of the vorticity and moisture fields at low and midlevels.
+  keypoint3: The convective cycle in Karl alternately built the low- and midlevel
+    circulations leading to genesis episodically.
+  abstract: Observations from the Pre-Depression Investigation of Cloud Systems in
+    the Tropics (PREDICT), Genesis and Rapid Intensification Processes (GRIP), and
+    Intensity Forecast Experiment (IFEX) field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010). Research aircraft missions provided Doppler radar, in situ flight level,
+    and dropsonde data documenting the structural changes of the predepression disturbance.
+    Following the pre-Karl wave pouch, variational analyses at the meso-β and meso-α
+    scales suggest that the convective cycle in Karl alternately built the low- and
+    midlevel circulations leading to genesis episodically rather than through a sustained
+    lowering of the convective mass flux from increased stabilization. Convective
+    bursts that erupt in the vorticity-rich environment of the recirculating pouch
+    region enhance the low-level meso-β- and meso-α-scale circulation through vortex
+    stretching. As the convection wanes, the resulting stratiform precipitation strengthens
+    the midlevel circulation through convergence associated with ice microphysical
+    processes, protecting the disturbance from the intrusion of dry environmental
+    air. Once the column saturation fraction returns to a critical value, a subsequent
+    convective burst below the midlevel circulation further enhances the low-level
+    circulation, and the convective cycle repeats. The analyses suggest that the onset
+    of deep convection and associated low-level spinup were closely related to the
+    coupling of the vorticity and moisture fields at low and midlevels. Our interpretation
+    of the observational analysis presented in this study reaffirms a primary role
+    of deep convection in the genesis process and provides a hypothesis for the supporting
+    role of stratiform precipitation and the midlevel vortex.
+  summary: false
+  image: ../Publications/figures/Bell_Montgomery_2019_Fig11.png
+  caption: FIG. 11. Analyzed time series of meso-a-averaged quantities from initial
+    aircraft mission to Karl’s genesis. (a) Circulation tendency [1025 s21 3 (600
+    km)2 day21] at 850 (red circles) and 500 hPa (blue squares) using the left abscissa
+    and saturation fraction up to 700 hPa (green triangles) and cold-cloud fraction
+    below 2608C from Davis and Ahijevych (2012) using the right abscissa. (b) Relative
+    humidity at 850 hPa (green triangles, %), virtual potential temperature anomaly
+    at 850 hPa (purple squares, K), and virtual potential temperature anomaly at 500hPa
+    (black diamonds, K). The anomaly was calculated by removing the mean uy from the
+    time series at each respective level. Red stars below (b) denote mission times,
+    with 0000 and 1200 UTC 13 Sep highlighted.
+  acknowledgement: This study was supported by the National Science Foundation (NSF)
+    Award AGS- 0851077. MMB also acknowledges support by the NSF CAREER Award AGS-1701225
+    and the Office of Naval Research (ONR) Director of Research Early Career Grant
+    N000141613033. MTM acknowledges the support of NSF Grant AGS-1313948, IAA-1656075,
+    NOAA HFIP Grant N0017315WR00048, NASA Grant NNG11PK021, ONR Grant 0001417WX00336,
+    and the U.S. Naval Postgraduate School. The authors thank the PREDICT, GRIP, and
+    IFEX teams for collecting the data used in this study. We would also like to thank
+    David Raymond and two anonymous reviewers for their insightful re- views that
+    improved the manuscript. All code and data used in this study are available upon
+    request.
+  bibtex: ../Publications/bibtex/Bell_Montgomery_2019_bibtex.bib
+  pdf: ../Publications/papers/Bell_Montgomery_JAS2019.pdf
+  keyword1: Genesis
+  keyword2: Mesoscale
   keyword3: TC case study
 - id: nammwr2020
   year: 2020

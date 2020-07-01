@@ -1,3 +1,53 @@
+- id: klotzbachetal_statisticaldynamical
+  year: false
+  title: A statistical/dynamical model for North Atlantic seasonal hurricane prediction
+  author1: klotzbach
+  author2: caron
+  author3: bell
+  authors: Klotzbach, P. J., L.-P. Caron, and M. M. Bell
+  journal: Geophysical Research Letters
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: klotzbachetal_1933hurricane
+  year: false
+  title: The record-breaking 1933 Atlantic hurricane season
+  author1: klotzbach
+  author2: schreck
+  author3: compo
+  author4: bowen
+  author5: gibney 
+  author6: oliver
+  author7: bell
+  authors: Klotzbach, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, and M. M. Bell
+  journal: Bulletin of the American Meteorological Society
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: chagrl2020 # lastname,journal,year
   year: 2020
   title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane
@@ -177,33 +227,10 @@
   keyword3: TC case study
 - id: songetaldeceleration
   year: false
-  title: What has caused the deceleration of tropical cyclone motion over the western
-    North Pacific during the past 70 years
+  title: What has caused the slowdown of tropical cyclone motion over the western North Pacific?
   firstauthor: klotzbach
   authors: Song, J., P. J. Klotzbach, and Y. Duan
-  journal: Earth and Space Science
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: songetalspringtcfrequency
-  year: false
-  title: Relationship between spring tropical cyclone frequency over the western North
-    Pacific and El Nino - Southern Oscillation
-  firstauthor: klotzbach
-  authors: Song, J., P. J. Klotzbach, and Y. Duan
-  journal: International Journal of Climatology
+  journal: Geophysical Research Letters
   others: submitted
   doi: false
   keypoint1: false
@@ -248,31 +275,6 @@
   firstauthor: klotzbach
   authors: Titus, M. L., K. R. Thompson, E. J. Oliver, and P. J. Klotzbach
   journal: Journal of Geophysical Research - Atmospheres
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: woodetal2019atlantic
-  year: false
-  title: >
-    North Atlantic hurricane activity in ENSO-neutral conditions: Factors affecting
-    the 2019 season and the role of the Indian Ocean Dipole
-
-  firstauthor: klotzbach
-  authors: Wood, K. M., P. J. Klotzbach, J. M. Collins, R. E. Truchelut, L.-P. Caron,
-    and C. J. Schreck III
-  journal: Geophysical Research Letters
   others: submitted
   doi: false
   keypoint1: false
