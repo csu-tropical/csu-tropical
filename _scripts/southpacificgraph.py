@@ -11,7 +11,7 @@ def datestdtojd (stddate):
 #Calculate current year, month, day, hour)
 answer = datetime.datetime.now()
 answer = str (answer)
-lastyear = '2019'
+lastyear = '2020'
 currentyear = answer[0:4]
 currentmonth = answer[5:-19]
 currentday = answer[8:-16]
@@ -20,7 +20,13 @@ juliandayindex = datestdtojd(currentyear + '-' + currentmonth + '-' + currentday
 
 # Southern hemisphere julian day correction
 juliandayindex = juliandayindex + 184
+if (juliandayindex > 365):
+    juliandayindex = juliandayindex - 365
 
+if (currentyear == lastyear):
+    currentyear = int(currentyear) + 1
+    currentyear = str(currentyear)
+    
 currentmonth = int(currentmonth)
 currentday = int(currentday)
 currenthour = int(currenthour)
