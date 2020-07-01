@@ -2,5 +2,5 @@
 2020 Northeast Pacific 2 1.0 0 0 0 0 0.5 
 2020 Northwest Pacific 2 4.0 1 2.0 1 0.5 7.4 
 2020 North Indian 2 5.75 2 4.0 1 2.25 19.2 
-2020 South Indian 17 61.25 9 20.0 3 1.5 84.1 
-2020 South Pacific 10 32.5 5 11.75 1 5.0 59.7
+2020 South Indian 0 0 0 0 0 0 0 
+2020 South Pacific 0 0 0 0 0 0 0
