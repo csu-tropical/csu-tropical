@@ -1,3 +1,5 @@
 year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
 2020,1,ARTHUR,5,17,5,19,28.9,-78.0,50,991,2.5,0,0,1.75,AL,01,
 2020,2,BERTHA,5,27,5,27,31.4,-78.9,45,1007,0.5,0,0,0.36,AL,02,
+2020,3,CRISTOBAL,6,2,6,8,19.5,-92.5,50,992,4.75,0,0,3.45,AL,03,
+2020,4,DOLLY,6,23,6,24,39.0,-63.9,40,1002,1.0,0,0,0.56,AL,04,
