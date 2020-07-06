@@ -113,7 +113,7 @@ This page automatically generates the list of the news posts reading the *_post*
 7. Make sure you turn off the forecast pop-up box sometime later
 
 ### ARCHIVE (/archive.html): Update the data
-- Update AMO index in  _data/forecasting/csu_amo.csv
+- Update AMO index in  _data/forecasting/csu_amo.csv, also update .csv file for download in Forecast/downloadable/csu_amo.csv
 - Update Verification data in _data/forecasting/verification. The files are sorted by each TC parameter in separate .csv
 - Update TC stat data in _data/forecasting/stat folder. The files are sorted by basins named as archive_NA.csv, archive_WNP.csv etc
 
