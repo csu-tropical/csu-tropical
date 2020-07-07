@@ -20,8 +20,9 @@ juliandayindex = datestdtojd(currentyear + '-' + currentmonth + '-' + currentday
 
 # Southern hemisphere julian day correction
 juliandayindex = juliandayindex + 184
-if (juliandayindex > 365):
-    juliandayindex = juliandayindex - 365
+# Leap year in 2020, need to adjust next year
+if (juliandayindex > 366):
+    juliandayindex = juliandayindex - 366
 
 if (currentyear == lastyear):
     currentyear = int(currentyear) + 1
