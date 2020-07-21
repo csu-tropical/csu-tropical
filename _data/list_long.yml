@@ -7,7 +7,7 @@
   author3: desrosiers
   authors: Cha, T-Y., M. M. Bell, W.-C. Lee, A. J. DesRosiers
   journal: Geophysical Research Letters
-  others: In review
+  others: in press
   doi: false
   keypoint1: Single Doppler radar retrievals capture the structural evolution of Hurricane
     Michael's polygonal eyewall during rapid intensification. # It can be capsule summary or keypoint
@@ -63,7 +63,8 @@
   pdf: ../Publications/papers/Cha_et_al_GRL_2020.pdf
   keyword1: Asymmetric Dynamics
   keyword2: Radar
-  keyword3: TC case study- id: songetal2020ijoc
+  keyword3: TC case study
+- id: songetal2020ijoc
   year: 2020
   title: Relationship between spring tropical cyclone frequency over the western North Pacific and El Niño-Southern Oscillation
   firstauthor: klotzbach
@@ -91,7 +92,7 @@
   firstauthor: klotzbach
   authors: Wood, K. M., P. J. Klotzbach, J. M. Collins, R. E. Truchelut, L.-P. Caron, and C. J. Schreck III
   journal: Geophysical Research Letters
-  others: in press
+  others: 47, e2020GL087781
   doi: https://doi.org/10.1029/2020GL087781
   keypoint1: Most 2019 Atlantic tropical cyclone activity occurred during a six-week period of conducive environmental conditions.
   keypoint2: The subtropical Atlantic was more favorable than normal for tropical cyclones.
@@ -327,7 +328,7 @@
   author1: klotzbach
   authors: Song, J., Y. Duan, and P. J. Klotzbach
   journal: Geophysical Research Letters
-  others: in press
+  others: 47, e2020GL088217
   doi: https://doi.org/10.1029/2020GL088217
   keypoint1: false
   keypoint2: false
@@ -682,7 +683,7 @@
   authors: Klotzbach, P. J., M. M. Bell, S. G. Bowen, E. J. Gibney, K. R. Knapp, and
     C. J. Schreck III
   journal: Bulletin of the American Meteorological Society
-  others: in press
+  others: 101, E830–E846
   doi: https://doi.org/10.1175/BAMS-D-19-0062.1
   keypoint1: Pressure is more skillful than maximum sustained wind at predicting normalized
     hurricane damage for the continental US from 1900-2018
@@ -875,7 +876,7 @@
   author2: bell
   authors: DeHart, J. C., M. M. Bell
   journal: Journal of Geophysical Research - Atmospheres
-  others: in press
+  others: 125, e2019JD032212
   doi: https://doi.org/10.1029/2019JD032212
   keypoint1: Rain drop size distributions in Harvey and Florence were broadly similar
     to other tropical cyclones
