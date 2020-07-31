@@ -303,8 +303,8 @@ function showDiv(btn,ctn,eye,txt) {
     tooltip: {
         pointFormat: '{point.name} ({point.basin}{point.charnam})<br>' +
                     'Lat: {point.lat} Lon: {point.lon}<br>' +
-                    'MSLP: {point.mslp} hPa, ' +
-                    'Intensity: {point.intensity} kts<br>' +
+                    'Min MSLP: {point.mslp} hPa, ' +
+                    'Max Intensity: {point.intensity} kts<br>' +
                     'Named Storm Days: {point.nsd}, ' +
                     'ACE: {point.ace}<br>' +
                     'Status: {point.status}'
@@ -445,7 +445,6 @@ function showDiv(btn,ctn,eye,txt) {
       {
       type: 'mappoint',
       name: ' Inactive Tropical Cyclones',
-      visible: false,
       data:[
         {% for item in site.data.tc_stats.atlanticstormstats %}
         {
@@ -458,8 +457,8 @@ function showDiv(btn,ctn,eye,txt) {
             lon: {{item.longitude}},
             basin: '{{item.basin}}',
             charnam: '{{item.storm_charnumber}}',
-            mslp: 'N/A',
-            intensity: 'N/A',
+            mslp: {{item.mslp}},
+            intensity: {{item.intensity}},
             ace: {{item.ace}},
             nsd: {{item.nsd}},
             status: 'Inactive',
@@ -477,8 +476,8 @@ function showDiv(btn,ctn,eye,txt) {
           lon: {{item.longitude}},
           basin: '{{item.basin}}',
           charnam: '{{item.storm_charnumber}}',
-          mslp: 'N/A',
-          intensity: 'N/A',
+          mslp: {{item.mslp}},
+          intensity: {{item.intensity}},
           ace: {{item.ace}},
           nsd: {{item.nsd}},
           status: 'Inactive',
@@ -496,8 +495,8 @@ function showDiv(btn,ctn,eye,txt) {
         lon: {{item.longitude}},
         basin: '{{item.basin}}',
         charnam: '{{item.storm_charnumber}}',
-        mslp: 'N/A',
-        intensity: 'N/A',
+        mslp: {{item.mslp}},
+        intensity: {{item.intensity}},
         ace: {{item.ace}},
         nsd: {{item.nsd}},
         status: 'Inactive',
@@ -515,8 +514,8 @@ function showDiv(btn,ctn,eye,txt) {
       lon: {{item.longitude}},
       basin: '{{item.basin}}',
       charnam: '{{item.storm_charnumber}}',
-      mslp: 'N/A',
-      intensity: 'N/A',
+      mslp: {{item.mslp}},
+      intensity: {{item.intensity}},
       ace: {{item.ace}},
       nsd: {{item.nsd}},
       status: 'Inactive',
@@ -534,8 +533,8 @@ function showDiv(btn,ctn,eye,txt) {
     lon: {{item.longitude}},
     basin: '{{item.basin}}',
     charnam: '{{item.storm_charnumber}}',
-    mslp: 'N/A',
-    intensity: 'N/A',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
     ace: {{item.ace}},
     nsd: {{item.nsd}},
     status: 'Inactive',
@@ -553,8 +552,8 @@ function showDiv(btn,ctn,eye,txt) {
     lon: {{item.longitude}},
     basin: '{{item.basin}}',
     charnam: '{{item.storm_charnumber}}',
-    mslp: 'N/A',
-    intensity: 'N/A',
+    mslp: {{item.mslp}},
+    intensity: {{item.intensity}},
     ace: {{item.ace}},
     nsd: {{item.nsd}},
     status: 'Inactive',
@@ -565,7 +564,7 @@ function showDiv(btn,ctn,eye,txt) {
     }]
 
     });
-  
+
 });
 
 </script>
