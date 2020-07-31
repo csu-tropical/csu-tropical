@@ -4,8 +4,8 @@ title: CSU Hurricane Seasonal Forecasting
 ---
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
-<script src="/assets/js/highcharts.js"></script>
-<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
 {% include realtime.html %}
@@ -190,10 +190,10 @@ figure figcaption {
 							<h2>Real-Time Tropical Cyclone Statistics</h2>
 						</header>
 						<br>
-            <!-- <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
+            <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
             <br>
             <hr>
-            <br> -->
+            <br>
             <h4 class="align-center">Northern Hemisphere Tropical Cyclone Activity for 2020 (2020/2021 for the Southern Hemisphere)</h4>
             <h4 class="align-center"> 1981-2010 Climatological Activity Through {{ "now" | date: "%d %B" }} in Parentheses </h4>
 
@@ -247,7 +247,7 @@ figure figcaption {
                       <td>{{row.mhd}} ({{row.mhdclimo}})</td>
                       <td>{{row.ace}} ({{row.aceclimo}})</td>
                     </tr>
-                    {% endif %}    
+                    {% endif %}
                   {% endfor %}
                 </tbody>
               </table>

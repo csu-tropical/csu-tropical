@@ -1,4 +1,4 @@
-2020 North Atlantic 9 19.5 2 1.5 0 0 16.4 
+2020 North Atlantic 9 19.75 2 1.75 0 0 16.8 
 2020 Northeast Pacific 4 15.5 1 5.25 1 2.0 26.9 
 2020 Northwest Pacific 2 4.0 1 2.0 1 0.5 7.4 
 2020 North Indian 2 5.75 2 4.0 1 2.25 19.2 

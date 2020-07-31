@@ -270,11 +270,11 @@ function showDiv(btn,ctn,eye,txt) {
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var H = Highcharts,
-    map = H.maps['countries/world'],
-    chart;
+    var worldmap = Highcharts.mapChart('tcmap', {
+      chart: {
+        map: 'custom/world'
+    },
 
-    chart = Highcharts.mapChart('tcmap', {
     title: {
         text: 'Global Tropical Cyclone Activity'
     },
@@ -305,6 +305,8 @@ function showDiv(btn,ctn,eye,txt) {
                     'Lat: {point.lat} Lon: {point.lon}<br>' +
                     'MSLP: {point.mslp} hPa, ' +
                     'Intensity: {point.intensity} kts<br>' +
+                    'Named Storm Days: {point.nsd}, ' +
+                    'ACE: {point.ace}<br>' +
                     'Status: {point.status}'
     },
 
@@ -322,10 +324,33 @@ function showDiv(btn,ctn,eye,txt) {
         showInLegend: false },
         {
         type: 'mappoint',
-        name: 'Tropical Cyclones',
+        name: ' Active Tropical Cyclones',
         data:[
           {% for item in site.data.tc_stats.atlanticstormstats %}
           {
+            {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+            {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+            {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+            {% if  end_date_fmt == current_date %}
+              name: '{{item.name}}',
+              lat: {{item.latitude}},
+              lon: {{item.longitude}},
+              basin: '{{item.basin}}',
+              charnam: '{{item.storm_charnumber}}',
+              mslp: {{item.mslp}},
+              intensity: {{item.intensity}},
+              ace: {{item.ace}},
+              nsd: {{item.nsd}},
+              status: 'Active',
+            {% endif %}
+          },
+        {% endfor %}
+        {% for item in site.data.tc_stats.northwestpacificstormstats %}
+        {
+          {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+          {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+          {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+          {% if  end_date_fmt == current_date %}
             name: '{{item.name}}',
             lat: {{item.latitude}},
             lon: {{item.longitude}},
@@ -333,15 +358,18 @@ function showDiv(btn,ctn,eye,txt) {
             charnam: '{{item.storm_charnumber}}',
             mslp: {{item.mslp}},
             intensity: {{item.intensity}},
-            status: 'Inactive'
-            //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-            //{% else %}
-            //  status: 'Active'
-            //{% endif %}
-          },
-        {% endfor %}
-        {% for item in site.data.tc_stats.northwestpacificstormstats %}
-        {
+            ace: {{item.ace}},
+            nsd: {{item.nsd}},
+            status: 'Active',
+          {% endif %}
+        },
+      {% endfor %}
+      {% for item in site.data.tc_stats.northeastpacificstormstats %}
+      {
+        {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+        {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+        {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+        {% if  end_date_fmt == current_date %}
           name: '{{item.name}}',
           lat: {{item.latitude}},
           lon: {{item.longitude}},
@@ -349,15 +377,18 @@ function showDiv(btn,ctn,eye,txt) {
           charnam: '{{item.storm_charnumber}}',
           mslp: {{item.mslp}},
           intensity: {{item.intensity}},
-          status: 'Inactive'
-          //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-          //{% else %}
-          //  status: 'Active'
-          //{% endif %}
-        },
-      {% endfor %}
-      {% for item in site.data.tc_stats.northeastpacificstormstats %}
-      {
+          ace: {{item.ace}},
+          nsd: {{item.nsd}},
+          status: 'Active',
+        {% endif %}
+      },
+    {% endfor %}
+    {% for item in site.data.tc_stats.southindianstormstats %}
+    {
+      {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+      {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+      {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+      {% if  end_date_fmt == current_date %}
         name: '{{item.name}}',
         lat: {{item.latitude}},
         lon: {{item.longitude}},
@@ -365,15 +396,18 @@ function showDiv(btn,ctn,eye,txt) {
         charnam: '{{item.storm_charnumber}}',
         mslp: {{item.mslp}},
         intensity: {{item.intensity}},
-        status: 'Inactive'
-        //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-        //{% else %}
-        //  status: 'Active'
-        //{% endif %}
-      },
-    {% endfor %}
-    {% for item in site.data.tc_stats.southindianstormstats %}
-    {
+        ace: {{item.ace}},
+        nsd: {{item.nsd}},
+        status: 'Active',
+      {% endif %}
+    },
+  {% endfor %}
+  {% for item in site.data.tc_stats.southpacificstormstats %}
+  {
+    {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+    {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+    {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+    {% if  end_date_fmt == current_date %}
       name: '{{item.name}}',
       lat: {{item.latitude}},
       lon: {{item.longitude}},
@@ -381,84 +415,157 @@ function showDiv(btn,ctn,eye,txt) {
       charnam: '{{item.storm_charnumber}}',
       mslp: {{item.mslp}},
       intensity: {{item.intensity}},
-      status: 'Inactive'
-      //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-      //{% else %}
-      //  status: 'Active'
-      //{% endif %}
-    },
-  {% endfor %}
-  {% for item in site.data.tc_stats.southpacificstormstats %}
-  {
-    name: '{{item.name}}',
-    lat: {{item.latitude}},
-    lon: {{item.longitude}},
-    basin: '{{item.basin}}',
-    charnam: '{{item.storm_charnumber}}',
-    mslp: {{item.mslp}},
-    intensity: {{item.intensity}},
-    status: 'Inactive'
-    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-    //{% else %}
-    //  status: 'Active'
-    //{% endif %}
+      ace: {{item.ace}},
+      nsd: {{item.nsd}},
+      status: 'Active',
+    {% endif %}
   },
   {% endfor %}
   {% for item in site.data.tc_stats.northindianstormstats %}
   {
+    {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+    {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+    {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+    {% if  end_date_fmt == current_date %}
+      name: '{{item.name}}',
+      lat: {{item.latitude}},
+      lon: {{item.longitude}},
+      basin: '{{item.basin}}',
+      charnam: '{{item.storm_charnumber}}',
+      mslp: {{item.mslp}},
+      intensity: {{item.intensity}},
+      ace: {{item.ace}},
+      nsd: {{item.nsd}},
+      status: 'Active',
+    {% endif %}
+  },
+{% endfor %}
+        ]
+      },
+      {
+      type: 'mappoint',
+      name: ' Inactive Tropical Cyclones',
+      visible: false,
+      data:[
+        {% for item in site.data.tc_stats.atlanticstormstats %}
+        {
+          {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+          {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+          {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+          {% if  end_date_fmt != current_date %}
+            name: '{{item.name}}',
+            lat: {{item.latitude}},
+            lon: {{item.longitude}},
+            basin: '{{item.basin}}',
+            charnam: '{{item.storm_charnumber}}',
+            mslp: 'N/A',
+            intensity: 'N/A',
+            ace: {{item.ace}},
+            nsd: {{item.nsd}},
+            status: 'Inactive',
+          {% endif %}
+        },
+      {% endfor %}
+      {% for item in site.data.tc_stats.northwestpacificstormstats %}
+      {
+        {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+        {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+        {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+        {% if  end_date_fmt != current_date %}
+          name: '{{item.name}}',
+          lat: {{item.latitude}},
+          lon: {{item.longitude}},
+          basin: '{{item.basin}}',
+          charnam: '{{item.storm_charnumber}}',
+          mslp: 'N/A',
+          intensity: 'N/A',
+          ace: {{item.ace}},
+          nsd: {{item.nsd}},
+          status: 'Inactive',
+        {% endif %}
+      },
+    {% endfor %}
+    {% for item in site.data.tc_stats.northeastpacificstormstats %}
+    {
+      {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+      {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+      {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+      {% if  end_date_fmt != current_date %}
+        name: '{{item.name}}',
+        lat: {{item.latitude}},
+        lon: {{item.longitude}},
+        basin: '{{item.basin}}',
+        charnam: '{{item.storm_charnumber}}',
+        mslp: 'N/A',
+        intensity: 'N/A',
+        ace: {{item.ace}},
+        nsd: {{item.nsd}},
+        status: 'Inactive',
+      {% endif %}
+    },
+  {% endfor %}
+  {% for item in site.data.tc_stats.southindianstormstats %}
+  {
+    {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+    {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+    {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+    {% if  end_date_fmt != current_date %}
+      name: '{{item.name}}',
+      lat: {{item.latitude}},
+      lon: {{item.longitude}},
+      basin: '{{item.basin}}',
+      charnam: '{{item.storm_charnumber}}',
+      mslp: 'N/A',
+      intensity: 'N/A',
+      ace: {{item.ace}},
+      nsd: {{item.nsd}},
+      status: 'Inactive',
+    {% endif %}
+  },
+{% endfor %}
+{% for item in site.data.tc_stats.southpacificstormstats %}
+{
+  {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+  {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+  {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+  {% if  end_date_fmt != current_date %}
     name: '{{item.name}}',
     lat: {{item.latitude}},
     lon: {{item.longitude}},
     basin: '{{item.basin}}',
     charnam: '{{item.storm_charnumber}}',
-    mslp: {{item.mslp}},
-    intensity: {{item.intensity}},
-    status: 'Inactive'
-    //{% if Date.parse({{item.end_month}}-{{row.end_day}}-2020) < Date.now() %}
-    //{% else %}
-    //  status: 'Active'
-    //{% endif %}
-  },
+    mslp: 'N/A',
+    intensity: 'N/A',
+    ace: {{item.ace}},
+    nsd: {{item.nsd}},
+    status: 'Inactive',
+  {% endif %}
+},
 {% endfor %}
-        ]
-      }]
+{% for item in site.data.tc_stats.northindianstormstats %}
+{
+  {% capture end_date %} 2020-{{item.end_month }}-{{item.end_day }} {% endcapture %}
+  {% capture end_date_fmt %} {{ end_date | date: "%Y-%m-%d" }} {% endcapture %}
+  {% capture current_date %} {{ "now" | date: "%Y-%m-%d" }} {% endcapture %}
+  {% if  end_date_fmt != current_date %}
+    name: '{{item.name}}',
+    lat: {{item.latitude}},
+    lon: {{item.longitude}},
+    basin: '{{item.basin}}',
+    charnam: '{{item.storm_charnumber}}',
+    mslp: 'N/A',
+    intensity: 'N/A',
+    ace: {{item.ace}},
+    nsd: {{item.nsd}},
+    status: 'Inactive',
+  {% endif %}
+},
+{% endfor %}
+      ]
+    }]
 
     });
-  // Display custom label with lat/lon next to crosshairs
-  document.getElementById('tcmap').addEventListener('mousemove', function (e) {
-      var position;
-      if (chart) {
-          if (!chart.lab) {
-              chart.lab = chart.renderer.text('', 0, 0)
-                  .attr({
-                      zIndex: 5
-                  })
-                  .css({
-                      color: '#505050'
-                  })
-                  .add();
-          }
-
-          e = chart.pointer.normalize(e);
-          position = chart.fromPointToLatLon({
-              x: chart.xAxis[0].toValue(e.chartX),
-              y: chart.yAxis[0].toValue(e.chartY)
-          });
-
-          chart.lab.attr({
-              x: e.chartX + 5,
-              y: e.chartY - 22,
-              text: 'Lat: ' + position.lat.toFixed(2) + '<br>Lon: ' + position.lon.toFixed(2)
-          });
-      }
-  });
-
-  document.getElementById('tcmap').addEventListener('mouseout', function () {
-      if (chart && chart.lab) {
-          chart.lab.destroy();
-          chart.lab = null;
-      }
-  });
+  
 });
 
 </script>
