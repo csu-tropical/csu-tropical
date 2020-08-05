@@ -4,8 +4,8 @@ title: CSU Hurricane Seasonal Forecasting
 ---
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
-<script src="/assets/js/highcharts.js"></script>
-<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
 {% include realtime.html %}
@@ -118,7 +118,7 @@ figure figcaption {
 									</tbody>
 									<tfoot>
                     <tr>
-                      <td colspan="3" style="font-size: small;">*Total forecast includes Arthur, Bertha, Cristobal, Dolly and Edouard which have formed in the Atlantic as of July 6th.</td>
+                      <td colspan="3" style="font-size: small;">*Total forecast includes Arthur, Bertha, Cristobal, Dolly, Edouard, Fay, Gonzalo, Hanna and Isaias which have formed in the Atlantic as of August 4th.</td>
                     </tr>
 										<tr>
 											<td colspan="3" style="font-size: small;">+A measure of a named storm’s potential for wind and storm surge destruction defined
@@ -131,10 +131,10 @@ figure figcaption {
 
 
 
-              <p><b>We have maintained our above-average seasonal hurricane forecast for the 2020 Atlantic season.</b></p>
+              <p><b>We have increased our forecast and now call for an extremely active 2020 Atlantic hurricane season.</b></p>
 
-              <p>Current cool neutral ENSO conditions may transition to weak La Niña conditions by later this summer.
-                Sea surface temperatures averaged across most of the tropical Atlantic and subtropical Atlantic are somewhat above normal.
+              <p>Sea surface temperatures averaged across the tropical Atlantic are much warmer than normal, and vertical wind shear is well below average.
+                Current cool neutral ENSO conditions may transition to weak La Niña conditions by later this summer.
                 We anticipate an above-normal probability for major hurricanes making landfall along the continental United States coastline and in the Caribbean.
               </p>
 
@@ -143,7 +143,7 @@ figure figcaption {
 							active season for them. They should prepare the same for every season, regardless of
 							how much activity is predicted.</p>
 
-							<a href="Forecast/2020-07.pdf" target="_blank" >Read the full document </a>
+							<a href="Forecast/2020-08.pdf" target="_blank" >Read the full document </a>
 
 						</div>
 						</div>
@@ -162,7 +162,18 @@ figure figcaption {
 								<li><a href="Forecast/2020-04.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Apr 2, 2020) <br>Forecast for 2020 </a></li>
 								<li><a href="Forecast/2020-06.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Jun 4, 2020) <br>Forecast for 2020</a></li>
 								<li><a href="Forecast/2020-07.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Jul 7, 2020) <br>Forecast for 2020</a></li>
-								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Aug 5, 2020) <br>Forecast for 2020</a></li>
+								<li><a href="Forecast/2020-08.pdf" class="button small doubleline special fit" target="_blank" style="width:150px;"><i class="fas fa-download"></i> (Aug 5, 2020) <br>Forecast for 2020</a></li>
+							</ul>
+						</div>
+            <h4 style="text-align:center;">Two-week Forecasts of North Atlantic Tropical Cyclone Activity</h4>
+            <div id="schedule" class="align-center">
+							<ul class="actions" style="text-align:center;">
+                <li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Aug 5, 2020) <br>2-week Forecast</a></li>
+								<li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Aug 19, 2020) <br>2-week Forecast</a></li>
+                <li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Sep 2, 2020) <br>2-week Forecast</a></li>
+                <li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Sep 16, 2020) <br>2-week Forecast</a></li>
+                <li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Sep 30, 2020) <br>2-week Forecast</a></li>
+                <li><a href="#" class="button small doubleline alt fit" target="_blank" style="width:150px;"><i class="far fa-pause-circle"></i> (Oct 14, 2020) <br>2-week Forecast</a></li>
 							</ul>
 						</div>
 					</div>
@@ -179,11 +190,74 @@ figure figcaption {
 							<h2>Real-Time Tropical Cyclone Statistics</h2>
 						</header>
 						<br>
-            <!-- <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
+            <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
             <br>
             <hr>
-            <br> -->
+            <br>
+            <h4 class="align-center">Global Tropical Cyclone Activity for 2020 (2020/2021 for the Southern Hemisphere)</h4>
+            <h5 class="align-center"> 1981-2010 Climatological Activity Through {{ "now" | date: "%d %B" }} in Parentheses </h4>
+
+            <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+              <table id="info" class="alt">
+                <thead>
+                  <tr>
+	                   <th>Basin</th>
+	                   <th>Named Storms</th>
+	                   <th>Named Storm Days</th>
+	                   <th>Hurricanes</th>
+	                   <th>Hurricane Days</th>
+  	                 <th>Major Hurricanes</th>
+	                   <th>Major Hurricane Days</th>
+	                   <th>Accumulated Cyclone Energy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for row in site.data.tc_stats.globalstats %}
+                    {% if row.basin == "Northern Hemisphere" %}
+                    <tr>
+                      <td><em>{{row.basin}}</em></td>
+                      <td><em>{{row.ns}} ({{row.nsclimo}})</em></td>
+                      <td><em>{{row.nsd}} ({{row.nsdclimo}})</em></td>
+                      <td><em>{{row.h}} ({{row.hclimo}})</em></td>
+                      <td><em>{{row.hd}} ({{row.hdclimo}})</em></td>
+                      <td><em>{{row.mh}} ({{row.mhclimo}})</em></td>
+                      <td><em>{{row.mhd}} ({{row.mhdclimo}})</em></td>
+                      <td><em>{{row.ace}} ({{row.aceclimo}})</em></td>
+                    </tr>
+                      <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    {% elsif row.basin == "Southern Hemisphere" %}
+                    <tr>
+                      <td><em>{{row.basin}}</em></td>
+                      <td><em>{{row.ns}} ({{row.nsclimo}})</em></td>
+                      <td><em>{{row.nsd}} ({{row.nsdclimo}})</em></td>
+                      <td><em>{{row.h}} ({{row.hclimo}})</em></td>
+                      <td><em>{{row.hd}} ({{row.hdclimo}})</em></td>
+                      <td><em>{{row.mh}} ({{row.mhclimo}})</em></td>
+                      <td><em>{{row.mhd}} ({{row.mhdclimo}})</em></td>
+                      <td><em>{{row.ace}} ({{row.aceclimo}})</em></td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                      <td>{{row.basin}}</td>
+                      <td>{{row.ns}} ({{row.nsclimo}})</td>
+                      <td>{{row.nsd}} ({{row.nsdclimo}})</td>
+                      <td>{{row.h}} ({{row.hclimo}})</td>
+                      <td>{{row.hd}} ({{row.hdclimo}})</td>
+                      <td>{{row.mh}} ({{row.mhclimo}})</td>
+                      <td>{{row.mhd}} ({{row.mhdclimo}})</td>
+                      <td>{{row.ace}} ({{row.aceclimo}})</td>
+                    </tr>
+                    {% endif %}
+                  {% endfor %}
+                </tbody>
+              </table>
+              <br>
+              <hr>
+              <br>
+            </div>
+
             <div id="basin" class="align-center" style="margin:0px -20px">
+              <h4 class="align-center">Individual Basin Tropical Cyclone Activity for 2020 (2020/2021 for the Southern Hemisphere)</h4>
 							<ul class="actions" style="text-align:center;">
                 <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
       					<li><a href="#nwp" class="button small doubleline alt" id="btn_nwp", onclick="showDiv('btn_nwp','nwp','eye2','txt2')" style="text-transform:none;width:150px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Northwest Pacific </p></a></li>
@@ -201,9 +275,7 @@ figure figcaption {
               <table id="atl_table" class="alt">
                 <thead>
                   <tr>
-                    <th>Year</th>
-                    <th>Storm #</th>
-                    <th>Name</th>
+                    <th>Storm # and Name</th>
                     <th>Active Dates</th>
                     <th>Intensity<br>(kts)</th>
                     <th>MSLP<br>(hPa)</th>
@@ -216,10 +288,8 @@ figure figcaption {
                 <tbody>
                 {% for row in site.data.tc_stats.atlanticstormstats %}
                 <tr>
-                  <td>{{row.year}}</td>
-                  <td>{{row.storm_number}}</td>
-                  <td>{{row.name}}</td>
-                  <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                  <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=al{{row.storm_charnumber}}{{row.year}}">{{row.storm_number}} {{row.name}}</a></td>
+                  <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                   <td>{{row.intensity}}</td>
                   <td>{{row.mslp}}</td>
                   <td>{{row.nsd}}</td>
