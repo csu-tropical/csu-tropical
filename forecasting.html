@@ -275,7 +275,8 @@ figure figcaption {
               <table id="atl_table" class="alt">
                 <thead>
                   <tr>
-                    <th>Storm # and Name</th>
+                    <th>Storm #</th>
+                    <th>Name</th>
                     <th>Active Dates</th>
                     <th>Intensity<br>(kts)</th>
                     <th>MSLP<br>(hPa)</th>
@@ -288,7 +289,8 @@ figure figcaption {
                 <tbody>
                 {% for row in site.data.tc_stats.atlanticstormstats %}
                 <tr>
-                  <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=al{{row.storm_charnumber}}{{row.year}}">{{row.storm_number}} {{row.name}}</a></td>
+                  <td>{{row.storm_number}}</td>
+                  <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=al{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
                   <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                   <td>{{row.intensity}}</td>
                   <td>{{row.mslp}}</td>
@@ -312,7 +314,6 @@ figure figcaption {
             <table id="nwp_table" class="alt">
               <thead>
                 <tr>
-                  <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
                   <th>Active Dates</th>
@@ -327,10 +328,9 @@ figure figcaption {
               <tbody>
               {% for row in site.data.tc_stats.northwestpacificstormstats %}
               <tr>
-                <td>{{row.year}}</td>
                 <td>{{row.storm_number}}</td>
-                <td>{{row.name}}</td>
-                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=wp{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                 <td>{{row.intensity}}</td>
                 <td>{{row.mslp}}</td>
                 <td>{{row.nsd}}</td>
@@ -353,7 +353,6 @@ figure figcaption {
             <table id="nep_table" class="alt">
               <thead>
                 <tr>
-                  <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
                   <th>Active Dates</th>
@@ -368,10 +367,9 @@ figure figcaption {
               <tbody>
               {% for row in site.data.tc_stats.northeastpacificstormstats %}
               <tr>
-                <td>{{row.year}}</td>
                 <td>{{row.storm_number}}</td>
-                <td>{{row.name}}</td>
-                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=ep{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                 <td>{{row.intensity}}</td>
                 <td>{{row.mslp}}</td>
                 <td>{{row.nsd}}</td>
@@ -393,7 +391,6 @@ figure figcaption {
             <table id="ni_table" class="alt">
               <thead>
                 <tr>
-                  <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
                   <th>Active Dates</th>
@@ -408,10 +405,9 @@ figure figcaption {
               <tbody>
               {% for row in site.data.tc_stats.northindianstormstats %}
               <tr>
-                <td>{{row.year}}</td>
                 <td>{{row.storm_number}}</td>
-                <td>{{row.name}}</td>
-                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=io{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                 <td>{{row.intensity}}</td>
                 <td>{{row.mslp}}</td>
                 <td>{{row.nsd}}</td>
@@ -433,7 +429,6 @@ figure figcaption {
             <table id="sp_table" class="alt">
               <thead>
                 <tr>
-                  <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
                   <th>Active Dates</th>
@@ -448,10 +443,9 @@ figure figcaption {
               <tbody>
               {% for row in site.data.tc_stats.southpacificstormstats %}
               <tr>
-                <td>{{row.year}}</td>
                 <td>{{row.storm_number}}</td>
-                <td>{{row.name}}</td>
-                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=sh{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                 <td>{{row.intensity}}</td>
                 <td>{{row.mslp}}</td>
                 <td>{{row.nsd}}</td>
@@ -473,7 +467,6 @@ figure figcaption {
             <table id="si_table" class="alt">
               <thead>
                 <tr>
-                  <th>Year</th>
                   <th>Storm #</th>
                   <th>Name</th>
                   <th>Active Dates</th>
@@ -488,10 +481,9 @@ figure figcaption {
               <tbody>
               {% for row in site.data.tc_stats.southindianstormstats %}
               <tr>
-                <td>{{row.year}}</td>
                 <td>{{row.storm_number}}</td>
-                <td>{{row.name}}</td>
-                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}}</td>
+                <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=sh{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+                <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
                 <td>{{row.intensity}}</td>
                 <td>{{row.mslp}}</td>
                 <td>{{row.nsd}}</td>
