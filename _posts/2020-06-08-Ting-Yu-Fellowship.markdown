@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ting-Yu Cha awarded Taiwan Ministry of Education graduate fellowship`"
+title:  "Ting-Yu Cha awarded Taiwan Ministry of Education graduate fellowship"
 date:   2020-06-08 
 image: "/images/news/6.8.20_Cha_fellowship.jpg"
 author: "Jayme DeLoss"
