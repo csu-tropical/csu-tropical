@@ -23,8 +23,8 @@
     Spectral time decomposition of m = 1–4: (a) tangential wind components and (b) reflectivity components. The Nyquist frequency is derived from the measuring frequency of the radar (∼0.00167 1/s). The derived propagation speeds of each (c) tangential wavenumber and (d) reflectivity wavenumber and the theoretical VRWs propagation speed from the linear wave theory (black dot). Figure is derived from Fig. 4 in Cha et al. 2020.
   acknowledgement: Supported by National Science Foundation awards AGS-1701225 and
     OAC-1661663, and Office of Naval Research awards N000141613033 and N000142012069.
-  bibtex: ../Publications/bibtex/Cha_etal_GRL_2020.tex
-  pdf: ../Publications/papers/Cha_etal_GRL_2020.pdf
+  bibtex: ../Publications/bibtex/Cha_etal_GRL_2020.bib
+  pdf: ../Publications/papers/Cha_etal_GRL2020.pdf
   keyword1: Asymmetric Dynamics
   keyword2: Radar
   keyword3: TC case study
