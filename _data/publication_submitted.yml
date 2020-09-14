@@ -1,3 +1,26 @@
+- id: cha_etal_MWR
+  year: 2020
+  title: Doppler Radar Analysis of the Eyewall Replacement Cycle of Hurricane Matthew (2016) in Vertical Wind Shear
+  author1: cha
+  author2: bell
+  author3: desrosiers
+  authors: Cha, T-Y., M. M. Bell, A. J. DesRosiers
+  journal: Monthly Weather Review
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: klotzbachetal_statisticaldynamical
   year: false
   title: A statistical/dynamical model for North Atlantic seasonal hurricane prediction
