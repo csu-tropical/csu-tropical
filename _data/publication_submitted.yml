@@ -1,3 +1,26 @@
+- id: cha_bell_AMT
+  year: 2020
+  title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
+  author1: cha
+  author2: bell
+  author3: false
+  authors: Cha, T-Y., M. M. Bell
+  journal: Atmospheric Measurement Techniques
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: cha_etal_MWR
   year: 2020
   title: Doppler Radar Analysis of the Eyewall Replacement Cycle of Hurricane Matthew (2016) in Vertical Wind Shear
