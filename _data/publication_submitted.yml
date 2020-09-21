@@ -1,3 +1,25 @@
+- id: Klotzbach_Schreck_2020_BAMS
+  year: 2020
+  title: The record-breaking 1933 Atlantic hurricane season
+  author1: klotzback
+  author2: schreck III
+  author3: compo
+  authors: Klotzback, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
+  journal: Bullletin of the American Meteorological Society
+  others:  submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Razin_Bell_2020_MWR
   year: 2020
   title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
