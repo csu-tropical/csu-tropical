@@ -1,3 +1,25 @@
+- id: Razin_Bell_2020_MWR
+  year: 2020
+  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
+  author1: razin
+  author2: bell
+  author3: false
+  authors: Razin, N., M. M. Bell
+  journal: Monthly Weather Review
+  others:  in-review
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Boehm_Bell_2020_JAS
   year: 2020
   title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
