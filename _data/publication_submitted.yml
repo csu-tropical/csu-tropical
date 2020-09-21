@@ -1,3 +1,23 @@
+- id: Casa_Bell_2020_JGR
+  year: 2020
+  author1: Casa
+  author2: Bell
+  author3: false
+  journal: Journal of Geophysical Research
+  others:  submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: trabing_bell_JGR
   year: 2020
   title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
