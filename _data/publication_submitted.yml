@@ -1,3 +1,25 @@
+- id: Boehm_Bell_2020_JAS
+  year: 2020
+  title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
+  author1: boehm
+  author2: bell
+  author3: false
+  authors: Boehm, A.M, M. M. Bell
+  journal: Journal of Atmospheric Science
+  others:  submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Casa_Bell_2020_JGR
   year: 2020
   title: A Simplified Approach to Understanding the Tropical Cyclone Boundary Layer and Surface Drag Coefficient
