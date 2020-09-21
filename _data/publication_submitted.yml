@@ -1,3 +1,26 @@
+- id: trabing_bell_JGR
+  year: 2020
+  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Journal of Geophysical Research
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: cha_bell_AMT
   year: 2020
   title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
