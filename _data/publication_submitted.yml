@@ -1,3 +1,25 @@
+- id: Klotzbach_Caron_2020_GRL
+  year: 2020
+  title: A statistical/dynamical model for North Atlantic seasonal hurricane prediction
+  author1: klotzbach
+  author2: caron
+  author3: bell
+  authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
+  journal: Geophysical Research Letters
+  others:  submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Martinez_Nam_2020_JGR
   year: 2020
   title: On the contributions of incipient vortex circulation and environmental moisture to tropical cyclone expansion
