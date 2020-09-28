@@ -17,9 +17,9 @@
   acknowledgement: false
   bibtex: false
   pdf: false
-  keyword1: dual-Doppler retrievals
-  keyword2: C-band radar
-  keyword3: operational radar
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: chagrl2020 # lastname,journal,year
   year: 2020
   title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane Michael (2018)
