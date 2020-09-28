@@ -13,10 +13,10 @@
   keypoint3: false
   abstract: false
   summary: false
-  image: ../Publications/figures/del_Moral_2020_Fig1.png
+  image: false
   acknowledgement: false
-  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib
-  pdf: ../Publications/papers/delMoral_etal_RS2020.pdf
+  bibtex: false
+  pdf: false
   keyword1: dual-Doppler retrievals
   keyword2: C-band radar
   keyword3: operational radar
