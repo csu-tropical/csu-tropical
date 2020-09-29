@@ -1,3 +1,27 @@
+- id: del_Moral_bell_RS
+  year: 2020
+  title: >
+    C-band dual-Doppler retrievals in complex terrain: Improving the knowledge of severe storm dynamics in Catalonia
+  author1: bell #only group members, no external authors
+  author2: false
+  author3: false
+  authors: del Moral, A., T. M. Weckwerth, T. Rigo, M. M. Bell, M. Carmen Llasat
+  journal: Remote Sensing
+  others: 12, 2930 #volume and number
+  doi: https://doi.org/10.3390/rs12182930
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Convective activity in Catalonia (northeastern Spain) mainly occurs during summer and autumn, with severe weather occurring 33 days per year on average. In some cases, the storms have unexpected propagation characteristics, likely due to a combination of the complex topography and the thunderstorms’ propagation mechanisms. Partly due to the local nature of the events, numerical weather prediction models are not able to accurately nowcast the complex mesoscale mechanisms (i.e., local influence of topography). This directly impacts the retrieved position and motion of the storms, and consequently, the likely associated storm severity. Although a successful warning system based on lightning and radar observations has been developed, there remains a lack of knowledge of storm dynamics that could lead to forecast improvements. The present study explores the capabilities of the radar network at the Meteorological Service of Catalonia to retrieve dual-Doppler wind fields to study the dynamics of Catalan thunderstorms. A severe thunderstorm that splits and a tornado-producing supercell that is channeled through a valley are used to demonstrate the capabilities of an advanced open source technique that retrieves dynamical variables from C-band operational radars in complex terrain. For the first time in the Iberian Peninsula, complete 3D storm-relative winds are obtained, providing information about the internal dynamics of the storms.  This aids in the analyses of the interaction between different storm cells within a system and/or the interaction of the cells with the local topography
+  summary: false
+  image: ../Publications/figures/del_Moral_2020_Fig1.png
+  caption: false
+  acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.  
+  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib 
+  pdf: ../Publications/papers/delMoral_etal_RS2020.pdf
+  keyword1: dual-Doppler retrievals 
+  keyword2: C-band radar 
+  keyword3: operational radar
 - id: chagrl2020 # lastname,journal,year
   year: 2020
   title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane Michael (2018)
