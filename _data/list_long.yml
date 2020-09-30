@@ -16,7 +16,7 @@
   image: ../Publications/figures/Marinescu_2020_MWR_Figure.png
   caption: false
   acknowledgement: Funding from the Monfort Excellence Fund provided to Susan C. van den Heever as a Monfort Professor at Colorado State University is acknowledged, as well as funding from NSF grant AGS-1409686. Peter Marinescu, Sean Freeman, and Aryeh Drager were also partially supported by NSF Grant No. DGE-1321845 Amend 5 and NSF Grant No. DGE-1840343.  Michael Bell was supported by NSF Grants AGS-1701225 and OAC-1661663. We would like to acknowledge the entire C3 678 LOUD-Ex science team for their time and efforts, particularly Dr.  Emily Riley Dellaripa for assisting in the initial discussions for this work. We would also like to acknowledge Mark Benoit from InterMet systems for assisting with the radiosonde system and Dr. Stacey Hitchcock for useful discussions. We thank Nathan Dahl and two anonymous reviewers for their constructive and thorough feedback on this work.
-  bibtex: ../Publications/bibtex/Marinescu_MWR_2020.bibtex
+  bibtex: ../Publications/bibtex/Marinescu_MWR_2020.bibtex.bib
   pdf: ../Publications/papers/Marinescu_Bell_MWR2020.pdf
   keyword1: false
   keyword2: false
