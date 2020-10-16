@@ -133,56 +133,7 @@
   keyword1: false
   keyword2: false
   keyword3: false
-- id: klotzbachetal_statisticaldynamical
-  year: false
-  title: A statistical/dynamical model for North Atlantic seasonal hurricane prediction
-  author1: klotzbach
-  author2: caron
-  author3: bell
-  authors: Klotzbach, P. J., L.-P. Caron, and M. M. Bell
-  journal: Geophysical Research Letters
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: klotzbachetal_1933hurricane
-  year: false
-  title: The record-breaking 1933 Atlantic hurricane season
-  author1: klotzbach
-  author2: schreck
-  author3: compo
-  author4: bowen
-  author5: gibney 
-  author6: oliver
-  author7: bell
-  authors: Klotzbach, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, and M. M. Bell
-  journal: Bulletin of the American Meteorological Society
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
+
 - id: chenetaltransbasin
   year: false
   title: Decadal modulation of trans-basin variability on extended boreal summer tropical
