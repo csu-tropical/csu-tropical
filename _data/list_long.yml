@@ -1,25 +1,3 @@
-- id: Klotzbach_Schreck_2020_BAMS
-  year: 2020
-  title: The cord-breaking 1933 Atlantic Hurricane Season
-  author1: klotzbach
-  author2: false
-  author3: false
-  authors: Klotzbach, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
-  journal: Bulletin of the American Meteorological Society
-  others:  published
-  doi: https://doi.org/10.1175/BAMS-D-19-0330.1
-  keypoint1: The 1933 Atlantic hurricane season was extremely active, rivaling or exceeding the infamous 2005 season for several tropical cyclone parameters
-  keypoint2: Large-scale environmental conditions in 1933 were very favorable, with warm tropical Atlantic SSTs and reduced vertical wind shear
-  keypoint3: Current June and August statistical forecast models from CSU well-anticipated the heightened levels of activity observed in 1933
-  abstract: The 1933 Atlantic hurricane season was extremely active, with 20 named storms and 11 hurricanes including 6 major (Category 3+; one-minute maximum sustained winds >=96 kt) hurricanes occurring. The 1933 hurricane season also generated the most Accumulated Cyclone Energy (an integrated metric that accounts for frequency, intensity, and duration) of any Atlantic hurricane season on record. A total of 8 hurricanes tracked through the Caribbean in 1933 - the most on record. In addition, two Category 3 hurricanes made landfall in the United States just 23 hours apart: the Treasure Coast hurricane in southeast Florida followed by the Cuba-Brownsville hurricane in south Texas.This manuscript examines large-scale atmospheric and oceanic conditions that likely led to such an active hurricane season. Extremely weak vertical wind shear was prevalent over both the Caribbean and the tropical Atlantic throughout the peak months of the hurricane season, likely in part due to a weak-to-moderate La Niña event. These favorable dynamic conditions, combined with above-normal tropical Atlantic sea surface temperatures, created a very conducive environment for hurricane formation and intensification. The Madden-Julian oscillation was relatively active during the summer and fall of 1933, providing sub-seasonal conditions that were quite favorable for tropical cyclogenesis during mid-to-late August and late September to early October. The current early June and August statistical models used by Colorado State University would have predicted a very active 1933 hurricane season. A better understanding of these extremely active historical Atlantic hurricane seasons may aid in anticipation of future hyperactive seasons.
-  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño-Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium-Range Weather Forecasts System 5 (SEAS5) model to forecast the three large-scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of Accumulated Cyclone Energy - an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting Accumulated Cyclone Energy at all lead times, with improving skill as the lead time decreases. The combination of CSU’s currently-existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June and July outlooks, with the most notable improvement in early April.
-  image: Klotzbach_Schreck_2020_BAMS.png
-  acknowledgement: We would like to thank Cary Mock, two anonymous reviewers and the editor Chris Landsea, for valuable comments that helped improved this manuscript. P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research. M. Bell was supported by National Science Foundation award AGS-1701225 and Office of Naval Research Award N000141613033.
-  bibtex: Klotzbach_Schreck_2020_BAMS.bibtex
-  pdf: Klotzbach_Schreck_2020_BAMS.pdf
-  keyword1: Forecasting
-  keyword2: Seasonal
-  keyword3: Modeling
 - id: Marinescu_Bell_MWR
   year: 2020
   title: Updraft Vertical Velocity Observations and Uncertainties in High Plains Supercells Using Radiosondes and Radars
