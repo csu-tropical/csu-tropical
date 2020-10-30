@@ -23,7 +23,8 @@
   keyword3: false
 - id: del_Moral_bell_RS
   year: 2020
-  title: C-band dual-Doppler retrievals in complex terrain: Improving the knowledge of severe storm dynamics in Catalonia
+  title: >
+    C-band dual-Doppler retrievals in complex terrain: Improving the knowledge of severe storm dynamics in Catalonia
   author1: bell #only group members, no external authors
   author2: false
   author3: false
@@ -159,7 +160,6 @@
     with the principal components RMM1 and RMM2 of the MJO. The black dots represent
     days where TC genesis occurred. The circle in the center with an amplitude of
     0.75 represents the days with weak MJO activity.
-
   acknowledgement: The authors thank the anonymous reviewer for critical comments
     and constructive suggestions which improved the overall quality of the manuscript.
   bibtex: ../Publications/bibtex/bhardwaj_et_al_2019_bibtex.bib
@@ -208,7 +208,6 @@
     value is below the 10th percentile. The percentage on the title corresponds to
     the spatial correlation of that model plot with observations (top panel). Figure
     from Lee et al. (2018),
-
   acknowledgement: SJC and AHS acknowledge support from NOAA grant NA16OAR4310079.
     We thank Zongjian Ke and Jianyun Gao for their contributions to the China Meteorological
     Administration forecast summary.
@@ -268,7 +267,6 @@
     1965 to 2016. (b) Thirty-year moving correlation coefficients between WNP TC number
     and the PNA (black line), the NAO (red line), and the AO (blue line) from 1965
     to 2016.
-
   acknowledgement: This work was jointly funded by the National Key Research and Development
     Program of China (2018YFC1507305 and 2018YFA0606003) and the National Grand Fundamental
     Research 973 Program of China (2015CB452800). Klotzbach would like to acknowledge
@@ -383,7 +381,6 @@
     based on an F-test, with their maximum indicated by triangles. Red lines denote
     the mean (solid) and the standard deviation (dashed) of R30. Filling contours
     refer to the probability density through a Gaussian kernel density estimation.
-
   acknowledgement: We would like to express our sincere thanks to four anonymous reviewers
     for their helpful comments on an earlier version of this manuscript. This work
     was jointly funded by the National Natural Science Foundation of China (61827901),
@@ -438,7 +435,6 @@
     Western Development Region and (b) Eastern Development Region. (c) Sum of all
     ACE (10^4 kt^2) generated within 10° longitude bins for 1988–2017 (black) and
     the 1992 (green), 2015 (orange), and 2018 (purple) seasons.
-
   acknowledgement: The authors thank Dr. Suzana Camargo and two anonymous reviewers
     for their valuable feedback on earlier versions of this manuscript. K. Wood was
     supported by the Mississippi State University Office of Research and Economic
@@ -490,7 +486,6 @@
     relative to the TCG location and time for the MJO-associated (a), QBWO-associated
     (b), ER-associated (c), and SSW-associated categories (d). Only values of 850
     hPa wind anomalies exceeding the 95% confidence level have been plotted.
-
   acknowledgement: H. Zhao thanks the support from the National Natural Science Foundation
     of China (41675072, 41730961), the QingLan Project of Jiangsu Province (R2017Q01)
     and the Priority Academic Program Development of Jiangsu Higher Education Institutions
@@ -549,7 +544,6 @@
     and the annual average of TCG latitude and TCG longitude during 1979–97 and 1998–2016
     are also respectively plotted. An asterisk indicates that the correlation is significant
     at a 95% confidence level.
-
   acknowledgement: This research was jointly supported by the National Natural Science
     Foundation of China (Grants 41675072, 41922033, and 41675051), the QingLan Project
     of Jiangsu Province (R2017Q01), the project of the Six Talent Peaks Project in
@@ -609,7 +603,6 @@
     and total TC count (red line). The correlation coefficients among the WNPMI, EMI,
     and Niño-3.4 index during the two subperiods are also listed. Double asterisks
     indicate statistical significance at a 95% confidence level.
-
   acknowledgement: We thank the three anonymous reviewers as well as the editor for
     helpful comments that significantly improved this manuscript. This research was
     jointly supported by the National Natural Science Foundation of China (Grants
@@ -672,7 +665,6 @@
     and 0.16 (not significant at the 95 % confidence level). (b) Evolution of SST
     anomalies over the Niño-3.4 region and tropical Indian Ocean composited on four
     strong El Niño events (i.e., 1972/1973, 1982/1983, 1997/1998, and 2015/2016).
-
   acknowledgement: This research was jointly supported by the National Natural Science
     Foundation of China (41675072 and 41730961), the Qinglan Project of Jiangsu Province
     (R2017Q01), the Natural Science Foundation of Jiangsu Province (BK20170941), and
@@ -924,7 +916,6 @@
     when the radar went offline and c) the difference joint probability distribution
     between Florence/KMHX and Harvey/KHGX (dashed contours indicate frequencies were
     greater for KHGX).
-
   acknowledgement: This study was supported by National Science Foundation awards
     AGS-1701225, AGS-1854607, and OAC-1661663. The authors would like to thank Dr.
     Ya-Chien Feng for her comments on the manuscript. The authors would also like
@@ -1045,7 +1036,6 @@
     E.O. was supported by the National Sciences and Engineering Council of Canada
     (NSERC) Discovery Grant RGPIN-2018-05255. The reconstructed MJO index was obtained
     from E.O.’s website: https://ecjoliver.weebly.com/mjo-reconstruction.html.
-
   bibtex: ../Publications/bibtex/klotzbach_et_al_2019_scirep_bibtex.bib
   pdf: ../Publications/papers/klotzbach_et_al_2019_scirep.pdf
   keyword1: Quasi-biennial oscillation
@@ -1216,7 +1206,6 @@
     vorticity generation. The results provide new insights into multi-scale processes
     during TC genesis and the interactions of a pre-depression with VWS at various
     spatial scales.
-
   summary: false
   image: ../Publications/figures/Nam_Bell_2020_Fig13.png
   caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
