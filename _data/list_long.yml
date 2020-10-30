@@ -1,7 +1,29 @@
+- id: Marinescu_Bell_MWR
+  year: 2020
+  title: Updraft Vertical Velocity Observations and Uncertainties in High Plains Supercells Using Radiosondes and Radars
+  author1: bell
+  author2: false
+  author3: false
+  authors: Marinescu, P.J., P.C. Kennedy, M.M. Bell, A.J. Drager, L.D. Grant, S.W. Freeman, S.C. van den Heever
+  journal: Monthly Weather Review
+  others:  online early release
+  doi: https://doi.org/10.1175/MWR-D-20-0071.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Observations of the air vertical velocities (wair) in supercell updrafts are presented, including uncertainty estimates, from radiosonde GPS measurements in two supercells. These in situ observations were collected during the Colorado State University Convective CLoud Outflows and UpDrafts Experiment (C3 15 LOUD-Ex) in moderately unstable environments in Colorado and Wyoming, USA. Based on the radiosonde accelerations, instances when the radiosonde balloon likely burst within the updraft are determined, and adjustments are made to account for the subsequent reduction in radiosonde buoyancy. Before and after these adjustments, the maximum estimated wair values are 36.2 and 49.9 m s-1 19 , respectively. Radar data are used to contextualize the in situ observations and suggest that most of the radiosonde observations were located several kilometers away from the most intense vertical motions. Therefore, the radiosonde-based wair values presented likely underestimate the maximum values within these storms due to these sampling biases, as well as the impacts from hydrometeors, which are not accounted for. When possible, radiosonde-based wair values were compared to estimates from dual-Doppler methods and from parcel theory. When the radiosondes observed their highest wair values, dual-Doppler methods generally produced 15-20 m s-1 26 lower wair for the same location, which could be related to the differences in the observing systems’ resolutions. In situ observations within supercell updrafts, which have been limited in recent decades, can be used to improve our understanding and modeling of storm dynamics. This study provides new in situ observations, as well as methods and lessons that could be applied to future field campaigns.
+  summary: false
+  image: ../Publications/figures/Marinescu_MWR_2020.png
+  caption: false
+  acknowledgement: Funding from the Monfort Excellence Fund provided to Susan C. van den Heever as a Monfort Professor at Colorado State University is acknowledged, as well as funding from NSF grant AGS-1409686. Peter Marinescu, Sean Freeman, and Aryeh Drager were also partially supported by NSF Grant No. DGE-1321845 Amend 5 and NSF Grant No. DGE-1840343.  Michael Bell was supported by NSF Grants AGS-1701225 and OAC-1661663. We would like to acknowledge the entire C3 678 LOUD-Ex science team for their time and efforts, particularly Dr.  Emily Riley Dellaripa for assisting in the initial discussions for this work. We would also like to acknowledge Mark Benoit from InterMet systems for assisting with the radiosonde system and Dr. Stacey Hitchcock for useful discussions. We thank Nathan Dahl and two anonymous reviewers for their constructive and thorough feedback on this work.
+  bibtex: ../Publications/bibtex/Marinescu_MWR_2020.bibtex.bib
+  pdf: ../Publications/papers/Marinescu_Bell_MWR2020.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: del_Moral_bell_RS
   year: 2020
-  title: >
-    C-band dual-Doppler retrievals in complex terrain: Improving the knowledge of severe storm dynamics in Catalonia
+  title: C-band dual-Doppler retrievals in complex terrain: Improving the knowledge of severe storm dynamics in Catalonia
   author1: bell #only group members, no external authors
   author2: false
   author3: false
@@ -15,7 +37,7 @@
   abstract: Convective activity in Catalonia (northeastern Spain) mainly occurs during summer and autumn, with severe weather occurring 33 days per year on average. In some cases, the storms have unexpected propagation characteristics, likely due to a combination of the complex topography and the thunderstorms’ propagation mechanisms. Partly due to the local nature of the events, numerical weather prediction models are not able to accurately nowcast the complex mesoscale mechanisms (i.e., local influence of topography). This directly impacts the retrieved position and motion of the storms, and consequently, the likely associated storm severity. Although a successful warning system based on lightning and radar observations has been developed, there remains a lack of knowledge of storm dynamics that could lead to forecast improvements. The present study explores the capabilities of the radar network at the Meteorological Service of Catalonia to retrieve dual-Doppler wind fields to study the dynamics of Catalan thunderstorms. A severe thunderstorm that splits and a tornado-producing supercell that is channeled through a valley are used to demonstrate the capabilities of an advanced open source technique that retrieves dynamical variables from C-band operational radars in complex terrain. For the first time in the Iberian Peninsula, complete 3D storm-relative winds are obtained, providing information about the internal dynamics of the storms.  This aids in the analyses of the interaction between different storm cells within a system and/or the interaction of the cells with the local topography
   summary: false
   image: ../Publications/figures/del_Moral_2020_Fig1.png
-  caption: false
+  caption: 
   acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.  
   bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib 
   pdf: ../Publications/papers/delMoral_etal_RS2020.pdf
