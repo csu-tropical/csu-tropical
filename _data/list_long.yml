@@ -1,3 +1,102 @@
+- id: Martinez_Nam_JGR
+  year: 2020
+  title: On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion
+  author1: martinez
+  author2: nam
+  author3: bell
+  authors: Martinez, J., C. C. Nam, M. M. Bell
+  journal: Journal of Geophysical Research
+  others:  published
+  doi: https://doi.org/10.1029/2020JD033324
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract: This study investigates the contributions of incipient vortex circulation and midlevel moisture to tropical cyclone (TC) expansion within an idealized numerical modeling framework. We find that the incipient vortex circulation places the primary constraint on TC expansion. Increasing the midlevel moisture further promotes expansion but mostly expedites the intensification process. The expansion rate for initially large vortices exhibits a stronger response to increasing the midlevel moisture compared to initially small vortices. Previous studies have noted a proclivity for relatively small TCs to stay small and relatively large TCs to stay large; that is, TCs possess a sort of “memory” with respect to their incipient circulation. We reproduce this finding with an independent modeling framework and further demonstrate that an initially large vortex can expand more quickly than its relatively smaller counterpart; therefore, with all other factors contributing to expansion held constant, the contrast in size between the two vortices will increase with time. Varying the incipient vortex circulation is associated with subsequent variations in the amount and scale of outer‐core convection. As the incipient vortex circulation decreases, outer‐core convection is relatively scarce and characterized by small‐scale, isolated convective elements. On the contrary, as the incipient vortex circulation increases, outer‐core convection abounds and is characterized by relatively large rainbands and mesoscale convective systems. A combined increase in the amount and scale of outer‐core convection permits an initially large vortex to converge a substantially greater amount of absolute angular momentum compared to its relatively smaller counterpart, resulting in distinct expansion rates.
+  summary: A variety of atmospheric and oceanic processes contribute to the expansion of a tropical cyclone wind field. We examine a subset of factors with idealized simulations to better understand how tropical cyclones expand. When both the initial size of a tropical cyclone and the environmental moisture are varied in accordance with observations, we find that the initial size of a tropical cyclone places the primary constraint on the expansion of a tropical cyclone wind field. We verify that tropical cyclones possess “memory” of their size when they first developed such that a small tropical cyclone stays small and a large tropical cyclone stays large. We further demonstrate that large tropical cyclones can expand more quickly than their relatively smaller counterparts. The amount of moisture in the atmosphere modulates the expansion of a tropical cyclone wind field. A relatively moist environment facilitates the development of convection and a concomitant increase of wind speeds that contributes to an expansion of the tropical cyclone wind field. Our findings motivate additional research investigating the variability of processes contributing to the initial size of a tropical cyclone amidst Earth's warming climate system.
+  image: ../Publications/figures/Martinez_Nam_JGR_2020.png
+  caption: "Azimuthally averaged absolute angular momentum at 1‐km altitude (shaded), 0–1‐km altitude layer‐averaged radial inflow magnitude (cyan contours
+at 3, 5, 10, and 15m s−1), and the absolute angular momentum surface corresponding to 3.0 × 106 m2 s−1 (orange) are shown as a function of time relative to
+the initiation of rapid intensification for the 3‐D simulations: (a) SD, (b) SM, (c) LD, and (d) LM. The innermost black curve in each panel is the radius of
+maximum tangential winds (RMW) and the outermost black curve is the radius of gale‐force winds (Rgales)."
+  acknowledgement: This work was funded by the Office of Naval Research Awards N000141613033 and N000142012069 and the National Science Foundation (NSF) Award AGS‐1701225. J. M. was also supported by the NSF Bridge to the Doctorate Fellowship Award 004863‐00003. We thank George Bryan for providing the code to implement time varying point downscaling in CM1. We thank three anonymous reviewers for their insightful comments that have improved the overall quality of our manuscript.
+  bibtex: ../Publications/bibtex/Martinez_Nam_JGR_2020.bib
+  pdf: ../Publications/papers/Martinez_Nam_JGR_2020.pdf
+  keyword1: Tropical Cyclones
+  keyword2: "Hurricanes/Typhoons"
+  keyword3: Size
+
+- id: Klotzbach_Caron_2020_GRL
+  year: 2020
+  title: A statistical/dynamical model for North Atlantic Seasonal Hurricane Prediction
+  author1: klotzbach
+  author2: false
+  author3: bell
+  authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
+  journal: Geophysical Research Letters
+  others:  published
+  doi: https://doi.org/10.1029/2020GL089357
+  keypoint1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keypoint2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keypoint3:  A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+  abstract: Colorado State University (CSU) has been issuing seasonal hurricane forecasts since 1984, with statistical modeling techniques primarily underpinning these outlooks. CSU has recently begun issuing statistical/dynamical forecasts, using the SEAS5 forecast system from the European Centre for Medium‐Range Weather Forecasts to forecast the three predictors that currently comprise CSU's early August statistical forecast model. SEAS5 shows skill at forecasting all three of these July predictors from an initialization as early as 1 March. The SEAS5 model forecasts for the three parameters are then regressed against seasonal accumulated cyclone energy. The model has a cross‐validated correlation skill of r = 0.60 with accumulated cyclone energy for a 1 March initialization, improving to r = 0.67 for a 1 June initialization over the period from 1982–2019. The combination of the statistical/dynamical model with the currently existing statistical models shows improved skill over either model individually for the April, June, and July outlooks.
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño‐Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium‐Range Weather Forecasts System 5 (SEAS5) model to forecast the three large‐scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of accumulated cyclone energy—an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting accumulated cyclone energy at all lead times, with improving skill as the lead time decreases. The combination of CSU's currently existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June, and July outlooks, with the most notable improvement in early April.
+  image: ../Publications/figures/Klotzbach_Caron_2020_GRL.png
+  caption: "Combined model hindcasts for seasonal ACE based on March, May, and June initializations from 1982–2019 and skill summary of all models.
+(a) Combined March SEAS5 ACE and early April statistical model ACE hindcasts. (b) Combined May SEAS5 ACE and early June statistical model ACE
+hindcasts. (c) Combined June SEAS5 ACE and early July statistical model ACE hindcasts. (d) Correlation summary of the statistical model, the statistical/
+dynamical model, and the combined model for each lead time. Pearson correlations between model hindcasts and observations are displayed with solid bars,
+while rank correlations between model hindcasts and observations are displayed with bars using vertical hashing."
+  acknowledgement: "We would like to thank the anonymous
+reviewers and the editor for helpful
+comments that improved the
+manuscript. We are grateful to Pierre‐
+Antoine Bretonnière, Margarida
+Samso, and Lluís Palma for their
+support in obtaining the seasonal
+forecast data. Phil Klotzbach would like
+to acknowledge grants from the Severo
+Ochoa Mobility Program and the G.
+Unger Vetlesen Foundation. Michael
+Bell was funded by the Office of Naval
+Research award N000141613033."
+  bibtex: ../Publications/bibtex/Klotzbach_Caron_2020_GRL.bib
+  pdf: ../Publications/papers/Klotzbach_Caron_2020_grl.pdf
+  keyword1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keyword2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keyword3: A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+
+- id: Klotzbach_Schreck_2020_BAMS
+  year: 2020
+  title: The record-breaking 1933 Atlantic Hurricane Season
+  author1: klotzback
+  author2: false
+  author3: false
+  authors: Klotzback, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
+  journal: Bulletin of the American Meteorological Society
+  others:  published
+  doi: https://doi.org/10.1175/BAMS-D-19-0330.1
+  keypoint1: The 1933 Atlantic hurricane season was extremely active, rivaling or exceeding the infamous 2005 season for several tropical cyclone parameters
+  keypoint2: Large-scale environmental conditions in 1933 were very favorable, with warm tropical Atlantic SSTs and reduced vertical wind shear
+  keypoint3: Current June and August statistical forecast models from CSU well-anticipated the heightened levels of activity observed in 1933
+  abstract: "The 1933 Atlantic hurricane season was extremely active, with 20 named storms and 11 hurricanes including 6 major hurricanes occurring. The 1933 hurricane season also generated the most Accumulated Cyclone Energy (an integrated metric that accounts for frequency, intensity, and duration) of any Atlantic hurricane season on record. A total of 8 hurricanes tracked through the Caribbean in 1933, the most on record. In addition, two Category 3 hurricanes made landfall in the United States just 23 hours apart:: the Treasure Coast hurricane in southeast Florida followed by the CubaBrownsville hurricane in south Texas.
+
+This manuscript examines large-scale atmospheric and oceanic conditions that likely led to such an active hurricane season. Extremely weak vertical wind shear was prevalent over both the Caribbean and the tropical Atlantic throughout the peak months of the hurricane season, likely in part due to a weak-to-moderate La Niña event. These favorable dynamic conditions, combined with above-normal tropical Atlantic sea surface temperatures, created a very conducive environment for hurricane formation and intensification. The Madden-Julian oscillation was relatively active during the summer and fall of 1933, providing sub-seasonal conditions that were quite favorable for tropical cyclogenesis during mid-to-late August and late September to early October. The current early June and August statistical models used by Colorado State University would have predicted a very active 1933 hurricane season. A better understanding of these extremely active historical Atlantic hurricane seasons may aid in anticipation of future hyperactive seasons.
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño-Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium-Range Weather Forecasts System 5 (SEAS5) model to forecast the three large-scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of Accumulated Cyclone Energy - an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting Accumulated Cyclone Energy at all lead times, with improving skill as the lead time decreases. The combination of CSU’s currently-existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June and July outlooks, with the most notable improvement in early April."
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño-Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium-Range Weather Forecasts System 5 (SEAS5) model to forecast the three large-scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of Accumulated Cyclone Energy - an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting Accumulated Cyclone Energy at all lead times, with improving skill as the lead time decreases. The combination of CSU’s currently-existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June and July outlooks, with the most notable improvement in early April.
+  image: ../Publications/figures/Klotzbach_Schreck_2020_BAMS.png
+  caption:  "(a) August–October 1933 sea level pressure anomalies (hPa), (b) August–October 1933
+zonal wind shear anomalies (m s-1
+), (c) August–October 1933 SST anomalies (°C) and (d)
+August–October 1933 500 hPa geopotential height anomalies (m). (e-h) As in (a-d) but for
+August–October 2005. Anomalies in panels a–d are calculated relative to a 1901–1930 base
+period, while anomalies in panels e–h are calculated relative to a 1971–2000 base period."
+  acknowledgement: We would like to thank Cary Mock, two anonymous reviewers and the editor Chris Landsea, for valuable comments that helped improved this manuscript. P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research. M. Bell was supported by National Science Foundation award AGS-1701225 and Office of Naval Research Award N000141613033.
+  bibtex: ../Publications/bibtex/Klotzbach_Schreck_2020_BAMS.bibtex
+  pdf: ../Publications/papers/Klotzbach_Schreck_2020_BAMS.pdf
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Modeling
+
 - id: Marinescu_Bell_MWR
   year: 2020
   title: Updraft Vertical Velocity Observations and Uncertainties in High Plains Supercells Using Radiosondes and Radars
