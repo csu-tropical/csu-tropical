@@ -56,7 +56,7 @@ td:first-child {
 								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
 									<h3 style="color:gray">Forecasts for 2020s</h3>
 								</header>
-							{% for yyyy in (2020..2029) reversed %}
+							{% for yyyy in (2020..2020) reversed %}
 							<h4 id="elements">{{yyyy}}</h4>
 							{% for item in site.data.forecasting.archive.2020s.toc %}
 								{% for entry in item.subfolderitems %}
