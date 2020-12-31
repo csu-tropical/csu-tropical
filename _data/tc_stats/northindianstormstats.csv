@@ -1,6 +1,1 @@
 year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
-2020,1,AMPHAN,5,16,5,21,10.3,86.0,145,901,4.75,3.5,2.25,17.77,IO,01,
-2020,2,NISARGA,6,2,6,3,17.0,71.7,75,975,1.0,0.5,0,1.45,IO,02,
-2020,3,GATI,11,21,11,23,10.8,55.6,100,967,2.0,0.75,0.25,3.03,IO,03,
-2020,4,NIVAR,11,23,11,26,10.0,83.9,70,981,3.0,0.5,0,3.27,IO,04,
-2020,5,BUREVI,12,1,12,4,7.8,84.8,45,999,1.25,0,0,0.69,IO,05,

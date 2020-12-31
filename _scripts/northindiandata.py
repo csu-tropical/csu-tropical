@@ -38,7 +38,7 @@ onlyfiles = next(os.walk('../_data/tc_stats/North_Indian'))[2] #dir is your dire
 numfiles = len(onlyfiles)
 
 if (numfiles == 0):
-    basinstats.write(' '.join(('2020', basin, '0', '0', '0', '0', '0', '0', '0', "\n")))
+    basinstats.write(' '.join(('2021', basin, '0', '0', '0', '0', '0', '0', '0', "\n")))
     basinstats.close()
     sys.exit()
 
@@ -46,7 +46,7 @@ while (filenumber <= numfiles):
     count=1
 #Put together Filename
     filename_part1 = '../_data/tc_stats/North_Indian/ni'
-    filename_part2 = '2020.csv'
+    filename_part2 = '2021.csv'
     filename_string = filename_part1 + str(filenumber) + filename_part2
 
 #Open file
