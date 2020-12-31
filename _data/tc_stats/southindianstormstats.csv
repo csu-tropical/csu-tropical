@@ -1,1 +1,5 @@
 year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
+2020,1,ALICIA,11,14,11,17,-7.4,79.7,65,983,3.75,0.75,0,4.2,SH,01,
+2020,2,BONGOYO,12,7,12,11,-15.1,80.9,55,992,4.25,0,0,3.41,SH,02,
+2020,3,THREE,12,8,12,11,-11.0,108.5,45,992,3.0,0,0,1.75,SH,03,
+2020,4,CHALANE,12,25,12,30,-15.8,56.5,60,990,4.0,0,0,2.89,SH,07,
