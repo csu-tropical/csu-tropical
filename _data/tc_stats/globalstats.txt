@@ -1,2 +1,6 @@
-2020 South Indian 4 15.0 1 0.75 0 0 12.1 
-2020 South Pacific 3 12.5 1 4.75 1 2.5 27.7
+2021 North Atlantic 0 0 0 0 0 0 0 
+2021 Northeast Pacific 0 0 0 0 0 0 0 
+2021 Northwest Pacific 0 0 0 0 0 0 0 
+2021 North Indian 0 0 0 0 0 0 0 
+2021 South Indian 5 17.0 1 0.75 0 0 13.9 
+2021 South Pacific 4 13.0 1 4.75 1 2.5 28.1

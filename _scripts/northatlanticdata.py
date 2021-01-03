@@ -36,8 +36,11 @@ basinstats.close()
 
 import os.path
 
-onlyfiles = next(os.walk('../_data/tc_stats/Atlantic/'))[2] #dir is your directory path as string
-numfiles = len(onlyfiles)
+try:
+    onlyfiles = next(os.walk('../_data/tc_stats/Atlantic/'))[2] #dir is your directory path as string
+    numfiles = len(onlyfiles)
+except StopIteration:
+    numfiles = 0
 
 if (numfiles == 0):
     basinstats = open('../_data/tc_stats/globalstats.txt', 'w')

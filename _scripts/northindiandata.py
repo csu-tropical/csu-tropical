@@ -34,8 +34,11 @@ basinstats = open('../_data/tc_stats/globalstats.txt', 'a')
 
 import os.path
 
-onlyfiles = next(os.walk('../_data/tc_stats/North_Indian'))[2] #dir is your directory path as string
-numfiles = len(onlyfiles)
+try:
+    onlyfiles = next(os.walk('../_data/tc_stats/North_Indian'))[2] #dir is your directory path as string
+    numfiles = len(onlyfiles)
+except StopIteration:
+    numfiles = 0
 
 if (numfiles == 0):
     basinstats.write(' '.join(('2021', basin, '0', '0', '0', '0', '0', '0', '0', "\n")))
