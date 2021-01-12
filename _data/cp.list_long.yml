@@ -59,7 +59,7 @@ Ochoa Mobility Program and the G.
 Unger Vetlesen Foundation. Michael
 Bell was funded by the Office of Naval
 Research award N000141613033."
-  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_grl_bibtex.bib
+  bibtex: ../Publications/bibtex/Klotzbach_Caron_2020_GRL.bib
   pdf: ../Publications/papers/Klotzbach_Caron_2020_grl.pdf
   keyword1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
   keyword2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
@@ -180,7 +180,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   firstauthor: klotzbach
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: International Journal of Climatology
-  others: vol 16, issue 1 
+  others: in press
   doi: https://doi.org/10.1002/joc.6703
   keypoint1: More tropical cyclones form in the western North Pacific during the boreal spring in La Niña years versus El Niño years
   keypoint2: Increased mid-level moisture appears to be primary reason for increased TC activity in La Niña springs
@@ -381,11 +381,9 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   year: 2020
   title: Increasing trend in rapid intensification magnitude of tropical cyclones over the western North Pacific
   author1: klotzbach
-  author2:
-  author3:
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: Environmental Research Letters
-  others:  15, 084043
+  others: 15, 084043 
   doi: https://doi.org/10.1088/1748-9326/ab9140
   keypoint1: false
   keypoint2: false
@@ -405,7 +403,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
     in strong RI occurrences over the region bounded by 12.5°~22.5°N, 155°~170°E,
     likely due to the offset between RI-favorable influences of the warming ocean
     and RI-unfavorable influences of increasing vertical wind shear (VWS).
-  summary:
+  summary: 
   image: ../Publications/figures/song_et_al_2020_erl_Fig2.jpg
   caption: "Fig. 2. (a) Slope of the quantiles for 24-h intensity changes (ΔV24s)
     for all TCs over the WNP from 1979-2018. Circles represent the slope derived by
@@ -1034,7 +1032,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   author3: klotzbach
   authors: Jones, Jhordanne J., Michael M. Bell, Philip J. Klotzbach
   journal: Journal of Climate
-  others: vol 33, issue 13 
+  others: false
   # DOI of paper
   doi: https://doi.org/10.1175/JCLI-D-19-0474.1
   # Keypoints of Paper & Abstract
@@ -1081,7 +1079,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
     suggestions in the writing of this manuscript. We would also like to thank the
     Editor and the three anonymous reviewers who provided us with many helpful comments
     and suggestions that improved the papers final form.
-  bibtex: ../Publications/bibtex/Jones_et_al_2020_bibtex.bib
+  bibtex: ../Publications/bibtex/Jones_etal_2020.bib
   pdf: ../Publications/papers/Jones_etal_JCLI_2020.pdf
   keyword1: Seasonal
   keyword2: Vertical wind shear
