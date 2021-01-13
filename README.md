@@ -136,6 +136,47 @@ This page automatically generates the list of the news posts reading the *_post*
 - Book chapters/Sidebars/Thesis
      - Hard coded, the code can be found: _includes/book_sidesbars_others_publications.html
 
+## Publication Update Instructions
+
+Load Jekyll on the machine you will be using to update the webpage
+	https://jekyllrb.com/docs/installation/
+
+Clone the ‘staging branch’ to your local machine using the commands:
+> git clone https://github.com/mmbell/csu-tropical.git
+> cd csu-tropical
+> git checkout staging
+
+Make changes to files as follows:
+
+For New Submissions:
+ Run script ‘publication_submitted.yml’ and fill in requested fields
+
+
+For Accepted Publications:
+If remotely accessing publications from a Journal with restricted access you can click https://lib.colostate.edu/
+Enter publication title
+Download PDF, bibtex file and one key figure to highlight
+
+Add PDF’s to /Publications/papers
+Add image file to /Publications/figures
+Add bibtex file to /Publications/bibtex
+Run script ‘create.yml.published.py’ to create a new YAML file
+Once the file has been created you can copy and paste in the abstract and plain language summary (these are often too long to paste correctly into the file using the python script). 
+Add the YAML file to _data/list_long.yml
+Remove the YAML from _data/publication_submitted.yml
+
+
+After all changes have been made run the following command to ensure the website displays correctly.
+> bundle exec jekyll serve
+
+If all looks good then you can merge your changes back to the staging tree. From the directory ‘csu-tropical’
+> git branch #tells which branch you're in
+> git add .
+> git push
+> git commit
+
+
+
 ### Publications sorted by Authors
 - The sorting function can be found in publication.html using _data/members.yml to generate pages for each member. 
 - One thing to note is that the id (last name) in _data/members.yml is the key to sort out the research, publication, and research_group page. Make sure to modify the _data/members.yml if anyone joins our group or leaves.
