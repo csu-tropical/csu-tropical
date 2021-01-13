@@ -149,7 +149,7 @@ Clone the ‘staging branch’ to your local machine using the commands:
 Make changes to files as follows:
 
 For New Submissions:
- Run script ‘publication_submitted.yml’ and fill in requested fields
+ Run script ‘publication_submitted.yml’ and fill in requested fields (script is located under the main directory)
  Note:(1) '1st, 2nd, 3rd authors' must only be Bell group members, 'all_authors may include external authors)
 (2) paper status is either 'submitted', 'in press' or you provide the volume number and issue number (ie vol 15, issue 2)
 
@@ -162,7 +162,7 @@ Download PDF, bibtex file and one key figure to highlight
 Add PDF’s to /Publications/papers
 Add image file to /Publications/figures
 Add bibtex file to /Publications/bibtex
-Run script ‘create.yml.published.py’ to create a new YAML file 
+Run script ‘create.yml.published.py’ to create a new YAML file (script is located under the main directory)
 Notes:
 (1) '1st, 2nd, 3rd authors' must only be Bell group members, 'all_authors may include external authors)
 (2) paper status is either 'submitted', 'in press' or you provide the volume number and issue number (ie vol 15, issue 2)
