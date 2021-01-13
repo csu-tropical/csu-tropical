@@ -150,6 +150,8 @@ Make changes to files as follows:
 
 For New Submissions:
  Run script ‘publication_submitted.yml’ and fill in requested fields
+ Note:(1) '1st, 2nd, 3rd authors' must only be Bell group members, 'all_authors may include external authors)
+(2) paper status is either 'submitted', 'in press' or you provide the volume number and issue number (ie vol 15, issue 2)
 
 
 For Accepted Publications:
@@ -160,7 +162,12 @@ Download PDF, bibtex file and one key figure to highlight
 Add PDF’s to /Publications/papers
 Add image file to /Publications/figures
 Add bibtex file to /Publications/bibtex
-Run script ‘create.yml.published.py’ to create a new YAML file
+Run script ‘create.yml.published.py’ to create a new YAML file 
+Notes:
+(1) '1st, 2nd, 3rd authors' must only be Bell group members, 'all_authors may include external authors)
+(2) paper status is either 'submitted', 'in press' or you provide the volume number and issue number (ie vol 15, issue 2)
+(3) Abstract, Summary, Figure Caption and Aknowledgment may be too long to enter using script. These may neeed to be added after YAML files is created. 
+
 Once the file has been created you can copy and paste in the abstract and plain language summary (these are often too long to paste correctly into the file using the python script). 
 Add the YAML file to _data/list_long.yml
 Remove the YAML from _data/publication_submitted.yml
