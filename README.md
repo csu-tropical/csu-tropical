@@ -136,7 +136,7 @@ This page automatically generates the list of the news posts reading the *_post*
 - Book chapters/Sidebars/Thesis
      - Hard coded, the code can be found: _includes/book_sidesbars_others_publications.html
 
-## Publication Update Instructions
+# Publication Update Instructions
 
 Load Jekyll on the machine you will be using to update the webpage
 	https://jekyllrb.com/docs/installation/
