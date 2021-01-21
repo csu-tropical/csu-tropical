@@ -89,10 +89,9 @@ div.ex3 {
                   <ul class="actions fit align-center button-space">
                     {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit">Read it: <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
                     {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit">Cite it: <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
-                    <li><a href="https://twitter.com/intent/tweet" target="_blank" class="button alt fit">Tweet it: <i class="fab fa-twitter"></i> Twitter </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                    <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftropical.colostate.edu%2Fpub%2F{{ page.id }}.html" target="_blank" class="button alt fit">Tweet it: <i class="fab fa-twitter"></i> Twitter </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
                   </ul>
                   {% if page.pdf == false%}<h3 class="align-center">In Review. Stay tuned for updates 🤞</h3>{% endif %}
-
                   <hr>
 
                   <div class="row">
