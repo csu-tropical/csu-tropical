@@ -4,6 +4,11 @@ title: CSU Tropical Research Publications
 ---
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<meta name="twitter:card" content="summary"></meta>
+<meta name="twitter:site" content="@michaelmbell" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:description" content="{{ page.keypoint1}}" />
+<meta name="twitter:image" content="https://tropical.colostate.edu/images/logo/BellTClogo.png" />
 </head>
 <html>
   <link rel="stylesheet" href="../assets/css/main.css" />
@@ -74,12 +79,19 @@ div.ex3 {
                   <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
                 </ul-->
                   <h3>{{ page.authors}}, {{item.year}}: {{ page.title }}. <i>{{ page.journal }}</i>, {% if page.others != false %}{{ page.others }}{% endif %} {% if page.doi != false %}, <a href="{{ page.doi }}" target="_blank"> {{ page.doi }}</a> {% endif %}</h3>
+
                   <p class="align-justify">
+                  <h4>Key Points</h4>
                   {% if page.keypoint1 != false %} <li style="margin-botton: 10px;"> {{ page.keypoint1}}</li> {% endif %}
                   {% if page.keypoint2 != false %}<li style="margin-botton: 10px;"> {{ page.keypoint2}}</li> {% endif %}
                   {% if page.keypoint3 != false %}<li style="margin-botton: 10px;"> {{ page.keypoint3}}</li> {% endif %}
                   </p>
-
+                  <ul class="actions fit align-center button-space">
+                    {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit">Read it: <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
+                    {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit">Cite it: <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
+                    <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftropical.colostate.edu%2Fpub%2F{{ page.id }}.html" target="_blank" class="button alt fit">Tweet it: <i class="fab fa-twitter"></i> Twitter </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                  </ul>
+                  {% if page.pdf == false%}<h3 class="align-center">In Review. Stay tuned for updates 🤞</h3>{% endif %}
                   <hr>
 
                   <div class="row">
@@ -122,13 +134,6 @@ div.ex3 {
                       <p class="align-justify">
                         {{ page.acknowledgement }}
                       </p>
-
-                      <ul class="actions fit align-center button-space">
-                        {% if page.pdf != false%}<li><a href= "{{ page.pdf }}" target="_blank" class="button alt fit"> <i class="fas fa-file-pdf"></i> PDF </a></li>{% endif %}
-                        {% if page.bibtex != false%}<li><a href= "{{ page.bibtex }}" target="_blank" class="button alt fit"> <i class="fas fa-file-alt"></i> BibTex </a></li>{% endif %}
-                      </ul>
-
-                      {% if page.pdf == false%}<h3 class="align-center">In Review. Stay tuned for updates 🤞</h3>{% endif %}
 
                       </center>
 

@@ -1,3 +1,127 @@
+- id: nammwr2020
+  year: 2020
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: "in press"
+  doi: https://doi.org/10.1175/MWR-D-20-0133.1
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new insight for the supporting role of low-level VWS providing horizontal vorticity and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic to meso scales using airborne Doppler radar observations of pre-depression Hagupit during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations reveal complex localized convective and vortical characteristics of a pre-depression in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric trough during the observation period. The strong deep-layer VWS (> 20 m s -1) had a negative impact on the development through misalignment of the low and mid-level circulations and dry air intrusion. However, the low-level circulation persisted and the system ultimately formed into a tropical cyclone after it left the high-shear zone. Here we propose that a key process that enabled the predepression to survive through the upper-tropospheric trough interaction was persistent vorticity amplification on the meso-gamma scale that was aggregated on the mesoalpha scale within the pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the low-level horizontal vorticity into the vertical in the early stage of convective life-cycle, followed by stretching from maturing deep convection. Variations in low-level VWS on the meso-beta scale affect convective organization and horizontal vorticity generation. The results provide new insights into multi-scale processes during TC genesis and the interactions of a pre-depression with VWS at various spatial scales.
+  summary: false
+  image: ../Publications/figures/Nam_Bell_2020_Fig14.png
+  caption: "FIG. 14. Schematic of the multi-scale interactions in Hagupit’s cyclogenesis. a) Synoptic scale active features are the upper-level trough and easterly wave which carries the marsupial wave pouch, denoted as red circulation. b) In the meso-alpha scale wave pouch, the low-level cyclonic streamlines are shown with circulation center marked with black cross and mid-level center as yellow cross. Overlain on the clouds to the southwest of the low-level center is vorticity (positive: red, negative: blue), illustrating vorticity dipoles from tilting, enhanced vorticity from stretching, and a mid-level MCV over the stratiform area. c) In the meso-beta scale, the local wind shear profile that influences the convective organization is composed of winds from cyclonic circulation inside pouch, easterly wave propagation, and the trough. d) Meso-gamma scale convective cells produce vorticity that serve as building blocks for the wave pouch intensification through tilting of horizontal vorticity associated with low- level wind shear (S cell) and stretching of the local vertical vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225 and Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+  bibtex: ../Publications/bibtex/Nam_Bell_MWR2020_bibtex.bib
+  pdf: ../Publications/papers/Nam_Bell_MWR2020_EOR.pdf
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+- id: Martinez_Nam_JGR
+  year: 2020
+  title: On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion
+  author1: martinez
+  author2: nam
+  author3: bell
+  authors: Martinez, J., C. C. Nam, M. M. Bell
+  journal: Journal of Geophysical Research
+  others:  published
+  doi: https://doi.org/10.1029/2020JD033324
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract: This study investigates the contributions of incipient vortex circulation and midlevel moisture to tropical cyclone (TC) expansion within an idealized numerical modeling framework. We find that the incipient vortex circulation places the primary constraint on TC expansion. Increasing the midlevel moisture further promotes expansion but mostly expedites the intensification process. The expansion rate for initially large vortices exhibits a stronger response to increasing the midlevel moisture compared to initially small vortices. Previous studies have noted a proclivity for relatively small TCs to stay small and relatively large TCs to stay large; that is, TCs possess a sort of “memory” with respect to their incipient circulation. We reproduce this finding with an independent modeling framework and further demonstrate that an initially large vortex can expand more quickly than its relatively smaller counterpart; therefore, with all other factors contributing to expansion held constant, the contrast in size between the two vortices will increase with time. Varying the incipient vortex circulation is associated with subsequent variations in the amount and scale of outer‐core convection. As the incipient vortex circulation decreases, outer‐core convection is relatively scarce and characterized by small‐scale, isolated convective elements. On the contrary, as the incipient vortex circulation increases, outer‐core convection abounds and is characterized by relatively large rainbands and mesoscale convective systems. A combined increase in the amount and scale of outer‐core convection permits an initially large vortex to converge a substantially greater amount of absolute angular momentum compared to its relatively smaller counterpart, resulting in distinct expansion rates.
+  summary: A variety of atmospheric and oceanic processes contribute to the expansion of a tropical cyclone wind field. We examine a subset of factors with idealized simulations to better understand how tropical cyclones expand. When both the initial size of a tropical cyclone and the environmental moisture are varied in accordance with observations, we find that the initial size of a tropical cyclone places the primary constraint on the expansion of a tropical cyclone wind field. We verify that tropical cyclones possess “memory” of their size when they first developed such that a small tropical cyclone stays small and a large tropical cyclone stays large. We further demonstrate that large tropical cyclones can expand more quickly than their relatively smaller counterparts. The amount of moisture in the atmosphere modulates the expansion of a tropical cyclone wind field. A relatively moist environment facilitates the development of convection and a concomitant increase of wind speeds that contributes to an expansion of the tropical cyclone wind field. Our findings motivate additional research investigating the variability of processes contributing to the initial size of a tropical cyclone amidst Earth's warming climate system.
+  image: ../Publications/figures/Martinez_Nam_JGR_2020.png
+  caption: "Azimuthally averaged absolute angular momentum at 1‐km altitude (shaded), 0–1‐km altitude layer‐averaged radial inflow magnitude (cyan contours
+at 3, 5, 10, and 15m s−1), and the absolute angular momentum surface corresponding to 3.0 × 106 m2 s−1 (orange) are shown as a function of time relative to
+the initiation of rapid intensification for the 3‐D simulations: (a) SD, (b) SM, (c) LD, and (d) LM. The innermost black curve in each panel is the radius of
+maximum tangential winds (RMW) and the outermost black curve is the radius of gale‐force winds (Rgales)."
+  acknowledgement: This work was funded by the Office of Naval Research Awards N000141613033 and N000142012069 and the National Science Foundation (NSF) Award AGS‐1701225. J. M. was also supported by the NSF Bridge to the Doctorate Fellowship Award 004863‐00003. We thank George Bryan for providing the code to implement time varying point downscaling in CM1. We thank three anonymous reviewers for their insightful comments that have improved the overall quality of our manuscript.
+  bibtex: ../Publications/bibtex/Martinez_Nam_JGR_2020.bib
+  pdf: ../Publications/papers/Martinez_Nam_JGR_2020.pdf
+  keyword1: Tropical Cyclones
+  keyword2: "Hurricanes/Typhoons"
+  keyword3: Size
+
+- id: Klotzbach_Caron_2020_GRL
+  year: 2020
+  title: A statistical/dynamical model for North Atlantic Seasonal Hurricane Prediction
+  author1: klotzbach
+  author2: false
+  author3: bell
+  authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
+  journal: Geophysical Research Letters
+  others:  published
+  doi: https://doi.org/10.1029/2020GL089357
+  keypoint1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keypoint2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keypoint3:  A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+  abstract: Colorado State University (CSU) has been issuing seasonal hurricane forecasts since 1984, with statistical modeling techniques primarily underpinning these outlooks. CSU has recently begun issuing statistical/dynamical forecasts, using the SEAS5 forecast system from the European Centre for Medium‐Range Weather Forecasts to forecast the three predictors that currently comprise CSU's early August statistical forecast model. SEAS5 shows skill at forecasting all three of these July predictors from an initialization as early as 1 March. The SEAS5 model forecasts for the three parameters are then regressed against seasonal accumulated cyclone energy. The model has a cross‐validated correlation skill of r = 0.60 with accumulated cyclone energy for a 1 March initialization, improving to r = 0.67 for a 1 June initialization over the period from 1982–2019. The combination of the statistical/dynamical model with the currently existing statistical models shows improved skill over either model individually for the April, June, and July outlooks.
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño‐Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium‐Range Weather Forecasts System 5 (SEAS5) model to forecast the three large‐scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of accumulated cyclone energy—an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting accumulated cyclone energy at all lead times, with improving skill as the lead time decreases. The combination of CSU's currently existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June, and July outlooks, with the most notable improvement in early April.
+  image: ../Publications/figures/Klotzbach_Caron_2020_GRL.png
+  caption: "Combined model hindcasts for seasonal ACE based on March, May, and June initializations from 1982–2019 and skill summary of all models.
+(a) Combined March SEAS5 ACE and early April statistical model ACE hindcasts. (b) Combined May SEAS5 ACE and early June statistical model ACE
+hindcasts. (c) Combined June SEAS5 ACE and early July statistical model ACE hindcasts. (d) Correlation summary of the statistical model, the statistical/
+dynamical model, and the combined model for each lead time. Pearson correlations between model hindcasts and observations are displayed with solid bars,
+while rank correlations between model hindcasts and observations are displayed with bars using vertical hashing."
+  acknowledgement: "We would like to thank the anonymous
+reviewers and the editor for helpful
+comments that improved the
+manuscript. We are grateful to Pierre‐
+Antoine Bretonnière, Margarida
+Samso, and Lluís Palma for their
+support in obtaining the seasonal
+forecast data. Phil Klotzbach would like
+to acknowledge grants from the Severo
+Ochoa Mobility Program and the G.
+Unger Vetlesen Foundation. Michael
+Bell was funded by the Office of Naval
+Research award N000141613033."
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_grl_bibtex.bib
+  pdf: ../Publications/papers/Klotzbach_Caron_2020_grl.pdf
+  keyword1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keyword2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keyword3: A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+
+- id: Klotzbach_Schreck_2020_BAMS
+  year: 2020
+  title: The record-breaking 1933 Atlantic Hurricane Season
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Klotzbach, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
+  journal: Bulletin of the American Meteorological Society
+  others:  published
+  doi: https://doi.org/10.1175/BAMS-D-19-0330.1
+  keypoint1: The 1933 Atlantic hurricane season was extremely active, rivaling or exceeding the infamous 2005 season for several tropical cyclone parameters
+  keypoint2: Large-scale environmental conditions in 1933 were very favorable, with warm tropical Atlantic SSTs and reduced vertical wind shear
+  keypoint3: Current June and August statistical forecast models from CSU well-anticipated the heightened levels of activity observed in 1933
+  abstract: "The 1933 Atlantic hurricane season was extremely active, with 20 named storms and 11 hurricanes including 6 major hurricanes occurring. The 1933 hurricane season also generated the most Accumulated Cyclone Energy (an integrated metric that accounts for frequency, intensity, and duration) of any Atlantic hurricane season on record. A total of 8 hurricanes tracked through the Caribbean in 1933, the most on record. In addition, two Category 3 hurricanes made landfall in the United States just 23 hours apart:: the Treasure Coast hurricane in southeast Florida followed by the CubaBrownsville hurricane in south Texas.
+
+This manuscript examines large-scale atmospheric and oceanic conditions that likely led to such an active hurricane season. Extremely weak vertical wind shear was prevalent over both the Caribbean and the tropical Atlantic throughout the peak months of the hurricane season, likely in part due to a weak-to-moderate La Niña event. These favorable dynamic conditions, combined with above-normal tropical Atlantic sea surface temperatures, created a very conducive environment for hurricane formation and intensification. The Madden-Julian oscillation was relatively active during the summer and fall of 1933, providing sub-seasonal conditions that were quite favorable for tropical cyclogenesis during mid-to-late August and late September to early October. The current early June and August statistical models used by Colorado State University would have predicted a very active 1933 hurricane season. A better understanding of these extremely active historical Atlantic hurricane seasons may aid in anticipation of future hyperactive seasons.
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño-Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium-Range Weather Forecasts System 5 (SEAS5) model to forecast the three large-scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of Accumulated Cyclone Energy - an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting Accumulated Cyclone Energy at all lead times, with improving skill as the lead time decreases. The combination of CSU’s currently-existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June and July outlooks, with the most notable improvement in early April."
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño-Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium-Range Weather Forecasts System 5 (SEAS5) model to forecast the three large-scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of Accumulated Cyclone Energy - an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting Accumulated Cyclone Energy at all lead times, with improving skill as the lead time decreases. The combination of CSU’s currently-existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June and July outlooks, with the most notable improvement in early April.
+  image: ../Publications/figures/Klotzbach_Schreck_2020_BAMS.png
+  caption:  "(a) August–October 1933 sea level pressure anomalies (hPa), (b) August–October 1933
+zonal wind shear anomalies (m s-1
+), (c) August–October 1933 SST anomalies (°C) and (d)
+August–October 1933 500 hPa geopotential height anomalies (m). (e-h) As in (a-d) but for
+August–October 2005. Anomalies in panels a–d are calculated relative to a 1901–1930 base
+period, while anomalies in panels e–h are calculated relative to a 1971–2000 base period."
+  acknowledgement: We would like to thank Cary Mock, two anonymous reviewers and the editor Chris Landsea, for valuable comments that helped improved this manuscript. P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research. M. Bell was supported by National Science Foundation award AGS-1701225 and Office of Naval Research Award N000141613033.
+  bibtex: ../Publications/bibtex/Klotzbach_Schreck_2020_BAMS.bibtex
+  pdf: ../Publications/papers/Klotzbach_Schreck_2020_BAMS.pdf
+  keyword1: Forecasting
+  keyword2: Seasonal
+  keyword3: Modeling
+
 - id: Marinescu_Bell_MWR
   year: 2020
   title: Updraft Vertical Velocity Observations and Uncertainties in High Plains Supercells Using Radiosondes and Radars
@@ -38,12 +162,12 @@
   abstract: Convective activity in Catalonia (northeastern Spain) mainly occurs during summer and autumn, with severe weather occurring 33 days per year on average. In some cases, the storms have unexpected propagation characteristics, likely due to a combination of the complex topography and the thunderstorms’ propagation mechanisms. Partly due to the local nature of the events, numerical weather prediction models are not able to accurately nowcast the complex mesoscale mechanisms (i.e., local influence of topography). This directly impacts the retrieved position and motion of the storms, and consequently, the likely associated storm severity. Although a successful warning system based on lightning and radar observations has been developed, there remains a lack of knowledge of storm dynamics that could lead to forecast improvements. The present study explores the capabilities of the radar network at the Meteorological Service of Catalonia to retrieve dual-Doppler wind fields to study the dynamics of Catalan thunderstorms. A severe thunderstorm that splits and a tornado-producing supercell that is channeled through a valley are used to demonstrate the capabilities of an advanced open source technique that retrieves dynamical variables from C-band operational radars in complex terrain. For the first time in the Iberian Peninsula, complete 3D storm-relative winds are obtained, providing information about the internal dynamics of the storms.  This aids in the analyses of the interaction between different storm cells within a system and/or the interaction of the cells with the local topography
   summary: false
   image: ../Publications/figures/del_Moral_2020_Fig1.png
-  caption: 
-  acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.  
-  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib 
+  caption:
+  acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.
+  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib
   pdf: ../Publications/papers/delMoral_etal_RS2020.pdf
-  keyword1: dual-Doppler retrievals 
-  keyword2: C-band radar 
+  keyword1: dual-Doppler retrievals
+  keyword2: C-band radar
   keyword3: operational radar
 - id: chagrl2020 # lastname,journal,year
   year: 2020
@@ -81,7 +205,7 @@
   firstauthor: klotzbach
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: International Journal of Climatology
-  others: in press
+  others: vol 16, issue 1
   doi: https://doi.org/10.1002/joc.6703
   keypoint1: More tropical cyclones form in the western North Pacific during the boreal spring in La Niña years versus El Niño years
   keypoint2: Increased mid-level moisture appears to be primary reason for increased TC activity in La Niña springs
@@ -92,7 +216,7 @@
   caption: >
     Fig. 3. La Niña minus El Niño differences in environmental variables during March-May over the western North Pacific. (a) Sea surface temperature (°C), (b) 600-hPa relative humidity (%), (c) 850-hPa relative vorticity (×10-6 s-1) and (d) 850-200-hPa vertical wind shear (m s-1). Differences significant at the 0.05 level are represented with black crosses.
   acknowledgement: We would like to express our sincere thanks to two anonymous reviewers for their helpful comments on an earlier version of this manuscript. This work was jointly funded by the National Natural Science Foundation of China (61827901), the National Key Research and Development Program of China (2018YFC1507305) and the National Natural Science Foundation of China (41575044). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
-  bibtex: ../Publications/bibtex/song_et_al_2020_bibtex.bib
+  bibtex: ../Publications/bibtex/song_et_al_2020_ijoc_bibtex.bib
   pdf: ../Publications/papers/song_et_al_2020_ijoc.pdf
   keyword1: Seasonal
   keyword2: El Nino
@@ -280,12 +404,13 @@
   keyword3: Seasonal
 - id: songetal2020erl
   year: 2020
-  title: Increasing trend in rapid intensification magnitude of tropical cyclones
-    over the western North Pacific
+  title: Increasing trend in rapid intensification magnitude of tropical cyclones over the western North Pacific
   author1: klotzbach
+  author2:
+  author3:
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: Environmental Research Letters
-  others: in press
+  others:  15, 084043
   doi: https://doi.org/10.1088/1748-9326/ab9140
   keypoint1: false
   keypoint2: false
@@ -305,7 +430,7 @@
     in strong RI occurrences over the region bounded by 12.5°~22.5°N, 155°~170°E,
     likely due to the offset between RI-favorable influences of the warming ocean
     and RI-unfavorable influences of increasing vertical wind shear (VWS).
-  summary: false
+  summary:
   image: ../Publications/figures/song_et_al_2020_erl_Fig2.jpg
   caption: "Fig. 2. (a) Slope of the quantiles for 24-h intensity changes (ΔV24s)
     for all TCs over the WNP from 1979-2018. Circles represent the slope derived by
@@ -324,7 +449,7 @@
     funded by the National Nature Science Foundation of China (61827901) and the National
     Key Research and Development Program of China (2018YFC1507305). Klotzbach would
     like to acknowledge financial support from the G. Unger Vetlesen Foundation.
-  bibtex: ../Publications/bibtex/song_et_al_2020_erl.bib
+  bibtex: ../Publications/bibtex/song_et_al_2020_erl_bibtex.bib
   pdf: ../Publications/papers/song_et_al_2020_erl.pdf
   keyword1: Rapid intensification
   keyword2: TC intensity
@@ -934,7 +1059,7 @@
   author3: klotzbach
   authors: Jones, Jhordanne J., Michael M. Bell, Philip J. Klotzbach
   journal: Journal of Climate
-  others: false
+  others: vol 33, issue 13
   # DOI of paper
   doi: https://doi.org/10.1175/JCLI-D-19-0474.1
   # Keypoints of Paper & Abstract
@@ -981,7 +1106,7 @@
     suggestions in the writing of this manuscript. We would also like to thank the
     Editor and the three anonymous reviewers who provided us with many helpful comments
     and suggestions that improved the papers final form.
-  bibtex: ../Publications/bibtex/Jones_etal_2020.bib
+  bibtex: ../Publications/bibtex/Jones_et_al_2020_bibtex.bib
   pdf: ../Publications/papers/Jones_etal_JCLI_2020.pdf
   keyword1: Seasonal
   keyword2: Vertical wind shear
@@ -1166,71 +1291,6 @@
   pdf: ../Publications/papers/Bell_Montgomery_JAS2019.pdf
   keyword1: Genesis
   keyword2: Mesoscale
-  keyword3: TC case study
-- id: nammwr2020
-  year: 2020
-  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
-  author1: nam
-  author2: bell
-  author3: false
-  authors: Nam, C. C., M. M. Bell
-  journal: Monthly Weather Review
-  others: "In review"
-  doi: false
-  keypoint1: This study examines the interactions of a pre-depression Hagupit with
-    vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales
-    using field observations.
-  keypoint2: We highlight the persistent convection maintaining moisture and vorticity
-    inside the wave pouch even under 20 m/s deep-layer VWS.
-  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new
-    insight for the supporting role of low-level VWS providing horizontal vorticity
-    and organizing convection in the early stage of tropical cyclogenesis.
-  abstract: >
-    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic
-    to meso scales using airborne Doppler radar observations of pre-depression Hagupit
-    during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional
-    Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations
-    reveal complex localized convective and vortical characteristics of a pre-depression
-    in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric
-    trough during the observation period. The strong deep-layer VWS (> 20 m s -1)
-    had a negative impact on the development through misalignment of the low and mid-level
-    circulations and dry air intrusion. However, the low-level circulation persisted
-    and the system ultimately formed into a tropical cyclone after it left the high-shear
-    zone. Here we propose that a key process that enabled the predepression to survive
-    through the upper-tropospheric trough interaction was persistent vorticity amplification
-    on the meso-gamma scale that was aggregated on the mesoalpha scale within the
-    pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the
-    low-level horizontal vorticity into the vertical in the early stage of convective
-    life-cycle, followed by stretching from maturing deep convection. Variations in
-    low-level VWS on the meso-beta scale affect convective organization and horizontal
-    vorticity generation. The results provide new insights into multi-scale processes
-    during TC genesis and the interactions of a pre-depression with VWS at various
-    spatial scales.
-  summary: false
-  image: ../Publications/figures/Nam_Bell_2020_Fig13.png
-  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
-    a) Synoptic scale’s active features are upper-level trough and easterly waves,
-    which carry the marsupial wave pouch shown as red circulation. b) Inside the meso-a
-    scale wave pouch, shown are the low-level cyclonic stream lines with its center
-    marked with black cross and mid-level center as yellow cross. Over the clouds
-    shifted to southwest from the low-level center is vorticity (positive - red, negative
-    - blue), showing vorticity dipoles from tilting, enhanced bigger vortex from stretching,
-    and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig.
-    7b), the squall-like NW-SE convection can be explained by the local wind shear
-    profile consist of winds from cyclonic circulation inside pouch, marsupial wave
-    propagation, and the trough. Thick black lines in the lowerleft corner of the
-    circle indicates convective line; L indicates ENE low-level shear; M indicates
-    WNW mid-level shear. d) Meso-g scale convective cells produce vorticity that serves
-    as building block for the wave pouch intensification through tilting the horizontal
-    shear (S cell) and stretching the existent vorticity (N cell)."
-  acknowledgement: Research was supported by National Science Foundation award AGS-1701225
-    and 412 Office of Naval Research award N000141613033.
-  # bibtex and pdf not available as this work is not published yet (in review)
-
-  bibtex: false
-  pdf: false
-  keyword1: Genesis
-  keyword2: Vertical wind shear
   keyword3: TC case study
 - id: saundersess2020
   year: 2020

@@ -43,6 +43,7 @@ td:first-child {
 						</header>
 						<div class="align-left" style="margin-top:20px">
 						<ul class="actions" style="text-align:center;line-height:1em;margin:-150px 0 0px 0px;">
+							<li><a href="#list_2020s" class="button fit alt" id="btn_2020s", onclick="showDiv('btn_2020s','list_2020s','eye_a1','txt_a1')"><p id="txt_a1"><i id="eye_a1" class="fas fa-eye-slash"></i> 2020s</p></a></li>
 							<li><a href="#list_2010s" class="button fit alt" id="btn_2010s", onclick="showDiv('btn_2010s','list_2010s','eye_a1','txt_a1')"><p id="txt_a1"><i id="eye_a1" class="fas fa-eye-slash"></i> 2010s</p></a></li>
 							<li><a href="#list_2000s" class="button fit alt" id="btn_2000s", onclick="showDiv('btn_2000s','list_2000s','eye_a2','txt_a2')"><p id="txt_a2"><i id="eye_a2" class="fas fa-eye-slash"></i> 2000s</p></a></li>
 							<li><a href="#list_1990s" class="button fit alt" id="btn_1990s", onclick="showDiv('btn_1990s','list_1990s','eye_a3','txt_a3')"><p id="txt_a3"><i id="eye_a3" class="fas fa-eye-slash"></i> 1990s</p></a></li>
@@ -50,6 +51,25 @@ td:first-child {
 						</ul>
 						</div>
 					</div>
+						<div class="inner" id="list_2020s" style="display:none">
+							<div class="content">
+								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
+									<h3 style="color:gray">Forecasts for 2020s</h3>
+								</header>
+							{% for yyyy in (2020..2020) reversed %}
+							<h4 id="elements">{{yyyy}}</h4>
+							{% for item in site.data.forecasting.archive.2020s.toc %}
+								{% for entry in item.subfolderitems %}
+								{% if entry.year ==  yyyy %}
+								<li style="margin-top: 5px;"> <a href={{entry.pdf}} target="_blank">{{ entry.title}}</a> <br>&nbsp;&nbsp;&nbsp;&nbsp; {{entry.date}}, {{entry.year}}</li>
+
+								{% endif %}
+								{% endfor %}
+							{% endfor %}
+							<hr />
+							{% endfor %}
+							</div>
+						</div>
 						<div class="inner" id="list_2010s" style="display:none">
 							<div class="content">
 								<header class="align-left" style="margin-top:-80px;margin-bottom:10px">
