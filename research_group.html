@@ -95,9 +95,9 @@ function showSlides(n) {
 <br>
 				<!--2) Element: Thumbnails -->
 					<header class="align-center">
-                                                <p><b>Please click the photo to find more info about each member</b></p>
-                                        </header>
-                                        <div class="box alt">
+              <p><b>Please click the photo to find more info about each member</b></p>
+              </header>
+              <div class="box alt">
 						<div class="row 10% uniform">
 							<div class="1u"><span class="image fit">
 								<figure>
@@ -121,41 +121,33 @@ function showSlides(n) {
 								<figcaption><b>Jen DeHart,</b><br> Research Scientist I</figcaption></figure></span></div>
 							<div class="1u"><span class="image fit">
 								<figure>
-								<a href="#tao"><img src="Group/dandan.jpg" alt="" /></a>
-								<figcaption><b>Dandan Tao,</b><br> Research Scientist I</figcaption></figure></span></div>
-							<div class="1u"><span class="image fit">
-								<figure>
-								<a href="#young"><img src="Group/kate.jpg" alt="" /></a>
-								<figcaption><b>Kate Young,</b><br> Research Associate</figcaption></figure></span></div>
-							<div class="1u"><span class="image fit">
-								<figure>
 								<a href="#casas"><img src="Group/ellie.jpg" alt="" /></a>
 								<figcaption><b>Eleanor Casas,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
 							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#cole"><img src="Group/ali.jpg" alt="" /></a>
 								<figcaption><b>Alexandra Cole,</b><br> M.S. Student</figcaption></figure></span></div>
-							<div class="1u$"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#cha"><img src="Group/tingyu.jpg" alt="" /></a>
 								<figcaption><b>Ting-Yu Cha,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-                <!-- the last person on the row should have class "1u$" -->
-							<div class="1u"><span class="image fit">
+					   	<div class="1u"><span class="image fit">
 								<figure>
-								<img src="Group/blank.jpg" alt="" />
-								</figure></span></div>
-							<div class="1u"><span class="image fit">
-								<figure>
-								<img src="Group/blank.jpg" alt="" />
-								</figure></span></div>
-              						<div class="1u"><span class="image fit">
-                  						<figure>
-                  						<a href="#desrosiers"><img src="Group/alex.jpg" alt="" /></a>
-                  						<figcaption><b>Alex DesRosiers,</b><br> Ph.D. Student</figcaption></figure></span></div>
-							<div class="1u"><span class="image fit">
+								<a href="#desrosiers"><img src="Group/alex.jpg" alt="" /></a>
+								<figcaption><b>Alex DesRosiers,</b><br> Ph.D. Student</figcaption></figure></span></div>
+							<div class="1u$"><span class="image fit">
 								<figure>
 								<a href="#jones"><img src="Group/jhordy.jpg" alt="" /></a>
 								<figcaption><b>Jhordanne Jones,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
+
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
 							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#nam"><img src="Group/chelsea.jpg" alt="" /></a>
@@ -255,9 +247,9 @@ function showSlides(n) {
             <br>
             <hr />
 
-            <br>
 
-            <h4 id="elements" style="margin: 0px -20px">RESEARCH ASSOCIATES</h4>
+
+            <!-- <h4 id="elements" style="margin: 0px -20px">RESEARCH ASSOCIATES</h4>
             <br>
                 {% for org_hash in site.data.member.RA%}
                 {% assign org = org_hash[1] %}
@@ -276,7 +268,7 @@ function showSlides(n) {
                 <br>
                 {% endfor %}
             <br>
-            <hr />
+            <hr /> -->
 
             <br>
 
@@ -291,6 +283,7 @@ function showSlides(n) {
             <li>{{org.time}}</li>
             {% if  org.thesis  != false %}<li>Thesis: {{org.thesis}} </li>{% endif %}
             <li>Current Affilation: {{org.job}}</li>
+
 
             <br><br>
             {% endfor %}

@@ -1,10 +1,14 @@
 ---
+date: 2021-03-15 14:40:45
 id: young
 name: Kate Young
+time: Research Associate from Jan. 2020 to Mar. 2021
+job: Senior Data Scientist at Nutrien Ag Solutions
+thesis: false
 photo: './Group/kate.jpg'
 email: 'mailto:Kate.Young@colostate.edu'
 github: 'https://github.com/KateYoung-RS/CSU'
-webpage: 'http://katebeierleyoung.com' 
+webpage: false
 twitter: false
 bio: >
   Kate joined CSU’s Atmospheric Science Department as a Research Associate in
