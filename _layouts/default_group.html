@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+	<head>
+		<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="icon" href="/images/logo/BellTClogo.png">
+		<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+		{% if jekyll.environment == 'production' %}
+			{% include analytics.html %}
+		{% endif %}
+<style>
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: block}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Caption text */
+.text {
+  color:black;
+  background-color: white;
+  font-size: 12px;
+  padding: 3px 3px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Caption text for thumbnails */
+.text2 {
+  color:white;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 11px;
+  padding: 0px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #050505;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.align-justify {
+    text-align: justify;
+          }
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  background-color: black;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: .8em;
+  text-indent: 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+figcaption{
+	font-size: 10px;
+	font-style: normal;
+}
+</style>
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="/index.html"><i class="icon fa-home"></i></a> CSU Tropical Weather & Climate Research </div>
+				<a href="#menu">Menu</a>
+			</header>
+
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/news.html">News</a></li>
+					<li><a href="/research_group.html">Team members</a></li>
+					<li><a href="/forecasting.html">Forecasting</a></li>
+					<li><a href="/research.html">Research</a></li>
+					<li><a href="/publication.html">Publications</a></li>
+
+				</ul>
+			</nav>
+
+{{ content }}
+
+<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+				<!-- <div class="row">
+					<div class="6u 12u$(medium)">
+					</div>
+					<div class="6u$ 12u$(medium)">
+					</div>
+				</div> -->
+					<h4><b> Contact Us </b> </h4>
+					<ul class="icons" style="text-align:center;">
+						<li style="color:gray"><i class="fas fa-map-marker-alt" style="color:white"></i>&nbsp; Dept. of Atmospheric Science, 1371 Campus Delivery, Fort Collins, CO, 80523, USA </li>
+						<br><li style="color:gray"><i class="fas fa-phone-alt" style="color:white"></i>&nbsp; +1-970-491-8345 </li>
+					  <li style="color:gray"><i class="far fa-envelope" style="color:white"></i>&nbsp; csu-tropical at lists.colostate.edu </li>
+					</ul>
+				</div>
+
+					<!-- <div class="4u 12u$(medium)">
+						<div class="copyright">
+						<h4><b>&copy; 2020 Colorado State University.</b><br> All rights reserved.</h4>
+						<span class="image center"><img src="/images/logo/CSU-Ram-Rev.png" alt="CSU logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+						<span class="image center"><img src="/images/logo/BellTClogo.png" alt="Team logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+						</div>
+					</div> -->
+
+				<div>
+						<ul class="actions small" style="text-align:left;">
+							<li><a href="http://www.atmos.colostate.edu/" class="button small" target="_blank"><i class="fas fa-link"></i> Department of Atmospheric Science</a></li>
+							<li><a href="https://www.engr.colostate.edu/" class="button alt small" target="_blank"><i class="fas fa-link"></i> Walter Scott, Jr. College of engineering</a></li>
+							<li><a href="https://www.colostate.edu/" class="button small" target="_blank"><i class="fas fa-link"></i> Colorado State University</a></li>
+						</ul>
+
+				</div>
+
+				<div>
+					<div class="box">
+						<br>
+					<h4><b> Our Sponsors </b> </h4>
+					<p>We gratefully acknowledge support from the following organizations.</p>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner1.png" alt="" style="float:left;width:80px;height:80px;margin:10px 0px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner2.png" alt="" style="float:left;width:140px;height:60px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner3.png" alt="" style="float:left;width:70px;height:70px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/nasa.png" alt="" style="float:left;width:80px;height:70px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner4.png" alt="" style="float:left;width:160px;height:50px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner5.png" alt="" style="float:left;width:170px;height:60px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner6.png" alt="" style="float:left;width:180px;height:50px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner7.jpg" alt="" style="float:left;width:180px;height:50px;margin:10px" /></span></ul>
+					<ul class="actions"><span class="image center"><img src="/images/logo/partner8.jpg" alt="" style="float:left;width:180px;height:50px;margin:10px" /></span></ul>
+					</div>
+				</div>
+
+				<div class="copyright">
+				<h4><b>&copy; 2020 Colorado State University.</b> All rights reserved.</h4>
+				<span class="image center"><img src="/images/logo/CSU-Ram-Rev.png" alt="CSU logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+				<span class="image center"><img src="/images/logo/BellTClogo.png" alt="Team logo" style="float:left;width:80px;height:80px;margin:10px" /></span>
+				<div style="padding: 20px 0;display:block">
+				<h4><b> Acknowledgement </b></h4>
+					<p>Website design and development by <a href="/research_group.html#nam">Chelsea Nam</a>, <a href="/research_group.html#cha">Ting-Yu Cha</a>,
+						<a href="/research_group.html#casas">Ellie Casas</a>, <a href="/research_group.html#klotzbach">Phil Klotzbach</a>, <a href="/research_group.html#young">Kate Young</a>,
+						and <a href="/research_group.html#bell">Michael Bell</a> based on the <a href="https://templated.co/hielo" target="_blank">hielo template.</a></p>
+
+			  </div>
+				</div>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
