@@ -4,14 +4,8 @@
 - id: klotzbach
   full_name: Philip J. Klotzbach
 
-- id: tao
-  full_name: Dandan Tao
-
 - id: dehart
   full_name: Jennifer C. DeHart
-
-- id: young
-  full_name: Kate Young
 
 - id: casas
   full_name: Eleanor Casas
@@ -28,9 +22,6 @@
 - id: jones
   full_name: Jhordanne Jones
 
-- id: martinez
-  full_name: Jonathan Martinez
-
 - id: nam
   full_name: C. Chelsea Nam
 
@@ -42,6 +33,3 @@
 
 - id: razin
   full_name: Naufal Razin
-
-- id: trabing
-  full_name: Ben Trabing
