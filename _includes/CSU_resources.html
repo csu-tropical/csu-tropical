@@ -60,7 +60,7 @@ All of the calculations are also available in a downloadable spreadsheet.
 
 <div class="inner" id="tc_impacts">
 <div class="content">
-<h4 class="align-center">Tropical Cyclone Impact Probabilities (defined as landfall within 50 miles of County)</h4>
+<h4 class="align-center">Tropical Cyclone Impact Probabilities (defined as landfall within 50 miles of location)</h4>
 <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
 <table id="impact_table">
   <thead>
@@ -79,7 +79,7 @@ All of the calculations are also available in a downloadable spreadsheet.
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.tc_impacts.counties %}
+    {% for row in site.data.tc_impacts.landfall_probabilities %}
     <tr>
       <td>{{row.State}}</td>
       <td>{{row.County}}</td>
@@ -101,7 +101,7 @@ All of the calculations are also available in a downloadable spreadsheet.
 
 <div class="align-center" style="margin-top:50px">
 <ul class="actions" style="text-align:center;line-height:1em;">
-  <li><a href="/Forecast/downloadable/county_impacts.csv" class="button fit"><p><i class="fas fa-external-link-alt"></i> Download data here</p></a></li>
+  <li><a href="/Forecast/downloadable/landfall_probabilities.csv" class="button fit"><p><i class="fas fa-external-link-alt"></i> Download data here</p></a></li>
 
 </ul>
 </div>
