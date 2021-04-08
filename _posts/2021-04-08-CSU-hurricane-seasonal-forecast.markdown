@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Researchers predicting above-average 2021 Atlantic hurricane season"
-date:   2021-04-07 10:00:00 -0600
+date:   2021-04-08 00:00:00 -0600
 image: "/images/news/news_forecast_2021_APR.png"
 tags: [tropical cyclone, forecasting, seasonal]
 author: "Phil Klotzbach"
@@ -9,7 +9,7 @@ author: "Phil Klotzbach"
 
 Colorado State University hurricane researchers are predicting an above-average Atlantic hurricane season in 2021, citing the likely absence of El Niño as a primary factor. Tropical Atlantic sea surface temperatures are near their long-term averages, while subtropical Atlantic sea surface temperatures are much warmer than their long-term average values. The warmer subtropical Atlantic also favors an active 2021 Atlantic hurricane season.
 
-Note to reporters: You can [get the PDF](/Forecast/2021-08-pressrelease.pdf) directly.
+Note to reporters: You can [get the PDF](/Forecast/2021-04-pressrelease.pdf) directly.
 
 <!--more-->
 
