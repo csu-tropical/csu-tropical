@@ -1,6 +1,12 @@
 <html>
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<script language="JavaScript">
+    function showProbs() {
+        var county = document.getElementById("county").value;
+        display_county.innerHTML = county;
+    }
+  </script>
 <style>
 figure {
   margin: auto;
@@ -26,9 +32,81 @@ figure figcaption {
 </head>
 <div class="box" style="color:black;text-align:center">
 <p> The CSU Tropical Weather & Research Team is continually developing resources <br>
-  for the TC community and general public. So, check us back often <i class="far fa-smile"></i> <br>
-  The resources for research (radar & satellite) developed by our team can be found <a href="/projects/remotesensing.html" target="_blank">HERE</a> </p>
+  for the TC community and general public. So, check back often <i class="far fa-smile"></i> <br></p>
 </div>
+
+<div class="content">
+<h3>CSU Tropical Cyclone Impact Probabilities</h3>
+<p>We are debuting a new methodology for calculating the impacts of tropical cyclones for each state and county/parish along the Gulf and East Coasts, tropical cyclone-prone provinces of Canada, islands in the Caribbean and countries in Central America. We have used NOAA’s Historical Hurricane Tracks website and selected all named storms, hurricanes and major hurricanes that have tracked within 50 miles of each landmass from 1851-2019.  This approach allows for tropical cyclones that may have made landfall in an immediately adjacent region to be counted for all regions that were in close proximity to the landfall location of the storm. We then fit the observed frequency of storms within 50 miles of each landmass using a Poisson distribution to calculate the climatological odds of one or more events within 50 miles.
+Net landfall probability is shown to be linked to the overall Atlantic basin Net Tropical Cyclone activity (NTC).  NTC is a combined measure of the year-to-year mean of six indices of hurricane activity, each expressed as a percentage difference from the 1950-2000 climatological average.  Long-term statistics show that, on average, the more active the overall Atlantic basin hurricane season is, the greater the probability of U.S. hurricane landfall.
+Use the drop-down to obtain the climatological odds of storms tracking within 50 miles of each state along the Gulf and East Coasts along with the odds in 2021 based on our current seasonal forecast.
+All of the calculations are also available in a downloadable spreadsheet.
+</p>
+<!--  <div class="row uniform">
+    <div class="6u 12u$(xsmall)">
+      <form>
+      <select name="county" id="county">
+        <option value="">- State / County -</option>
+        {% for row in site.data.tc_impacts.counties %}
+        <option value="{{row.County}}">{{row.State}} / {{row.County}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="6u 12u$(xsmall)">
+    <input type="submit" onclick="showProbs();"/>
+  </form>
+  </div>
+</div> -->
+
+<div class="inner" id="tc_impacts">
+<div class="content">
+<h4 class="align-center">Tropical Cyclone Impact Probabilities (defined as landfall within 50 miles of County)</h4>
+<div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+<table id="impact_table">
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>County</th>
+      <th>2021 Forecast Probability of Named Storm landfall</th>
+      <th>2021 Forecast Probability of Hurricane landfall</th>
+      <th>2021 Forecast Probability of Major Hurricane landfall</th>
+      <th>Climatological Probability of Named Storm landfall</th>
+      <th>Climatological Probability of Hurricane landfall</th>
+      <th>Climatological Probability of Major Hurricane landfall</th>
+      <th># Named Storms 1851-2019</th>
+      <th># Hurricanes 1851-2019</th>
+      <th># Major Hurricanes 1851-2019</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in site.data.tc_impacts.counties %}
+    <tr>
+      <td>{{row.State}}</td>
+      <td>{{row.County}}</td>
+      <td>{{row.NS_current}}</td>
+      <td>{{row.H_current}}</td>
+      <td>{{row.MH_current}}</td>
+      <td>{{row.NS_climo}}</td>
+      <td>{{row.H_climo}}</td>
+      <td>{{row.MH_climo}}</td>
+      <td>{{row.NS_events}}</td>
+      <td>{{row.H_events}}</td>
+      <td>{{row.MH_events}}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+  <br>
+</div></div>
+
+<div class="align-center" style="margin-top:50px">
+<ul class="actions" style="text-align:center;line-height:1em;">
+  <li><a href="/Forecast/downloadable/county_impacts.csv" class="button fit"><p><i class="fas fa-external-link-alt"></i> Download data here</p></a></li>
+
+</ul>
+</div>
+</div>
+
 <div class="content">
 <h3>CSU Atlantic Multi-Decadal Oscillation (AMO) index</h3>
 <p>In 2008, Phil Klotzbach and Bill Gray published <a href="/Forecast/AMO_paper.pdf" target="_blank">a paper in Journal of Climate</a> discussing a newly-developed Atlantic Multi-Decadal Oscillation index that utilized a combination of two predictors: 1) Sea surface temperatures (SSTs) in the far North Atlantic from 50-60°N, 50-10°W and 2) sea level pressures (SLPs) in the North Atlantic from 0-50°N, 70-10°W. At present, the index is calculated by weighing the SST component as 60% of the index and the SLP component as the remaining 40%. All values are standardized using the 1981-2010 climatological average as a baseline. Real-time monthly values are calculated from the NCEP/NCAR Reanalysis and are typically updated by the 5th of the following month.</p>

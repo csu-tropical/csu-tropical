@@ -1,12 +1,103 @@
-- id: nammwr2020
+- id: trabing_bell_JGR
   year: 2020
+  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Journal of Geophysical Research
+  others: "in press"
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: cha_bell_AMT
+  year: 2020
+  title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
+  author1: cha
+  author2: bell
+  author3: false
+  authors: Cha, T-Y., M. M. Bell
+  journal: Atmospheric Measurement Techniques
+  others: "in press"
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Razin_Bell_2021_MWR
+  year: 2021
+  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
+  author1: razin
+  author2: bell
+  author3: false
+  authors: Razin, N., M. M. Bell
+  journal: Monthly Weather Review
+  others:  "in press"
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Boehm_Bell_2021_JAS
+  year: 2021
+  title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
+  author1: boehm
+  author2: bell
+  author3: false
+  authors: Boehm, A.M, M. M. Bell
+  journal: Journal of Atmospheric Science
+  others:  "in press"
+  doi: https://doi.org/10.1175/JAS-D-20-0195.1
+  keypoint1: Three-dimensional temperature and pressure perturbations are retrieved in Hurricane Rita on 23 September 2005 from multi-Doppler radar data that are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC.
+  keypoint2: The analysis suggests the interpretation of eyewall convective forcing under the impacts of vertical wind shear within a three-level framework of balanced, quasi-balanced, and unbalanced motions
+  keypoint3: Observed wavenumber-1 thermodynamic asymmetries add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale, while higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall that were positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  abstract: The newly developed SAMURAI-TR is used to estimate three-dimensional temperature and pressure perturbations in Hurricane Rita on 23 September 2005 from multi-Doppler radar data during the RAINEX field campaign. These are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC. Rita was a major hurricane at this time and was affected by 13 m s−1 deep-layer vertical wind shear. Analysis of the contributions of the kinematic and retrieved thermodynamic fields to different azimuthal wavenumbers suggests the interpretation of eyewall convective forcing within a three-level framework of balanced, quasi-balanced, and unbalanced motions. The axisymmetric, wavenumber-0 structure was approximately in thermal- wind balance, resulting in a large pressure drop and temperature increase toward the center. The wavenumber-1 structure was determined by the interaction of the storm with environmental vertical wind shear resulting in a quasi-balance between shear and shear-induced kinematic and thermo- dynamic perturbations. The observed wavenumber-1 thermodynamic asymmetries corroborate results of previous studies on the response of a vortex tilted by shear, and add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale. Higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall. The unbalanced vertical acceleration was positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  summary: false
+  image: ../Publications/figures/Boehm_Bell_JAS2021_Fig15.png
+  caption: "Fig. 15. Summary schematic of the kinematic and thermodynamic structure of Hurricane Rita (2005). The gray cylinder represents the vortex tower of the eyewall, which is tilted by the environmental wind shear (black vector). Green ‘L’ symbols and vectors denote cyclonic low pressure anomalies, and brown ‘H’ symbols denote anticyclonic high pressure anomalies. Thermal anomalies are denoted by blue (cold) and red (warm) circles and shading. Blue arrows show the modified secondary circulation. The thick black contour denotes a representative potential temperature surface, with arrows illustrating the cyclonic vortex flow around the eyewall. In the downshear right quadrant, air parcels move cyclonically downstream and adiabatically upward along the potential temperature surface resulting in individual convective motions denoted by the cumulus cloud and upward arrow. A warm anomaly is shown in the convective cloud to denote the release of latent heat associated with the buoyant updraft."
+  acknowledgement: The research was supported by the National Science Foundation under Awards AGS-1349881 and AGS-1701225 and the Office of Naval Research under Award N000141410118.
+  bibtex: false
+  pdf: ../Publications/papers/Boehm_Bell_JAS2021_EOR.pdf
+  keyword1: Radar
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+- id: nammwr2021
+  year: 2021
   title: Multi-scale shear impacts during the genesis of Hagupit (2008)
   author1: nam
   author2: bell
   author3: false
   authors: Nam, C. C., M. M. Bell
   journal: Monthly Weather Review
-  others: "in press"
+  others: 149, 551-569
   doi: https://doi.org/10.1175/MWR-D-20-0133.1
   keypoint1: This study examines the interactions of a pre-depression Hagupit with vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales using field observations.
   keypoint2: We highlight the persistent convection maintaining moisture and vorticity inside the wave pouch even under 20 m/s deep-layer VWS.
@@ -31,7 +122,7 @@
   author3: bell
   authors: Martinez, J., C. C. Nam, M. M. Bell
   journal: Journal of Geophysical Research
-  others:  published
+  others:  125, e2020JD033324
   doi: https://doi.org/10.1029/2020JD033324
   keypoint1:
   keypoint2:
@@ -58,7 +149,7 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   author3: bell
   authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
   journal: Geophysical Research Letters
-  others:  published
+  others:  47, e2020GL089357
   doi: https://doi.org/10.1029/2020GL089357
   keypoint1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
   keypoint2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
@@ -130,7 +221,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   author3: false
   authors: Marinescu, P.J., P.C. Kennedy, M.M. Bell, A.J. Drager, L.D. Grant, S.W. Freeman, S.C. van den Heever
   journal: Monthly Weather Review
-  others:  online early release
+  others:  148, 4435–4452
   doi: https://doi.org/10.1175/MWR-D-20-0071.1
   keypoint1: false
   keypoint2: false
