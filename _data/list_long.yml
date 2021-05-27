@@ -39,8 +39,7 @@
   image: ../Publications/figures/Cha_AMT2021_Fig7.pdf
   caption: >
     Azimuth and amplitude polar diagram of the temporal evolution of (a) maximum wavenumber 1 tangential wind amplitude and phase and (b) maximum wavenumber 2 tangential wind amplitude and phase in the inner eyewall (<18 km) derived from the GVTD single Doppler analysis from 1907 to 1940 UTC 6 October. The amplitude of the tangential wind component is denoted by the radius of each dot, with the phase denoted by the azimuth. The red dot in (a) and (b) indicates the starting time at 1907 UTC, and the temporal evolution follows the blue line. 
-  acknowledgement: This research was supported by National Science Foundation award OAC-1661663.
-We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank Naufal Razin and three anonymous reviewers for their constructive and helpful comments to improve the quality of the manuscript.
+  acknowledgement: This research was supported by National Science Foundation award OAC-1661663. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank Naufal Razin and three anonymous reviewers for their constructive and helpful comments to improve the quality of the manuscript.
   bibtex: ../Publications/bibtex/cha_bell_AMT2021.bib
   pdf: ../Publications/papers/cha_bell_AMT2021.pdf
   keyword1: Radar
