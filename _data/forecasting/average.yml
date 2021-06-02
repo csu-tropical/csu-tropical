@@ -1,10 +1,10 @@
 ---
-description: Atlantic basin Net Tropical Cyclone activity (1981-2010 average)
-NS: 12.1
-NSD: 59.4
-H: 6.4
-HD: 24.2
-MH: 2.7
-MHD: 6.2
-ACE: 106
-NTCA: 116
+description: Atlantic basin Net Tropical Cyclone activity (1991-2020 average)
+NS: 14.4
+NSD: 69.4
+H: 7.2
+HD: 27.0
+MH: 3.2
+MHD: 7.4
+ACE: 123
+NTCA: 135
