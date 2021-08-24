@@ -8,7 +8,7 @@ author: "Jayme DeLoss"
 
 <img src="/images/news/6.8.20_Cha_fellowship.jpg"
      alt="Ting-Yu's photo"
-     style="float: right; margin-right: 15px; width: 400px" />
+     style="float: right; margin-right: 15px;" />
      
 Ph.D. candidate Ting-Yu Cha, advised by Associate Professor Michael Bell, has received a two-year fellowship from the Taiwan Ministry of Education to study heavy rainfall in Taiwan.
 
