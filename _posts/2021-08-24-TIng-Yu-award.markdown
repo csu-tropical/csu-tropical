@@ -2,7 +2,7 @@
 layout: post
 title: "Ting-Yu Cha receives third place in Wagner Memorial Award competition"
 date:   2021-08-24
-image: "/Group/tingyu.jpg"
+image: "/images/news/8.6.21_Cha_award.jpg"
 author: "Jayme DeLoss"
 ---
 
@@ -10,7 +10,7 @@ Ph.D. student Ting-Yu Cha received third place in the Peter B. Wagner Memorial A
 
 <!--more-->
 
-<img src="/Group/tingyu.jpg"
+<img src="/images/news/8.6.21_Cha_award.jpg"
      alt="Ting-Yu's photo"
      style="float: right; margin-right: 15px; width: 400px" />
 
