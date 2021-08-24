@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "Naufal Razin and Jon Martinez earn awards at AMS conference"
-date:   2021-05-18 
+date:   2021-05-18
 image: "/images/news/Razin_Martinez_AMSawards.jpg"
 author: "Jayme DeLoss"
 ---
 
+Naufal Razin and Jon Martinez received awards at the 34th AMS Conference on Hurricanes and Tropical Meteorology on May 14. Razin won the first-place student poster award for “Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED).” Martinez won the second-place student poster award for “Characterizing the Nature and Evolution of Asymmetric Structures in Idealized Simulations of Rapidly Intensifying Tropical Cyclones,” as well as the conference’s top award, the Max Eaton Student Prize for “On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion.”
+<!--more-->
+
 <img src="/images/news/Razin_Martinez_AMSawards.jpg"
      alt="news image"
      style="float: left; margin-right: 10px; width: 300px" />
-
-Naufal Razin and Jon Martinez received awards at the 34th AMS Conference on Hurricanes and Tropical Meteorology on May 14. Razin won the first-place student poster award for “Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED).” Martinez won the second-place student poster award for “Characterizing the Nature and Evolution of Asymmetric Structures in Idealized Simulations of Rapidly Intensifying Tropical Cyclones,” as well as the conference’s top award, the Max Eaton Student Prize for “On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion.”
-<!--more-->
 
 The Max Eaton Prize is given every two years for the outstanding combination of presentation and paper at the AMS Conference on Hurricanes and Tropical Meteorology. The prize was established to recognize Max A. Eaton’s lifelong contributions to tropical meteorology and the encouragement he gave to young researchers.
 

@@ -131,14 +131,11 @@ function showSlides(n) {
 								<figure>
 								<a href="#cha"><img src="Group/tingyu.jpg" alt="" /></a>
 								<figcaption><b>Ting-Yu Cha,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-					   	<div class="1u"><span class="image fit">
+					   	<div class="1u$"><span class="image fit">
 								<figure>
 								<a href="#desrosiers"><img src="Group/alex.jpg" alt="" /></a>
 								<figcaption><b>Alex DesRosiers,</b><br> Ph.D. Student</figcaption></figure></span></div>
-							<div class="1u$"><span class="image fit">
-								<figure>
-								<a href="#jones"><img src="Group/jhordy.jpg" alt="" /></a>
-								<figcaption><b>Jhordanne Jones,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
+
 
 							<div class="1u"><span class="image fit">
 								<figure>
@@ -279,7 +276,13 @@ function showSlides(n) {
             {% for org_hash in site.data.member.alumni %}
             {% assign org = org_hash[1] %}
 
-            <h2> {{ org.name }} </h2>
+						<div id="container" style="margin: 0px 0px">
+						<h2> {{ org.name }}  &nbsp; </h2>
+						<ul class="actions"><a href={{ org.email }} class="button alt small"  target="_blank"><i class="fas fa-envelope-square"></i> Email</a></ul>
+						<ul class="actions"><a href={{ org.github }} class="button alt small"  target="_blank"><i class="fab fa-github"></i> GitHub</a></ul>
+						<ul class="actions"><a href={{ org.webpage }} class="button alt small" target="_blank"><i class="fas fa-link"></i> Webpage</a></ul>
+						<ul class="actions"><a href={{ org.twitter }} class="button alt small" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></ul>
+						</div>
             <li>{{org.time}}</li>
             {% if  org.thesis  != false %}<li>Thesis: {{org.thesis}} </li>{% endif %}
             <li>Current Affilation: {{org.job}}</li>
