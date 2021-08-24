@@ -12,7 +12,7 @@ Ph.D. student Ting-Yu Cha received third place in the Peter B. Wagner Memorial A
 
 <img src="/images/news/8.6.21_Cha_award.jpg"
      alt="Ting-Yu's photo"
-     style="float: right; margin-right: 15px; width: 80%" />
+     style="float: right; margin-right: 15px; width: 20%" />
 
  This paper also was selected as an [Editors’ Highlight by Eos](https://eos.org/editor-highlights/the-evolution-of-observed-hurricane-eyewall-shapes) in 2020. Cha’s co-authors on the paper were her adviser, Professor Michael Bell, Wen-Chau Lee and Alex DesRosiers.
 
