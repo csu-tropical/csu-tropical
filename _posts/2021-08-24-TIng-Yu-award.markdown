@@ -15,7 +15,7 @@ This paper also was selected as an [Editors’ Highlight by Eos](https://eos.org
 
 <img src="/images/news/8.6.21_Cha_award.jpg"
      alt="Ting-Yu's photo"
-     style="float: right; margin-right: 15px; width: 15%" />
+     style=" display: block;margin-left: auto;margin-right: auto;width: 25%;" />
 
 
 “I would not have accomplished the work without Michael’s guidance and Wen-Chau’s and Alex’s contributions,” Cha said. “I am grateful that the research and my graduate experiences as a female international student were acknowledged by the selection committee, which motivates me even more to improve our scientific understanding of tropical cyclones.”

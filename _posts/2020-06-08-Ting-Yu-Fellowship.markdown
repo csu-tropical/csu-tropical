@@ -1,21 +1,21 @@
 ---
 layout: post
 title:  "Ting-Yu Cha awarded Taiwan Ministry of Education graduate fellowship"
-date:   2020-06-08 
+date:   2020-06-08
 image: "/images/news/6.8.20_Cha_fellowship.jpg"
 author: "Jayme DeLoss"
 ---
 
-Ph.D. candidate Ting-Yu Cha, advised by Associate Professor Michael Bell, has received a two-year fellowship from the Taiwan Ministry of Education to study heavy rainfall in Taiwan. 
+Ph.D. candidate Ting-Yu Cha, advised by Associate Professor Michael Bell, has received a two-year fellowship from the Taiwan Ministry of Education to study heavy rainfall in Taiwan.
 
-Cha’s proposed project is “Examination of Dynamic and Thermodynamic processes of Heavy Precipitation over Taiwan with the upcoming PRECIP field campaign observations.” PRECIP, the Prediction of Rainfall Extremes Campaign in the Pacific, aims to improve understanding of the multi-scale processes important for generating extreme rainfall in the moisture-rich environment of Taiwan and the western North Pacific. 
+Cha’s proposed project is “Examination of Dynamic and Thermodynamic processes of Heavy Precipitation over Taiwan with the upcoming PRECIP field campaign observations.” PRECIP, the Prediction of Rainfall Extremes Campaign in the Pacific, aims to improve understanding of the multi-scale processes important for generating extreme rainfall in the moisture-rich environment of Taiwan and the western North Pacific.
 
 <!--more-->
 
 <img src="/images/news/6.8.20_Cha_fellowship.jpg"
      alt="Ting-Yu's photo"
-     style="float: right; margin-right: 15px; width: 400px" />
-     
+     style=" display: block;margin-left: auto;margin-right: auto;width: 25%;" />
+
 
 
 
