@@ -1,3 +1,96 @@
+- id: desrosiers_etal_2021
+  year: false
+  title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification.
+  author1: desrosiers
+  author2: bell
+  author3: cha
+  authors: DesRosiers, A., M. M. Bell, and T.-Y. Cha
+  journal: Monthly Weather Review
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: klotzbach_etal_GRL2021
+  year: false
+  title: >
+  Trends in Global Tropical Cyclone Activity: 1990 – 2020
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P.J., K. M. Wood, C. J. Schreck, S. G. Bowen, C. M. Patricola, and M. M. Bell
+  journal: Geophysical Research Letters
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: jones_etal_2021
+  year: false
+  title: Wintertime Rossby Wave Breaking Persistence in Extended-range Seasonal Forecasts of Atlantic Tropical Cyclone Activity
+  author1: jones
+  author2: bell
+  author3: klotzbach
+  authors: Jones, J., M. M. Bell, P. J. Klotzbach, and E. A. Barnes
+  journal: Journal of Climate
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: dehart_etal_2021
+  year: false
+  title: Mechanisms Contributing to the Heavy Rainfall Associated with a Mei-yu Front near Taiwan
+  author1: dehart
+  author2: bell
+  author3: false
+  authors: DeHart, J. C., M. M. Bell, Y. Zhang, and Y.-L. Chen
+  journal: Monthly Weather Review
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Casa_Bell_2020_JGR
   year: 2020
   title: A Simplified Approach to Understanding the Tropical Cyclone Boundary Layer and Surface Drag Coefficient
@@ -14,29 +107,6 @@
   abstract: false
   summary: false
   image: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: cha_etal_MWR
-  year: 2020
-  title: Doppler Radar Analysis of the Eyewall Replacement Cycle of Hurricane Matthew (2016) in Vertical Wind Shear
-  author1: cha
-  author2: bell
-  author3: desrosiers
-  authors: Cha, T-Y., M. M. Bell, A. J. DesRosiers
-  journal: Monthly Weather Review
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
   acknowledgement: false
   bibtex: false
   pdf: false
