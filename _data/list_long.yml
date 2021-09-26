@@ -1,3 +1,26 @@
+- id: klotzbach_etal_BAMS2021
+  year: 2021
+  title: A Hyperactive End to the Atlantic Hurricane Season: October–November 2020
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J., Wood, K. M., Bell, M. M., Blake, E. S., Bowen, S. G., Caron, L., Collins, J. M., Gibney, E. J., Schreck, C. J., III, & Truchelut, R. E.
+  journal: Bulletin of the American Meteorological Society
+  others: in press
+  doi: https://doi.org/10.1175/BAMS-D-20-0312.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: cha_etal_MWR
   year: 2021
   title: Doppler radar analysis of the eyewall replacement cycle of hurricane matthew
@@ -22,6 +45,55 @@
   keyword1: Radar
   keyword2: GVTD
   keyword3: Asymmetric Dynamics
+- id: trabing_bell_MWR
+  year: 2021
+  title: Observations of Diurnal Variability under the Cirrus Canopy of Typhoon Kong-rey (2018)
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Monthly Weather Review
+  others: 149(9), 2945-2964
+  doi: https://doi.org/10.1175/MWR-D-20-0327.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: A growing body of work has documented the existence of diurnal oscillations in the tropical cyclone outflow layer. These diurnal pulses have been examined primarily using satellites or numerical models, and detailed full tropospheric observations or case study analyses of diurnal pulses are lacking. Questions remain on the vertical extent of diurnal pulses and whether diurnal pulses are coupled to convective bands or constrained to the outflow layer. During the Propagation of Intraseasonal Tropical Oscillations (PISTON) field campaign, diurnal oscillations in the upper-level clouds were observed during Typhoon Kong-rey’s (2018) rapid intensification. Over a 3.5-day period where a broad distribution of cold upper-level clouds was overhead, detailed observations of Typhoon Kong-rey’s rainbands show that convection had reduced echo tops but enhanced reflectivity and differential reflectivity aloft compared to other observations during PISTON. Shortwave heating in the upper levels increased the stability profile in an overall favorable thermodynamic environment for convection during the day, which could help to explain the diurnal differences in convective structure. Under the cirrus canopy, nocturnal convection was deeper and daytime convection shallower in contrast to the rest of the PISTON dataset. Diurnal oscillations in the brightness temperatures were found to be coupled to radially outward propagating convective rainbands that were preceded ~6 h by outflow jets. The cooling pulses occurred earlier than found in previous studies. The pulses were asymmetric spatially, which is likely due to a combination of the vertical wind shear and storm intensity.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: >
+  This work has been funded by the Office of Naval Research Award N000141613033. The authors thank Chelsea Nam and Jennifer DeHart for their insightful comments. This work has also been improved by the comments of three anonymous reviewers. Meteorology and surface flux data collected during PISTON are available at the NOAA Physical Sciences Laboratory (PSL) ftp site: ftp://ftp1.esrl.noaa.gov/psd3/cruises/PISTON_MISOBOB_2018/TGT/. Multiple datasets from PISTON, such as the radiosondes and SEA-POL gridded data, are available from https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex.
+  bibtex: ../Publications/bibtex/trabing_bell_MWR2021.bib
+  pdf: ../Publications/papers/Trabing_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: schreck_etal_GRL
+  year: 2021
+  title: Optimal climate normals for North Atlantic hurricane activity
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Schreck, C. J., Klotzbach, P. J., & Bell, M. M
+  journal: Geophysical Research Letters
+  others: 48, e2021GL092864
+  doi: https://doi.org/10.1016/j.atmosres.2019.06.010
+  keypoint1: A 30-year climatology for 1991–2020 is considerably higher than that for 1981–2010 and is likely not representative of the full record
+  keypoint2: Thirty-year North Atlantic climatologies have larger root mean squared hurricane prediction errors than 50-year climatologies
+  keypoint3: The most representative climatology for 2021–2030 is likely 1971–2020 with an adjustment for short-lived named storms
+  abstract: >
+  Most climatologies use 30-year epochs that are updated at the start of each decade. They will shift from 1981–2010 to 1991–2020 in 2021. North Atlantic hurricane activity has large interdecadal variability that may lead to biases in a 30-year climatology. A previous inactive hurricane period included 1981–1990, while 2011–2020 is a part of the ongoing active era. As a result, the 1991–2020 normals are more active than the 1981–2010 normals, with the median accumulated cyclone energy increasing by 40%. A 50-year epoch would be more likely to capture a full cycle of multidecadal variability, and this study demonstrates that 50-year climatologies have historically been better predictors of the subsequent decade's hurricane activity. This paper argues that the 1971–2020 climatology should, therefore, be the baseline for hurricane activity for the next decade with a possible adjustment for the non-climatic increase in observed short-lived tropical cyclones.
+  summary: >
+  Climatologies are typically 30-year averages that are updated at the start of a new decade (e.g., in 2021, the 30-year average will be updated from 1981–2010 to 1991–2020). However, known changes in hurricane activity between decades are not typically well represented by a 30-year climatology. For example, 1981–1990 was a part of the last quiet period, but 2011–2020 is a part of the current active era. The 1991–2020 hurricane climatology is, therefore, much more active than 1981–2010. An integrated metric accounting for intensity, duration, and frequency of storms increases by 40% from the 1981–2010 to the 1991–2020 climatology. A 50-year climatology is more likely to include both active and quiet eras, which gives a better picture of “normal” hurricane activity. This study shows that the 50-year climatology has better predictive skill for seasonal hurricane activity than that of the standard 30-year average. New technology has also led to an increase in the number of short-lived tropical storms. The 50-year average for 1971–2020 with an adjustment for short-lived storms is likely to be the most representative climatology for the next decade.
+  image: false
+  caption: false
+  acknowledgement: The study benefited from insightful reviewer comments along with numer-ous discussions with Chris Landsea, Matt Rosencrans, Eric Blake, and Gerry Bell. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under the Cooperative Agreement NA19NES4320002. Klotzbach would like to acknowledge support from the G. Unger Vetlesen Foundation. Bell was supported by the Office of Naval Research award N00014161303.
+  bibtex: ../Publications/bibtex/schreck_etal_GRL.bib
+  pdf: ../Publications/papers/schreck_etal_GRL.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: trabing_bell_JGR
   year: 2021
   title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
@@ -77,17 +149,17 @@
   author3: false
   authors: Razin, N., M. M. Bell
   journal: Monthly Weather Review
-  others:  "in press"
-  doi: false
+  others:  149(7), 2151-2170.
+  doi: https://doi.org/10.1175/MWR-D-20-0181.1
   keypoint1: false
   keypoint2: false
   keypoint3: false
-  abstract: false
+  abstract: Hurricane Ophelia (2005) underwent an unconventional eyewall replacement cycle (ERC) as it was a category-1 storm located over cold sea surface temperatures near 23°C. The ERC was analyzed using airborne radar, flight-level, and dropsonde data collected during the Hurricane Rainband and Intensity Change Experiment (RAINEX) intensive observation period on 11 September 2005. Results showed that the spinup of the secondary tangential wind maximum during the ERC can be attributed to the efficient convergence of absolute angular momentum by the midlevel inflow of Ophelia’s dominantly stratiform rainbands. This secondary tangential wind maximum strongly contributed to the azimuthal mean tangential wind field, which is conducive for increased low-level supergradient winds and corresponding outflow. The low-level supergradient forcing enhanced convergence to form a secondary eyewall. Ophelia provides a unique example of an ERC occurring in a weaker storm with predominantly stratiform rainbands, suggesting an important role of stratiform precipitation processes in the development of secondary eyewalls.
   summary: false
   image: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
+  acknowledgement: This research was supported by the National Science Foundation Awards AGS-1701225 and OAC-1661663 and Office of Naval Research Award N000142012069. Naufal Razin was also supported by the NASA Earth and Space Science Fellowship Award 80NSSC18K1349. We acknowledge the RAINEX and IFEX science teams, including NCAR, the Naval Research Laboratory, the NOAA Aircraft Operations Center, and the NOAA Hurricane Research Division of AOML for their data collection and archiving efforts. We also thank Eleanor Casas for her feedback on the paper prior to submission and Michael Fischer, Anthony Didlake, and an anonymous reviewer for their insightful comments.
+  bibtex: ../Publications/bibtex/Razin_Bell_MWR2021.bib
+  pdf: ../Publications/papers/Razin_Bell_MWR2021.pdf
   keyword1: false
   keyword2: false
   keyword3: false
@@ -99,7 +171,7 @@
   author3: false
   authors: Boehm, A.M, M. M. Bell
   journal: Journal of Atmospheric Science
-  others:  "in press"
+  others:  78(5), 1583-1605
   doi: https://doi.org/10.1175/JAS-D-20-0195.1
   keypoint1: Three-dimensional temperature and pressure perturbations are retrieved in Hurricane Rita on 23 September 2005 from multi-Doppler radar data that are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC.
   keypoint2: The analysis suggests the interpretation of eyewall convective forcing under the impacts of vertical wind shear within a three-level framework of balanced, quasi-balanced, and unbalanced motions
@@ -109,7 +181,7 @@
   image: ../Publications/figures/Boehm_Bell_JAS2021_Fig15.png
   caption: "Fig. 15. Summary schematic of the kinematic and thermodynamic structure of Hurricane Rita (2005). The gray cylinder represents the vortex tower of the eyewall, which is tilted by the environmental wind shear (black vector). Green ‘L’ symbols and vectors denote cyclonic low pressure anomalies, and brown ‘H’ symbols denote anticyclonic high pressure anomalies. Thermal anomalies are denoted by blue (cold) and red (warm) circles and shading. Blue arrows show the modified secondary circulation. The thick black contour denotes a representative potential temperature surface, with arrows illustrating the cyclonic vortex flow around the eyewall. In the downshear right quadrant, air parcels move cyclonically downstream and adiabatically upward along the potential temperature surface resulting in individual convective motions denoted by the cumulus cloud and upward arrow. A warm anomaly is shown in the convective cloud to denote the release of latent heat associated with the buoyant updraft."
   acknowledgement: The research was supported by the National Science Foundation under Awards AGS-1349881 and AGS-1701225 and the Office of Naval Research under Award N000141410118.
-  bibtex: false
+  bibtex: ../Publications/bibtex/Boehm_Bell_JAS2021.bib
   pdf: ../Publications/papers/Boehm_Bell_JAS2021_EOR.pdf
   keyword1: Radar
   keyword2: Vertical wind shear
