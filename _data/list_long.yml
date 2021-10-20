@@ -1,3 +1,26 @@
+- id: desrosiers_etal_2021
+  year: 2021
+  title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification.
+  author1: desrosiers
+  author2: bell
+  author3: cha
+  authors: DesRosiers, A., M. M. Bell, and T.-Y. Cha
+  journal: Monthly Weather Review
+  others: in press
+  doi: https://doi.org/10.1175/MWR-D-21-0098.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: The landfall of Hurricane Michael (2018) at category 5 intensity occurred after rapid intensification (RI) spanning much of the storm’s lifetime. Four Hurricane Hunter aircraft missions observed the RI period with tail Doppler radar (TDR). Data from each of the 14 aircraft passes through the storm were quality controlled via a combination of interactive and machine learning techniques. TDR data from each pass were synthesized using the SAMURAI variational wind retrieval technique to yield three-dimensional kinematic fields of the storm to examine inner core processes during RI. Vorticity and angular momentum increased and concentrated in the eyewall region. A vorticity budget analysis indicates the tendencies became more axisymmetric over time. In this study we focus in particular on how the eyewall vorticity tower builds vertically into the upper levels. Horizontal vorticity associated with the vertical gradient of tangential wind was tilted into the vertical by the eyewall updraft to yield a positive vertical vorticity tendency inward atop the existing vorticity tower, that is further developed locally upward and outward along the sloped eyewall through advection and stretching. Observed maintenance of thermal wind balance from a thermodynamic retrieval shows evidence of a strengthening warm core, which aided in lowering surface pressure and further contributed to the efficient intensification in the latter stages of this RI event.
+  summary: Rapid Intensification (RI) is when a tropical cyclone increases its maximum sustained winds by 30 knots or more in 24 hours. Predicting RI is challenging because it depends on internal processes taking place within the storm in addition to the favorability of the environment around it. Detailed observations of storms undergoing RI are required to further our understanding and improve predictability. Hurricane Michael underwent RI for most of its lifetime which was well observed by research aircraft equipped with tail Doppler radar. The resulting dataset allowed for identification and analysis of processes, particularly in the upper levels of that atmosphere, that aided Hurricane Michael in achieving category 5 intensity before its historic US landfall.
+  image: ../Publications/figures/desrosiers_etal_2021MWR.png
+  caption: Schematic representation of observed vortex development processes during rapid intensification of Hurricane Michael (2018). Light gray shading denotes the eyewall cloud. Purple shaded region represents the tower of high vorticity in the eyewall. Green shading denotes region of positive vorticity tendency from tilting and vertical advection. Blue shading represents region of positive vorticity tendency from stretching and radial advection. The + sign denotes the location of the maximized positive net vertical vorticity tendency from the sum of these terms and negative tendencies (not shown). Yellow shading denotes secondary circulation. Cyan contour denotes the radius of maximum wind. Dashed gray contours denote tangential wind, with decreasing line thickness indicating weaker winds. The region of enhanced horizontal vorticity is denoted near 9 km altitude at the same level as the red shaded area where warm core development is maximized through thermal wind balance.
+  acknowledgement: This research was financially supported National Science Foundation award OAC-1661663 and Office of Naval Research awards N000141613033 and N000142012069. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study. We also thank Rachel Mauk and two anonymous reviewers for comments and suggestions which improved the manuscript.
+  bibtex: ../Publications/bibtex/desrosiers_etal_2021MWR.bib
+  pdf: ../Publications/papers/desrosiers_etal_2021MWR.pdf
+  keyword1: Rapid intensification
+  keyword2: TC case study
+  keyword3: Radar
 - id: klotzbach_etal_BAMS2021
   year: 2021
   title: >
