@@ -78,11 +78,13 @@ div.ex3 {
 								</header>
                 <center style="margin-top:10px;"><a href="../member_research/{{page.id}}.html"><i>Learn more about {{page.full_name}}'s current and past research</i> <i class="far fa-smile"></i></a></center>
                 <hr>
-
                 {% assign chronological_order = site.data.list_long | sort: "year" %}
                 {% assign counter = 0 %}
+		{% assign yr = '2021' %} <!-- always insert current year here -->
+<!-- 		<h3> {{ yr }} </h3>  -->
                 {% for entry in chronological_order reversed%}
-                {% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id or entry.firstauthor == page.id %}
+		{% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id or entry.firstauthor == page.id %}
+		{% if entry.year != yr %}<h3>{{ entry.year }}</h3>{% assign yr = entry.year %}{% endif %}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
                 </ul>
