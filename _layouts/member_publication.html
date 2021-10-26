@@ -80,15 +80,20 @@ div.ex3 {
                 <hr>
                 {% assign chronological_order = site.data.list_long | sort: "year" %}
                 {% assign counter = 0 %}
+		{% assign yr = 0 %}
+		{% for i in (2019..2021) reversed%}
                 {% for entry in chronological_order reversed%}
-		{% if counter == 0 %}<h3>{{ entry.year }}</h3>{% endif %}
                 {% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id or entry.firstauthor == page.id %}
+		{% if i == entry.year and yr == 0 %}<h3>{{ entry.year }}</h3>{% endif %}
                 <ul>
                   <li style="margin-botton: 10px;"> {{ entry.authors}}, {{entry.year}}: <a href="/pub/{{entry.id}}.html"> {{ entry.title }}. </a> <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
                 </ul>
+		{% assign yr = 1 %}
                 {% assign counter = 1 %}
                 {% endif %}
                 {% endfor %}
+		{% assign yr = 0 %}
+	        {% endfor %}
                 {% if page.id == "klotzbach" %}
                 {% include klotzbach_2003-2018.html %}
                 {% endif %}
