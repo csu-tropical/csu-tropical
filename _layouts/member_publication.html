@@ -81,7 +81,7 @@ div.ex3 {
                 {% assign chronological_order = site.data.list_long | sort: "year" %}
                 {% assign counter = 0 %}
 		{% assign yr = '2021' %} <!-- always insert current year here -->
-		<h3> {{ yr }} </h3> 
+<!-- 		<h3> {{ yr }} </h3>  -->
                 {% for entry in chronological_order reversed%}
 		{% if entry.author1 == page.id or entry.author2 == page.id or entry.author3 == page.id or entry.firstauthor == page.id %}
 		{% if entry.year != yr %}<h3>{{ entry.year }}</h3>{% assign yr = entry.year %}{% endif %}
