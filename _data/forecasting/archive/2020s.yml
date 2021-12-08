@@ -40,39 +40,6 @@ toc:
   - title: Qualtitative Discussion of Atlantic Basin Seasonal Hurricane Activity
     date: 10 December
     year: 2020
-    pdf: /Forecast/Archived_Forecasts/2020s/2020-12.pdf
-    
- - id: "2021-04"
-  subfolderitems:
-  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
-    date: 8 April
-    year: 2021
-    pdf: /Forecast/Archived_Forecasts/2020s/2021-04.pdf
+    pdf: /Forecast/Archived_Forecasts/2020s/2020-12.pdf   
 
-- id: "2021-06"
-  subfolderitems:
-  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
-    date: 3 June
-    year: 2021
-    pdf: /Forecast/Archived_Forecasts/2020s/2021-06.pdf
-
-- id: "2021-07"
-  subfolderitems:
-  - title: Forecast of Atlantic Seasonal Hurricane Activity
-    date: 8 July
-    year: 2021
-    pdf: /Forecast/Archived_Forecasts/2020s/2021-07.pdf
-    
-- id: "2021-08"
-  subfolderitems:
-  - title: Forecast of Atlantic Seasonal Hurricane Activity
-    date: 5 August
-    year: 2021
-    pdf: /Forecast/Archived_Forecasts/2020s/2021-08.pdf
-
-- id: "2021-11"
-  subfolderitems:
-  - title: Summary of Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
-    date: 30 November
-    year: 2021
     pdf: /Forecast/Archived_Forecasts/2020s/2021-11.pdf
