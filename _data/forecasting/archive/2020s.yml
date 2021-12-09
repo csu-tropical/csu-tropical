@@ -75,4 +75,11 @@ toc:
   - title: Summary of Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
     date: 30 November
     year: 2021
-    pdf: /Forecast/Archived_Forecasts/2020s/2021-11.pdf    
+    pdf: /Forecast/Archived_Forecasts/2020s/2021-11.pdf
+    
+- id: "2021-12"
+  subfolderitems:
+  - title: Qualtitative Discussion of Atlantic Basin Seasonal Hurricane Activity
+    date: 9 December
+    year: 2021
+    pdf: /Forecast/Archived_Forecasts/2020s/2021-12.pdf       
