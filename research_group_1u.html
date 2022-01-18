@@ -100,53 +100,70 @@ function showSlides(n) {
               </header>
               <div class="box alt">
 						<div class="row 10% uniform">
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#bell"><img src="Group/michael.jpg" alt="" /></a>
 								<figcaption><b>Michael Bell,</b><br> Professor</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#klotzbach"><img src="Group/phil.jpg" alt="" /></a>
 								<figcaption><b>Phil Klotzbach,</b><br> Research Scientist III</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#dehart"><img src="Group/jen.jpg" alt="" /></a>
 								<figcaption><b>Jen DeHart,</b><br> Research Scientist I</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#nam"><img src="Group/chelsea.jpg" alt="" /></a>
 								<figcaption><b>C. Chelsea Nam,</b><br> Postdoctoral Fellow</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#barbero"><img src="Group/tyler.jpg" alt="" /></a>
 								<figcaption><b>Tyler Barbero,</b><br> M.S. Student</figcaption></figure></span></div>
-							<div class="2u$"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#casas"><img src="Group/ellie.jpg" alt="" /></a>
 								<figcaption><b>Eleanor Casas,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#cole"><img src="Group/ali.jpg" alt="" /></a>
 								<figcaption><b>Alexandra Cole,</b><br> M.S. Student</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u$"><span class="image fit">
 								<figure>
 								<a href="#cha"><img src="Group/tingyu.jpg" alt="" /></a>
 								<figcaption><b>Ting-Yu Cha,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-					   	<div class="2u"><span class="image fit">
+
+
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
+							<div class="1u"><span class="image fit">
+								<figure>
+								<img src="Group/blank.jpg" alt="" />
+								</figure></span></div>
+					   	<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#desrosiers"><img src="Group/alex.jpg" alt="" /></a>
 								<figcaption><b>Alex DesRosiers,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#pasillas"><img src="Group/chandra.jpg" alt="" /></a>
 								<figcaption><b>Chandra Pasillas,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
-							<div class="2u"><span class="image fit">
+							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#panasawatwong"><img src="Group/rung.jpg" alt="" /></a>
 								<figcaption><b>Rung Panasawat-wong,</b><br> Ph.D. Candidate</figcaption></figure></span></div>
 
-							<div class="2u$"><span class="image fit">
+							<div class="1u$"><span class="image fit">
 								<figure>
 								<a href="#alumni"><img src="Group/alumni_cat.jpg" alt="" /></a>
 								</figure></span></div>
@@ -183,7 +200,7 @@ function showSlides(n) {
             <hr />
             <br>
 
-            <h4 id="elements" style="margin: 0px -20px">RESEARCH SCIENTISTS & POSTDOCS</h4>
+            <h4 id="elements" style="margin: 0px -20px">RESEARCH SCIENTISTS</h4>
             <br>
                 {% for org_hash in site.data.member.RS%}
                 {% assign org = org_hash[1] %}
@@ -256,7 +273,6 @@ function showSlides(n) {
 
           <header class="align-center">
             <p id="alumni"><b>Group Alumni/ Past Members</b></p>
-						<p><i> from most recent </i></p>
           </header>
             <br>
             {% for org_hash in site.data.member.alumni %}
