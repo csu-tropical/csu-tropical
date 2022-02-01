@@ -19,9 +19,6 @@
 - id: desrosiers
   full_name: Alex DesRosiers
 
-- id: jones
-  full_name: Jhordanne Jones
-
 - id: nam
   full_name: C. Chelsea Nam
 
@@ -30,6 +27,6 @@
 
 - id: panasawatwong
   full_name: Rung Panasawatwong
-
-- id: razin
-  full_name: Naufal Razin
+  
+- id: barbero
+  full_name: Tyler Barbero
