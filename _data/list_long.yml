@@ -1,3 +1,108 @@
+- id: park_etal_2016
+  year:   2016
+  title: 'Highlighting socioeconomic damages caused by weakened tropical cyclones in the Republic of Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Park, D.-S. R, C.-H. Ho, J. Kim, K. Kang, and C. C. Nam'
+  journal: 'Nat. Hazards'
+  others: 82, 1301-1315
+  doi: https://ideas.repec.org/a/spr/nathaz/v82y2016i2d10.1007_s11069-016-2244-x.html
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'To alleviate enormous socioeconomic damages by tropical cyclones (TCs), the Korea Meteorological Administration (KMA) retains a special warning system for strong TCs (STCs, maximum wind speed of the best-track data ≥17 m s−1), but not for relatively weak TCs (WTCs) which are not regarded as threatening as STCs; the warning system encompasses complex extreme phenomena such as gust, downpour, storm surge, and wind wave possibly arising from STCs. However, it is necessary to examine if WTCs can be actually as harmful as STCs with various extreme phenomena. Here, we compare the risks and intensities of WTCs with those of STCs for each province by analyzing the national damage reports and the near-surface wind and rainfall records from 60 weather stations in the Republic of Korea. According to our result, WTCs bring huge damages comparable to STCs in the northwestern Korea, the most populated and the richest area in the country, while WTCs cause much less destruction than STCs in the southeast. The large damages in the northwestern Korea can be explained by different mean landfall locations between WTCs and STCs; the storm centers of WTCs make landfall closer to the northwestern coastline than STCs’. Significant correlations between wind/rainfall and the damage amount by WTCs suggest that WTCs can also induce multiple extreme phenomena like STCs. Thus, the KMA needs to develop a special warning system for WTCs like for STCs.'
+  summary: false
+  image: ../Publications/figures/park_etal_2016.png ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Boxplots of a nearsurface wind and b rainfall caused by weak tropical cyclones
+  (WTCs) and strong tropical cyclones (STCs), classified further into the damaged and non-damaged.'
+  acknowledgement: 'This work was funded by the Korea Ministry of Environment as Climate Change
+  Correspondence R&D Program, the National Research Foundation of Korea (NRF-2013R1A1A2064211),
+  and the Korea Meteorological Administration Research and Development Program under Grant
+  KMIPA2015-6110. The authors are grateful to Mr. Shin Han for his preliminary calculation and two
+  reviewers for helpful comments.'
+  bibtex: ../Publications/bibtex/park_etal_2016.bib
+  pdf: ../Publications/papers/park_etal_2016.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
+- id: park_etal_2015
+  year:   2015
+  title: 'Evidence of reduced vulnerability to tropical cyclones in the Republic of Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Park, D.-S. R, C.-H. Ho, C. C. Nam, and H.-S. Kim,'
+  journal: 'Env. Res. Lett.'
+  others: Vol. 10, No. 5
+  doi: http://dx.doi.org/10.1088/1748-9326/10/5/054003
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'On average, three tropical cyclones (TCs) affect the Republic of Korea each year, causing extensive
+  damage. To alleviate the TC-induced disasters, the Korean government has invested nearly 4% of its
+  annual budget in recent decades in prevention efforts; however, the effectiveness of this costly
+  program has not been evaluated. This study determined whether any evidence shows a reduced
+  vulnerability to TCs in Korea over 1979–2010 by utilizing multi-linear regression. Homelessness,
+  casualties, and property losses were individually examined. These explained variables were normalized
+  into the socio-economic circumstances of 2005 before the regression to eliminate the effect of
+  changing exposure by dealing with population and wealth at provincial levels. Three potential
+  explanatory variables based on nationwide weather-station data were considered, including the
+  maximum wind, maximum rainfall, and number of affected stations over each TC’s damaging period.
+  In addition, the annual per capita income, showing a quasi-linear increasing tendency, was used as an
+  additional explanatory variable to examine how vulnerability is altered. The results revealed that each
+  empirical model of homelessness, casualties, and property losses can account for 47%, 57%, and 57%
+  of each variance, respectively, which is highest when considering all four explanatory variables.
+  Consistently negative coefficients of the per capita income terms for all damage types suggest that the
+  vulnerability to TCs has been significantly reduced. This finding appears to be partly the result of the
+  national prevention effort, although it also can be attributed to other unintended adaptation factors,
+  such as building codes, industrial structures, and land use.'
+  summary: false
+  image: ../Publications/figures/park_etal_2015.jpeg ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Time series of the (a)–(c) number of homeless, (d)–(f) number of casualties, and (g)–(i) amount of property loss for each TC
+  landfall case. Uppermost, center, and lowermost rows indicate non-normalized, normalized regional losses, and normalized
+  nationwide aggregate losses, respectively. Y-axis is a log scale.'
+  acknowledgement: 'This work was funded by the Korea Ministry of
+  Environment as the Climate Change Correspondence
+  R&D Program and by the National Research Foundation
+  of Korea (NRF-2013R1A1A2064211). The
+  authors are grateful to Mr Hee-Dong Yeo and
+  Hyeong-Oh Cho for their preliminary calculations.
+  The authors also appreciate many helpful comments
+  from Professor Laura Bakkensen at the University of
+  Arizona and Dr Jinwon Kim at the University of
+  California, Los Angeles.'
+  bibtex: ../Publications/bibtex/park_etal_2015.bib
+  pdf: ../Publications/papers/park_etal_2015.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
+- id: nam_etal_2018
+  year:   2018
+  title: 'Dependency of tropical cyclone risk on track in South Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Nam, C.C., D-S R. Park, C-H Ho, and D. Chen'
+  journal: 'Nat. Hazards Earth Syst. Sci.'
+  others: 18, 3225-3224
+  doi: https://doi.org/10.5194/nhess-18-3225-2018
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'Several previous studies on tropical cyclone (TC) risk assessment have attempted to quantify the relationship between TC damage and its elements (i.e. exposure, vulnerability, and hazard). For hazard parameters, TC intensity (e.g. central minimum pressure, maximum wind speed) and size information (e.g. 30 knot radius of the TC) have been widely utilized. Our risk analysis of 85 TCs that made landfall in South Korea from 1979 to 2010, however, suggests that a small deviation of the TC track in the west–east direction (≤250 km, smaller than the average radius of TC) has a more dominant effect on the extent and distribution of TC damage than TC intensity or size. This significant track dependency of TC damage exists because the TC track is responsible for the realization of hazard change from potential to active. More specifically, although two TCs may have the same intensity and size, locally experienced rainfall and wind speed can vary according to their tracks due to topography. These results suggest that track information should be considered more carefully in assessments of future TC risk.'
+  summary: false
+  image: ../Publications/figures/nam_etal_2018_tc-risk.png ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Flowchart for local risk materialization process with TC risk elements and their relationships. Potential and active hazards
+  correspond to indirect and direct causes for TC risk in terms of causality science.'
+  acknowledgement: 'This work was supported by the Korea Ministry of Environment (MOE) as the Climate Change Correspondence Program and Chosun University.'
+  pdf: ../Publications/papers/nam_etal_2018.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
 - id: desrosiers_etal_2021
   year: 2021
   title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification.
@@ -231,7 +336,7 @@
   acknowledgement: Research was supported by National Science Foundation award AGS-1701225 and Office of Naval Research award N000141613033.
   # bibtex and pdf not available as this work is not published yet (in review)
   bibtex: ../Publications/bibtex/Nam_Bell_MWR2020_bibtex.bib
-  pdf: ../Publications/papers/Nam_Bell_MWR2020_EOR.pdf
+  pdf: ../Publications/papers/nam-bell_2021.pdf
   keyword1: Genesis
   keyword2: Vertical wind shear
   keyword3: TC case study
