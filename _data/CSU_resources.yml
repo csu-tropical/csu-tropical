@@ -1,0 +1,27 @@
+- id: impact
+  title: TC impact probability
+  full_name: CSU Tropical Cyclone Impact Probabilities
+  description: We are debuting a new methodology for calculating the impacts of tropical cyclones for each state and county/parish along the Gulf and East Coasts, tropical cyclone-prone provinces of Canada, islands in the Caribbean and countries in Central America. We have used NOAA’s <a href = "https://coast.noaa.gov/hurricanes"> Historical Hurricane Tracks website </a> and selected all named storms, hurricanes and major hurricanes that have tracked within 50 miles of each landmass from 1880-2020. <br> <br>
+  image: ./images/resources/Ida_Landfall.png
+  url: ./TC_impact.html
+
+- id: amo
+  title: AMO index
+  full_name: CSU Atlantic Multi-Decadal Oscillation (AMO) index
+  description: In 2008, Phil Klotzbach and Bill Gray published a paper in Journal of Climate discussing a newly-developed Atlantic Multi-Decadal Oscillation index that utilized a combination of two predictors, 1) Sea surface temperatures (SSTs) in the far North Atlantic from 50-60°N, 50-10°W and 2) sea level pressures (SLPs) in the North Atlantic from 0-50°N, 70-10°W. At present, the index is calculated by weighing the SST component as 60% of the index and the SLP component as the remaining 40%.
+  image: ./images/forecast/amo_tcactivity.png
+  url: ./archive_amo.html
+
+- id: forecast
+  title: Forecast Archive
+  full_name: CSU Tropical Cyclone Forecast Archive
+  description: CSU has been issuing seasonal Atlantic hurricane forecasts since 1984. These forecasts have evolved  since their inception and now include sub-seasonal (e.g., two-week) forecasts issued during the peak months of the hurricane season. Find more about our history and past TC forecasts here.
+  image: ./images/grants/tcforecast.png
+  url: ./archive.html
+
+- id: remote
+  title: LROSE
+  full_name: Lidar Radar Open Software Environment
+  description: LROSE is a National Science Foundation (NSF) supported project to develop common software for the Lidar, Radar, and Profiler community based on collaborative, open source development. The core package is being jointly developed by CSU and the Earth Observing Laboratory at the National Center for Atmospheric Research (NCAR/EOL).
+  image: ./images/resources/LROSE_logo.png
+  url: http://lrose.net/
