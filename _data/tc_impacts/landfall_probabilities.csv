@@ -1,4 +1,4 @@
-State_Province_Country,County,NS_events,H_events,MH_events,NS_current,H_current,MH_current,NS_climo,H_climo,MH_climo
+State,County,NS_events,H_events,MH_events,NS_current,H_current,MH_current,NS_climo,H_climo,MH_climo
 Texas,,133,64,24,80%,54%,25%,61%,36%,16%
 Texas,Cameron,39,20,7,38%,21%,8%,24%,13%,5%
 Texas,Willacy,35,19,8,34%,20%,9%,22%,13%,6%
