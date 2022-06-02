@@ -20,10 +20,10 @@
   title: Improvement of sub-seasonal to seasonal Atlantic basin hurricane forecasts
   grant: TC Forecasting
   full_name: Tropical Cyclone Forecasting
-  description: CSU has been issuing seasonal Atlantic hurricane forecasts since 1984. These forecasts have evolved in the 37 years since their inception and now include sub-seasonal (e.g., two-week) forecasts issued during the peak months of the hurricane season. While these forecasts have shown skill when issued in real time, there remains significant room for improvement. Current research involves a better understanding of the drivers of sub-seasonal to seasonal variability driving hurricane activity, with a focus on vertical wind shear.
+  description: CSU has been issuing seasonal Atlantic hurricane forecasts since 1984. These forecasts have evolved  since their inception and now include sub-seasonal (e.g., two-week) forecasts issued during the peak months of the hurricane season. While these forecasts have shown skill when issued in real time, there remains significant room for improvement. Current research involves a better understanding of the drivers of sub-seasonal to seasonal variability driving hurricane activity, with a focus on vertical wind shear.
   notes: More details about current and past TC forecasts can be found <a href="../forecasting.html">HERE</a>.
   image: ./images/grants/tcforecast.png
-  acknowledgement: G. Unger Vetlesen Foundation and our project sponsors -- Ironshore Insurance, Insurance Information Institute and Interstate Restoration
+  acknowledgement: G. Unger Vetlesen Foundation and our project sponsors -- Liberty Mutual Insurance, Insurance Information Institute, Weatherboy and Evex
   url: ./projects/forecast.html
 
 - id: remote

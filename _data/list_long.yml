@@ -1,3 +1,373 @@
+
+- id: park_etal_2016
+  year:   2016
+  title: 'Highlighting socioeconomic damages caused by weakened tropical cyclones in the Republic of Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Park, D.-S. R, C.-H. Ho, J. Kim, K. Kang, and C. C. Nam'
+  journal: 'Nat. Hazards'
+  others: 82, 1301-1315
+  doi: https://ideas.repec.org/a/spr/nathaz/v82y2016i2d10.1007_s11069-016-2244-x.html
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'To alleviate enormous socioeconomic damages by tropical cyclones (TCs), the Korea Meteorological Administration (KMA) retains a special warning system for strong TCs (STCs, maximum wind speed of the best-track data ≥17 m s−1), but not for relatively weak TCs (WTCs) which are not regarded as threatening as STCs; the warning system encompasses complex extreme phenomena such as gust, downpour, storm surge, and wind wave possibly arising from STCs. However, it is necessary to examine if WTCs can be actually as harmful as STCs with various extreme phenomena. Here, we compare the risks and intensities of WTCs with those of STCs for each province by analyzing the national damage reports and the near-surface wind and rainfall records from 60 weather stations in the Republic of Korea. According to our result, WTCs bring huge damages comparable to STCs in the northwestern Korea, the most populated and the richest area in the country, while WTCs cause much less destruction than STCs in the southeast. The large damages in the northwestern Korea can be explained by different mean landfall locations between WTCs and STCs; the storm centers of WTCs make landfall closer to the northwestern coastline than STCs’. Significant correlations between wind/rainfall and the damage amount by WTCs suggest that WTCs can also induce multiple extreme phenomena like STCs. Thus, the KMA needs to develop a special warning system for WTCs like for STCs.'
+  summary: false
+  image: ../Publications/figures/park_etal_2016.png ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Boxplots of a nearsurface wind and b rainfall caused by weak tropical cyclones
+  (WTCs) and strong tropical cyclones (STCs), classified further into the damaged and non-damaged.'
+  acknowledgement: 'This work was funded by the Korea Ministry of Environment as Climate Change
+  Correspondence R&D Program, the National Research Foundation of Korea (NRF-2013R1A1A2064211),
+  and the Korea Meteorological Administration Research and Development Program under Grant
+  KMIPA2015-6110. The authors are grateful to Mr. Shin Han for his preliminary calculation and two
+  reviewers for helpful comments.'
+  bibtex: ../Publications/bibtex/park_etal_2016.bib
+  pdf: ../Publications/papers/park_etal_2016.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
+- id: park_etal_2015
+  year:   2015
+  title: 'Evidence of reduced vulnerability to tropical cyclones in the Republic of Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Park, D.-S. R, C.-H. Ho, C. C. Nam, and H.-S. Kim,'
+  journal: 'Env. Res. Lett.'
+  others: Vol. 10, No. 5
+  doi: http://dx.doi.org/10.1088/1748-9326/10/5/054003
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'On average, three tropical cyclones (TCs) affect the Republic of Korea each year, causing extensive
+  damage. To alleviate the TC-induced disasters, the Korean government has invested nearly 4% of its
+  annual budget in recent decades in prevention efforts; however, the effectiveness of this costly
+  program has not been evaluated. This study determined whether any evidence shows a reduced
+  vulnerability to TCs in Korea over 1979–2010 by utilizing multi-linear regression. Homelessness,
+  casualties, and property losses were individually examined. These explained variables were normalized
+  into the socio-economic circumstances of 2005 before the regression to eliminate the effect of
+  changing exposure by dealing with population and wealth at provincial levels. Three potential
+  explanatory variables based on nationwide weather-station data were considered, including the
+  maximum wind, maximum rainfall, and number of affected stations over each TC’s damaging period.
+  In addition, the annual per capita income, showing a quasi-linear increasing tendency, was used as an
+  additional explanatory variable to examine how vulnerability is altered. The results revealed that each
+  empirical model of homelessness, casualties, and property losses can account for 47%, 57%, and 57%
+  of each variance, respectively, which is highest when considering all four explanatory variables.
+  Consistently negative coefficients of the per capita income terms for all damage types suggest that the
+  vulnerability to TCs has been significantly reduced. This finding appears to be partly the result of the
+  national prevention effort, although it also can be attributed to other unintended adaptation factors,
+  such as building codes, industrial structures, and land use.'
+  summary: false
+  image: ../Publications/figures/park_etal_2015.jpeg ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Time series of the (a)–(c) number of homeless, (d)–(f) number of casualties, and (g)–(i) amount of property loss for each TC
+  landfall case. Uppermost, center, and lowermost rows indicate non-normalized, normalized regional losses, and normalized
+  nationwide aggregate losses, respectively. Y-axis is a log scale.'
+  acknowledgement: 'This work was funded by the Korea Ministry of
+  Environment as the Climate Change Correspondence
+  R&D Program and by the National Research Foundation
+  of Korea (NRF-2013R1A1A2064211). The
+  authors are grateful to Mr Hee-Dong Yeo and
+  Hyeong-Oh Cho for their preliminary calculations.
+  The authors also appreciate many helpful comments
+  from Professor Laura Bakkensen at the University of
+  Arizona and Dr Jinwon Kim at the University of
+  California, Los Angeles.'
+  bibtex: ../Publications/bibtex/park_etal_2015.bib
+  pdf: ../Publications/papers/park_etal_2015.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
+- id: nam_etal_2018
+  year:   2018
+  title: 'Dependency of tropical cyclone risk on track in South Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Nam, C.C., D-S R. Park, C-H Ho, and D. Chen'
+  journal: 'Nat. Hazards Earth Syst. Sci.'
+  others: 18, 3225-3224
+  doi: https://doi.org/10.5194/nhess-18-3225-2018
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'Several previous studies on tropical cyclone (TC) risk assessment have attempted to quantify the relationship between TC damage and its elements (i.e. exposure, vulnerability, and hazard). For hazard parameters, TC intensity (e.g. central minimum pressure, maximum wind speed) and size information (e.g. 30 knot radius of the TC) have been widely utilized. Our risk analysis of 85 TCs that made landfall in South Korea from 1979 to 2010, however, suggests that a small deviation of the TC track in the west–east direction (≤250 km, smaller than the average radius of TC) has a more dominant effect on the extent and distribution of TC damage than TC intensity or size. This significant track dependency of TC damage exists because the TC track is responsible for the realization of hazard change from potential to active. More specifically, although two TCs may have the same intensity and size, locally experienced rainfall and wind speed can vary according to their tracks due to topography. These results suggest that track information should be considered more carefully in assessments of future TC risk.'
+  summary: false
+  image: ../Publications/figures/nam_etal_2018_tc-risk.png ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Flowchart for local risk materialization process with TC risk elements and their relationships. Potential and active hazards
+  correspond to indirect and direct causes for TC risk in terms of causality science.'
+  acknowledgement: 'This work was supported by the Korea Ministry of Environment (MOE) as the Climate Change Correspondence Program and Chosun University.'
+  pdf: ../Publications/papers/nam_etal_2018.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+
+- id: nammwr2020
+  year: 2021
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: "in press"
+  doi: https://doi.org/10.1175/MWR-D-20-0133.1
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new insight for the supporting role of low-level VWS providing horizontal vorticity and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic to meso scales using airborne Doppler radar observations of pre-depression Hagupit during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations reveal complex localized convective and vortical characteristics of a pre-depression in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric trough during the observation period. The strong deep-layer VWS (> 20 m s -1) had a negative impact on the development through misalignment of the low and mid-level circulations and dry air intrusion. However, the low-level circulation persisted and the system ultimately formed into a tropical cyclone after it left the high-shear zone. Here we propose that a key process that enabled the predepression to survive through the upper-tropospheric trough interaction was persistent vorticity amplification on the meso-gamma scale that was aggregated on the mesoalpha scale within the pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the low-level horizontal vorticity into the vertical in the early stage of convective life-cycle, followed by stretching from maturing deep convection. Variations in low-level VWS on the meso-beta scale affect convective organization and horizontal vorticity generation. The results provide new insights into multi-scale processes during TC genesis and the interactions of a pre-depression with VWS at various spatial scales.
+  summary: false
+  image: ../Publications/figures/Nam_Bell_2020_Fig14.pdf
+  caption: "FIG. 14. Schematic of the multi-scale interactions in Hagupit’s cyclogenesis. a) Synoptic scale active features are the upper-level trough and easterly wave which carries the marsupial wave pouch, denoted as red circulation. b) In the meso-alpha scale wave pouch, the low-level cyclonic streamlines are shown with circulation center marked with black cross and mid-level center as yellow cross. Overlain on the clouds to the southwest of the low-level center is vorticity (positive: red, negative: blue), illustrating vorticity dipoles from tilting, enhanced vorticity from stretching, and a mid-level MCV over the stratiform area. c) In the meso-beta scale, the local wind shear profile that influences the convective organization is composed of winds from cyclonic circulation inside pouch, easterly wave propagation, and the trough. d) Meso-gamma scale convective cells produce vorticity that serve as building blocks for the wave pouch intensification through tilting of horizontal vorticity associated with low- level wind shear (S cell) and stretching of the local vertical vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225 and 412 Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+  bibtex: false
+  pdf: false
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+
+
+- id: desrosiers_etal_2021
+  year: 2021
+  title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification.
+  author1: desrosiers
+  author2: bell
+  author3: cha
+  authors: DesRosiers, A., M. M. Bell, and T.-Y. Cha
+  journal: Monthly Weather Review
+  others: in press
+  doi: https://doi.org/10.1175/MWR-D-21-0098.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: The landfall of Hurricane Michael (2018) at category 5 intensity occurred after rapid intensification (RI) spanning much of the storm’s lifetime. Four Hurricane Hunter aircraft missions observed the RI period with tail Doppler radar (TDR). Data from each of the 14 aircraft passes through the storm were quality controlled via a combination of interactive and machine learning techniques. TDR data from each pass were synthesized using the SAMURAI variational wind retrieval technique to yield three-dimensional kinematic fields of the storm to examine inner core processes during RI. Vorticity and angular momentum increased and concentrated in the eyewall region. A vorticity budget analysis indicates the tendencies became more axisymmetric over time. In this study we focus in particular on how the eyewall vorticity tower builds vertically into the upper levels. Horizontal vorticity associated with the vertical gradient of tangential wind was tilted into the vertical by the eyewall updraft to yield a positive vertical vorticity tendency inward atop the existing vorticity tower, that is further developed locally upward and outward along the sloped eyewall through advection and stretching. Observed maintenance of thermal wind balance from a thermodynamic retrieval shows evidence of a strengthening warm core, which aided in lowering surface pressure and further contributed to the efficient intensification in the latter stages of this RI event.
+  summary: Rapid Intensification (RI) is when a tropical cyclone increases its maximum sustained winds by 30 knots or more in 24 hours. Predicting RI is challenging because it depends on internal processes taking place within the storm in addition to the favorability of the environment around it. Detailed observations of storms undergoing RI are required to further our understanding and improve predictability. Hurricane Michael underwent RI for most of its lifetime which was well observed by research aircraft equipped with tail Doppler radar. The resulting dataset allowed for identification and analysis of processes, particularly in the upper levels of that atmosphere, that aided Hurricane Michael in achieving category 5 intensity before its historic US landfall.
+  image: ../Publications/figures/desrosiers_etal_2021MWR.png
+  caption: Schematic representation of observed vortex development processes during rapid intensification of Hurricane Michael (2018). Light gray shading denotes the eyewall cloud. Purple shaded region represents the tower of high vorticity in the eyewall. Green shading denotes region of positive vorticity tendency from tilting and vertical advection. Blue shading represents region of positive vorticity tendency from stretching and radial advection. The + sign denotes the location of the maximized positive net vertical vorticity tendency from the sum of these terms and negative tendencies (not shown). Yellow shading denotes secondary circulation. Cyan contour denotes the radius of maximum wind. Dashed gray contours denote tangential wind, with decreasing line thickness indicating weaker winds. The region of enhanced horizontal vorticity is denoted near 9 km altitude at the same level as the red shaded area where warm core development is maximized through thermal wind balance.
+  acknowledgement: This research was financially supported National Science Foundation award OAC-1661663 and Office of Naval Research awards N000141613033 and N000142012069. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study. We also thank Rachel Mauk and two anonymous reviewers for comments and suggestions which improved the manuscript.
+  bibtex: ../Publications/bibtex/desrosiers_etal_2021MWR.bib
+  pdf: ../Publications/papers/desrosiers_etal_2021MWR.pdf
+  keyword1: Rapid intensification
+  keyword2: TC case study
+  keyword3: Radar
+- id: klotzbach_etal_BAMS2021
+  year: 2021
+  title: >
+  A Hyperactive End to the Atlantic Hurricane Season: October–November 2020
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J., Wood, K. M., Bell, M. M., Blake, E. S., Bowen, S. G., Caron, L., Collins, J. M., Gibney, E. J., Schreck, C. J., III, & Truchelut, R. E.
+  journal: Bulletin of the American Meteorological Society
+  others: in press
+  doi: https://doi.org/10.1175/BAMS-D-20-0312.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: cha_etal_MWR
+  year: 2021
+  title: Doppler radar analysis of the eyewall replacement cycle of hurricane matthew
+    (2016) in vertical wind shear
+  author1: cha
+  author2: bell
+  author3: desrosiers
+  authors: Cha, T-Y., M. M. Bell, A. J. DesRosiers
+  journal: Monthly Weather Review
+  others: 149(9), 2927 - 2943
+  doi: https://doi.org/10.1175/MWR-D-20-0289.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Matthew (2016) was observed by ground-based polarimetric radars in Miami (KAMX), Melbourne (KMLB), and Jacksonville, Florida (KJAX), and a NOAA P3 airborne tail Doppler radar near the coast of the southeastern United States during an eyewall replacement cycle (ERC). The radar observations indicate that Matthew’s primary eyewall was replaced with a weaker outer eyewall, but unlike a classic ERC, Matthew did not reintensify after the inner eyewall disappeared. Triple-Doppler analysis was calculated from the NOAA P3 airborne fore and aft radar scanning combined with the KAMX radar data during the period of secondary eyewall intensification and inner eyewall weakening from 1900 UTC 6 October to 0000 UTC 7 October. Four flight passes of the P3 aircraft show the evolution of the reflectivity, tangential winds, and secondary circulation as the outer eyewall became well established. Further evolution of the ERC is analyzed from the ground-based single-Doppler radar observations for 35 h with high temporal resolution at a 5-min interval from 1900 UTC 6 October to 0000 UTC 8 October using the Generalized Velocity Track Display (GVTD) technique. The single-Doppler analyses indicate that the inner eyewall decayed a few hours after the P3 flight, while the outer eyewall contracted but did not reintensify and the asymmetries increased episodically. The analysis suggests that the ERC process was influenced by a complex combination of environmental vertical wind shear, an evolving axisymmetric secondary circulation, and an asymmetric vortex Rossby wave damping mechanism that promoted vortex resiliency despite increasing shear.
+  summary: In many tropical cyclones the eyewall where the heaviest rain and winds are found is replaced by a larger outer eyewall, leading to an expansion of the damaging winds and intensity change, but this process is not well understood. Hurricane Matthew (2016) underwent an eyewall replacement that was observed by coastal and airborne radars, but in contrast to other storms was impacted by strong vertical wind shear during the process. In this study we analyze 35 h of radar data to examine Matthew’s evolution. The analyses show a complex interaction between the external vertical wind shear and the internal dynamics of the storm that weakened the storm and increased its asymmetry, improving our understanding of hurricane structure and intensity change.
+  image: ../Publications/figures/Cha_MWR2021_Fig15.jpg
+  caption: 3D simplified plots of Matthew’s inner and outer vorticity tower evolution at (a) 0735, (b) 1121, (c) 1303, (d) 1417, (e) 1815, and (f) 2348 UTC 7 Oct. The white line denotes the GVTD-simplex centers at different altitudes, and the inner and outer radii of vorticity towers were estimated from the axisymmetric vorticity profile. The black arrow represents the environmental shear direction. Shading at 0735 UTC shows the wavenumber-2 tangential wind at z = 3 km.
+  acknowledgement: This research was supported by National Science Foundation Award OAC-1661663 and Office of Naval Research Awards N000141613033 and N000142012069. T.-Y. Cha was also supported by a Taiwan Ministry of Education graduate fellowship. We thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank three anonymous reviewers for constructive and helpful comments.
+  bibtex: ../Publications/bibtex/cha_etal_MWR2021.bib
+  pdf: ../Publications/papers/cha_etal_MWR2021.pdf
+  keyword1: Radar
+  keyword2: GVTD
+  keyword3: Asymmetric Dynamics
+- id: trabing_bell_MWR
+  year: 2021
+  title: Observations of Diurnal Variability under the Cirrus Canopy of Typhoon Kong-rey (2018)
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Monthly Weather Review
+  others: 149(9), 2945-2964
+  doi: https://doi.org/10.1175/MWR-D-20-0327.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: A growing body of work has documented the existence of diurnal oscillations in the tropical cyclone outflow layer. These diurnal pulses have been examined primarily using satellites or numerical models, and detailed full tropospheric observations or case study analyses of diurnal pulses are lacking. Questions remain on the vertical extent of diurnal pulses and whether diurnal pulses are coupled to convective bands or constrained to the outflow layer. During the Propagation of Intraseasonal Tropical Oscillations (PISTON) field campaign, diurnal oscillations in the upper-level clouds were observed during Typhoon Kong-rey’s (2018) rapid intensification. Over a 3.5-day period where a broad distribution of cold upper-level clouds was overhead, detailed observations of Typhoon Kong-rey’s rainbands show that convection had reduced echo tops but enhanced reflectivity and differential reflectivity aloft compared to other observations during PISTON. Shortwave heating in the upper levels increased the stability profile in an overall favorable thermodynamic environment for convection during the day, which could help to explain the diurnal differences in convective structure. Under the cirrus canopy, nocturnal convection was deeper and daytime convection shallower in contrast to the rest of the PISTON dataset. Diurnal oscillations in the brightness temperatures were found to be coupled to radially outward propagating convective rainbands that were preceded ~6 h by outflow jets. The cooling pulses occurred earlier than found in previous studies. The pulses were asymmetric spatially, which is likely due to a combination of the vertical wind shear and storm intensity.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: >
+  This work has been funded by the Office of Naval Research Award N000141613033. The authors thank Chelsea Nam and Jennifer DeHart for their insightful comments. This work has also been improved by the comments of three anonymous reviewers. Meteorology and surface flux data collected during PISTON are available at the NOAA Physical Sciences Laboratory (PSL) ftp site: ftp://ftp1.esrl.noaa.gov/psd3/cruises/PISTON_MISOBOB_2018/TGT/. Multiple datasets from PISTON, such as the radiosondes and SEA-POL gridded data, are available from https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex.
+  bibtex: ../Publications/bibtex/trabing_bell_MWR2021.bib
+  pdf: ../Publications/papers/Trabing_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: schreck_etal_GRL
+  year: 2021
+  title: Optimal climate normals for North Atlantic hurricane activity
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Schreck, C. J., Klotzbach, P. J., & Bell, M. M
+  journal: Geophysical Research Letters
+  others: 48, e2021GL092864
+  doi: https://doi.org/10.1016/j.atmosres.2019.06.010
+  keypoint1: A 30-year climatology for 1991–2020 is considerably higher than that for 1981–2010 and is likely not representative of the full record
+  keypoint2: Thirty-year North Atlantic climatologies have larger root mean squared hurricane prediction errors than 50-year climatologies
+  keypoint3: The most representative climatology for 2021–2030 is likely 1971–2020 with an adjustment for short-lived named storms
+  abstract: >
+    Most climatologies use 30-year epochs that are updated at the start of each decade. They will shift from 1981–2010 to 1991–2020 in 2021. North Atlantic hurricane activity has large interdecadal variability that may lead to biases in a 30-year climatology. A previous inactive hurricane period included 1981–1990, while 2011–2020 is a part of the ongoing active era. As a result, the 1991–2020 normals are more active than the 1981–2010 normals, with the median accumulated cyclone energy increasing by around 40%. A 50-year epoch would be more likely to capture a full cycle of multidecadal variability, and this study demonstrates that 50-year climatologies have historically been better predictors of the subsequent decade's hurricane activity. This paper argues that the 1971–2020 climatology should, therefore, be the baseline for hurricane activity for the next decade with a possible adjustment for the non-climatic increase in observed short-lived tropical cyclones.
+  summary: >
+    Climatologies are typically 30-year averages that are updated at the start of a new decade (e.g., in 2021, the 30-year average will be updated from 1981–2010 to 1991–2020). However, known changes in hurricane activity between decades are not typically well represented by a 30-year climatology. For example, 1981–1990 was a part of the last quiet period, but 2011–2020 is a part of the current active era. The 1991–2020 hurricane climatology is, therefore, much more active than 1981–2010. An integrated metric accounting for intensity, duration, and frequency of storms increases by 40% from the 1981–2010 to the 1991–2020 climatology. A 50-year climatology is more likely to include both active and quiet eras, which gives a better picture of “normal” hurricane activity. This study shows that the 50-year climatology has better predictive skill for seasonal hurricane activity than that of the standard 30-year average. New technology has also led to an increase in the number of short-lived tropical storms. The 50-year average for 1971–2020 with an adjustment for short-lived storms is likely to be the most representative climatology for the next decade.
+  image: false
+  caption: false
+  acknowledgement: The study benefited from insightful reviewer comments along with numerous discussions with Chris Landsea, Matt Rosencrans, Eric Blake, and Gerry Bell. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under the Cooperative Agreement NA19NES4320002. Klotzbach would like to acknowledge support from the G. Unger Vetlesen Foundation. Bell was supported by the Office of Naval Research award N00014161303.
+  bibtex: ../Publications/bibtex/schreck_etal_GRL.bib
+  pdf: ../Publications/papers/schreck_etal_GRL.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: trabing_bell_JGR
+  year: 2021
+  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Journal of Geophysical Research
+  others: 126, e2020JD034016.
+  doi: https://doi.org/10.1029/2020JD034016
+  keypoint1: The timing of secondary eyewall formation is sensitive to the magnitude of shortwave radiation
+  keypoint2: Shortwave radiation can modify secondary eyewall formations by reducing the extent and magnitude of diabatic heating in convective rainbands
+  keypoint3:  The interactions between shortwave radiation and cloud microphysics are critical for simulating eyewall replacement cycles
+  abstract: The sensitivity of tropical cyclone secondary eyewall formation (SEF) and subsequent eyewall replacement cycles (ERCs) to shortwave radiation is examined in this study by varying the solar constant and diurnal cycle at different times prior to an ERC using idealized simulations from the Weather Research and Forecasting model. The magnitude of shortwave radiation plays an important role in modifying the timing of the SEF with nonlinear interactions amplifying the SEF formation differences at longer lead-times. Shortwave radiation has a delaying effect on the SEF and ERC primarily through its modifications of the distribution of convective and stratiform heating profiles in the rainbands. Shortwave radiation reduces both the area and diabatic heating of convection in the model domain, while increasing the amount of stratiform precipitation that has weaker low-level cooling and upper-level heating rates. The primary mechanism by which shortwave radiation reduces the diabatic heating profile and frequency of convection in the rainbands is through heating of the mid-upper troposphere which stabilizes the region and reduces convective available potential energy.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: The authors would like to thank Dr. Anthony Didlake Jr. and Dr. Dandan Tao for their insightful comments. This work has also been improved by three anonymous reviewers. This work has been funded by the Office of Naval Research Awards N000141613033, N000141712230, and N000142012069, and National Science Foundation award AGS-1701225
+  bibtex: ../Publications/bibtex/trabing_bell_JGR2021.bib
+  pdf: ../Publications/papers/Trabing_Bell_JGR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: cha_bell_AMT
+  year: 2021
+  title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
+  author1: cha
+  author2: bell
+  author3: false
+  authors: Cha, T-Y., M. M. Bell
+  journal: Atmospheric Measurement Techniques
+  others: 14, 3523–3539
+  doi: https://doi.org/10.5194/amt-14-3523-2021
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Matthew (2016) was observed by the ground-based polarimetric Next Generation Weather Radar (NEXRAD) in Miami (KAMX) and the National Oceanic and Atmospheric Administration WP-3D (NOAA P-3) airborne tail Doppler radar near the coast of the southeastern United States for several hours, providing a novel opportunity to evaluate and compare single- and multiple-Doppler wind retrieval techniques for tropical cyclone flows. The generalized velocity track display (GVTD) technique can retrieve a subset of the wind field from a single ground-based Doppler radar under the assumption of nearly axisymmetric rotational wind, but it has been shown to have errors from the aliasing of unresolved wind components. An improved technique that mitigates errors due to storm motion is derived in this study, although some spatial aliasing remains due to limited information content from the single-Doppler measurements. A spline-based variational wind retrieval technique called SAMURAI can retrieve the full three-dimensional wind field from airborne radar fore–aft pseudo-dual-Doppler scanning, but it has been shown to have errors due to temporal aliasing from the nonsimultaneous Doppler measurements. A comparison between the two techniques shows that the axisymmetric tangential winds are generally comparable between the two techniques, and the improved GVTD technique improves the accuracy of the retrieval. Fourier decomposition of asymmetric kinematic and convective structure shows more discrepancies due to spatial and temporal aliasing in the retrievals. The strengths and weaknesses of each technique for studying tropical cyclone structure are discussed and suggest that complementary information can be retrieved from both single- and dual-Doppler retrievals. Future improvements to the asymmetric flow assumptions in single-Doppler analysis and steady-state assumptions in pseudo-dual-Doppler analysis are required to reconcile differences in retrieved tropical cyclone structure.
+  summary: Doppler radar provides high-resolution wind measurements within tropical cyclones (TCs) for real-time monitoring and weather forecasting. Hurricane Matthew (2016) was observed by the ground-based single-Doppler and NOAA P-3 Hurricane Hunter airborne radar simultaneously, providing a novel opportunity to compare single- and multiple-Doppler wind retrieval techniques. Here, we improve the single-Doppler wind retrieval algorithm and show the pros and cons of each method for studying TC structure.
+  image: ../Publications/figures/Cha_AMT2021_Fig7.jpg
+  caption: >
+    Azimuth and amplitude polar diagram of the temporal evolution of (a) maximum wavenumber 1 tangential wind amplitude and phase and (b) maximum wavenumber 2 tangential wind amplitude and phase in the inner eyewall (<18 km) derived from the GVTD single Doppler analysis from 1907 to 1940 UTC 6 October. The amplitude of the tangential wind component is denoted by the radius of each dot, with the phase denoted by the azimuth. The red dot in (a) and (b) indicates the starting time at 1907 UTC, and the temporal evolution follows the blue line.
+  acknowledgement: This research was supported by National Science Foundation award OAC-1661663. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank Naufal Razin and three anonymous reviewers for their constructive and helpful comments to improve the quality of the manuscript.
+  bibtex: ../Publications/bibtex/cha_bell_AMT2021.bib
+  pdf: ../Publications/papers/cha_bell_AMT2021.pdf
+  keyword1: Radar
+  keyword2: GVTD
+  keyword3: Observations
+- id: Razin_Bell_2021_MWR
+  year: 2021
+  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
+  author1: razin
+  author2: bell
+  author3: false
+  authors: Razin, N., M. M. Bell
+  journal: Monthly Weather Review
+  others:  149(7), 2151-2170.
+  doi: https://doi.org/10.1175/MWR-D-20-0181.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Ophelia (2005) underwent an unconventional eyewall replacement cycle (ERC) as it was a category-1 storm located over cold sea surface temperatures near 23°C. The ERC was analyzed using airborne radar, flight-level, and dropsonde data collected during the Hurricane Rainband and Intensity Change Experiment (RAINEX) intensive observation period on 11 September 2005. Results showed that the spinup of the secondary tangential wind maximum during the ERC can be attributed to the efficient convergence of absolute angular momentum by the midlevel inflow of Ophelia’s dominantly stratiform rainbands. This secondary tangential wind maximum strongly contributed to the azimuthal mean tangential wind field, which is conducive for increased low-level supergradient winds and corresponding outflow. The low-level supergradient forcing enhanced convergence to form a secondary eyewall. Ophelia provides a unique example of an ERC occurring in a weaker storm with predominantly stratiform rainbands, suggesting an important role of stratiform precipitation processes in the development of secondary eyewalls.
+  summary: false
+  image: false
+  acknowledgement: This research was supported by the National Science Foundation Awards AGS-1701225 and OAC-1661663 and Office of Naval Research Award N000142012069. Naufal Razin was also supported by the NASA Earth and Space Science Fellowship Award 80NSSC18K1349. We acknowledge the RAINEX and IFEX science teams, including NCAR, the Naval Research Laboratory, the NOAA Aircraft Operations Center, and the NOAA Hurricane Research Division of AOML for their data collection and archiving efforts. We also thank Eleanor Casas for her feedback on the paper prior to submission and Michael Fischer, Anthony Didlake, and an anonymous reviewer for their insightful comments.
+  bibtex: ../Publications/bibtex/Razin_Bell_MWR2021.bib
+  pdf: ../Publications/papers/Razin_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Boehm_Bell_2021_JAS
+  year: 2021
+  title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
+  author1: boehm
+  author2: bell
+  author3: false
+  authors: Boehm, A.M, M. M. Bell
+  journal: Journal of Atmospheric Science
+  others:  78(5), 1583-1605
+  doi: https://doi.org/10.1175/JAS-D-20-0195.1
+  keypoint1: Three-dimensional temperature and pressure perturbations are retrieved in Hurricane Rita on 23 September 2005 from multi-Doppler radar data that are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC.
+  keypoint2: The analysis suggests the interpretation of eyewall convective forcing under the impacts of vertical wind shear within a three-level framework of balanced, quasi-balanced, and unbalanced motions
+  keypoint3: Observed wavenumber-1 thermodynamic asymmetries add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale, while higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall that were positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  abstract: The newly developed SAMURAI-TR is used to estimate three-dimensional temperature and pressure perturbations in Hurricane Rita on 23 September 2005 from multi-Doppler radar data during the RAINEX field campaign. These are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC. Rita was a major hurricane at this time and was affected by 13 m s−1 deep-layer vertical wind shear. Analysis of the contributions of the kinematic and retrieved thermodynamic fields to different azimuthal wavenumbers suggests the interpretation of eyewall convective forcing within a three-level framework of balanced, quasi-balanced, and unbalanced motions. The axisymmetric, wavenumber-0 structure was approximately in thermal- wind balance, resulting in a large pressure drop and temperature increase toward the center. The wavenumber-1 structure was determined by the interaction of the storm with environmental vertical wind shear resulting in a quasi-balance between shear and shear-induced kinematic and thermo- dynamic perturbations. The observed wavenumber-1 thermodynamic asymmetries corroborate results of previous studies on the response of a vortex tilted by shear, and add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale. Higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall. The unbalanced vertical acceleration was positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  summary: false
+  image: ../Publications/figures/Boehm_Bell_JAS2021_Fig15.png
+  caption: "Fig. 15. Summary schematic of the kinematic and thermodynamic structure of Hurricane Rita (2005). The gray cylinder represents the vortex tower of the eyewall, which is tilted by the environmental wind shear (black vector). Green ‘L’ symbols and vectors denote cyclonic low pressure anomalies, and brown ‘H’ symbols denote anticyclonic high pressure anomalies. Thermal anomalies are denoted by blue (cold) and red (warm) circles and shading. Blue arrows show the modified secondary circulation. The thick black contour denotes a representative potential temperature surface, with arrows illustrating the cyclonic vortex flow around the eyewall. In the downshear right quadrant, air parcels move cyclonically downstream and adiabatically upward along the potential temperature surface resulting in individual convective motions denoted by the cumulus cloud and upward arrow. A warm anomaly is shown in the convective cloud to denote the release of latent heat associated with the buoyant updraft."
+  acknowledgement: The research was supported by the National Science Foundation under Awards AGS-1349881 and AGS-1701225 and the Office of Naval Research under Award N000141410118.
+  bibtex: ../Publications/bibtex/Boehm_Bell_JAS2021.bib
+  pdf: ../Publications/papers/Boehm_Bell_JAS2021_EOR.pdf
+  keyword1: Radar
+  keyword2: Vertical wind shear
+  keyword3: TC case study
+- id: nammwr2021
+  year: 2021
+  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
+  author1: nam
+  author2: bell
+  author3: false
+  authors: Nam, C. C., M. M. Bell
+  journal: Monthly Weather Review
+  others: 149, 551-569
+  doi: https://doi.org/10.1175/MWR-D-20-0133.1
+  keypoint1: This study examines the interactions of a pre-depression Hagupit with vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales using field observations.
+  keypoint2: We highlight the persistent convection maintaining moisture and vorticity inside the wave pouch even under 20 m/s deep-layer VWS.
+  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new insight for the supporting role of low-level VWS providing horizontal vorticity and organizing convection in the early stage of tropical cyclogenesis.
+  abstract: >
+    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic to meso scales using airborne Doppler radar observations of pre-depression Hagupit during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations reveal complex localized convective and vortical characteristics of a pre-depression in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric trough during the observation period. The strong deep-layer VWS (> 20 m s -1) had a negative impact on the development through misalignment of the low and mid-level circulations and dry air intrusion. However, the low-level circulation persisted and the system ultimately formed into a tropical cyclone after it left the high-shear zone. Here we propose that a key process that enabled the predepression to survive through the upper-tropospheric trough interaction was persistent vorticity amplification on the meso-gamma scale that was aggregated on the mesoalpha scale within the pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the low-level horizontal vorticity into the vertical in the early stage of convective life-cycle, followed by stretching from maturing deep convection. Variations in low-level VWS on the meso-beta scale affect convective organization and horizontal vorticity generation. The results provide new insights into multi-scale processes during TC genesis and the interactions of a pre-depression with VWS at various spatial scales.
+  summary: false
+  image: ../Publications/figures/Nam_Bell_2020_Fig14.png
+  caption: "FIG. 14. Schematic of the multi-scale interactions in Hagupit’s cyclogenesis. a) Synoptic scale active features are the upper-level trough and easterly wave which carries the marsupial wave pouch, denoted as red circulation. b) In the meso-alpha scale wave pouch, the low-level cyclonic streamlines are shown with circulation center marked with black cross and mid-level center as yellow cross. Overlain on the clouds to the southwest of the low-level center is vorticity (positive: red, negative: blue), illustrating vorticity dipoles from tilting, enhanced vorticity from stretching, and a mid-level MCV over the stratiform area. c) In the meso-beta scale, the local wind shear profile that influences the convective organization is composed of winds from cyclonic circulation inside pouch, easterly wave propagation, and the trough. d) Meso-gamma scale convective cells produce vorticity that serve as building blocks for the wave pouch intensification through tilting of horizontal vorticity associated with low- level wind shear (S cell) and stretching of the local vertical vorticity (N cell)."
+  acknowledgement: Research was supported by National Science Foundation award AGS-1701225 and Office of Naval Research award N000141613033.
+  # bibtex and pdf not available as this work is not published yet (in review)
+  bibtex: ../Publications/bibtex/Nam_Bell_MWR2020_bibtex.bib
+  pdf: ../Publications/papers/nam-bell_2021.pdf
+  keyword1: Genesis
+  keyword2: Vertical wind shear
+  keyword3: TC case study
 - id: Martinez_Nam_JGR
   year: 2020
   title: On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion
@@ -6,7 +376,7 @@
   author3: bell
   authors: Martinez, J., C. C. Nam, M. M. Bell
   journal: Journal of Geophysical Research
-  others:  published
+  others:  125, e2020JD033324
   doi: https://doi.org/10.1029/2020JD033324
   keypoint1:
   keypoint2:
@@ -33,7 +403,7 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   author3: bell
   authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
   journal: Geophysical Research Letters
-  others:  published
+  others:  47, e2020GL089357
   doi: https://doi.org/10.1029/2020GL089357
   keypoint1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
   keypoint2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
@@ -59,7 +429,7 @@ Ochoa Mobility Program and the G.
 Unger Vetlesen Foundation. Michael
 Bell was funded by the Office of Naval
 Research award N000141613033."
-  bibtex: ../Publications/bibtex/Klotzbach_Caron_2020_GRL.bib
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_grl_bibtex.bib
   pdf: ../Publications/papers/Klotzbach_Caron_2020_grl.pdf
   keyword1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
   keyword2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
@@ -68,10 +438,10 @@ Research award N000141613033."
 - id: Klotzbach_Schreck_2020_BAMS
   year: 2020
   title: The record-breaking 1933 Atlantic Hurricane Season
-  author1: klotzback
+  author1: klotzbach
   author2: false
   author3: false
-  authors: Klotzback, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
+  authors: Klotzbach, P. J., C. J. Schreck III, G. P. Compo, S. G. Bowen, E. J. Gibney, E. C. J. Oliver, M. M. Bell
   journal: Bulletin of the American Meteorological Society
   others:  published
   doi: https://doi.org/10.1175/BAMS-D-19-0330.1
@@ -105,7 +475,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   author3: false
   authors: Marinescu, P.J., P.C. Kennedy, M.M. Bell, A.J. Drager, L.D. Grant, S.W. Freeman, S.C. van den Heever
   journal: Monthly Weather Review
-  others:  online early release
+  others:  148, 4435–4452
   doi: https://doi.org/10.1175/MWR-D-20-0071.1
   keypoint1: false
   keypoint2: false
@@ -137,12 +507,12 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   abstract: Convective activity in Catalonia (northeastern Spain) mainly occurs during summer and autumn, with severe weather occurring 33 days per year on average. In some cases, the storms have unexpected propagation characteristics, likely due to a combination of the complex topography and the thunderstorms’ propagation mechanisms. Partly due to the local nature of the events, numerical weather prediction models are not able to accurately nowcast the complex mesoscale mechanisms (i.e., local influence of topography). This directly impacts the retrieved position and motion of the storms, and consequently, the likely associated storm severity. Although a successful warning system based on lightning and radar observations has been developed, there remains a lack of knowledge of storm dynamics that could lead to forecast improvements. The present study explores the capabilities of the radar network at the Meteorological Service of Catalonia to retrieve dual-Doppler wind fields to study the dynamics of Catalan thunderstorms. A severe thunderstorm that splits and a tornado-producing supercell that is channeled through a valley are used to demonstrate the capabilities of an advanced open source technique that retrieves dynamical variables from C-band operational radars in complex terrain. For the first time in the Iberian Peninsula, complete 3D storm-relative winds are obtained, providing information about the internal dynamics of the storms.  This aids in the analyses of the interaction between different storm cells within a system and/or the interaction of the cells with the local topography
   summary: false
   image: ../Publications/figures/del_Moral_2020_Fig1.png
-  caption: 
-  acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.  
-  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib 
+  caption:
+  acknowledgement: The authors want to thank to Patricia Altube for providing the dual-PRF corrected raw velocity data, to Carme Farnell for the Lightning Jump and Severe Weather events database, to McKenna W. Stanford for the initial English revision and scientific improvements, to Enric Caselles for providing help with multiple Python aspects, and to Oriol Rodríguez for helping with the tornado case discussion. Comments and suggestions made by two anonymous reviewers of this manuscript helped improve the description and meteorological importance of the work conducted.
+  bibtex: ../Publications/bibtex/del_Moral_remotesensing.bib
   pdf: ../Publications/papers/delMoral_etal_RS2020.pdf
-  keyword1: dual-Doppler retrievals 
-  keyword2: C-band radar 
+  keyword1: dual-Doppler retrievals
+  keyword2: C-band radar
   keyword3: operational radar
 - id: chagrl2020 # lastname,journal,year
   year: 2020
@@ -180,7 +550,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   firstauthor: klotzbach
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: International Journal of Climatology
-  others: in press
+  others: vol 16, issue 1
   doi: https://doi.org/10.1002/joc.6703
   keypoint1: More tropical cyclones form in the western North Pacific during the boreal spring in La Niña years versus El Niño years
   keypoint2: Increased mid-level moisture appears to be primary reason for increased TC activity in La Niña springs
@@ -191,7 +561,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   caption: >
     Fig. 3. La Niña minus El Niño differences in environmental variables during March-May over the western North Pacific. (a) Sea surface temperature (°C), (b) 600-hPa relative humidity (%), (c) 850-hPa relative vorticity (×10-6 s-1) and (d) 850-200-hPa vertical wind shear (m s-1). Differences significant at the 0.05 level are represented with black crosses.
   acknowledgement: We would like to express our sincere thanks to two anonymous reviewers for their helpful comments on an earlier version of this manuscript. This work was jointly funded by the National Natural Science Foundation of China (61827901), the National Key Research and Development Program of China (2018YFC1507305) and the National Natural Science Foundation of China (41575044). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
-  bibtex: ../Publications/bibtex/song_et_al_2020_bibtex.bib
+  bibtex: ../Publications/bibtex/song_et_al_2020_ijoc_bibtex.bib
   pdf: ../Publications/papers/song_et_al_2020_ijoc.pdf
   keyword1: Seasonal
   keyword2: El Nino
@@ -379,12 +749,13 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   keyword3: Seasonal
 - id: songetal2020erl
   year: 2020
-  title: Increasing trend in rapid intensification magnitude of tropical cyclones
-    over the western North Pacific
+  title: Increasing trend in rapid intensification magnitude of tropical cyclones over the western North Pacific
   author1: klotzbach
+  author2:
+  author3:
   authors: Song, J., P. J. Klotzbach, and Y. Duan
   journal: Environmental Research Letters
-  others: in press
+  others:  15, 084043
   doi: https://doi.org/10.1088/1748-9326/ab9140
   keypoint1: false
   keypoint2: false
@@ -404,7 +775,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
     in strong RI occurrences over the region bounded by 12.5°~22.5°N, 155°~170°E,
     likely due to the offset between RI-favorable influences of the warming ocean
     and RI-unfavorable influences of increasing vertical wind shear (VWS).
-  summary: false
+  summary:
   image: ../Publications/figures/song_et_al_2020_erl_Fig2.jpg
   caption: "Fig. 2. (a) Slope of the quantiles for 24-h intensity changes (ΔV24s)
     for all TCs over the WNP from 1979-2018. Circles represent the slope derived by
@@ -423,7 +794,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
     funded by the National Nature Science Foundation of China (61827901) and the National
     Key Research and Development Program of China (2018YFC1507305). Klotzbach would
     like to acknowledge financial support from the G. Unger Vetlesen Foundation.
-  bibtex: ../Publications/bibtex/song_et_al_2020_erl.bib
+  bibtex: ../Publications/bibtex/song_et_al_2020_erl_bibtex.bib
   pdf: ../Publications/papers/song_et_al_2020_erl.pdf
   keyword1: Rapid intensification
   keyword2: TC intensity
@@ -1033,7 +1404,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   author3: klotzbach
   authors: Jones, Jhordanne J., Michael M. Bell, Philip J. Klotzbach
   journal: Journal of Climate
-  others: false
+  others: vol 33, issue 13
   # DOI of paper
   doi: https://doi.org/10.1175/JCLI-D-19-0474.1
   # Keypoints of Paper & Abstract
@@ -1080,7 +1451,7 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
     suggestions in the writing of this manuscript. We would also like to thank the
     Editor and the three anonymous reviewers who provided us with many helpful comments
     and suggestions that improved the papers final form.
-  bibtex: ../Publications/bibtex/Jones_etal_2020.bib
+  bibtex: ../Publications/bibtex/Jones_et_al_2020_bibtex.bib
   pdf: ../Publications/papers/Jones_etal_JCLI_2020.pdf
   keyword1: Seasonal
   keyword2: Vertical wind shear
@@ -1265,71 +1636,6 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   pdf: ../Publications/papers/Bell_Montgomery_JAS2019.pdf
   keyword1: Genesis
   keyword2: Mesoscale
-  keyword3: TC case study
-- id: nammwr2020
-  year: 2020
-  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
-  author1: nam
-  author2: bell
-  author3: false
-  authors: Nam, C. C., M. M. Bell
-  journal: Monthly Weather Review
-  others: "In review"
-  doi: false
-  keypoint1: This study examines the interactions of a pre-depression Hagupit with
-    vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales
-    using field observations.
-  keypoint2: We highlight the persistent convection maintaining moisture and vorticity
-    inside the wave pouch even under 20 m/s deep-layer VWS.
-  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new
-    insight for the supporting role of low-level VWS providing horizontal vorticity
-    and organizing convection in the early stage of tropical cyclogenesis.
-  abstract: >
-    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic
-    to meso scales using airborne Doppler radar observations of pre-depression Hagupit
-    during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional
-    Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations
-    reveal complex localized convective and vortical characteristics of a pre-depression
-    in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric
-    trough during the observation period. The strong deep-layer VWS (> 20 m s -1)
-    had a negative impact on the development through misalignment of the low and mid-level
-    circulations and dry air intrusion. However, the low-level circulation persisted
-    and the system ultimately formed into a tropical cyclone after it left the high-shear
-    zone. Here we propose that a key process that enabled the predepression to survive
-    through the upper-tropospheric trough interaction was persistent vorticity amplification
-    on the meso-gamma scale that was aggregated on the mesoalpha scale within the
-    pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the
-    low-level horizontal vorticity into the vertical in the early stage of convective
-    life-cycle, followed by stretching from maturing deep convection. Variations in
-    low-level VWS on the meso-beta scale affect convective organization and horizontal
-    vorticity generation. The results provide new insights into multi-scale processes
-    during TC genesis and the interactions of a pre-depression with VWS at various
-    spatial scales.
-  summary: false
-  image: ../Publications/figures/Nam_Bell_2020_Fig13.png
-  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
-    a) Synoptic scale’s active features are upper-level trough and easterly waves,
-    which carry the marsupial wave pouch shown as red circulation. b) Inside the meso-a
-    scale wave pouch, shown are the low-level cyclonic stream lines with its center
-    marked with black cross and mid-level center as yellow cross. Over the clouds
-    shifted to southwest from the low-level center is vorticity (positive - red, negative
-    - blue), showing vorticity dipoles from tilting, enhanced bigger vortex from stretching,
-    and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig.
-    7b), the squall-like NW-SE convection can be explained by the local wind shear
-    profile consist of winds from cyclonic circulation inside pouch, marsupial wave
-    propagation, and the trough. Thick black lines in the lowerleft corner of the
-    circle indicates convective line; L indicates ENE low-level shear; M indicates
-    WNW mid-level shear. d) Meso-g scale convective cells produce vorticity that serves
-    as building block for the wave pouch intensification through tilting the horizontal
-    shear (S cell) and stretching the existent vorticity (N cell)."
-  acknowledgement: Research was supported by National Science Foundation award AGS-1701225
-    and 412 Office of Naval Research award N000141613033.
-  # bibtex and pdf not available as this work is not published yet (in review)
-
-  bibtex: false
-  pdf: false
-  keyword1: Genesis
-  keyword2: Vertical wind shear
   keyword3: TC case study
 - id: saundersess2020
   year: 2020

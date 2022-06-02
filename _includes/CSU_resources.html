@@ -1,50 +1,93 @@
 <html>
 <head>
 <script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<script language="JavaScript">
+    function showProbs() {
+        var county = document.getElementById("county").value;
+        display_county.innerHTML = county;
+    }
+  </script>
 <style>
-figure {
-  margin: auto;
-  text-align: center;
-}
-figure img {
-    vertical-align: top;
-}
-figure figcaption {
-  background-color: white;
-  color: black;
-  padding: 2px;
-  font-size:small;
-  text-align: left;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+    figure {
+      margin: auto;
+      text-align: center;
+    }
+    figure img {
+        vertical-align: top;
+    }
+    figure figcaption {
+      background-color: white;
+      color: black;
+      padding: 2px;
+      font-size:small;
+      text-align: left;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  	.align-justify {
+  	    text-align: justify;
+  	          }
+
+   .grid-container {
+  	  display: grid;
+  	  grid-template-columns: auto auto;
+  	  grid-gap: 15px;
+  	  padding: -50px;
+      border-style: solid;
+      border-color: rgba(144, 144, 144, 0.75);
+
+  	}
+
+  	.crop {
+  	    height: 320px;
+  	    overflow: hidden;
+  	}
+
+  	.image-fig {
+  	  width: 100%;
+  	  height: 300px;
+  	  border: 1px;
+  	}
+
+  	img {
+  	  width: 100%;
+  	  height: 100%;
+  	  object-fit: cover;
+  	}
+  	@media only screen and (max-width: 700px) {
+  	  .image-wrapper {
+  	    grid-template-columns: 1fr;
+  	    row-gap: 30px;
+  	    padding: 10px;
+  	  }}
+
 </style>
 </head>
-<div class="box" style="color:black;text-align:center">
-<p> The CSU Tropical Weather & Research Team is continually developing resources <br>
-  for the TC community and general public. So, check us back often <i class="far fa-smile"></i> <br>
-  The resources for research (radar & satellite) developed by our team can be found <a href="/projects/remotesensing.html" target="_blank">HERE</a> </p>
-</div>
-<div class="content">
-<h3>CSU Atlantic Multi-Decadal Oscillation (AMO) index</h3>
-<p>In 2008, Phil Klotzbach and Bill Gray published <a href="/Forecast/AMO_paper.pdf" target="_blank">a paper in Journal of Climate</a> discussing a newly-developed Atlantic Multi-Decadal Oscillation index that utilized a combination of two predictors: 1) Sea surface temperatures (SSTs) in the far North Atlantic from 50-60°N, 50-10°W and 2) sea level pressures (SLPs) in the North Atlantic from 0-50°N, 70-10°W. At present, the index is calculated by weighing the SST component as 60% of the index and the SLP component as the remaining 40%. All values are standardized using the 1981-2010 climatological average as a baseline. Real-time monthly values are calculated from the NCEP/NCAR Reanalysis and are typically updated by the 5th of the following month.</p>
 
-<figure class="center" style="width:900px">
-  <img src="/images/forecast/amo_short.png" alt="Monthly AMO values" style="width:400px"/>
-  <img src="/images/forecast/amo_tcactivity.png" alt="AMO_TC relationship" style="width:400px"/>
-</figure>
-
-
-<div class="align-center" style="margin-top:50px">
-<ul class="actions" style="text-align:center;line-height:1em;">
-  <li><a href="/archive.html#data"class="button fit"><p><i class="fas fa-external-link-alt"></i> Download data here</p></a></li>
-
-</ul>
-</div>
+<div class="grid-container" style="border-style:solid;border-color:black;">
+  {% for entry in site.data.CSU_resources %}
+  <div >
+    <div class="box">
+      <div class="image fit image-wrapper" id={{entry.id}}>
+        <center><a href="{{entry.url}}"><img class="image-fig" style="width:auto;padding:10px;" src= "{{ entry.image }}" alt="Figure" class="center"/></a> </center>
+      </div>
+      <div class="content">
+        <header class="align-center">
+          <p style="margin-top:-30px;font-size:9.3px">{{ entry.full_name}}</p>
+          <h3> <b>{{ entry.title}}</b> </h3>
+        </header>
+        <p class="align-justify" style="margin-top:-10px;"> {{ entry.description}} </p>
+        <footer class="align-center">
+          <a href="{{entry.url}}" class="button alt">Learn More</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 

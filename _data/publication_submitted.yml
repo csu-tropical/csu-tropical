@@ -1,12 +1,13 @@
-- id: Razin_Bell_2020_MWR
-  year: 2020
-  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
-  author1: razin
+- id: klotzbach_etal_GRL2021
+  year: false
+  title: >
+    Trends in Global Tropical Cyclone Activity: 1990 – 2020
+  author1: klotzbach
   author2: bell
   author3: false
-  authors: Razin, N., M. M. Bell
-  journal: Monthly Weather Review
-  others:  submitted
+  authors: Klotzbach, P.J., K. M. Wood, C. J. Schreck, S. G. Bowen, C. M. Patricola, and M. M. Bell
+  journal: Geophysical Research Letters
+  others: submitted
   doi: false
   keypoint1: false
   keypoint2: false
@@ -14,21 +15,22 @@
   abstract: false
   summary: false
   image: false
+  caption: false
   acknowledgement: false
   bibtex: false
   pdf: false
   keyword1: false
   keyword2: false
   keyword3: false
-- id: Boehm_Bell_2020_JAS
-  year: 2020
-  title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
-  author1: boehm
+- id: jones_etal_2021
+  year: false
+  title: Wintertime Rossby Wave Breaking Persistence in Extended-range Seasonal Forecasts of Atlantic Tropical Cyclone Activity
+  author1: jones
   author2: bell
-  author3: false
-  authors: Boehm, A.M, M. M. Bell
-  journal: Journal of Atmospheric Science
-  others:  submitted
+  author3: klotzbach
+  authors: Jones, J., M. M. Bell, P. J. Klotzbach, and E. A. Barnes
+  journal: Journal of Climate
+  others: submitted
   doi: false
   keypoint1: false
   keypoint2: false
@@ -36,6 +38,30 @@
   abstract: false
   summary: false
   image: false
+  caption: false
+  acknowledgement: false
+  bibtex: false
+  pdf: false
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: dehart_etal_2021
+  year: false
+  title: Mechanisms Contributing to the Heavy Rainfall Associated with a Mei-yu Front near Taiwan
+  author1: dehart
+  author2: bell
+  author3: false
+  authors: DeHart, J. C., M. M. Bell, Y. Zhang, and Y.-L. Chen
+  journal: Monthly Weather Review
+  others: submitted
+  doi: false
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: false
+  summary: false
+  image: false
+  caption: false
   acknowledgement: false
   bibtex: false
   pdf: false
@@ -58,75 +84,6 @@
   abstract: false
   summary: false
   image: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: trabing_bell_JGR
-  year: 2020
-  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
-  author1: trabing
-  author2: bell
-  author3: false
-  authors: Trabing, B., M. M. Bell
-  journal: Journal of Geophysical Research
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: cha_bell_AMT
-  year: 2020
-  title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
-  author1: cha
-  author2: bell
-  author3: false
-  authors: Cha, T-Y., M. M. Bell
-  journal: Atmospheric Measurement Techniques
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: false
-  bibtex: false
-  pdf: false
-  keyword1: false
-  keyword2: false
-  keyword3: false
-- id: cha_etal_MWR
-  year: 2020
-  title: Doppler Radar Analysis of the Eyewall Replacement Cycle of Hurricane Matthew (2016) in Vertical Wind Shear
-  author1: cha
-  author2: bell
-  author3: desrosiers
-  authors: Cha, T-Y., M. M. Bell, A. J. DesRosiers
-  journal: Monthly Weather Review
-  others: submitted
-  doi: false
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: false
-  summary: false
-  image: false
-  caption: false
   acknowledgement: false
   bibtex: false
   pdf: false
@@ -179,72 +136,6 @@
   keyword1: false
   keyword2: false
   keyword3: false
-- id: nammwr2020
-  year: 2020
-  title: Multi-scale shear impacts during the genesis of Hagupit (2008)
-  author1: nam
-  author2: bell
-  author3: false
-  authors: Nam, C. C., M. M. Bell
-  journal: Monthly Weather Review
-  others: "In review"
-  doi: false
-  keypoint1: This study examines the interactions of a pre-depression Hagupit with
-    vertical wind shear (VWS) at various spatial scales from synoptic to meso-scales
-    using field observations.
-  keypoint2: We highlight the persistent convection maintaining moisture and vorticity
-    inside the wave pouch even under 20 m/s deep-layer VWS.
-  keypoint3: Our interpretation of the radar and dropsonde analyses provides a new
-    insight for the supporting role of low-level VWS providing horizontal vorticity
-    and organizing convection in the early stage of tropical cyclogenesis.
-  abstract: >
-    The impact of vertical wind shear (VWS) on cyclogenesis is examined from the synoptic
-    to meso scales using airborne Doppler radar observations of pre-depression Hagupit
-    during Tropical Cyclone Structure 2008 (TCS08) / THORPEX Pacific Area Regional
-    Campaign (T-PARC) field campaigns. The high temporal and spatial resolution observations
-    reveal complex localized convective and vortical characteristics of a pre-depression
-    in a sheared environment. Pre-depression Hagupit interacted with an upper-tropospheric
-    trough during the observation period. The strong deep-layer VWS (> 20 m s -1)
-    had a negative impact on the development through misalignment of the low and mid-level
-    circulations and dry air intrusion. However, the low-level circulation persisted
-    and the system ultimately formed into a tropical cyclone after it left the high-shear
-    zone. Here we propose that a key process that enabled the predepression to survive
-    through the upper-tropospheric trough interaction was persistent vorticity amplification
-    on the meso-gamma scale that was aggregated on the mesoalpha scale within the
-    pouch. Multi-Doppler wind analysis indicates that cumulus congestus tilted the
-    low-level horizontal vorticity into the vertical in the early stage of convective
-    life-cycle, followed by stretching from maturing deep convection. Variations in
-    low-level VWS on the meso-beta scale affect convective organization and horizontal
-    vorticity generation. The results provide new insights into multi-scale processes
-    during TC genesis and the interactions of a pre-depression with VWS at various
-    spatial scales.
-
-  summary: false
-  image: ../Publications/figures/Nam_Bell_2020_Fig13.pdf
-  caption: "FIG. 13. Schematics of the multi-scale interactions in Hagupit’s cyclogenesis.
-    a) Synoptic scale’s active features are upper-level trough and easterly waves,
-    which carry the marsupial wave pouch shown as red circulation. b) Inside the meso-a
-    scale wave pouch, shown are the low-level cyclonic stream lines with its center
-    marked with black cross and mid-level center as yellow cross. Over the clouds
-    shifted to southwest from the low-level center is vorticity (positive - red, negative
-    - blue), showing vorticity dipoles from tilting, enhanced bigger vortex from stretching,
-    and mid-level MCV over the stratiform area. c) In the meso-b scale S box (Fig.
-    7b), the squall-like NW-SE convection can be explained by the local wind shear
-    profile consist of winds from cyclonic circulation inside pouch, marsupial wave
-    propagation, and the trough. Thick black lines in the lowerleft corner of the
-    circle indicates convective line; L indicates ENE low-level shear; M indicates
-    WNW mid-level shear. d) Meso-g scale convective cells produce vorticity that serves
-    as building block for the wave pouch intensification through tilting the horizontal
-    shear (S cell) and stretching the existent vorticity (N cell)."
-  acknowledgement: Research was supported by National Science Foundation award AGS-1701225
-    and 412 Office of Naval Research award N000141613033.
-  # bibtex and pdf not available as this work is not published yet (in review)
-
-  bibtex: false
-  pdf: false
-  keyword1: Genesis
-  keyword2: Vertical wind shear
-  keyword3: TC case study
 - id: songetaldeceleration
   year: false
   title: What has caused the slowdown of tropical cyclone motion over the western North Pacific?

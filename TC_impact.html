@@ -1,0 +1,92 @@
+---
+layout: default
+title: CSU Tropical Cyclone Impact Probabilities
+---
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<style>
+div.innerbox {
+  border-style: solid;
+  border-color: gray;
+}
+td:first-child {
+  font-weight: bold
+}
+</style>
+</head>
+
+<section id="One" class="wrapper style3">
+  <div class="inner">
+    <header class="align-center" style="margin-top:-20px;margin-bottom:10px">
+      <p style="font-size:xxsmall">Resources Created by the CSU Tropical Group</p>
+      <h3 style="color:gray">Forecasting and Research Resources</h3>
+    </header>
+  </div>
+</section>
+
+<section id="Two" class="wrapper style2">
+  <div class="inner">
+  <div class="innerbox">
+  <div class="content">
+    <center><h3 style="color:gray">CSU Tropical Cyclone Impact Probabilities</h3></center>
+    <p>We are debuting a new methodology for calculating the impacts of tropical cyclones for each state and county/parish along the Gulf and East Coasts, tropical cyclone-prone provinces of Canada, Atlantic-facing states of coastal Mexico, islands in the Caribbean and countries in Central America. We have used NOAA’s <a href = "https://coast.noaa.gov/hurricanes"> Historical Hurricane Tracks website </a> and selected all named storms, hurricanes and major hurricanes that have tracked within 50 miles of each landmass from 1880-2020.  This approach allows for tropical cyclones that may have tracked through an immediately adjacent region to be counted for all regions that were in close proximity to the location of the storm. We then fit the observed frequency of storms within 50 miles of each landmass using a Poisson distribution to calculate the climatological odds of one or more events within 50 miles.
+    Net landfall probability is shown to be linked to the overall Atlantic basin Net Tropical Cyclone activity (NTC).  NTC is a combined measure of the year-to-year mean of six indices of hurricane activity, each expressed as a percentage difference from the 1950-2000 climatological average.  Long-term statistics show that, on average, the more active the overall Atlantic basin hurricane season is, the greater the probability of U.S. hurricane landfall.
+    Use the drop-down to obtain the climatological odds of storms tracking within 50 miles of each state along the Gulf and East Coasts along with the odds for the current season based on the latest forecast.
+    All of the calculations are also available in a downloadable spreadsheet.</p>
+
+    <div class="inner" id="tc_impacts">
+    <div class="content">
+    <h4 class="align-center">Tropical Cyclone Impact Probabilities (defined as one or more storms within 50 miles of location)</h4>
+    <div class="table-wrapper" style="height:800px;width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+    <table id="impact_table">
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>County</th>
+          <th>2022 Forecast Probability of Named Storm impact</th>
+          <th>2022 Forecast Probability of Hurricane impact</th>
+          <th>2022 Forecast Probability of Major Hurricane impact</th>
+          <th>Average Probability of Named Storm impact</th>
+          <th>Average Probability of Hurricane impact</th>
+          <th>Average Probability of Major Hurricane impact</th>
+          <th># Named Storms 1880-2020</th>
+          <th># Hurricanes 1880-2020</th>
+          <th># Major Hurricanes 1880-2020</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.data.tc_impacts.landfall_probabilities %}
+        <tr>
+          <td>{{row.State}}</td>
+          <td>{{row.County}}</td>
+          <td>{{row.NS_current}}</td>
+          <td>{{row.H_current}}</td>
+          <td>{{row.MH_current}}</td>
+          <td>{{row.NS_climo}}</td>
+          <td>{{row.H_climo}}</td>
+          <td>{{row.MH_climo}}</td>
+          <td>{{row.NS_events}}</td>
+          <td>{{row.H_events}}</td>
+          <td>{{row.MH_events}}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+      <br>
+    </div></div>
+
+    <div class="align-center" style="margin-top:50px">
+    <ul class="actions" style="text-align:center;line-height:1em;">
+      <li><a href="/Forecast/downloadable/landfall_probabilities.csv" class="button fit"><p><i class="fas fa-external-link-alt"></i> Download data here</p></a></li>
+
+    </ul>
+    </div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+</html>

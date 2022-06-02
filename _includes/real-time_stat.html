@@ -1,0 +1,351 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/8e44de192d.js" crossorigin="anonymous"></script>
+<script language="JavaScript">
+    function showProbs() {
+        var county = document.getElementById("county").value;
+        display_county.innerHTML = county;
+    }
+  </script>
+<style>
+figure {
+  margin: auto;
+  text-align: center;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  font-size:small;
+  text-align: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+
+
+
+<div class="content">
+  <div id="tcmap" style="min-width: 310px; max-width: 800px;  margin:auto;"></div>
+  <br>
+  <hr>
+  <br>
+  <h4 class="align-center">Global Tropical Cyclone Activity for 2021 (2020/2021 for the Southern Hemisphere)</h4>
+  <h5 class="align-center"> 1981-2010 Climatological Activity Through {{ "now" | date: "%d %B" }} in Parentheses </h4>
+
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+    <table id="info" class="alt">
+      <thead>
+        <tr>
+           <th>Basin</th>
+           <th>Named Storms</th>
+           <th>Named Storm Days</th>
+           <th>Hurricanes</th>
+           <th>Hurricane Days</th>
+           <th>Major Hurricanes</th>
+           <th>Major Hurricane Days</th>
+           <th>Accumulated Cyclone Energy</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.data.tc_stats.globalstats %}
+          {% if row.basin == "Northern Hemisphere" %}
+          <tr>
+            <td><em>{{row.basin}}</em></td>
+            <td><em>{{row.ns}} ({{row.nsclimo}})</em></td>
+            <td><em>{{row.nsd}} ({{row.nsdclimo}})</em></td>
+            <td><em>{{row.h}} ({{row.hclimo}})</em></td>
+            <td><em>{{row.hd}} ({{row.hdclimo}})</em></td>
+            <td><em>{{row.mh}} ({{row.mhclimo}})</em></td>
+            <td><em>{{row.mhd}} ({{row.mhdclimo}})</em></td>
+            <td><em>{{row.ace}} ({{row.aceclimo}})</em></td>
+          </tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          {% elsif row.basin == "Southern Hemisphere" %}
+          <tr>
+            <td><em>{{row.basin}}</em></td>
+            <td><em>{{row.ns}} ({{row.nsclimo}})</em></td>
+            <td><em>{{row.nsd}} ({{row.nsdclimo}})</em></td>
+            <td><em>{{row.h}} ({{row.hclimo}})</em></td>
+            <td><em>{{row.hd}} ({{row.hdclimo}})</em></td>
+            <td><em>{{row.mh}} ({{row.mhclimo}})</em></td>
+            <td><em>{{row.mhd}} ({{row.mhdclimo}})</em></td>
+            <td><em>{{row.ace}} ({{row.aceclimo}})</em></td>
+          </tr>
+          {% else %}
+          <tr>
+            <td>{{row.basin}}</td>
+            <td>{{row.ns}} ({{row.nsclimo}})</td>
+            <td>{{row.nsd}} ({{row.nsdclimo}})</td>
+            <td>{{row.h}} ({{row.hclimo}})</td>
+            <td>{{row.hd}} ({{row.hdclimo}})</td>
+            <td>{{row.mh}} ({{row.mhclimo}})</td>
+            <td>{{row.mhd}} ({{row.mhdclimo}})</td>
+            <td>{{row.ace}} ({{row.aceclimo}})</td>
+          </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+  </div>
+
+  <div id="basin" class="align-center" style="margin:0px -20px">
+    <h4 class="align-center">Individual Basin Tropical Cyclone Activity for 2021 (2020/2021 for the Southern Hemisphere)</h4>
+    <ul class="actions" style="text-align:center;">
+      <li><a class="button small doubleline special" id="btn_atl", onclick="showDiv('btn_atl','atl','eye1','txt1')" style="text-transform:none;width:150px;box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);"><p id="txt1"><i id="eye1" class="fas fa-eye"></i> North Atlantic</p></a></li>
+      <li><a href="#nwp" class="button small doubleline alt" id="btn_nwp", onclick="showDiv('btn_nwp','nwp','eye2','txt2')" style="text-transform:none;width:150px;"><p id="txt2"><i id="eye2" class="fas fa-eye-slash"></i> Northwest Pacific </p></a></li>
+      <li><a href="#nep" class="button small doubleline alt" id="btn_nep", onclick="showDiv('btn_nep','nep','eye3','txt3')" style="text-transform:none;width:150px;"><p id="txt3"><i id="eye3" class="fas fa-eye-slash"></i> Northeast Pacific </p></a></li>
+      <li><a href="#ni" class="button small doubleline alt" id="btn_ni", onclick="showDiv('btn_ni','ni','eye4','txt4')" style="text-transform:none;width:150px;"><p id="txt4"><i id="eye4" class="fas fa-eye-slash"></i> North Indian </p></a></li>
+      <li><a href="#sp" class="button small doubleline alt" id="btn_sp", onclick="showDiv('btn_sp','sp','eye5','txt5')" style="text-transform:none;width:150px;"><p id="txt5"><i id="eye5" class="fas fa-eye-slash"></i> South Pacific </p></a></li>
+      <li><a href="#si" class="button small doubleline alt" id="btn_si", onclick="showDiv('btn_si','si','eye6','txt6')" style="text-transform:none;width:150px;"><p id="txt6"><i id="eye6" class="fas fa-eye-slash"></i> South Indian </p></a></li>
+    </ul>
+  </div>
+  <br>
+  <div class="inner" id="atl" style="margin-top:-20px">
+    <div class="content">
+    <h4 class="align-center">Real-Time North Atlantic Ocean Statistics by Storm for 2021</h4>
+    <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+    <table id="atl_table" class="alt">
+      <thead>
+        <tr>
+          <th>Storm #</th>
+          <th>Name</th>
+          <th>Active Dates</th>
+          <th>Intensity<br>(kts)</th>
+          <th>MSLP<br>(hPa)</th>
+          <th>Named<br>Storm<br>Days</th>
+          <th>Hurricane<br>Days</th>
+          <th>Major<br>Hurricane<br>Days</th>
+          <th>Accumulated<br>Cyclone<br>Energy</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for row in site.data.tc_stats.atlanticstormstats %}
+      <tr>
+        <td>{{row.storm_number}}</td>
+        <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=al{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+        <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+        <td>{{row.intensity}}</td>
+        <td>{{row.mslp}}</td>
+        <td>{{row.nsd}}</td>
+        <td>{{row.hd}}</td>
+        <td>{{row.mhd}}</td>
+        <td>{{row.ace}}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+      <div name="realtime" id="atl_ace" style="width:1000px; margin:auto;"></div>
+      <br>
+  </div></div>
+
+  <div class="inner" id="nwp" style="display:none">
+  <div class="content">
+  <h4 class="align-center">Real-Time Northwest Pacific Ocean Statistics by Storm for 2021</h4>
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+  <table id="nwp_table" class="alt">
+    <thead>
+      <tr>
+        <th>Storm #</th>
+        <th>Name</th>
+        <th>Active Dates</th>
+        <th>Intensity<br>(kts)</th>
+        <th>MSLP<br>(hPa)</th>
+        <th>Named<br>Storm<br>Days</th>
+        <th>Hurricane<br>Days</th>
+        <th>Major<br>Hurricane<br>Days</th>
+        <th>Accumulated<br>Cyclone<br>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.tc_stats.northwestpacificstormstats %}
+    <tr>
+      <td>{{row.storm_number}}</td>
+      <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=wp{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+      <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+      <td>{{row.intensity}}</td>
+      <td>{{row.mslp}}</td>
+      <td>{{row.nsd}}</td>
+      <td>{{row.hd}}</td>
+      <td>{{row.mhd}}</td>
+      <td>{{row.ace}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+    <div name="realtime" id="nwp_ace" style="width:1000px; margin:auto;"></div>
+    <br>
+  </div></div>
+
+  <div class="inner" id="nep" style="display:none">
+  <div class="content">
+  <h4 class="align-center">Real-Time Northeast Pacific Ocean Statistics by Storm for 2021</h4>
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+  <table id="nep_table" class="alt">
+    <thead>
+      <tr>
+        <th>Storm #</th>
+        <th>Name</th>
+        <th>Active Dates</th>
+        <th>Intensity<br>(kts)</th>
+        <th>MSLP<br>(hPa)</th>
+        <th>Named<br>Storm<br>Days</th>
+        <th>Hurricane<br>Days</th>
+        <th>Major<br>Hurricane<br>Days</th>
+        <th>Accumulated<br>Cyclone<br>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.tc_stats.northeastpacificstormstats %}
+    <tr>
+      <td>{{row.storm_number}}</td>
+      <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=ep{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+      <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+      <td>{{row.intensity}}</td>
+      <td>{{row.mslp}}</td>
+      <td>{{row.nsd}}</td>
+      <td>{{row.hd}}</td>
+      <td>{{row.mhd}}</td>
+      <td>{{row.ace}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+    <div name="realtime" id="nep_ace" style="width:1000px; margin:auto;"></div>
+    <br>
+  </div></div>
+
+  <div class="inner" id="ni" style="display:none">
+  <div class="content">
+  <h4 class="align-center">Real-Time North Indian Ocean Statistics by Storm for 2021</h4>
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+  <table id="ni_table" class="alt">
+    <thead>
+      <tr>
+        <th>Storm #</th>
+        <th>Name</th>
+        <th>Active Dates</th>
+        <th>Intensity<br>(kts)</th>
+        <th>MSLP<br>(hPa)</th>
+        <th>Named<br>Storm<br>Days</th>
+        <th>Hurricane<br>Days</th>
+        <th>Major<br>Hurricane<br>Days</th>
+        <th>Accumulated<br>Cyclone<br>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.tc_stats.northindianstormstats %}
+    <tr>
+      <td>{{row.storm_number}}</td>
+      <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=io{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+      <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+      <td>{{row.intensity}}</td>
+      <td>{{row.mslp}}</td>
+      <td>{{row.nsd}}</td>
+      <td>{{row.hd}}</td>
+      <td>{{row.mhd}}</td>
+      <td>{{row.ace}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+    <div name="realtime" id="ni_ace" style="width:1000px; margin:auto;"></div>
+    <br>
+  </div></div>
+
+  <div class="inner" id="sp" style="display:none">
+  <div class="content">
+  <h4 class="align-center">Real-Time South Pacific Ocean Statistics by Storm for 2020/2021</h4>
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+  <table id="sp_table" class="alt">
+    <thead>
+      <tr>
+        <th>Storm #</th>
+        <th>Name</th>
+        <th>Active Dates</th>
+        <th>Intensity<br>(kts)</th>
+        <th>MSLP<br>(hPa)</th>
+        <th>Named<br>Storm<br>Days</th>
+        <th>Hurricane<br>Days</th>
+        <th>Major<br>Hurricane<br>Days</th>
+        <th>Accumulated<br>Cyclone<br>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.tc_stats.southpacificstormstats %}
+    <tr>
+      <td>{{row.storm_number}}</td>
+      <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=sh{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+      <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+      <td>{{row.intensity}}</td>
+      <td>{{row.mslp}}</td>
+      <td>{{row.nsd}}</td>
+      <td>{{row.hd}}</td>
+      <td>{{row.mhd}}</td>
+      <td>{{row.ace}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+    <div name="realtime" id="sp_ace" style="width:1000px; margin:auto;"></div>
+    <br>
+  </div></div>
+
+  <div class="inner" id="si" style="display:none">
+  <div class="content">
+  <h4 class="align-center">Real-Time South Indian Ocean Statistics by Storm for 2020/2021</h4>
+  <div class="table-wrapper" style="width:1000px;overflow:auto;margin-left:auto;margin-right:auto;">
+  <table id="si_table" class="alt">
+    <thead>
+      <tr>
+        <th>Storm #</th>
+        <th>Name</th>
+        <th>Active Dates</th>
+        <th>Intensity<br>(kts)</th>
+        <th>MSLP<br>(hPa)</th>
+        <th>Named<br>Storm<br>Days</th>
+        <th>Hurricane<br>Days</th>
+        <th>Major<br>Hurricane<br>Days</th>
+        <th>Accumulated<br>Cyclone<br>Energy</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in site.data.tc_stats.southindianstormstats %}
+    <tr>
+      <td>{{row.storm_number}}</td>
+      <td style="background-color:white;opacity: 0.6"><a href="https://rammb-data.cira.colostate.edu/tc_realtime/storm.asp?storm_identifier=sh{{row.storm_charnumber}}{{row.year}}">{{row.name}}</a></td>
+      <td>{{row.start_month}}/{{row.start_day}} - {{row.end_month}}/{{row.end_day}} {{row.year}}</td>
+      <td>{{row.intensity}}</td>
+      <td>{{row.mslp}}</td>
+      <td>{{row.nsd}}</td>
+      <td>{{row.hd}}</td>
+      <td>{{row.mhd}}</td>
+      <td>{{row.ace}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+    <div name="realtime" id="si_ace" style="width:1000px; margin:auto;"></div>
+    <br>
+  </div></div>
+
+  <br>
+  <p>North Atlantic Ocean storm statistics were last modified: {{ "now" | date: "%H:%M MDT %Y-%m-%d" }}. Statistics calculated from global repository data graciously provided by NCAR RAL Tropical Cyclone Guidance Project.</p>
+  </div>
+
+
+
+</html>

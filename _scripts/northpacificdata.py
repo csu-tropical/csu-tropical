@@ -47,12 +47,15 @@ basinstats = open('../_data/tc_stats/globalstats.txt', 'a')
 
 import os.path
 
-onlyfiles = next(os.walk('../_data/tc_stats/North_Pacific'))[2] #dir is your directory path as string
-numfiles = len(onlyfiles)
+try:
+    onlyfiles = next(os.walk('../_data/tc_stats/North_Pacific'))[2] #dir is your directory path as string
+    numfiles = len(onlyfiles)
+except StopIteration:
+    numfiles = 0
 
 if (numfiles == 0):
-    basinstats.write(' '.join(('2020', 'Northeast Pacific', '0', '0', '0', '0', '0', '0', '0', "\n")))
-    basinstats.write(' '.join(('2020', 'Northwest Pacific', '0', '0', '0', '0', '0', '0', '0', "\n")))
+    basinstats.write(' '.join(('2021', 'Northeast Pacific', '0', '0', '0', '0', '0', '0', '0', "\n")))
+    basinstats.write(' '.join(('2021', 'Northwest Pacific', '0', '0', '0', '0', '0', '0', '0', "\n")))
     basinstats.close()
     sys.exit()
 
@@ -60,7 +63,7 @@ while (filenumber <= numfiles):
     count=1
 #Put together Filename
     filename_part1 = '../_data/tc_stats/North_Pacific/np'
-    filename_part2 = '2020.csv'
+    filename_part2 = '2021.csv'
     filename_string = filename_part1 + str(filenumber) + filename_part2
 
 #Open file

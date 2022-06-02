@@ -1,5 +1,1 @@
 year,storm_number,name,start_month,start_day,end_month,end_day,latitude,longitude,intensity,mslp,nsd,hd,mhd,ace,basin,storm_charnumber
-2020,1,AMANDA,5,31,5,31,13.3,-90.5,35,1003,0.5,0,0,0.24,EP,02,
-2020,2,BORIS,6,25,6,26,11.0,-136.7,35,1005,0.5,0,0,0.24,EP,03,
-2020,3,CRISTINA,7,7,7,12,10.9,-100.8,60,993,6.0,0,0,5.93,EP,05,
-2020,4,DOUGLAS,7,21,7,29,13.3,-121.0,115,954,8.5,5.25,2.0,20.6,EP,08,
