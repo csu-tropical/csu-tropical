@@ -2646,10 +2646,15 @@
 			font-weight: 700;
 			padding: 0 0.75rem 0.75rem 0.75rem;
 			text-align: left;
+  		position: sticky;
+			top: 0;
+			background-color: lightgrey;
+
 		}
 
 		table thead {
 			border-bottom: solid 2px;
+
 		}
 
 		table tfoot {
