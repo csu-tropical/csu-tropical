@@ -1,12 +1,12 @@
 ---
 description: Atlantic basin Net Tropical Cyclone activity
 year: 2022
-fulldate: 
-NS: TBD
-NSD: TBD
-H: TBD
-HD: TBD
-MH: TBD
-MHD: TBD
-ACE: TBD
-NTCA: TBD
+fulldate: 2 June 2022
+NS: 20
+NSD: 95
+H: 10
+HD: 40
+MH: 5
+MHD: 11
+ACE: 180
+NTCA: 195
