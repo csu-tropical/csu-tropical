@@ -2,6 +2,11 @@
 id: casas
 name: Eleanor Casas
 photo: './Group/ellie.jpg'
+time: Ph.D. in 2022
+thesis: >
+  Investigation of Relationships Between Tropical Cyclone Structure and Intensity Change 
+job: >
+  Postdoc at Naval Postgraduate School
 email: 'mailto:eleanor.delap@colostate.edu'
 github: false
 webpage: false
