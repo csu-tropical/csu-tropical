@@ -1,23 +1,23 @@
-- id: 
-  year: 2022
-  title: 
+- id: Stechman_etal_2020
+  year: 2020
+  title: Spatiotemporal Evolution of the Microphysical and Thermodynamic Characteristics of the 20 June 2015 PECAN MCS
   author1: bell
   author2: false
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
+  authors: Stechman, D. M., G. M. McFarquhar, R. M. Rauber, M. M. Bell, B. F. Jewett, and J. Martinez
+  journal: Mon. Wea. Rev.
+  others:  148, 1363-1388
+  doi: https://doi.org/10.1175/MWR-D-19-0293.1
   keypoint1: 
   keypoint2: 
   keypoint3: 
-  abstract: 
+  abstract: This study examines microphysical and thermodynamic characteristics of the 20 June 2015 mesoscale convective system (MCS) observed during the Plains Elevated Convection At Night (PECAN) experiment, specifically within the transition zone (TZ), enhanced stratiform rain region (ESR), anvil region, melting layer (ML), and the rear inflow jet (RIJ). Analyses are developed from airborne optical array probe data and multiple-Doppler wind and reflectivity syntheses using data from the airborne NOAA Tail Doppler Radar (TDR) and ground-based Weather Surveillance Radar-1988 Doppler (WSR-88D) radars. Seven spiral ascents/descents of the NOAA P-3 aircraft were executed within various regions of the 20 June MCS. Aggregation modified by sublimation was observed in each MCS region, regardless of whether the sampling was within the RIJ. Sustained sublimation and evaporation of precipitation in subsaturated layers led to a trend of downward moistening across the ESR spirals, with greater degrees of subsaturation maintained when in the vicinity of the descending RIJ. In all cases where melting was observed, the ML acted as a prominent thermodynamic boundary, with differing rates of change in temperature and relative humidity above and below the ML. Two spiral profiles coincident with the rear inflow notch provided unique ob- servations within the TZ and were interpreted in the context of similar observations from the 29 June 2003 Bow Echo and Mesoscale Convective Vortex Experiment MCS. There, sublimation cooling and enhanced descent within the RIJ allowed ice particles to survive to temperatures as warm as 16.88C before completely sublimating/evaporating.
   summary: false
   image: 
   caption: 
   acknowledgement: 
   bibtex: false
-  pdf: ../Publications/papers/
+  pdf: ../Publications/papers/Stechman_etal_2020.pdf
   keyword1: false
   keyword2: false
   keyword3: false

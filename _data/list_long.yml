@@ -229,6 +229,29 @@
   keyword1: Forecasting
   keyword2: Seasonal
   keyword3: Human societal impacts
+- id: Casas_etal_JGR2023
+  year: 2023
+  title: An Intensity and Size Phase Space for Tropical Cyclone Structure and Evolution
+  author1: bell
+  author2: casas
+  author3: tao
+  authors: Casas, E., D. Tao, and M. M. Bell
+  journal: J. Geophys. Res. Atmospheres 
+  others:  128, e2022JD037089
+  doi: https://doi.org/10.1029/2022JD037089
+  keypoint1: Key features of tropical cyclone intensity and size can be captured through empirical orthogonal function analysis of observed winds
+  keypoint2: The new, observation-derived phase space provides a useful visualization of tropical cyclone structure evolution
+  keypoint3: A new structure parameter related to the radial decay of winds is introduced to represent maturity
+  abstract: Intensity and size are important to characterize a tropical cyclone (TC), but there are a wide variety of ways that both metrics are defined. TC intensity can refer to either a maximum sustained wind speedat some height level or central surface pressure minimum, and TC size may refer to the radius of maximum wind, the radius of gale force wind, or be based on other criteria. While different definitions of TC intensity and size have useful applications, there are varying amounts of redundant information and covariations between some size and intensity variables that make investigating physical relationships more challenging. In this study, we use aircraft observations and Best Track information to calculate an empirical orthogonal function analysis that yields new, orthogonal metrics of TC intensity and size. The new, linearly independent metrics reduce a seven-dimensional space of co-varying parameters into a simplified, two-dimensional phase space in which key TC structural changes can be visualized and historically contextualized. Additionally, our analysis introduces a new parameter that is a simplified measure of the wind decay outside the radius of maximum tangential velocity. We show that this decay parameter is nearly orthogonal to the new intensity and size metrics and is useful for identifying TC maturity. We demonstrate the utility of the new phase space by first comparing the structural evolution of the large Hurricane Rita (2005) and small Hurricane Charley (2004) using observations, as well as comparing two modeling simulations of Hurricane Rita with different initial conditions in the phase space.
+  summary: Intensity and size are important ways to characterize a tropical cyclone (TC), but there are a variety of ways these metrics are defined. While each definition has its uses, traditional metrics have redundant information, which makes investigating physical relationships more challenging. This study proposes new metrics of intensity and size that are both independent and based on observed variability, as well as introduces a new metric that describes TC maturity. Together, these new metrics distill a lot of information into a simplified, easy-to-understand view of TC intensity and structure, which is demonstrated with observations of Hurricanes Rita (2005) and Charley (2004), as well as with numerical simulations of Hurricane Rita.
+  image: ../Publications/figures/Casas_etal_JGR2023_Fig.pdf
+  caption: Figure 5. Empirical orthogonal functions dataset transformed into coordinates where PC1 is the x-axis and PC2 is the y-axis. (a) Scatter points of all observations area shaded by ϕ using the same colorbar in Figure 1. Arrows show how the points in Figures 3b and 3c are represented in this phase space, where Figure 3b are the x-components, and Figure 3c is the y-components of each arrow. (b) Gray points represent the same points as in (a), but the Rita and Charley points shown in Figure 4 are highlighted in orange and blue circles, respectively, and filled according to ϕ as in (a). The weakening phase of Rita is outlined with a paler orange to make it easier to see, and the annotated key tropical cyclone lifecycle points are outlined in a bolder and darker color. Additional text labels on the axes are included to help with physical interpretation of both subplots.
+  acknowledgement: This research was supported by the Office of Naval Research Award N000142012069. We thank Jonathan Vigh for compiling the FLIGHT + dataset, and we thank NOAA and Air Force Hurricane Hunters for collecting the aircraft data. We would also like to thank Eric D. Maloney, David A. Randall, Subhas Karan Venayagamoorthy, and three anonymous reviewers for their helpful comments on this manuscript.
+  bibtex: ../Publications/bibtex/Casas_etal_JGR2023.bib
+  pdf: ../Publications/papers/Casas_etal_JGR2023.pdf
+  keyword1: Tropical Cyclones
+  keyword2: TC structure
+  keyword3: TC intensity
 - id: cha_bell_AMT
   year: 2021
   title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
@@ -277,7 +300,7 @@
   keyword1: Radar
   keyword2: GVTD
   keyword3: Asymmetric Dynamics
-- id: chagrl2020 # lastname,journal,year
+- id: chagrl2020
   year: 2020
   title: Polygonal Eyewall Asymmetries during the rapid intensification of Hurricane Michael (2018)
   author1: cha
@@ -307,6 +330,29 @@
   keyword1: Asymmetric Dynamics
   keyword2: Radar
   keyword3: TC case study
+- id: Cole_etal_Atmosphere2022
+  year: 2022
+  title: An Ensemble-Based Analysis of a Liminal Extreme Rainfall Event near Taiwan
+  author1: bell
+  author2: cole
+  author3: false
+  authors: Cole, A. S., M. M. Bell, and J. C. DeHart 
+  journal: Atmosphere
+  others: 13, 1011
+  doi: https://doi.org/10.3390/atmos13071011
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study analyzes an ensemble of numerical simulations of a heavy rainfall event east of Taiwan on 9 June 2020. Heavy rainfall was produced by quasi-stationary back-building mesoscale convective systems (MCS) associated with a mei-yu front. Global model forecast skill was poor in location and intensity of rainfall. The mesoscale ensemble showed liminal conditions between heavy rainfall or little to no rainfall. The two most accurate and two least accurate ensemble members are selected for analysis via validation against radar-estimated rainfall observations. All members feature moist soundings with low levels of free convection (LFC) and sufficient instability for deep convection. We find that stronger gradients in 100-m θe and θv in the most accurate members associated with a near-surface frontal boundary focus the lifting mechanism for deep, moist convection and enhanced rainfall. As the simulations progress, stronger southerly winds in the least accurate members advect drier mid-level air into the region of interest and shift the near-surface boundary further north and west. Analysis of the verification ensemble mean analysis reveals a strong near-surface frontal boundary similarly positioned as in the most accurate members and dry air aloft more similar to that in the least accurate members, suggesting that the positioning of the frontal boundary is more critical to accurately reproducing rainfall patterns and intensity in this case. The analyses suggest that subtle details in the simulation of frontal boundaries and mesoscale flow structures can lead to bifurcations in producing extreme or almost no rainfall. Implications for improved probabilistic forecasts of heavy rainfall events will be discussed.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This research was funded by National Science Foundation award number AGS-1854559.We would like to thank Yunji Zhang for conducting the numerical simulations and providing the ensemble output. We would also like to thank the anonymous reviewers for their helpful comments which improved the manuscript.
+  bibtex: false
+  pdf: ../Publications/papers/Cole_etal_Atmosphere2022.pdf
+  keyword1: meiyu
+  keyword2: extreme rainfall
+  keyword3: mesoscale modeling
 - id: dehartbelljgr2020
   year: 2020
   title: A Comparison of the Polarimetric Radar Characteristics of Heavy Rainfall
@@ -386,29 +432,52 @@
   keyword1: dual-Doppler retrievals
   keyword2: C-band radar
   keyword3: operational radar
-- id: desrosiers_etal_2022
+- id: Dennis_etal_JPHCA2022
   year: 2022
-  title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification.
-  author1: desrosiers
-  author2: bell
-  author3: cha
-  authors: DesRosiers, A., M. M. Bell, and T.-Y. Cha
-  journal: Monthly Weather Review
-  others: 150, 99-114
-  doi: https://doi.org/10.1175/MWR-D-21-0098.1
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: The landfall of Hurricane Michael (2018) at category 5 intensity occurred after rapid intensification (RI) spanning much of the storm’s lifetime. Four Hurricane Hunter aircraft missions observed the RI period with tail Doppler radar (TDR). Data from each of the 14 aircraft passes through the storm were quality controlled via a combination of interactive and machine learning techniques. TDR data from each pass were synthesized using the SAMURAI variational wind retrieval technique to yield three-dimensional kinematic fields of the storm to examine inner core processes during RI. Vorticity and angular momentum increased and concentrated in the eyewall region. A vorticity budget analysis indicates the tendencies became more axisymmetric over time. In this study we focus in particular on how the eyewall vorticity tower builds vertically into the upper levels. Horizontal vorticity associated with the vertical gradient of tangential wind was tilted into the vertical by the eyewall updraft to yield a positive vertical vorticity tendency inward atop the existing vorticity tower, that is further developed locally upward and outward along the sloped eyewall through advection and stretching. Observed maintenance of thermal wind balance from a thermodynamic retrieval shows evidence of a strengthening warm core, which aided in lowering surface pressure and further contributed to the efficient intensification in the latter stages of this RI event.
-  summary: Rapid Intensification (RI) is when a tropical cyclone increases its maximum sustained winds by 30 knots or more in 24 hours. Predicting RI is challenging because it depends on internal processes taking place within the storm in addition to the favorability of the environment around it. Detailed observations of storms undergoing RI are required to further our understanding and improve predictability. Hurricane Michael underwent RI for most of its lifetime which was well observed by research aircraft equipped with tail Doppler radar. The resulting dataset allowed for identification and analysis of processes, particularly in the upper levels of that atmosphere, that aided Hurricane Michael in achieving category 5 intensity before its historic US landfall.
-  image: ../Publications/figures/desrosiers_etal_2021MWR.png
-  caption: Schematic representation of observed vortex development processes during rapid intensification of Hurricane Michael (2018). Light gray shading denotes the eyewall cloud. Purple shaded region represents the tower of high vorticity in the eyewall. Green shading denotes region of positive vorticity tendency from tilting and vertical advection. Blue shading represents region of positive vorticity tendency from stretching and radial advection. The + sign denotes the location of the maximized positive net vertical vorticity tendency from the sum of these terms and negative tendencies (not shown). Yellow shading denotes secondary circulation. Cyan contour denotes the radius of maximum wind. Dashed gray contours denote tangential wind, with decreasing line thickness indicating weaker winds. The region of enhanced horizontal vorticity is denoted near 9 km altitude at the same level as the red shaded area where warm core development is maximized through thermal wind balance.
-  acknowledgement: This research was financially supported National Science Foundation award OAC-1661663 and Office of Naval Research awards N000141613033 and N000142012069. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study. We also thank Rachel Mauk and two anonymous reviewers for comments and suggestions which improved the manuscript.
-  bibtex: ../Publications/bibtex/desrosiers_etal_2021MWR.bib
-  pdf: ../Publications/papers/desrosiers_etal_2021MWR.pdf
-  keyword1: Rapid intensification
-  keyword2: TC case study
-  keyword3: Radar
+  title: Enabling efficient execution of a variational data assimilation application
+  author1: bell
+  author2: cha
+  author3: false
+  authors: Dennis J. M., A. H. Baker, B. Dobbins, M. M. Bell, J. Sun, Y. Kim, T.-Y. Cha
+  journal: International Journal of High Performance Computing Applications
+  others:  doi:10.1177/10943420221119801
+  doi: https://doi.org/0.1177/10943420221119801
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Remote sensing observational instruments are critical for better understanding and predicting severe weather. Obser- vational data from such instruments, such as Doppler radar data, for example, are often processed for assimilation into numerical weather prediction models. As such instruments become more sophisticated, the amount of data to be processed grows and requires efficient variational analysis tools. Here we examine the code that implements the popular SAMURAI (Spline Analysis at Mesoscale Utilizing Radar and Aircraft Instrumentation) technique for estimating the at- mospheric state for a given set of observations. We employ a number of techniques to significantly improve the code’s performance, including porting it to run on standard HPC clusters, analyzing and optimizing its single-node performance, implementing a more efficient nonlinear optimization method, and enabling the use of GPUs via OpenACC. Our efforts thus far have yielded more than 100x improvement over the original code on large test problems of interest to the community.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: We would like to acknowledge high-performance computing support from Cheyenne (doi:10.5065/D6RX99HX) provided by NCAR’s Computational and Information Systems Laboratory, sponsored by the National Science Foundation. MMB and TYC acknowledge support from NSF award OAC-1661663. We would also like to thank Scott Ellis and Wen-chau Lee of NCAR for supporting the SAMURAI optimization effort and Mike Dixon of NCAR for his software and build support.
+  bibtex: false
+  pdf: ../Publications/papers/
+  keyword1: data assimilation
+  keyword2: GPU
+  keyword3: optimization
+- id: DesRosiers_etal_GRL2023
+  year: 2023
+  title: Observed Relationships between Tropical Cyclone Vortex Height, Intensity, and Intensification Rate
+  author1: bell
+  author2: desrosiers
+  author3: klotzbach
+  authors: DesRosiers, A., M. M. Bell, P. Klotzbach, M. Fischer, and P. Reasor
+  journal: Geophys. Res. Letters
+  others: in press
+  doi: 
+  keypoint1: Vertical extent of the tropical cyclone wind field correlates strongly with current intensity in observed storms. 
+  keypoint2: Deep vertical vortex structure is always present in observed cases meeting a pressure-based rapid intensification definition.
+  keypoint3: Vortex height decreases with increasing vertical wind shear, but taller storms intensify more in moderate shear.
+  abstract: As a tropical cyclone (TC) intensifies, the tangential wind field expands vertically and increases in magnitude. Observations and modeling support vortex height as an important TC structural characteristic. The TC-RADAR dataset provides kinematic analyses for calculation of the height of the vortex (HOV) in observed storms. Analyses are azimuthally averaged with tangential wind values taken along the radius of maximum winds. A threshold-based technique is used to determine the HOV. A fixed threshold HOV strongly correlates with current intensity. A dynamic HOV metric quantifies vertical decay of tangential wind with reduced dependency on intensity. Statistically significant differences are present between dynamic HOV values in groups of steady-state, intensifying, and rapidly-intensifying cases categorized by subsequent changes in pressure. A tall vortex is always observed in cases meeting a pressure-based rapid intensification definition. Taller vortices are also evident with slower intensification. Results suggest HOV may be an important predictor for TC intensification.
+  summary: As a tropical cyclone gets stronger, the wind field of the storm grows taller in the atmosphere. The height-intensity relationship is known to be present from the beginning of a tropical cyclone until its peak strength. A large dataset of airborne radar observations in tropical cyclones is used to show the strength of the relationship between vortex height and current intensity. A tall vortex is always present in observed cases prior to rapid intensification during which the minimum surface pressure at the storm center drops at a high rate. Drops in minimum surface pressure are associated with increases in wind and size in tropical cyclones. A taller vortex also favors intensification at slower rates. Improved understanding of the role that tropical cyclone height plays during intensification may be helpful for forecasting the intensity of these storms.
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: DesRosiers_etal_MWR2022
   year: 2022
   title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification
@@ -533,6 +602,29 @@
   keyword1: Hurricanes
   keyword2: Vertical wind shear
   keyword3: Seasonal forecasting
+- id: Kim_etal_npjClimate2022
+  year: 2022
+  title: The parametric hurricane rainfall model with moisture and its application to climate change projections
+  author1: bell
+  author2: nam
+  author3: false
+  authors: Kim, D., D.-S. R. Park, C. C. Nam, and M. M. Bell
+  journal: npj Climate and Atmospheric Science
+  others:  5, 86
+  doi: https://doi.org/10.1038/s41612-022-00308-9
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The parametric hurricane rainfall model (PHRaM), firstly introduced in 2007, has been widely used to forecast and quantify tropical- cyclone-induced rainfall (TC rainfall). The PHRaM is much more computationally efficient than global climate models, but PHRaM cannot be effectively utilized in the context of climate change because it does not have any parameters to capture the increase of tropospheric water vapor under the warming world. This study develops a new model that incorporates tropospheric water vapor to the PHRaM framework, named as the PHRaM with moisture (PHRaMM). The PHRaMM is trained to best fit the TC rainfall over the western North Pacific (WNP) unlike the PHRaM trained with the TCs over the continental US. The PHRaMM reliably simulates radial profile of TC rainfall and spatial distribution of accumulated rainfall during landfall in the present climate with the better prediction skills than existing statistical and operational numerical models. Using the PHRaMM, we evaluated the impacts of TC intensity and environmental moisture increase on TC rainfall change in a future climate. An increased TC intensity causes TC rainfall to increase in the inner-core region but to decrease in the outer region, whereas an increased environmental moisture causes the TC rainfall to increase over the entire TC area. According to the both effects of increased TC intensity and environmental moisture, the PHRaMM projected that the WNP TC rainfall could increase by 4.61–8.51% in the inner-core region and by 17.96–20.91% over the entire TC area under the 2-K warming scenario.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This study was supported by the National Research Foundation of the Korean government (NRF-2019R1I1A3A01058100, NRF-2020R1A4A3079510, and NRF- 2021R1A6A3A14044418), Korea Meteorological Administration Research and Devel- opment Program (KMI2022-01312), and the U.S. National Science Foundation award AGS-1854607. The authors thank Frank Marks for providing the source code of PHRaM. We also thank the three anonymous reviewers for their valuable comments to improve this study.
+  bibtex: false
+  pdf: ../Publications/papers/Kim_etal_NatureComm2022.pdf
+  keyword1: Tropical Cyclones
+  keyword2: Extreme Rainfall
+  keyword3: Climate Change
 - id: Klotzbach_Caron_2020_GRL
   year: 2020
   title: A statistical/dynamical model for North Atlantic Seasonal Hurricane Prediction
@@ -618,6 +710,29 @@ Research award N000141613033."
   keyword1: Bell was supported by Office of Naval Research award N000142012069
   keyword2: climate
   keyword3: climate change
+- id: Klotzbach_etal_JGR2022
+  year: 2022
+  title: "Characterizing Continental US Hurricane Risk: Which Intensity Metric Is Best?"
+  author1: bell
+  author2: klotzbach
+  author3: false
+  authors: Klotzbach, P. J, D. R. Chavas, M. M. Bell, S. G. Bowen, E. J. Gibney, and C. J. Schreck
+  journal: J. Geophys. Res. Atmos.
+  others:  127, e2022JD037030
+  doi: https://doi. org/10.1029/2022JD037030
+  keypoint1: Minimum sea level pressure better predicts continental US hurricane damage than maximum winds or integrated kinetic energy
+  keypoint2: Maximum winds have historically been a poor predictor of damage caused by hurricanes making landfall from Georgia to Maine
+  keypoint3: Minimum sea level pressure is intrinsically an integrated wind field metric and is easy to measure, ideal for categorizing hurricane risk
+  abstract: The damage potential of a hurricane is widely considered to depend more strongly on an integrated measure of the hurricane wind field, such as integrated kinetic energy (IKE), than a point-based wind measure, such as maximum sustained wind speed (Vmax). Recent work has demonstrated that minimum sea levelpressure (MSLP) is also an integrated measure of the wind field. This study investigates how well historical continental US hurricane damage is predicted by MSLP compared to both Vmax and IKE for continental United States hurricane landfalls for the period 1988–2021. We first show for the entire North Atlantic basin that MSLP is much better correlated with IKE (rrank = 0.50) than Vmax (rrank = 0.26). We then show that continental US hurricane normalized damage is better predicted by MSLP (rrank = 0.83) than either Vmax (rrank = 0.67) or IKE (rrank = 0.65). For Georgia to Maine hurricane landfalls specifically, MSLP and IKE show similar levels of skill at predicting damage, whereas Vmax provides effectively no predictive power. Conclusions for IKE extend to power dissipation as well, as the two quantities are highly correlated because wind radii closely follow a Modified Rankine vortex. The physical relationship of MSLP to IKE and power dissipation is discussed. In addition to better representing damage, MSLP is also much easier to measure via aircraft or surface observations than either V or IKE, and it is already routinely estimated operationally. We conclude that max MSLP is an ideal metric for characterizing hurricane damage risk.
+  summary: For decades, maximum sustained winds have been used to categorize potential hurricane impacts. Recent work argues that an integrated hurricane wind field measure better represents risk. Here we use historical continental US hurricane and economic damage data to show that minimum sea level pressure better correlates with damage than integrated kinetic energy, a measure of hurricane vortex size and strength, or maximum sustained wind. Maximum sustained wind has been a poor damage predictor for Georgia to Maine landfalling hurricanes. Since minimum central pressure is an integrated wind field measure that only requires storm center measurements, and is already routinely estimated, we propose that minimum sea level pressure replace maximum sustained wind as the primary hurricane categorization method.
+  image: 
+  caption: 
+  acknowledgement: We would like to thank Nadia Bloemendaal, Brian McNoldy and one anonymous reviewer for constructive comments that improved the manu- script. P. Klotzbach would like to acknowledge a grant from the G. Unger Vetlesen Foundation. D. Chavas acknowl- edges NSF Grants 1826161 and 1945113. M. Bell was supported by Office of Naval Research Grant N000142012069. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002. E. Gibney's research is supported by NOAA's Science Collaboration Program and administered by UCAR's Cooperative Programs for the Advancement of Earth System Science (CPAESS) under award NA21OAR4310383.
+  bibtex: false
+  pdf: ../Publications/papers/Klotzbach_etal_JGR2022.pdf
+  keyword1: Tropical Cyclones
+  keyword2: Hurricane Risk
+  keyword3: TC Intensity
 - id: Klotzbach_Schreck_2020_BAMS
   year: 2020
   title: The record-breaking 1933 Atlantic Hurricane Season
@@ -913,6 +1028,29 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   keyword2: Forecasting
   keyword3:
 
+- id: Lee_etal_fmars2022
+  year: 2022
+  title: New parameterization of air-sea exchange coefficients and its impact on intensity prediction under major tropical cyclones
+  author1: bell
+  author2: false
+  author3: false
+  authors: Lee, W., I.-J. Moon, S.-H. Kim, M. M. Bell, and I. Ginis
+  journal: Front. Mar. Sci.
+  others:  9:1046511
+  doi: https://doi.org/10.3389/fmars.2022.1046511
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Understanding and quantifying air-sea exchanges of enthalpy and momentum fluxes are crucial for the advanced prediction of tropical cyclone (TC) intensity. Here, we present a new parameterization of air-sea fluxes at extreme wind speeds from 40 m s−1 to 75 m s−1, which covers the range of major TCs. Our approach assumes that the TC can reach its maximum potential intensity (MPI) if there are no influences of external forces such as vertical wind shear or other environmental constraints.This method can estimate the ratio of the enthalpy and momentum exchange coefficient (Ck/Cd) under the most intense TCs without direct flux measurements. The estimation showed that Ck/Cd increases with wind speed at extreme winds above 40 m s−1. Two types of surface layer schemes of the Hurricane Weather and Research Forecast (HWRF) were designed based on the wind speed dependency of the Ck/Cd found at high winds: (i) an increase of Ck/Cd based on decreasing Cd (Cd_DC) and (ii) an increase of Ck/Cd based on increasing Ck (Ck_IC). The modified surface layer schemes were compared to the original HWRF scheme (using nearly fixed Cd and Ck at extreme winds; CTRL) through idealized experiments and real-case predictions. The idealized experiments showed that Cd_DC reduced frictional dissipation in the air-sea interface as well as significantly reduced sea surface cooling, making the TC stronger than other schemes. As a result, Cd_DC reduced the mean absolute error and negative bias by 15.0% (21.0%) and 19.1% (32.0%), respectively, for all lead times of Hurricane Irma in 2017 (Typhoon Mangkhut in 2018) compared to CTRL. This result suggests that new parameterization of Ck/Cd with decreasing Cd at high winds can help improve TC intensity prediction, which currently suffers from underestimating the intensity of the strongest TCs."
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work was funded by the Korea Meteorological Administration Research and Development Program “Development of Asian Dust and Haze Monitoring and Prediction Technology” under Grant (KMA2018-00521) and Research Program funded by the Ministry of Education (2021R1A2C1005287) and the Korea government (MSIT) (RS- 2022-00144325) through the National Research Foundation of Korea (NRF) and by the project titled “Study on Air-Sea Interaction and Process of Rapidly Intensifying Typhoon in the Northwestern Pacific”, funded by the Ministry of Oceans and Fisher (20220566).
+  bibtex: false
+  pdf: ../Publications/papers/Lee_etal_fmars2022.pdf
+  keyword1: air-sea exchange coefficients
+  keyword2: lifetime maximum intensity
+  keyword3: maximum potential intensity
 - id: Marinescu_Bell_MWR
   year: 2020
   title: Updraft Vertical Velocity Observations and Uncertainties in High Plains Supercells Using Radiosondes and Radars
@@ -958,6 +1096,29 @@ period, while anomalies in panels e–h are calculated relative to a 1971–2000
   keyword1: Rapid intensity change
   keyword2: Potential vorticity
   keyword3: Observations
+- id: Martinez_etal_JAS2022
+  year: 2022
+  title: Eyewall Asymmetries and Their Contributions to the Intensification of an Idealized Tropical Cyclone Translating in Uniform Flow
+  author1: bell
+  author2: martinez
+  author3: false
+  authors: Martinez, J., C. A. Davis, and M. M. Bell
+  journal: J. Atmos. Sci.
+  others: 79, 2471-2491
+  doi: https://doi.org/10.1175/JAS-D-21-0302.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Scale-dependent processes within the tropical cyclone (TC) eyewall and their contributions to intensifica- tion are examined in an idealized simulation of a TC translating in uniform environmental flow. The TC circulation is parti- tioned into axisymmetric, low-wavenumber (m = 1–3), and high-wavenumber (m . 3) categories, and scale-dependent contributions to the intensification process are quantified through the azimuthal-mean relative (vertical) vorticity and tan- gential momentum budgets. To further account for the interdependent relationship between the axisymmetric vortex struc- ture and eyewall asymmetries, the analyses are subdivided into three periods}early, middle, and late}that represent the approximate quartiles of the full intensification period prior to the TC attaining its maximum intensity. The asymmetries become concentrated among lower azimuthal wavenumbers during the intensification process and are persistently distrib- uted among a broader range of azimuthal scales at higher altitudes. The scale-dependent budgets demonstrate that the axi- symmetric and asymmetric processes generally oppose each other during TC intensification. The axisymmetric processes are mostly characterized by a radial spinup dipole pattern, with a tangential momentum spinup tendency concentrated along the radius of maximum tangential winds (RMW) and a spindown tendency concentrated radially inward of the RMW. The asymmetric processes are mostly characterized by an opposing spindown dipole pattern that is slightly weaker in magnitude. The most salient exception occurs from high-wavenumber processes contributing to a relatively modest, net spinup along the RMW between ∼2- and 4-km altitude. Given that the maximum tangential winds persistently reside below 2-km altitude, eyewall asymmetries are primarily found to impede TC intensification.
+  summary: The convection fueling a tropical cyclone progressively organizes into a compact region called the eyewall where the strongest winds and rainfall occur. As the tropical cyclone intensifies, convection in the circular eyewall becomes more uniform, and the eyewall takes the appearance of a ring. We call this ring shape the “symmetric” part of the eyewall. As convection in the eyewall evolves and interacts, the eyewall becomes deformed and develops wiggles. We call these wiggly shapes the “asymmetric” parts of the eyewall. We demonstrate that the sym- metric part of the eyewall helps intensification. The asymmetric parts of the eyewall mostly hurt intensification except during the earlier stages. Our results indicate that a symmetric eyewall shape is preferable for tropical cyclone intensification.
+  image: 
+  caption: 
+  acknowledgement: This material is based upon work sup- ported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. This work was also supported by the Office of Naval Research Awards N000141613033 and N000142012069 and the Na- tional Science Foundation Award AGS-1701225. JM was also supported by the National Science Foundation Bridge to the Doctorate Fellowship Award 004863-00003. We ac- knowledge high-performance computing support from Cheyenne (doi:10.5065/D6RX99HX) provided by NCAR’s Computational and Information Systems Laboratory, sponsored by the National Science Foundation.
+  bibtex: false
+  pdf: ../Publications/papers/Martinez_etal_JAS2022.pdf
+  keyword1: Tropical cyclones
+  keyword2: Mesoscale processes
+  keyword3: Numerical modeling
 - id: Martinez_etal_MWR2017
   year: 2017
   title: Examining tropical cyclone structure and intensification with the FLIGHT+ Dataset from 1999 to 2012
@@ -1057,6 +1218,29 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: Genesis
   keyword2: Vertical wind shear
   keyword3: TC case study
+- id: Panasawatwong_etal_JGR2022
+  year: 2022
+  title: A Climatology of Extreme Convective Storms in Tropical East Asia and Their Ingredients for Heavy Rainfall as seen by TRMM
+  author1: bell
+  author2: panasawatwong
+  author3: false
+  authors: Panasawatwong, W., K. Rasmussen, and M. M. Bell
+  journal: J. Geophys. Res. Atmospheres
+  others:  127, e2022JD036863
+  doi: https://doi.org/10.1029/2022JD036863
+  keypoint1: The spatio-temporal and rain frequency of extreme storm types in Tropical and Subtropical East Asia is documented 
+  keypoint2: Broad stratiform environments, for example, in Meiyu Front, require a longer and larger moisture build-up
+  keypoint3: Smaller convective systems require spatially smaller diurnal vertical moisture flux and convergence
+  abstract: "Heavy rainfall is a challenge to forecast due to the variety of rainfall intensities and durations across a wide spectrum of high-impact storm types. In this study, we analyze extreme storms in Tropical and Subtropical East Asia, a moisture-rich environment with complex terrain and oceanic regions. The Tropical Rainfall Measuring Mission's Precipitation Radar is utilized to characterize the frequency and rainfall intensity of four extreme storm types. Extreme storms producing heavy precipitation are categorized into four types: deep convective cores (DCCs), deepwide convective cores (DWCCs), wide convective cores (WCCs), and broad stratiforms regions (BSRs). DCCs and DWCCs occur more frequently and produce stronger rain intensities over land compared to those over ocean. However, WCCs and BSRs occur more frequently over oceans, especially in association with the Meiyu front season and climatological progression in the northern subregions. Although the Convective Cores show higher rain intensities than the BSRs, they show lower volumetric rain rate due to their comparatively smaller horizontal area. An ingredients-based framework is applied to find key similarities across the different heavy rainfall-producing storms near Taiwan using ERA5 reanalysis. The analysis shows that the broader systems (i.e., WCCs and BSRs) are associated with larger in area and longer timescales of vertical moisture flux and low-level wind shear that support the development of the horizontally large, organized storms. Smaller DCCs do not show strong vertical moisture flux on the spatial scales resolved by the reanalysis, suggesting their more local nature and less meso- or synoptic scale support."
+  summary: Heavy rainfall is a challenge to forecast due to the variety of rainfall intensities and durations across a wide spectrum of high-impact storm types. In this study, we analyze extreme storms in Tropical and Subtropical East Asia (TSEA), a moisture-rich environment with complex terrain and oceanic regions. Observations from the first satellite precipitation radar are used to characterize the nature of extreme storms. Results show that deep convective storms occur more frequently over land, while the wide convective storms and the broad stratiform regions occur more frequently over oceans, especially in association with the Meiyu front (pre-East Asian monsoon season) in northern TSEA. Broad stratiform regions can produce a larger total rainfall amount compared to the convective rain categories because of larger areas. A goal of this study is to identify similar key ingredients across different extreme storm types near Taiwan. Analysis shows that the broader storms are associated with moisture in larger areas and on longer timescales, and also low-level wind shear that supports the development of the large, organized storms. Smaller deep convective storms do not show strong moisture signals in coarse-scale environmental analysis, suggesting that this storm type might need more small-scale moisture support.
+  image: 
+  caption: 
+  acknowledgement: This research was supported by a Royal Thai Scholar Fellowship, National Science Foundation (Grants AGS-1854399 and AGS-1854559), and National Aeronautics and Space Administration (Grant 80NSSC22K0608).
+  bibtex: false
+  pdf: ../Publications/papers/Panasawatwong_etal_JGR2022.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: park_etal_2015
   year:   2015
   title: 'Evidence of reduced vulnerability to tropical cyclones in the Republic of Korea'
@@ -1138,6 +1322,52 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword2: false
   keyword3: false
 
+- id: Park_etal_JGR2020
+  year: 2020
+  title: Impact of cloud microphysics schemes on tropical cyclone forecast over the western North Pacific
+  author1: bell
+  author2: false
+  author3: false
+  authors: Park, J., D.-H. Cha, M.-K. Lee, J. Moon, S.-J. Hahm, K. Noh, J. Chan and M. M. Bell
+  journal: J. Geophys. Res. Atmos.
+  others: 125, e2019JD032288
+  doi: https://doi.org/10.1029/2019JD032288
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: In high‐resolution numerical modeling, cloud microphysics schemes can affect the forecasting of tropical cyclones (TCs) by controlling the phase changes of water. The simulated TC characteristics such as motion, intensity, and structure can change depending on the number of hydrometeors used in these schemes. In this study, we investigate the sensitivity of real‐time track and intensity forecasts of TCs to cloud microphysics schemes using the Weather Research and Forecasting (WRF) model. For the sensitivity test, we selected WRF‐single‐moment‐microphysics Class 3 (WSM3) and Class 6 (WSM6) schemes as simple and sophisticated schemes, respectively. A total of 20 forecasts for 10 TCs were conducted. For TCs moving westward in the subtropics, track forecasts were similar in the different sensitivity tests, although the WSM6 scheme considerably reduced the TC intensity errors. However, for TCs moving to the midlatitudes, the WSM6 scheme improved both track and intensity prediction compared to the WSM3 scheme. Particularly, track errors were prominently reduced by the WSM6 scheme, which realistically captured westward shifted track during the rapid intensification process. This can be attributed to the improved simulations of TC intensity, size, and associated β effect by WSM6 scheme. In contrast, the WSM3 scheme underestimated the above characteristics due to low latent heat release compared to the WSM6 scheme. Consequently, TC track moving northwestward was unreasonably shifted eastward. This indicates that a sophisticated cloud microphysics scheme is necessary to improve the track and intensity forecasts for TCs moving to the midlatitudes.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work was funded by the 2019 Republic of Korea Airforce Numerical Weather Prediction Research and Development Program.
+  bibtex: false
+  pdf: ../Publications/papers/Park_etal_JGR2020.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Powell_Bell_MWR2019
+  year: 2019
+  title: Near-Surface Frontogenesis and Atmospheric Instability along the U.S. East Coast during the Extratropical Transition of Hurricane Matthew (2016)
+  author1: bell
+  author2: false
+  author3: false
+  authors: Powell, S., and M. M. Bell
+  journal: Mon. Wea. Rev.
+  others:  174, 719-732
+  doi: https://doi.org/10.1175/MWR-D-18-0094.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Hurricane Matthew locally generated more than 400 mm of rainfall on 8–9 October 2016 over the eastern Carolinas and Virginia as it transitioned into an extratropical cyclone. The heaviest precipitation occurred along a swath situated up to 100–200 km inland from the coast and collocated with enhanced low-tropospheric frontogenesis. Analyses from version 3 of the Rapid Refresh (RAPv3) model indicate that rapid frontogenesis occurred over eastern North and South Carolina and Virginia on 8 October, largely over a 12-h time period between 1200 UTC 8 October and 0000 UTC 9 October. The heaviest rainfall in Matthew occurred when and where spiral rainbands intersected the near-surface front, which promoted the lift of conditionally unstable, moist air. Parallel to the spiral rainbands, conditionally unstable low-tropospheric warm, moist oceanic air was advected inland, and the instability was apparently released as the warm air mass rose over the front. Precipitation in the spiral rainbands intensified on 9 October as the temperature gradient along the near-surface front rapidly increased. Unlike in Hurricane Floyd over the mid-Atlantic states, rainfall totals within the spiral rainbands of Matthew as they approached the near-surface front evidently were not enhanced by release of conditional symmetric instability. However, conditional symmetric instability release in the midtroposphere may have enhanced rainfall 200 km northwest of the near-surface front. Finally, although weak cold-air damming occurred prior to heavy rainfall, damming dissipated prior to frontogenesis and did not impact rainfall totals.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/Powell_Bell_2019.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: Razin_Bell_2021_MWR
   year: 2021
   title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
@@ -1157,6 +1387,29 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   acknowledgement: This research was supported by the National Science Foundation Awards AGS-1701225 and OAC-1661663 and Office of Naval Research Award N000142012069. Naufal Razin was also supported by the NASA Earth and Space Science Fellowship Award 80NSSC18K1349. We acknowledge the RAINEX and IFEX science teams, including NCAR, the Naval Research Laboratory, the NOAA Aircraft Operations Center, and the NOAA Hurricane Research Division of AOML for their data collection and archiving efforts. We also thank Eleanor Casas for her feedback on the paper prior to submission and Michael Fischer, Anthony Didlake, and an anonymous reviewer for their insightful comments.
   bibtex: ../Publications/bibtex/Razin_Bell_MWR2021.bib
   pdf: ../Publications/papers/Razin_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Razin_etal_BAMS2022
+  year: 2023
+  title: Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED)
+  author1: bell
+  author2: razin
+  author3: false
+  authors: Razin*, N., C. J. Slocum, J. A. Knaff, P. J. Brown, and M. M. Bell
+  journal: Bull. Amer. Meteor. Soc.
+  others:  in press
+  doi: https://doi.org/10.1175/BAMS-D-21-0052.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: To study tropical cyclones and generate forecast applications using satellite observations, researchers often consolidate disparate sources of raw and ancillary data. Data consolidation involves obtaining, co-locating and inter-calibrating data from different sensors and derived prod- ucts; calculating environmental diagnostics from a homogeneous source; and standardizing these various products for a straightforward analysis. To alleviate pre-processing issues and provide a long-term, global digital dataset of tropical cyclone satellite observations, we construct the Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED). TC PRIMED contains tropical-cyclone-centric 1) inter-calibrated, multi-channel, multi-sensor mi- crowave brightness temperatures, 2) retrieved rainfall from NASA’s Goddard Profiling Algorithm (GPROF), 3) nearly coincident geostationary satellite infrared brightness temperatures and derived metrics, 4) tropical cyclone position and intensity information, 5) ECMWF fifth-generation reanal- ysis fields and derived environmental diagnostics, and 6) precipitation radar observations from the TRMM and GPM Core Observatory satellites. TC PRIMED consists of over 176,000 overpasses of 2,101 storms from 1998 to 2019, providing researchers with an analysis-ready dataset to promote and support research into improving our understanding of the relationship between tropical cyclone convective and precipitation structure, intensity, and environment. Here, we briefly describe data sources and processing steps to create TC PRIMED. To demonstrate TC PRIMED’s potential utility for studying important tropical cyclone processes and for application development, we present a shear-relative composite analysis of several multi-sensor satellite variables relative to the tropical cyclone lifetime maximum intensity. The composite analysis provides a simple example of how TC PRIMED can benefit future studies to advance our understanding of tropical cyclones and improve forecasts.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/Razin_etal_BAMS2022.pdf
   keyword1: false
   keyword2: false
   keyword3: false
@@ -1464,6 +1717,122 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: Seasonal
   keyword2: El Nino
   keyword3: Forecasting
+- id: Stechman_etal_2020
+  year: 2020
+  title: Spatiotemporal Evolution of the Microphysical and Thermodynamic Characteristics of the 20 June 2015 PECAN MCS
+  author1: bell
+  author2: false
+  author3: false
+  authors: Stechman, D. M., G. M. McFarquhar, R. M. Rauber, M. M. Bell, B. F. Jewett, and J. Martinez
+  journal: Mon. Wea. Rev.
+  others:  148, 1363-1388
+  doi: https://doi.org/10.1175/MWR-D-19-0293.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study examines microphysical and thermodynamic characteristics of the 20 June 2015 mesoscale convective system (MCS) observed during the Plains Elevated Convection At Night (PECAN) experiment, specifically within the transition zone (TZ), enhanced stratiform rain region (ESR), anvil region, melting layer (ML), and the rear inflow jet (RIJ). Analyses are developed from airborne optical array probe data and multiple-Doppler wind and reflectivity syntheses using data from the airborne NOAA Tail Doppler Radar (TDR) and ground-based Weather Surveillance Radar-1988 Doppler (WSR-88D) radars. Seven spiral ascents/descents of the NOAA P-3 aircraft were executed within various regions of the 20 June MCS. Aggregation modified by sublimation was observed in each MCS region, regardless of whether the sampling was within the RIJ. Sustained sublimation and evaporation of precipitation in subsaturated layers led to a trend of downward moistening across the ESR spirals, with greater degrees of subsaturation maintained when in the vicinity of the descending RIJ. In all cases where melting was observed, the ML acted as a prominent thermodynamic boundary, with differing rates of change in temperature and relative humidity above and below the ML. Two spiral profiles coincident with the rear inflow notch provided unique ob- servations within the TZ and were interpreted in the context of similar observations from the 29 June 2003 Bow Echo and Mesoscale Convective Vortex Experiment MCS. There, sublimation cooling and enhanced descent within the RIJ allowed ice particles to survive to temperatures as warm as 16.88C before completely sublimating/evaporating.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/Stechman_etal_2020.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Tao_etal_GRL2020
+  year: 2020
+  title: Why do the maximum intensities in modeled tropical cyclones vary under the same environmental conditions? 
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D., M. M. Bell, R. Rotunno, and P. J. van Leeuwen
+  journal: Geophys. Res. Letters
+  others: 47, e2019GL085980
+  doi: https://doi.org/10.1029/2019GL085980
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: In this study w e explored why the different initial tropical cyclone structures can result in different steady‐state maximum intensities in model simulations with the same environmental conditions. We discovered a linear relationsh ip between the radius of maximum wind (rm) and the absolute angular momentum that passes through rm (Mm) in the model simulated steady‐state tropical cyclones that rm = aMm+b. This nonnegligible intercept b is found to be the key to making a steady‐state storm with a larger Mm more intense. The sensitivity experiments show that this nonzero b results mainly from horizontal turbulent mixing and decreases with decreased horizontal mixing. Using this linear relationship from the simulations, it is also found that the degree of supergradient wind is a function of Mm as well as the turbulent mixing length such that both a larger Mm and/or a reduced turbulent mixing length result in larger supergradient winds.
+  summary: According to the maximum potential intensity theory, the maximum intensities for tropical cyclones should be the same given the same environmental conditions, which means the radius of maximum wind (rm) at the boundary layer top should be linearly proportional to the absolute angular momentum such that rm~aMm. In model simulations, however, different initial vortex structures usually result in different quasi‐steady‐state maximum intensities. In this paper, an axisymmetric numerical model is used to evaluate the TC's maximum intensities at the quasi‐steady state and explore the cause of this discrepancy between the model simulations and the maximum potential intensity theory. The model results exhibit that the various values of rm do have a linear relation with Mm, which is predicted by the maximum potential intensity theory. However, there is a non‐negligible intercept term, b, in this linear relation (rm = aMm+b), which is found to be the key to making a steady‐state storm with a larger Mm more intense.
+  image: 
+  caption: 
+  acknowledgement: Authors D. Tao and M. Bell are supported by grant Office of Naval Research award N000141613033 and National Science Foundation (NSF) award AGS‐1701225. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under cooperative agreement 1852977. P.J. van Leeuwen is supported by Colorado State University. Computing was performed at a local computer server at the Department of Atmospheric Science, Colorado State University. The data used in this paper are available through zenodo using the link https://doi.org/10.5281/zenodo.3530892.
+  bibtex: false
+  pdf: ../Publications/papers/Tao_etal_GRL2020.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Tao_etal_JAS2019
+  year: 2019
+  title: Evaluation of the Assumptions in the Steady-State Tropical Cyclone Self-Stratified Outflow Using Three-Dimensional Convection-Allowing Simulations
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D., K. Emanuel, F. Zhang, R. Rotunno, M. M. Bell, R. Nystrom,
+  journal: J. Atmos. Sci.
+  others: 76, 2995-3009 
+  doi:  https://doi.org/10.1175/JAS-D-19-0033.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The criteria and assumptions that were used to derive the steady-state tropical cyclone intensity and structure theory of Emanuel and Rotunno are assessed using three-dimensional convection-allowing simulations using the Weather Research and Forecasting Model. One real-data case of Hurricane Patricia (2015) and two idealized simulations with and without vertical wind shear are examined. In all three simulations, the gradient wind balance is valid in the inner-core region above the boundary layer. The angular momentum M and saturation entropy surfaces s* near the top of the boundary layer, in the outflow region and along the angular momentum surface that passes the low-level radius of maximum wind MRMW are nearly congruent, satisfying the criterion of slantwise moist neutrality in the vicinity of MRMW. The theoretically derived maximum wind magnitude above the boundary layer compares well with the simulated maximum tangential wind and gradient wind using the azimuthally averaged pressure field during the intensification and quasi-steady state of the simulated storms. The Richardson number analysis of the simulated storms shows that small Richardson number (0 , Ri #1) exists in the outflow region, related to both large local shear and small static stability. This criticality of the Richardson number indicates the existence of small-scale turbulence in the outflow region. We also show that the stratifi- cation of temperature along the M surfaces at the outflow region for steady-state hurricanes is approximately applicable in these three-dimensional simulations, while the radial distribution of gradient wind is qualitatively comparable to the theoretical radial profiles. Some caveats regarding the theory are also discussed.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/Taoetal2019JAS.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Tao_etal_JAS2020
+  year: 2020
+  title: Lilly’s Model for Steady-State Tropical Cyclone Intensity and Structure
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D. R. Rotunno, and M. M. Bell
+  journal: J. Atmos. Sci.
+  others: 77, 3701–3720
+  doi: https://doi.org/10.1175/JAS-D-20-0057.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study revisits the axisymmetric tropical cyclone (TC) theory from D. K. Lilly’s unpublished manuscript (Lilly model) and compares it to axisymmetric TC simulations from a nonhydrostatic cloud model. Analytic solutions of the Lilly model are presented through simplifying assumptions. Sensitivity experiments varying the sea surface, boundary layer and tropopause temperatures, and the absolute angular momentum (M) at some outer radius in the Lilly model show that these variations influence the radial structure of the tangential wind profile V(r) at the boundary layer top. However, these parameter variations have little effect on the inner-core normalized tangential wind, V(r/rm)/Vm, where Vm is the maximum tangential wind at radius rm. The outflow temperature T‘ as a function of M (or saturation entropy s*) is found to be the only input that changes the normalized tangential wind radial structure in the Lilly model. In contrast with the original as- sumption of the Lilly model that T‘(s*) is determined by the environment, it is argued here that T‘(s*) is determined by the TC interior flow under the environmental constraint of the tropopause height. The present study shows that the inner-core tangential wind radial structure from the Lilly model generally agrees well with nonhydrostatic cloud model simulations except in the eyewall region where the Lilly model tends to underestimate the tangential winds due to its balanced-dynamics assumptions. The wind structure in temperature–radius coordinates from the Lilly model can largely reproduce the nu- merical simulation results. Though the Lilly model is based on a number of simplifying assumptions, this paper shows its utility in understanding steady-state TC intensity and structure.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: Authors Dr. Tao and Dr. Bell are supported by Office of Naval Research Awards N000141613033 and N000142012069, and National Science Foundation Award AGS-1701225. The contribution of Dr. R. Rotunno to this work is supported by the National Center for Atmospheric Research (NCAR), which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. The authors also thank Dr. Christopher A. Davis (NCAR), reviewer Dr. Kerry A. Emanuel (MIT), and two other anonymous reviewers for their insightful comments, which greatly improved this manuscript. Computing was performed on a local computer server at the Department of Atmospheric Science, Colorado State University. The test code for the Lilly model is available upon request.
+  bibtex: false
+  pdf: ../Publications/papers/Tao_etal_JAS2020.pdf
+  keyword1: Dynamics
+  keyword2: Tropical cyclones
+  keyword3: false
+- id: Tao_etal_JAS2022
+  year: 2022
+  title: Dynamics and predictability of tropical cyclone rapid intensification in ensemble simulations of Hurricane Patricia (2015)
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D., P. J. van Leeuwen, M. M. Bell, and Y. Ying
+  journal: J. Geophys. Res. Atmos.
+  others: 127, e2021JD036079 
+  doi: https://doi.org/10.1029/2021JD036079
+  keypoint1: Deep-layer observations covering all depths of the system provide substantial impact to improve both the primary and secondary circulations
+  keypoint2: Besides the delayed evolution, the intensity error can be from a completely different storm that no correct structure can be obtained
+  keypoint3: Both radial and vertical structures should be considered in the evaluation metrics of modeled tropical cyclones
+  abstract: "Hurricane Patricia (2015) over the eastern Pacific was a record-breaking tropical cyclone (TC) under a very favorable environment during its rapid intensification (RI) period, which makes it an optimal real case for studying RI dynamics and predictability. In this study, we performed ensemble Kalman filter analyses at Patricia's early development stage using both traditional observations and the Office of Naval Research Tropical Cyclone Intensity (TCI) field campaign data. It is shown that assimilating the inner-core TCI observations produces a stronger initial vortex and significantly improves the prediction of RI. Analysis of observation sensitivity experiments shows that the deep-layer dropsonde observations have high impact on both the primary and secondary circulations for the entire troposphere while the radar observations have the most impact on the primary circulations near aircraft flight level. A wide range of intensification scenarios are obtained through two sets of ensemble forecasts initialized with and without assimilating the TCI data prior to the RI onset. Verification of the ensemble forecasts against the TCI observations during the RI period shows that forecast errors toward later stages can originate from two different error sources at early stages of the vortex structure: One is a timing error from a delayed vortex development such that the TC evolution is the same but shifted in time; the other is due to a totally different storm such that there is no moment in time the simulated storm can obtain a correct TC structure."
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: D. Tao and M. Bell are supported by Office of Naval Research awards N000141613033 and N000142012069. P.J. van Leeuwen is supported by H2020 European Research Council project CUNDA award 694509. Y. Ying is supported by the Advanced Study Program in the National Center for Atmospheric Research which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. We would like to thank Dr. Jonathan Martinez for providing the Spline Analysis at Mesoscale Utilizing Radar and Aircraft Instrumentation analysis and Dr. Robert Nystrom for the help on setting up the simulations. We also want to thank the three anonymous reviewers for the helpful comments. Computing was conducted on Supercomputer Stampede2 of the Texas Advanced Computing Center (TACC) and on Supercomputer Cheyenne of the National Center for Atmospheric Research (NCAR).
+  bibtex: false
+  pdf: ../Publications/papers/Tao_etal_JAS2022.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+
 - id: trabing_bell_JGR
   year: 2021
   title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
@@ -1487,7 +1856,7 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: false
   keyword2: false
   keyword3: false
-- id: trabing_bell_MWR
+- id: trabing_bell_MWR2021
   year: 2021
   title: Observations of Diurnal Variability under the Cirrus Canopy of Typhoon Kong-rey (2018)
   author1: trabing
@@ -1508,6 +1877,52 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   This work has been funded by the Office of Naval Research Award N000141613033. The authors thank Chelsea Nam and Jennifer DeHart for their insightful comments. This work has also been improved by the comments of three anonymous reviewers. Meteorology and surface flux data collected during PISTON are available at the NOAA Physical Sciences Laboratory (PSL) ftp site: ftp://ftp1.esrl.noaa.gov/psd3/cruises/PISTON_MISOBOB_2018/TGT/. Multiple datasets from PISTON, such as the radiosondes and SEA-POL gridded data, are available from https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex.
   bibtex: ../Publications/bibtex/trabing_bell_MWR2021.bib
   pdf: ../Publications/papers/Trabing_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+- id: Trabing_Bell_WAF2020
+  year: 2020
+  title: Understanding Rapid Intensity Changes in Official Hurricane Intensity Forecast Error Distributions
+  author1: bell
+  author2: trabing
+  author3: false
+  authors: Trabing, B. C., and M. M. Bell
+  journal: Wea. Forecasting
+  others:  35, 2219–2234
+  doi: https://doi.org/10.1175/WAF-D-19-0253.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The characteristics of official National Hurricane Center (NHC) intensity forecast errors are examined for the North Atlantic and east Pacific basins from 1989 to 2018. It is shown how rapid intensification (RI) and rapid weakening (RW) influence yearly NHC forecast errors for forecasts between 12 and 48 h in length. In addition to being the tail of the intensity change distribution, RI and RW are at the tails of the forecast error distribution. Yearly mean absolute forecast errors are positively correlated with the yearly number of RI/RW occurrences and explain roughly 20% of the variance in the Atlantic and 30% in the east Pacific. The higher occurrence of RI events in the east Pacific contributes to larger intensity forecast errors overall but also a better probability of detection and success ratio. Statistically significant improvements to 24-h RI forecast biases have been made in the east Pacific and to 24-h RW biases in the Atlantic. Over-ocean 24-h RW events cause larger mean errors in the east Pacific that have not improved with time. Environmental predictors from the Statistical Hurricane Intensity Prediction Scheme (SHIPS) are used to diagnose what conditions lead to the largest RI and RW forecast errors on average. The forecast error distributions widen for both RI and RW when tropical systems expe- rience low vertical wind shear, warm sea surface temperature, and moderate low-level relative humidity. Consistent with existing literature, the forecast error distributions suggest that improvements to our observational capabilities, understanding, and prediction of inner-core processes is paramount to both RI and RW prediction.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work has been funded by the Office of Naval Research Awards N000141613033, N000141712230, and N000142012069, and National Science Foundation Award AGS-1701225. The authors thank Naufal Razin, Jhordanne Jones, and three anonymous reviewers for their insightful comments and suggestions.
+  bibtex: false
+  pdf: ../Publications/papers/Trabing_Bell_WAF2020.pdf
+  keyword1: Tropical cyclones
+  keyword2: Error analysis
+  keyword3: Operational forecasting
+- id: Trabing_etal_JAS2019
+  year: 2019
+  title: Impacts of Radiation and Upper Tropospheric Temperatures on Tropical Cyclone Structure and Intensity
+  author1: bell
+  author2: false
+  author3: false
+  authors: Trabing, B. C., M. M. Bell, and B. R. Brown
+  journal: J. Atmos. Sci. 
+  others:  76, 135-153
+  doi: https://doi.org/10.1175/JAS-D-18-0165.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Potential intensity theory predicts that the upper-tropospheric temperature acts as an important constraint on tropical cyclone (TC) intensity. The physical mechanisms through which the upper troposphere impacts TC intensity and structure have not been fully explored, however, due in part to limited observations and the complex interactions between clouds, radiation, and TC dynamics. In this study, idealized Weather Research and Forecasting Model ensembles initialized with a combination of three different tropopause temperatures and with no radiation, longwave radiation only, and full diurnal radiation are used to examine the physical mechanisms in the TC–upper-tropospheric temperature relationship on weather time scales. Simulated TC intensity and structure are strongly sensitive to colder tropopause temperatures using only longwave radia- tion, but are less sensitive using full radiation and no radiation. Colder tropopause temperatures result in deeper convection and increased ice mass aloft in all cases, but are more intense only when radiation was included. Deeper convection leads to increased local longwave cooling rates but reduced top-of-the- atmosphere outgoing longwave radiation, such that the total radiative heat sink is reduced from a Carnot engine perspective in stronger storms. We hypothesize that a balanced response in the secondary circulation described by the Eliassen equation arises from upper-troposphere radiative cooling anomalies that lead to stronger tangential winds. The results of this study further suggest that radiation and cloud–radiative feed- backs have important impacts on weather time scales.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work has been funded by Office of Naval Research Awards N000141613033 and N000141410118. This work has been supported by the Tropical Cyclone Intensity Departmental Research Ini- tiative. The work has benefited from helpful discussions with Michael Riemer. The authors would also like to thank the three anonymous reviewers for their comments and suggestions.
+  bibtex: false
+  pdf: ../Publications/papers/Trabing_etal_JAS2019.pdf
   keyword1: false
   keyword2: false
   keyword3: false
@@ -1645,6 +2060,29 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: Seasonal
   keyword2: El Nino
   keyword3: Forecasting
+- id: Zhang_etal_WAF2023
+  year: 2023
+  title: "Improving Monsoonal Precipitation Nowcast using Satellite All-Sky Infrared Radiances: Real-Time Ensemble Data Assimilation and Forecast during PRECIP"
+  author1: bell
+  author2: false
+  author3: false
+  authors: Zhang, Y., X.-C. Chen, M. M. Bell
+  journal: Wea. Forecasting
+  others: in press
+  doi: https://doi.org/10.1175/WAF-D-22-0156.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The Prediction of Rainfall Extremes Campaign In the Pacific (PRECIP) aims to improve our understanding of extreme rainfall processes in the East Asian summer monsoon. A convection- permitting ensemble-based data assimilation and forecast system (the PSU WRF-EnKF system) was run in real-time in the summers of 2020 to 2021 in advance of the 2022 field campaign, assimilating all-sky infrared (IR) radiances from the geostationary Himawari-8 and GOES-16 satellites, and providing 48-hour ensemble forecasts every day for weather briefings and discussions. This is the first time that all-sky IR data assimilation has been performed in a real- time forecast system at a convection-permitting resolution for several seasons. Compared with retrospective forecasts that exclude all-sky IR radiances, rainfall predictions are statistically significantly improved out to at least 4–6 hours for the real-time forecasts, which is comparable to the timescale of improvements gained from assimilating observations from the dense ground-based Doppler weather radar network. The assimilation of all-sky IR radiances also reduced the forecast errors of large-scale environments and helped to maintain a more reasonable ensemble spread compared with the counterpart experiments that didn’t assimilate all-sky IR radiances. The results indicate strong potential for improving routine short-term quantitative precipitation forecasts using these high-spatiotemporal-resolution satellite observations in the future.
+  summary: During the summers of 2020–2021, the PSU WRF-EnKF data assimilation and forecast system was run in real-time in advance of the 2022 Prediction of Rainfall Extremes Campaign In the Pacific (PRECIP), assimilating all-sky (clear-sky and cloudy) infrared radiances from the geostationary satellites into a numerical weather prediction model and providing ensemble forecasts. This study presents the first-of-its-kind systematic evaluation of the impacts of assimilating all-sky infrared radiances on short-term qualitative precipitation forecasts using multi- year, multi-region, real-time ensemble forecasts. Results suggest that rainfall forecasts are improved out to at least 4–6 hours with the assimilation of all-sky infrared radiances, comparable to the influence of assimilating radar observations, with benefits in forecasting large-scale environments and representing atmospheric uncertainties as well.
+  image: 
+  caption: 
+  acknowledgement: "We would like to thank Drs. Rosimar Rios-Berrios (NCAR), James H. Ruppert, Jr. (University of Oklahoma), and many PRECIP participants for their helpful discussions and feedback on the configuration of the PSU WRF-EnKF system and the planning of the real-time modeling for the field campaign, and Dr. Kristen Rasmussen (Colorado State University) for securing the computational resources for the 2022 real-time forecasts. We would also like to thank the three anonymous reviewers, whose comments prominently improved this manuscript. This work is supported by NSF grants AGS-1712290, AGS-1854607, and AGS-1854559, ONR grant N000141812517, NOAA NGGPS grant through University of Michigan Subcontract 3004628721, NOAA grant NA18OAR4590369, and NASA grant 80NSSC19K0728. The real-time and retrospective data assimilations and forecasts are performed on the Cheyenne supercomputer (doi:10.5065/D6RX99HX) provided by NCAR's Computational and Information Systems Laboratory (CISL) sponsored by the NSF, and the Stampede 2 supercomputer of the Texas Advanced Computing Center (TACC) through the Extreme Science and Engineering Discovery Environment (XSEDE) program (now the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support program, or ACCESS) supported by the National Science Foundation (NSF)."
+  bibtex: false
+  pdf: ../Publications/papers/Zhang_etal_WAF2023_EOR.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
 - id: zhaoetal2019climdyncloudclusters2019
   year: 2019
   title: Recent decrease in genesis productivity of tropical cloud clusters over the

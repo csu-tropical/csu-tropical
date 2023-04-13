@@ -1,23 +1,23 @@
-- id: 
+- id: Lee_etal_fmars2022
   year: 2022
-  title: 
+  title: New parameterization of air-sea exchange coefficients and its impact on intensity prediction under major tropical cyclones
   author1: bell
   author2: false
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
+  authors: Lee, W., I.-J. Moon, S.-H. Kim, M. M. Bell, and I. Ginis
+  journal: Front. Mar. Sci.
+  others:  9:1046511
+  doi: https://doi.org/10.3389/fmars.2022.1046511
   keypoint1: 
   keypoint2: 
   keypoint3: 
-  abstract: 
+  abstract: "Understanding and quantifying air-sea exchanges of enthalpy and momentum fluxes are crucial for the advanced prediction of tropical cyclone (TC) intensity. Here, we present a new parameterization of air-sea fluxes at extreme wind speeds from 40 m s−1 to 75 m s−1, which covers the range of major TCs. Our approach assumes that the TC can reach its maximum potential intensity (MPI) if there are no influences of external forces such as vertical wind shear or other environmental constraints.This method can estimate the ratio of the enthalpy and momentum exchange coefficient (Ck/Cd) under the most intense TCs without direct flux measurements. The estimation showed that Ck/Cd increases with wind speed at extreme winds above 40 m s−1. Two types of surface layer schemes of the Hurricane Weather and Research Forecast (HWRF) were designed based on the wind speed dependency of the Ck/Cd found at high winds: (i) an increase of Ck/Cd based on decreasing Cd (Cd_DC) and (ii) an increase of Ck/Cd based on increasing Ck (Ck_IC). The modified surface layer schemes were compared to the original HWRF scheme (using nearly fixed Cd and Ck at extreme winds; CTRL) through idealized experiments and real-case predictions. The idealized experiments showed that Cd_DC reduced frictional dissipation in the air-sea interface as well as significantly reduced sea surface cooling, making the TC stronger than other schemes. As a result, Cd_DC reduced the mean absolute error and negative bias by 15.0% (21.0%) and 19.1% (32.0%), respectively, for all lead times of Hurricane Irma in 2017 (Typhoon Mangkhut in 2018) compared to CTRL. This result suggests that new parameterization of Ck/Cd with decreasing Cd at high winds can help improve TC intensity prediction, which currently suffers from underestimating the intensity of the strongest TCs."
   summary: false
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: This work was funded by the Korea Meteorological Administration Research and Development Program “Development of Asian Dust and Haze Monitoring and Prediction Technology” under Grant (KMA2018-00521) and Research Program funded by the Ministry of Education (2021R1A2C1005287) and the Korea government (MSIT) (RS- 2022-00144325) through the National Research Foundation of Korea (NRF) and by the project titled “Study on Air-Sea Interaction and Process of Rapidly Intensifying Typhoon in the Northwestern Pacific”, funded by the Ministry of Oceans and Fisher (20220566).
   bibtex: false
-  pdf: ../Publications/papers/
-  keyword1: false
-  keyword2: false
-  keyword3: false
+  pdf: ../Publications/papers/Lee_etal_fmars2022.pdf
+  keyword1: air-sea exchange coefficients
+  keyword2: lifetime maximum intensity
+  keyword3: maximum potential intensity

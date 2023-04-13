@@ -1,23 +1,23 @@
-- id: 
+- id: Martinez_etal_JAS2022
   year: 2022
-  title: 
+  title: Eyewall Asymmetries and Their Contributions to the Intensification of an Idealized Tropical Cyclone Translating in Uniform Flow
   author1: bell
-  author2: false
+  author2: martinez
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
+  authors: Martinez, J., C. A. Davis, and M. M. Bell
+  journal: J. Atmos. Sci.
+  others: 79, 2471-2491
+  doi: https://doi.org/10.1175/JAS-D-21-0302.1
   keypoint1: 
   keypoint2: 
   keypoint3: 
-  abstract: 
-  summary: false
+  abstract: Scale-dependent processes within the tropical cyclone (TC) eyewall and their contributions to intensifica- tion are examined in an idealized simulation of a TC translating in uniform environmental flow. The TC circulation is parti- tioned into axisymmetric, low-wavenumber (m = 1–3), and high-wavenumber (m . 3) categories, and scale-dependent contributions to the intensification process are quantified through the azimuthal-mean relative (vertical) vorticity and tan- gential momentum budgets. To further account for the interdependent relationship between the axisymmetric vortex struc- ture and eyewall asymmetries, the analyses are subdivided into three periods}early, middle, and late}that represent the approximate quartiles of the full intensification period prior to the TC attaining its maximum intensity. The asymmetries become concentrated among lower azimuthal wavenumbers during the intensification process and are persistently distrib- uted among a broader range of azimuthal scales at higher altitudes. The scale-dependent budgets demonstrate that the axi- symmetric and asymmetric processes generally oppose each other during TC intensification. The axisymmetric processes are mostly characterized by a radial spinup dipole pattern, with a tangential momentum spinup tendency concentrated along the radius of maximum tangential winds (RMW) and a spindown tendency concentrated radially inward of the RMW. The asymmetric processes are mostly characterized by an opposing spindown dipole pattern that is slightly weaker in magnitude. The most salient exception occurs from high-wavenumber processes contributing to a relatively modest, net spinup along the RMW between ∼2- and 4-km altitude. Given that the maximum tangential winds persistently reside below 2-km altitude, eyewall asymmetries are primarily found to impede TC intensification.
+  summary: The convection fueling a tropical cyclone progressively organizes into a compact region called the eyewall where the strongest winds and rainfall occur. As the tropical cyclone intensifies, convection in the circular eyewall becomes more uniform, and the eyewall takes the appearance of a ring. We call this ring shape the “symmetric” part of the eyewall. As convection in the eyewall evolves and interacts, the eyewall becomes deformed and develops wiggles. We call these wiggly shapes the “asymmetric” parts of the eyewall. We demonstrate that the sym- metric part of the eyewall helps intensification. The asymmetric parts of the eyewall mostly hurt intensification except during the earlier stages. Our results indicate that a symmetric eyewall shape is preferable for tropical cyclone intensification.
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: This material is based upon work sup- ported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. This work was also supported by the Office of Naval Research Awards N000141613033 and N000142012069 and the Na- tional Science Foundation Award AGS-1701225. JM was also supported by the National Science Foundation Bridge to the Doctorate Fellowship Award 004863-00003. We ac- knowledge high-performance computing support from Cheyenne (doi:10.5065/D6RX99HX) provided by NCAR’s Computational and Information Systems Laboratory, sponsored by the National Science Foundation.
   bibtex: false
-  pdf: ../Publications/papers/
-  keyword1: false
-  keyword2: false
-  keyword3: false
+  pdf: ../Publications/papers/Martinez_etal_JAS2022.pdf
+  keyword1: Tropical cyclones
+  keyword2: Mesoscale processes
+  keyword3: Numerical modeling

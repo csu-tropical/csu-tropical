@@ -1,23 +1,23 @@
-- id: 
+- id: Panasawatwong_etal_JGR2022
   year: 2022
-  title: 
+  title: A Climatology of Extreme Convective Storms in Tropical East Asia and Their Ingredients for Heavy Rainfall as seen by TRMM
   author1: bell
-  author2: false
+  author2: panasawatwong
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
-  abstract: 
-  summary: false
+  authors: Panasawatwong, W., K. Rasmussen, and M. M. Bell
+  journal: J. Geophys. Res. Atmospheres
+  others:  127, e2022JD036863
+  doi: https://doi.org/10.1029/2022JD036863
+  keypoint1: The spatio-temporal and rain frequency of extreme storm types in Tropical and Subtropical East Asia is documented 
+  keypoint2: Broad stratiform environments, for example, in Meiyu Front, require a longer and larger moisture build-up
+  keypoint3: Smaller convective systems require spatially smaller diurnal vertical moisture flux and convergence
+  abstract: "Heavy rainfall is a challenge to forecast due to the variety of rainfall intensities and durations across a wide spectrum of high-impact storm types. In this study, we analyze extreme storms in Tropical and Subtropical East Asia, a moisture-rich environment with complex terrain and oceanic regions. The Tropical Rainfall Measuring Mission's Precipitation Radar is utilized to characterize the frequency and rainfall intensity of four extreme storm types. Extreme storms producing heavy precipitation are categorized into four types: deep convective cores (DCCs), deepwide convective cores (DWCCs), wide convective cores (WCCs), and broad stratiforms regions (BSRs). DCCs and DWCCs occur more frequently and produce stronger rain intensities over land compared to those over ocean. However, WCCs and BSRs occur more frequently over oceans, especially in association with the Meiyu front season and climatological progression in the northern subregions. Although the Convective Cores show higher rain intensities than the BSRs, they show lower volumetric rain rate due to their comparatively smaller horizontal area. An ingredients-based framework is applied to find key similarities across the different heavy rainfall-producing storms near Taiwan using ERA5 reanalysis. The analysis shows that the broader systems (i.e., WCCs and BSRs) are associated with larger in area and longer timescales of vertical moisture flux and low-level wind shear that support the development of the horizontally large, organized storms. Smaller DCCs do not show strong vertical moisture flux on the spatial scales resolved by the reanalysis, suggesting their more local nature and less meso- or synoptic scale support."
+  summary: Heavy rainfall is a challenge to forecast due to the variety of rainfall intensities and durations across a wide spectrum of high-impact storm types. In this study, we analyze extreme storms in Tropical and Subtropical East Asia (TSEA), a moisture-rich environment with complex terrain and oceanic regions. Observations from the first satellite precipitation radar are used to characterize the nature of extreme storms. Results show that deep convective storms occur more frequently over land, while the wide convective storms and the broad stratiform regions occur more frequently over oceans, especially in association with the Meiyu front (pre-East Asian monsoon season) in northern TSEA. Broad stratiform regions can produce a larger total rainfall amount compared to the convective rain categories because of larger areas. A goal of this study is to identify similar key ingredients across different extreme storm types near Taiwan. Analysis shows that the broader storms are associated with moisture in larger areas and on longer timescales, and also low-level wind shear that supports the development of the large, organized storms. Smaller deep convective storms do not show strong moisture signals in coarse-scale environmental analysis, suggesting that this storm type might need more small-scale moisture support.
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: This research was supported by a Royal Thai Scholar Fellowship, National Science Foundation (Grants AGS-1854399 and AGS-1854559), and National Aeronautics and Space Administration (Grant 80NSSC22K0608).
   bibtex: false
-  pdf: ../Publications/papers/
+  pdf: ../Publications/papers/Panasawatwong_etal_JGR2022.pdf
   keyword1: false
   keyword2: false
   keyword3: false

@@ -1,23 +1,23 @@
-- id: 
-  year: 2022
-  title: 
+- id: Park_etal_JGR2020
+  year: 2020
+  title: Impact of cloud microphysics schemes on tropical cyclone forecast over the western North Pacific
   author1: bell
   author2: false
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
+  authors: Park, J., D.-H. Cha, M.-K. Lee, J. Moon, S.-J. Hahm, K. Noh, J. Chan and M. M. Bell
+  journal: J. Geophys. Res. Atmos.
+  others: 125, e2019JD032288
+  doi: https://doi.org/10.1029/2019JD032288
   keypoint1: 
   keypoint2: 
   keypoint3: 
-  abstract: 
+  abstract: In high‐resolution numerical modeling, cloud microphysics schemes can affect the forecasting of tropical cyclones (TCs) by controlling the phase changes of water. The simulated TC characteristics such as motion, intensity, and structure can change depending on the number of hydrometeors used in these schemes. In this study, we investigate the sensitivity of real‐time track and intensity forecasts of TCs to cloud microphysics schemes using the Weather Research and Forecasting (WRF) model. For the sensitivity test, we selected WRF‐single‐moment‐microphysics Class 3 (WSM3) and Class 6 (WSM6) schemes as simple and sophisticated schemes, respectively. A total of 20 forecasts for 10 TCs were conducted. For TCs moving westward in the subtropics, track forecasts were similar in the different sensitivity tests, although the WSM6 scheme considerably reduced the TC intensity errors. However, for TCs moving to the midlatitudes, the WSM6 scheme improved both track and intensity prediction compared to the WSM3 scheme. Particularly, track errors were prominently reduced by the WSM6 scheme, which realistically captured westward shifted track during the rapid intensification process. This can be attributed to the improved simulations of TC intensity, size, and associated β effect by WSM6 scheme. In contrast, the WSM3 scheme underestimated the above characteristics due to low latent heat release compared to the WSM6 scheme. Consequently, TC track moving northwestward was unreasonably shifted eastward. This indicates that a sophisticated cloud microphysics scheme is necessary to improve the track and intensity forecasts for TCs moving to the midlatitudes.
   summary: false
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: This work was funded by the 2019 Republic of Korea Airforce Numerical Weather Prediction Research and Development Program.
   bibtex: false
-  pdf: ../Publications/papers/
+  pdf: ../Publications/papers/Park_etal_JGR2020.pdf
   keyword1: false
   keyword2: false
   keyword3: false

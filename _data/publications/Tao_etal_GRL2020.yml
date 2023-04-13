@@ -1,23 +1,23 @@
-- id: 
-  year: 2022
-  title: 
+- id: Tao_etal_GRL2020
+  year: 2020
+  title: Why do the maximum intensities in modeled tropical cyclones vary under the same environmental conditions? 
   author1: bell
-  author2: false
+  author2: tao
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
+  authors: Tao, D., M. M. Bell, R. Rotunno, and P. J. van Leeuwen
+  journal: Geophys. Res. Letters
+  others: 47, e2019GL085980
+  doi: https://doi.org/10.1029/2019GL085980
   keypoint1: 
   keypoint2: 
   keypoint3: 
-  abstract: 
-  summary: false
+  abstract: In this study w e explored why the different initial tropical cyclone structures can result in different steady‐state maximum intensities in model simulations with the same environmental conditions. We discovered a linear relationsh ip between the radius of maximum wind (rm) and the absolute angular momentum that passes through rm (Mm) in the model simulated steady‐state tropical cyclones that rm = aMm+b. This nonnegligible intercept b is found to be the key to making a steady‐state storm with a larger Mm more intense. The sensitivity experiments show that this nonzero b results mainly from horizontal turbulent mixing and decreases with decreased horizontal mixing. Using this linear relationship from the simulations, it is also found that the degree of supergradient wind is a function of Mm as well as the turbulent mixing length such that both a larger Mm and/or a reduced turbulent mixing length result in larger supergradient winds.
+  summary: According to the maximum potential intensity theory, the maximum intensities for tropical cyclones should be the same given the same environmental conditions, which means the radius of maximum wind (rm) at the boundary layer top should be linearly proportional to the absolute angular momentum such that rm~aMm. In model simulations, however, different initial vortex structures usually result in different quasi‐steady‐state maximum intensities. In this paper, an axisymmetric numerical model is used to evaluate the TC's maximum intensities at the quasi‐steady state and explore the cause of this discrepancy between the model simulations and the maximum potential intensity theory. The model results exhibit that the various values of rm do have a linear relation with Mm, which is predicted by the maximum potential intensity theory. However, there is a non‐negligible intercept term, b, in this linear relation (rm = aMm+b), which is found to be the key to making a steady‐state storm with a larger Mm more intense.
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: Authors D. Tao and M. Bell are supported by grant Office of Naval Research award N000141613033 and National Science Foundation (NSF) award AGS‐1701225. The contribution of R. Rotunno to this work is supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under cooperative agreement 1852977. P.J. van Leeuwen is supported by Colorado State University. Computing was performed at a local computer server at the Department of Atmospheric Science, Colorado State University. The data used in this paper are available through zenodo using the link https://doi.org/10.5281/zenodo.3530892.
   bibtex: false
-  pdf: ../Publications/papers/
+  pdf: ../Publications/papers/Tao_etal_GRL2020.pdf
   keyword1: false
   keyword2: false
   keyword3: false

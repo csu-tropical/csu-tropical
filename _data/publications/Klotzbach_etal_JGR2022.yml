@@ -1,23 +1,23 @@
-- id: 
+- id: Klotzbach_etal_JGR2022
   year: 2022
-  title: 
+  title: "Characterizing Continental US Hurricane Risk: Which Intensity Metric Is Best?"
   author1: bell
-  author2: false
+  author2: klotzbach
   author3: false
-  authors: 
-  journal: 
-  others:  
-  doi: 
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
-  abstract: 
-  summary: false
+  authors: Klotzbach, P. J, D. R. Chavas, M. M. Bell, S. G. Bowen, E. J. Gibney, and C. J. Schreck
+  journal: J. Geophys. Res. Atmos.
+  others:  127, e2022JD037030
+  doi: https://doi. org/10.1029/2022JD037030
+  keypoint1: Minimum sea level pressure better predicts continental US hurricane damage than maximum winds or integrated kinetic energy
+  keypoint2: Maximum winds have historically been a poor predictor of damage caused by hurricanes making landfall from Georgia to Maine
+  keypoint3: Minimum sea level pressure is intrinsically an integrated wind field metric and is easy to measure, ideal for categorizing hurricane risk
+  abstract: The damage potential of a hurricane is widely considered to depend more strongly on an integrated measure of the hurricane wind field, such as integrated kinetic energy (IKE), than a point-based wind measure, such as maximum sustained wind speed (Vmax). Recent work has demonstrated that minimum sea levelpressure (MSLP) is also an integrated measure of the wind field. This study investigates how well historical continental US hurricane damage is predicted by MSLP compared to both Vmax and IKE for continental United States hurricane landfalls for the period 1988–2021. We first show for the entire North Atlantic basin that MSLP is much better correlated with IKE (rrank = 0.50) than Vmax (rrank = 0.26). We then show that continental US hurricane normalized damage is better predicted by MSLP (rrank = 0.83) than either Vmax (rrank = 0.67) or IKE (rrank = 0.65). For Georgia to Maine hurricane landfalls specifically, MSLP and IKE show similar levels of skill at predicting damage, whereas Vmax provides effectively no predictive power. Conclusions for IKE extend to power dissipation as well, as the two quantities are highly correlated because wind radii closely follow a Modified Rankine vortex. The physical relationship of MSLP to IKE and power dissipation is discussed. In addition to better representing damage, MSLP is also much easier to measure via aircraft or surface observations than either V or IKE, and it is already routinely estimated operationally. We conclude that max MSLP is an ideal metric for characterizing hurricane damage risk.
+  summary: For decades, maximum sustained winds have been used to categorize potential hurricane impacts. Recent work argues that an integrated hurricane wind field measure better represents risk. Here we use historical continental US hurricane and economic damage data to show that minimum sea level pressure better correlates with damage than integrated kinetic energy, a measure of hurricane vortex size and strength, or maximum sustained wind. Maximum sustained wind has been a poor damage predictor for Georgia to Maine landfalling hurricanes. Since minimum central pressure is an integrated wind field measure that only requires storm center measurements, and is already routinely estimated, we propose that minimum sea level pressure replace maximum sustained wind as the primary hurricane categorization method.
   image: 
   caption: 
-  acknowledgement: 
+  acknowledgement: We would like to thank Nadia Bloemendaal, Brian McNoldy and one anonymous reviewer for constructive comments that improved the manu- script. P. Klotzbach would like to acknowledge a grant from the G. Unger Vetlesen Foundation. D. Chavas acknowl- edges NSF Grants 1826161 and 1945113. M. Bell was supported by Office of Naval Research Grant N000142012069. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002. E. Gibney's research is supported by NOAA's Science Collaboration Program and administered by UCAR's Cooperative Programs for the Advancement of Earth System Science (CPAESS) under award NA21OAR4310383.
   bibtex: false
-  pdf: ../Publications/papers/
-  keyword1: false
-  keyword2: false
-  keyword3: false
+  pdf: ../Publications/papers/Klotzbach_etal_JGR2022.pdf
+  keyword1: Tropical Cyclones
+  keyword2: Hurricane Risk
+  keyword3: TC Intensity
