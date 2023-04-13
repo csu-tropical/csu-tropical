@@ -2,6 +2,11 @@
 id: pasillas
 name: Chandra Pasillas
 photo: './Group/chandra.jpg'
+time: Ph.D. in 2023
+thesis: >
+  Turning Day into Night: The creation, validation, and application of synthetic lunar reflectance values from the Day Night Band and Infrared Sensors for use with JPSS VIIRS and GOES ABI.
+job: >
+  Atmospheric science instructor at the Air Force Institute of Technology, Wright Patterson AFB, Ohio
 email: 'mailto:chandra.pasillas@colostate.edu'
 github: false
 webpage: false
