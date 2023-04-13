@@ -1,0 +1,22 @@
+- id: Razin_Bell_2021_MWR
+  year: 2021
+  title: The Unconventional Eyewall Replacement Cycle of Hurricane Ophelia
+  author1: razin
+  author2: bell
+  author3: false
+  authors: Razin, N., M. M. Bell
+  journal: Monthly Weather Review
+  others:  149(7), 2151-2170.
+  doi: https://doi.org/10.1175/MWR-D-20-0181.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Ophelia (2005) underwent an unconventional eyewall replacement cycle (ERC) as it was a category-1 storm located over cold sea surface temperatures near 23°C. The ERC was analyzed using airborne radar, flight-level, and dropsonde data collected during the Hurricane Rainband and Intensity Change Experiment (RAINEX) intensive observation period on 11 September 2005. Results showed that the spinup of the secondary tangential wind maximum during the ERC can be attributed to the efficient convergence of absolute angular momentum by the midlevel inflow of Ophelia’s dominantly stratiform rainbands. This secondary tangential wind maximum strongly contributed to the azimuthal mean tangential wind field, which is conducive for increased low-level supergradient winds and corresponding outflow. The low-level supergradient forcing enhanced convergence to form a secondary eyewall. Ophelia provides a unique example of an ERC occurring in a weaker storm with predominantly stratiform rainbands, suggesting an important role of stratiform precipitation processes in the development of secondary eyewalls.
+  summary: false
+  image: false
+  acknowledgement: This research was supported by the National Science Foundation Awards AGS-1701225 and OAC-1661663 and Office of Naval Research Award N000142012069. Naufal Razin was also supported by the NASA Earth and Space Science Fellowship Award 80NSSC18K1349. We acknowledge the RAINEX and IFEX science teams, including NCAR, the Naval Research Laboratory, the NOAA Aircraft Operations Center, and the NOAA Hurricane Research Division of AOML for their data collection and archiving efforts. We also thank Eleanor Casas for her feedback on the paper prior to submission and Michael Fischer, Anthony Didlake, and an anonymous reviewer for their insightful comments.
+  bibtex: ../Publications/bibtex/Razin_Bell_MWR2021.bib
+  pdf: ../Publications/papers/Razin_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

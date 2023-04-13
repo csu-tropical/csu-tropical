@@ -1,0 +1,61 @@
+- id: jones2020tropical
+  year: 2020
+  title: Tropical and Subtropical North Atlantic Vertical Wind Shear and Seasonal
+    Tropical Cyclone Activity
+  author1: jones
+  author2: bell
+  author3: klotzbach
+  authors: Jones, Jhordanne J., Michael M. Bell, Philip J. Klotzbach
+  journal: Journal of Climate
+  others: vol 33, issue 13
+  # DOI of paper
+  doi: https://doi.org/10.1175/JCLI-D-19-0474.1
+  # Keypoints of Paper & Abstract
+  keypoint1: Anti-cyclonic wave breaking (AWB) activity is shown to be associated
+    with the second leading EOF mode in tropical North Atlantic vertical wind shear
+    (VWS) and accounts for 23% of the structured variance.
+  keypoint2: While the tropical sources of VWS from ENSO and the AMM remain the dominant
+    drivers of tropical North Atlantic VWS, the extratropical sources of VWS from
+    AWB are an important contribution to tropical and subtropical VWS variability
+    and tropical cyclone (TC) activity.
+  keypoint3: VWS anomalies induced by AWB activity may be a suitable indicator of
+    AWB impacts on VWS and its subsequent influence on seasonal TC activity.
+  abstract: Given recent insights into the role of anticyclonic Rossby wave breaking
+    (AWB) in driving subseasonal and seasonal North Atlantic tropical cyclone (TC)
+    activity, this study further examines tropical versus subtropical impacts on TC
+    activity by considering large-scale influences on boreal summer tropical zonal
+    vertical wind shear (VWS) variability, a key predictor of seasonal TC activity.
+    Through an empirical orthogonal function analysis, it is shown that subtropical
+    AWB activity drives the second mode of variability in tropical zonal VWS, while
+    El Niño-Southern Oscillation (ENSO) primarily drives the leading mode of variability.
+    Linear regressions of the four leading principal components against tropical North
+    Atlantic zonal VWS and accumulated cyclone energy show that, while the leading
+    mode holds much of the regression strength, some improvement can be achieved with
+    the addition of the second and third modes. Furthermore, an index of AWB-associated
+    VWS anomalies, a proxy for AWB impacts on the large-scale environment, may be
+    a better indicator of summertime VWS anomalies. The utilization of this index
+    may be used to better understand AWB’s contribution to seasonal TC activity.
+  summary: false
+  # Key Image
+  image: ../Publications/figures/Jones_etal_Figure7.png
+  caption: FIG. 7. The first four principal components (PC) of July-September tropical
+    North Atlantic zonal VWS anomalies. The PCs are expressed as a unit variance from
+    the zero-mean. Each PC (in black) is plotted along with the July-September climate
+    index (in blue) showing the largest correlation with the PC. PCs 3 and 4 are multiplied
+    by a factor of -1 to better highlight the correlation between the corresponding
+    climate index. The Walker circulation and Sahel rainfall indices are standardized
+    to be comparable to PCs 3 and 4. The blue dashed lines indicate $\pm$1 standard
+    deviation.
+  # Acknowledgements
+  acknowledgement: This research was supported by the Office of Naval Research Award
+    N000141613033, the Fulbright Foreign Student Program, the Institute of International
+    Education (IIE), and the G. Unger Vetlesen Foundation. Special thanks to Philippe
+    Papin for his many insights and to Ben Trabing for his invaluable comments and
+    suggestions in the writing of this manuscript. We would also like to thank the
+    Editor and the three anonymous reviewers who provided us with many helpful comments
+    and suggestions that improved the papers final form.
+  bibtex: ../Publications/bibtex/Jones_et_al_2020_bibtex.bib
+  pdf: ../Publications/papers/Jones_etal_JCLI_2020.pdf
+  keyword1: Seasonal
+  keyword2: Vertical wind shear
+  keyword3: Anticyclonic wave breaking

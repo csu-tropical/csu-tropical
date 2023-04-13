@@ -1,0 +1,55 @@
+- id: klotzbachscirep2019
+  year: 2019
+  title: On the Emerging Relationship between the Stratospheric Quasi-Biennial Oscillation
+    and the Madden-Julian Oscillation
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J., A. Santra, H. H. Hendon, M. M. Bell, C. Lucas, A. G.
+    Marshall, E. C. J. Oliver
+  journal: Scientific Reports
+  others: 9, 2981
+  doi: https://doi.org/10.1038/s41598-019-40034-6
+  keypoint1: This manuscript examines the relationship between the QBO and the MJO
+    during the boreal winter and finds that the strong relationship observed in recent
+    years did not exist prior to the mid 1970s.  We hypothesize that climate change
+    has strengthened the relationship between the MJO and QBO.
+  keypoint2: false
+  keypoint3: false
+  abstract: A strong relationship between the quasi-biennial oscillation (QBO) of
+    equatorial stratospheric winds and the amplitude of the Madden-Julian oscillation
+    (MJO) during the boreal winter has recently been uncovered using observational
+    data from the mid-1970s to the present. When the QBO is in its easterly phase
+    in the lower stratosphere, it favors stronger MJO activity during boreal winter,
+    while the MJO tends to be weaker during the westerly phase of the QBO. Here we
+    show using reconstructed indices of the MJO and QBO back to 1905 that the relationship
+    between enhanced boreal winter MJO activity and the easterly phase of the QBO
+    has only emerged since the early 1980s. The emergence of this relationship coincides
+    with the recent cooling trend in the equatorial lower stratosphere and the warming
+    trend in the equatorial upper troposphere, which appears to have sensitized MJO
+    convective activity to QBO-induced changes in static stability near the tropopause.
+    Climate change is thus suggested to have played a role in promoting coupling between
+    the MJO and the QBO.
+  summary: false
+  image: ../Publications/figures/klotzbach_et_al_2019_scirep_Fig2.jpg
+  caption: FIG. 2. 30-year running correlation between DJF-averaged MJO amplitude
+    and the QBO index. Correlation values are shown using the Wheeler-Hendon MJO index
+    (red line), the JRA-55 MJO index (blue line) and the long-term reconstructed MJO
+    (OT) index (thick black solid line) with the ordinate on the x-axis given by the
+    central year of the 30-year running window. Maximum and minimum 30-year running
+    correlations for the reconstructed index are also displayed (thin black solid
+    lines), calculated from the 56 members of the long-term MJO index ensemble. The
+    dashed line represents the 5% statistical significance level.
+  acknowledgement: >
+    P.K. acknowledges support from the G. Unger Vetlesen Foundation. M.B. and P.K.
+    were supported by Office of Naval Research Award N000141613033. S.A. would like
+    to acknowledge support from the Rural Research and Development for Profit Program
+    of the Department of Agriculture and Water Resources of the Australian Government.
+    E.O. was supported by the National Sciences and Engineering Council of Canada
+    (NSERC) Discovery Grant RGPIN-2018-05255. The reconstructed MJO index was obtained
+    from E.O.’s website: https://ecjoliver.weebly.com/mjo-reconstruction.html.
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2019_scirep_bibtex.bib
+  pdf: ../Publications/papers/klotzbach_et_al_2019_scirep.pdf
+  keyword1: Quasi-biennial oscillation
+  keyword2: Madden-Julian oscillation
+  keyword3: Seasonal

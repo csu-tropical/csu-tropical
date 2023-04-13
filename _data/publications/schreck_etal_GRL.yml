@@ -1,0 +1,25 @@
+- id: schreck_etal_GRL
+  year: 2021
+  title: Optimal climate normals for North Atlantic hurricane activity
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Schreck, C. J., Klotzbach, P. J., & Bell, M. M
+  journal: Geophysical Research Letters
+  others: 48, e2021GL092864
+  doi: https://doi.org/10.1016/j.atmosres.2019.06.010
+  keypoint1: A 30-year climatology for 1991–2020 is considerably higher than that for 1981–2010 and is likely not representative of the full record
+  keypoint2: Thirty-year North Atlantic climatologies have larger root mean squared hurricane prediction errors than 50-year climatologies
+  keypoint3: The most representative climatology for 2021–2030 is likely 1971–2020 with an adjustment for short-lived named storms
+  abstract: >
+    Most climatologies use 30-year epochs that are updated at the start of each decade. They will shift from 1981–2010 to 1991–2020 in 2021. North Atlantic hurricane activity has large interdecadal variability that may lead to biases in a 30-year climatology. A previous inactive hurricane period included 1981–1990, while 2011–2020 is a part of the ongoing active era. As a result, the 1991–2020 normals are more active than the 1981–2010 normals, with the median accumulated cyclone energy increasing by around 40%. A 50-year epoch would be more likely to capture a full cycle of multidecadal variability, and this study demonstrates that 50-year climatologies have historically been better predictors of the subsequent decade's hurricane activity. This paper argues that the 1971–2020 climatology should, therefore, be the baseline for hurricane activity for the next decade with a possible adjustment for the non-climatic increase in observed short-lived tropical cyclones.
+  summary: >
+    Climatologies are typically 30-year averages that are updated at the start of a new decade (e.g., in 2021, the 30-year average will be updated from 1981–2010 to 1991–2020). However, known changes in hurricane activity between decades are not typically well represented by a 30-year climatology. For example, 1981–1990 was a part of the last quiet period, but 2011–2020 is a part of the current active era. The 1991–2020 hurricane climatology is, therefore, much more active than 1981–2010. An integrated metric accounting for intensity, duration, and frequency of storms increases by 40% from the 1981–2010 to the 1991–2020 climatology. A 50-year climatology is more likely to include both active and quiet eras, which gives a better picture of “normal” hurricane activity. This study shows that the 50-year climatology has better predictive skill for seasonal hurricane activity than that of the standard 30-year average. New technology has also led to an increase in the number of short-lived tropical storms. The 50-year average for 1971–2020 with an adjustment for short-lived storms is likely to be the most representative climatology for the next decade.
+  image: false
+  caption: false
+  acknowledgement: The study benefited from insightful reviewer comments along with numerous discussions with Chris Landsea, Matt Rosencrans, Eric Blake, and Gerry Bell. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under the Cooperative Agreement NA19NES4320002. Klotzbach would like to acknowledge support from the G. Unger Vetlesen Foundation. Bell was supported by the Office of Naval Research award N00014161303.
+  bibtex: ../Publications/bibtex/schreck_etal_GRL.bib
+  pdf: ../Publications/papers/schreck_etal_GRL.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

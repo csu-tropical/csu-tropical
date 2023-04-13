@@ -1,0 +1,24 @@
+- id: trabing_bell_MWR
+  year: 2021
+  title: Observations of Diurnal Variability under the Cirrus Canopy of Typhoon Kong-rey (2018)
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Monthly Weather Review
+  others: 149(9), 2945-2964
+  doi: https://doi.org/10.1175/MWR-D-20-0327.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: A growing body of work has documented the existence of diurnal oscillations in the tropical cyclone outflow layer. These diurnal pulses have been examined primarily using satellites or numerical models, and detailed full tropospheric observations or case study analyses of diurnal pulses are lacking. Questions remain on the vertical extent of diurnal pulses and whether diurnal pulses are coupled to convective bands or constrained to the outflow layer. During the Propagation of Intraseasonal Tropical Oscillations (PISTON) field campaign, diurnal oscillations in the upper-level clouds were observed during Typhoon Kong-rey’s (2018) rapid intensification. Over a 3.5-day period where a broad distribution of cold upper-level clouds was overhead, detailed observations of Typhoon Kong-rey’s rainbands show that convection had reduced echo tops but enhanced reflectivity and differential reflectivity aloft compared to other observations during PISTON. Shortwave heating in the upper levels increased the stability profile in an overall favorable thermodynamic environment for convection during the day, which could help to explain the diurnal differences in convective structure. Under the cirrus canopy, nocturnal convection was deeper and daytime convection shallower in contrast to the rest of the PISTON dataset. Diurnal oscillations in the brightness temperatures were found to be coupled to radially outward propagating convective rainbands that were preceded ~6 h by outflow jets. The cooling pulses occurred earlier than found in previous studies. The pulses were asymmetric spatially, which is likely due to a combination of the vertical wind shear and storm intensity.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: >
+  This work has been funded by the Office of Naval Research Award N000141613033. The authors thank Chelsea Nam and Jennifer DeHart for their insightful comments. This work has also been improved by the comments of three anonymous reviewers. Meteorology and surface flux data collected during PISTON are available at the NOAA Physical Sciences Laboratory (PSL) ftp site: ftp://ftp1.esrl.noaa.gov/psd3/cruises/PISTON_MISOBOB_2018/TGT/. Multiple datasets from PISTON, such as the radiosondes and SEA-POL gridded data, are available from https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex.
+  bibtex: ../Publications/bibtex/trabing_bell_MWR2021.bib
+  pdf: ../Publications/papers/Trabing_Bell_MWR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

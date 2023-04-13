@@ -1,0 +1,22 @@
+- id: songetal2020ijoc
+  year: 2020
+  title: Relationship between spring tropical cyclone frequency over the western North Pacific and El Niño-Southern Oscillation
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, and Y. Duan
+  journal: International Journal of Climatology
+  others: vol 16, issue 1
+  doi: https://doi.org/10.1002/joc.6703
+  keypoint1: More tropical cyclones form in the western North Pacific during the boreal spring in La Niña years versus El Niño years
+  keypoint2: Increased mid-level moisture appears to be primary reason for increased TC activity in La Niña springs
+  keypoint3: false
+  abstract: The number of tropical cyclones (TCs) over the western North Pacific (WNP) during spring (March-May) has a significant inverse correlation with concurrent El Niño-Southern Oscillation (ENSO) conditions during the period from 1979-2018. This relationship is different from the previously-documented weak relationship between TC frequency and ENSO during the climatologically most active portion of the TC season. In general, TCs seldom occur in El Niño years during March-May, whereas they frequently form over the western part of the WNP, particularly to the southeast of the Philippines, in La Niña years. This difference can be largely explained by ENSO-driven differences in the genesis potential index as derived from environmental variables. In La Niña years, the abnormally moist mid-troposphere, which relates to the strengthened vertical transport of water vapor induced by the enhanced Walker Circulation, primarily favors TC development, while increased sea surface temperatures and positive low-level relative vorticity anomalies appear to play a lesser role in impacting TC formation.
+  summary: false
+  image: ../Publications/figures/song_et_al_2020_ijoc_Fig3.jpg
+  caption: >
+    Fig. 3. La Niña minus El Niño differences in environmental variables during March-May over the western North Pacific. (a) Sea surface temperature (°C), (b) 600-hPa relative humidity (%), (c) 850-hPa relative vorticity (×10-6 s-1) and (d) 850-200-hPa vertical wind shear (m s-1). Differences significant at the 0.05 level are represented with black crosses.
+  acknowledgement: We would like to express our sincere thanks to two anonymous reviewers for their helpful comments on an earlier version of this manuscript. This work was jointly funded by the National Natural Science Foundation of China (61827901), the National Key Research and Development Program of China (2018YFC1507305) and the National Natural Science Foundation of China (41575044). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/song_et_al_2020_ijoc_bibtex.bib
+  pdf: ../Publications/papers/song_et_al_2020_ijoc.pdf
+  keyword1: Seasonal
+  keyword2: El Nino
+  keyword3: Forecasting

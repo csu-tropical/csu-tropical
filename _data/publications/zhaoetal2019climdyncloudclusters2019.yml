@@ -1,0 +1,61 @@
+- id: zhaoetal2019climdyncloudclusters2019
+  year: 2019
+  title: Recent decrease in genesis productivity of tropical cloud clusters over the
+    Western North Pacific
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Zhao, H., S. Chen, G. B. Raga, P. J. Klotzbach
+  journal: Climate Dynamics
+  others: 52, 5819-5831
+  doi: https://doi.org/10.1007/s00382-018-4477-8
+  keypoint1: Since the late 1990s, tropical cloud clusters have increased over the
+    western North Pacific, especially over the eastern portion of the western North
+    Pacific, but the frequency of TCs had decreased.
+  keypoint2: There has been a decrease in genesis productivity, which was shown to
+    be primarily due to increases in vertical wind shear in the eastern part of the
+    western North Pacific.
+  keypoint3: Since the late 1990s, the monsoon circulation in the western North Pacific
+    has also weakened, shifting the upper-tropospheric trough farther west and increasing
+    shear in the eastern part of the western North Pacific.
+  abstract: Tropical cloud clusters (TCCs) play a critical role in sustaining tropical
+    large-scale systems and are traditionally viewed as precursors for tropical cyclone
+    (TC) genesis. This study focuses on the decadal changes in genesis productivity
+    (GP), e.g. the efficiency of TCCs developing into TCs, and shows a significant
+    decrease in GP over the western North Pacific (WNP) basin since 1998, when a climate
+    regime change occurred. The significant decrease in TC frequency and the significant
+    increase in TCCs, especially over the eastern region of the WNP basin, have combined
+    to result in a reduced GP since 1998. These changes are dependent on the combined
+    changes in large-scale atmospheric-oceanic conditions over the WNP basin. A decadal
+    change in vertical wind shear, especially over the eastern portion of the WNP
+    basin, appears to be the most important contributor to the recent decrease in
+    GP. Increased vertical wind shear suppresses TC genesis but enhances the frequency
+    of TCCs. Secondary positive contributions to the recent decrease in GP are from
+    local sea surface temperatures (SSTs) and low-level relative vorticity. These
+    positive contributions to the recent decrease in GP are partly cancelled out by
+    a negative contribution from enhanced mid-relative moisture. Changes in these
+    large-scale conditions associated with the recent decrease in GP over the WNP
+    basin since 1998 are closely related to the weakening monsoon circulation and
+    the westward shift of the tropical upper-tropospheric trough over the WNP. This
+    is likely related to the changes observed in tropical SST anomalies around the
+    globe.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_climdyn_cloudclusters_Fig5.jpg
+  caption: FIG. 5. Correlations of inter-annual boreal summer (July–October)(a) tropical
+    cyclone (TC) counts and (b) tropical cloud cluster (TCC) counts of the western
+    North Pacific basin with averaged vertical wind shear averaged over the eastern
+    region [0°–30°N, 140°E–180°] during 1982–2009.
+  acknowledgement: This research was jointly supported by the National Natural Science
+    Foundation of China (Grant nos. 41675072, 41730961 and 41475091), the Natural
+    Science Foundation of Jiangsu Province (Grants No. BK20181412), the QingLan Project
+    of Jiangsu Province (R2017Q01) and the Priority Academic Program Development of
+    Jiangsu Higher Education Institutions (PAPD). P. Klotzbach would like to acknowledge
+    a grant from the G. Unger Vetlesen Foundation. The authors would like to thank
+    the two anonymous reviewers for helpful comments that have significantly improved
+    the manuscript.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_climdyn_cloudclusters_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_climdyn_cloudclusters.pdf
+  keyword1: Tropical cloud clusters
+  keyword2: Mesoscale
+  keyword3: Monsoon
+

@@ -1,0 +1,40 @@
+- id: Klotzbach_Caron_2020_GRL
+  year: 2020
+  title: A statistical/dynamical model for North Atlantic Seasonal Hurricane Prediction
+  author1: klotzbach
+  author2: false
+  author3: bell
+  authors: Klotzbach, P. J., L.-P. Caron, M. M. Bell
+  journal: Geophysical Research Letters
+  others:  47, e2020GL089357
+  doi: https://doi.org/10.1029/2020GL089357
+  keypoint1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keypoint2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keypoint3:  A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+  abstract: Colorado State University (CSU) has been issuing seasonal hurricane forecasts since 1984, with statistical modeling techniques primarily underpinning these outlooks. CSU has recently begun issuing statistical/dynamical forecasts, using the SEAS5 forecast system from the European Centre for Medium‐Range Weather Forecasts to forecast the three predictors that currently comprise CSU's early August statistical forecast model. SEAS5 shows skill at forecasting all three of these July predictors from an initialization as early as 1 March. The SEAS5 model forecasts for the three parameters are then regressed against seasonal accumulated cyclone energy. The model has a cross‐validated correlation skill of r = 0.60 with accumulated cyclone energy for a 1 March initialization, improving to r = 0.67 for a 1 June initialization over the period from 1982–2019. The combination of the statistical/dynamical model with the currently existing statistical models shows improved skill over either model individually for the April, June, and July outlooks.
+  summary: The Tropical Meteorology Project at Colorado State University (CSU), founded by the late Dr. William Gray, has been issuing seasonal Atlantic basin hurricane forecasts since 1984. These forecasts have primarily used statistical modeling approaches that take historical relationships between Atlantic hurricane activity and various climate features, such as El Niño‐Southern Oscillation and tropical Atlantic sea surface temperatures. In this study, we use the European Centre for Medium‐Range Weather Forecasts System 5 (SEAS5) model to forecast the three large‐scale predictors that currently comprise the early August statistical hurricane forecast model used by CSU. SEAS5 shows skill at forecasting each of these predictors during July from initialization as early as 1 March. The forecasted predictors from the dynamical model are then used to make a statistical forecast of accumulated cyclone energy—an integrated metric accounting for intensity and duration of hurricane activity. The model shows skill at predicting accumulated cyclone energy at all lead times, with improving skill as the lead time decreases. The combination of CSU's currently existing statistical models and the statistical/dynamical models detailed in this manuscript shows improved skill over either model individually for the early April, June, and July outlooks, with the most notable improvement in early April.
+  image: ../Publications/figures/Klotzbach_Caron_2020_GRL.png
+  caption: "Combined model hindcasts for seasonal ACE based on March, May, and June initializations from 1982–2019 and skill summary of all models.
+(a) Combined March SEAS5 ACE and early April statistical model ACE hindcasts. (b) Combined May SEAS5 ACE and early June statistical model ACE
+hindcasts. (c) Combined June SEAS5 ACE and early July statistical model ACE hindcasts. (d) Correlation summary of the statistical model, the statistical/
+dynamical model, and the combined model for each lead time. Pearson correlations between model hindcasts and observations are displayed with solid bars,
+while rank correlations between model hindcasts and observations are displayed with bars using vertical hashing."
+  acknowledgement: "We would like to thank the anonymous
+reviewers and the editor for helpful
+comments that improved the
+manuscript. We are grateful to Pierre‐
+Antoine Bretonnière, Margarida
+Samso, and Lluís Palma for their
+support in obtaining the seasonal
+forecast data. Phil Klotzbach would like
+to acknowledge grants from the Severo
+Ochoa Mobility Program and the G.
+Unger Vetlesen Foundation. Michael
+Bell was funded by the Office of Naval
+Research award N000141613033."
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_grl_bibtex.bib
+  pdf: ../Publications/papers/Klotzbach_Caron_2020_grl.pdf
+  keyword1: A statistical/dynamical model is developed to forecast seasonal Atlantic hurricane activity that demonstrates skill on ~40 years of data.
+  keyword2: The ECMWF SEAS5 forecast system is used to forecast input parameters to Colorado State University’s early August statistical scheme.
+  keyword3: A combination of statistical and statistical/dynamical models yields improved hurricane forecasts compared to either model separately.
+

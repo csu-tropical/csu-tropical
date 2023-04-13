@@ -1,0 +1,62 @@
+- id: songandklotzbach2019
+  year: 2019
+  title: Relationship between the Pacific-North American pattern and the frequency
+    of tropical cyclones over the western North Pacific
+  author1: klotzbach
+  authors: Song, J., and P. J. Klotzbach
+  journal: Geophysical Research Letters
+  others: 46, 6118-6127
+  doi: https://doi.org/10.1029/2019GL082925
+  keypoint1: Boreal summer western North Pacific tropical cyclone frequency is inversely
+    linked to the concurrent Pacific-North American pattern
+  keypoint2: A greater number of tropical cyclones form north (south) of 12.5°N during
+    low (high) Pacific-North American pattern phases
+  keypoint3: The Pacific-North American pattern influences tropical cyclone genesis
+    predominately by modulating large-scale dynamic conditions
+  abstract: The frequency of tropical cyclones (TCs) over the western North Pacific
+    during June–November has a significant inverse correlation with the concurrent
+    Pacific-North American (PNA) pattern from 1965 to 2016. During low PNA years,
+    more TCs form north of 12.5°N, with significantly greater  TC occurrences from
+    15 to 20°N, compared to high PNA years. The difference in TC genesis location
+    can be explained by the differences in the genesis potential index derived from
+    the environmental variables in both PNA phases. The PNA influences TC formation
+    primarily by modulating large-scale dynamic conditions, with thermodynamic conditions
+    playing a lesser role. In low PNA years, low-level anomalous cyclonic lows over
+    the Philippines and in the subtropical central Pacific provide significant positive
+    relative vorticity anomalies favorable for TC genesis. Additionally, there is
+    also less vertical wind shear to the north of the Philippines due to enhanced
+    winds at low levels and weaker winds at upper levels.
+  summary: Tropical cyclones (TCs) are the most devastating natural disasters in many
+    coastal regions, including over the western North Pacific (WNP). Therefore, the
+    characteristics and driving mechanisms of WNP TC activity have been studied extensively
+    over the past several decades. Previous publications indicated that El Niño-Southern
+    Oscillation (ENSO) played the most important role on an interannual basis in modulating
+    WNP TC formation, movement, and intensity. However, the interannual frequency
+    of WNP TCs is only weakly influenced by ENSO. Here we find that there exists a
+    significant negative correlation between the annual number of boreal summer WNP
+    TCs and the concurrent Pacific-North American (PNA) pattern. Distinct from other
+    climate modes (e.g., the North Atlantic Oscillation and the Arctic Oscillation),
+    the inverse relationship between WNP TC frequency and the PNA is relatively stable
+    and independent of the period analyzed. Furthermore, the PNA influences the formation
+    of WNP TCs through a modulation of the large-scale environment, particularly the
+    dynamic conditions. During low PNA years, the large-scale dynamic conditions are
+    more favorable for TC development, compared to high PNA years. Our results imply
+    that one may be able to improve the prediction of WNP TC frequency by considering
+    variations in the PNA pattern.
+  image: ../Publications/figures/song_and_klotzbach_2019_Fig2.jpg
+  caption: >
+    Fig. 2. (a) Time series of WNP TC number and the PNA index over theperiod from
+    1965 to 2016. (b) Thirty-year moving correlation coefficients between WNP TC number
+    and the PNA (black line), the NAO (red line), and the AO (blue line) from 1965
+    to 2016.
+  acknowledgement: This work was jointly funded by the National Key Research and Development
+    Program of China (2018YFC1507305 and 2018YFA0606003) and the National Grand Fundamental
+    Research 973 Program of China (2015CB452800). Klotzbach would like to acknowledge
+    financial support from the G. Unger Vetlesen Foundation. We thank the two anonymous
+    reviewers for very useful comments, which significantly improved the quality of
+    the manuscript.
+  bibtex: ../Publications/bibtex/song_and_klotzbach_2019_bibtex.bib
+  pdf: ../Publications/papers/song_and_klotzbach_2019.pdf
+  keyword1: Pacific North American Pattern
+  keyword2: El Nino
+  keyword3: Seasonal

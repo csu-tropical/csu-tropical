@@ -1,0 +1,23 @@
+- id: Klotzbach_etal_BAMS2022
+  year: 2022
+  title: "A Hyperactive End to the Atlantic Hurricane Season: October–November 2020"
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J., K. M. Wood, M. M. Bell, E. S. Blake, S. G. Bowen, L.-P. Caron, J. M. Collins, E. J. Gibney, C. J. Schreck III; R. E. Truchelut
+  journal: Bull. Amer. Meteor. Soc
+  others: 103, E110-E128
+  doi: https://doi.org/10.1175/BAMS-D-20-0312.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: The active 2020 Atlantic hurricane season produced 30 named storms, 14 hurricanes, and 7 major hurricanes (category 3+ on the Saffir–Simpson hurricane wind scale). Though the season was active overall, the final two months (October–November) raised 2020 into the upper echelon of Atlantic hurricane activity for integrated metrics such as accumulated cyclone energy (ACE). This study focuses on October–November 2020, when 7 named storms, 6 hurricanes, and 5 major hurricanes formed and produced ACE of 74 × 104 kt2 (1 kt ≈ 0.51 m s−1). Since 1950, October–November 2020 ranks tied for third for named storms, first for hurricanes and major hurricanes, and second for ACE. Six named storms also underwent rapid intensification (≥30 kt intensification in ≤24 h) in October–November 2020—the most on record. This manuscript includes a climatological analysis of October–November tropical cyclones (TCs) and their primary formation regions. In 2020, anomalously low wind shear in the western Caribbean and Gulf of Mexico, likely driven by a moderate-intensity La Niña event and anomalously high sea surface temperatures (SSTs) in the Caribbean, provided dynamic and thermodynamic conditions that were much more conducive than normal for late-season TC formation and rapid intensification. This study also highlights October–November 2020 landfalls, including Hurricanes Delta and Zeta in Louisiana and in Mexico and Hurricanes Eta and Iota in Nicaragua. The active late season in the Caribbean would have been anticipated by a statistical model using the July–September-averaged ENSO longitude index and Atlantic warm pool SSTs as predictors.
+  summary: false
+  image: ../Publications/figures/DesRosiers_etal_MWR2022_Fig12.jpg
+  caption: (a) October–November Atlantic ACE from 1950 to 2020 (blue columns) and the ENSO longitude index (ELI) (green line). The red column highlights the observed ACE in October–November 2020. (b) Scatterplot of the relationship between October–November ACE and ENSO from 1950 to 2020 as represented by the ELI. The red dot represents the observed value of the ELI and October–November ACE in 2020, while the blue dashed line represents the regression relationship between the two time series from 1950 to 2019. Black lines delineate the longitude breakdowns between El Niño and neutral and neutral and La Niña conditions, respectively.
+  acknowledgement: This research was financially supported by National Science Foundation Award OAC-1661663 and Office of Naval Research Awards N000141613033 and N000142012069. We thank the NOAA/Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study. We also thank Rachel Mauk and two anonymous reviewers for comments and suggestions that improved the paper.
+  bibtex: ../Publications/bibtex/
+  pdf: ../Publications/papers/Klotzbach_etal_BAMS2022.pdf
+  keyword1: Tropical cyclones
+  keyword2: ENSO
+  keyword3:  Atlantic Ocean

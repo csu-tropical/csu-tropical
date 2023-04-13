@@ -1,0 +1,60 @@
+- id: zhaoetal2019jmetsocjapan
+  year: 2019
+  title: Consistent late onset of the western North Pacific tropical cyclone season
+    following major El Nino events
+  author1: klotzbach
+  authors: Zhao, H., L. Wu, C. Wang, and P. J. Klotzbach
+  journal: Journal of the Meteorological Society of Japan
+  others: 97, 673-688
+  doi: https://doi.org/10.2151/jmsj.2019-039
+  keypoint1: Relationship between ENSO and Western North Pacific tropical cyclone
+    season onset changed in the late 1990s
+  keypoint2: Strong El Nino events have been associated with late starting Western
+    North Pacific tropical cyclone seasons throughout the satellite era
+  keypoint3: false
+  abstract: Most studies have focused on variations of tropical cyclone (TC) frequency,
+    intensity, and track over the western North Pacific (WNP), but variability of
+    WNP TC season onset date (TCSO) has been less studied. Recent research has indicated
+    a close association between WNP TCSO and sea surface temperature (SST) over the
+    tropical Indian Ocean and the tropical central-eastern Pacific. This study has
+    found that relationship between TCSO and SST underwent an inter-decadal change
+    in the late 1990s, likely due to a climate shift that occurred around that time.
+    An observed significant correlation between TCSO and SST before the late 1990s
+    has been insignificant since that time. This was confirmed by the fact that El
+    Niño Southern Oscillation (ENSO) at 0.46 positively correlates with TCSO from
+    1965 – 1999 (significant at the 95 % level), and the correlation becomes insignificant
+    (0.16) during 1998 – 2016. Further analysis suggests that the close association
+    between TCSO and SST is robust only for major El Niño events, with consistently
+    extreme late TCSO following major El Niños during the satellite era. Accompanying
+    the decay of major El Niños, tropical equatorial easterly anomalies in the WNP
+    are driven by a Matsuno–Gill-type response to the specific SST anomaly pattern
+    over the tropical Indo–Pacific sector. This in turn induces an anomalous anticyclone,
+    anomalous westerly vertical wind shear, reduced mid-level moisture and suppressed
+    convection over the WNP basin—all of which are unfavorable for WNP TCs, resulting
+    in delayed TCSO following major El Niño events. These inter-decadal changes in
+    the inter-annual correlation between TCSO and ENSO are largely due to the changing
+    influence of moderate El Niño events on TCSO before and after the late 1990s.
+    This study improves understanding of the ENSO–TC relationship, which should aid
+    seasonal outlooks of WNP TC activity.
+  summary: false
+  image: ../Publications/figures/zhao_et_al_2019_jmetsocjapan_Fig3.jpg
+  caption: >
+    Fig. 3. (a) Inter-annual correlation between the standardized onset date of the
+    WNP TC season and the December-February (DJF) Niño-3.4 index. Correlations during
+    1965 – 2016, 1965 – 1998 and 1999 – 2016, respectively, are 0.37 (significant
+    at the 95 % confidence level), 0.46 (significant at the 95 % confidence level)
+    and 0.16 (not significant at the 95 % confidence level). (b) Evolution of SST
+    anomalies over the Niño-3.4 region and tropical Indian Ocean composited on four
+    strong El Niño events (i.e., 1972/1973, 1982/1983, 1997/1998, and 2015/2016).
+  acknowledgement: This research was jointly supported by the National Natural Science
+    Foundation of China (41675072 and 41730961), the Qinglan Project of Jiangsu Province
+    (R2017Q01), the Natural Science Foundation of Jiangsu Province (BK20170941), and
+    the Priority Academic Program Development of Jiangsu Higher Education Institutions
+    (PAPD). P. Klotzbach would like to acknowledge a grant from the G. Unger Vetlesen
+    Foundation.
+  bibtex: ../Publications/bibtex/zhao_et_al_2019_jmetsocjapan_bibtex.bib
+  pdf: ../Publications/papers/zhao_et_al_2019_jmetsocjapan.pdf
+  keyword1: El Nino
+  keyword2: Seasonal
+  keyword3: Typhoon Onset
+

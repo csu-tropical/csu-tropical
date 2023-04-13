@@ -1,0 +1,23 @@
+- id: trabing_bell_JGR
+  year: 2021
+  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
+  author1: trabing
+  author2: bell
+  author3: false
+  authors: Trabing, B., M. M. Bell
+  journal: Journal of Geophysical Research
+  others: 126, e2020JD034016.
+  doi: https://doi.org/10.1029/2020JD034016
+  keypoint1: The timing of secondary eyewall formation is sensitive to the magnitude of shortwave radiation
+  keypoint2: Shortwave radiation can modify secondary eyewall formations by reducing the extent and magnitude of diabatic heating in convective rainbands
+  keypoint3:  The interactions between shortwave radiation and cloud microphysics are critical for simulating eyewall replacement cycles
+  abstract: The sensitivity of tropical cyclone secondary eyewall formation (SEF) and subsequent eyewall replacement cycles (ERCs) to shortwave radiation is examined in this study by varying the solar constant and diurnal cycle at different times prior to an ERC using idealized simulations from the Weather Research and Forecasting model. The magnitude of shortwave radiation plays an important role in modifying the timing of the SEF with nonlinear interactions amplifying the SEF formation differences at longer lead-times. Shortwave radiation has a delaying effect on the SEF and ERC primarily through its modifications of the distribution of convective and stratiform heating profiles in the rainbands. Shortwave radiation reduces both the area and diabatic heating of convection in the model domain, while increasing the amount of stratiform precipitation that has weaker low-level cooling and upper-level heating rates. The primary mechanism by which shortwave radiation reduces the diabatic heating profile and frequency of convection in the rainbands is through heating of the mid-upper troposphere which stabilizes the region and reduces convective available potential energy.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: The authors would like to thank Dr. Anthony Didlake Jr. and Dr. Dandan Tao for their insightful comments. This work has also been improved by three anonymous reviewers. This work has been funded by the Office of Naval Research Awards N000141613033, N000141712230, and N000142012069, and National Science Foundation award AGS-1701225
+  bibtex: ../Publications/bibtex/trabing_bell_JGR2021.bib
+  pdf: ../Publications/papers/Trabing_Bell_JGR2021.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
