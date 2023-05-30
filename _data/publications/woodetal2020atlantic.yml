@@ -1,0 +1,22 @@
+- id: woodetal2020atlantic
+  year: 2020
+  title: Factors affecting the 2019 Atlantic hurricane season and the role of the Indian Ocean Dipole
+  firstauthor: klotzbach
+  authors: Wood, K. M., P. J. Klotzbach, J. M. Collins, R. E. Truchelut, L.-P. Caron, and C. J. Schreck III
+  journal: Geophysical Research Letters
+  others: 47, e2020GL087781
+  doi: https://doi.org/10.1029/2020GL087781
+  keypoint1: Most 2019 Atlantic tropical cyclone activity occurred during a six-week period of conducive environmental conditions.
+  keypoint2: The subtropical Atlantic was more favorable than normal for tropical cyclones.
+  keypoint3: The strongly positive Indian Ocean Dipole likely contributed to below-normal Atlantic tropical cyclone activity in October.
+  abstract: The 2019 Atlantic hurricane season exhibited above-average Accumulated Cyclone Energy<97>60% of which was produced by Hurricanes Dorian and Lorenzo. Most tropical cyclone (TC) activity was concentrated in a ~6-week period from late August to early October. During the early part of the season, relatively TC-unfavorable conditions persisted in the maindevelopment region (MDR). The MDR environment became largely favorable in September followed by an abrupt shift back to less conducive conditions in October coincident with a strongly positive Indian Ocean Dipole (IOD). The IOD produced an El Niño-like teleconnection pattern observed through 200-hPa velocity potential anomalies. In the subtropical Atlantic, above-average sea surface temperatures persisted for much of the season, which may have contributed to increased activity at higher latitudes. Given the neutral El Niño-Southern Oscillation conditions during the 2019 hurricane season, our study highlights the need for further analysis of IOD impacts on Atlantic TC activity.
+  summary: In 2019, the Atlantic produced above-average activity according to Accumulated Cyclone Energy (ACE), an index that captures storm intensity and longevity. The two strongest hurricanes, Dorian and Lorenzo, contributed 60% of the season<92>s total ACE. Most storms occurred in an active 6-week period from late August to early October when the environment became more favorable for hurricanes. But after that, conditions became less favorable when the western Indian Ocean became much warmer than normal and the eastern Indian Ocean became much colder than normal, an oceanic phenomenon referred to as a positive Indian Ocean Dipole. This strong positive Indian Ocean Dipole event produced sinking air across much of the tropics, including the Atlantic, a pattern that is El Niño-like. Since knowledge of El Niño helps us predict Atlantic seasonal hurricane activity, it is possible that understanding more about the Indian Ocean Dipole<92>s impacts on Atlantic hurricane activity will help us improve seasonal hurricane forecasts.
+  image: ../Publications/figures/wood_et_al_2020_Fig5.jpg
+  caption: >
+    Fig. 5. (a) October IOD index versus October ONI values during 1960-2019 (red dot indicates October 2019). The dashed black line shows the linear regression between the two indices (r = 0.51). (b) Partial rank correlations between Atlantic ACE and the IOD index with the ONI removed for running 30-year periods during 1960-2019 for August-October (black), August (blue), September (orange), and October (green). The horizontal dashed line represents 5% statistical significance. (c) As in (b) but computed between ERA5 200-hPa velocity potential anomalies in the MDR and the IOD index during 1979-2019.
+  acknowledgement: All data examined in this study are available from the UCAR, ECMWF, NCEP, and JMA websites cited in the text. K. Wood was supported by the Office of Research and Economic Development and the Department of Geosciences at Mississippi State University. P. Klotzbach acknowledges a grant from the G. Unger Vetlesen Foundation. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002. The authors thank Dr. Chris Landsea and an anonymous reviewer for their helpful feedback, especially during the COVID-19 pandemic.
+  bibtex: ../Publications/bibtex/wood_et_al_2020_bibtex.bib
+  pdf: ../Publications/papers/wood_et_al_2020.pdf
+  keyword1: Seasonal
+  keyword2: El Nino
+  keyword3: Forecasting

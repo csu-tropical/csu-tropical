@@ -1,0 +1,24 @@
+- id: cha_etal_MWR
+  year: 2021
+  title: Doppler radar analysis of the eyewall replacement cycle of hurricane matthew
+    (2016) in vertical wind shear
+  author1: cha
+  author2: bell
+  author3: desrosiers
+  authors: Cha, T-Y., M. M. Bell, A. J. DesRosiers
+  journal: Monthly Weather Review
+  others: 149(9), 2927 - 2943
+  doi: https://doi.org/10.1175/MWR-D-20-0289.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Matthew (2016) was observed by ground-based polarimetric radars in Miami (KAMX), Melbourne (KMLB), and Jacksonville, Florida (KJAX), and a NOAA P3 airborne tail Doppler radar near the coast of the southeastern United States during an eyewall replacement cycle (ERC). The radar observations indicate that Matthew’s primary eyewall was replaced with a weaker outer eyewall, but unlike a classic ERC, Matthew did not reintensify after the inner eyewall disappeared. Triple-Doppler analysis was calculated from the NOAA P3 airborne fore and aft radar scanning combined with the KAMX radar data during the period of secondary eyewall intensification and inner eyewall weakening from 1900 UTC 6 October to 0000 UTC 7 October. Four flight passes of the P3 aircraft show the evolution of the reflectivity, tangential winds, and secondary circulation as the outer eyewall became well established. Further evolution of the ERC is analyzed from the ground-based single-Doppler radar observations for 35 h with high temporal resolution at a 5-min interval from 1900 UTC 6 October to 0000 UTC 8 October using the Generalized Velocity Track Display (GVTD) technique. The single-Doppler analyses indicate that the inner eyewall decayed a few hours after the P3 flight, while the outer eyewall contracted but did not reintensify and the asymmetries increased episodically. The analysis suggests that the ERC process was influenced by a complex combination of environmental vertical wind shear, an evolving axisymmetric secondary circulation, and an asymmetric vortex Rossby wave damping mechanism that promoted vortex resiliency despite increasing shear.
+  summary: In many tropical cyclones the eyewall where the heaviest rain and winds are found is replaced by a larger outer eyewall, leading to an expansion of the damaging winds and intensity change, but this process is not well understood. Hurricane Matthew (2016) underwent an eyewall replacement that was observed by coastal and airborne radars, but in contrast to other storms was impacted by strong vertical wind shear during the process. In this study we analyze 35 h of radar data to examine Matthew’s evolution. The analyses show a complex interaction between the external vertical wind shear and the internal dynamics of the storm that weakened the storm and increased its asymmetry, improving our understanding of hurricane structure and intensity change.
+  image: ../Publications/figures/Cha_MWR2021_Fig15.jpg
+  caption: 3D simplified plots of Matthew’s inner and outer vorticity tower evolution at (a) 0735, (b) 1121, (c) 1303, (d) 1417, (e) 1815, and (f) 2348 UTC 7 Oct. The white line denotes the GVTD-simplex centers at different altitudes, and the inner and outer radii of vorticity towers were estimated from the axisymmetric vorticity profile. The black arrow represents the environmental shear direction. Shading at 0735 UTC shows the wavenumber-2 tangential wind at z = 3 km.
+  acknowledgement: This research was supported by National Science Foundation Award OAC-1661663 and Office of Naval Research Awards N000141613033 and N000142012069. T.-Y. Cha was also supported by a Taiwan Ministry of Education graduate fellowship. We thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank three anonymous reviewers for constructive and helpful comments.
+  bibtex: ../Publications/bibtex/cha_etal_MWR2021.bib
+  pdf: ../Publications/papers/cha_etal_MWR2021.pdf
+  keyword1: Radar
+  keyword2: GVTD
+  keyword3: Asymmetric Dynamics

@@ -1,0 +1,23 @@
+- id: Boehm_Bell_2021_JAS
+  year: 2021
+  title: Retrieved Thermodynamic Structure of Hurricane Rita (2005) from Airborne Multi-Doppler Radar Data
+  author1: boehm
+  author2: bell
+  author3: false
+  authors: Boehm, A.M, M. M. Bell
+  journal: Journal of Atmospheric Science
+  others:  78(5), 1583-1605
+  doi: https://doi.org/10.1175/JAS-D-20-0195.1
+  keypoint1: Three-dimensional temperature and pressure perturbations are retrieved in Hurricane Rita on 23 September 2005 from multi-Doppler radar data that are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC.
+  keypoint2: The analysis suggests the interpretation of eyewall convective forcing under the impacts of vertical wind shear within a three-level framework of balanced, quasi-balanced, and unbalanced motions
+  keypoint3: Observed wavenumber-1 thermodynamic asymmetries add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale, while higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall that were positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  abstract: The newly developed SAMURAI-TR is used to estimate three-dimensional temperature and pressure perturbations in Hurricane Rita on 23 September 2005 from multi-Doppler radar data during the RAINEX field campaign. These are believed to be the first fully three-dimensional gridded thermodynamic observations from a TC. Rita was a major hurricane at this time and was affected by 13 m s−1 deep-layer vertical wind shear. Analysis of the contributions of the kinematic and retrieved thermodynamic fields to different azimuthal wavenumbers suggests the interpretation of eyewall convective forcing within a three-level framework of balanced, quasi-balanced, and unbalanced motions. The axisymmetric, wavenumber-0 structure was approximately in thermal- wind balance, resulting in a large pressure drop and temperature increase toward the center. The wavenumber-1 structure was determined by the interaction of the storm with environmental vertical wind shear resulting in a quasi-balance between shear and shear-induced kinematic and thermo- dynamic perturbations. The observed wavenumber-1 thermodynamic asymmetries corroborate results of previous studies on the response of a vortex tilted by shear, and add new evidence that the vertical motion is nearly hydrostatic on the wavenumber-1 scale. Higher-order wavenumbers were associated with unbalanced motions and convective cells within the eyewall. The unbalanced vertical acceleration was positively correlated with buoyant forcing from thermal perturbations and negatively correlated with perturbation pressure gradients relative to the balanced vortex.
+  summary: false
+  image: ../Publications/figures/Boehm_Bell_JAS2021_Fig15.png
+  caption: "Fig. 15. Summary schematic of the kinematic and thermodynamic structure of Hurricane Rita (2005). The gray cylinder represents the vortex tower of the eyewall, which is tilted by the environmental wind shear (black vector). Green ‘L’ symbols and vectors denote cyclonic low pressure anomalies, and brown ‘H’ symbols denote anticyclonic high pressure anomalies. Thermal anomalies are denoted by blue (cold) and red (warm) circles and shading. Blue arrows show the modified secondary circulation. The thick black contour denotes a representative potential temperature surface, with arrows illustrating the cyclonic vortex flow around the eyewall. In the downshear right quadrant, air parcels move cyclonically downstream and adiabatically upward along the potential temperature surface resulting in individual convective motions denoted by the cumulus cloud and upward arrow. A warm anomaly is shown in the convective cloud to denote the release of latent heat associated with the buoyant updraft."
+  acknowledgement: The research was supported by the National Science Foundation under Awards AGS-1349881 and AGS-1701225 and the Office of Naval Research under Award N000141410118.
+  bibtex: ../Publications/bibtex/Boehm_Bell_JAS2021.bib
+  pdf: ../Publications/papers/Boehm_Bell_JAS2021_EOR.pdf
+  keyword1: Radar
+  keyword2: Vertical wind shear
+  keyword3: TC case study

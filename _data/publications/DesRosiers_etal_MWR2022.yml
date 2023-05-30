@@ -1,0 +1,23 @@
+- id: DesRosiers_etal_MWR2022
+  year: 2022
+  title: Vertical vortex development of Hurricane Michael (2018) during Rapid Intensification
+  author1: desrosiers
+  author2: bell
+  author3: cha
+  authors: DesRosiers, A., M. M. Bell, and T.-Y. Cha
+  journal: Mon. Wea. Rev.
+  others:  150, 99-114
+  doi: https://doi.org/10.1175/MWR-D-21-0098.1
+  keypoint1: In this study, we focus in particular on how the eyewall vorticity tower builds vertically into the upper levels.
+  keypoint2: Four Hurricane Hunter aircraft missions observed Hurricane Michael's RI period.
+  keypoint3: Observed maintenance of thermal wind balance from a thermodynamic retrieval shows evidence of a strengthening warm core, which aided in low- ering surface pressure and further contributed to the efficient intensification in the latter stages of this RI event.
+  abstract: The landfall of Hurricane Michael (2018) at category-5 intensity occurred after rapid intensification (RI) spanning much of the storm’s lifetime. Four Hurricane Hunter aircraft missions observed the RI period with tail Doppler radar (TDR). Data from each of the 14 aircraft passes through the storm were quality controlled via a combination of interactive and machine-learning techniques. TDR data from each pass were synthesized using the Spline Analysis at Mesoscale Utilizing Radar and Aircraft Instrumentation (SAMURAI) variational wind retrieval technique to yield three- dimensional kinematic fields of the storm to examine inner-core processes during RI. Vorticity and angular momentum increased and concentrated in the eyewall region. A vorticity budget analysis indicates that the tendencies became more axisymmetric over time. In this study, we focus in particular on how the eyewall vorticity tower builds vertically into the upper levels. Horizontal vorticity associated with the vertical gradient of tangential wind was tilted into the vertical by the eyewall updraft to yield a positive vertical vorticity tendency inward atop the existing vorticity tower, which is further developed locally upward and outward along the sloped eyewall through advection and stretching. Observed maintenance of thermal wind balance from a thermodynamic retrieval shows evidence of a strengthening warm core, which aided in low- ering surface pressure and further contributed to the efficient intensification in the latter stages of this RI event.
+  summary: false
+  image: ../Publications/figures/DesRosiers_etal_MWR2022_Fig12.jpg
+  caption: Schematic representation of observed vortex develop- ment processes during rapid intensification of Hurricane Michael (2018). Light-gray shading denotes the eyewall cloud. The purple- shaded region represents the tower of high vorticity in the eyewall. Green shading denotes the region of positive vorticity tendency from tilting and vertical advection. Blue shading represents the region of positive vorticity tendency from stretching and radial advection. The plus sign denotes the location of the maximized positive net vertical vorticity tendency from the sum of these terms and negative tendencies (not shown). Yellow shading denotes sec- ondary circulation. The cyan contour denotes the radius of maxi- mum wind. Dashed gray contours denote tangential wind, with decreasing line thickness indicating weaker winds. The region of enhanced horizontal vorticity is denoted near 9-km altitude at the same level as the red-shaded area where warm core development is maximized through thermal wind balance.
+  acknowledgement: This research was financially supported by National Science Foundation Award OAC-1661663 and Office of Naval Research Awards N000141613033 and N000142012069. We thank the NOAA/Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study. We also thank Rachel Mauk and two anonymous reviewers for comments and suggestions that improved the paper.
+  bibtex: ../Publications/bibtex/
+  pdf: ../Publications/papers/DesRosiers_etal_MWR2022.pdf
+  keyword1: Tropical cyclones
+  keyword2: Vorticity
+  keyword3:  Radars/radar observations

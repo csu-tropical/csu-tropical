@@ -1,0 +1,23 @@
+- id: Powell_Bell_MWR2019
+  year: 2019
+  title: Near-Surface Frontogenesis and Atmospheric Instability along the U.S. East Coast during the Extratropical Transition of Hurricane Matthew (2016)
+  author1: bell
+  author2: false
+  author3: false
+  authors: Powell, S., and M. M. Bell
+  journal: Mon. Wea. Rev.
+  others:  174, 719-732
+  doi: https://doi.org/10.1175/MWR-D-18-0094.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Hurricane Matthew locally generated more than 400 mm of rainfall on 8–9 October 2016 over the eastern Carolinas and Virginia as it transitioned into an extratropical cyclone. The heaviest precipitation occurred along a swath situated up to 100–200 km inland from the coast and collocated with enhanced low-tropospheric frontogenesis. Analyses from version 3 of the Rapid Refresh (RAPv3) model indicate that rapid frontogenesis occurred over eastern North and South Carolina and Virginia on 8 October, largely over a 12-h time period between 1200 UTC 8 October and 0000 UTC 9 October. The heaviest rainfall in Matthew occurred when and where spiral rainbands intersected the near-surface front, which promoted the lift of conditionally unstable, moist air. Parallel to the spiral rainbands, conditionally unstable low-tropospheric warm, moist oceanic air was advected inland, and the instability was apparently released as the warm air mass rose over the front. Precipitation in the spiral rainbands intensified on 9 October as the temperature gradient along the near-surface front rapidly increased. Unlike in Hurricane Floyd over the mid-Atlantic states, rainfall totals within the spiral rainbands of Matthew as they approached the near-surface front evidently were not enhanced by release of conditional symmetric instability. However, conditional symmetric instability release in the midtroposphere may have enhanced rainfall 200 km northwest of the near-surface front. Finally, although weak cold-air damming occurred prior to heavy rainfall, damming dissipated prior to frontogenesis and did not impact rainfall totals.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: false
+  pdf: ../Publications/papers/Powell_Bell_2019.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

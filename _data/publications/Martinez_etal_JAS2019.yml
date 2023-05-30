@@ -1,0 +1,22 @@
+- id: Martinez_etal_JAS2019
+  year: 2019
+  title: Axisymmetric potential vorticity evolution of Hurricane Patricia (2015)
+  author1: martinez
+  author2: bell
+  authors: Martinez, J., M. M. Bell, R. F. Rogers, J. D. Doyle
+  journal: Journal of the Atmospheric Sciences
+  others: 76, 2043-2063
+  doi: https://doi.org/10.1175/JAS-D-18-0373.1
+  keypoint1: Patricia's structure was predominantly characterized by a hollow potential vorticity tower during its rapid intensification.
+  keypoint2: Symmetric heating remained fixed to the same absolute angular momentum surfaces as they contracted in physical space, contributing to a rapid concentration of potential vorticity.
+  keypoint3: Patricia's rapid over-water weakening was charactized by a dilution of the hollow potential vorticity tower and eddy mixing near the eye and eyewall region.
+  abstract: Operational numerical models failed to predict the record-setting rapid intensification and rapid over-water weakening of Hurricane Patricia (2015) in the eastern North Pacific basin, resulting in large intensity forecast errors. In an effort to better understand the mesoscale processes contributing to Patricia's rapid intensity changes, we analyze high-resolution aircraft observations collected on 22-23 October. Spline-based variational analyses are created from observations collected via in situ measurements, Doppler radar, and full-tropospheric dropsonde profiles as part of the Office of Naval Research Tropical Cyclone Intensity (TCI) experiment and the National Oceanic and Atmospheric Administration Intensity Forecasting Experiment (IFEX). We present the first full-tropospheric calculation of the dry, axisymmetric Ertel's potential vorticity (PV) in a tropical cyclone without relying on balance assumptions. Detailed analyses reveal the formation of a "hollow tower" PV structure as Patricia rapidly approached its maximum intensity, and a subsequent breakdown of this structure during Patricia's rapid over-water weakening phase. Transforming the axisymmetric PV analyses from radius-height to potential radius-isentropic coordinates reveals that Patricia's rapid intensification was closely related to the distribution of diabatic heating and eddy mixing. During Patricia's rapid over-water weakening phase, eddy mixing processes are hypothesized to be the primary factor rearranging the PV distribution near the eye-eyewall region, diluting the PV previously confined to the hollow tower while approximately conserving the absolute circulation.
+  summary: false
+  image: ../Publications/figures/Martinez_etal_JAS2019_Figure10.png
+  caption: Dry Ertel's PV (shading, PVU) and the diabatic heating estimate (white, contours at 220, 50, 100, 150, and 200 K/h) are shown in potential radius and potential temperature space for the (a) rapid intensification (RI), (b) near maximum intensity (MI), and (c) rapid weakening (RW) intensive observing periods (IOPs) in Hurricane Patricia.
+  acknowledgement: This work was funded by the Office of Naval Research awards N000141613033 and N000141410118 under the Tropical Cyclone Intensity Departmental Research Initiative. MMB was also supported by the National Science Foundation (NSF) Award AGS-1701225, and JM was supported by the NSF Bridge to the Doctorate Fellowship Award 004863-00003. We thank the crews of both the NOAA P-3 and the NASA WB-57, and the TCI Science Team for collecting and quality controlling the observations used in this study. Insightful discussions with Wayne H. Schubert aided in developing the potential vorticity conceptual model presented in this study. We also thank Dave Nolan and one anonymous reviewer for helpful comments, which improved the overall quality of the manuscript.
+  bibtex: ../Publications/bibtex/Martinez_etal_2019JAS_bibtex.bib
+  pdf: ../Publications/papers/Martinez_etal_2019JAS.pdf
+  keyword1: Rapid intensity change
+  keyword2: Potential vorticity
+  keyword3: Observations

@@ -1,0 +1,23 @@
+- id: Dennis_etal_JPHCA2022
+  year: 2022
+  title: Enabling efficient execution of a variational data assimilation application
+  author1: bell
+  author2: cha
+  author3: false
+  authors: Dennis J. M., A. H. Baker, B. Dobbins, M. M. Bell, J. Sun, Y. Kim, T.-Y. Cha
+  journal: International Journal of High Performance Computing Applications
+  others:  doi:10.1177/10943420221119801
+  doi: https://doi.org/0.1177/10943420221119801
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Remote sensing observational instruments are critical for better understanding and predicting severe weather. Obser- vational data from such instruments, such as Doppler radar data, for example, are often processed for assimilation into numerical weather prediction models. As such instruments become more sophisticated, the amount of data to be processed grows and requires efficient variational analysis tools. Here we examine the code that implements the popular SAMURAI (Spline Analysis at Mesoscale Utilizing Radar and Aircraft Instrumentation) technique for estimating the at- mospheric state for a given set of observations. We employ a number of techniques to significantly improve the code’s performance, including porting it to run on standard HPC clusters, analyzing and optimizing its single-node performance, implementing a more efficient nonlinear optimization method, and enabling the use of GPUs via OpenACC. Our efforts thus far have yielded more than 100x improvement over the original code on large test problems of interest to the community.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: We would like to acknowledge high-performance computing support from Cheyenne (doi:10.5065/D6RX99HX) provided by NCAR’s Computational and Information Systems Laboratory, sponsored by the National Science Foundation. MMB and TYC acknowledge support from NSF award OAC-1661663. We would also like to thank Scott Ellis and Wen-chau Lee of NCAR for supporting the SAMURAI optimization effort and Mike Dixon of NCAR for his software and build support.
+  bibtex: false
+  pdf: ../Publications/papers/
+  keyword1: data assimilation
+  keyword2: GPU
+  keyword3: optimization

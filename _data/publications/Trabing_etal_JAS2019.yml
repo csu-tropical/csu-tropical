@@ -1,0 +1,23 @@
+- id: Trabing_etal_JAS2019
+  year: 2019
+  title: Impacts of Radiation and Upper Tropospheric Temperatures on Tropical Cyclone Structure and Intensity
+  author1: bell
+  author2: false
+  author3: false
+  authors: Trabing, B. C., M. M. Bell, and B. R. Brown
+  journal: J. Atmos. Sci. 
+  others:  76, 135-153
+  doi: https://doi.org/10.1175/JAS-D-18-0165.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Potential intensity theory predicts that the upper-tropospheric temperature acts as an important constraint on tropical cyclone (TC) intensity. The physical mechanisms through which the upper troposphere impacts TC intensity and structure have not been fully explored, however, due in part to limited observations and the complex interactions between clouds, radiation, and TC dynamics. In this study, idealized Weather Research and Forecasting Model ensembles initialized with a combination of three different tropopause temperatures and with no radiation, longwave radiation only, and full diurnal radiation are used to examine the physical mechanisms in the TC–upper-tropospheric temperature relationship on weather time scales. Simulated TC intensity and structure are strongly sensitive to colder tropopause temperatures using only longwave radia- tion, but are less sensitive using full radiation and no radiation. Colder tropopause temperatures result in deeper convection and increased ice mass aloft in all cases, but are more intense only when radiation was included. Deeper convection leads to increased local longwave cooling rates but reduced top-of-the- atmosphere outgoing longwave radiation, such that the total radiative heat sink is reduced from a Carnot engine perspective in stronger storms. We hypothesize that a balanced response in the secondary circulation described by the Eliassen equation arises from upper-troposphere radiative cooling anomalies that lead to stronger tangential winds. The results of this study further suggest that radiation and cloud–radiative feed- backs have important impacts on weather time scales.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work has been funded by Office of Naval Research Awards N000141613033 and N000141410118. This work has been supported by the Tropical Cyclone Intensity Departmental Research Ini- tiative. The work has benefited from helpful discussions with Michael Riemer. The authors would also like to thank the three anonymous reviewers for their comments and suggestions.
+  bibtex: false
+  pdf: ../Publications/papers/Trabing_etal_JAS2019.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

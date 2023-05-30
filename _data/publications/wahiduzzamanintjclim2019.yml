@@ -1,0 +1,58 @@
+- id: wahiduzzamanintjclim2019
+  year: 2019
+  title: A Statistical Seasonal Forecast Model of North Indian Ocean Tropical Cyclones
+    using the Quasi-Biennial Oscillation
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors: Wahiduzzaman, M., E. C. J. Oliver, P. J. Klotzbach, S. J. Wotherspoon,
+    N. J. Holbrook
+  journal: International Journal of Climatology
+  others: 39, 934-952
+  doi: https://doi.org/10.1002/joc.5853
+  keypoint1: This manuscript proposes using the QBO to model cyclone tracks over the
+    North Indian Ocean
+  keypoint2: More North Indian Ocean TCs were found to form when the QBO was in its
+    east phase than when the QBO was in its west phase, and these TCs were more likely
+    to track westward and northwestward.
+  keypoint3: Alternatively, when the QBO was in its west phase, TCs were more likely
+    to track northward and northeastward.
+  abstract: Previous studies have shown that the skill of seasonal forecasts of tropical
+    cyclone (TC) activity over the North Indian Ocean (NIO) tends to be poor. This
+    paper investigates the forecast potential of TC formation, trajectories and points
+    of landfall in the NIO region using an index of the stratospheric quasi-biennial
+    oscillation (QBO) as the predictor variable in a new statistical seasonal forecast
+    model. Genesis was modelled by kernel density estimation, tracks were fitted using
+    a generalized additive model (GAM) approach with an Euler integration step, and
+    landfall location was estimated using a country mask. The model was trained on
+    30 years of TC observations (1980–2009) from the Joint Typhoon Warning Center
+    and the QBO index at lags from 0 to 6 months. Over this time period, and within
+    each season and QBO phase, the kernel density estimator modelled the distribution
+    of genesis points, and the cyclone trajectories were then fit by the GAM along
+    the observed cyclone tracks as smooth functions of location. Trajectories were
+    simulated from randomly selected genesis points in the kernel density estimates.
+    Ensembles of cyclone paths were traced, taking account of random innovations every
+    6-hr along the GAM-fitted velocity fields, to determine the points of landfall.
+    Lead–lag analysis was used to assess the best predictor timescales for TC forecast
+    potential. We found that the best model utilized the QBO index with a 3-month
+    lead. Two hindcast validation methods were applied. First, leave-one-out cross-validation
+    was performed where the country of landfall was decided by the majority vote of
+    the simulated tracks. Second, the distances between the landfall locations in
+    the observations and simulations were calculated. Application of seasonal forecast
+    analysis further indicated that including information on the state of the QBO
+    has the potential to improve the skill of TC seasonal forecasts in the NIO region.
+  summary: false
+  image: ../Publications/figures/wahiduzzaman_et_al_2019_Fig7.jpg
+  caption: FIG. 7. Probabilities of TC landfall (%) by model simulation across the
+    NIO rim states for both QBO phases. Grey indicates that no landfalls are simulated.
+  acknowledgement: We would like to sincerely thank the anonymous reviewers for their
+    insightful comments that helped us to significantly improve the quality of this
+    manuscript. M.W. was supported by a Tasmania Graduate Research Scholarship (TGRS)
+    for this PhD research undertaken at the University of Tasmania, Hobart, Tasmania,
+    Australia. P.J.K. by a grant from the G. Unger Vetlesen Foundation and N.J.H.
+    by funding from CE170100023.
+  bibtex: ../Publications/bibtex/wahiduzzaman_et_al_2019_bibtex.bib
+  pdf: ../Publications/papers/wahiduzzaman_et_al_2019.pdf
+  keyword1: Quasi-biennial oscillation
+  keyword2: Forecasting
+  keyword3: Seasonal

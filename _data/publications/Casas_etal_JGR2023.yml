@@ -1,0 +1,23 @@
+- id: Casas_etal_JGR2023
+  year: 2023
+  title: An Intensity and Size Phase Space for Tropical Cyclone Structure and Evolution
+  author1: bell
+  author2: casas
+  author3: tao
+  authors: Casas, E., D. Tao, and M. M. Bell
+  journal: J. Geophys. Res. Atmospheres 
+  others:  128, e2022JD037089
+  doi: https://doi.org/10.1029/2022JD037089
+  keypoint1: Key features of tropical cyclone intensity and size can be captured through empirical orthogonal function analysis of observed winds
+  keypoint2: The new, observation-derived phase space provides a useful visualization of tropical cyclone structure evolution
+  keypoint3: A new structure parameter related to the radial decay of winds is introduced to represent maturity
+  abstract: Intensity and size are important to characterize a tropical cyclone (TC), but there are a wide variety of ways that both metrics are defined. TC intensity can refer to either a maximum sustained wind speedat some height level or central surface pressure minimum, and TC size may refer to the radius of maximum wind, the radius of gale force wind, or be based on other criteria. While different definitions of TC intensity and size have useful applications, there are varying amounts of redundant information and covariations between some size and intensity variables that make investigating physical relationships more challenging. In this study, we use aircraft observations and Best Track information to calculate an empirical orthogonal function analysis that yields new, orthogonal metrics of TC intensity and size. The new, linearly independent metrics reduce a seven-dimensional space of co-varying parameters into a simplified, two-dimensional phase space in which key TC structural changes can be visualized and historically contextualized. Additionally, our analysis introduces a new parameter that is a simplified measure of the wind decay outside the radius of maximum tangential velocity. We show that this decay parameter is nearly orthogonal to the new intensity and size metrics and is useful for identifying TC maturity. We demonstrate the utility of the new phase space by first comparing the structural evolution of the large Hurricane Rita (2005) and small Hurricane Charley (2004) using observations, as well as comparing two modeling simulations of Hurricane Rita with different initial conditions in the phase space.
+  summary: Intensity and size are important ways to characterize a tropical cyclone (TC), but there are a variety of ways these metrics are defined. While each definition has its uses, traditional metrics have redundant information, which makes investigating physical relationships more challenging. This study proposes new metrics of intensity and size that are both independent and based on observed variability, as well as introduces a new metric that describes TC maturity. Together, these new metrics distill a lot of information into a simplified, easy-to-understand view of TC intensity and structure, which is demonstrated with observations of Hurricanes Rita (2005) and Charley (2004), as well as with numerical simulations of Hurricane Rita.
+  image: ../Publications/figures/Casas_etal_JGR2023_Fig.pdf
+  caption: Figure 5. Empirical orthogonal functions dataset transformed into coordinates where PC1 is the x-axis and PC2 is the y-axis. (a) Scatter points of all observations area shaded by ϕ using the same colorbar in Figure 1. Arrows show how the points in Figures 3b and 3c are represented in this phase space, where Figure 3b are the x-components, and Figure 3c is the y-components of each arrow. (b) Gray points represent the same points as in (a), but the Rita and Charley points shown in Figure 4 are highlighted in orange and blue circles, respectively, and filled according to ϕ as in (a). The weakening phase of Rita is outlined with a paler orange to make it easier to see, and the annotated key tropical cyclone lifecycle points are outlined in a bolder and darker color. Additional text labels on the axes are included to help with physical interpretation of both subplots.
+  acknowledgement: This research was supported by the Office of Naval Research Award N000142012069. We thank Jonathan Vigh for compiling the FLIGHT + dataset, and we thank NOAA and Air Force Hurricane Hunters for collecting the aircraft data. We would also like to thank Eric D. Maloney, David A. Randall, Subhas Karan Venayagamoorthy, and three anonymous reviewers for their helpful comments on this manuscript.
+  bibtex: ../Publications/bibtex/Casas_etal_JGR2023.bib
+  pdf: ../Publications/papers/Casas_etal_JGR2023.pdf
+  keyword1: Tropical Cyclones
+  keyword2: TC structure
+  keyword3: TC intensity

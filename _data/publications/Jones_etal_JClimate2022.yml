@@ -1,0 +1,40 @@
+- id: Jones_etal_JClimate2022
+  year: 2022
+  title: Wintertime Rossby Wave Breaking Persistence in Extended-range Seasonal Forecasts of Atlantic Tropical Cyclone Activity
+  author1: jones
+  author2: bell
+  author3: klotzbach
+  authors: Jones, J., M. M. Bell, P. J. Klotzbach, and E. A. Barnes
+  journal: Journal of Climate
+  others: 35, 2133-2147
+  # DOI of paper
+  doi: https://doi.org/10.1175/JCLI-D-21-0213.1
+  # Keypoints of Paper & Abstract
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: In this study, we examine the wintertime environmental precursors of summer anticyclonic wave breaking (AWB) over the North Atlantic region and assess the applicability of these precursors in predicting AWB impacts on sea- sonal tropical cyclone (TC) activity. We show that predictors representing the environmental impacts of subtropical AWB on seasonal TC activity improve the skill of extended-range seasonal forecasts of TC activity. There is a significant correla- tion between boreal winter and boreal summer AWB activity via AWB-forced phases of the quasi-stationary North Atlan- tic Oscillation (NAO). Years with above-normal boreal summer AWB activity over the North Atlantic region also show above-normal AWB activity in the preceding boreal winter that tends to force a positive phase of the NAO that persists through the spring. These conditions are sustained by continued AWB throughout the year, particularly when El Nin ̃o–Southern Oscillation plays less of a role at forcing the large-scale circulation. While individual AWB events are syn- optic and nonlinear with little predictability beyond 8–10 days, the strong dynamical connection between winter and sum- mer wave breaking lends enough persistence to AWB activity to enable predictability of its potential impacts on TC activity. We find that the winter–summer relationship improves the skill of extended-range seasonal forecasts from as early as an April lead time, particularly for years when wave breaking has played a crucial role in suppressing TC development.
+  summary: false
+  # Key Image
+  image: ../Publications/figures/Jones_etal_Figure7.png
+  caption: FIG. 7. The first four principal components (PC) of July-September tropical
+    North Atlantic zonal VWS anomalies. The PCs are expressed as a unit variance from
+    the zero-mean. Each PC (in black) is plotted along with the July-September climate
+    index (in blue) showing the largest correlation with the PC. PCs 3 and 4 are multiplied
+    by a factor of -1 to better highlight the correlation between the corresponding
+    climate index. The Walker circulation and Sahel rainfall indices are standardized
+    to be comparable to PCs 3 and 4. The blue dashed lines indicate $\pm$1 standard
+    deviation.
+  # Acknowledgements
+  acknowledgement: This research was supported by the Office of Naval Research Award
+    N000141613033, the Fulbright Foreign Student Program, the Institute of International
+    Education (IIE), and the G. Unger Vetlesen Foundation. Special thanks to Philippe
+    Papin for his many insights and to Ben Trabing for his invaluable comments and
+    suggestions in the writing of this manuscript. We would also like to thank the
+    Editor and the three anonymous reviewers who provided us with many helpful comments
+    and suggestions that improved the papers final form.
+  bibtex: false
+  pdf: ../Publications/papers/Jones_etal_Jclimate2022.pdf
+  keyword1: Hurricanes
+  keyword2: Vertical wind shear
+  keyword3: Seasonal forecasting

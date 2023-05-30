@@ -1,0 +1,23 @@
+- id: Tao_etal_JAS2020
+  year: 2020
+  title: Lilly’s Model for Steady-State Tropical Cyclone Intensity and Structure
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D. R. Rotunno, and M. M. Bell
+  journal: J. Atmos. Sci.
+  others: 77, 3701–3720
+  doi: https://doi.org/10.1175/JAS-D-20-0057.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study revisits the axisymmetric tropical cyclone (TC) theory from D. K. Lilly’s unpublished manuscript (Lilly model) and compares it to axisymmetric TC simulations from a nonhydrostatic cloud model. Analytic solutions of the Lilly model are presented through simplifying assumptions. Sensitivity experiments varying the sea surface, boundary layer and tropopause temperatures, and the absolute angular momentum (M) at some outer radius in the Lilly model show that these variations influence the radial structure of the tangential wind profile V(r) at the boundary layer top. However, these parameter variations have little effect on the inner-core normalized tangential wind, V(r/rm)/Vm, where Vm is the maximum tangential wind at radius rm. The outflow temperature T‘ as a function of M (or saturation entropy s*) is found to be the only input that changes the normalized tangential wind radial structure in the Lilly model. In contrast with the original as- sumption of the Lilly model that T‘(s*) is determined by the environment, it is argued here that T‘(s*) is determined by the TC interior flow under the environmental constraint of the tropopause height. The present study shows that the inner-core tangential wind radial structure from the Lilly model generally agrees well with nonhydrostatic cloud model simulations except in the eyewall region where the Lilly model tends to underestimate the tangential winds due to its balanced-dynamics assumptions. The wind structure in temperature–radius coordinates from the Lilly model can largely reproduce the nu- merical simulation results. Though the Lilly model is based on a number of simplifying assumptions, this paper shows its utility in understanding steady-state TC intensity and structure.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: Authors Dr. Tao and Dr. Bell are supported by Office of Naval Research Awards N000141613033 and N000142012069, and National Science Foundation Award AGS-1701225. The contribution of Dr. R. Rotunno to this work is supported by the National Center for Atmospheric Research (NCAR), which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. The authors also thank Dr. Christopher A. Davis (NCAR), reviewer Dr. Kerry A. Emanuel (MIT), and two other anonymous reviewers for their insightful comments, which greatly improved this manuscript. Computing was performed on a local computer server at the Department of Atmospheric Science, Colorado State University. The test code for the Lilly model is available upon request.
+  bibtex: false
+  pdf: ../Publications/papers/Tao_etal_JAS2020.pdf
+  keyword1: Dynamics
+  keyword2: Tropical cyclones
+  keyword3: false

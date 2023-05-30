@@ -1,0 +1,27 @@
+- id: Martinez_Nam_JGR
+  year: 2020
+  title: On the Contributions of Incipient Vortex Circulation and Environmental Moisture to Tropical Cyclone Expansion
+  author1: martinez
+  author2: nam
+  author3: bell
+  authors: Martinez, J., C. C. Nam, M. M. Bell
+  journal: Journal of Geophysical Research
+  others:  125, e2020JD033324
+  doi: https://doi.org/10.1029/2020JD033324
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract: This study investigates the contributions of incipient vortex circulation and midlevel moisture to tropical cyclone (TC) expansion within an idealized numerical modeling framework. We find that the incipient vortex circulation places the primary constraint on TC expansion. Increasing the midlevel moisture further promotes expansion but mostly expedites the intensification process. The expansion rate for initially large vortices exhibits a stronger response to increasing the midlevel moisture compared to initially small vortices. Previous studies have noted a proclivity for relatively small TCs to stay small and relatively large TCs to stay large; that is, TCs possess a sort of “memory” with respect to their incipient circulation. We reproduce this finding with an independent modeling framework and further demonstrate that an initially large vortex can expand more quickly than its relatively smaller counterpart; therefore, with all other factors contributing to expansion held constant, the contrast in size between the two vortices will increase with time. Varying the incipient vortex circulation is associated with subsequent variations in the amount and scale of outer‐core convection. As the incipient vortex circulation decreases, outer‐core convection is relatively scarce and characterized by small‐scale, isolated convective elements. On the contrary, as the incipient vortex circulation increases, outer‐core convection abounds and is characterized by relatively large rainbands and mesoscale convective systems. A combined increase in the amount and scale of outer‐core convection permits an initially large vortex to converge a substantially greater amount of absolute angular momentum compared to its relatively smaller counterpart, resulting in distinct expansion rates.
+  summary: A variety of atmospheric and oceanic processes contribute to the expansion of a tropical cyclone wind field. We examine a subset of factors with idealized simulations to better understand how tropical cyclones expand. When both the initial size of a tropical cyclone and the environmental moisture are varied in accordance with observations, we find that the initial size of a tropical cyclone places the primary constraint on the expansion of a tropical cyclone wind field. We verify that tropical cyclones possess “memory” of their size when they first developed such that a small tropical cyclone stays small and a large tropical cyclone stays large. We further demonstrate that large tropical cyclones can expand more quickly than their relatively smaller counterparts. The amount of moisture in the atmosphere modulates the expansion of a tropical cyclone wind field. A relatively moist environment facilitates the development of convection and a concomitant increase of wind speeds that contributes to an expansion of the tropical cyclone wind field. Our findings motivate additional research investigating the variability of processes contributing to the initial size of a tropical cyclone amidst Earth's warming climate system.
+  image: ../Publications/figures/Martinez_Nam_JGR_2020.png
+  caption: "Azimuthally averaged absolute angular momentum at 1‐km altitude (shaded), 0–1‐km altitude layer‐averaged radial inflow magnitude (cyan contours
+at 3, 5, 10, and 15m s−1), and the absolute angular momentum surface corresponding to 3.0 × 106 m2 s−1 (orange) are shown as a function of time relative to
+the initiation of rapid intensification for the 3‐D simulations: (a) SD, (b) SM, (c) LD, and (d) LM. The innermost black curve in each panel is the radius of
+maximum tangential winds (RMW) and the outermost black curve is the radius of gale‐force winds (Rgales)."
+  acknowledgement: This work was funded by the Office of Naval Research Awards N000141613033 and N000142012069 and the National Science Foundation (NSF) Award AGS‐1701225. J. M. was also supported by the NSF Bridge to the Doctorate Fellowship Award 004863‐00003. We thank George Bryan for providing the code to implement time varying point downscaling in CM1. We thank three anonymous reviewers for their insightful comments that have improved the overall quality of our manuscript.
+  bibtex: ../Publications/bibtex/Martinez_Nam_JGR_2020.bib
+  pdf: ../Publications/papers/Martinez_Nam_JGR_2020.pdf
+  keyword1: Tropical Cyclones
+  keyword2: "Hurricanes/Typhoons"
+  keyword3: Size
+

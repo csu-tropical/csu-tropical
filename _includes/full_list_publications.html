@@ -28,17 +28,10 @@
     </ul>
   {% endif %}
   {% endfor %}
-  {% for entry in site.data.publication_submitted %}
-  {% if entry.others == 'submitted'%}
-    <ul>
-      <li style="margin-botton: 10px;"> {{ entry.authors}}: {{ entry.title }}. <i>{{ entry.journal }}</i>, {% if entry.others != false %}{{ entry.others }} {% endif %}{% if entry.doi != false %} <a href="{{ entry.doi }}" target="_blank">, {{ entry.doi }}</a> </li> {% endif %}
-    </ul>
-  {% endif %}
-  {% endfor %}
 </div>
 </div>
 
-
+<h2>Publications are being updated. Please check back soon!</h2>
 <h3>In Press</h3>
 
 {% for entry in site.data.list_long %}
@@ -50,7 +43,7 @@
 {% endfor %}
 
 
-{% for i in (2019..2021) reversed%}
+{% for i in (2019..2023) reversed%}
 
 
   <h3>{{ i }}</h3>

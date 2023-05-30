@@ -1,0 +1,23 @@
+- id: Trabing_Bell_WAF2020
+  year: 2020
+  title: Understanding Rapid Intensity Changes in Official Hurricane Intensity Forecast Error Distributions
+  author1: bell
+  author2: trabing
+  author3: false
+  authors: Trabing, B. C., and M. M. Bell
+  journal: Wea. Forecasting
+  others:  35, 2219–2234
+  doi: https://doi.org/10.1175/WAF-D-19-0253.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The characteristics of official National Hurricane Center (NHC) intensity forecast errors are examined for the North Atlantic and east Pacific basins from 1989 to 2018. It is shown how rapid intensification (RI) and rapid weakening (RW) influence yearly NHC forecast errors for forecasts between 12 and 48 h in length. In addition to being the tail of the intensity change distribution, RI and RW are at the tails of the forecast error distribution. Yearly mean absolute forecast errors are positively correlated with the yearly number of RI/RW occurrences and explain roughly 20% of the variance in the Atlantic and 30% in the east Pacific. The higher occurrence of RI events in the east Pacific contributes to larger intensity forecast errors overall but also a better probability of detection and success ratio. Statistically significant improvements to 24-h RI forecast biases have been made in the east Pacific and to 24-h RW biases in the Atlantic. Over-ocean 24-h RW events cause larger mean errors in the east Pacific that have not improved with time. Environmental predictors from the Statistical Hurricane Intensity Prediction Scheme (SHIPS) are used to diagnose what conditions lead to the largest RI and RW forecast errors on average. The forecast error distributions widen for both RI and RW when tropical systems expe- rience low vertical wind shear, warm sea surface temperature, and moderate low-level relative humidity. Consistent with existing literature, the forecast error distributions suggest that improvements to our observational capabilities, understanding, and prediction of inner-core processes is paramount to both RI and RW prediction.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This work has been funded by the Office of Naval Research Awards N000141613033, N000141712230, and N000142012069, and National Science Foundation Award AGS-1701225. The authors thank Naufal Razin, Jhordanne Jones, and three anonymous reviewers for their insightful comments and suggestions.
+  bibtex: false
+  pdf: ../Publications/papers/Trabing_Bell_WAF2020.pdf
+  keyword1: Tropical cyclones
+  keyword2: Error analysis
+  keyword3: Operational forecasting

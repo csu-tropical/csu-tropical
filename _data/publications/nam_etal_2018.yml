@@ -1,0 +1,24 @@
+- id: nam_etal_2018
+  year:   2018
+  title: 'Dependency of tropical cyclone risk on track in South Korea'
+  author1: nam
+  author2: false
+  author3: false
+  authors: 'Nam, C.C., D-S R. Park, C-H Ho, and D. Chen'
+  journal: 'Nat. Hazards Earth Syst. Sci.'
+  others: 18, 3225-3224
+  doi: https://doi.org/10.5194/nhess-18-3225-2018
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: 'Several previous studies on tropical cyclone (TC) risk assessment have attempted to quantify the relationship between TC damage and its elements (i.e. exposure, vulnerability, and hazard). For hazard parameters, TC intensity (e.g. central minimum pressure, maximum wind speed) and size information (e.g. 30 knot radius of the TC) have been widely utilized. Our risk analysis of 85 TCs that made landfall in South Korea from 1979 to 2010, however, suggests that a small deviation of the TC track in the west–east direction (≤250 km, smaller than the average radius of TC) has a more dominant effect on the extent and distribution of TC damage than TC intensity or size. This significant track dependency of TC damage exists because the TC track is responsible for the realization of hazard change from potential to active. More specifically, although two TCs may have the same intensity and size, locally experienced rainfall and wind speed can vary according to their tracks due to topography. These results suggest that track information should be considered more carefully in assessments of future TC risk.'
+  summary: false
+  image: ../Publications/figures/nam_etal_2018_tc-risk.png ### Image file can only be .png or .jpg. NO PDF format!
+  caption: 'Flowchart for local risk materialization process with TC risk elements and their relationships. Potential and active hazards
+  correspond to indirect and direct causes for TC risk in terms of causality science.'
+  acknowledgement: 'This work was supported by the Korea Ministry of Environment (MOE) as the Climate Change Correspondence Program and Chosun University.'
+  pdf: ../Publications/papers/nam_etal_2018.pdf
+  keyword1: Human societal impacts
+  keyword2: false
+  keyword3: false
+

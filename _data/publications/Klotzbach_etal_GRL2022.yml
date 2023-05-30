@@ -1,0 +1,22 @@
+- id: Klotzbach_etal_GRL2022
+  year: 2022
+  title: "Trends in Global Tropical Cyclone Activity: 1990–2021"
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P.J., K. M. Wood, C. J. Schreck, S. G. Bowen, C. M. Patricola, and M. M. Bell
+  journal: Geophys. Res. Letters
+  others:  49, e2021GL095774
+  doi: https://doi. org/10.1029/2021GL095774
+  keypoint1: Global hurricane counts and Accumulated Cyclone Energy (ACE) have significantly decreased since 1990 likely due to a trend toward La Niña
+  keypoint2: Short-lived named storms, extreme rapid intensification events (50+ kt day−1) and global damage have increased significantly from 1990 to 2021
+  keypoint3: Decreasing trend in global hurricanes and ACE is primarily driven by downturn in western North Pacific activity
+  abstract: This study investigates global tropical cyclone (TC) activity trends from 1990 to 2021, a period marked by largely consistent observational platforms. Several global TC metrics have decreased during this period, with significant decreases in hurricane numbers and Accumulated Cyclone Energy (ACE). Most of this decrease has been driven by significant downward trends in the western North Pacific. Globally, short- lived named storms, 24-hr intensification events of ≥50 kt day−1, and TC-related damage have increased significantly. The increase in short-lived named storms is likely due to technological improvements, while rapidly intensifying TC increases may be fueled by higher potential intensity. Damage increases are largely due to increased coastal assets. The significant decrease in hurricane numbers and global ACE are likely due to the trend toward a more La Niña-like base state from 1990 to 2021, favoring North Atlantic TC activity and suppressing North and South Pacific TC activity.
+  summary: This study investigates 1990–2021 global tropical cyclone (TC) activity trends, a period characterized by consistent satellite observing platforms. We find that fewer hurricanes are occurring globally and that the tropics are producing less Accumulated Cyclone Energy—a metric accounting for hurricane frequency, intensity, and duration. This decreasing trend has primarily been driven by a significant downturn in western North Pacific TC activity—the tropical basin that typically is the most active. Short-lived named storms (TCs lasting ≤2 days) and the number of times that TCs quickly strengthen (≥50 kt in 24 hr) have increased significantly since 1990. Identifying more short-lived named storms is likely due to improved sensors, while increases in rapidly intensifying storms may be driven by more favorable conditions. Global damage from TCs has significantly increased as well, likely largely due to population growth and increased value of coastal assets (physical structures and non-physical risk exposure). The trend during the past 32 years toward a more La Niña-like environment has favored North Atlantic TC activity and suppressed North and South Pacific activity. Since the Pacific Ocean normally generates much more activity than the Atlantic, global TC activity has generally trended downward.
+  image: ../Publications/figures/
+  caption: 
+  acknowledgement: We thank the reviewers for helpful comments that improved the manuscript. P. Klotzbach acknowledges a grant from the G. Unger Vetlesen Foundation. K. Wood was supported by National Science Foundation award AGS-2011812 and Mississippi State University's Office of Research and Economic Development. C. Patricola acknowledges support from the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Earth and Envi- ronmental Systems Modeling Program, under Early Career Research Program Award Number DE-SC0021109. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002. M. Bell was supported by Office of Naval Research award N000142012069.
+  pdf: ../Publications/papers/Klotzbach_etal_GRL2022.pdf
+  keyword1: Bell was supported by Office of Naval Research award N000142012069
+  keyword2: climate
+  keyword3: climate change

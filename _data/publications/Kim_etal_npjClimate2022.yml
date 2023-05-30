@@ -1,0 +1,23 @@
+- id: Kim_etal_npjClimate2022
+  year: 2022
+  title: The parametric hurricane rainfall model with moisture and its application to climate change projections
+  author1: bell
+  author2: nam
+  author3: false
+  authors: Kim, D., D.-S. R. Park, C. C. Nam, and M. M. Bell
+  journal: npj Climate and Atmospheric Science
+  others:  5, 86
+  doi: https://doi.org/10.1038/s41612-022-00308-9
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The parametric hurricane rainfall model (PHRaM), firstly introduced in 2007, has been widely used to forecast and quantify tropical- cyclone-induced rainfall (TC rainfall). The PHRaM is much more computationally efficient than global climate models, but PHRaM cannot be effectively utilized in the context of climate change because it does not have any parameters to capture the increase of tropospheric water vapor under the warming world. This study develops a new model that incorporates tropospheric water vapor to the PHRaM framework, named as the PHRaM with moisture (PHRaMM). The PHRaMM is trained to best fit the TC rainfall over the western North Pacific (WNP) unlike the PHRaM trained with the TCs over the continental US. The PHRaMM reliably simulates radial profile of TC rainfall and spatial distribution of accumulated rainfall during landfall in the present climate with the better prediction skills than existing statistical and operational numerical models. Using the PHRaMM, we evaluated the impacts of TC intensity and environmental moisture increase on TC rainfall change in a future climate. An increased TC intensity causes TC rainfall to increase in the inner-core region but to decrease in the outer region, whereas an increased environmental moisture causes the TC rainfall to increase over the entire TC area. According to the both effects of increased TC intensity and environmental moisture, the PHRaMM projected that the WNP TC rainfall could increase by 4.61–8.51% in the inner-core region and by 17.96–20.91% over the entire TC area under the 2-K warming scenario.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: This study was supported by the National Research Foundation of the Korean government (NRF-2019R1I1A3A01058100, NRF-2020R1A4A3079510, and NRF- 2021R1A6A3A14044418), Korea Meteorological Administration Research and Devel- opment Program (KMI2022-01312), and the U.S. National Science Foundation award AGS-1854607. The authors thank Frank Marks for providing the source code of PHRaM. We also thank the three anonymous reviewers for their valuable comments to improve this study.
+  bibtex: false
+  pdf: ../Publications/papers/Kim_etal_NatureComm2022.pdf
+  keyword1: Tropical Cyclones
+  keyword2: Extreme Rainfall
+  keyword3: Climate Change

@@ -1,0 +1,24 @@
+- id: Tao_etal_JAS2022
+  year: 2022
+  title: Dynamics and predictability of tropical cyclone rapid intensification in ensemble simulations of Hurricane Patricia (2015)
+  author1: bell
+  author2: tao
+  author3: false
+  authors: Tao, D., P. J. van Leeuwen, M. M. Bell, and Y. Ying
+  journal: J. Geophys. Res. Atmos.
+  others: 127, e2021JD036079 
+  doi: https://doi.org/10.1029/2021JD036079
+  keypoint1: Deep-layer observations covering all depths of the system provide substantial impact to improve both the primary and secondary circulations
+  keypoint2: Besides the delayed evolution, the intensity error can be from a completely different storm that no correct structure can be obtained
+  keypoint3: Both radial and vertical structures should be considered in the evaluation metrics of modeled tropical cyclones
+  abstract: "Hurricane Patricia (2015) over the eastern Pacific was a record-breaking tropical cyclone (TC) under a very favorable environment during its rapid intensification (RI) period, which makes it an optimal real case for studying RI dynamics and predictability. In this study, we performed ensemble Kalman filter analyses at Patricia's early development stage using both traditional observations and the Office of Naval Research Tropical Cyclone Intensity (TCI) field campaign data. It is shown that assimilating the inner-core TCI observations produces a stronger initial vortex and significantly improves the prediction of RI. Analysis of observation sensitivity experiments shows that the deep-layer dropsonde observations have high impact on both the primary and secondary circulations for the entire troposphere while the radar observations have the most impact on the primary circulations near aircraft flight level. A wide range of intensification scenarios are obtained through two sets of ensemble forecasts initialized with and without assimilating the TCI data prior to the RI onset. Verification of the ensemble forecasts against the TCI observations during the RI period shows that forecast errors toward later stages can originate from two different error sources at early stages of the vortex structure: One is a timing error from a delayed vortex development such that the TC evolution is the same but shifted in time; the other is due to a totally different storm such that there is no moment in time the simulated storm can obtain a correct TC structure."
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: D. Tao and M. Bell are supported by Office of Naval Research awards N000141613033 and N000142012069. P.J. van Leeuwen is supported by H2020 European Research Council project CUNDA award 694509. Y. Ying is supported by the Advanced Study Program in the National Center for Atmospheric Research which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977. We would like to thank Dr. Jonathan Martinez for providing the Spline Analysis at Mesoscale Utilizing Radar and Aircraft Instrumentation analysis and Dr. Robert Nystrom for the help on setting up the simulations. We also want to thank the three anonymous reviewers for the helpful comments. Computing was conducted on Supercomputer Stampede2 of the Texas Advanced Computing Center (TACC) and on Supercomputer Cheyenne of the National Center for Atmospheric Research (NCAR).
+  bibtex: false
+  pdf: ../Publications/papers/Tao_etal_JAS2022.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
+

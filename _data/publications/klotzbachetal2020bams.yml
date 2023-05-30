@@ -1,0 +1,149 @@
+- id: klotzbachetal2020bams
+  year: 2020
+  title: Surface pressure a more skillful predictor of normalized hurricane damage
+    than maximum sustained wind
+  author1: klotzbach
+  authors: Klotzbach, P. J., M. M. Bell, S. G. Bowen, E. J. Gibney, K. R. Knapp, and
+    C. J. Schreck III
+  journal: Bulletin of the American Meteorological Society
+  others: 101, E830–E846
+  doi: https://doi.org/10.1175/BAMS-D-19-0062.1
+  keypoint1: Pressure is more skillful than maximum sustained wind at predicting normalized
+    hurricane damage for the continental US from 1900-2018
+  keypoint2: Pressure is more akin to an integrated metric than is maximum sustained
+    wind and consequently is a more accurate metric of overall storm intensity
+  keypoint3: Pressure is also much easier to measure than maximum sustained wind,
+    both with aircraft as well as with surface observations
+  abstract: Atlantic hurricane seasons have a long history of causing significant
+    financial impacts, with Harvey, Irma, Maria, Florence, and Michael combining to
+    incur more than 345 billion USD in direct economic damage during 2017-2018.  While
+    Michael’s damage was primarily wind and storm surge-driven, Florence’s and Harvey’s
+    damage was predominantly rainfall and inland flood-driven.  Several revised scales
+    have been proposed to replace the Saffir-Simpson Hurricane Wind Scale (SSHWS),
+    which currently only categorizes the hurricane wind threat, while not explicitly
+    handling the totality of storm impacts including storm surge and rainfall. However,
+    most of these newly-proposed scales are not easily calculated in real-time, nor
+    can they be reliably calculated historically. In particular, they depend on storm
+    wind radii, which remain very uncertain. Herein, we analyze the relationship between
+    normalized historical damage caused by continental United States (CONUS) landfalling
+    hurricanes from 1900-2018 with both maximum sustained wind speed (Vmax) and minimum
+    sea level pressure (MSLP).  We show that MSLP is a more skillful predictor of
+    normalized damage than Vmax, with a significantly higher rank correlation between
+    normalized damage and MSLP (rrank = 0.77) than between normalized damage and Vmax
+    (rrank = 0.66) for all CONUS landfalling hurricanes.  MSLP has served as a much
+    better predictor of hurricane damage in recent years than Vmax, with large hurricanes
+    such as Ike (2008) and Sandy (2012) causing much more damage than anticipated
+    from their SSHWS ranking. MSLP is also a more accurately-measured quantity than
+    is Vmax, making it an ideal quantity for evaluating a hurricane’s potential damage.
+  summary: false
+  image: ../Publications/figures/klotzbach_et_al_2020_bams_Fig1.jpg
+  caption: "Fig. 1.  Normalized hurricane damage relationship with Vmax and MSLP.
+    \ (a) For CONUS normalized damage vs. Vmax (1900-2018), (b) for CONUS normalized
+    damage vs. MSLP (1900-2018), (c) for CONUS normalized damage vs. Vmax (2007-2018),
+    (d) for CONUS normalized damage vs. MSLP (2007-2018), (e) for Georgia to Maine
+    normalized damage vs. Vmax (1900-2018) and (f) for Georgia to Maine normalized
+    damage vs. MSLP (1900-2018).   Individual CONUS hurricane landfalls are labeled
+    on panels (c) and (d).  \n"
+  acknowledgement: We would like to acknowledge Dan Chavas, two anonymous reviews
+    and the editor, Chris Landsea, for valuable comments that improved this manuscript.  We
+    would like to thank Roger Pielke Jr. for providing the normalized hurricane damage
+    dataset.  P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support
+    that helped fund this research.  E. Gibney’s research was supported by NOAA's
+    Science Collaboration Program and administered by UCAR's Cooperative Programs
+    for the Advancement of Earth System Science (CPAESS) under awards NA16NWS4620043
+    and NA18NWS4620043B. C. Schreck was supported by NOAA through the Cooperative
+    Institute for Climate and Satellites - North Carolina under Cooperative Agreement
+    NA14NES432003. M. Bell was supported by National Science Foundation award AGS-1701225
+    and Office of Naval Research Award N000141613033.
+  bibtex: ../Publications/bibtex/klotzbach_et_al_2020_bams.bib
+  pdf: ../Publications/papers/klotzbach_et_al_2020.pdf
+  keyword1: Human societal impacts
+  keyword2: TC intensity
+  keyword3:
+
+- # lastname,journal,year
+  id: belljas2019
+  # Published year of the paper
+  year: 2019
+  # Title
+  title: Mesoscale Processes during the Genesis of Hurricane Karl (2010)
+  # Related Authors of the paper in our group. If none, please set it to 'false'
+  author1: bell
+  author2: false
+  author3: false
+  # Complete List of all authors.
+  authors: Bell, M. M., M. T. Montgomery
+  # Journal
+  journal: Journal of Atmospheric Sciences
+  # volume,number,pages, etc.
+  others: 76, 2235–2255
+  # DOI of the paper
+  doi: https://doi.org/10.1175/JAS-D-18-0161.1
+  # You can choose either to fill in the capsule summary or keypoints of the paper.
+  # For capsule summary, please put it in keypoint1, and set keypoint2 and keypoint3 to 'false'
+  keypoint1: Observations from PREDICT/GRIP/IFEX field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010).
+  keypoint2: The onset of deep convection and associated low-level spinup were closely
+    related to the coupling of the vorticity and moisture fields at low and midlevels.
+  keypoint3: The convective cycle in Karl alternately built the low- and midlevel
+    circulations leading to genesis episodically.
+  # Abstract of the paper.
+  abstract: Observations from the Pre-Depression Investigation of Cloud Systems in
+    the Tropics (PREDICT), Genesis and Rapid Intensification Processes (GRIP), and
+    Intensity Forecast Experiment (IFEX) field campaigns are analyzed to investigate
+    the mesoscale processes leading to the tropical cyclogenesis of Hurricane Karl
+    (2010). Research aircraft missions provided Doppler radar, in situ flight level,
+    and dropsonde data documenting the structural changes of the predepression disturbance.
+    Following the pre-Karl wave pouch, variational analyses at the meso-β and meso-α
+    scales suggest that the convective cycle in Karl alternately built the low- and
+    midlevel circulations leading to genesis episodically rather than through a sustained
+    lowering of the convective mass flux from increased stabilization. Convective
+    bursts that erupt in the vorticity-rich environment of the recirculating pouch
+    region enhance the low-level meso-β- and meso-α-scale circulation through vortex
+    stretching. As the convection wanes, the resulting stratiform precipitation strengthens
+    the midlevel circulation through convergence associated with ice microphysical
+    processes, protecting the disturbance from the intrusion of dry environmental
+    air. Once the column saturation fraction returns to a critical value, a subsequent
+    convective burst below the midlevel circulation further enhances the low-level
+    circulation, and the convective cycle repeats. The analyses suggest that the onset
+    of deep convection and associated low-level spinup were closely related to the
+    coupling of the vorticity and moisture fields at low and midlevels. Our interpretation
+    of the observational analysis presented in this study reaffirms a primary role
+    of deep convection in the genesis process and provides a hypothesis for the supporting
+    role of stratiform precipitation and the midlevel vortex.
+  # Plain Language summary of the paper. If you decide to not include a plain language summary, please set it to 'false'
+  summary: false
+  # Provide a key figure of the paper. Change the name of the figure
+  image: ../Publications/figures/Bell_Montgomery_2019_Fig11.pdf # Key figure of the paper
+  # Caption of the key figure
+  caption: FIG. 11. Analyzed time series of meso-a-averaged quantities from initial
+    aircraft mission to Karl’s genesis. (a) Circulation tendency [1025 s21 3 (600
+    km)2 day21] at 850 (red circles) and 500 hPa (blue squares) using the left abscissa
+    and saturation fraction up to 700 hPa (green triangles) and cold-cloud fraction
+    below 2608C from Davis and Ahijevych (2012) using the right abscissa. (b) Relative
+    humidity at 850 hPa (green triangles, %), virtual potential temperature anomaly
+    at 850 hPa (purple squares, K), and virtual potential temperature anomaly at 500hPa
+    (black diamonds, K). The anomaly was calculated by removing the mean uy from the
+    time series at each respective level. Red stars below (b) denote mission times,
+    with 0000 and 1200 UTC 13 Sep highlighted.
+  # Acknowledgement of the research.
+  acknowledgement: This study was supported by the National Science Foundation (NSF)
+    Award AGS- 0851077. MMB also acknowledges support by the NSF CAREER Award AGS-1701225
+    and the Office of Naval Research (ONR) Director of Research Early Career Grant
+    N000141613033. MTM acknowledges the support of NSF Grant AGS-1313948, IAA-1656075,
+    NOAA HFIP Grant N0017315WR00048, NASA Grant NNG11PK021, ONR Grant 0001417WX00336,
+    and the U.S. Naval Postgraduate School. The authors thank the PREDICT, GRIP, and
+    IFEX teams for collecting the data used in this study. We would also like to thank
+    David Raymond and two anonymous reviewers for their insightful re- views that
+    improved the manuscript. All code and data used in this study are available upon
+    request.
+  # Provide the bibtex of the paper and change the name here
+  bibtex: ../Publications/bibtex/Bell_Montgomery_2019_bibtex.bib
+  # Modify the name of your paper pdf. Please check the google doc: https://docs.google.com/document/d/1U1OrkOIsccfD5M2mo8Dw9zp1JwMbnQSLfTjSd5t57YU/edit?usp=sharing
+  # If your pdf is not in there, please provide the pdf to us, and modify the path
+  pdf: ../Publications/papers/Bell_Montgomery_JAS2019.pdf
+  # Choose three keywords of your paper. ONLY THREE!
+  keyword1: Genesis
+  keyword2: Mesoscale
+  keyword3: TC case study

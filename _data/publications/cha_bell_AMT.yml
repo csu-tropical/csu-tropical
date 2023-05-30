@@ -1,0 +1,24 @@
+- id: cha_bell_AMT
+  year: 2021
+  title: Comparison of Single Doppler and Multiple Doppler Wind Retrievals in Hurricane Matthew (2016)
+  author1: cha
+  author2: bell
+  author3: false
+  authors: Cha, T-Y., M. M. Bell
+  journal: Atmospheric Measurement Techniques
+  others: 14, 3523–3539
+  doi: https://doi.org/10.5194/amt-14-3523-2021
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: Hurricane Matthew (2016) was observed by the ground-based polarimetric Next Generation Weather Radar (NEXRAD) in Miami (KAMX) and the National Oceanic and Atmospheric Administration WP-3D (NOAA P-3) airborne tail Doppler radar near the coast of the southeastern United States for several hours, providing a novel opportunity to evaluate and compare single- and multiple-Doppler wind retrieval techniques for tropical cyclone flows. The generalized velocity track display (GVTD) technique can retrieve a subset of the wind field from a single ground-based Doppler radar under the assumption of nearly axisymmetric rotational wind, but it has been shown to have errors from the aliasing of unresolved wind components. An improved technique that mitigates errors due to storm motion is derived in this study, although some spatial aliasing remains due to limited information content from the single-Doppler measurements. A spline-based variational wind retrieval technique called SAMURAI can retrieve the full three-dimensional wind field from airborne radar fore–aft pseudo-dual-Doppler scanning, but it has been shown to have errors due to temporal aliasing from the nonsimultaneous Doppler measurements. A comparison between the two techniques shows that the axisymmetric tangential winds are generally comparable between the two techniques, and the improved GVTD technique improves the accuracy of the retrieval. Fourier decomposition of asymmetric kinematic and convective structure shows more discrepancies due to spatial and temporal aliasing in the retrievals. The strengths and weaknesses of each technique for studying tropical cyclone structure are discussed and suggest that complementary information can be retrieved from both single- and dual-Doppler retrievals. Future improvements to the asymmetric flow assumptions in single-Doppler analysis and steady-state assumptions in pseudo-dual-Doppler analysis are required to reconcile differences in retrieved tropical cyclone structure.
+  summary: Doppler radar provides high-resolution wind measurements within tropical cyclones (TCs) for real-time monitoring and weather forecasting. Hurricane Matthew (2016) was observed by the ground-based single-Doppler and NOAA P-3 Hurricane Hunter airborne radar simultaneously, providing a novel opportunity to compare single- and multiple-Doppler wind retrieval techniques. Here, we improve the single-Doppler wind retrieval algorithm and show the pros and cons of each method for studying TC structure.
+  image: ../Publications/figures/Cha_AMT2021_Fig7.jpg
+  caption: >
+    Azimuth and amplitude polar diagram of the temporal evolution of (a) maximum wavenumber 1 tangential wind amplitude and phase and (b) maximum wavenumber 2 tangential wind amplitude and phase in the inner eyewall (<18 km) derived from the GVTD single Doppler analysis from 1907 to 1940 UTC 6 October. The amplitude of the tangential wind component is denoted by the radius of each dot, with the phase denoted by the azimuth. The red dot in (a) and (b) indicates the starting time at 1907 UTC, and the temporal evolution follows the blue line.
+  acknowledgement: This research was supported by National Science Foundation award OAC-1661663. We would like to thank NOAA Aircraft Operations Center and the Hurricane Research Division of the Atlantic Oceanographic and Meteorological Laboratory for collecting the airborne tail Doppler radar data used for this study, and the National Weather Service for the ground-based radar data. We thank Naufal Razin and three anonymous reviewers for their constructive and helpful comments to improve the quality of the manuscript.
+  bibtex: ../Publications/bibtex/cha_bell_AMT2021.bib
+  pdf: ../Publications/papers/cha_bell_AMT2021.pdf
+  keyword1: Radar
+  keyword2: GVTD
+  keyword3: Observations
