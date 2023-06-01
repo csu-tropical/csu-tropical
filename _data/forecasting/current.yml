@@ -1,12 +1,13 @@
 ---
 description: Atlantic basin Net Tropical Cyclone activity
 year: 2023
-fulldate: 13 April 2023
-NS: 13
-NSD: 55
-H: 6
-HD: 25
-MH: 2
-MHD: 5
-ACE: 100
-NTCA: 105
+fulldate: 1 June 2023
+NS: 15
+NSD: 60
+H: 7
+HD: 30
+MH: 3
+MHD: 7
+ACE: 125
+AW60: 70
+NTCA: 135
