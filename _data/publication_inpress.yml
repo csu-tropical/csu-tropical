@@ -1,0 +1,23 @@
+- id: cha_bell_JTECH
+  year: 2023
+  title: Three-Dimensional Variational Multi-Doppler Wind Retrieval over complex terrain
+  author1: cha
+  author2: bell
+  author3: false
+  authors: Cha, T-Y., M. M. Bell
+  journal: Journal of Atmospheric and Oceanic Technology
+  others: false
+  doi: 10.1175/JTECH-D-23-0019.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: The interaction of airflow with complex terrain has the potential to significantly amplify extreme precipitation events and modify the structure and intensity of precipitating cloud systems. However, understanding and forecasting such events is challenging, in part due to the scarcity of direct in-situ measurements. Doppler radar can provide the capability to monitor extreme rainfall events over land, but our understanding of airflow modulated by orographic interactions remains limited. The SAMURAI software is a three-dimensional variational (3DVAR) technique that uses the finite element approach to retrieve kinematic and thermodynamic fields. The analysis has high fidelity to observations when retrieving flows over a flat surface, but the capability of imposing topography as a boundary constraint is not previously implemented. Here we implement the immersed boundary method (IBM) as pseudo-observations at their native coordinates in SAMURAI to represent the topographic forcing and surface impermeability. In this technique, neither data interpolation onto a Cartesian grid nor explicit physical constraint integration during the cost function minimization is needed. Furthermore, the physical constraints are treated as pseudo-observations, offering the flexibility to adjust the strength of the boundary condition. A series of observing simulation sensitivity experiments (OSSEs) using a full-physics model and radar emulator simulating rainfall from Typhoon Chanthu (2021) over Taiwan are conducted to evaluate the retrieval accuracy and parameter settings. The OSSE results show that the strength of the IBM constraints can impact the overall wind retrievals. Analysis from real radar observations further demonstrates that the improved retrieval technique can advance scientific analyses for the underlying dynamics of orographic precipitation using radar observations.
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: The research was supported by a Taiwan Ministry of Education graduate fellowship, and the National Science Foundation under Awards AGS-1854559, and SI2-LROSE OAC-1661663 and AGS-2103785.
+  bibtex: false
+  pdf: ../Publications/papers/Cha_Bell_JTECH_2023.pdf
+  keyword1: Radar
+  keyword2: Retrievals
+  keyword3: Observations
