@@ -22,9 +22,9 @@ A Research Scientist is needed to conduct research on tropical weather and clima
 
 Perform fundamental research in tropical weather and climate using in situ and remotely sensed observations and numerical weather prediction models.
 
-Analyze and interpret complex, nonlinear cloud, precipitation, and boundary layer processes, and other micro- and meso-, synoptic, and climate scale aspects of weather systems from both model and observations.
+Analyze and interpret complex, nonlinear cloud, precipitation, and boundary layer processes, and other micro- and meso-, synoptic, and climate scale aspects of weather systems from both models and observations.
 
-The research will be performed by using research analysis software, analysis of field campaign data, and running of numerical weather prediction models. A particular focus of the effort will be to do research associated with data collected during the Tropical Cyclone Rapid Intensification (TCRI), Prediction Rainfall Extremes Campaign the in the Pacific (PRECIP), and Convective Processes Experiment-Cabo Verde (CPEX-CV) field campaigns. 
+The research will be performed by using research analysis software, analysis of field campaign data, and running of numerical weather prediction models. A particular focus of the effort will be to do research associated with data collected during the Tropical Cyclone Rapid Intensification (TCRI), Prediction of Rainfall Extremes Campaign in the Pacific (PRECIP), and Convective Processes Experiment-Cabo Verde (CPEX-CV) field campaigns. 
 
 The Scientist will also help support the team's media and outreach efforts, including maintenance and development of content for the group webpage, coordinating and conducting interviews with news media, and educational outreach. A PhD in Atmospheric Science or related field is required.
 
