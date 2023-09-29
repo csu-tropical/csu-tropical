@@ -28,7 +28,7 @@ The research will be performed by using research analysis software, analysis of 
 
 The Scientist will also help support the team's media and outreach efforts, including maintenance and development of content for the group webpage, coordinating and conducting interviews with news media, and educational outreach. A PhD in Atmospheric Science or related field is required.
 
-The expected end results are formal publications and other informal media content disseminated in the peer-reviewed science literature, web, social, and news media on tropical cyclone seasonal activity, genesis, and intensification and heavy rainfall prediction. This position will report to Professor Michael Bell and will be
+The expected end results are formal publications and other informal media content disseminated in the peer-reviewed science literature, web, social, and news media on tropical cyclone seasonal activity, genesis, and intensification and heavy rainfall prediction. This position will report to Professor Michael Bell and will be located in Fort Collins.
 
 The Department of Atmospheric Science at Colorado State University is a large academic and research department in the Walter Scott, Jr. College of Engineering. We currently have twenty-three faculty members, eighty graduate students, over seventy full-time researchers and postdoctoral fellows, and an outstanding and dedicated support staff, that comprise one of the most research-active units at the university. The department conducts more than $14M in externally sponsored research each year and is nationally ranked near the top of its field.
 
