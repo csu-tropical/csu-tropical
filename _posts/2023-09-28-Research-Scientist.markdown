@@ -6,7 +6,7 @@ image: "https://tropical.colostate.edu/images/logo/BellTClogo.png"
 author: "Michael Bell"
 ---
 
-The CSU Tropical Weather and Climate research team led by Professor Michael Bell is hiring a Research Scientist I to conduct research that addresses fundamental aspects of understanding and prediction of tropical weather and climate with a focus in the areas of heavy rainfall and tropical cyclone genesis, intensification, and seasonal activity. The Scientist will also help support the team's media and outreach efforts, including maintenance and development of content for the group webpage, coordinating and conducting interviews with news media, and educational outreach. A PhD in Atmospheric Science or related field is required. The full job description and link to apply are at [https://jobs.colostate.edu/postings/133947](https://jobs.colostate.edu/postings/133947)
+The CSU Tropical Weather and Climate research team led by Professor Michael Bell is hiring a Research Scientist I to conduct research that addresses fundamental aspects of understanding and prediction of tropical weather and climate with a focus in the areas of heavy rainfall and tropical cyclone genesis, intensification, and seasonal activity. The Scientist will also help support the team's media and outreach efforts, including maintenance and development of content for the group webpage, coordinating and conducting interviews with news media, and educational outreach. A PhD in Atmospheric Science or related field is required. For full consideration, please submit applications by 20 October 2023. The full job description and link to apply are at [https://jobs.colostate.edu/postings/133947](https://jobs.colostate.edu/postings/133947)
 
 
 <!--more-->
@@ -32,4 +32,4 @@ The expected end results are formal publications and other informal media conten
 
 The Department of Atmospheric Science at Colorado State University is a large academic and research department in the Walter Scott, Jr. College of Engineering. We currently have twenty-three faculty members, eighty graduate students, over seventy full-time researchers and postdoctoral fellows, and an outstanding and dedicated support staff, that comprise one of the most research-active units at the university. The department conducts more than $14M in externally sponsored research each year and is nationally ranked near the top of its field.
 
-The full job description and link to apply are at [https://jobs.colostate.edu/postings/133947](https://jobs.colostate.edu/postings/133947)
+For full consideration, please submit applications by 20 October 2023. The full job description and link to apply are at [https://jobs.colostate.edu/postings/133947](https://jobs.colostate.edu/postings/133947)
