@@ -119,3 +119,38 @@ toc:
     year: 2022
     pdf: /Forecast/Archived_Forecasts/2020s/2022-11.pdf   
 
+ - id: "2023-04"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 13 April
+    year: 2023
+    pdf: /Forecast/Archived_Forecasts/2020s/2023-04.pdf
+    
+- id: "2023-06"
+  subfolderitems:
+  - title: Extended Range Forecast of Atlantic Seasonal Hurricane Activity
+    date: 1 June
+    year: 2023
+    pdf: /Forecast/Archived_Forecasts/2020s/2023-06.pdf
+
+- id: "2023-07"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 6 July
+    year: 2023
+    pdf: /Forecast/Archived_Forecasts/2020s/2023-07.pdf
+    
+- id: "2023-08"
+  subfolderitems:
+  - title: Forecast of Atlantic Seasonal Hurricane Activity
+    date: 3 August
+    year: 2023
+    pdf: /Forecast/Archived_Forecasts/2020s/2023-08.pdf
+
+- id: "2023-11"
+  subfolderitems:
+  - title: Summary of Atlantic Seasonal Tropical Cyclone Activity and Verification of Author’s Forecast
+    date: 28 November
+    year: 2023
+    pdf: /Forecast/Archived_Forecasts/2020s/2023-11.pdf 
+
