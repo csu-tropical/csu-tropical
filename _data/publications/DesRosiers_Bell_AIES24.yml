@@ -1,0 +1,24 @@
+- id: DesRosiers_Bell_AIES24.yml
+  year: 2024
+  title: "Airborne Radar Quality Control with Machine Learning"
+  author1: desrosiers
+  author2: bell 
+  author3: false
+  authors: DesRosiers, A. J, and M. M. Bell
+  journal: Artificial Intelligence for the Earth Systems 
+  others:  3, e230064
+  doi: https://doi.org/10.1175/AIES-D-23-0064.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Airborne Doppler radar provides detailed and targeted observations of winds and precipitation in weather systems over remote or difficult-to-access regions that can help to improve scientific understanding and weather forecasts. Quality control (QC) is necessary to remove nonweather echoes from raw radar data for subsequent analysis. The complex decision-making ability of the machine learning random-forest technique is employed to create a generalized QC method for airborne radar data in convective weather systems. A manually QCed dataset was used to train the model containing data from the Electra Doppler Radar (ELDORA) in mature and developing tropical cyclones, a tornadic supercell, and a bow echo. Successful classification of ~96% and ~93% of weather and nonweather radar gates, respectively, in withheld testing data indicate the generalizability of the method. Dual-Doppler analysis from the genesis phase of Hurricane Ophelia (2005) using data not previously seen by the model produced a comparable wind field to that from manual QC. The framework demonstrates a proof of concept that can be applied to newer airborne Doppler radars. 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: This research was supported by National Science Foundation Awards OAC-1661663 and AGS-2103776, Office of Naval Research Award N000142012069, and NOAA APAR Risk Reduction Award NA19OAR4590245. We thank Bruno Melli for efforts that provided initial direction to the pro- ject and Wen-Chau Lee, Huaqing Cai, and Hannah Murphey for the original interactive QC of the dataset. We thank NCAR’s Earth Observing Laboratory for the ELDORA data collection.
+  bibtex: false
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  keyword1: Airborne Radar 
+  keyword2: Machine Learning
+  keyword3: Weather forecast 
+  
