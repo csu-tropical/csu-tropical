@@ -13,6 +13,12 @@
 - id: nieves-jimenez
   full_name: Angelie Nieves-Jiménez
 
+- id: burgos
+  full_name: Delián Colón Burgos
+
+- id: mesa
+  full_name: Nick Mesa
+
 - id: casas
   full_name: Eleanor Casas
 
@@ -36,3 +42,7 @@
   
 - id: barbero
   full_name: Tyler Barbero
+
+- id: schluesche 
+  full_name: Isaac Schluesche
+  
