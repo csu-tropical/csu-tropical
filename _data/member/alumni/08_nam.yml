@@ -9,7 +9,7 @@ job: >
 photo: './Group/chelsea.jpg'
 email: 'mailto:C.Chelsea.Nam@colostate.edu'
 github: 'https://github.com/chelsea-nam'
-webpage: false
+webpage: 'https://chelsea-nam.github.io/'
 twitter: false
 bio: >
   Chelsea Nam is a postdoctoral fellow studying convective structure and evolution
