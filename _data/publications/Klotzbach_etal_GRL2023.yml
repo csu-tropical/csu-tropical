@@ -1,0 +1,24 @@
+- id: Klotzbach_etal_GRL2023.yml
+  year: 2023
+  title: "Influence of the Madden-Julian Oscillation on Continental United States Hurricane Landfalls"
+  author1: klotzbach
+  author2: bell 
+  author3: false
+  authors: Klotzbach, P. J, and C. J. Schreck, and G. P. Compo, and K. M. Wood and E. C. J. Oliver and S. G. Bowen, and M. M. Bell
+  journal: Geophysical Research Letters
+  others:  50, e2023GL102762
+  doi: https://doi.org/10.1029/2023GL102762
+  keypoint1: The Madden-Julian oscillation (MJO) significantly impacts continental US hurricane landfall frequency 
+  keypoint2: Gulf Coast hurricane landfalls are favored when the MJO is enhancing Western Pacific/Western Hemisphere convection
+  keypoint3: East Coast hurricane landfalls are favored when the MJO is enhancing Indian Ocean/Maritime Continent convection
+  abstract: The Madden-Julian oscillation (MJO) significantly impacts North Atlantic hurricanes, with increased hurricane activity occurring when the MJO enhances convection over Africa and the tropical Indian Ocean and suppressed hurricane activity occurring when the MJO enhances convection over the tropical Pacific. Using data from 1905 to 2015, we find more tropical cyclones (TCs) make landfall in the continental United States when the MJO enhances tropical Indian Ocean convection. In addition, when the MJO enhances Western Pacific and Western Hemisphere convection, TC activity is preferentially favored in the Caribbean, leading to more Gulf Coast landfalls. As MJO-enhanced convection moves to the Indian Ocean and Maritime Continent, more storms form in the tropical Atlantic, favoring Florida Peninsula and East Coast landfalls. The MJO's TC steering wind modulation appears to be secondary to its genesis location modulation. 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: We thank the reviewers for helpful comments that improved the manu-script. P. Klotzbach acknowledges support from the G. Unger Vetlesen Foundation. M. Bell was supported by Office of Naval Research Grant N000142012069. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooper-ative Agreement NA19NES432000. E.C.J. Oliver was supported by NSERC Discovery Grant RGPIN-05255-2018. G. P. Compo was supported by the NOAA Cooperative Agreement with CIRES, NA17OAR4320101 and NA22OAR4320151 and NOAA's Physical Sciences Laboratory. K. M. Wood acknowledges support from the Mississippi State University Department of Geosciences.
+  bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  keyword1: Hurricane Landfall
+  keyword2: Madden-Julian oscillation
+  keyword3: Gulf coast hurricanes
+  
