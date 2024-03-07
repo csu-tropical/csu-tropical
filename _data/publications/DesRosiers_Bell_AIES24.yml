@@ -16,7 +16,7 @@
   image: 
   caption: 
   acknowledgement: This research was supported by National Science Foundation Awards OAC-1661663 and AGS-2103776, Office of Naval Research Award N000142012069, and NOAA APAR Risk Reduction Award NA19OAR4590245. We thank Bruno Melli for efforts that provided initial direction to the pro- ject and Wen-Chau Lee, Huaqing Cai, and Hannah Murphey for the original interactive QC of the dataset. We thank NCAR’s Earth Observing Laboratory for the ELDORA data collection.
-  bibtex: false
+  bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
   pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
   keyword1: Airborne Radar 
   keyword2: Machine Learning
