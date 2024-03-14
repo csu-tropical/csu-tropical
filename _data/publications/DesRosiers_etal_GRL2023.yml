@@ -6,7 +6,7 @@
   author3: klotzbach
   authors: DesRosiers, A., M. M. Bell, P. Klotzbach, M. Fischer, and P. Reasor
   journal: Geophys. Res. Letters
-  others: in press
+  others: 50, e2022GL101877 
   doi: 
   keypoint1: Vertical extent of the tropical cyclone wind field correlates strongly with current intensity in observed storms. 
   keypoint2: Deep vertical vortex structure is always present in observed cases meeting a pressure-based rapid intensification definition.
@@ -16,8 +16,8 @@
   image: 
   caption: 
   acknowledgement: 
-  bibtex: false
-  pdf: ../Publications/papers/
+  bibtex: ../../Publications/bibtex/DesRosiers_etal_2023.bib 
+  pdf: ../../Publications/papers/DesRosiers_etal_2023.pdf
   keyword1: false
   keyword2: false
   keyword3: false
