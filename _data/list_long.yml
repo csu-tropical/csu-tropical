@@ -2502,6 +2502,29 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: Hurricane Landfall
   keyword2: Madden-Julian oscillation
   keyword3: Gulf coast hurricanes
+- id: DesRosiers_etal_GRL2023.yml
+  year: 2023
+  title: Observed Relationships between Tropical Cyclone Vortex Height, Intensity, and Intensification Rate
+  author1: bell
+  author2: desrosiers
+  author3: klotzbach
+  authors: DesRosiers, A., M. M. Bell, P. Klotzbach, M. Fischer, and P. Reasor
+  journal: Geophys. Res. Letters
+  others: 50, e2022GL101877 
+  doi: 
+  keypoint1: Vertical extent of the tropical cyclone wind field correlates strongly with current intensity in observed storms. 
+  keypoint2: Deep vertical vortex structure is always present in observed cases meeting a pressure-based rapid intensification definition.
+  keypoint3: Vortex height decreases with increasing vertical wind shear, but taller storms intensify more in moderate shear.
+  abstract: As a tropical cyclone (TC) intensifies, the tangential wind field expands vertically and increases in magnitude. Observations and modeling support vortex height as an important TC structural characteristic. The TC-RADAR dataset provides kinematic analyses for calculation of the height of the vortex (HOV) in observed storms. Analyses are azimuthally averaged with tangential wind values taken along the radius of maximum winds. A threshold-based technique is used to determine the HOV. A fixed threshold HOV strongly correlates with current intensity. A dynamic HOV metric quantifies vertical decay of tangential wind with reduced dependency on intensity. Statistically significant differences are present between dynamic HOV values in groups of steady-state, intensifying, and rapidly-intensifying cases categorized by subsequent changes in pressure. A tall vortex is always observed in cases meeting a pressure-based rapid intensification definition. Taller vortices are also evident with slower intensification. Results suggest HOV may be an important predictor for TC intensification.
+  summary: As a tropical cyclone gets stronger, the wind field of the storm grows taller in the atmosphere. The height-intensity relationship is known to be present from the beginning of a tropical cyclone until its peak strength. A large dataset of airborne radar observations in tropical cyclones is used to show the strength of the relationship between vortex height and current intensity. A tall vortex is always present in observed cases prior to rapid intensification during which the minimum surface pressure at the storm center drops at a high rate. Drops in minimum surface pressure are associated with increases in wind and size in tropical cyclones. A taller vortex also favors intensification at slower rates. Improved understanding of the role that tropical cyclone height plays during intensification may be helpful for forecasting the intensity of these storms.
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/DesRosiers_etal_2023.bib 
+  pdf: ../Publications/papers/DesRosiers_etal_2023.pdf
+  keyword1: Tropical Cyclone Vortex Height 
+  keyword2: Tropical Cyclone Vortex Intensity 
+  keyword3: Tropical Cyclone Intensification Rate 
   
  
 
