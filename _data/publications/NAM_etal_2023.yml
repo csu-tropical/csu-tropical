@@ -1,0 +1,23 @@
+- id: NAM_etal_2023 
+  year: 2023 
+  title: Bifurcation Points for Tropical Cyclone Genesis and Intensification in Sheared and Dry Environments
+  author1: bell
+  author2: false
+  author3: false
+  authors: Nam, C. C., M. M. Bell, and D. Tao
+  journal: Journal of the Atmospheric Sciences 
+  others: 80(9), 2239-2259
+  doi: https://doi.org/10.1175/JAS-D-22-0100.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: The combination of moderate vertical wind shear (VWS) and dry environments can produce the most uncertain scenarios for tropical cyclone (TC) genesis and intensification. We investigated the sources of increased uncertainty of TC development under moderate VWS and dry environments using a set of Weather Research and Forecasting (WRF) ensemble simulations. Statistical analysis of ensemble members for precursor events and time-lagged correlations indicates that successful TC development is dependent on a specific set of precursor events. A deficiency in any of these precursor events leads to a fail- ure of TC intensification. The uncertainty of TC intensification can be largely attributed to the probabilistic characteristics of precursor events lining up together before TC intensification. The critical bifurcation point between successful and failed trials in these idealized simulations is the sustained vortex alignment process. Even for the failed intensification cases, most simulations showed deep organized convection, which reformed a midlevel vortex. However, for the failed cycles, the new midlevel vortex could not sustain vertical alignment with the low-level center and was carried away by VWS shortly. Under the most uncertain setup (VWS = 7.5 m/s and 50% moisture), the latest-developing ensemble member had seven events of tilt decreasing and increasing again that occurred during the 8 days before genesis. Some unsuccessful precursor events looked very close to the successful ones, implying limits on the intrinsic predictability for TC genesis and intensification in moderately sheared and dry environments.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../publications/bibtex/Nam_etal_2023.bib
+  pdf: ../../publications/papers/Nam_etal_2023.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false

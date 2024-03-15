@@ -1,0 +1,23 @@
+- id: Razin_etal_2023
+  year: 2023
+  title: Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED)
+  author1: bell
+  author2: razin
+  author3: false
+  authors: Razin*, N., C. J. Slocum, J. A. Knaff, P. J. Brown, and M. M. Bell
+  journal: Bull. Amer. Meteor. Soc.
+  others:  104 
+  doi: https://doi.org/10.1175/BAMS-D-21-0052.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: To study tropical cyclones and generate forecast applications using satellite observations, researchers often consolidate disparate sources of raw and ancillary data. Data consolidation involves obtaining, co-locating and inter-calibrating data from different sensors and derived prod- ucts; calculating environmental diagnostics from a homogeneous source; and standardizing these various products for a straightforward analysis. To alleviate pre-processing issues and provide a long-term, global digital dataset of tropical cyclone satellite observations, we construct the Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED). TC PRIMED contains tropical-cyclone-centric 1) inter-calibrated, multi-channel, multi-sensor mi- crowave brightness temperatures, 2) retrieved rainfall from NASA’s Goddard Profiling Algorithm (GPROF), 3) nearly coincident geostationary satellite infrared brightness temperatures and derived metrics, 4) tropical cyclone position and intensity information, 5) ECMWF fifth-generation reanal- ysis fields and derived environmental diagnostics, and 6) precipitation radar observations from the TRMM and GPM Core Observatory satellites. TC PRIMED consists of over 176,000 overpasses of 2,101 storms from 1998 to 2019, providing researchers with an analysis-ready dataset to promote and support research into improving our understanding of the relationship between tropical cyclone convective and precipitation structure, intensity, and environment. Here, we briefly describe data sources and processing steps to create TC PRIMED. To demonstrate TC PRIMED’s potential utility for studying important tropical cyclone processes and for application development, we present a shear-relative composite analysis of several multi-sensor satellite variables relative to the tropical cyclone lifetime maximum intensity. The composite analysis provides a simple example of how TC PRIMED can benefit future studies to advance our understanding of tropical cyclones and improve forecasts.
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../publications/bibtex/Razin_etal_2023.bib 
+  pdf: ../../Publications/papers/Razin_etal_2023.pdf
+  keyword1: false
+  keyword2: false
+  keyword3: false
