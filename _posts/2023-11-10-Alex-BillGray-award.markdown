@@ -2,7 +2,7 @@
 layout: post
 title: "Alex DesRosiers first recipient of the William M. Gray Award"
 date:   2023-11-10
-image: "https://source.colostate.edu/wp-content/uploads/2023/11/Alex_DesRosiers_Gray-Award_Winner2023.jpg"
+image: "https://tropical.colostate.edu/images/news/Alex_DesRosiers_Gray-Award_Winner2023.jpg"
 author: "Josh Roten"
 ---
 
