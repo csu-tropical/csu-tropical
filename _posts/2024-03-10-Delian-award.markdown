@@ -13,9 +13,9 @@ of the four elements: earth, fire, water, air.
 
 <!--more-->
 
-<img src= "https://tropical.colostate.edu/images/news/Delian2_PuertoRico.JPG"
+<img src= "https://tropical.colostate.edu/images/news/Delian2_PuertoRico.jpg"
      alt="Delian"
-     style=" display: block;margin-left: auto;margin-right: auto;width: 25%;" />
+     style=" display: block;margin-left: auto;margin-right: auto;width: 85%;" />
 
 Delián led an interactive presentation (including hurricae preparation based family feud!) that was attended by more than 100 students. 
 She discussed tropical cyclone formation, and risks, hurricane seasons, and how scientists study these systems. Radians School is the 
