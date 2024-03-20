@@ -1,0 +1,24 @@
+- id: Tao_etal_23.yml
+  year: 2023
+  title: "The Quasi-Linear Absolute Angular Momentum Slope of Tropical Cyclones Under Rapid Intensification"
+  author1: bell
+  author2: false
+  author3: false
+  authors: Tao, Dandan and Nystrom, Robert and Bell, Michael
+  journal: Geophysical Research Letters
+  others:  50, e2023GL104583
+  doi: https://doi.org/10.1029/2023GL104583
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Abstract Tropical cyclone (TC) low-level tangential wind structure is known to be an important input for risk assessment (e.g., storm surge). However, a realistic TC wind structure model with easy implementation is still needed for many applications. In this study, we obtain an inner-core wind structure model purely from an empirical approach, which significantly reduces the complexity of TC wind profiles. From idealized simulations with different initial vortex structures, it is found that the absolute angular momentum (M) outside the radius of maximum wind (rm) is quasi-linear. This quasi-linear M slope in a normalized coordinate decreases with TC intensity. The consequent linear M slope wind model can largely capture the simulated TC inner-core wind structure and has the potential for many practical applications.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Tao_etal_2023.bib 
+  pdf: ../../Publications/papers/Tao_etal_2023.pdf
+  keyword1: absolute angular momentum 
+  keyword2: tangential wind
+  keyword3: tropical cyclone wind structure 
+  

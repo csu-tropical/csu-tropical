@@ -1,0 +1,25 @@
+- id: Chen_etal_23.yml
+  year: 2023
+  title: Research advances on internal processes affecting tropical cyclone intensity change from 2018–2022
+  author1: bell
+  author2: false 
+  author3: false
+  authors: Chen, Xiaomin and Rozoff, C. M. and Rogers, R. F. and Corbosiero, K. L. and Tao, D. and Gu, J and Judt, F. and Hendricks, E. A. and Wang, Y. and Bell, M. M. and Stern, D. P. and Musgrave, K. D. and Knaff, J. A. and Kaplan, J.
+  journal: Tropical Cyclone Research and Review
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.05.001
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: This contribution summarizes the significant progress in a variety of topic areas related to internal tropical cyclone (TC) intensity change processes over 2018–2022 from the WMO Tenth International Workshop on Tropical Cyclones (IWTC-10). These topic areas include surface and boundary layer processes; TC internal structure and microphysical processes; and, radiation interactions with TCs. Recent studies better frame the uncertainty in the surface drag and enthalpy coefficients at high wind speeds. These parameters greatly impact TC intensity and it is therefore important that more direct measurements of these boundary layer parameters are made. Particularly significant scientific strides have been made in TC boundary layers. These advancements have been achieved through improved coupled models, large-eddy simulations, theoretical advance- ments, and detailed observations. It is now clear that the research field needs to better represent the eddy viscosity throughout the depth of the boundary layer. Furthermore, detailed study of coherent structures in TC boundary layers will likely be a propitious direction for the research community. Meanwhile, in-depth observational field campaigns and assiduous data analysis have made significant headway into verifying theory and modeling studies of intensification processes related to TC vortex alignment, efficient latent heating distributions, and overall 3D structure. Substantial efforts have also been made to better understand the intricate roles radiative processes play in TC evolution and intensity change. Finally, some promising progress has been made in the development of time-dependent theories of TC intensification and the predictability of internal TC intensity change. Overall, there have been well-earned gains in the understanding of intensity change processes intrinsic to the TC system, but the journey is not complete. This paper highlights some of the most relevant and important research areas that are still shedding new light into internal factors governing TC intensity change.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Chen_etal_2023.bib 
+  pdf: ../../Publications/papers/Chen_etal_2023.pdf
+  keyword1: Tropical cyclone 
+  keyword2: intensity 
+  keyword3: internal dynamics
+  
