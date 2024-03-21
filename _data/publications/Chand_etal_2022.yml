@@ -1,0 +1,24 @@
+- id: Chand_etal_22.yml
+  year: 2022
+  title: Declining tropical cyclone frequency under global warming
+  author1: klotzbach
+  author2: false 
+  author3: false
+  authors: Savin S. Chand and Kevin J. E. Walsh and Suzana J. Camargo and James P. Kossin and Kevin J. Tory and Michael F. Wehner and Johnny C. L. Chan and Philip J. Klotzbach and Andrew J. Dowdy and Samuel S. Bell and Hamish A. Ramsay and Hiroyuki Murakami
+  journal: Nature Climate Change 
+  others:  12 
+  doi: https://doi.org/10.1038/s41558-022-01388-4
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Assessing the role of anthropogenic warming from temporally inhomogeneous historical data in the presence of large natu- ral variability is difficult and has caused conflicting conclusions on detection and attribution of tropical cyclone (TC) trends. Here, using a reconstructed long-term proxy of annual TC numbers together with high-resolution climate model experiments, we show robust declining trends in the annual number of TCs at global and regional scales during the twentieth century. The Twentieth Century Reanalysis (20CR) dataset is used for reconstruction because, compared with other reanalyses, it assimi- lates only sea-level pressure fields rather than utilize all available observations in the troposphere, making it less sensitive to temporal inhomogeneities in the observations. It can also capture TC signatures from the pre-satellite era reasonably well. The declining trends found are consistent with the twentieth century weakening of the Hadley and Walker circulations, which make conditions for TC formation less favourable.
+  summary: 
+  image: false 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Chand_etal_2022.bib 
+  pdf: ../../Publications/papers/Chand_etal_2022.pdf
+  keyword1: Tropical cyclone 
+  keyword2: historical trend 
+  keyword3: twentieth century reanalysis
+  
