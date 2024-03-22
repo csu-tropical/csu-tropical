@@ -2687,6 +2687,55 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   keyword1: rotating radiative-convective equilibrium 
   keyword2: hydrologic cycle
   keyword3: climate sensitivity
+- id: Song_etal_GRL_2023.yml
+  year: 2023
+  title: "What Controls the Interannual Variation in Rapid Intensification Magnitude of Western North Pacific Tropical Cyclones?"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong
+  journal: Geophysical Research Letters
+  others:  50, e2023GL105084
+  doi: https://doi.org/10.1029/2023GL105084
+  keypoint1: Basin-averaged rapid intensification magnitude over the western North Pacific is significantly related to the West Pacific teleconnection
+  keypoint2: 'Strong increases (weak decreases)
+in rapid intensification magnitude occur at low (high) latitudes during a positive West Pacific phase'
+  keypoint3: West Pacific teleconnection controls interannual changes in rapid intensification magnitude mainly by modulating vertical wind shear
+  abstract: Abstract This study investigates the interannual variability of rapid intensification (RI) magnitude of western North Pacific (WNP) tropical cyclones. There is a significant correlation between basin-averaged RI magnitude during July–November and the simultaneous Western Pacific (WP) teleconnection index from 1982 to 2021. RI magnitude is, on average, larger (smaller) in positive (negative) WP phases. During a positive WP, RI magnitude changes exhibit a southwest-northeast dipolar pattern, with significant increases over the southwestern quadrant of the WNP and weak decreases over the northern part of the WNP. The WP teleconnection relates to RI magnitude primarily through modulation of 850–200-hPa vertical wind shear, with less influence from 850-hPa relative vorticity. The changes in these two dynamic conditions can be linked to WP-induced circulation anomalies at lower and upper levels. Our results highlight that different contributors may be responsible for changes in WNP RI occurrence and RI magnitude.
+  summary: 'Rapid intensification (RI) is commonly recognized as a sharp increase in tropical cyclone (TC) intensity over a short duration, posing a significant challenge for operational TC forecasting. Given concerns about climate change and its impacts on TC activity, there has been an increasing focus on temporal variations of RI. Unlike most previous publications investigating changes in RI occurrence, this study focuses on the interannual variability of RI magnitude, defined as the TC intensity increase during the 24-hr RI stage. There is a significant interannual correlation between basin-averaged RI magnitude over the western North Pacific during July–November and the simultaneous Western Pacific (WP) teleconnection index from 1982 to 2021. During a positive WP, RI magnitude significantly increases over the southwestern quadrant of the basin because of significantly reduced 850–200-hPa vertical wind shear. RI magnitude weakly decreases over the northern part of the basin, likely linked to slightly enhanced vertical wind shear. These vertical wind shear changes can be further linked to WP-induced circulation anomalies at lower and upper levels. Our results highlight the dominant (lesser) role of vertical wind shear (850-hPa relative vorticity) in controlling the interannual variation of RI magnitude over the western North Pacific.'
+  image: 
+  caption: 
+  acknowledgement: This work was funded by the National Natural Science Foundation of China (61827901, 42175007, 41905001 and 42192554) and the Meteorological Research Program of Guangxi Province of China (2023ZL04). Klotzbach would like to acknowledge financial support from the G. Unger Vetlesen Foundation.
+  bibtex: ../Publications/bibtex/Song_etal_GRL_2023.bib 
+  pdf: ../Publications/papers/Song_etal_GRL_2023.pdf
+  keyword1: rapid intensification
+  keyword2: west Pacific teleconnection
+  keyword3: vertical wind shear
+- id: Song_etal_IJC_2023.yml
+  year: 2023
+  title: "What Controls the Interannual Variation in Rapid Intensification Magnitude of Western North Pacific Tropical Cyclones?"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Wang, Yi-Fan, and Wei, Na, and Duan, Yihong
+  journal: International Journal of Climatology
+  others:  43 
+  doi: https://doi.org/10.1002/joc.8220
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: Abstract This study investigates the asymmetric response of western North Pacific (WNP) tropical cyclone (TC) formation during August–November to the Pacific meridional mode (PMM) from 1961 to 2021. Basinwide WNP TC frequency significantly increases (slightly decreases) during positive (negative) PMM years, implying a nonlinear PMM–TC frequency relationship. Only small spatial changes in TC formation occur during negative PMM years, while there is nearly a basinwide enhancement of TC formation during positive PMM years, particularly over the region of 5°–30°N and 135°–155°E. This region is characterized by significantly enhanced low-level vorticity, mid-level updrafts and upper-level divergence during positive PMM years, all favouring TC development. By contrast, environmental anomalies are of a smaller magnitude and mostly insignificant over the WNP during negative PMM years. These distinct environmental changes during different PMM phases can be explained by differences in PMM strength. Positive PMM events are of a greater strength and are associated with a stronger wind–evaporation–sea surface temperature feedback than negative PMM events, leading to a notable anomalous large-scale low-level cyclonic circulation over the WNP in positive PMM events.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023.bib 
+  pdf: ../../Publications/papers/Song_etal_IJC_2023.pdf
+  keyword1: Pacific meridional mode
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+  
   
   
   
