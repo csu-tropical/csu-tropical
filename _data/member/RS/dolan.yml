@@ -4,7 +4,7 @@ name: Brenda Dolan
 photo: './Group/dolan.jpeg'
 email: 'mailto:bdolan@colostate.edu'
 github: 'https://github.com/bdolan44'
-webpage: 'https://radarmet.atmos.colostate.edu/~bdolan/'
+webpage: false
 twitter: false
 bio: >
   Brenda is a Research Scientist III at Colorado State University. She received her Ph.D. 
