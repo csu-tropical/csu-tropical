@@ -1,0 +1,25 @@
+- id: Song_etal_IJC_2023a.yml
+  year: 2023
+  title: "Asymmetric influence of the Pacific meridional mode on tropical cyclone formation over the western North Pacific"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Wang, Yi-Fan, and Wei, Na, and Duan, Yihong
+  journal: International Journal of Climatology
+  others:  43 
+  doi: https://doi.org/10.1002/joc.8220
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: Abstract This study investigates the asymmetric response of western North Pacific (WNP) tropical cyclone (TC) formation during August–November to the Pacific meridional mode (PMM) from 1961 to 2021. Basinwide WNP TC frequency significantly increases (slightly decreases) during positive (negative) PMM years, implying a nonlinear PMM–TC frequency relationship. Only small spatial changes in TC formation occur during negative PMM years, while there is nearly a basinwide enhancement of TC formation during positive PMM years, particularly over the region of 5°–30°N and 135°–155°E. This region is characterized by significantly enhanced low-level vorticity, mid-level updrafts and upper-level divergence during positive PMM years, all favouring TC development. By contrast, environmental anomalies are of a smaller magnitude and mostly insignificant over the WNP during negative PMM years. These distinct environmental changes during different PMM phases can be explained by differences in PMM strength. Positive PMM events are of a greater strength and are associated with a stronger wind–evaporation–sea surface temperature feedback than negative PMM events, leading to a notable anomalous large-scale low-level cyclonic circulation over the WNP in positive PMM events.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023a.bib 
+  pdf: ../../Publications/papers/Song_etal_IJC_2023a.pdf
+  keyword1: Pacific meridional mode
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+  

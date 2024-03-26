@@ -1,0 +1,25 @@
+- id: Zang_etal_AR_2023.yml
+  year: 2023
+  title: "Relationship between the South Asian High and Western North Pacific tropical cyclone genesis"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong
+  authors: Yuqi Zang, and Haikun Zhao, and Philip J. Klotzbach, and Chao Wang, and Jian Cao
+  journal: Atmospheric Research 
+  others: 281 
+  doi: https://doi.org/10.1016/j.atmosres.2022.106491
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study highlights a significant inter-decadal modulation of the South Asian high (SAH) on the meridional distribution of western North Pacific (WNP) tropical cyclone genesis frequency (TCGF). There is an obvious inter-decadal change in the first leading SAH mode, with an abrupt weakening since the early 1990s. During 1979–1993, when there was a stronger SAH, TCs were suppressed over the northern WNP and enhanced over the southern WNP in response to inter-annual SAH changes. The northern WNP TCGF had a significant negative correlation with the SAH (r = −0.69), while the southern WNP TCGF had a significant positive correlation with the SAH (r = 0.78). This north-south seesaw pattern driven by the SAH weakened during 1994–2019. This inter-decadal modulation of the inter-annual SAH-WNP TC genesis relationship can be explained by changes in large-scale environmental parameters. There is anomalous ascending (descending) motion and negative (positive) vorticity centered at 850-hPa as well as less (more) moisture at 600-hPa in the northern WNP (southern WNP) during 1979–1993. The maintenance of a strong low-level anomalous anticyclone accompanied by the concurrent influence of the SAH and East Asian upper-tropospheric jet stream decreases northern WNP TCGF. Linking to an El Niño-like SST pattern, the cyclonic circulation forced by a Gill-type forcing and enhanced by equatorial low-level westerly anomalies increases southern WNP TCGF. In contrast, we find a relatively weak inter-annual relationship of large-scale factors to the SAH since 1994. This weakening relationship is largely due to the inter-decadal weakening of the SAH and East Asian upper-tropospheric jet stream. Inter-decadal changes of the East Asian summer monsoon and the phase shift of the Atlantic Multi-decadal Oscillation appear to be two important factors modulating the inter-annual relationship between the SAH and the meridional distribution of WNP TCGF.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zang_etal_AR_2023.bib 
+  pdf: ../../Publications/papers/Zang_etal_AR_2023.pdf
+  keyword1: South Asian high
+  keyword2: tropical cyclone
+  keyword3: western North Pacific
+  

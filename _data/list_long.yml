@@ -2730,7 +2730,7 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   image: 
   caption: 
   acknowledgement: 
-  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023.bib 
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023a.bib 
   pdf: ../../Publications/papers/Song_etal_IJC_2023.pdf
   keyword1: Pacific meridional mode
   keyword2: tropical cyclone
@@ -2758,7 +2758,54 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   keyword1: radiative-convective equilibrium
   keyword2: tropical circulations
   keyword3: climate sensitivity
-  
+- id: Song_etal_IJC_2023b.yml
+  year: 2023
+  title: "Modulation of western North Pacific tropical cyclone formation by central Pacific El Niño-Southern Oscillation on decadal and interannual timescales"
+  author1: klotzbach
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong
+  journal: International Journal of Climatology
+  others:  43
+  doi: https://doi.org/10.1002/joc.7777
+  keypoint1:
+  keypoint2:
+  keypoint3:
+  abstract:
+  abstract: Abstract This study investigates the impact of central Pacific (CP) El Niño–Southern Oscillation (ENSO) on tropical cyclone (TC) frequency over the western North Pacific (WNP) on decadal and interannual timescales. The CP ENSO-TC frequency relationship is strong and significant only on decadal timescales, with enhanced TC formation over most of the WNP associated with warm CP ENSO phases. TC formation changes, driven by CP ENSO, exhibit a southeast–northwest dipole pattern on interannual timescales, similar to the typical pattern induced by eastern Pacific ENSO. Associated with warm CP ENSO phases on decadal timescales are increases in TC formation east of 125°E, while increases in TC formation east of 140°E are observed with warm CP ENSO phases on interannual timescales. These increases in TC activity are primarily caused by favourable dynamic conditions, including increased 850-hPa relative vorticity and 200-hPa divergence and decreased 850–200-hPa vertical wind shear. The main TC formation difference on decadal and interannual timescales is concentrated over the longitudinal band of 125°–140°E, where reduced TC formation is observed on interannual timescales during CP El Niño years, predominately due to suppressed thermodynamic factors, for example, reduced maximum potential intensity and 700–500-hPa relative humidity. We find insignificant (significant) changes in thermodynamic conditions between 125°E and 140°E due to weak (strong) descending motion in the western cell of the anomalous Walker circulation on decadal (interannual) timescales. This can be explained by different patterns of CP ENSO-induced sea surface temperature anomalies on different timescales.
+  summary:
+  image:
+  caption:
+  acknowledgement:
+  bibtex: ../../Publications/bibtex/Song_etal_IJC_2023b.bib
+  pdf: ../../Publications/papers/Song_etal_IJC_2023b.pdf
+  keyword1: central Pacific ENSO
+  keyword2: tropical cyclone
+  keyword3: western North Pacific
+- id: Zang_etal_AR_2023.yml                                                                           
+  year: 2023
+  title: "Relationship between the South Asian High and Western North Pacific tropical cyclone genesis"  
+  author1: klotzbach 
+  author2: false                                                                                      
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Wei, Na, and Duan, Yihong                      
+  authors: Yuqi Zang, and Haikun Zhao, and Philip J. Klotzbach, and Chao Wang, and Jian Cao           
+  journal: Atmospheric Research 
+  others: 281 
+  doi: https://doi.org/10.1016/j.atmosres.2022.106491
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: This study highlights a significant inter-decadal modulation of the South Asian high (SAH) on the meridional distribution of western North Pacific (WNP) tropical cyclone genesis frequency (TCGF). There is an obvious inter-decadal change in the first leading SAH mode, with an abrupt weakening since the early 1990s. During 1979–1993, when there was a stronger SAH, TCs were suppressed over the northern WNP and enhanced over the southern WNP in response to inter-annual SAH changes. The northern WNP TCGF had a significant negative correlation with the SAH (r = −0.69), while the southern WNP TCGF had a significant positive correlation with the SAH (r = 0.78). This north-south seesaw pattern driven by the SAH weakened during 1994–2019. This inter-decadal modulation of the inter-annual SAH-WNP TC genesis relationship can be explained by changes in large-scale environmental parameters. There is anomalous ascending (descending) motion and negative (positive) vorticity centered at 850-hPa as well as less (more) moisture at 600-hPa in the northern WNP (southern WNP) during 1979–1993. The maintenance of a strong low-level anomalous anticyclone accompanied by the concurrent influence of the SAH and East Asian upper-tropospheric jet stream decreases northern WNP TCGF. Linking to an El Niño-like SST pattern, the cyclonic circulation forced by a Gill-type forcing and enhanced by equatorial low-level westerly anomalies increases southern WNP TCGF. In contrast, we find a relatively weak inter-annual relationship of large-scale factors to the SAH since 1994. This weakening relationship is largely due to the inter-decadal weakening of the SAH and East Asian upper-tropospheric jet stream. Inter-decadal changes of the East Asian summer monsoon and the phase shift of the Atlantic Multi-decadal Oscillation appear to be two important factors modulating the inter-annual relationship between the SAH and the meridional distribution of WNP TCGF.
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zang_etal_AR_2023.bib 
+  pdf: ../Publications/papers/Zang_etal_AR_2023.pdf
+  keyword1: South Asian high
+  keyword2: tropical cyclone                                                                          
+  keyword3: western North Pacific         
   
   
   
