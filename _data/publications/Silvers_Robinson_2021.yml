@@ -1,0 +1,25 @@
+- id: Silvers_Robinson_2021.yml
+  title: "Clouds and radiation in a mock-Walker circulation"
+  authors: Silvers, Levi G and Robinson, Thomas
+  author1: silvers
+  author2: false
+  author3: false
+  journal: Journal of Advances in Modeling Earth Systems
+  others: 13,
+  doi: https://doi.org/10.1029/2020MS002196
+  url: 
+  year: 2021
+  abstract: The Walker circulation connects the regions with deep atmospheric convection in the western tropical Pacific to the shallow-convection, tropospheric subsidence, and stratocumulus cloud decks of the eastern Pacific. The purpose of this study is to better understand the multi-scale interactions between the Walker circulation, cloud systems, and interactive radiation. To do this we simulate a mock- Walker Circulation with a full-physics general circulation model using idealized boundary conditions. Our experiments use a doubly-periodic domain with grid-spacing of 1, 2, 25, and 100 km. We thus span the range from General Circulation Models (GCMs) to Cloud-system Resolving Models (CRMs). Our model is derived from the Geophysical Fluid Dynamics Laboratory atmospheric GCM (AM4.0). We find substantial differences in the mock-Walker circulation simulated by our GCM-like and CRM-like experiments.  The CRM-like experiments have more upper level clouds, stronger overturning circulations, and less precipitation. The GCM-like experiments have a low-level cloud fraction that is up to 20% larger. These differences leads to opposite atmospheric responses to changes in the longwave cloud radiative effect (LWCRE). Active LWCRE leads to increased precipitation for our GCMs, but decreased precipitation for our CRMs. The LWCRE leads to a narrower rising branch of the circulation and substantially increases the fraction of precipitation from the large-scale cloud parameterization. This work demonstrates that a mock- Walker circulation is a useful generalization of radiative convective equilibrium that includes a large-scale circulation.
+  image: ../Publications/figures/Silvers_Robinson_Fig5_2021.jpg 
+  caption: "Evolution of precipitation through five years of simulation for four experiments with a grid spacing of 25 km. (a) Control 25 km experiment (P25); (b) P25 with LWCRE turned off; (c) Both deep and shallow convective parameterization schemes are turned off (E25); (d) E25 experiment shown in (c) except with the LWCRE turned off. All cases have an SST of 301 K at the center and 297 K at the edges. Contour values are: 1, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, and 90. Data have been averaged over the short horizontal dimension of the domain."
+  acknowledgement: "The authors thank Leo Donner, Nadir Jeevanjee, Yi Ming, and Juho Iipponen for discussions that helped to motivate this work as well as useful comments on drafts of the manuscript. Comments from three anonymous reviewers also helped to improve the manuscript. The expertise of Ming Zhao with the physics of AM4.0 also proved helpful in many conversations related to this work. L.G. Silvers performed the experiments and wrote the paper under award NA18OAR4320123 from the National Oceanic and Atmospheric Administra- tion, U.S. Department of Commerce. Thomas Robinson helped to develop and test the doubly periodic domain for AM4.0. L. G. Silvers also acknowledges recent partial support through Stony Brook University from award NSF AGS1830729."
+  keypoint1: These cloud resolving simulations result in more upper-level clouds, relative to low resolution simulations that have more low-level clouds
+  keypoint2: High and low clouds interact differently with longwave radiation to increase or decrease precipitation, depending on the dominant cloud type
+  keypoint3: Interactions between clouds and radiation combined with parameterized convection shift the precipitation maximum away from the sea surface temperature maximum 
+  bibtex: ../../Publications/bibtex/Silvers_Robinson_2021.bib 
+  pdf: ../../Publications/papers/Silvers_Robinson_2021.pdf
+  keyword1: Walker circulation
+  keyword2: tropical convection
+  keyword3: cloud radiative effect
+  publisher: Wiley Online Library
+

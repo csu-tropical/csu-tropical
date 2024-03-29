@@ -1,0 +1,23 @@
+- id: Silvers_etal_2016.yml
+  title: "Radiative convective equilibrium as a framework for studying the interaction between convection and its large-scale environment"
+  authors: Silvers, Levi G, and Stevens, Bjorn, and Mauritsen, Thorsten, and Giorgetta, Marco
+  author1: silvers
+  journal: Journal of Advances in Modeling Earth Systems
+  others: 8
+  year: 2016
+  abstract: An uncertain representation of convective clouds has emerged as one of the key barriers to our understanding of climate sensitivity. The large gap in resolved spatial scales between General Circulation Models (GCMs) and high resolution models has made a systematic study of convective clouds across model configurations difficult. It is shown here that the simulated atmosphere of a GCM in Radiative Convective Equilibrium (RCE) is sufficiently similar across a range of domain sizes to justify the use of RCE to study both a GCM and a high resolution model on the same domain with the goal of improved constraints on the parameterized clouds. Simulations of RCE with parameterized convection have been analyzed on domains with areas spanning more than two orders of magnitude (0:8022043106km2), all having the same grid spacing of 13 km. The simulated climates on different domains are qualitatively similar in their degree of convective organization, the precipitation rates, and the vertical structure of the clouds and water vapor, with the similarity increasing as the domain size increases. Sea surface temperature perturbation experiments are used to estimate the climate feedback parameter for the differently configured experiments, and the cloud radiative effect is computed to examine the role which clouds play in the response. Despite the similar climate states between the domains the feedback parameter varies by more than a factor of two; the hydrological sensitivity parameter is better behaved, varying by a factor of 1.4. The sensitivity of the climate feedback parameter to domain size is related foremost to a nonsystematic response of low-level clouds as well as an increasingly negative longwave feedback on larger domains.
+  image: ../Publications/figures/Silvers_etal_Fig10_2016.jpg 
+  caption: Feedback parameter (Wm22K21) as a function of domain size. Bars cor- respond to a 97.5% confidence interval with a one-sided t-test. A de-correlation time of three weeks was assumed for all domains. The feedback parameters from CMIP5 models are shown by the black markers. 
+  acknowledgement: The authors thank Timothy W. Cronin and an anonymous reviewer for instructive feedback that clarified the manuscript. Anurag Dipankar and Leonidas Linardakis assisted with debugging and stimulating discussions. Cathy Hohenegger read an early version of the manuscript and helped to improve the presentation of our ideas. The computing resources were provided by Deutsches Klimarechenzentrum (DKRZ). The research presented here was conducted when LGS was employed by the Max Planck Institute for Meteorology. The ICON development team at both MPI-M and DWD provided helpful support and motivation throughout the work. Primary data and scripts used in the analysis have been archived by the Max Planck Institute for Meteorology and can be obtained by contacting publications@mpimet.mpg.de. Princeton University generously supported LGS during the final stage of the writing. LGS thanks Catherine Raphael for assistance with Figures 1– 5, and 6. 
+  keypoint1: Radiative Convective Equilibrium (RCE) is a useful framework to compare, contrast, and harmonize the two extremes of explicit and parameterized convection
+  keypoint2: Consistent climates across a range of domain sizes encourage the use of RCE to enhance our ability to model clouds (or cloud systems)
+  keypoint3: The response of low clouds to warming, and hence estimation of the climate feedback parameter, is not robust across configurations
+  doi: https://10.1002/2016MS000629
+  bibtex: ../../Publications/bibtex/Silvers_etal_2016.bib 
+  pdf: ../../Publications/papers/Silvers_etal_2016.pdf
+  keyword1: radiative-convective equilibrium
+  keyword2: tropical convection
+  keyword3: cloud radiative effect
+  publisher: Wiley Online Library
+
+
