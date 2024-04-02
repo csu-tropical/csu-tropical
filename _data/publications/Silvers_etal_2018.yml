@@ -1,0 +1,24 @@
+- id: Silvers_etal_2024.yml
+  year: 2018
+  title: "The Diversity of Cloud Responses to Twentieth Century Sea Surface Temperatures"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G., and Paynter, David and Zhao, Ming
+  journal: Geophysical Research Letters
+  others:  45, 391-400
+  doi: https://doi.org/10.1002/2017GL075583
+  keypoint1: Three climate models driven by observed sea surface temperatures increase then decrease climate sensitivity over the twentieth century 
+  keypoint2: Substantial changes of the climate feedback parameter are mirrored by the global mean low-level cloud anomalies 
+  keypoint3: This variability is connected to atmospheric stability and not dominated by stratocumulus regions, but by the broader tropics
+  abstract: "Low-level clouds are shown to be the conduit between the observed sea surface temperatures (SST) and large decadal fluctuations of the top of the atmosphere radiative imbalance. The influence of low-level clouds on the climate feedback is shown for global mean time series as well as particular geographic regions. The changes of clouds are found to be important for a midcentury period of high sensitivity and a late century period of low sensitivity. These conclusions are drawn from analysis of amip-piForcing simulations using three atmospheric general circulation models (AM2.1, AM3, and AM4.0). All three models confirm the importance of the relationship between the global climate sensitivity and the eastern Pacific trends of SST and low-level clouds. However, this work argues that the variability of the climate feedback parameter is not driven by stratocumulus-dominated regions in the eastern ocean basins, but rather by the cloudy response in the rest of the tropics."
+  summary: 
+  image: ../../Publications/figures/Silvers_etal_2018_fig1.jpg
+  caption: "Time series analysis of AM4.0 (black), AM3 (green), and AM2.1 (blue). Thick lines are ensemble means; shading gives range of ensemble members. (a) Global climate feedback parameter −α (W/m2 K). (b) Same as Figure 1a but with contributions from four tropical windows (short dash) and the rest of tropics (long dash). (c) α (W/m2 K) decomposed into the CRE (lower) and CLR (upper) components. (d) Global mean low-cloud cover parameter LCCLR (%/K). Global αCRE (W/m2 K) is decomposed into the (e) short-wave CRE and the (f) long-wave CRE. All time series computed by regression against global, yearly mean surface air temperature change."
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Silvers_etal_2018.bib 
+  pdf: ../../Publications/papers/Silvers_etal_2018.pdf
+  keyword1: The pattern effect 
+  keyword2: low-level cloud feedback
+  keyword3: climate sensitivity
+  
