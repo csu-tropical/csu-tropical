@@ -2,12 +2,12 @@
 description: Atlantic basin Net Tropical Cyclone activity
 year: 2024
 fulldate: 4 April 2024
-NS: TBD
-NSD: TBD
-H: TBD
-HD: TBD
-MH: TBD
-MHD: TBD
-ACE: TBD
-AW60: TBD
-NTCA: TBD
+NS: 23
+NSD: 115
+H: 11
+HD: 45
+MH: 5
+MHD: 13
+ACE: 210
+AW60: 125
+NTCA: 220

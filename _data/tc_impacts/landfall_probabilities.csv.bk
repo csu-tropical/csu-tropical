@@ -1,0 +1,241 @@
+State,County,NS_events,H_events,MH_events,NS_current,H_current,MH_current,NS_climo,H_climo,MH_climo
+Alabama,,123,46,12,65%,33%,10%,58%,28%,8%
+Alabama,Baldwin,75,28,9,48%,22%,7%,41%,18%,6%
+Alabama,Mobile,67,28,8,44%,22%,7%,38%,18%,6%
+Connecticut,,35,11,2,26%,9%,2%,22%,8%,1%
+Connecticut,Fairfield,27,9,2,21%,7%,2%,17%,6%,1%
+Connecticut,Middlesex,24,10,2,19%,8%,2%,16%,7%,1%
+Connecticut,New Haven,32,11,2,24%,9%,2%,20%,8%,1%
+Connecticut,New London,27,10,2,21%,8%,2%,17%,7%,1%
+Delaware,,36,9,1,27%,7%,1%,23%,6%,1%
+Delaware,Kent,23,4,0,18%,3%,<1%,15%,3%,<1%
+Delaware,New Castle,18,1,0,14%,1%,<1%,12%,1%,<1%
+Delaware,Sussex,32,9,1,24%,7%,1%,20%,6%,1%
+Florida,,274,115,48,91%,63%,34%,86%,56%,29%
+Florida,Bay,58,26,7,39%,20%,6%,34%,17%,5%
+Florida,Brevard,78,26,8,49%,20%,7%,42%,17%,6%
+Florida,Broward,77,36,16,49%,27%,13%,42%,23%,11%
+Florida,Charlotte,67,26,15,44%,20%,12%,38%,17%,10%
+Florida,Citrus,59,26,4,40%,20%,3%,34%,17%,3%
+Florida,Collier,77,34,19,49%,25%,15%,42%,21%,13%
+Florida,Dixie,61,19,2,41%,15%,2%,35%,13%,1%
+Florida,Duval,67,22,5,44%,17%,4%,38%,14%,3%
+Florida,Escambia,69,27,10,45%,21%,8%,39%,17%,7%
+Florida,Flagler,59,22,3,40%,17%,3%,34%,14%,2%
+Florida,Franklin,60,21,4,40%,17%,3%,35%,14%,3%
+Florida,Gulf,59,23,4,40%,18%,3%,34%,15%,3%
+Florida,Hernando,58,26,6,39%,20%,5%,34%,17%,4%
+Florida,Hillsborough,63,27,10,42%,21%,8%,36%,17%,7%
+Florida,Indian River,65,26,9,43%,20%,7%,37%,17%,6%
+Florida,Jefferson,56,14,1,38%,11%,1%,33%,9%,1%
+Florida,Lee,71,28,17,46%,22%,14%,40%,18%,11%
+Florida,Levy,62,22,4,42%,17%,3%,36%,14%,3%
+Florida,Manatee,65,28,11,43%,22%,9%,37%,18%,8%
+Florida,Martin,67,27,10,44%,21%,8%,38%,17%,7%
+Florida,Miami-Dade,79,37,21,50%,27%,17%,43%,23%,14%
+Florida,Monroe,103,50,26,59%,35%,20%,52%,30%,17%
+Florida,Nassau,69,20,5,45%,16%,4%,39%,13%,3%
+Florida,Okaloosa,62,24,8,42%,19%,7%,36%,16%,6%
+Florida,Palm Beach,77,34,13,49%,25%,11%,42%,21%,9%
+Florida,Pasco,63,26,7,42%,20%,6%,36%,17%,5%
+Florida,Pinellas,64,26,10,43%,20%,8%,36%,17%,7%
+Florida,Santa Rosa,61,25,8,41%,19%,7%,35%,16%,6%
+Florida,Sarasota,63,26,12,42%,20%,10%,36%,17%,8%
+Florida,St. Johns,68,23,5,44%,18%,4%,38%,15%,3%
+Florida,St. Lucie,63,23,8,42%,18%,7%,36%,15%,6%
+Florida,Taylor,62,16,1,42%,13%,1%,36%,11%,1%
+Florida,Volusia,69,26,3,45%,20%,3%,39%,17%,2%
+Florida,Wakulla,54,18,2,37%,14%,2%,32%,12%,1%
+Florida,Walton,60,26,8,40%,20%,7%,35%,17%,6%
+Georgia,,140,51,9,70%,36%,7%,63%,30%,6%
+Georgia,Bryan,69,21,3,45%,17%,3%,39%,14%,2%
+Georgia,Camden,72,18,5,46%,14%,4%,40%,12%,3%
+Georgia,Chatham,72,22,4,46%,17%,3%,40%,14%,3%
+Georgia,Glynn,64,15,5,43%,12%,4%,36%,10%,3%
+Georgia,Liberty,72,22,4,46%,17%,3%,40%,14%,3%
+Georgia,McIntosh,69,21,4,45%,17%,3%,39%,14%,3%
+Louisiana,,151,68,22,73%,44%,17%,66%,38%,14%
+Louisiana,Cameron ,53,23,7,37%,18%,6%,31%,15%,5%
+Louisiana,Iberia,59,25,7,40%,19%,6%,34%,16%,5%
+Louisiana,Jefferson,67,30,8,44%,23%,7%,38%,19%,6%
+Louisiana,Lafourche,71,33,8,46%,25%,7%,40%,21%,6%
+Louisiana,Orleans,54,23,6,37%,18%,5%,32%,15%,4%
+Louisiana,Plaquemines,80,35,10,50%,26%,8%,43%,22%,7%
+Louisiana,St. Bernard,74,33,11,47%,25%,9%,41%,21%,8%
+Louisiana,St. Mary,61,27,6,41%,21%,5%,35%,17%,4%
+Louisiana,St. Tammany,58,24,6,39%,19%,5%,34%,16%,4%
+Louisiana,Terrebonne,79,34,9,50%,25%,7%,43%,21%,6%
+Louisiana,Vermilion,52,24,7,36%,19%,6%,31%,16%,5%
+Maine,,34,10,2,25%,8%,2%,21%,7%,1%
+Maine,Cumberland,18,3,0,14%,3%,<1%,12%,2%,<1%
+Maine,Hancock,16,6,1,13%,5%,1%,11%,4%,1%
+Maine,Knox,20,6,1,16%,5%,1%,13%,4%,1%
+Maine,Lincoln,16,3,0,13%,3%,<1%,11%,2%,<1%
+Maine,Sagadahoc,17,3,0,14%,3%,<1%,11%,2%,<1%
+Maine,Waldo,15,3,0,12%,3%,<1%,10%,2%,<1%
+Maine,Washington,18,6,1,14%,5%,1%,12%,4%,1%
+Maine,York,22,5,1,17%,4%,1%,14%,3%,1%
+Maryland,,52,16,1,36%,13%,1%,31%,11%,1%
+Maryland,Anne Arundel,18,1,0,14%,1%,<1%,12%,1%,<1%
+Maryland,Baltimore,15,1,0,12%,1%,<1%,10%,1%,<1%
+Maryland,Baltimore City,12,1,0,10%,1%,<1%,8%,1%,<1%
+Maryland,Calvert,21,2,0,17%,2%,<1%,14%,1%,<1%
+Maryland,Cecil,18,1,0,14%,1%,<1%,12%,1%,<1%
+Maryland,Dorchester,26,5,0,20%,4%,<1%,17%,3%,<1%
+Maryland,Harford,15,0,0,12%,0%,<1%,10%,0%,<1%
+Maryland,Kent,18,0,0,14%,0%,<1%,12%,0%,<1%
+Maryland,Queen Anne's,19,1,0,15%,1%,<1%,13%,1%,<1%
+Maryland,Somerset,33,9,0,25%,7%,<1%,21%,6%,<1%
+Maryland,St. Mary's,27,3,0,21%,3%,<1%,17%,2%,<1%
+Maryland,Talbot,20,1,0,16%,1%,<1%,13%,1%,<1%
+Maryland,Wicomico,28,6,0,22%,5%,<1%,18%,4%,<1%
+Maryland,Worcester,38,13,1,28%,11%,1%,24%,9%,1%
+Massachusetts,,56,22,4,38%,17%,3%,33%,14%,3%
+Massachusetts,Barnstable,26,13,2,20%,11%,2%,17%,9%,1%
+Massachusetts,Dukes,31,11,2,24%,9%,2%,20%,8%,1%
+Massachusetts,Essex,22,7,1,17%,6%,1%,14%,5%,1%
+Massachusetts,Nantucket,30,14,2,23%,11%,2%,19%,9%,1%
+Massachusetts,Norfolk,23,7,1,18%,6%,1%,15%,5%,1%
+Massachusetts,Plymouth,25,10,2,19%,8%,2%,16%,7%,1%
+Massachusetts,Suffolk,22,7,1,17%,6%,1%,14%,5%,1%
+Mississippi,,106,47,11,60%,33%,9%,53%,28%,8%
+Mississippi,Hancock,54,22,6,37%,17%,5%,32%,14%,4%
+Mississippi,Harrison,59,26,6,40%,20%,5%,34%,17%,4%
+Mississippi,Jackson,55,24,8,38%,19%,7%,32%,16%,6%
+New Hampshire,,28,8,2,22%,7%,2%,18%,6%,1%
+New Hampshire,Rockingham,22,5,1,17%,4%,1%,14%,3%,1%
+New Jersey,,36,10,1,27%,8%,1%,23%,7%,1%
+New Jersey,Atlantic,27,10,1,21%,8%,1%,17%,7%,1%
+New Jersey,Burlington,25,8,0,19%,7%,<1%,16%,6%,<1%
+New Jersey,Cape May,28,10,1,22%,8%,1%,18%,7%,1%
+New Jersey,Essex,20,4,0,16%,3%,<1%,13%,3%,<1%
+New Jersey,Hudson,20,4,0,16%,3%,<1%,13%,3%,<1%
+New Jersey,Middlesex,21,5,0,17%,4%,<1%,14%,3%,<1%
+New Jersey,Monmouth,25,9,1,19%,7%,1%,16%,6%,1%
+New Jersey,Ocean,28,10,1,22%,8%,1%,18%,7%,1%
+New Jersey,Salem,18,2,0,14%,2%,<1%,12%,1%,<1%
+New Jersey,Union,20,4,0,16%,3%,<1%,13%,3%,<1%
+New York,,43,14,3,31%,11%,3%,26%,9%,2%
+New York,Bronx,23,7,1,18%,6%,1%,15%,5%,1%
+New York,Kings,21,6,0,17%,5%,<1%,14%,4%,<1%
+New York,Nassau,24,8,2,19%,7%,2%,16%,6%,1%
+New York,New York,26,9,1,20%,7%,1%,17%,6%,1%
+New York,Queens,24,8,1,19%,7%,1%,16%,6%,1%
+New York,Richmond,23,7,0,18%,6%,<1%,15%,5%,<1%
+New York,Suffolk,33,12,3,25%,10%,3%,21%,8%,2%
+New York,Westchester,24,7,1,19%,6%,1%,16%,5%,1%
+North Carolina,,159,68,11,75%,44%,9%,68%,38%,8%
+North Carolina,Beaufort,66,22,1,43%,17%,1%,37%,14%,1%
+North Carolina,Bertie,57,15,1,39%,12%,1%,33%,10%,1%
+North Carolina,Brunswick,74,32,6,47%,24%,5%,41%,20%,4%
+North Carolina,Camden,61,20,1,41%,16%,1%,35%,13%,1%
+North Carolina,Carteret,92,46,6,55%,33%,5%,48%,28%,4%
+North Carolina,Chowan,49,17,1,35%,14%,1%,29%,11%,1%
+North Carolina,Craven,76,31,1,48%,24%,1%,42%,20%,1%
+North Carolina,Currituck,63,22,2,42%,17%,2%,36%,14%,1%
+North Carolina,Dare,94,45,6,56%,32%,5%,49%,27%,4%
+North Carolina,Gates,41,12,0,30%,10%,<1%,25%,8%,<1%
+North Carolina,Hertford,46,11,0,33%,9%,<1%,28%,8%,<1%
+North Carolina,Hyde,97,45,5,57%,32%,4%,50%,27%,3%
+North Carolina,New Hanover,71,32,6,46%,24%,5%,40%,20%,4%
+North Carolina,Onslow,74,35,5,47%,26%,4%,41%,22%,3%
+North Carolina,Pamlico,73,31,2,47%,24%,2%,40%,20%,1%
+North Carolina,Pasquotank,55,19,1,38%,15%,1%,32%,13%,1%
+North Carolina,Pender,76,35,6,48%,26%,5%,42%,22%,4%
+North Carolina,Perquimans,52,18,1,36%,14%,1%,31%,12%,1%
+North Carolina,Tyrrell,64,26,2,43%,20%,2%,36%,17%,1%
+North Carolina,Washington,58,19,1,39%,15%,1%,34%,13%,1%
+Rhode Island,,32,11,2,24%,9%,2%,20%,8%,1%
+Rhode Island,Bristol,21,8,2,17%,7%,2%,14%,6%,1%
+Rhode Island,Kent,23,8,1,18%,7%,1%,15%,6%,1%
+Rhode Island,Newport,25,10,2,19%,8%,2%,16%,7%,1%
+Rhode Island,Providence,25,9,1,19%,7%,1%,16%,6%,1%
+Rhode Island,Washington/South,28,9,2,22%,7%,2%,18%,6%,1%
+South Carolina,,118,48,12,64%,34%,10%,57%,29%,8%
+South Carolina,Beaufort,67,22,5,44%,17%,4%,38%,14%,3%
+South Carolina,Charleston,80,33,7,50%,25%,6%,43%,21%,5%
+South Carolina,Colleton,71,26,6,46%,20%,5%,40%,17%,4%
+South Carolina,Georgetown,64,27,6,43%,21%,5%,36%,17%,4%
+South Carolina,Horry,69,32,6,45%,24%,5%,39%,20%,4%
+South Carolina,Jasper,69,21,4,45%,17%,3%,39%,14%,3%
+Texas,,133,64,24,68%,43%,19%,61%,36%,16%
+Texas,Aransas,30,16,7,23%,13%,6%,19%,11%,5%
+Texas,Brazoria,51,25,7,36%,19%,6%,30%,16%,5%
+Texas,Calhoun,41,20,7,30%,16%,6%,25%,13%,5%
+Texas,Cameron,39,20,7,29%,16%,6%,24%,13%,5%
+Texas,Chambers,51,24,7,36%,19%,6%,30%,16%,5%
+Texas,Galveston,58,29,8,39%,22%,7%,34%,19%,6%
+Texas,Harris,49,24,6,35%,19%,5%,29%,16%,4%
+Texas,Jefferson,49,25,6,35%,19%,5%,29%,16%,4%
+Texas,Kenedy,39,21,10,29%,17%,8%,24%,14%,7%
+Texas,Kleberg,36,19,8,27%,15%,7%,23%,13%,6%
+Texas,Matagorda,54,27,11,37%,21%,9%,32%,17%,8%
+Texas,Nueces,39,21,9,29%,17%,7%,24%,14%,6%
+Texas,Refugio,34,14,6,25%,11%,5%,21%,9%,4%
+Texas,San Patricio,34,17,7,25%,14%,6%,21%,11%,5%
+Texas,Willacy,35,19,8,26%,15%,7%,22%,13%,6%
+Virginia,,86,31,2,52%,24%,2%,46%,20%,1%
+Virginia,Accomack,44,13,0,32%,11%,<1%,27%,9%,<1%
+Virginia,Gloucester,34,7,0,25%,6%,<1%,21%,5%,<1%
+Virginia,Hampton,44,12,0,32%,10%,<1%,27%,8%,<1%
+Virginia,Lancaster,31,5,0,24%,4%,<1%,20%,3%,<1%
+Virginia,Mathews,34,7,0,25%,6%,<1%,21%,5%,<1%
+Virginia,Middlesex,33,5,0,25%,4%,<1%,21%,3%,<1%
+Virginia,Newport News,35,8,0,26%,7%,<1%,22%,6%,<1%
+Virginia,Norfolk,42,12,0,30%,10%,<1%,26%,8%,<1%
+Virginia,Northampton,44,13,0,32%,11%,<1%,27%,9%,<1%
+Virginia,Northumberland,30,5,0,23%,4%,<1%,19%,3%,<1%
+Virginia,Poquoson,38,9,0,28%,7%,<1%,24%,6%,<1%
+Virginia,Portsmouth,38,10,0,28%,8%,<1%,24%,7%,<1%
+Virginia,Suffolk,41,11,0,30%,9%,<1%,25%,8%,<1%
+Virginia,Virginia Beach,50,18,0,35%,14%,<1%,30%,12%,<1%
+Virginia,York,40,9,0,29%,7%,<1%,25%,6%,<1%
+Canada,,100,48,2,58%,34%,2%,51%,29%,1%
+New Brunswick,,57,11,1,39%,9%,1%,33%,8%,1%
+Newfoundland and Labrador,,43,24,1,31%,19%,1%,26%,16%,1%
+Nova Scotia,,77,44,1,49%,32%,1%,42%,27%,1%
+Prince Edward Island,,14,9,0,11%,7%,<1%,9%,6%,<1%
+Mexico,,204,83,29,83%,51%,22%,76%,44%,19%
+Campeche,,89,33,7,54%,25%,6%,47%,21%,5%
+Quintana Roo,,139,57,23,70%,39%,18%,63%,33%,15%
+Tabasco,,40,8,0,29%,7%,<1%,25%,6%,<1%
+Tamaulipas,,89,43,14,54%,31%,11%,47%,26%,9%
+Veracruz,,83,32,4,51%,24%,3%,44%,20%,3%
+Yucatan,,107,43,18,60%,31%,14%,53%,26%,12%
+Anguilla,,61,28,12,41%,22%,10%,35%,18%,8%
+Antigua and Barbuda,,46,23,10,33%,18%,8%,28%,15%,7%
+Aruba,,15,7,0,12%,6%,<1%,10%,5%,<1%
+"Bahamas, The",,237,106,50,87%,60%,35%,81%,53%,30%
+Barbados,,47,9,2,33%,7%,2%,28%,6%,1%
+Belize,,76,30,9,48%,23%,7%,42%,19%,6%
+Bermuda,,71,42,17,46%,30%,14%,40%,26%,11%
+Bonaire,,11,5,0,9%,4%,<1%,8%,3%,<1%
+Cabo Verde,,25,4,0,19%,3%,<1%,16%,3%,<1%
+Cayman Islands,,71,37,11,46%,27%,9%,40%,23%,8%
+Costa Rica,,8,3,1,7%,3%,1%,6%,2%,1%
+Cuba,,204,102,41,83%,59%,30%,76%,51%,25%
+Curacao,,13,6,0,11%,5%,<1%,9%,4%,<1%
+Dominica,,57,21,10,39%,17%,8%,33%,14%,7%
+Dominican Republic,,123,61,26,65%,41%,20%,58%,35%,17%
+Grenada,,46,10,1,33%,8%,1%,28%,7%,1%
+Guadeloupe,,59,28,10,40%,22%,8%,34%,18%,7%
+Guatemala,,68,23,4,44%,18%,3%,38%,15%,3%
+Haiti,,82,42,14,51%,30%,11%,44%,26%,9%
+Honduras,,146,46,16,72%,33%,13%,64%,28%,11%
+Jamaica,,88,36,12,53%,27%,10%,46%,23%,8%
+Martinique,,59,17,6,40%,14%,5%,34%,11%,4%
+Montserrat,,43,22,8,31%,17%,7%,26%,14%,6%
+Nicaragua,,62,25,11,42%,19%,9%,36%,16%,8%
+Panama,,2,1,0,2%,1%,<1%,1%,1%,<1%
+Puerto Rico,,73,38,14,47%,28%,11%,40%,24%,9%
+Saba,,39,23,9,29%,18%,7%,24%,15%,6%
+Saint Kitts and Nevis,,59,32,13,40%,24%,11%,34%,20%,9%
+Saint Lucia,,73,15,5,47%,12%,4%,40%,10%,3%
+Saint Martin,,43,23,11,31%,18%,9%,26%,15%,8%
+Saint Vincent and the Grenadines,,74,13,2,47%,11%,2%,41%,9%,1%
+Sint Eustatius,,40,23,11,29%,18%,9%,25%,15%,8%
+Sint Maarten,,43,23,11,31%,18%,9%,26%,15%,8%
+Trinidad and Tobago,,11,3,0,9%,3%,<1%,8%,2%,<1%
+Turks and Caicos,,73,32,16,47%,24%,13%,40%,20%,11%
+UK Virgin Islands,,69,35,15,45%,26%,12%,39%,22%,10%
+US Virgin Islands,,57,30,12,39%,23%,10%,33%,19%,8%
