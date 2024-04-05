@@ -2921,6 +2921,55 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   keyword1: Cyclogenesis
   keyword2: Hadley circulation
   keyword3: Tropical cyclone
+- id: Song_etal_2023_ERCa.yml
+  year: 2023
+  title: ""
+  title: "Quasi-biennial modulation of rapidly intensifying tropical cyclones by the western North Pacific monsoon"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Song, Jinjie, and Klotzbach, Philip J., and Qingyuan, Liu, and Duan, Yihong
+  journal: Environmental Research Communications
+  others:  5 
+  doi: https://dx.doi.org/10.1088/2515-7620/acd43b
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Previous publications have highlighted the relationship between several climate modes such as El Niño–Southern Oscillation and tropical cyclones (TCs) experiencing rapid intensification (RI) over the western North Pacific (WNP), particularly on a 3–7-yr timescale. This study investigates the modulation of TCs experiencing RI by the WNP monsoon on biennial timescales. There is a significant positive relationship between rapidly intensifying TC (RITC) frequency over the WNP during July–November from 1980 to 2021 and the simultaneous WNP monsoon index. After classifying different WNP monsoon years on biennial timescales, we find significantly more TCs forming over the key region from 5°–25°N, 140°–160°E during strong WNP monsoon years. Some of these TCs then move westward into the portion of the WNP that climatologically has the most RI-favorable environmental conditions. Alternatively, other TCs forming in the key region move northward and undergo RI quickly after genesis, subsequently leading to an increase in rapidly intensifying WNP TC frequency. The WNP monsoon influences rapidly intensifying TC activity predominantly through modulation of large-scale atmospheric conditions. During strong WNP monsoon years, increased low-to-mid-level humidity, low-level vorticity and upper-level divergence and decreased vertical wind shear all favor TC genesis and RI development over the key region. A strong WNP monsoon is also associated with an anomalous 850-hPa cyclone, an anomalous 200-hPa anticyclone, increased 600-hPa moisture convergence and a decrease in the magnitude of 200-hPa winds over the key region. Our study highlights that the WNP monsoon significantly modulates TC and RITC activity at distinct timescales."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Song_etal_2023_ERCa.bib 
+  pdf: ../Publications/papers/Song_etal_2023_ERCa.pdf
+  keyword1: Rapid Intensification  
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+- id: Song_etal_2023_ERCb.yml
+  year: 2023
+  title: "Decadal changes in rapid intensification of western North Pacific tropical cyclones modulated by the North Pacific Gyre Oscillation"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Qingyuan, Liu, and Duan, Yihong
+  journal: Environmental Research Communications
+  others:  5 
+  doi: https://dx.doi.org/10.1088/2515-7620/ace762
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study investigates the modulation of western North Pacific (WNP) tropical cyclone rapid intensification (RI) by the North Pacific Gyre Oscillation (NPGO) on decadal timescales. There is a significant inverse relationship between basinwide RI numbers during July–November and the simultaneous NPGO index from 1970 to 2021. During the positive NPGO phase, suppressed RI occurs over almost the entire WNP, with a distinctly different spatial distribution compared to the Pacific Decadal Oscillation-driven pattern of RI modulation. RI occurrence is significantly reduced over the eastern Philippine Sea (10°–25°N, 140°–155°E). This is primarily caused by enhanced negative low-level vorticity, which can be linked to the horizontal extent of the anomalous low-level anticyclone. By comparison, over the western Philippine Sea (10°–25°N, 125°–140°E), there are only weak RI occurrence changes due to offsetting influences of increased mid-level humidity and decreased low-level vorticity."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Song_etal_2023_ERCb.bib 
+  pdf: ../Publications/papers/Song_etal_2023_ERCb.pdf
+  keyword1: Rapid Intensification  
+  keyword2: tropical cyclone
+  keyword3: North Pacific Gyre Oscillation
+  
+  
   
   
   

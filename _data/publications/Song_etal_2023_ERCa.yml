@@ -1,0 +1,24 @@
+- id: Song_etal_2023_ERCa.yml
+  year: 2023
+  title: "Quasi-biennial modulation of rapidly intensifying tropical cyclones by the western North Pacific monsoon"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Song, Jinjie, and Klotzbach, Philip J., and Qingyuan, Liu, and Duan, Yihong
+  journal: Environmental Research Communications
+  others:  5 
+  doi: https://dx.doi.org/10.1088/2515-7620/acd43b
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Previous publications have highlighted the relationship between several climate modes such as El Niño–Southern Oscillation and tropical cyclones (TCs) experiencing rapid intensification (RI) over the western North Pacific (WNP), particularly on a 3–7-yr timescale. This study investigates the modulation of TCs experiencing RI by the WNP monsoon on biennial timescales. There is a significant positive relationship between rapidly intensifying TC (RITC) frequency over the WNP during July–November from 1980 to 2021 and the simultaneous WNP monsoon index. After classifying different WNP monsoon years on biennial timescales, we find significantly more TCs forming over the key region from 5°–25°N, 140°–160°E during strong WNP monsoon years. Some of these TCs then move westward into the portion of the WNP that climatologically has the most RI-favorable environmental conditions. Alternatively, other TCs forming in the key region move northward and undergo RI quickly after genesis, subsequently leading to an increase in rapidly intensifying WNP TC frequency. The WNP monsoon influences rapidly intensifying TC activity predominantly through modulation of large-scale atmospheric conditions. During strong WNP monsoon years, increased low-to-mid-level humidity, low-level vorticity and upper-level divergence and decreased vertical wind shear all favor TC genesis and RI development over the key region. A strong WNP monsoon is also associated with an anomalous 850-hPa cyclone, an anomalous 200-hPa anticyclone, increased 600-hPa moisture convergence and a decrease in the magnitude of 200-hPa winds over the key region. Our study highlights that the WNP monsoon significantly modulates TC and RITC activity at distinct timescales."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Song_etal_2023_ERCa.bib 
+  pdf: ../../Publications/papers/Song_etal_2023_ERCa.pdf
+  keyword1: Rapid Intensification  
+  keyword2: tropical cyclone
+  keyword3: western north Pacific
+  
