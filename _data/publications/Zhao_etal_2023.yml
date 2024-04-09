@@ -1,0 +1,24 @@
+- id: Zhao_etal_2023.yml
+  year: 2023
+  title: "On the relationship between eastern China aerosols and western North Pacific tropical cyclone activity"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Haikun Zhao, and Yunjie Jiang, and Kai Zhao, and Jian Cao, and Philip J. Klotzbach, and Graciela B. Raga, and Liguang Wu
+  journal: Atmospheric Research
+  others:   
+  doi: https://doi.org/10.1016/j.atmosres.2023.106604
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "How aerosols affect the weather and climate system has received increasing attention. This study finds a significant negative correlation between March–May eastern China aerosol optical depth (AOD) and July–November western North Pacific (WNP) tropical cyclone (TC) frequency during 2003–2020. This time period spans when several aerosol reanalyses are available and both Terra and Aqua Moderate Resolution Imaging Spectroradiometer AOD retrievals are assimilated therein. Composite analyses and budget analyses of dynamical genesis potential indices indicate the importance of large-scale environmental factors, especially vertical velocity and vertical wind shear, associated with changes in AOD that in turn modulate changes in WNP TC frequency. Increased eastern China AOD may facilitate negative Pacific meridional mode development via modulation of the westerly jet, which then forces an anticyclonic circulation over the WNP basin. Increased AOD can also directly decrease the inter-hemispheric temperature differential and increases the intra-hemispheric temperature differential between the equator and the mid-latitudes, thus weakening ascending motion and enhancing vertical wind shear over the WNP, especially the southeastern portion of the basin. All of these large-scale environment changes induced by increased eastern China AOD tend to suppress WNP TCs. This study highlights the potential influence of eastern China aerosol loadings on WNP TCs, thus improving our understanding of TC climate variability over the WNP."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhao_etal_2023.bib 
+  pdf: ../../Publications/papers/Zhao_etal_2023.pdf
+  keyword1: Eastern China aerosols
+  keyword2: tropical cyclone
+  keyword3: Pacific Meridional Mode
+  
