@@ -1,0 +1,25 @@
+- id: Dolan_etal_JGR_2023.yml
+  year: 2023
+  title: "A Statistical Framework for Evaluating Rain Microphysics in Model Simulations and Disdrometer Observations"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Saleeby, Stephen M. and Rutledge, Steven A. and van den Heever, Susan C. and Van Valkenburg, Kristen
+  journal: "Journal of Geophysical Research: Atmospheres"
+  others: 128, e2023JD038902  
+  doi: https://doi.org/10.1029/2023JD038902
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: 
+  abstract: "Abstract Statistical analyses of a large disdrometer data set and a diverse set of model simulations for convection using the Regional Atmospheric Modeling System were conducted, with the mutual goal of providing insights into precipitation formation and microphysical processes. We demonstrate that a two-moment bulk microphysical model successfully captures the dominant observed modes of variability in rainfall related to rainfall intensity and raindrop size distributions. The model reproduced the general distribution of observed precipitation groups (PGs) derived from Principal Component Analysis. The multi-variable analysis also uncovered some shortcomings in the model as well as limitations of the disdrometer data. The model solutions were constrained in their predicted drop size distributions (DSDs) due to the fixed DSD parameters assumed in a two-moment microphysics scheme. A case study from the Mid-latitude Continental Clouds and Convection Experiment field project demonstrated how model results can be used to contextualize the disdrometer observations which are limited in sample size, spatial coherence, and detection of small drops and low drop concentrations. The case study also showed that the spatial patterns of the statistically derived PGs revealed by the model are consistent with the hypothesized microphysical processes that determine surface rain DSDs. This work demonstrates how leveraging the strengths of observations and models together can improve our understanding and representation of rain microphysical processes."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Dolan_etal_JGR_2023.bib 
+  pdf: ../../Publications/papers/Dolan_etal_JGR_2023.pdf
+  keyword1: disdrometer dataset 
+  keyword2: drop size distribution
+  keyword3: rain microphysical processes
+  

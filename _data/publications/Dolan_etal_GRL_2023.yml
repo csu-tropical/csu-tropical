@@ -1,0 +1,24 @@
+- id: Dolan_etal_GRL_2023.yml
+  year: 2023
+  title: "Time Resolved Reflectivity Measurements of Convective Clouds"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Kollias, Pavlos and van den Heever, Susan C. and Rasmussen, Kristen L. and Oue, Mariko and Luke, Edward and Lamer, Katia and Treserras, Bernat P. and Haddad, Ziad and Stephens, Graeme and Chandrasekar, V.
+  journal: Geophysical Research Letters 
+  others: 50, e2023GL105723 
+  doi: https://doi.org/10.1029/2023GL105723
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Abstract National Aeronautics and Space Administration's Investigations of Convective Updrafts (INCUS) mission aims to document convective mass flux through changes in the radar reflectivity (ΔZ) in convective cores captured by a constellation of three Ka-band radars sampling the same convective cells over intervals of 30, 90, and 120 s. Here, high spatiotemporal resolution observations of convective cores from surface-based radars that use agile sampling techniques are used to evaluate aspects of the INCUS measurement approach using real observations. Analysis of several convective cells confirms that large coherent ΔZ structure with measurable signal (>5 dB) can occur in less than 30 s and are correlated with underlying convective motions. The analysis indicates that the INCUS mission radar footprint and along track sampling are adequate to capture most of the desirable ΔZ signals. This unique demonstration of reflectivity time-lapse provides the framework for estimating convective mass flux independent from Doppler techniques with future radar observations."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Dolan_etal_GRL_2023.bib 
+  pdf: ../../Publications/papers/Dolan_etal_GRL_2023.pdf
+  keyword1: radar reflectivity
+  keyword2: convective clouds 
+  keyword3: 
+  
