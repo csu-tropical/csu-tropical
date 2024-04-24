@@ -1,0 +1,25 @@
+- id: Dolan_etal_2022.yml
+  year: 2022
+  title: "Multiscale Interactions Contributing to Enhanced Orographic Precipitation in Landfalling Frontal Systems over the Olympic Peninsula"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Rutledge, Steven A. and Rasmussen, Kristen L 
+  journal: "Monthly Weather Review"
+  others: 150, 6  
+  doi: https://doi.org/10.1175/MWR-D-21-0160.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Orographic precipitation results from complex interactions between terrain, large-scale flow, turbu- lent motions, and microphysical processes. This study appeals to polarimetric radar data in conjunction with surface-based disdrometer observations, airborne particle probes, and reanalysis data to study these processes and their interactions as observed during the Olympic Mountain Experiment (OLYMPEX). Radar and disdrometer observations from OLYMPEX, which was conducted over the Olympic Peninsula in the winter of 2015, revealed 3 times as much rain fell over elevated sites compared to those along the ocean and coast. Several events were marked by significant water vapor transport and strong onshore flow. Detailed analysis of four cases demonstrated that the warm sector, which previous authors noted to be a period of strong orographic enhancement over the terrain, is associated not only with deeper warm cloud regions, but also deeper cold cloud regions, with the latter supporting the growth of dendritic ice crystals between 4 and 6 km. This dendritic growth promotes enhanced aggre- gation just above the melting layer, which then seeds the warm cloud layer below, allowing additional drop growth via coalescence. Periods of subsynoptic variability associated with mesoscale boundaries and low-level jets are shown to locally modify both the ice microphysics as well as surface drop-size distributions. This study explores the spatial and temporal variability of precipitation, cloud microphysics, and their relationship over the complex terrain of the Olympic Peninsula.
+"
+  summary: "This study appeals to polarimetric radar, aircraft particle probes, disdrometer data, and reanalysis to investigate the complex interactions between large frontal systems, terrain, and microphys- ical processes contributing to precipitation characteristics at the surface over the Olympic Peninsula. The study finds that the precipitation is a complex function of the synoptic regime, distance inland, and terrain height. Ice microphysical processes aloft act to modulate the surface rain drop size distributions, and are more important in contributing to higher rain accumulations inland during the later phases of the warm sector, particularly over the middle terrain heights (100–500 m)." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Dolan_etal_2022.bib 
+  pdf: ../../Publications/papers/Dolan_etal_2022.pdf
+  keyword1: complex terrain 
+  keyword2: precipitation 
+  keyword3: radar observations 
+  

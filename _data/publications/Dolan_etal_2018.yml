@@ -1,0 +1,24 @@
+- id: Dolan_etal_2018.yml
+  year: 2018
+  title: "Primary modes of global drop size distributions"
+  author1: dolan 
+  author2: false
+  author3: false
+  authors: Dolan, Brenda and Fuchs, B. and Rutledge, Steven A. and Barnes, E.A. and Thompson, E.J.
+  journal: "Journal of the Atmospheric Sciences"
+  others: 75  
+  doi: https://doi.org/10.1175/JAS-D-17-0242.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Understanding drop size distribution (DSD) variability has important implications for remote sensing and numerical modeling applications. Twelve disdrometer datasets across three latitude bands are analyzed in this study, spanning a broad range of precipitation regimes: light rain, orographic, deep convective, organized midlatitude, and tropical oceanic. Principal component analysis (PCA) is used to reveal comprehensive modes of global DSD spatial and temporal variability. Although the locations contain different distributions of individual DSD parameters, all locations are found to have the same modes of variability. Based on PCA, six groups of points with unique DSD characteristics emerge. The physical processes that underpin these groups are revealed through supporting radar observations. Group 1 (group 2) is characterized by high (low) liquid water content (LWC), broad (narrow) distribution widths, and large (small) median drop diameters D0. Radar analysis identifies group 1 (group 2) as convective (stratiform) rainfall. Group 3 is characterized by weak, shallow radar echoes and large concentrations of small drops, indicative of warm rain showers. Group 4 identifies heavy stratiform precipitation. The low latitudes exhibit distinct bimodal distributions of the nor- malized intercept parameter Nw, LWC, and D0 and are found to have a clustering of points (group 5) with high rain rates, large Nw, and moderate D0, a signature of robust warm rain processes. A distinct group associated with ice-based convection (group 6) emerges in the midlatitudes. Although all locations exhibit the same covariance of parameters associated with these groups, it is likely that the physical processes responsible for shaping the DSDs vary as a function of location."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Dolan_etal_2018.bib 
+  pdf: ../../Publications/papers/Dolan_etal_2018.pdf
+  keyword1: drop size distribution 
+  keyword2: precipitation 
+  keyword3: microphysics
+  
