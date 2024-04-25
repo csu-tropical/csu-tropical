@@ -1,0 +1,24 @@
+- id: Zhang_etal_JCLI_2023.yml
+  year: 2023
+  title: "Interannual Variability in the Boreal Summer Intraseasonal Oscillation Modulates the Meridional Migration of Western North Pacific Tropical Cyclone Genesis"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Shufen Zhang and Haikun Zhao and Philip J. Klotzbach and Xianan Jiang and Guosen Chen and Shaohua Chen
+  journal: Journal of Climate
+  others:  36 
+  doi: https://doi.org/10.1175/JCLI-D-22-0406.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Prior studies have emphasized the influence of the boreal summer intraseasonal oscillation (BSISO) on basin-scale and global-scale tropical cyclones (TCs). An improved understanding of the BSISO’s impact on TCs at various climate time scales will likely lead to improved subseasonal-to-seasonal prediction. This study explores the impact of BSISO interannual variability on western North Pacific (WNP) TCs. We find that interannual meridional variability in the BSISO modulates the meridional migration of WNP TC genesis and is related to changes in BSISO phase structure. These structural changes are characterized by occurrence frequency changes for individual BSISO phases between the equatorial region over the eastern Indian Ocean (EIO)–Maritime Continent (MC) and the subtropical region over the South China Sea (SCS)–western Pacific. This interannual north–south change of the BSISO appears to be associated with changes in sea surface temperature over the MC region and WNP mid-to-low-tropospheric moisture advection, mainly via remote forcing of a Gill-type Rossby response to BSISO convection and a large meridional asymmetry of the low-level background moisture distribution. During years with increased BSISO residence time over the subtropical SCS–western Pacific, more TCs occur over the northern WNP due to TC-favorable BSISO-associated convection and circulation. In contrast, more TCs occur over the southern WNP in years with increased BSISO convection residence time over the equatorial EIO–MC. We find that the increase in frequency of BSISO phase occurrence over the subtropical SCS–western Pacific since the late 1990s has potentially contributed to a recent poleward shift of WNP TC genesis."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhang_etal_JCLI_2023.bib 
+  pdf: ../../Publications/papers/Zhang_etal_JCLI_2023.pdf
+  keyword1: Madden-Julian oscillation
+  keyword2: Tropical Cyclones
+  keyword3: Interannual variability
+  

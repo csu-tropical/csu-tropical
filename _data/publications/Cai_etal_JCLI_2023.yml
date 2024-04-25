@@ -1,0 +1,24 @@
+- id: Cai_etal_JCLI_2023.yml
+  year: 2023
+  title: "Can Tibetan Plateau Snow Depth Influence the Interannual Association between Tropical Indian Ocean Sea Surface Temperatures and Rapidly Intensifying Typhoons?"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors:  Cai, Yuhao, and Zhao, Haikun and Klotzbach, Philip J., and Raga, Graciela B. and Xu, Jing, and Wu, Liquang, and Han, Xiang, and He, Bian and Cao, Jian 
+  journal: Journal of Climate
+  others:  36 
+  doi: https://doi.org/10.1175/JCLI-D-22-0697.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study finds that the observed decrease in winter–spring Tibetan Plateau snow depth since 2000 has played an important role in weakening the correlation between rapidly intensifying tropical cyclones over the western North Pacific and tropical Indian Ocean sea surface temperatures (SSTs). Tibetan Plateau snow depth modulates convec- tive activity through changes in the South Asian high. Increased Tibetan Plateau snow depth promotes basinwide tropical Indian Ocean cooling in spring through a Gill-type response. In the following seasons, downward latent heat flux anomalies associated with a weaker monsoon circulation contributes to warm SST anomalies over the western tropical Indian Ocean, thus favoring a positive phase of the Indian Ocean dipole. This evolution of tropical Indian Ocean SSTs associated with anomalously high Tibetan Plateau snow depth potentially weakens the relationship between rapidly intensifying tropical cyclone frequency and spring tropical Indian Ocean SSTs. When the effect of Tibetan Plateau snow depth is removed via partial correlation analysis, we find a significant relationship between spring tropical Indian Ocean SSTs and rapidly inten- sifying tropical cyclones as well as corresponding large-scale environmental factors. The results of this study enhance un- derstanding of changes in tropical cyclone intensity and have implications for seasonal forecasting of tropical cyclone intensity over the western North Pacific basin. This study also emphasizes the importance of Tibetan Plateau thermal forc- ing in atmosphere–ocean coupling." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Cai_etal_JCLI_2023.bib 
+  pdf: ../../Publications/papers/Cai_etal_JCLI_2023.pdf
+  keyword1: Sea surface temperature
+  keyword2: tropical cyclones
+  keyword3: climate variability
+  
