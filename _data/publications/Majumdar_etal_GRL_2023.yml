@@ -1,0 +1,24 @@
+- id: Majumdar_etal_GRL_2023.yml
+  year: 2023
+  title: "North Atlantic Tropical Cyclone Intensification: Regional Drivers and Trends"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Majumdar, Sharanya J. and Nebylitsa, Samantha and Klotzbach, Philip J. and Masiello, Cameron and Michael, Zachary R. 
+  journal: Geophysical Research Letters
+  others:  50, e2023GL104803 
+  doi: https://doi.org/10.1029/2023GL104803
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Abstract Using 42 years of reanalysis data, we investigate regional, storm-relative characteristics of three groups of Atlantic tropical cyclone intensification: slightly, moderately, and rapidly intensifying. Probability density functions are distinct between these groups for vertical wind shear, sea surface temperature (SST), and radius of maximum winds (RMW), but less so for relative humidity (RH). In the Gulf of Mexico and southern North Atlantic, shear and RMW are good predictors. In the open Atlantic, north of 22°N, shear and SST are the best predictors. In the Caribbean, weaker relationships suggest low statistical predictability in a region where RI cases increased between 1980–2000 and 2001–2021. Of our storm-relative variables tested, increasing SST appears to be most closely connected to the 36% increase in rapidly intensifying events between the two periods, whereas shear and RH are not significantly more favorable. The variability across regions, periods, and variables motivates further investigation."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Majumdar_etal_GRL_2023.bib 
+  pdf: ../../Publications/papers/Majumdar_etal_GRL_2023.pdf
+  keyword1: Rapid Intensification 
+  keyword2: Tropical Cyclones
+  keyword3: Hurricanes
+  

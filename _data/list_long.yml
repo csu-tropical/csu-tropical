@@ -3155,6 +3155,79 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   keyword1: Madden-Julian oscillation
   keyword2: Tropical Cyclones
   keyword3: Interannual variability
+- id: Takaya_etal_TCRR_2023.yml
+  year: 2023
+  title: "Recent advances in seasonal and multi-annual tropical cyclone forecasting"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yuhei Takaya and Louis-Philippe Caron and Eric Blake and François Bonnardot and Nicolas Bruneau and Joanne Camp and Johnny Chan and Paul Gregory and Jhordanne J. Jones and Namyoung Kang and Philip J. Klotzbach and Yuriy Kuleshov and Marie-Dominique Leroux and Julia F. Lockwood and Hiroyuki Murakami and Akio Nishimura and Dushmanta R. Pattanaik and Tom J. Philp and Yohan Ruprich-Robert and Ralf Toumi and Frédéric Vitart and Seonghee Won and Ruifen Zhan
+  journal: Tropical Cyclone Research and Review
+  abstract: "Seasonal tropical cyclone (TC) forecasting has evolved substantially since its commencement in the early 1980s. However, present operational seasonal TC forecasting services still do not meet the requirements of society and stakeholders: current operational products are mainly basin-scale information, while more detailed sub-basin scale information such as potential risks of TC landfall is anticipated for decision making. To fill this gap and make the TC science and services move forward, this paper reviews recent research and development in seasonal tropical cyclone (TC) forecasting. In particular, this paper features new research topics on seasonal TC predictability in neutral conditions of El Niño–Southern Oscillation (ENSO), emerging forecasting techniques of seasonal TC activity including Machine Learning/Artificial Intelligence, and multi-annual TC predictions. We also review the skill of forecast systems at predicting landfalling statistics for certain regions of the North Atlantic, Western North Pacific and South Indian oceans and discuss the gap that remains between current products and potential user's expectations. New knowledge and advanced forecasting techniques are expected to further enhance the capability of seasonal TC forecasting and lead to more actionable and fit-for-purpose products."
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.09.003 
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Prior studies have emphasized the influence of the boreal summer intraseasonal oscillation (BSISO) on basin-scale and global-scale tropical cyclones (TCs). An improved understanding of the BSISO’s impact on TCs at various climate time scales will likely lead to improved subseasonal-to-seasonal prediction. This study explores the impact of BSISO interannual variability on western North Pacific (WNP) TCs. We find that interannual meridional variability in the BSISO modulates the meridional migration of WNP TC genesis and is related to changes in BSISO phase structure. These structural changes are characterized by occurrence frequency changes for individual BSISO phases between the equatorial region over the eastern Indian Ocean (EIO)–Maritime Continent (MC) and the subtropical region over the South China Sea (SCS)–western Pacific. This interannual north–south change of the BSISO appears to be associated with changes in sea surface temperature over the MC region and WNP mid-to-low-tropospheric moisture advection, mainly via remote forcing of a Gill-type Rossby response to BSISO convection and a large meridional asymmetry of the low-level background moisture distribution. During years with increased BSISO residence time over the subtropical SCS–western Pacific, more TCs occur over the northern WNP due to TC-favorable BSISO-associated convection and circulation. In contrast, more TCs occur over the southern WNP in years with increased BSISO convection residence time over the equatorial EIO–MC. We find that the increase in frequency of BSISO phase occurrence over the subtropical SCS–western Pacific since the late 1990s has potentially contributed to a recent poleward shift of WNP TC genesis."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Takaya_etal_TCRR_2023.bib 
+  pdf: ../Publications/papers/Takaya_etal_TCRR_2023.pdf
+  keyword1: boreal summer intraseasonal oscillation
+  keyword2: Tropical Cyclones
+  keyword3: Interannual variability
+- id: Majumdar_etal_GRL_2023.yml
+  year: 2023
+  title: "North Atlantic Tropical Cyclone Intensification: Regional Drivers and Trends"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Majumdar, Sharanya J. and Nebylitsa, Samantha and Klotzbach, Philip J. and Masiello, Cameron and Michael, Zachary R. 
+  journal: Geophysical Research Letters
+  others:  50, e2023GL104803 
+  doi: https://doi.org/10.1029/2023GL104803
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Abstract Using 42 years of reanalysis data, we investigate regional, storm-relative characteristics of three groups of Atlantic tropical cyclone intensification: slightly, moderately, and rapidly intensifying. Probability density functions are distinct between these groups for vertical wind shear, sea surface temperature (SST), and radius of maximum winds (RMW), but less so for relative humidity (RH). In the Gulf of Mexico and southern North Atlantic, shear and RMW are good predictors. In the open Atlantic, north of 22°N, shear and SST are the best predictors. In the Caribbean, weaker relationships suggest low statistical predictability in a region where RI cases increased between 1980–2000 and 2001–2021. Of our storm-relative variables tested, increasing SST appears to be most closely connected to the 36% increase in rapidly intensifying events between the two periods, whereas shear and RH are not significantly more favorable. The variability across regions, periods, and variables motivates further investigation."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Majumdar_etal_GRL_2023.bib 
+  pdf: ../Publications/papers/Majumdar_etal_GRL_2023.pdf
+  keyword1: Rapid Intensification 
+  keyword2: Tropical Cyclones
+  keyword3: Hurricanes
+- id: Zhu_etal_AAAG_2023.yml
+  year: 2023
+  title: "Accumulated Cyclone Energy-Based Tropical Cyclone Return Periods in Florida"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yi-Jie Zhu, Jennifer Collins, Joanne Muller and Philip Klotzbach
+  journal: Annals of the American Association of Geographers 
+  others:  113
+  doi: https://doi.org/10.1080/24694452.2023.2230288
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This article introduces an accumulated cyclone energy (ACE) approach for estimating the return period of tropical cyclone (TC) wind risk in Florida. As opposed to calculating return periods directly from maximum sustained wind speed, the ACE-based approach also describes the duration of the strong winds, giving an additional dimension to the assessment of TC wind risks. Because Florida is a peninsula, TCs can move across the state within six hours of landfall, causing an underestimation of the inland wind footprint if only the six-hour reanalysis track points are employed as an input data source. This study uses four different scenarios and an inland exponential decay function to interpolate the wind speed between the six-hour reanalysis track points to feed the ACE-based return period calculation based on a 121-year record from 1900 to 2020. South Florida has the shortest return period (five to tenyears) of TCs with an ACE equivalent to one hour of hurricane intensity (greater than or equal to 64 kt; 1 kt is approximately 0.51 m/s) caused by intense historical hurricane strikes, and Polk County in inland central Florida has an equal return period due to frequent and long-duration TC occurrences, acting as an intersection for landfalling TCs in the Florida peninsula."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Zhu_etal_AAAG_2023.bib 
+  pdf: ../Publications/papers/Zhu_etal_AAAG_2023.pdf
+  keyword1: Florida peninsula
+  keyword2: inland wind risk
+  keyword3: Hurricane
+  
+  
+  
   
   
   

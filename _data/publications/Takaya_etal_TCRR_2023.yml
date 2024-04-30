@@ -1,0 +1,25 @@
+- id: Takaya_etal_TCRR_2023.yml
+  year: 2023
+  title: "Recent advances in seasonal and multi-annual tropical cyclone forecasting"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yuhei Takaya and Louis-Philippe Caron and Eric Blake and François Bonnardot and Nicolas Bruneau and Joanne Camp and Johnny Chan and Paul Gregory and Jhordanne J. Jones and Namyoung Kang and Philip J. Klotzbach and Yuriy Kuleshov and Marie-Dominique Leroux and Julia F. Lockwood and Hiroyuki Murakami and Akio Nishimura and Dushmanta R. Pattanaik and Tom J. Philp and Yohan Ruprich-Robert and Ralf Toumi and Frédéric Vitart and Seonghee Won and Ruifen Zhan
+  journal: Tropical Cyclone Research and Review
+  abstract: "Seasonal tropical cyclone (TC) forecasting has evolved substantially since its commencement in the early 1980s. However, present operational seasonal TC forecasting services still do not meet the requirements of society and stakeholders: current operational products are mainly basin-scale information, while more detailed sub-basin scale information such as potential risks of TC landfall is anticipated for decision making. To fill this gap and make the TC science and services move forward, this paper reviews recent research and development in seasonal tropical cyclone (TC) forecasting. In particular, this paper features new research topics on seasonal TC predictability in neutral conditions of El Niño–Southern Oscillation (ENSO), emerging forecasting techniques of seasonal TC activity including Machine Learning/Artificial Intelligence, and multi-annual TC predictions. We also review the skill of forecast systems at predicting landfalling statistics for certain regions of the North Atlantic, Western North Pacific and South Indian oceans and discuss the gap that remains between current products and potential user's expectations. New knowledge and advanced forecasting techniques are expected to further enhance the capability of seasonal TC forecasting and lead to more actionable and fit-for-purpose products."
+  others:  12 
+  doi: https://doi.org/10.1016/j.tcrr.2023.09.003 
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Prior studies have emphasized the influence of the boreal summer intraseasonal oscillation (BSISO) on basin-scale and global-scale tropical cyclones (TCs). An improved understanding of the BSISO’s impact on TCs at various climate time scales will likely lead to improved subseasonal-to-seasonal prediction. This study explores the impact of BSISO interannual variability on western North Pacific (WNP) TCs. We find that interannual meridional variability in the BSISO modulates the meridional migration of WNP TC genesis and is related to changes in BSISO phase structure. These structural changes are characterized by occurrence frequency changes for individual BSISO phases between the equatorial region over the eastern Indian Ocean (EIO)–Maritime Continent (MC) and the subtropical region over the South China Sea (SCS)–western Pacific. This interannual north–south change of the BSISO appears to be associated with changes in sea surface temperature over the MC region and WNP mid-to-low-tropospheric moisture advection, mainly via remote forcing of a Gill-type Rossby response to BSISO convection and a large meridional asymmetry of the low-level background moisture distribution. During years with increased BSISO residence time over the subtropical SCS–western Pacific, more TCs occur over the northern WNP due to TC-favorable BSISO-associated convection and circulation. In contrast, more TCs occur over the southern WNP in years with increased BSISO convection residence time over the equatorial EIO–MC. We find that the increase in frequency of BSISO phase occurrence over the subtropical SCS–western Pacific since the late 1990s has potentially contributed to a recent poleward shift of WNP TC genesis."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Takaya_etal_TCRR_2023.bib 
+  pdf: ../../Publications/papers/Takaya_etal_TCRR_2023.pdf
+  keyword1: boreal summer intraseasonal oscillation
+  keyword2: Tropical Cyclones
+  keyword3: Interannual variability
+  

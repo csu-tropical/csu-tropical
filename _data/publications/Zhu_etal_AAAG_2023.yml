@@ -1,0 +1,24 @@
+- id: Zhu_etal_AAAG_2023.yml
+  year: 2023
+  title: "Accumulated Cyclone Energy-Based Tropical Cyclone Return Periods in Florida"
+  author1: klotzbach 
+  author2: false
+  author3: false
+  authors: Yi-Jie Zhu, Jennifer Collins, Joanne Muller and Philip Klotzbach
+  journal: Annals of the American Association of Geographers 
+  others:  113
+  doi: https://doi.org/10.1080/24694452.2023.2230288
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This article introduces an accumulated cyclone energy (ACE) approach for estimating the return period of tropical cyclone (TC) wind risk in Florida. As opposed to calculating return periods directly from maximum sustained wind speed, the ACE-based approach also describes the duration of the strong winds, giving an additional dimension to the assessment of TC wind risks. Because Florida is a peninsula, TCs can move across the state within six hours of landfall, causing an underestimation of the inland wind footprint if only the six-hour reanalysis track points are employed as an input data source. This study uses four different scenarios and an inland exponential decay function to interpolate the wind speed between the six-hour reanalysis track points to feed the ACE-based return period calculation based on a 121-year record from 1900 to 2020. South Florida has the shortest return period (five to tenyears) of TCs with an ACE equivalent to one hour of hurricane intensity (greater than or equal to 64 kt; 1 kt is approximately 0.51 m/s) caused by intense historical hurricane strikes, and Polk County in inland central Florida has an equal return period due to frequent and long-duration TC occurrences, acting as an intersection for landfalling TCs in the Florida peninsula."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhu_etal_AAAG_2023.bib 
+  pdf: ../../Publications/papers/Zhu_etal_AAAG_2023.pdf
+  keyword1: Florida peninsula
+  keyword2: inland wind risk
+  keyword3: Hurricane
+  
