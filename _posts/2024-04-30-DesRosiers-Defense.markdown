@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alex DesRosiers defends his Ph.D."
-date:   2024-03-07
+date:   2024-04-30
 image: "https://tropical.colostate.edu/images/news/DesRosiersDefense.jpg"
 author: "webmaster"
 ---
