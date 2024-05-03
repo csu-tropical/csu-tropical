@@ -8,7 +8,7 @@ author: "webmaster"
 
 Congratulations to Alex DesRosiers who successfully defended his Ph.D. entitled, “From Surface to Tropopause: On the Vertical Structure of the Tropical Cyclone Vortex” on April 30th!!  
 
-Alex's will continue his research at the US Naval Research Lab in Monterey, CA with a Fellowship from the National Research Council.  His initial focus will be on the vertical structure of vortices and the mechanisms that drive changes of intensity.
+Alex will continue his research at the US Naval Research Lab in Monterey, CA with a Fellowship from the National Research Council.  His initial focus will be on the vertical structure of vortices and the mechanisms that drive changes of intensity.
 
 <!--more-->
 
