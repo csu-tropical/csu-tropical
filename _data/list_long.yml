@@ -3225,6 +3225,30 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   keyword1: Florida peninsula
   keyword2: inland wind risk
   keyword3: Hurricane
+- id: Jury_NievesJimenez_2021.yml
+  year: 2021
+  title: "Tropical Atlantic dust and the zonal circulation"
+  author1: NievesJimenez 
+  author2: false
+  author3: false
+  authors: Mark R. Jury and Angelie T. Nieves Jimenez
+  journal: Theoretical and Applied Climatology
+  others:  143
+  doi: https://doi.org/10.1007/s00704-020-03461-4
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "This study examines the factors driving the variability of Saharan dust over the subtropical Atlantic during summer. Monthly tropospheric dust concentrations from satellite-based model assimilation averaged in the area 10–23 N, 30–65 W, are used to create an index over the period 1980–2017. The seasonal cycle peaks in summer and affects tropical cyclones from July to September. Point-to-field regression analysis is performed, and then composites of dusty and clean seasons are analyzed as maps and sections of meteorological fields. The regression reveals significant differences in oceanic trade winds, (detrended) sea surface temperature, and atmospheric convection. Dusty minus clean composites show a zonal overturning circulation with sinking/rising motions over Africa/western Caribbean and lower easterlies/upper westerlies over the subtropical Atlantic. This circulation spreads Saharan dust and warm dry air in the 1–4 km layer westward at ~ 10 m/s over cooler waters, inhibiting convection. Among the factors driving tropospheric dust variability is the Pacific El Niño Southern Oscillation. Composites of dusty and clean hurricane occurrence show a threefold difference in numbers and a tenfold difference in mean power dissipation index. Analysis of a dust event in August 2009 illustrates how wind shear and cool SST conspire to suppress tropical easterly waves.  Supplementary work characterizes the dispersion of a dense Saharan dust plume in June 2020 "
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Jury_NievesJimenez_2021.bib 
+  pdf: ../Publications/papers/Jury_NievesJimenez_2021.pdf
+  keyword1: Saharan dust
+  keyword2: tropical cyclones
+  keyword3: ENSO
+  
   
   
   
