@@ -1,0 +1,24 @@
+- id: RiosBerrios_etal_2023.yml
+  year: 2023
+  title: "Observing the Diurnal Cycle of Coastal Rainfall over Western Puerto Rico in Collaboration with University of Puerto Rico Students"
+  author1: nieves-jimenez 
+  author2: false
+  author3: false
+  authors: "Rosimar Rios-Berrios and Naoko Sakaeda and Hector J. Jemenez-Gonzalez and Angelie T. Nieves-Jimenez and Yidiana Zayas and Elinor Martin and Shun-Nan Wu and Cameron R. Homeyer and Ernesto Rodriguez"
+  journal: Bulletin of the American Meteorological Society
+  others:  104
+  doi: https://doi.org/10.1175/BAMS-D-21-0322.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  keyword1: rainfall
+  keyword2: coastal meteorology
+  keyword3: radiosonde/rawinsonde observations
+  abstract: "The diurnal cycle of coastal rainfall over western Puerto Rico was studied with high-frequency radiosondes launched by undergraduate students at the University of Puerto Rico at Mayagüez (UPRM). Thirty radiosondes were launched during a 3-week period as part of NASA’s Convective Processes Experiment—Aerosols and Winds (CPEX-AW) field project. The objective of the radiosonde launches over Puerto Rico was to understand the evolution of coastal convective systems that are often challenging to predict. Four different events were sampled: 1) a short-lived rainfall event during a Saharan air dust outbreak, 2) a 2-day period of limited rainfall activity under northeasterly wind conditions, 3) a 2-day period of heavy rainfall over land, and 4) a 2-day period of long-lived rainfall events that initiated over land and propagated offshore during the evening hours. The radiosondes captured the sea-breeze onset during the midmorning hours, an erosion of lower-tropospheric inversions, and substantial differences in column humidity between the four events. All radiosondes were launched by volunteer undergraduate students who were able to participate in person, while the coordination was done virtually with lead scientists located in Puerto Rico, Oklahoma, and Saint Croix. Overall, this initiative highlighted the importance of student–scientist collaboration in collecting critical observations to better understand complex atmospheric processes."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: "We are incredibly grateful to the late Dr. Gail Skofronick-Jackson, who was the NASA Project Manager for CPEX-AW, for supporting our radiosonde project. We are also indebted to all the UPRM students, UPRM professors, and NCAR scientists who contributed, one way or another, to the successful launch of our radiosondes. Many thanks also to the weather forecasters of the National Weather Service San Juan Office who provided forecasts, guidance, and feedback for our project. Comments from four anonymous reviewers helped improve this manuscript. This work was funded by NASA under Grant 80NSSC20K0901. The first author acknowledges that this material is based upon work supported by NCAR, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977."
+  bibtex: ../../Publications/bibtex/RiosBerrios_etal_2023.bib 
+  pdf: ../../Publications/papers/RiosBerrios_etal_2023.pdf
+  
