@@ -3271,6 +3271,79 @@ in rapid intensification magnitude occur at low (high) latitudes during a positi
   acknowledgement: "We are incredibly grateful to the late Dr. Gail Skofronick-Jackson, who was the NASA Project Manager for CPEX-AW, for supporting our radiosonde project. We are also indebted to all the UPRM students, UPRM professors, and NCAR scientists who contributed, one way or another, to the successful launch of our radiosondes. Many thanks also to the weather forecasters of the National Weather Service San Juan Office who provided forecasts, guidance, and feedback for our project. Comments from four anonymous reviewers helped improve this manuscript. This work was funded by NASA under Grant 80NSSC20K0901. The first author acknowledges that this material is based upon work supported by NCAR, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement 1852977."
   bibtex: ../Publications/bibtex/RiosBerrios_etal_2023.bib 
   pdf: ../Publications/papers/RiosBerrios_etal_2023.pdf
+- id: Andrews_etal_2018.yml
+  year: 2018
+  title: "Accounting for Changing Temperature Patterns Increases Historical Estimates of Climate Sensitivity"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Andrews, Timothy and Gregory, Jonathan M. and Paynter, David and Silvers, Levi G. and Zhou, Chen and Mauritsen, Thorsten and Webb, Mark J. and Armour, Kyle C. and Forster, Piers M. and Titchner, Holly
+  journal: Geophysical Research Letters
+  others:  45 
+  doi: https://doi.org/10.1029/2018GL078887
+  keypoint1: Climate sensitivity simulated for observed surface temperature change is smaller than for long-term carbon dioxide increases 
+  keypoint2: Observed historical energy budget constraints give climate sensitivity values that are too low and overly constrained, particularly at the upper end 
+  keypoint3: Historical energy budget changes only weakly constrain climate sensitivity 
+  abstract: "Eight atmospheric general circulation models (AGCMs) are forced with observed historical (1871–2010) monthly sea surface temperature and sea ice variations using the Atmospheric Model Intercomparison Project II data set. The AGCMs therefore have a similar temperature pattern and trend to that of observed historical climate change. The AGCMs simulate a spread in climate feedback similar to that seen in coupled simulations of the response to CO2 quadrupling. However, the feedbacks are robustly more stabilizing and the effective climate sensitivity (EffCS) smaller. This is due to a pattern effect, whereby the pattern of observed historical sea surface temperature change gives rise to more negative cloud and longwave clear-sky feedbacks. Assuming the patterns of long-term temperature change simulated by models, and the radiative response to them, are credible; this implies that existing constraints on EffCS from historical energy budget variations give values that are too low and overly constrained, particularly at the upper end. For example, the pattern effect increases the long-term Otto et al. (2013, https://doi.org/10.1038/ngeo1836) EffCS median and 5–95% confidence interval from 1.9 K (0.9–5.0 K) to 3.2 K (1.5–8.1 K)."
+  summary: "Recent decades have seen cooling over the eastern tropical Pacific and Southern Oceans while temperatures rise globally. Climate models indicate that these regional features, and others, are not expected to continue into the future under sustained forcing from atmospheric carbon dioxide increases. This matters because climate sensitivity depends on the pattern of warming, so if the past has warmed differently from what we expect in the future, then climate sensitivity estimated from the historical record may not apply to the future. We investigate this with a suite of climate models and show that climate sensitivity simulated for observed historical climate change is smaller than for long-term carbon dioxide increases. The results imply that historical energy budget changes only weakly constrain climate sensitivity."
+  image: ../Publications/figures/Andrews_etal_2018_Fig3.png 
+  caption: "Comparison of the effective climate sensitivity probability distribution function from a historical energy budget constraint (Otto et al., 2013), before (black) and after (colors) accounting for the pattern effect between historical climate change and abrupt-4xCO2. Red accounts for the pattern effect by scaling the historical feedback parameter λhist by the ratio (S = λ4xCO2/λamip) of the feedbacks found in the amip-piForcing and abrupt-4xCO2 simulations. Blue accounts for the pattern effect by adding the difference in feedbacks (Δλ = λ4xCO2 − λamip) to λhist (see section 4 and Table 1). Box plots show the 5–95% confidence interval (end bars), the 17–83% confidence interval (box ends), and the median (line in box)." 
+  acknowledgement: "Global annual time series data of temperature and radiative flux change in the amip-piForcing simulations, as well as the abrupt-4xCO2 simulations not in the CMIP5 archive, are provided in the supporting information. We thank Michael Winton, Tom Knutson, Mark Ringer, Gareth Jones, and two anonymous reviewers for constructive comments. T. A., J. M. G., and M. J. W. were supported by the Met Office Hadley Centre Climate Programme funded by BEIS and Defra. P. M. F. was supported by grant NE/N006038/1. K. C. M. was supported by NSF award AGS-1752796."
+  bibtex: ../Publications/bibtex/Andrews_etal_2018.bib 
+  pdf: ../Publications/papers/Andrews_etal_2018.pdf
+  keyword1: pattern effect
+  keyword2: climate sensitivity
+  keyword3: sea surface temperature
+- id: Reed_etal_2021.yml
+  year: 2021
+  title: Using Radiative Convective Equilibrium to Explore Clouds and Climate in the Community Atmosphere Model
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Reed, Kevin A., and Silvers, Levi G., and Wing, Allison A. and Hu, I-Kuan and Medeiros, Brian
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  13, e2021MS002539
+  doi: https://doi.org/10.1029/2021MS002539
+  keypoint1: "A new radiative-convective equilibrium (RCE) configuration is added to the official release of Community Earth System Model (CESM) to facilitate the use of Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) in the CESM hierarchy" 
+  keypoint2: "The Community Atmosphere Model version 5 and Community Atmosphere Model version 6 (CAM6) RCEMIP climate states and variation across SST experiments are documented in the context of the CESM hierarchy" 
+  keypoint3: "Differing parameterizations lead to
+a reduction of low-level clouds in CAM6, consistent with differences in more realistic simulations"
+  abstract: "Abstract Characteristics of, and fundamental differences between, the radiative-convective equilibrium (RCE) climate states following the Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) protocols in the Community Atmosphere Model version 5 (CAM5) and version 6 (CAM6) are presented. This paper explores the characteristics of clouds, moisture, precipitation and circulation in the RCE state, as well as the tropical response to surface warming, in CAM5 and CAM6 with different parameterizations. Overall, CAM5 simulates higher precipitation rates that result in larger global average precipitation, despite lower outgoing longwave radiation compared to CAM6. Differences in the structure of clouds, particularly the amount and vertical location of cloud liquid, exist between the CAM versions and can, in part, be related to distinct representations of shallow convection and boundary layer processes. Both CAM5 and CAM6 simulate similar peaks in cloud fraction, relative humidity, and cloud ice, linked to the usage of a similar deep convection parameterization. These anvil clouds rise and decrease in extent in response to surface warming. More generally, extreme precipitation, aggregation of convection, and climate sensitivity increase with warming in both CAM5 and CAM6. This analysis provides a benchmark for future studies that explore clouds, convection, and climate in CAM with the RCEMIP protocols now available in the Community Earth System Model. These results are discussed within the context of realistic climate simulations using CAM5 and CAM6, highlighting the usefulness of a hierarchical modeling approach to understanding model and parameterization sensitivities to inform model development efforts." 
+  summary: "Clouds, circulations and rainfall in the tropics play an important role
+in Earth's climate. However, global climate models differ in their representation of these features, contributing to uncertainty in future climate projections. One useful tool to better understand model differences and inform efforts to improve models is to analyze idealized configurations. We explore two different numerical representations of an idealized atmosphere relevant to tropical regions to determine the impact on the characteristics of clouds, rainfall and circulations as well as the tropical atmospheric response to warming.  We show that our idealized models mirror differences in the low-cloud structure in the deep tropics of more realistic models. This work also finds similarities between the two numerical representations, such as a decrease in the spatial extent of high altitude clouds with warming. As the surface is warmed, both versions also show increases in the clustering of clouds, the likelihood of extreme precipitation rates, and an estimate of how much warming would occur in response to a doubling of carbon dioxide."
+  image: 
+  caption: 
+  acknowledgement: "Reed and Silvers acknowledge support from NSF award number 1830729, Wing acknowledges support from NSF award number 1830724, Hu acknowledges sup- port from NSF award number 1917328, and Medeiros acknowledges support from the Regional and Global Model Analysis component of the Earth and Environmental System Modeling Program of the U.S. Department of Energy via NSF IA 1844590. This material is based upon work supported by the National Center for Atmospheric Research, which is a major facility sponsored by the National Science Foundation under Cooperative Agreement No. 1852977. The authors would also like to acknowledge Dr. Colin Zarzycki (Pennsylvania State University), Dr. Vincent Larson (University of Wisconsin-Milwaukee), Dr. Andrew Gettelman (NCAR) and Dr. Adam Herrington (NCAR) for guidance in exploring sensitivities in the CAM6 simulations, Gary Strand (NCAR) for help with formatting CAM output for RCEMIP, and Cheryl Craig (NCAR) for software engineering related to the QPRCEMIP compset in CESM. Finally, the authors would also like to thank four anonymous reviewers for their constructive and thorough reviews. We would like to acknowledge high-performance computing support from Cheyenne (https:// doi.org/10.5065/D6RX99HX) provided by NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation." 
+  bibtex: ../Publications/bibtex/Reed_etal_2021.bib 
+  pdf: ../Publications/papers/Reed_etal_2021.pdf
+  keyword1: radiative-convective equilibrium
+  keyword2: tropical convection 
+  keyword3: convective aggregation 
+- id: Burnett_etal_2021.yml
+  year: 2021
+  title: "Tropical Cyclone Frequency Under Varying SSTs in Aquaplanet Simulations"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Burnett, Adam C. and Sheshadri, Aditi and Silvers, Levi G. and Robinson, Thomas 
+  journal: Geophysical Research Letters
+  others:  48, e2020GL091980 
+  doi: https://doi.org/10.1029/2020GL091980
+  keypoint1: Global tropical cyclone frequency is found to be proportional to the Coriolis parameter at the intertropical convergence zone 
+  keypoint2: The same proportionality obtained from aquaplanet simulations also applies to tropical cyclone frequency on the observed Earth 
+  keypoint3: Many tropical cyclones occur even when the location of maximum sea surface temperature is shifted into the midlatitudes
+  abstract: "Global tropical cyclone (TC) frequency is investigated in a 50-km-resolution aquaplanet model forced by zonally symmetric sea surface temperature (SST). TC frequency per unit area is found to be proportional to the Coriolis parameter at the intertropical convergence zone (ITCZ), as defined by the latitude of maximum precipitation. As the latitude of maximum SST is shifted northward from the equator, the precipitation maximum moves northward and TC frequency increases. When the SST maximum is shifted northward past 25°N, the precipitation maximum remains between 15°N and 20°N, and TC frequency per unit area is approximately constant. When applied to observed precipitation and SST data, the same scaling captures a substantial fraction of observed TCs. Results suggest that future changes in TC activity will be modulated by changes in the large-scale circulation, and in particular that the ITCZ location is an important determinant of the number of TCs."
+  summary: "Tropical cyclones (TCs), including hurricanes, can be extremely destructive and costly, so it is important to know how often they will occur in the future. Earth presently experiences about 90 TCs per year, but whether this number will change due to climate change is uncertain. A theory describing what physical quantities determine the global number of TCs would improve predictions of future TC frequency. In this study, we search for possible ingredients in such a theory by using a simplified global climate model without seasons or land. When we shift the temperature distribution of the ocean surface northward, the TC frequency changes. Through statistical analysis and physical reasoning, these changes in global TC frequency are explained by two physical quantities. One of these quantities depends on the position of the intertropical convergence zone, defined in this study as the latitude of maximum rainfall in the tropics. The other quantity depends on the latitude of maximum ocean surface temperature. These results suggest that any physical theory describing global TC frequency must be consistent with these two quantities. This finding marks a step toward more complete understanding, and improved future projections, of TC frequency." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Burnett_etal_2021.bib 
+  pdf: ../Publications/papers/Burnett_etal_2021.pdf
+  keyword1: aquaplanet simulations
+  keyword2: hurricane frequency
+  keyword3: intertropical convergence zone
+  
+  
   
   
   

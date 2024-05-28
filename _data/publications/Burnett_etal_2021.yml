@@ -1,0 +1,24 @@
+- id: Burnett_etal_2021.yml
+  year: 2021
+  title: "Tropical Cyclone Frequency Under Varying SSTs in Aquaplanet Simulations"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Burnett, Adam C. and Sheshadri, Aditi and Silvers, Levi G. and Robinson, Thomas 
+  journal: Geophysical Research Letters
+  others:  48, e2020GL091980 
+  doi: https://doi.org/10.1029/2020GL091980
+  keypoint1: Global tropical cyclone frequency is found to be proportional to the Coriolis parameter at the intertropical convergence zone 
+  keypoint2: The same proportionality obtained from aquaplanet simulations also applies to tropical cyclone frequency on the observed Earth 
+  keypoint3: Many tropical cyclones occur even when the location of maximum sea surface temperature is shifted into the midlatitudes
+  abstract: "Global tropical cyclone (TC) frequency is investigated in a 50-km-resolution aquaplanet model forced by zonally symmetric sea surface temperature (SST). TC frequency per unit area is found to be proportional to the Coriolis parameter at the intertropical convergence zone (ITCZ), as defined by the latitude of maximum precipitation. As the latitude of maximum SST is shifted northward from the equator, the precipitation maximum moves northward and TC frequency increases. When the SST maximum is shifted northward past 25°N, the precipitation maximum remains between 15°N and 20°N, and TC frequency per unit area is approximately constant. When applied to observed precipitation and SST data, the same scaling captures a substantial fraction of observed TCs. Results suggest that future changes in TC activity will be modulated by changes in the large-scale circulation, and in particular that the ITCZ location is an important determinant of the number of TCs."
+  summary: "Tropical cyclones (TCs), including hurricanes, can be extremely destructive and costly, so it is important to know how often they will occur in the future. Earth presently experiences about 90 TCs per year, but whether this number will change due to climate change is uncertain. A theory describing what physical quantities determine the global number of TCs would improve predictions of future TC frequency. In this study, we search for possible ingredients in such a theory by using a simplified global climate model without seasons or land. When we shift the temperature distribution of the ocean surface northward, the TC frequency changes. Through statistical analysis and physical reasoning, these changes in global TC frequency are explained by two physical quantities. One of these quantities depends on the position of the intertropical convergence zone, defined in this study as the latitude of maximum rainfall in the tropics. The other quantity depends on the latitude of maximum ocean surface temperature. These results suggest that any physical theory describing global TC frequency must be consistent with these two quantities. This finding marks a step toward more complete understanding, and improved future projections, of TC frequency." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Burnett_etal_2021.bib 
+  pdf: ../../Publications/papers/Burnett_etal_2021.pdf
+  keyword1: aquaplanet simulations
+  keyword2: hurricane frequency
+  keyword3: intertropical convergence zone
+  

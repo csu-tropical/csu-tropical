@@ -1,0 +1,24 @@
+- id: Andrews_etal_2018.yml
+  year: 2018
+  title: "Accounting for Changing Temperature Patterns Increases Historical Estimates of Climate Sensitivity"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Andrews, Timothy and Gregory, Jonathan M. and Paynter, David and Silvers, Levi G. and Zhou, Chen and Mauritsen, Thorsten and Webb, Mark J. and Armour, Kyle C. and Forster, Piers M. and Titchner, Holly
+  journal: Geophysical Research Letters
+  others:  45 
+  doi: https://doi.org/10.1029/2018GL078887
+  keypoint1: Climate sensitivity simulated for observed surface temperature change is smaller than for long-term carbon dioxide increases 
+  keypoint2: Observed historical energy budget constraints give climate sensitivity values that are too low and overly constrained, particularly at the upper end 
+  keypoint3: Historical energy budget changes only weakly constrain climate sensitivity 
+  abstract: "Eight atmospheric general circulation models (AGCMs) are forced with observed historical (1871–2010) monthly sea surface temperature and sea ice variations using the Atmospheric Model Intercomparison Project II data set. The AGCMs therefore have a similar temperature pattern and trend to that of observed historical climate change. The AGCMs simulate a spread in climate feedback similar to that seen in coupled simulations of the response to CO2 quadrupling. However, the feedbacks are robustly more stabilizing and the effective climate sensitivity (EffCS) smaller. This is due to a pattern effect, whereby the pattern of observed historical sea surface temperature change gives rise to more negative cloud and longwave clear-sky feedbacks. Assuming the patterns of long-term temperature change simulated by models, and the radiative response to them, are credible; this implies that existing constraints on EffCS from historical energy budget variations give values that are too low and overly constrained, particularly at the upper end. For example, the pattern effect increases the long-term Otto et al. (2013, https://doi.org/10.1038/ngeo1836) EffCS median and 5–95% confidence interval from 1.9 K (0.9–5.0 K) to 3.2 K (1.5–8.1 K)."
+  summary: "Recent decades have seen cooling over the eastern tropical Pacific and Southern Oceans while temperatures rise globally. Climate models indicate that these regional features, and others, are not expected to continue into the future under sustained forcing from atmospheric carbon dioxide increases. This matters because climate sensitivity depends on the pattern of warming, so if the past has warmed differently from what we expect in the future, then climate sensitivity estimated from the historical record may not apply to the future. We investigate this with a suite of climate models and show that climate sensitivity simulated for observed historical climate change is smaller than for long-term carbon dioxide increases. The results imply that historical energy budget changes only weakly constrain climate sensitivity."
+  image: ../../Publications/figures/Andrews_etal_2018_Fig3.png 
+  caption: "Comparison of the effective climate sensitivity probability distribution function from a historical energy budget constraint (Otto et al., 2013), before (black) and after (colors) accounting for the pattern effect between historical climate change and abrupt-4xCO2. Red accounts for the pattern effect by scaling the historical feedback parameter λhist by the ratio (S = λ4xCO2/λamip) of the feedbacks found in the amip-piForcing and abrupt-4xCO2 simulations. Blue accounts for the pattern effect by adding the difference in feedbacks (Δλ = λ4xCO2 − λamip) to λhist (see section 4 and Table 1). Box plots show the 5–95% confidence interval (end bars), the 17–83% confidence interval (box ends), and the median (line in box)." 
+  acknowledgement: "Global annual time series data of temperature and radiative flux change in the amip-piForcing simulations, as well as the abrupt-4xCO2 simulations not in the CMIP5 archive, are provided in the supporting information. We thank Michael Winton, Tom Knutson, Mark Ringer, Gareth Jones, and two anonymous reviewers for constructive comments. T. A., J. M. G., and M. J. W. were supported by the Met Office Hadley Centre Climate Programme funded by BEIS and Defra. P. M. F. was supported by grant NE/N006038/1. K. C. M. was supported by NSF award AGS-1752796."
+  bibtex: ../../Publications/bibtex/Andrews_etal_2018.bib 
+  pdf: ../../Publications/papers/Andrews_etal_2018.pdf
+  keyword1: pattern effect
+  keyword2: climate sensitivity
+  keyword3: sea surface temperature
+  
