@@ -3342,6 +3342,54 @@ in Earth's climate. However, global climate models differ in their representatio
   keyword1: aquaplanet simulations
   keyword2: hurricane frequency
   keyword3: intertropical convergence zone
+- id: Popp_Silvers_2017.yml
+  year: 2017
+  title: "Double and Single ITCZs with and without Clouds"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Popp, Max and Silvers, Levi G. 
+  journal: Journal of Climate 
+  others:  30 
+  doi: https://doi.org/10.1175/JCLI-D-17-0062.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "A major bias in tropical precipitation over the Pacific in climate simulations stems from the models’ tendency to produce two strong distinct intertropical convergence zones (ITCZs) too often. Several mechanisms have been proposed that may contribute to the emergence of two ITCZs, but current theories cannot fully explain the bias. This problem is tackled by investigating how the interaction between atmospheric cloud- radiative effects (ACREs) and the large-scale circulation influences the ITCZ position in an atmospheric general circulation model. Simulations are performed in an idealized aquaplanet setup and the longwave and shortwave ACREs are turned off individually or jointly. The low-level moist static energy (MSE) is shown to be a good predictor of the ITCZ position. Therefore, a mechanism is proposed that explains the changes in MSE and thus ITCZ position due to ACREs consistently across simulations. The mechanism implies that the ITCZ moves equatorward if the Hadley circulation strengthens because of the increased upgradient advec- tion of low-level MSE off the equator. The longwave ACRE increases the meridional heating gradient in the tropics and as a response the Hadley circulation strengthens and the ITCZ moves equatorward. The shortwave ACRE has the opposite effect. The total ACRE pulls the ITCZ equatorward. This mechanism is discussed in other frameworks involving convective available potential energy, gross moist stability, and the energy flux equator. It is thus shown that the response of the large-scale circulation to the shortwave and longwave ACREs is a fundamental driver of changes in the ITCZ position."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Popp_Silvers_2017.bib 
+  pdf: ../../Publications/papers/Popp_Silvers_2017.pdf
+  keyword1: aquaplanet simulations
+  keyword2: intertropical convergence zone
+  keyword3: cloud radiative effect
+- id: Silvers_Schubert_2012.yml
+  year: 2012
+  title: "A Theory of Topographically Bound Balanced Motions and Application to Atmospheric Low-Level Jets"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G. and Schubert Wayne H.
+  journal: Journal of the Atmospheric Sciences
+  others:  69 
+  doi: https://doi.org/10.1175/JAS-D-11-0309.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "The subject of this study is topographically bound low-level jets, such as the South American summertime low-level jet on the eastern side of the Andes and its companion, the Chilean low-level jet on the western side of the Andes. These jets are interpreted as balanced flows that obey the potential vorticity invertibility principle. This invertibility principle is expressed in isentropic coordinates, and the mathematical issue of isentropes that intersect the topography is treated by the method of a massless layer. In this way, the low-level jets on the western and eastern sides of the Andes can both be attributed to the infinite potential vorticity that lies in the infinitesimally thin massless layer on the topographic feature. To obtain a cyclonic flow centered on the topographic feature, the mountain crest must have been heated enough to draw down the overlying isentropic surfaces; otherwise, isentropic surfaces bend upward at the mountain crest and an anticyclonic flow is produced. Both anticyclonic and cyclonic solutions are obtained here using analytical and numerical methods to solve the invertibility principle. The summertime topographically bound flows discussed here are quite distinct from the wintertime Rossby wave train patterns that occur when strong westerlies impinge on the topography." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Silvers_Schubert_2012.bib 
+  pdf: ../../Publications/papers/Silvers_Schubert_2012.pdf
+  keyword1: low-level jets
+  keyword2: topographically bound flow
+  keyword3: balanced potential vorticity
+  
+  
   
   
   

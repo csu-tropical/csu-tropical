@@ -1,0 +1,24 @@
+- id: Popp_Silvers_2017.yml
+  year: 2017
+  title: "Double and Single ITCZs with and without Clouds"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Popp, Max and Silvers, Levi G. 
+  journal: Journal of Climate 
+  others:  30 
+  doi: https://doi.org/10.1175/JCLI-D-17-0062.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "A major bias in tropical precipitation over the Pacific in climate simulations stems from the models’ tendency to produce two strong distinct intertropical convergence zones (ITCZs) too often. Several mechanisms have been proposed that may contribute to the emergence of two ITCZs, but current theories cannot fully explain the bias. This problem is tackled by investigating how the interaction between atmospheric cloud radiative effects (ACREs) and the large-scale circulation influences the ITCZ position in an atmospheric general circulation model. Simulations are performed in an idealized aquaplanet setup and the longwave and shortwave ACREs are turned off individually or jointly. The low-level moist static energy (MSE) is shown to be a good predictor of the ITCZ position. Therefore, a mechanism is proposed that explains the changes in MSE and thus ITCZ position due to ACREs consistently across simulations. The mechanism implies that the ITCZ moves equatorward if the Hadley circulation strengthens because of the increased upgradient advec- tion of low-level MSE off the equator. The longwave ACRE increases the meridional heating gradient in the tropics and as a response the Hadley circulation strengthens and the ITCZ moves equatorward. The shortwave ACRE has the opposite effect. The total ACRE pulls the ITCZ equatorward. This mechanism is discussed in other frameworks involving convective available potential energy, gross moist stability, and the energy flux equator. It is thus shown that the response of the large-scale circulation to the shortwave and longwave ACREs is a fundamental driver of changes in the ITCZ position."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Popp_Silvers_2017.bib 
+  pdf: ../../Publications/papers/Popp_Silvers_2017.pdf
+  keyword1: aquaplanet simulations
+  keyword2: intertropical convergence zone
+  keyword3: cloud radiative effect
+  

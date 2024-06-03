@@ -1,0 +1,24 @@
+- id: Silvers_Schubert_2012.yml
+  year: 2012
+  title: "A Theory of Topographically Bound Balanced Motions and Application to Atmospheric Low-Level Jets"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Silvers, Levi G. and Schubert Wayne H.
+  journal: Journal of the Atmospheric Sciences
+  others:  69 
+  doi: https://doi.org/10.1175/JAS-D-11-0309.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "The subject of this study is topographically bound low-level jets, such as the South American summertime low-level jet on the eastern side of the Andes and its companion, the Chilean low-level jet on the western side of the Andes. These jets are interpreted as balanced flows that obey the potential vorticity invertibility principle. This invertibility principle is expressed in isentropic coordinates, and the mathematical issue of isentropes that intersect the topography is treated by the method of a massless layer. In this way, the low-level jets on the western and eastern sides of the Andes can both be attributed to the infinite potential vorticity that lies in the infinitesimally thin massless layer on the topographic feature. To obtain a cyclonic flow centered on the topographic feature, the mountain crest must have been heated enough to draw down the overlying isentropic surfaces; otherwise, isentropic surfaces bend upward at the mountain crest and an anticyclonic flow is produced. Both anticyclonic and cyclonic solutions are obtained here using analytical and numerical methods to solve the invertibility principle. The summertime topographically bound flows discussed here are quite distinct from the wintertime Rossby wave train patterns that occur when strong westerlies impinge on the topography." 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Silvers_Schubert_2012.bib 
+  pdf: ../../Publications/papers/Silvers_Schubert_2012.pdf
+  keyword1: low-level jets
+  keyword2: topographically bound flow
+  keyword3: balanced potential vorticity
+  
