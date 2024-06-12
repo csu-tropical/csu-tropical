@@ -1,0 +1,24 @@
+- id: Wing_etal_2020.yml
+  year: 2020
+  title: Clouds and Convective Self-Aggregation in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Wing, Allison A. and Stauffer, Catherine L. and Becker, Tobias and Reed, Kevin A. and Ahn, Min-Seop and Arnold, Nathan P. and Bony, Sandrine and Branson, Mark and Bryan, George H. and Chaboureau, Jean-Pierre and De Roode, Stephan R. and Gayatri, Kulkarni and Hohenegger, Cathy and Hu, I-Kuan and Jansson, Fredrik and Jones, Todd R. and Khairoutdinov, Marat and Kim, Daehyun and Martin, Zane K. and Matsugishi, Shuhei and Medeiros, Brian and Miura, Hiroaki and Moon, Yumin and Müller, Sebastian K. and Ohno, Tomoki and Popp, Max and Prabhakaran, Thara and Randall, David and Rios-Berrios, Rosimar and Rochetin, Nicolas and Roehrig, Romain and Romps, David M. and Ruppert Jr., James H. and Satoh, Masaki and Silvers, Levi G. and Singh, Martin S. and Stevens, Bjorn and Tomassini, Lorenzo and van Heerwaarden, Chiel C. and Wang, Shuguang and Zhao, Ming
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  12 
+  doi: https://doi.org/10.1029/2020MS002138
+  keypoint1: Temperature, humidity, and clouds in radiative‐convective equilibrium vary substantially across models 
+  keypoint2: Models agree that self‐aggregation dries the atmosphere and reduces high cloudiness 
+  keypoint3: There is no consistency in how self‐aggregation depends on warming 
+  abstract: "Abstract The Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) is an intercomparison of multiple types of numerical models configured in radiative-convective equilibrium (RCE). RCE is an idealization of the tropical atmosphere that has long been used to study basic questions in climate science. Here, we employ RCE to investigate the role that clouds and convective activity play in determining cloud feedbacks, climate sensitivity, the state of convective aggregation, and the equilibrium climate. RCEMIP is unique among intercomparisons in its inclusion of a wide range of model types, including atmospheric general circulation models (GCMs), single column models (SCMs), cloud-resolving models (CRMs), large eddy simulations (LES), and global cloud-resolving models (GCRMs). The first results are presented from the RCEMIP ensemble of more than 30 models. While there are large differences across the RCEMIP ensemble in the representation of mean profiles of temperature, humidity, and cloudiness, in a majority of models anvil clouds rise, warm, and decrease in area coverage in response to an increase in sea surface temperature (SST). Nearly all models exhibit self-aggregation in large domains and agree that self-aggregation acts to dry and warm the troposphere, reduce high cloudiness, and increase cooling to space. The degree of self-aggregation exhibits no clear tendency with warming. There is a wide range of climate sensitivities, but models with parameterized convection tend to have lower climate sensitivities than models with explicit convection. In models with parameterized convection, aggregated simulations have lower climate sensitivities than unaggregated simulations."
+  summary: "This study investigates tropical clouds and climate using results from more than 30 different numerical models set up in a simplified framework. The data set of model simulations is unique in that it includes a wide range of model types configured in a consistent manner. We address some of the biggest open questions in climate science, including how cloud properties change with warming and the role that the tendency of clouds to form clusters plays in determining the average climate and how climate changes. While there are large differences in how the different models simulate average temperature, humidity, and cloudiness, in a majority of models, the amount of high clouds decreases as climate warms. Nearly all models simulate a tendency for clouds to cluster together. There is agreement that when the clouds are clustered, the atmosphere is drier with fewer clouds overall. We do not find a conclusive result for how cloud clustering changes as the climate warms." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Wing_etal_2020.bib 
+  pdf: ../../Publications/papers/Wing_etal_2020.pdf
+  keyword1: radiative-convective equilibrium model intercomparison project
+  keyword2: convective aggregation
+  keyword3: climate sensitivity
+  

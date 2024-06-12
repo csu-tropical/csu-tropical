@@ -1,0 +1,25 @@
+- id: Held_etal_2019.yml
+  year: 2019
+  title: Structure and Performance of GFDL's CM4.0 Climate Model
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Held, I. M. and Guo, H. and Adcroft, A. and Dunne, J. P. and Horowitz, L. W. and Krasting, J. and Shevliakova, E. and Winton, M. and Zhao, M. and Bushuk, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B. and Zhang, R. and Anderson, W. and Balaji, V. and Donner, L. and Dunne, K. and Durachta, J. and Gauthier, P. P. G. and Ginoux, P. and Golaz, J.-C. and Griffies, S. M. and Hallberg, R. and Harris, L. and Harrison, M. and Hurlin, W. and John, J. and Lin, P. and Lin, S.-J. and Malyshev, S. and Menzel, R. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paynter, D. and Paulot, F. and Ramaswamy, V. and Reichl, B. and Robinson, T. and Rosati, A. and Seman, C. and Silvers, L. G. and Underwood, S. and Zadeh, N.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  11 
+  doi: https://doi.org/10.1029/2019MS001829
+  keypoint1: A team at GFDL has developed a new model of the physical climate system referred to as CM4.0 
+  keypoint2: Strengths of model include ENSO simulation and small biases in TOA fluxes, precipitation, Arctic sea ice extent, and sea surface temperature 
+  keypoint3: Problematic aspects include large variability in Southern Ocean and historical simulation with little warming prior to 1990
+  abstract: "We describe the Geophysical Fluid Dynamics Laboratory's CM4.0 physical climate model, with emphasis on those aspects that may be of particular importance to users of this model and its simulations. The model is built with the AM4.0/LM4.0 atmosphere/land model and OM4.0 ocean model. Topics include the rationale for key choices made in the model formulation, the stability as well as drift of the preindustrial control simulation, and comparison of key aspects of the historical simulations with observations from recent decades. Notable achievements include the relatively small biases in seasonal spatial patterns of top-of-atmosphere fluxes, surface temperature, and precipitation; reduced double Intertropical Convergence Zone bias; dramatically improved representation of ocean boundary currents; a high-quality simulation of climatological Arctic sea ice extent and its recent decline; and excellent simulation of the El Niño-Southern Oscillation spectrum and structure. Areas of concern include inadequate deep convection in the Nordic Seas; an inaccurate Antarctic sea ice simulation; precipitation and wind composites still affected by the equatorial cold tongue bias; muted variability in the Atlantic Meridional Overturning Circulation; strong 100 year quasiperiodicity in Southern Ocean ventilation; and a lack of historical warming before 1990 and too rapid warming thereafter due to high climate sensitivity and strong aerosol forcing, in contrast to the observational record. Overall, CM4.0 scores very well in its fidelity against observations compared to the Coupled Model Intercomparison Project Phase 5 generation in terms of both mean state and modes of variability and should prove a valuable new addition for analysis across a broad array of applications." 
+  summary: "The Geophysical Fluid Dynamics Laboratory (GFDL) of the National Oceanic and Atmospheric Administration participates along with a number of model centers around the world in constructing state-of-the-art climate models for use in studies for climate change and prediction. GFDL's latest multipurpose atmosphere-ocean coupled climate model, CM4.0, is described here. It consists of GFDL's latest atmosphere and land models at about 100 km horizontal resolution and ocean and sea ice models at roughly 25 km horizontal resolution. A handful of standard experiments have been conducted with CM4.0 for participation in the Coupled Model Intercomparison Project Phase 6,
+an archive of climate model results utilized by the Intergovernmental Panel on Climate Change and the climate research community more generally. The model results have been extensively evaluated against observations. This paper makes the case that CM4.0 ranks high among state-of-the-art coupled climate models by many measures of bias in the simulated climatology and in its ability to capture modes of climate variability such as the El Niño-Southern Oscillation and Madden-Julian Oscillation. The paper also discusses some potential weaknesses, including unrealistically large internal variability in the Southern Ocean and insufficient warming before 1990 in the simulation of the twentieth century."
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Held_etal_2019.bib 
+  pdf: ../../Publications/papers/Held_etal_2019.pdf
+  keyword1: Coupled Model Development
+  keyword2: ENSO simulation
+  keyword3: 
+  

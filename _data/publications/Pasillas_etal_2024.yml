@@ -1,0 +1,24 @@
+- id: Pasillas_etal_2024.yml
+  year: 2024
+  title: "Turning Night Into Day{:} The Creation and Validation of Synthetic Night-time Visible Imagery Using the Visible Infrared Imaging Radiometer Suite ({VIIRS}) Day-Night Band ({DNB}) and Machine Learning"
+  author1: pasillas 
+  author2: bell 
+  author3: false
+  authors: Chandra M. Pasillas and Christian Kummerow and Michael Bell and Steven D. Miller
+  journal: "Artificial Intelligence for the Earth Systems"
+  others:  3
+  doi: https://doi.org/10.1175/AIES-D-23-0002.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Meteorological satellite imagery is a critical asset for observing and forecasting weather phenomena. The Joint Polar Satellite System (JPSS) Visible Infrared Imaging Radiometer Suite (VIIRS) Day-Night Band (DNB) sensor collects measurements from moonlight, airglow, and artificial lights. DNB radiances are then manipulated and scaled with a focus on digital display. DNB imagery performance is tied to the lunar cycle, with best performance during the full moon and worst with the new moon. We propose using feed-forward neural networks models to transform brightness temperatures and wavelength differences in the infrared spectrum to a pseudo lunar reflectance value based on lunar reflectance values derived from observed DNB radiances. JPSS NOAA-20 and Suomi National Polar-orbiting Partnership (SNPP) satellite data over the North Pacific Ocean at night for full moon periods from December 2018 - November 2020 were used to design the models. The pseudo lunar reflectance values are quantitatively compared to DNB lunar reflectance, providing the first-ever lunar reflectance baseline metrics. The resulting imagery product, Machine Learning Night-time Visible Imagery (ML-NVI), is qualitatively compared to DNB lunar reflectance and infrared imagery across the lunar cycle. The imagery goal is not only to improve upon the consistency performance of DNB imagery products across the lunar cycle, but ultimately lay the foundation for transitioning the algorithm to geostationary sensors, making global continuous nighttime imagery possible. ML-NVI demonstrates its ability to provide DNB derived imagery with consistent contrast and representation of clouds across the full lunar cycle for night-time cloud detection."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Pasillas_etal_2024.bib 
+  pdf: ../../Publications/papers/Pasillas_etal_2024.pdf
+  keyword1: satellite imagery
+  keyword2: feed-forward neural networks
+  keyword3: nighttime imagery
+  

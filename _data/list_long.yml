@@ -3360,8 +3360,8 @@ in Earth's climate. However, global climate models differ in their representatio
   image: 
   caption: 
   acknowledgement: 
-  bibtex: ../../Publications/bibtex/Popp_Silvers_2017.bib 
-  pdf: ../../Publications/papers/Popp_Silvers_2017.pdf
+  bibtex: ../Publications/bibtex/Popp_Silvers_2017.bib 
+  pdf: ../Publications/papers/Popp_Silvers_2017.pdf
   keyword1: aquaplanet simulations
   keyword2: intertropical convergence zone
   keyword3: cloud radiative effect
@@ -3383,45 +3383,82 @@ in Earth's climate. However, global climate models differ in their representatio
   image: 
   caption: 
   acknowledgement: 
-  bibtex: ../../Publications/bibtex/Silvers_Schubert_2012.bib 
-  pdf: ../../Publications/papers/Silvers_Schubert_2012.pdf
+  bibtex: ../Publications/bibtex/Silvers_Schubert_2012.bib 
+  pdf: ../Publications/papers/Silvers_Schubert_2012.pdf
   keyword1: low-level jets
   keyword2: topographically bound flow
   keyword3: balanced potential vorticity
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+- id: Held_etal_2019.yml
+  year: 2019
+  title: Structure and Performance of GFDL's CM4.0 Climate Model
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Held, I. M. and Guo, H. and Adcroft, A. and Dunne, J. P. and Horowitz, L. W. and Krasting, J. and Shevliakova, E. and Winton, M. and Zhao, M. and Bushuk, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B. and Zhang, R. and Anderson, W. and Balaji, V. and Donner, L. and Dunne, K. and Durachta, J. and Gauthier, P. P. G. and Ginoux, P. and Golaz, J.-C. and Griffies, S. M. and Hallberg, R. and Harris, L. and Harrison, M. and Hurlin, W. and John, J. and Lin, P. and Lin, S.-J. and Malyshev, S. and Menzel, R. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paynter, D. and Paulot, F. and Ramaswamy, V. and Reichl, B. and Robinson, T. and Rosati, A. and Seman, C. and Silvers, L. G. and Underwood, S. and Zadeh, N.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  11 
+  doi: https://doi.org/10.1029/2019MS001829
+  keypoint1: A team at GFDL has developed a new model of the physical climate system referred to as CM4.0 
+  keypoint2: Strengths of model include ENSO simulation and small biases in TOA fluxes, precipitation, Arctic sea ice extent, and sea surface temperature 
+  keypoint3: Problematic aspects include large variability in Southern Ocean and historical simulation with little warming prior to 1990
+  abstract: "We describe the Geophysical Fluid Dynamics Laboratory's CM4.0 physical climate model, with emphasis on those aspects that may be of particular importance to users of this model and its simulations. The model is built with the AM4.0/LM4.0 atmosphere/land model and OM4.0 ocean model. Topics include the rationale for key choices made in the model formulation, the stability as well as drift of the preindustrial control simulation, and comparison of key aspects of the historical simulations with observations from recent decades. Notable achievements include the relatively small biases in seasonal spatial patterns of top-of-atmosphere fluxes, surface temperature, and precipitation; reduced double Intertropical Convergence Zone bias; dramatically improved representation of ocean boundary currents; a high-quality simulation of climatological Arctic sea ice extent and its recent decline; and excellent simulation of the El Niño-Southern Oscillation spectrum and structure. Areas of concern include inadequate deep convection in the Nordic Seas; an inaccurate Antarctic sea ice simulation; precipitation and wind composites still affected by the equatorial cold tongue bias; muted variability in the Atlantic Meridional Overturning Circulation; strong 100 year quasiperiodicity in Southern Ocean ventilation; and a lack of historical warming before 1990 and too rapid warming thereafter due to high climate sensitivity and strong aerosol forcing, in contrast to the observational record. Overall, CM4.0 scores very well in its fidelity against observations compared to the Coupled Model Intercomparison Project Phase 5 generation in terms of both mean state and modes of variability and should prove a valuable new addition for analysis across a broad array of applications." 
+  summary: "The Geophysical Fluid Dynamics Laboratory (GFDL) of the National Oceanic and Atmospheric Administration participates along with a number of model centers around the world in constructing state-of-the-art climate models for use in studies for climate change and prediction. GFDL's latest multipurpose atmosphere-ocean coupled climate model, CM4.0, is described here. It consists of GFDL's latest atmosphere and land models at about 100 km horizontal resolution and ocean and sea ice models at roughly 25 km horizontal resolution. A handful of standard experiments have been conducted with CM4.0 for participation in the Coupled Model Intercomparison Project Phase 6,
+an archive of climate model results utilized by the Intergovernmental Panel on Climate Change and the climate research community more generally. The model results have been extensively evaluated against observations. This paper makes the case that CM4.0 ranks high among state-of-the-art coupled climate models by many measures of bias in the simulated climatology and in its ability to capture modes of climate variability such as the El Niño-Southern Oscillation and Madden-Julian Oscillation. The paper also discusses some potential weaknesses, including unrealistically large internal variability in the Southern Ocean and insufficient warming before 1990 in the simulation of the twentieth century."
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Held_etal_2019.bib 
+  pdf: ../Publications/papers/Held_etal_2019.pdf
+  keyword1: Coupled Model Development
+  keyword2: ENSO simulation
+  keyword3: 
+- id: Pasillas_etal_2024.yml
+  year: 2024
+  title: "Turning Night Into Day{:} The Creation and Validation of Synthetic Night-time Visible Imagery Using the Visible Infrared Imaging Radiometer Suite ({VIIRS}) Day-Night Band ({DNB}) and Machine Learning"
+  author1: pasillas 
+  author2: bell 
+  author3: false
+  authors: Chandra M. Pasillas and Christian Kummerow and Michael Bell and Steven D. Miller
+  journal: "Artificial Intelligence for the Earth Systems"
+  others:  3
+  doi: https://doi.org/10.1175/AIES-D-23-0002.1
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Meteorological satellite imagery is a critical asset for observing and forecasting weather phenomena. The Joint Polar Satellite System (JPSS) Visible Infrared Imaging Radiometer Suite (VIIRS) Day-Night Band (DNB) sensor collects measurements from moonlight, airglow, and artificial lights. DNB radiances are then manipulated and scaled with a focus on digital display. DNB imagery performance is tied to the lunar cycle, with best performance during the full moon and worst with the new moon. We propose using feed-forward neural networks models to transform brightness temperatures and wavelength differences in the infrared spectrum to a pseudo lunar reflectance value based on lunar reflectance values derived from observed DNB radiances. JPSS NOAA-20 and Suomi National Polar-orbiting Partnership (SNPP) satellite data over the North Pacific Ocean at night for full moon periods from December 2018 - November 2020 were used to design the models. The pseudo lunar reflectance values are quantitatively compared to DNB lunar reflectance, providing the first-ever lunar reflectance baseline metrics. The resulting imagery product, Machine Learning Night-time Visible Imagery (ML-NVI), is qualitatively compared to DNB lunar reflectance and infrared imagery across the lunar cycle. The imagery goal is not only to improve upon the consistency performance of DNB imagery products across the lunar cycle, but ultimately lay the foundation for transitioning the algorithm to geostationary sensors, making global continuous nighttime imagery possible. ML-NVI demonstrates its ability to provide DNB derived imagery with consistent contrast and representation of clouds across the full lunar cycle for night-time cloud detection."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Pasillas_etal_2024.bib 
+  pdf: ../../Publications/papers/Pasillas_etal_2024.pdf
+  keyword1: satellite imagery
+  keyword2: feed-forward neural networks
+  keyword3: nighttime imagery
+- id: Wing_etal_2020.yml
+  year: 2020
+  title: Clouds and Convective Self-Aggregation in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Wing, Allison A. and Stauffer, Catherine L. and Becker, Tobias and Reed, Kevin A. and Ahn, Min-Seop and Arnold, Nathan P. and Bony, Sandrine and Branson, Mark and Bryan, George H. and Chaboureau, Jean-Pierre and De Roode, Stephan R. and Gayatri, Kulkarni and Hohenegger, Cathy and Hu, I-Kuan and Jansson, Fredrik and Jones, Todd R. and Khairoutdinov, Marat and Kim, Daehyun and Martin, Zane K. and Matsugishi, Shuhei and Medeiros, Brian and Miura, Hiroaki and Moon, Yumin and Müller, Sebastian K. and Ohno, Tomoki and Popp, Max and Prabhakaran, Thara and Randall, David and Rios-Berrios, Rosimar and Rochetin, Nicolas and Roehrig, Romain and Romps, David M. and Ruppert Jr., James H. and Satoh, Masaki and Silvers, Levi G. and Singh, Martin S. and Stevens, Bjorn and Tomassini, Lorenzo and van Heerwaarden, Chiel C. and Wang, Shuguang and Zhao, Ming
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  12 
+  doi: https://doi.org/10.1029/2020MS002138
+  keypoint1: Temperature, humidity, and clouds in radiative‐convective equilibrium vary substantially across models 
+  keypoint2: Models agree that self‐aggregation dries the atmosphere and reduces high cloudiness 
+  keypoint3: There is no consistency in how self‐aggregation depends on warming 
+  abstract: "Abstract The Radiative-Convective Equilibrium Model Intercomparison Project (RCEMIP) is an intercomparison of multiple types of numerical models configured in radiative-convective equilibrium (RCE). RCE is an idealization of the tropical atmosphere that has long been used to study basic questions in climate science. Here, we employ RCE to investigate the role that clouds and convective activity play in determining cloud feedbacks, climate sensitivity, the state of convective aggregation, and the equilibrium climate. RCEMIP is unique among intercomparisons in its inclusion of a wide range of model types, including atmospheric general circulation models (GCMs), single column models (SCMs), cloud-resolving models (CRMs), large eddy simulations (LES), and global cloud-resolving models (GCRMs). The first results are presented from the RCEMIP ensemble of more than 30 models. While there are large differences across the RCEMIP ensemble in the representation of mean profiles of temperature, humidity, and cloudiness, in a majority of models anvil clouds rise, warm, and decrease in area coverage in response to an increase in sea surface temperature (SST). Nearly all models exhibit self-aggregation in large domains and agree that self-aggregation acts to dry and warm the troposphere, reduce high cloudiness, and increase cooling to space. The degree of self-aggregation exhibits no clear tendency with warming. There is a wide range of climate sensitivities, but models with parameterized convection tend to have lower climate sensitivities than models with explicit convection. In models with parameterized convection, aggregated simulations have lower climate sensitivities than unaggregated simulations."
+  summary: "This study investigates tropical clouds and climate using results from more than 30 different numerical models set up in a simplified framework. The data set of model simulations is unique in that it includes a wide range of model types configured in a consistent manner. We address some of the biggest open questions in climate science, including how cloud properties change with warming and the role that the tendency of clouds to form clusters plays in determining the average climate and how climate changes. While there are large differences in how the different models simulate average temperature, humidity, and cloudiness, in a majority of models, the amount of high clouds decreases as climate warms. Nearly all models simulate a tendency for clouds to cluster together. There is agreement that when the clouds are clustered, the atmosphere is drier with fewer clouds overall. We do not find a conclusive result for how cloud clustering changes as the climate warms." 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Wing_etal_2020.bib 
+  pdf: ../Publications/papers/Wing_etal_2020.pdf
+  keyword1: radiative-convective equilibrium model intercomparison project
+  keyword2: convective aggregation
+  keyword3: climate sensitivity
   
 
-
-
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
 
