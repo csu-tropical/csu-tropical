@@ -1,0 +1,24 @@
+- id: Cha_Bell_2024.yml
+  year: 2024
+  title: "Tropical cyclone asymmetric eyewall evolution and intensification in a two-layer model"
+  author1: cha 
+  author2: bell 
+  author3: false
+  authors: Ting-Yu Cha and Michael Bell 
+  journal: "Weather and Climate Dynamics"
+  others:  5
+  doi: https://doi.org/10.5194/wcd-5-1013-2024
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "Radar and satellite imagery of numerous intensifying tropical cyclones (TCs) depict an appearance of a polygonal eyewall structure where deep convection is often located near the polygonal vertices. A recent observational study of Hurricane Michael’s (2018) polygonal eye-wall evolution suggests that the vorticity asymmetries are coupled with the reflectivity asymmetries during rapid intensification. Conceptual theory of a polygonal eyewall structure has been linked to vortex Rossby waves (VRWs) and the breakdown of an enhanced potential vorticity (PV) ring, but how the asymmetries affect TC intensification remains unclear. Non-divergent barotropic models have previously been employed to study polygonal eyewall dynamics, but this approach has limitations due to the importance of diabatic heating to PV generation and the intensification process. Results from prior studies motivate us to explore the nature of the relationship between asymmetric vorticity and vertical velocity in the free atmosphere and the boundary layer and their compound impacts on the TC intensification process. Here we use a simple two-layer model framework with a shallow-water model on top of a slab boundary layer (SBL) model to simulate a frictional boundary layer underneath the free atmosphere. Results from simulating a wavenumber 2 elliptical asymmetry suggest the VRW in the free atmosphere can organize the updrafts in the SBL, which is consistent with radar observations of enhanced reflectivity at the polygonal vertices. Free atmospheric divergence in the shallow-water layer does not explain the coupling between vorticity and reflectivity. The coupling can be explained to first order by the one-way boundary layer response to the pressure gradient associated with the free atmospheric vorticity asymmetries, consistent with prior studies. Further simulations that allow two-way interaction between the layers show that the organization of the updrafts out of the SBL plays a critical role in the growth of a PV ring and intensification of the mean vortex. In this framework, diabatic heating in the shallow-water layer parameterized by a mass sink driven by the free atmosphere–SBL interaction leads to rapid intensification of the vortex, thinning of the PV ring, and eventual barotropic instability and PV mixing. The simplified modeling framework with two-way interactions captures many of the essential dynamics of rapid intensification in the presence of evolving asymmetries, similar to those seen in the observations from Hurricane Michael (2018), which provides new insight into the complex interactions between dynamics and convection during hurricane intensification."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Cha_Bell_2024.bib 
+  pdf: ../../Publications/papers/Cha_Bell_2024.pdf
+  keyword1: Tropical cyclone evolution
+  keyword2: numerical model
+  keyword3: potential vorticity dynamics
+  
