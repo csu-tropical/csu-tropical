@@ -1,0 +1,24 @@
+- id: Thorne_etal_2023.yml
+  year: 2023
+  title: "Effects of wind on the movement, behavior, energetics, and life history of seabirds"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Thorne, L.H. and Clay, T. A. and Phillips, R. A. and Silvers, L. G. and Wakefield, E. D.
+  journal: Marine Ecology Progress Series 
+  others:  723 
+  doi: https://doi.org/10.3354/meps14417
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: "For decades, studies have highlighted links between wind patterns and the behavior, ecology, distribution, energetics and life history of seabirds. However, only relatively recently have advancements in tracking technologies and improvements in the resolution of globally-available wind data allowed wind impacts on seabirds to be quantified across multiple spatiotemporal scales. Here, we review and synthesize current knowledge of the effects of wind on seabirds. We first describe global patterns of wind circulation and relevant atmospheric processes and discuss the relationship between seabird morphology, flight performance and behavior relative to wind. We then develop a conceptual model linking seabird movement strategies to wind, morphology, flight capabilities and central-place constraint. Finally, we examine how wind influences seabird populations via effects on flight efficiency and energetics, and wind impacts associated with climate variability and severe weather. We conclude by highlighting research priorities for advancing our understanding of the effects of wind on seabird ecology and behavior; these include assessing how and to what extent seabirds use ocean waves for efficient flight, understanding how seabirds sense and anticipate wind patterns, and examining how wind has shaped seabird evolution. Future research should also focus on assessing how wind modulates habitat accessibility, and how this knowledge could be incorporated into theory of seabird habitat use. Moreover, approaches that focus on mechanistic links between climate, wind and demography are needed to assess population-level effects, and will be imperative to understanding how sea- birds may be impacted by climate-driven changes to wind patterns."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Thorne_etal_2023.bib 
+  pdf: ../../Publications/papers/Thorne_etal_2023.pdf
+  keyword1: Marine birds
+  keyword2: wind patterns
+  keyword3: morphology
+  
