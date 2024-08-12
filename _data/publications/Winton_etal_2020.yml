@@ -1,0 +1,24 @@
+- id: Winton_etal_2020.yml
+  year: 2020
+  title: "Climate Sensitivity of GFDL's CM4.0"
+  author1: silvers 
+  author2: false
+  author3: false
+  authors: Winton, M. and Adcroft, A. and Dunne, J. P. and Held, I. M. and Shevliakova, E. and Zhao, M. and Guo, H. and Hurlin, W. and Krasting, J. and Knutson, T. and Paynter, D. and Silvers, L. G. and Zhang, R.
+  journal: "Journal of Advances in Modeling Earth Systems"
+  others:  12
+  doi: https://doi.org/10.1029/2019MS001838
+  keypoint1: CM4.0 has high equilibrium and transient climate sensitivities, both near the CMIP5 75th percentile 
+  keypoint2: The energy budget sensitivity estimation method significantly underestimates CM4.0's sensitivities 
+  keypoint3: CM4.0's excessive warming over recent decades most likely indicates excessive transient sensitivity 
+  abstract: GFDL's new CM4.0 climate model has high transient and equilibrium climate sensitivities near the middle of the upper half of CMIP5 models. The CMIP5 models have been criticized for excessive sensitivity based on observations of present-day warming and heat uptake and estimates of radiative forcing. An ensemble of historical simulations with CM4.0 produces warming and heat uptake that are consistent with these observations under forcing that is at the middle of the assessed distribution. Energy budget-based methods for estimating sensitivities based on these quantities underestimate CM4.0's sensitivities when applied to its historical simulations. However, we argue using a simple attribution procedure that CM4.0's warming evolution indicates excessive transient sensitivity to greenhouse gases. This excessive sensitivity is offset prior to recent decades by excessive response to aerosol and land use changes. 
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Winton_etal_2020.bib 
+  pdf: ../../Publications/papers/Winton_etal_2020.pdf
+  keyword1: climate sensitivity
+  keyword2: transient sensitivity
+  keyword3: climate model
+  

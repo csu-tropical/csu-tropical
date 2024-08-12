@@ -1,0 +1,25 @@
+- id: Klotzbach_etal_BAMS2024
+  year: 2024
+  title: "The 2023 Atlantic Hurricane Season: An Above-Normal Season Despite Strong El Niño Conditions"
+  author1: klotzbach
+  author2: bell
+  author3: false
+  authors: Klotzbach, P. J.,J. J. Jones, K. M. Wood, M. M. Bell, E. S. Blake, S. G. Bowen, L.-P. Caron, D. R. Chavas, J. M. Collins, E. J. Gibney, C. J. Schreck III; R. E. Truchelut
+  journal: Bull. Amer. Meteor. Soc
+  others: EOR
+  doi: https://doi.org/10.1175/BAMS-D-23-0305.1
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: "The 2023 Atlantic hurricane season was above normal, producing 20 named storms, 7 hurricanes, 3 major hurricanes and seasonal Accumulated Cyclone Energy that exceeded the 1991–2020 average. Hurricane Idalia was the most damaging hurricane of the year, making landfall as a Category 3 hurricane in Florida, resulting in eight direct fatalities and $3.6 billion USD in damage.
+The above-normal 2023 hurricane season occurred during a strong El Niño event. El Niño events tend to be associated with increased vertical wind shear across the Caribbean and tropical Atlantic, yet vertical wind shear during the peak hurricane season months of August–October was well below normal. The primary driver of the above-normal season was likely record warm tropical Atlantic sea surface temperatures (SSTs), which effectively counteracted some of the canonical impacts of El Niño. The extremely warm tropical Atlantic and Caribbean were associated with weaker-than-normal trade winds driven by an anomalously weak subtropical ridge, resulting in a positive wind-evaporation-SST feedback.
+We tested atmospheric circulation sensitivity to SSTs in both the tropical and subtropical Pacific and the Atlantic using the atmospheric component of the Community Earth System Model version 2.3. We found that the extremely warm Atlantic was the primary driver of the reduced vertical wind shear relative to other moderate/strong El Niño events. The concentrated warmth in the eastern tropical Pacific in August–October may have contributed to increased levels of vertical wind shear than if the warming had been more evenly spread across the eastern and central tropical Pacific." 
+  summary: false
+  image: 
+  caption: 
+  acknowledgement: "We thank Christina Patricola, Brian McNoldy, an anonymous reviewer and the editor, Chris Landsea, for helpful comments that have improved the quality of the manuscript. We thank Christina Patricola for providing the ENSO Longitude Index. P. Klotzbach thanks the G. Unger Vetlesen Foundation for financial support that helped fund this research. J. Jones was supported by the NOAA Climate and Global Change Postdoctoral Fellowship Program, administered by UCAR's CPAESS under award #NA21OAR4310383. K. Wood acknowledges support from the Department of Hydrology & Atmospheric Sciences and the College of Science at the University of Arizona. M. Bell was supported by Office of Naval Research award N000142012069. D. Chavas was supported by National Science Foundation Award AGS-1945113. E. Gibney’s research was supported by NOAA's Science Collaboration Program and administered by UCAR's Cooperative Programs for the Advancement of Earth System Science (CPAESS) under award NA21OAR4310383. C. Schreck was supported by NOAA through the Cooperative Institute for Satellite Earth System Studies under Cooperative Agreement NA19NES4320002." 
+  bibtex: ../../Publications/bibtex/Klotzbach_etal_2024_bams.bib
+  pdf: ../../Publications/papers/Klotzbach_etal_2024_bams.pdf
+  keyword1: Tropical cyclones
+  keyword2: ENSO
+  keyword3:  Atlantic Ocean
