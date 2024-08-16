@@ -1,0 +1,24 @@
+- id: Paynter_etal_2018.yml
+  year: 2018
+  title: Equilibrium Climate Sensitivity Obtained From Multimillennial Runs of Two GFDL Climate Models
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Paynter, D. and Frölicher, T. L. and Horowitz, L. W. and Silvers, L. G.
+  journal: "Journal of Geophysical Research: Atmospheres" 
+  others:  123 
+  doi: https://doi.org/10.1002/2017JD027885
+  keypoint1: "Two coupled GCMs require multiple millennia to equilibrate to a gradual CO2 doubling and have an ECS ~1 K larger than IPCC estimates"
+  keypoint2: "For the majority of both runs the feedback parameter is near constant, but much smaller than seen following an instantaneous CO2 quadrupling"
+  keypoint3: "Intermodel and temporal differences in feedback parameter are tied to differences in lower atmospheric stability and the vertical velocity"
+  abstract: "Equilibrium climate sensitivity (ECS), defined as the long-term change in global mean surface air temperature in response to doubling atmospheric CO2, is usually computed from short atmospheric simulations over a mixed layer ocean, or inferred using a linear regression over a short-time period of adjustment. We report the actual ECS from multimillenial simulations of two Geophysical Fluid Dynamics Laboratory (GFDL) general circulation models (GCMs), ESM2M, and CM3 of 3.3 K and 4.8 K, respectively. Both values are ~1 K higher than estimates for the same models reported in the Fifth Assessment Report of the Intergovernmental Panel on Climate Change obtained by regressing the Earth’s energy imbalance against temperature. This underestimate is mainly due to changes in the climate feedback parameter (alpha) within the first century after atmospheric CO2 has stabilized. For both GCMs it is possible to estimate ECS with linear regression to within 0.3 K by increasing CO2 at 1% per year to doubling and using years 51–350 after CO2 is constant. We show that changes in alpha differ between the two GCMs and are strongly tied to the changes in both vertical velocity at 500 hPa (ω500) and estimated inversion strength that the GCMs experience during the progression toward the equilibrium. This suggests that while cloud physics parametrizations are important for determining the strength of alpha, the substantially different atmospheric state resulting from a changed sea surface temperature pattern may be of equal importance."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Paynter_etal_2018.bib 
+  pdf: ../../Publications/papers/Paynter_etal_2018.pdf
+  keyword1: Coupled Model Development
+  keyword2: ENSO simulation
+  keyword3: 
+  

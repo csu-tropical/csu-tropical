@@ -1,0 +1,24 @@
+- id: Zhao_etal_part1_2018.yml
+  year: 2018
+  title: "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0: 1. Simulation Characteristics With Prescribed SSTs"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Zhao, M. and Golaz, J.-C. and Held, I. M. and Guo, H. and Balaji, V. and Benson, R. and Chen, J.-H. and Chen, X. and Donner, L. J. and Dunne, J. P. and Dunne, K. and Durachta, J. and Fan, S.-M. and Freidenreich, S. M. and Garner, S. T. and Ginoux, P. and Harris, L. M. and Horowitz, L. W. and Krasting, J. P. and Langenhorst, A. R. and Liang, Z. and Lin, P. and Lin, S.-J. and Malyshev, S. L. and Mason, E. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paulot, F. and Paynter, D. and Phillipps, P. and Radhakrishnan, A. and Ramaswamy, V. and Robinson, T. and Schwarzkopf, D. and Seman, C. J. and Shevliakova, E. and Shen, Z. and Shin, H. and Silvers, L. G. and Wilson, J. R. and Winton, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  10 
+  doi: https://doi.org/10.1002/2017MS001208
+  keypoint1: A description is provided of the AM4.0/LM4.0 model that will serve as a base for a new set of GFDL/NOAA climate and Earth system models
+  keypoint2: The simulation quality in AMIP mode is described and compared with previous GFDL models and with the CMIP5 archive of AMIP simulations
+  keypoint3: The model’s Cess sensitivity and effective radiative forcing are presented
+  abstract: "In this two-part paper, a description is provided of a version of the AM4.0/LM4.0 atmosphere/land model that will serve as a base for a new set of climate and Earth system models (CM4 and ESM4) under development at NOAA's Geophysical Fluid Dynamics Laboratory (GFDL). This version, with roughly 100 km horizontal resolution and 33 levels in the vertical, contains an aerosol model that generates aerosol fields from emissions and a “light” chemistry mechanism designed to support the aerosol model but with prescribed ozone. In Part 1, the quality of the simulation in AMIP (Atmospheric Model Intercomparison Project) mode—with prescribed sea surface temperatures (SSTs) and sea-ice distribution—is described and compared with previous GFDL models and with the CMIP5 archive of AMIP simulations. The model's Cess sensitivity (response in the top-of-atmosphere radiative flux to uniform warming of SSTs) and effective radiative forcing are also presented. In Part 2, the model formulation is described more fully and key sensitivities to aspects of the model formulation are discussed, along with the approach to model tuning."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhao_etal_part1_2018.bib 
+  pdf: ../../Publications/papers/Zhao_etal_part1_2018.pdf
+  keyword1: Global Climate Model Development
+  keyword2: convection and clouds
+  keyword3: atmospheric variability
+  

@@ -1,0 +1,24 @@
+- id: Zhao_etal_part2_2018.yml
+  year: 2018
+  authors: Zhao, M. and Golaz, J.-C. and Held, I. M. and Guo, H. and Balaji, V. and Benson, R. and Chen, J.-H. and Chen, X. and Donner, L. J. and Dunne, J. P. and Dunne, K. and Durachta, J. and Fan, S.-M. and Freidenreich, S. M. and Garner, S. T. and Ginoux, P. and Harris, L. M. and Horowitz, L. W. and Krasting, J. P. and Langenhorst, A. R. and Liang, Z. and Lin, P. and Lin, S.-J. and Malyshev, S. L. and Mason, E. and Milly, P. C. D. and Ming, Y. and Naik, V. and Paulot, F. and Paynter, D. and Phillipps, P. and Radhakrishnan, A. and Ramaswamy, V. and Robinson, T. and Schwarzkopf, D. and Seman, C. J. and Shevliakova, E. and Shen, Z. and Shin, H. and Silvers, L. G. and Wilson, J. R. and Winton, M. and Wittenberg, A. T. and Wyman, B. and Xiang, B.
+  title: "The GFDL Global Atmosphere and Land Model AM4.0/LM4.0: 2. Model Description, Sensitivity Studies, and Tuning Strategies"
+  author1: silvers
+  author2: false
+  author3: false
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  10 
+  doi: https://doi.org/10.1002/2017MS001209
+  keypoint1: Part 2 of the AM4.0/LM4.0 paper provides documentation of key changes in individual components from previous GFDL models 
+  keypoint2: Some sensitivities to choices of model formulation and parameter values are presented with emphasis on convection and tuning of clouds
+  keypoint3: We describe the extent to which the effect on aerosol forcing and Cess sensitivity has been taken into account during model development
+  abstract: "In Part 2 of this two-part paper, documentation is provided of key aspects of a version of the AM4.0/LM4.0 atmosphere/land model that will serve as a base for a new set of climate and Earth system models (CM4 and ESM4) under development at NOAA's Geophysical Fluid Dynamics Laboratory (GFDL). The quality of the simulation in AMIP (Atmospheric Model Intercomparison Project) mode has been provided in Part 1. Part 2 provides documentation of key components and some sensitivities to choices of model formulation and values of parameters, highlighting the convection parameterization and orographic gravity wave drag. The approach taken to tune the model's clouds to observations is a particular focal point. Care is taken to describe the extent to which aerosol effective forcing and Cess sensitivity have been tuned through the model development process, both of which are relevant to the ability of the model to simulate the evolution of temperatures over the last century when coupled to an ocean model."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../../Publications/bibtex/Zhao_etal_part2_2018.bib 
+  pdf: ../../Publications/papers/Zhao_etal_part2_2018.pdf
+  keyword1: global climate model development
+  keyword2: climate simulation
+  keyword3: convection and clouds
+  
