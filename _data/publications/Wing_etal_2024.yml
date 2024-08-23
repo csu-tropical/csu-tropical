@@ -1,0 +1,25 @@
+- id: Wing_etal_2024.yml
+  year: 2024
+  title: "RCEMIP-II: mock-Walker simulations as phase II of the radiative-convective equilibrium model intercomparison project"
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Wing, A. A. and Silvers, L. G. and Reed, K. A.
+  journal: "Geoscientific Model Development" 
+  others:  17
+  doi: https://doi.org/10.1002/2017JD027885
+  doi: https://doi.org/10.5194/gmd-17-6195-2024
+  keypoint1: "Two second phase of the RCEMIP project is documented" 
+  keypoint2: "mock-Walker simulations are proposed as the framework for RCEMIPII"
+  keypoint3: "The experimental configuration is presented for a cloud system resolving model and a general circulation model"
+  abstract: "The radiative–convective equilibrium (RCE) model intercomparison project (RCEMIP) leveraged the simplicity of RCE to focus attention on moist convective processes and their interactions with radiation and circulation across a wide range of model types including cloud-resolving models (CRMs), general circulation models (GCMs), single-column models, global cloud-resolving models, and large-eddy simulations. While several robust results emerged across the spectrum of models that participated in the first phase of RCEMIP (RCEMIP-I), two points that stand out are (1) the strikingly large diversity in simulated climate states and (2) the strong imprint of convective self-aggregation on the climate state. However, the lack of consensus in the structure of self-aggregation and its response to warming is a barrier to understanding. Gaining a deeper understanding of convective aggregation and tropical climate will require reducing the degrees of freedom with which convection can vary. Therefore, we propose phase II of RCEMIP (RCEMIP-II) that utilizes a prescribed sinusoidal sea surface temperature (SST) pattern to provide a constraint on the structure of convection and move one critical step up the model hierarchy. This so-called “mock-Walker” configuration generates features that resemble observed tropical circulations. The specification of the mock-Walker protocol for RCEMIP-II is described, along with example results from one CRM and one GCM. RCEMIP-II will consist of five required simulations: three simulations with the same three mean SSTs as in RCEMIP-I but with an SST gradient and two additional simulations at one of the mean SSTs with different values of the SST gradients. We also test the sensitivity to the imposed SST gradient and the domain size. Under weak SST gradients, unforced self-aggregation emerges across the entire domain, similar to what was found in RCEMIP. As the SST gradient increases, the convective region narrows and is more confined to the warmest SSTs. At warmer mean SSTs and stronger SST gradients, low-frequency variability in the convective aggregation emerges, suggesting that simulations of at least 200 d may be needed to achieve robust equilibrium statistics in this configuration. Simulations with different domain sizes generally have similar mean statistics and convective structures, depending on the value of the SST gradient. The prescribed SST boundary condition is the only difference in the set-up between RCEMIP-II and RCEMIP-I, which enables comparison between the two; however, we also welcome participation in RCEMIP-II from models that did not participate in RCEMIP-I."
+  summary: 
+  image: 
+  caption: 
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Wing_etal_2024.bib 
+  pdf: ../Publications/papers/Wing_etal_2024.pdf
+  keyword1: RCEMIP
+  keyword2: mock-Walker
+  keyword3: multi-model comparison
+  
