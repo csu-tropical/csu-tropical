@@ -1,0 +1,25 @@
+---
+layout: post
+title: "The Bell Research Group Begins field campaign in the tropical Atlantic Ocean"
+date:   2024-08-12
+image: "https://tropical.colostate.edu/images/news/Bell-Research-voyage-2024-1.png"
+author: "Theresa Barosh"
+---
+
+Professor Michael Bell and graduate student Delián Colón-Burgos embarked on a multi-week field campaign to study tropical cloud systems and how they are organized. The tropical Atlantic, and particularly the region known as the Atlantic Intertropical Convergence Zone is a critical region of the planet where storms, hurricanes, and cloud systems spawn. The goal of this campaign is to facilitate multiple types of observations within the environment that creates cloud systems of interest.      
+
+
+<!--more-->
+
+<img src= "https://tropical.colostate.edu/images/news/Delian_PICOLLO_IMG_4833.jpg"
+     alt="Delian"
+     style=" display: block;margin-left: auto;margin-right: auto;width: 85%;" />
+
+The field campaign is called PICCOLO (Process Investigation of Clouds and Convective Organization over the atLantic Ocean) and is an international collaboration that includes a research ship, multiple aircraft, satellites, and a ground-based observatory. The field campaign will be taking place throughout August and September of 2024. Bell and Colón-Burgos will be using and monitoring the C-band radar SEA-POL that has been mounted aboard the research ship the RV-Meteor. SEA-POL is a rugged radar that can be deployed around the globe to provide research-grade radar measurements in challenging weather conditions. This creates opportunities to observe the structure of clouds and precipitating systems. SEA-POL is jointly managed by CSU’s Departments of Atmospheric Science and Electrical and Computer Engineering and funded by the National Science Foundation. 
+
+“It is a unique collaboration that allows these kinds of scientific deployments with cutting edge technology,” said Bell.
+
+Photo: Mateo Lovato, Francesc Junyent, Michael Bell, Delián Colón-Burgos, and Jim George
+
+
+
