@@ -1,20 +1,23 @@
 ---
 id: desrosiers
 name: Alex DesRosiers
+time: Ph.D. in 2024
+thesis: >
+  'From Surface to Tropopause: On the Vertical Structure of the Tropical Cyclone Vortex' 
 photo: './Group/alex.jpg'
 email: 'mailto:adesros@rams.colostate.edu'
 github: 'https://github.com/Alex-DesRosiers'
 webpage: false
 twitter: 'https://twitter.com/desros_alex'
 bio: >
-  Alex is a Ph.D. candidate at Colorado State University.
+  Alex earned his Ph.D. from Colorado State University in 2024.
   He was born and raised in Tampa Florida and obtained his Bachelor's Degree
   in Environmental Engineering from the University of Florida. An affinity for
-  the outdoors has made Colorado an excellent new home. Alex’s current research
-   aims to identify internal mechanisms driving rapid intensification in recent
-    Atlantic storms. In situ data such as the NOAA P-3 Tail Doppler Radar will
-     be used to capture these mechanisms in action. This research also
+  the outdoors has made Colorado an excellent new home. Alex’s PhD research
+   sought to identify internal mechanisms driving rapid intensification in recent
+    Atlantic storms. In situ data such as the NOAA P-3 Tail Doppler Radar where 
+     used to capture these mechanisms in action. This research also
      incorporates machine learning techniques to lessen the time and effort it
-     takes to quality control radar data. The end goal is a better
+     takes to quality control radar data. Alex's end goal was to develop a better
      understanding of how rapid intensity changes occur in order to provide
      more information for modelers and forecasters.

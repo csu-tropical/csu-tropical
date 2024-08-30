@@ -31,6 +31,15 @@
 - id: cha
   full_name: Ting-Yu Cha
 
+- id: jenkins
+  full_name: Chandler Jenkins
+
+- id: beard
+  full_name: Lauren Beard
+
+- id: Stell
+  full_name: Meghan Stell
+
 - id: desrosiers
   full_name: Alex DesRosiers
 
