@@ -78,7 +78,7 @@ This page automatically generates the list of the news posts reading the *_post*
           - If you don’t have webpage or other contacts then put “webpage: false” 
           - Bio should be 5-7 sentence long, otherwise the layout of the team member webpage could go off.
 2. Add the headshot photo in the /Group folder.
-3. Place the yaml file in one of /RA, /RS,/students folders. RA is for Research Associate, and RS is for Research Scientist.
+3. cd into the _data/member/ folder and place the yaml file in the appropriate folder of either /RA, /RS, or /students. RA is for Research Associate, and RS is for Research Scientist.
 4. So, this is the most tricky part! Thumbnail!
      - The thumbnail is in the alphabetical order of surnames once it’s sorted out by the job titles.
      - Each image takes 1/12 of the space. 
