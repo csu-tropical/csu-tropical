@@ -2,7 +2,7 @@
 layout: post
 title: "Brenda Dolan and Jen DeHart present research at the European Radar Conference in Rome"
 date:   2024-09-17
-image: "https://tropical.colostate.edu/images/news/Dolan_ERAD1.jpg"
+image: "https://tropical.colostate.edu/images/news/Dolan_ERAD1.jpeg"
 author: "Brenda Dolan"
 ---
 
@@ -11,7 +11,7 @@ Research Scientists Brenda Dolan and Jen DeHart, both members of the Bell resear
 
 <!--more-->
 
-<img src= "https://tropical.colostate.edu/images/news/Dolan_ERAD2.jpg"
+<img src= "https://tropical.colostate.edu/images/news/Dolan_ERAD2.jpeg"
      alt="Dolan"
      style=" display: block;margin-left: auto;margin-right: auto;width: 85%;" />
 
