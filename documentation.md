@@ -9,7 +9,7 @@
      - Research and Publication documented by Ting-Yu Cha 06/02/2020
      - Home, News, Team member, and Forecasting documented by Chelsea Nam 06/04/2020
 
-
+* Updated by Levi Silvers post 03/2024
 
 ## 1. Home: index.html
 ### structure of Home page
@@ -126,13 +126,13 @@ This page automatically generates the list of the news posts reading the *_post*
 ## 5. Publication: publication.html
 
 ### Structure of publication page:
-- Full list of publications (code can be found: _includes/full_list_publications.html)
-     - Three categories: submitted/In review, in press, and published papers
+- Full list of publications (code can be found: _includes/full_publications.html)
+     - We used to have three categories: submitted/In review, in press, and published papers.  Now we only list published papers.
      - _data/publication_submitted.yml: stores the manuscripts are submitted or in review
      - _data/list_long.yml: stores the papers are in press, published and passed first round of review (i.e. Ting-Yu’s GRL paper has passed the first round of review, so the content can be revealed online)
      - That being said, the info of Ting-Yu and Chelsea’s papers are both stored in _data/publication_submitted.yml and _data/list_long.yml.
      - If the paper gets published, remove the info from publication_submitted.yml, and add/modify new content in _data/list_long.yml.
-     - Publications prior to 2019 are still hard-coded and are without a yaml file. The code can be found: _includes/full_list_publications.html
+     - Publications prior to 2019 are still hard-coded and are without a yaml file. The code can be found: _includes/full_publications.html
 - Book chapters/Sidebars/Thesis
      - Hard coded, the code can be found: _includes/book_sidesbars_others_publications.html
 
