@@ -142,6 +142,10 @@ function showSlides(n) {
 								<figure>
 								<a href="#silvers"><img src="Group/LeviSilversPortraitSquare.jpg" alt="" /></a>
 								<figcaption><b>Levi Silvers,</b><br> Research Scientist II</figcaption></figure></span></div>
+                                                        <div class="1u"><span class="image fit">
+                                                                <figure>
+                                                                <a href="#lee"><img src="Group/JuhyunLee_square.jpeg" alt="" /></a>
+                                                                <figcaption><b>Juhyun Lee,</b><br> Postdoctoral Scientist</figcaption></figure></span></div>
 							<div class="1u"><span class="image fit">
 								<figure>
 								<a href="#barbero"><img src="Group/tyler.jpg" alt="" /></a>
@@ -228,6 +232,28 @@ function showSlides(n) {
             <h4 id="elements" style="margin: 0px -20px">RESEARCH SCIENTISTS</h4>
             <br>
                 {% for org_hash in site.data.member.RS%}
+                {% assign org = org_hash[1] %}
+                <div id="container" style="margin: 0px 0px">
+                <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
+                <ul class="actions"><a href={{ org.email }} class="button alt small"  target="_blank"><i class="fas fa-envelope-square"></i> Email</a></ul>
+                {% if  org.github  != false %}<ul class="actions"><a href={{ org.github }} class="button alt small"  target="_blank"><i class="fab fa-github"></i> GitHub</a></ul>{% endif %}
+                {% if  org.webpage  != false %}<ul class="actions"><a href={{ org.webpage }} class="button alt small"  target="_blank"><i class="fas fa-link"></i> Webpage </a></ul>{% endif %}
+                {% if  org.twitter  != false %}<ul class="actions"><a href={{ org.twitter }} class="button alt small"  target="_blank"><i class="fab fa-twitter"></i> Twitter </a></ul>{% endif %}
+                <ul class="actions"><a href="/member_publication/{{org.id}}.html" class="button alt small"  target="_blank"><i class="fas fa-link"></i> Publications </a></ul>
+                <ul class="actions"><a href="/member_research/{{org.id}}.html" class="button alt small"  target="_blank"><i class="fas fa-link"></i> Research </a></ul>
+                </div>
+                <span class="image left"><img src= {{ org.photo }} alt="headshot" style="float:left;width:150px;height:150px;margin:10px" /></span>
+
+                <p class="align-justify"> {{ org.bio }}</p>
+                <br><br>
+
+                {% endfor %}
+            <br>
+            <hr />
+
+            <h4 id="elements" style="margin: 0px -20px">POSTDOCTORAL SCIENTISTS</h4>
+            <br>
+                {% for org_hash in site.data.member.PD%}
                 {% assign org = org_hash[1] %}
                 <div id="container" style="margin: 0px 0px">
                 <h2 id= {{ org.id }} > {{ org.name }} &nbsp;&nbsp;</h2>
