@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "CSU Tropical Weather and Climate Research Group at the AMS 36th Conference on Hurricanes and Tropical Meteorology"
+title: "CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS) at the AMS 36th Conference on Hurricanes and Tropical Meteorology"
 date:   2024-06-29
 image: "https://tropical.colostate.edu/images/news/AMS36thHurricanesGroupDinner.jpg"
 author: "webmaster"
 ---
 
-During the second week of May, the 36th Conference on Hurricanes and Tropical Meteorology provided a perfect venue for 8 different members of the CSU Tropical Weather and Climate Research group, led by professor Bell, to present numerous research projects.   The conference allowed for the sharing of current research as well as the ability to reunite with former group members.  
+During the second week of May, the 36th Conference on Hurricanes and Tropical Meteorology provided a perfect venue for 8 different members of the CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS), led by professor Bell, to present numerous research projects.   The conference allowed for the sharing of current research as well as the ability to reunite with former group members.  
 
 
 <!--more-->
 
-The meeting, organized and facilitated by the American Meteorological Society, took place in Long Beach, California.  Below is a list of the presentations that were led by members of the Tropical Weather and Climate research group.  See the official agenda for abstracts and complete author lists.
+The meeting, organized and facilitated by the American Meteorological Society, took place in Long Beach, California.  Below is a list of the presentations that were led by members of the Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS).  See the official agenda for abstracts and complete author lists.
 
 *A Mesoscale Analysis of Vertical Motion Producing Extreme Rainfall during PRECIP 2022*<br />
 **Tyler W. Barbero** 

@@ -6,7 +6,7 @@ image: "https://tropical.colostate.edu/images/news/Dolan_ERAD1.jpeg"
 author: "Brenda Dolan"
 ---
 
-Research Scientists Brenda Dolan and Jen DeHart, both members of the Bell research group (Tropical Weather and Climate Research) presented recent work related to SEA-POL (Sea-Going Polarimetric radar), INCUS (Investigation of Convective Updrafts), LROSE (Lidar Radar Open Software Environment), and PRECIP (Prediction of Rainfall Extremes Campaign In the Pacific).   They also co-led a short course on LROSE at the Open Radar Science Workshop.
+Research Scientists Brenda Dolan and Jen DeHart, both members of the Bell research group (Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS)) presented recent work related to SEA-POL (Sea-Going Polarimetric radar), INCUS (Investigation of Convective Updrafts), LROSE (Lidar Radar Open Software Environment), and PRECIP (Prediction of Rainfall Extremes Campaign In the Pacific).   They also co-led a short course on LROSE at the Open Radar Science Workshop.
 
 
 <!--more-->

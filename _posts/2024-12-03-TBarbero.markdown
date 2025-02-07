@@ -6,7 +6,7 @@ image: "https://tropical.colostate.edu/images/news/BarberoGrayAward1.jpeg"
 author: "Levi Silvers"
 ---
 
-Tyler Barbero, a PhD candidate in Professor Bell's Tropical Weather and Climate Research group was awarded the William M. Gray award for the best technical manuscript submitted for publication
+Tyler Barbero, a PhD candidate in Professor Bell's Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS) was awarded the William M. Gray award for the best technical manuscript submitted for publication
 during the previous 18-month period on research advancing understanding of the physics and dynamics of the tropical atmosphere and ocean.  
 
 Congratulations Tyler!

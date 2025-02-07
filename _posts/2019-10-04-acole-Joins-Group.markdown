@@ -1,7 +1,7 @@
 ---
 layout: post
 image: "/images/news/Ali_head.png"
-title: "Ali Cole joins the CSU Tropical Weather and Climate Research Group"
+title: "Ali Cole joins the CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS)"
 date:   2019-10-04
 author: "Jayme DeLoss"
 ---

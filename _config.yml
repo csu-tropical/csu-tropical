@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CSU Tropical Weather & Climate Research
+title: CSU Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS) 
 email: your-email@example.com
-description: "Tropical Weather and Climate Research Group in the Department of Atmospheric
+description: "Tropical Cyclones, Radar, Atmospheric Modeling, and Software Team (TC-RAMS) in the Department of Atmospheric
 Science at Colorado State Univiersity"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
