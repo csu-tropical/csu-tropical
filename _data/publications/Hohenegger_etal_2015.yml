@@ -1,0 +1,22 @@
+- id: Hohenegger_etal_2015 
+  year: 2015
+  title: Coupling of convection and circulation at various resolutions
+  firstauthor: silvers 
+  authors: Hohenegger, C., L. Schlemmer, and L. Silvers
+  journal: "Tellus A: Dynamic Meteorology and Oceanography"
+  others: vol 67
+  doi: https://doi.org/10.3402/tellusa.v67.26678
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: "A correct representation of the coupling between convection and circulation constitutes a prerequisite for a correct representation of precipitation at all scales. In this study, the coupling between convection and a sea breeze is investigated across three main resolutions: large-eddy resolution where convection is fully explicit, convection-permitting resolution where convection is partly explicit and coarse resolution where convection is parameterised. The considered models are the UCLA-LES, COSMO and ICON. Despite the use of prescribed surface fluxes, comparison of the simulations reveals that typical biases associated with a misrepresentation of convection at convection-permitting and coarser resolutions significantly alter the characteristics of the sea breeze. The coarse-resolution simulations integrated without convective parameterisation and the convection- permitting simulations simulate a too slow propagation of the breeze front as compared to the large-eddy simulations. From the various factors affecting the propagation, a delayed onset and intensification of cold pools primarily explains the differences. This is a direct consequence of a delayed development of convection when the grid spacing is coarsened. Scaling the time the sea breeze reaches the centre of the land patch by the time precipitation exceeds 2 mm/day, used as a measure for significant evaporation, yields a collapse of the simulations onto a simple linear relationship although subtle differences remain due to the use of different turbulence and microphysical schemes. Turning on the convection scheme significantly disrupts the pro- pagation of the sea breeze due to a misrepresented timing (too early triggering) and magnitude (too strong
+precipitation evaporation in one of the tested convection schemes) of the convective processes." 
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Hohenegger_etal_2015.bib
+  pdf: ../Publications/papers/Hohenegger_etal_2015.pdf
+  keyword1: thermally induced mesoscale circulation 
+  keyword2: precipitation
+  keyword3: sea breeze

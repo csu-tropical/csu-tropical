@@ -1,0 +1,21 @@
+- id: Song_Klotzbach_etal_ASL_2024
+  year: 2024
+  title: Recent shortening of the mature tropical cyclone stage over the western North Pacific
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, S. Jiang, and Y. Duan
+  journal: Atmospheric Science Letters 
+  others: vol 25 
+  doi: https://doi.org/10.1002/asl.1228
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract:  "This study investigates long-term trends related to the mature stage duration of tropical cyclones (TCs) over the western North Pacific (WNP) during June–November between 1982 and 2021. There is a significant shortening in the mean duration of the WNP mature TC stage, which is defined as the period when a TC is within 5 kt of its lifetime maximum intensity. This shortening is induced by a significant (weak) poleward migration in the starting (ending) location of the WNP mature TC stage, which can be further explained by changes in environmental conditions. From 1982 to 2021, there have been significant increases in maximum potential intensity and 700–500-hPa relative humidity over most of the WNP, which has broadly expanded the TC-favorable area poleward. Consequently, WNP TCs can start their mature stages and reach their lifetime maximum intensities at higher latitudes. By contrast, there are only weak changes in 850-hPa relative vorticity and 850–200-hPa vertical wind shear (VWS). Given the dominant role of VWS in modulating the TC weakening rate, the TC-suppressive area over the subtropical WNP has shown lesser changes, thus leading to insignificant changes in the ending location of the mature TC stage."
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_ASL_2024.bib
+  pdf: ../Publications/papers/Song_Klotzbach_etal_ASL_2024.pdf
+  keyword1: tropical cyclone 
+  keyword2: mature stage
+  keyword3: western North Pacific

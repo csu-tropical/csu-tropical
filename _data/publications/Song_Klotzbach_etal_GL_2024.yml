@@ -1,0 +1,21 @@
+- id: Song_Klotzbach_etal_GL_2024
+  year: 2024
+  title: What caused the record-low frequency of western North Pacific tropical cyclones in autumn 2023?
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, N. Wei, and Y. Duan
+  journal: Geoscience Letters 
+  others: vol 11 
+  doi: https://doi.org/10.1186/s40562-024-00350-w
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract:  "September–November (e.g., autumn) 2023 produced the fewest western North Pacific (WNP) tropical cyclones (TCs) since 1951, likely as a joint response to El Niño and a warm phase of the North Pacific Mode (NPM). Decreases in both TC genesis frequency and two genesis potential indices (GPIs) over the western WNP were likely the result of El Niño-induced and warm NPM-induced negative low-level relative vorticity anomalies. Over the eastern WNP, TC genesis and GPI reductions were also associated with vorticity decreases over the eastern WNP, where the TC-suppressing effect of the warm NPM surpassed the TC-favoring effect of El Niño. The changes in vorticity were further linked to anomalous anticyclones centered over the South China Sea and the midlatitude central North Pacific. A linear combination of the responses to El Niño and a warm NPM can explain the changes in TC genesis and low-level circulation over most of the WNP in 2023, except east of 160°E where other climate modes may have played more of a role."
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_GL_2024.bib
+  pdf: ../Publications/papers/Song_Klotzbach_etal_GL_2024.pdf
+  keyword1: tropical cyclone 
+  keyword2: ENSO
+  keyword3: western North Pacific

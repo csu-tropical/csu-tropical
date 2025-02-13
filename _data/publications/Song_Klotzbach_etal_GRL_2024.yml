@@ -1,0 +1,21 @@
+- id: Song_Klotzbach_etal_GRL_2024
+  year: 2024
+  title: A Slowdown in Translation Speed of Western North Pacific Tropical Cyclones Undergoing Rapid Intensification
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, Y. Dai, and Y. Duan
+  journal: Geophysical Research Letters 
+  others: vol 51 
+  doi: https://doi.org/10.1029/2024GL110220
+  keypoint1: There is a significant slowdown in the mean translation speed of western North Pacific tropical cyclones undergoing rapid intensification 
+  keypoint2: Slow‐moving (fast‐moving) tropical cyclones have a significant increasing (virtually unchanged) rapid intensifi- cation probability
+  keypoint3: A deepening of the western North Pacific mixed layer is the primary driver of the deceleration of rapid intensification cases
+  abstract: "Abstract This study examines long-term trends in western North Pacific (WNP) tropical cyclones (TCs) experiencing rapid intensification (RI) from 1971 to 2022. Although there is only a weak slowdown for all intensifying WNP TCs, the average translation speed for RI TCs has significantly decelerated over the RI main development region (7.5°–25°N, 115°–160°E). This slowdown is primarily due to increasing RI probabilities for slower-moving TCs. By contrast, the RI probability of faster-moving TCs remains virtually unchanged. These differences in RI trend probabilities between slow-moving and fast-moving TCs are primarily linked to a deepening of the WNP mixed layer. TC-induced sea surface temperature cooling tends to weaken when the mixed layer is deep. During the intensification stage, the deeper mixed layer is more critical for slower-moving TCs than for faster-moving TCs. Our findings suggest that RI probabilities for slow-moving WNP TCs may continue to increase in a future warming climate."
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_GRL_2024.bib
+  pdf: ../Publications/papers/Song_Klotzbach_etal_GRL_2024.pdf
+  keyword1: tropical cyclone 
+  keyword2: rapid intensification 
+  keyword3: western North Pacific

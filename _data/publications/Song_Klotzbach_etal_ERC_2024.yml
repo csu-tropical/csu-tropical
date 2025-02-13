@@ -1,0 +1,22 @@
+- id: Song_Klotzbach_etal_ERC_2024
+  year: 2024
+  title: Remote effect of tropical south Atlantic sea surface temperature anomalies on April-June accumulated cyclone energy over the western North Pacific
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, N. Wei, and Y. Duan
+  journal: Environmental Research Communications 
+  others: vol 6
+  doi: https://doi.org/10.1088/2515-7620/ad62c5
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract:  "Global processes and their teleconnections, such as the El Niño-Southern Oscillation (ENSO), have been shown to be a large driver of interannual changes in accumulated cyclone energy (ACE) of western North Pacific (WNP) tropical cyclones (TCs), with higher ACE during El Niño and lower ACE during La Niña. However, it remains uncertain whether interannual changes in WNP TC ACE are modulated by sea surface temperature anomalies (SSTAs) in other oceans. This study finds a significant negative correlation between WNP TC ACE during the early season (April–June) and simultaneous SSTAs over the tropical south Atlantic (TSA) in 1970–2021. On average, in warm TSA years, basinwide April–June ACE is significantly lower, with significant ACE decreases mainly occurring over the region spanning 5°–30°N, 115°–150°E. This is a result of reduced TC frequency, intensity and duration, due to a remote modulation of WNP environmental conditions by TSA SSTAs. In warm TSA years, there are significant decreases in 700–500-hPa relative humidity, 850-hPa relative vorticity and 200-hPa divergence and significant increases in 850–200-hPa vertical wind shear over the portion of the WNP with significant ACE reductions. These environmental changes can be linked to an anomalous Walker circulation induced by TSA SSTAs."
+  abstract: The number of tropical cyclones (TCs) over the western North Pacific (WNP) during spring (March-May) has a significant inverse correlation with concurrent El Niño-Southern Oscillation (ENSO) conditions during the period from 1979-2018. This relationship is different from the previously-documented weak relationship between TC frequency and ENSO during the climatologically most active portion of the TC season. In general, TCs seldom occur in El Niño years during March-May, whereas they frequently form over the western part of the WNP, particularly to the southeast of the Philippines, in La Niña years. This difference can be largely explained by ENSO-driven differences in the genesis potential index as derived from environmental variables. In La Niña years, the abnormally moist mid-troposphere, which relates to the strengthened vertical transport of water vapor induced by the enhanced Walker Circulation, primarily favors TC development, while increased sea surface temperatures and positive low-level relative vorticity anomalies appear to play a lesser role in impacting TC formation.
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_ERC_2024.bib
+  pdf: ../Publications/papers/Song_Klotzbach_etal_ERC_2024.pdf
+  keyword1: tropical cyclone 
+  keyword2: accumulated cyclone energy
+  keyword3: western North Pacific
