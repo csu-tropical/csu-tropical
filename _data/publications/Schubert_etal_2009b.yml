@@ -1,0 +1,22 @@
+- id: Schubert_etal_2009b.yml
+  year: 2009
+  title: A Filtered Model of Tropical Wave Motions
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Schubert, Wayne H., Silvers, Levi G., Masarik, Matthew M., and Gonzalez, Alex O.
+  journal: Journal of Advances in Modeling Earth Systems
+  others:  1 
+  doi: https://doi.org/10.3894/JAMES.2009.1.3
+  keypoint1: 
+  keypoint2: 
+  keypoint3: 
+  abstract: Large-scale tropical phenomena such as the Madden-Julian Oscillation (MJO) and El Niño-Southern Oscilla- tion (ENSO) are often studied using the longwave approximation to equatorial β-plane theory. This approxi- mation involves the neglect of the (∂v/∂t) term in the meridional momentum equation. The approximation does not distort Kelvin waves, completely filters inertia-gravity waves, is reasonably accurate for long Rossby waves, but greatly distorts short Rossby waves. Here we present an improvement of the longwave model, based on an approximation of the (∂v/∂t) term rather than its complete neglect. The new model is similar to the longwave model in the sense that it does not distort Kelvin waves and completely filters inertia-gravity waves. However, it differs from the longwave model in the sense that it accurately describes Rossby waves of all wave- lengths, thus making it a useful tool for the study of a wider range of tropical phenomena than just the MJO and ENSO. Although most of the mathematical analysis performed here is in the context of equatorial β-plane theory, we briefly discuss how the ideas can be generalized to spherical geometry. 
+  image: false
+  caption: false 
+  bibtex: ../../Publications/bibtex/Schubert_etal_2009b.bib 
+  pdf: ../../Publications/papers/Schubert_etal_2009b.pdf
+  keyword1: filtered tropical waves 
+  keyword2: equatorial beta-plane
+  keyword3: balanced dynamics
+  

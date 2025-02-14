@@ -1,0 +1,22 @@
+- id: Song_Klotzbach_etal_IJC_2024
+  year: 2024
+  title: What caused the record-low frequency of western North Pacific tropical cyclones in autumn 2023?
+  title: Independent contributions of tropical sea surface temperature modes to the interannual variability of western North Pacific tropical cyclone frequency
+  firstauthor: klotzbach
+  authors: Song, J., P. J. Klotzbach, N. Qin, and Y. Duan
+  journal: International Journal of Climatology
+  others: vol 44 
+  doi: https://doi.org/10.1002/joc.8417
+  keypoint1: false
+  keypoint2: false
+  keypoint3: false
+  abstract: This study investigates the independent contributions of three tropical sea surface temperature anomaly (SSTA) modes to interannual changes in summertime western North Pacific (WNP) tropical cyclone (TC) frequency from 1982 to 2022. We primarily analyse partial regressions of TC metrics and environmental variables onto the El Niño–Southern Oscillation Modoki (ENM), North Indian Ocean (NIO) SSTA and tropical North Atlantic (TNA) SSTA indices. We find that although basinwide WNP TC frequency significantly correlates with both the ENM and NIO indices, the regions with the most significant changes in TC formation induced by these two indices are well separated. During El Niño Modoki, significant increases in TC formation concentrate over the southeastern part of the WNP, while during a warm NIO, significant decreases in TC formation concentrate over the northwestern part of the WNP. By contrast, insignificant changes in TC genesis over the WNP are solely induced by TNA SSTAs. We show that the two pathways of TNA SSTA's influence on WNP TC activity through modulation of Pacific and NIO SSTAs are of comparable importance. During El Niño Modoki, significantly enhanced TC genesis over the southeastern WNP can be explained by more favourable environmental conditions, which is linked to an anomalous low-level cyclonic circulation over the WNP. During a warm NIO, TC genesis is significantly suppressed over the northwestern WNP, due primarily to an anomalous low-level anticyclonic circulation-induced decrease in relative vorticity. By contrast, during a warm TNA, no notable changes in environmental variables are found over most of the WNP, while significant flow anomalies are limited to the central-to-eastern Pacific and the western Atlantic. These results highlight that the TNA SSTA by itself has a limited impact on WNP TC genesis and the associated large-scale environment.
+  summary: false
+  image: false 
+  caption: false 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_IJC_2024.bib
+  pdf: ../Publications/papers/Song_Klotzbach_etal_IJC_2024.pdf
+  keyword1: tropical cyclone 
+  keyword2: ENSO
+  keyword3: western North Pacific
