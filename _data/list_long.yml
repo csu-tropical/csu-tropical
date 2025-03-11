@@ -2429,7 +2429,7 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   caption: A range–height indicator scan from the ELDORA radar plotted with Py-ART showing the (a) interactive, (b) MLQC, and (c) raw velocity fields at 2127 UTC 6 Sep 2005. (d) A horizontal cross section at 2-km altitude of reflectivity (colors; dBZ) and analyzed winds (vectors) using interactively QCed data centered at 2123 UTC. (e) A vertical cross section taken from west to east through the most intense convection, showing the reflectivity (color shading) and vertical wind component (black contours, in 1 m s−1 intervals). (f),(g) The same analysis as in (d) and (e), but using the ML method for QC. The path of the radar beam from the scan in (a)–(c) is shown as a white line in (f), and location of the cross section is shown as a dashed cyan line in (d). 
   acknowledgement: This research was supported by National Science Foundation Awards OAC-1661663 and AGS-2103776, Office of Naval Research Award N000142012069, and NOAA APAR Risk Reduction Award NA19OAR4590245. We thank Bruno Melli for efforts that provided initial direction to the pro- ject and Wen-Chau Lee, Huaqing Cai, and Hannah Murphey for the original interactive QC of the dataset. We thank NCAR’s Earth Observing Laboratory for the ELDORA data collection.
   bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
-  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  pdf: ../Publications/papers/DesRosiers_Bell_AIES_2024.pdf
   keyword1: Airborne Radar 
   keyword2: Machine Learning
   keyword3: Weather forecast  
