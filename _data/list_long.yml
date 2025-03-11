@@ -3839,6 +3839,29 @@ precipitation evaporation in one of the tested convection schemes) of the convec
   keyword1: tropical cyclone 
   keyword2: ENSO
   keyword3: western North Pacific
+- id: DesRosiers_Bell_2024
+  year: 2024
+  title: Dynamic Vortex Height Evolution During Tropical Cyclone Rapid Intensification
+  author1: desrosiers
+  author2: bell
+  author3: false
+  authors: DesRosiers, A. J., M. M. Bell
+  journal: Journal of Geophysical Research Atmospheres
+  others: 129, e2024JD041710.
+  doi: https://doi.org/10.1029/2024JD041710
+  keypoint1: Tropical cyclones deemed short by the dynamic height of the vortex metric are titled versus shallow, vertically aligned vortices
+  keypoint2: Dynamic height of the vortex increases sharply when storms become adequately aligned, which may be necessary for rapid intensification (RI)
+  keypoint3: Post-alignment vertical growth during RI is sensitive to processes that affect vortex height and the warm core in the upper troposphere
+  abstract: "The vertical structure of the tropical cyclone (TC) vortex can be quantified throughout the TC life cycle via the dynamic height of the vortex (DHOV) metric, which is sensitive to the rate of decay of the tangential wind field with height. Observed storms always possessed a high DHOV value prior to periods of rapid intensification (RI). When limited to vertically-aligned TCs where the low- to mid-level vortex tilt magnitude is small, all DHOV values are found to be large enough for RI. Vortex tilt results from environmental vertical wind shear (VWS) and a similar relationship is found in an ensemble of TCs simulated in a moderate shear environment. Once vortex tilt decreases, both the observed and ensemble TCs exhibit a concurrent increase of DHOV and intensity, indicating the metric provides useful information about changing vertical structure in both tilted and aligned TCs. The growth of DHOV during RI is closely coupled with a strengthening warm core at the upper levels. A simulation with an upper-level jet of VWS is used to better understand the importance of the upper levels during RI by disrupting vortex development there. DHOV and intensity of the TC are effectively capped in the jet simulation relative to its counterpart in a control simulation, indicating shear can limit TC height without appreciable low- to mid-level tilt. Differences in kinematic and thermal structure between the jet and control runs are found from 12- to 16-km altitude, suggesting the importance of warming near the tropopause in powerful TCs." 
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: We appreciate assistance from Chelsea Nam while working with the WRF ensemble simulations. Numerous conversations with scientists in the Colorado State University Department of Atmospheric Science and Cooperative Institute for Research in the Atmosphere (CIRA) helped shape the analysis presented here. The authors thank Mark DeMaria and two anonymous reviewers for helpful and insightful feedback during peer review. This research is supported by Office of Naval Research Award N000142012069.
+  bibtex: ../Publications/bibtex/DesRosiers_Bell_2024.bib
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
+  keyword1: Tropical Cyclones 
+  keyword2: Rapid Intensification 
+  keyword3: Vortex Height
   
   
 
