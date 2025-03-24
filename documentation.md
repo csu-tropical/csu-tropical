@@ -119,7 +119,7 @@ This page automatically generates the list of the news posts reading the *_post*
 
 ### RESOURCES (/resources.html): 
 - Add new CSU resources: go to /_include/CSU_resources.html to add new stuff
-- Add new external resources link: go to /_inlcue/external_resources.html to change the link or add a new link
+- Add new external resources link: go to /_include/external_resources.html to change the link or add a new link
 - Add FAQ item: go to /_include/faq.html 
 
 
