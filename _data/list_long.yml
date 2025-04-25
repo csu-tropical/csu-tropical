@@ -2429,7 +2429,7 @@ maximum tangential winds (RMW) and the outermost black curve is the radius of ga
   caption: A range–height indicator scan from the ELDORA radar plotted with Py-ART showing the (a) interactive, (b) MLQC, and (c) raw velocity fields at 2127 UTC 6 Sep 2005. (d) A horizontal cross section at 2-km altitude of reflectivity (colors; dBZ) and analyzed winds (vectors) using interactively QCed data centered at 2123 UTC. (e) A vertical cross section taken from west to east through the most intense convection, showing the reflectivity (color shading) and vertical wind component (black contours, in 1 m s−1 intervals). (f),(g) The same analysis as in (d) and (e), but using the ML method for QC. The path of the radar beam from the scan in (a)–(c) is shown as a white line in (f), and location of the cross section is shown as a dashed cyan line in (d). 
   acknowledgement: This research was supported by National Science Foundation Awards OAC-1661663 and AGS-2103776, Office of Naval Research Award N000142012069, and NOAA APAR Risk Reduction Award NA19OAR4590245. We thank Bruno Melli for efforts that provided initial direction to the pro- ject and Wen-Chau Lee, Huaqing Cai, and Hannah Murphey for the original interactive QC of the dataset. We thank NCAR’s Earth Observing Laboratory for the ELDORA data collection.
   bibtex: ../Publications/bibtex/DesRosiers_Bell_AIES2024.bib 
-  pdf: ../Publications/papers/DesRosiers_Bell_AIES_2024.pdf
+  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
   keyword1: Airborne Radar 
   keyword2: Machine Learning
   keyword3: Weather forecast  
@@ -3775,93 +3775,25 @@ precipitation evaporation in one of the tested convection schemes) of the convec
   keyword1: tropical cyclone 
   keyword2: ENSO
   keyword3: western North Pacific
-- id: Schubert_etal_2009a.yml
-  year: 2009
-  title: Shallow Water Quasi-Geostrophic Theory on the Sphere
-  author1: silvers
-  author2: false
-  author3: false
-  authors: Schubert, Wayne H., Taft, Richard K., and Silvers, Levi G.
-  journal: Journal of Advances in Modeling Earth Systems
-  others:  1 
-  doi: https://doi.org/10.3894/JAMES.2009.1.2
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
-  abstract: "Quasi-geostrophic theory forms the basis for much of our understanding of mid-latitude atmospheric dynam- ics. The theory is typically presented in either its f -plane form or its β-plane form. However, for many appli- cations, including diagnostic use in global climate modeling, a fully spherical version would be most useful. Such a global theory does in fact exist and has for many years, but few in the scientific community seem to have ever been aware of it. In the context of shallow water dynamics, it is shown that the spherical version of quasi- geostrophic theory is easily derived (re-derived) based on a partitioning of the flow between nondivergent and irrotational components, as opposed to a partitioning between geostrophic and ageostrophic components. In this way, the invertibility principle is expressed as a relation between the streamfunction and the potential vor- ticity, rather than between the geopotential and the potential vorticity. This global theory is then extended by showing that the invertibility principle can be solved analytically using spheroidal harmonic transforms, an advancement that greatly improves the usefulness of this “forgotten” theory. When the governing equation for the time evolution of the potential vorticity is linearized about a state of rest, a simple Rossby-Haurwitz wave dispersion relation is derived and examined. These waves have a horizontal structure described by spheroidal harmonics, and the Rossby-Haurwitz wave frequencies are given in terms of the eigenvalues of the spheroidal harmonic operator. Except for sectoral harmonics with low zonal wavenumber, the quasi-geostrophic Rossby- Haurwitz frequencies agree very well with those calculated from the primitive equations. One of the many possible applications of spherical quasi-geostrophic theory is to the study of quasi-geostrophic turbulence on the sphere. In this context, the theory is used to derive an anisotropic Rhines barrier in three-dimensional wavenumber space."
-  image: false
-  caption: false 
-  bibtex: ../../Publications/bibtex/Schubert_etal_2009a.bib 
-  pdf: ../../Publications/papers/Schubert_etal_2009a.pdf
-  keyword1: Shallow Water Quasi-Geostrophic 
-  keyword2: potential vorticity
-  keyword3: balanced dynamics
-- id: Schubert_etal_2009b.yml
-  year: 2009
-  title: A Filtered Model of Tropical Wave Motions
-  author1: silvers
-  author2: false
-  author3: false
-  authors: Schubert, Wayne H., Silvers, Levi G., Masarik, Matthew M., and Gonzalez, Alex O.
-  journal: Journal of Advances in Modeling Earth Systems
-  others:  1 
-  doi: https://doi.org/10.3894/JAMES.2009.1.3
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
-  abstract: "Large-scale tropical phenomena such as the Madden-Julian Oscillation (MJO) and El Niño-Southern Oscilla- tion (ENSO) are often studied using the longwave approximation to equatorial β-plane theory. This approxi- mation involves the neglect of the (∂v/∂t) term in the meridional momentum equation. The approximation does not distort Kelvin waves, completely filters inertia-gravity waves, is reasonably accurate for long Rossby waves, but greatly distorts short Rossby waves. Here we present an improvement of the longwave model, based on an approximation of the (∂v/∂t) term rather than its complete neglect. The new model is similar to the longwave model in the sense that it does not distort Kelvin waves and completely filters inertia-gravity waves. However, it differs from the longwave model in the sense that it accurately describes Rossby waves of all wave- lengths, thus making it a useful tool for the study of a wider range of tropical phenomena than just the MJO and ENSO. Although most of the mathematical analysis performed here is in the context of equatorial β-plane theory, we briefly discuss how the ideas can be generalized to spherical geometry." 
-  image: false
-  caption: false 
-  bibtex: ../../Publications/bibtex/Schubert_etal_2009b.bib 
-  pdf: ../../Publications/papers/Schubert_etal_2009b.pdf
-  keyword1: filtered tropical waves 
-  keyword2: equatorial beta-plane
-  keyword3: balanced dynamics
-- id: Song_Klotzbach_etal_IJC_2024
+- id: Danso_etal_2024
   year: 2024
-  title: What caused the record-low frequency of western North Pacific tropical cyclones in autumn 2023?
-  title: Independent contributions of tropical sea surface temperature modes to the interannual variability of western North Pacific tropical cyclone frequency
+  title: Air-sea coupling influence on projected changes in major Atlantic hurricane events
   firstauthor: klotzbach
-  authors: Song, J., P. J. Klotzbach, N. Qin, and Y. Duan
-  journal: International Journal of Climatology
-  others: vol 44 
-  doi: https://doi.org/10.1002/joc.8417
-  keypoint1: false
-  keypoint2: false
-  keypoint3: false
-  abstract: This study investigates the independent contributions of three tropical sea surface temperature anomaly (SSTA) modes to interannual changes in summertime western North Pacific (WNP) tropical cyclone (TC) frequency from 1982 to 2022. We primarily analyse partial regressions of TC metrics and environmental variables onto the El Niño–Southern Oscillation Modoki (ENM), North Indian Ocean (NIO) SSTA and tropical North Atlantic (TNA) SSTA indices. We find that although basinwide WNP TC frequency significantly correlates with both the ENM and NIO indices, the regions with the most significant changes in TC formation induced by these two indices are well separated. During El Niño Modoki, significant increases in TC formation concentrate over the southeastern part of the WNP, while during a warm NIO, significant decreases in TC formation concentrate over the northwestern part of the WNP. By contrast, insignificant changes in TC genesis over the WNP are solely induced by TNA SSTAs. We show that the two pathways of TNA SSTA's influence on WNP TC activity through modulation of Pacific and NIO SSTAs are of comparable importance. During El Niño Modoki, significantly enhanced TC genesis over the southeastern WNP can be explained by more favourable environmental conditions, which is linked to an anomalous low-level cyclonic circulation over the WNP. During a warm NIO, TC genesis is significantly suppressed over the northwestern WNP, due primarily to an anomalous low-level anticyclonic circulation-induced decrease in relative vorticity. By contrast, during a warm TNA, no notable changes in environmental variables are found over most of the WNP, while significant flow anomalies are limited to the central-to-eastern Pacific and the western Atlantic. These results highlight that the TNA SSTA by itself has a limited impact on WNP TC genesis and the associated large-scale environment.
+  authors: Derrick K. Danso, Christina M. Patricola, Jaison Kurian, Ping Chang, Philip Klotzbach, and I.-I. Lin
+  journal: Weather and Climate Extremes 
+  others: vol 43 
+  doi: https://doi.org/10.1016/j.wace.2024.100649
+  keypoint1: "Atmosphere-ocean coupling does not change the sign of projected TC rainfall and intensity." 
+  keypoint2: "Within a 500 km radius of the storm center, coupled simulations project lower magnitudes of future TC rainfall increases."
+  keypoint3: "Lower magnitudes of rainfall increase in coupled simulations are driven by enhanced TC-induced SST cooling." 
+  abstract: Tropical cyclone (TC) projections with atmosphere-only models are associated with uncertainties due to their inability to represent TC-ocean interactions. However, global coupled models, which represent TC-ocean interactions, can produce basin-scale sea surface temperature biases in seasonal to centennial simulations that lead to challenges in representing TC activity. Therefore, focusing on recent individual major hurricane events, we investigated the influence of TC-ocean coupling on the response of TCs to anthropogenic change using atmosphere-only and coupled atmosphere-ocean regional model simulations. Under an extremely warm scenario, coupling does not influence the signs of projected TC rainfall and intensity responses. Coupling, however, does influence the magnitude of projected intensity and especially rainfall. Within a 500 km radius region of the TCs, the projected rainfall increases in coupled simulations are 3–59 % less than in the atmosphere-only simulations, driven by enhanced TC-induced sea surface temperature cooling in the former. However, the influence of coupling on the magnitude of projected rainfall could vary considerably over the regions of highest rainfall generated by TCs.
   summary: false
   image: false 
   caption: false 
   acknowledgement: false
-  bibtex: ../Publications/bibtex/Song_Klotzbach_etal_IJC_2024.bib
-  pdf: ../Publications/papers/Song_Klotzbach_etal_IJC_2024.pdf
+  bibtex: ../Publications/bibtex/Danso_etal_2024.bib
+  pdf: ../Publications/papers/Danso_etal_2024.pdf
   keyword1: tropical cyclone 
-  keyword2: ENSO
-  keyword3: western North Pacific
-- id: DesRosiers_Bell_2024
-  year: 2024
-  title: Dynamic Vortex Height Evolution During Tropical Cyclone Rapid Intensification
-  author1: desrosiers
-  author2: bell
-  author3: false
-  authors: DesRosiers, A. J., M. M. Bell
-  journal: Journal of Geophysical Research Atmospheres
-  others: 129, e2024JD041710.
-  doi: https://doi.org/10.1029/2024JD041710
-  keypoint1: Tropical cyclones deemed short by the dynamic height of the vortex metric are titled versus shallow, vertically aligned vortices
-  keypoint2: Dynamic height of the vortex increases sharply when storms become adequately aligned, which may be necessary for rapid intensification (RI)
-  keypoint3: Post-alignment vertical growth during RI is sensitive to processes that affect vortex height and the warm core in the upper troposphere
-  abstract: "The vertical structure of the tropical cyclone (TC) vortex can be quantified throughout the TC life cycle via the dynamic height of the vortex (DHOV) metric, which is sensitive to the rate of decay of the tangential wind field with height. Observed storms always possessed a high DHOV value prior to periods of rapid intensification (RI). When limited to vertically-aligned TCs where the low- to mid-level vortex tilt magnitude is small, all DHOV values are found to be large enough for RI. Vortex tilt results from environmental vertical wind shear (VWS) and a similar relationship is found in an ensemble of TCs simulated in a moderate shear environment. Once vortex tilt decreases, both the observed and ensemble TCs exhibit a concurrent increase of DHOV and intensity, indicating the metric provides useful information about changing vertical structure in both tilted and aligned TCs. The growth of DHOV during RI is closely coupled with a strengthening warm core at the upper levels. A simulation with an upper-level jet of VWS is used to better understand the importance of the upper levels during RI by disrupting vortex development there. DHOV and intensity of the TC are effectively capped in the jet simulation relative to its counterpart in a control simulation, indicating shear can limit TC height without appreciable low- to mid-level tilt. Differences in kinematic and thermal structure between the jet and control runs are found from 12- to 16-km altitude, suggesting the importance of warming near the tropopause in powerful TCs." 
-  summary: false
-  image: false
-  caption: false
-  acknowledgement: We appreciate assistance from Chelsea Nam while working with the WRF ensemble simulations. Numerous conversations with scientists in the Colorado State University Department of Atmospheric Science and Cooperative Institute for Research in the Atmosphere (CIRA) helped shape the analysis presented here. The authors thank Mark DeMaria and two anonymous reviewers for helpful and insightful feedback during peer review. This research is supported by Office of Naval Research Award N000142012069.
-  bibtex: ../Publications/bibtex/DesRosiers_Bell_2024.bib
-  pdf: ../Publications/papers/DesRosiers_Bell_2024.pdf
-  keyword1: Tropical Cyclones 
-  keyword2: Rapid Intensification 
-  keyword3: Vortex Height
-  
-  
+  keyword2: air-sea coupling
+  keyword3: rainfall
 
