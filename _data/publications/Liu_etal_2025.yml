@@ -1,0 +1,21 @@
+- id: Liu_etal_2025
+  year: 2025
+  title: "Record-breaking persistent high-pressure systems fueled unprecedented Canadian wildfire disasters in 2023"
+  firstauthor: silvers
+  authors: Liu, Ping and Reed, Kevin A and Zhao, Ming and Garner, Steve T and Lau, Ngar-Cheung and Silvers, Levi G and Colle, Brian A
+  journal: Environmental Research Communications 
+  others: vol 7 
+  doi: https://dx.doi.org/10.1088/2515-7620/adc6de
+  keypoint1: "Canada experience its most severe wildfire season on record in 2023"
+  keypoint2: "Fire activity was fueled by record-breaking, persistent high-pressure systems"
+  keypoint3: "Long-term warming trends contributed, but were not the primary drivers of the wildfire severity" 
+  abstract: "Canada experienced its most severe wildfire season on record in 2023, with nearly 5% of its forested land burned-almost four times the previous record set in 1995. Our analysis indicated that fire severity, strongly correlated with the monthly Fire Weather Index (FWI), was most intense in the western provinces and territories during May and July, whereas in the eastern provinces, it peaked in June, leading to a seasonal and areal average of more than 3.5 standard deviations (STD). This unprecedented fire activity was fueled by record-breaking, persistent high-pressure systems, with both their frequency and intensities surpassing 3 STD, along with variable winds. These abnormal atmospheric patterns exacerbated dry conditions, reduced cloud cover, and increased surface solar radiation, driving record-high temperatures and FWI values, all exceeding ±3 STD. The extreme high-pressure events were primarily linked to a combination of climatological standing waves and exceptionally strong, transient quasi-stationary waves. The dominant patterns in the mid-troposphere were characterized by large-scale planetary waves at low zonal wavenumbers (1–4). Long-term warming trends also contributed, though they played a lesser role, accounting for roughly 10–20% of the overall anomalies. These findings provide critical insights into the atmospheric dynamics driving Canada’s unprecedented wildfire season."
+  summary: false
+  image: ../Publications/figures/ercadc6def1_lr.webp
+  caption: "(a) Annual burned area in Canada (104 km2) from 1983 to 2023, with dashed lines indicating the 1983–2022 average. The red bar highlights the record-breaking burned area in 2023, exceeding the previous record in 1995 (black bar). (b) Spatial distribution of burned areas across key provinces and territories during the 2023 wildfire season (May–September). Red dots represent the total burned area in 2023, yellow dots indicate areas burned in May and June, and blue dots represent the 1983–2022 average. Dot sizes correspond to the magnitude of the burned area. Major burned areas in May (black box), June (green box), and July (red box) are highlighted for further analysis." 
+  acknowledgement: false
+  bibtex: ../Publications/bibtex/Liu_etal_2025.bib
+  pdf: ../Publications/papers/Liu_etal_2025.pdf
+  keyword1: wildfire
+  keyword2: extreme high-pressure events
+  keyword3: Fire Weather Index
