@@ -7,11 +7,11 @@ github: 'https://github.com/irslushy'
 webpage: false
 twitter: 'https://twitter.com/slushywx'
 bio: >
-  Isaac is a first year M.S. student originally from Sun Praire, Wisconsin.
-  He recieved his B.S. in Atmospheric and Oceanic Sciences and Computer Science from
+  Isaac is a second year M.S. student originally from Sun Prairie, Wisconsin.
+  He received his B.S. in Atmospheric and Oceanic Sciences and Computer Science from
   the University of Wisconsin-Madison. He developed an interest in tropical cyclones through
   an undergraduate internship at the National Hurricane Center, where he worked on creating
-  and analyzing and ensemble of statistical-dyanmical models. He plans to continue this project, and
-  hopefully publish it in the near future! In his M.S., he will be working on developing
-  software and investigating TC dyanmics using the Airborne Phased Array Radar (APAR) system.
+  and analyzing an ensemble of statistical-dynamical models. His current research focuses on leveraging 
+  machine learning techniques to retrieve microphysical information from meteorological radars. He also 
+  helps develop the Ronin.jl software package, which uses machine learning to remove non-meteorological data from radar sweeps. 
   In his free time, he enjoys photography, running, hiking, and storm chasing (when Mother Nature sees fit).
