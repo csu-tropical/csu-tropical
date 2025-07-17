@@ -9,7 +9,7 @@ author: "Levi Silvers"
 Delián Colón Burgos defends her research with the title, "Dynamics of Convective Organization in African Easterly Waves observed during the NAMMA and CPEX-CV Field
 Campaigns".
 
-Congratulations Delián!   Delián defended her work which used a combination of tools to track lightning and monitor both the area and the energy of lightning strikes in the environments within which several tropical cyclones developed.   Several particular storms were examined including Hurricanes Claudette, Ida, Earl, and Beryl.  New methods of tracking lightning hold the potential to illuminate some of the important physical processes that are occuring in the pre-tropical cyglogensis environment.    
+Congratulations Delián!   Delián's work dives into the details of the different ways that tropical convection can be organized in the early stages of the easterly waves, which in many cases develop into TC's.  Her research uses multiple sources of observations as well as a novel computational method to combine the observations with ERA5 reanalysis data.  The observations were taken during two distinct field campaigns in the tropical Atlantic.
 
 <!--more-->
 
