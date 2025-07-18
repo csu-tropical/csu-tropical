@@ -9,7 +9,7 @@ author: "Levi Silvers"
 Delián Colón Burgos defends her research with the title, "Dynamics of Convective Organization in African Easterly Waves observed during the NAMMA and CPEX-CV Field
 Campaigns".
 
-Congratulations Delián!   Delián's work dives into the details of the different ways that tropical convection can be organized in the early stages of the easterly waves, which in many cases develop into TC's.  Her research uses multiple sources of observations as well as a novel computational method to combine the observations with ERA5 reanalysis data.  The observations were taken during two distinct field campaigns in the tropical Atlantic.
+Congratulations Delián!   Delián's work dives into the details of the different ways that tropical convection can be organized in the early stages of easterly waves, which in many cases develop into TC's.  Her research uses multiple sources of observations as well as a novel computational method to combine observations with ERA5 reanalysis data.  The observations that Delián used were gathered during two distinct field campaigns in the tropical Atlantic.
 
 <!--more-->
 
