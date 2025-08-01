@@ -3817,4 +3817,28 @@ precipitation evaporation in one of the tested convection schemes) of the convec
   keyword1: wildfire
   keyword2: extreme high-pressure events
   keyword3: Fire Weather Index
+- id: Miao_etal_JGR_2025
+  year: 2025
+  title: The Sensitivity of Eyewall Replacement Cycles to Shortwave Radiation
+  author1: bell
+  author2: false
+  author3: false
+  authors: Miao, Jyong-En and Yang, Ming-Jen and Rasmussen, Kristen L. and Bell, Michael M. and Kuo, Hung-Chi and Cha, Ting-Yu
+  journal: "Journal of Geophysical Research: Atmospheres"
+  others: 130, e2024JD042375
+  doi: https://doi.org/10.1029/2024JD042375
+  keypoint1: Multiple convective cell mergers favored by terrain‐induced circulation led to intense updrafts and extreme rainfall over Taipei Basin 
+  keypoint2: "Merged convective cells showed stronger updrafts, more graupel, and broader enhanced ZDR regions
+(>1 dB) than isolated cells" 
+  keypoint3: "A wide (>8 km) enhanced ZDR region at 5.5 km altitude formed during cell merger and was followed by intense updrafts and rainfall" 
+  abstract: "Abstract This study investigates the microphysical and kinematic characteristics in extreme afternoon thunderstorm rainfall during Taiwan-Area Heavy rain Observation and Prediction Experiment/Prediction of Rainfall Extremes Campaign In the Pacific IOP 2. The high-quality S-Pol radar observations and multi-Doppler winds provided valuable information about the convective organization over complex terrain. There were two episodes of heavy rainfall in this event. Episode 1 (1200–1400 LST, Local Standard Time) featured multiple cell merger (MCM) favored by terrain-induced circulation. Around the time of MCM, the enhanced ZDR region (>1 dB) broadened horizontally to ∼8 km in width at 5.5 km above mean sea level (AMSL). Afterward, maximum vertical velocity increased dramatically to ∼20 m s−1 and graupel reached up to 12 km AMSL. In contrast, Episode 2 (1500–1700 LST) exhibited isolated cells with weak updrafts (<10 m s−1) and more snow aloft. The merged ZDR columns coincided with MCM occurrence, preceding peaks in both vertical velocity and rainfall intensity. Building on emerging research investigating the relationship between ZDR column size and severe weather in the US, this study suggests that wide merged ZDR columns may be relevant to severe storms over complex terrain in Taiwan, highlighting their potential utility as indicators of storm intensification."
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Miao_etal_JGR_2025.bib
+  pdf: ../Publications/papers/Miao_etal_JGR_2025.pdf
+  keyword1: microphysics
+  keyword2: kinematics
+  keyword3: cell merger
 
