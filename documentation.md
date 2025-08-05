@@ -105,12 +105,13 @@ This page automatically generates the list of the news posts reading the *_post*
 
 ### Add new seasonal forecast released
 1. Add the pdf file to /Forecast/
-2. Go to _data/archive/2020s.yml and add the name of the pdf file there.
-3. Write a news item for the new forecast
-4. Change the Pop-up box accordingly (go to Home page documentation)
+2. Go to _data/forecasting/archive/2020s.yml and add the name of the pdf file there.
+3. If appropriate write a news item for the new forecast
+4. ?? Change the Pop-up box accordingly (go to Home page documentation)
 5. Change the current.yml file in _data/forecasting directory with the number form the current forecast
 6. Change the paragraphs below the current forecast table accordingly.
-7. Make sure you turn off the forecast pop-up box sometime later
+7. ?? Make sure you turn off the forecast pop-up box sometime later
+8. Update the landfall probabilities table in the _data/tc_impacts/ and Forecast/downloadable/ directories by adding the new landfall_probabilities.csv file
 
 ### ARCHIVE (/archive.html): Update the data
 - Update AMO index in  _data/forecasting/csu_amo.csv, also update .csv file for download in Forecast/downloadable/csu_amo.csv
