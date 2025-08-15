@@ -12,7 +12,7 @@ Congratulations Isaac!  Isaac's work combines massive amounts of airborne radar 
 
 <!--more-->
 
-<img src= "https://tropical.colostate.edu/images/news/SchluescheDefense.webp"
+<img src= "https://tropical.colostate.edu/images/news/Schluesche_YONAGUNI_RETRIEVAL.gif"
      alt="Isaac Schluesche"
      style=" display: block;margin-left: auto;margin-right: auto;width: 45%;" />
 
