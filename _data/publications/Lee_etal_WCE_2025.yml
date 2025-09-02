@@ -1,0 +1,23 @@
+- id: Lee_etal_WCE_2025
+  year: 2025
+  title: Multi-task feature transfer deep learning-based tropical cyclone center estimation (MFT–TC) using geostationary satellite observations
+  author1: lee
+  author2: false
+  author3: false
+  authors: Juhyun Lee and Il-Ju Moon and Jungho Im and Dong-Hoon Kim and Hyeyoon Jung
+  journal: "Weather and Climate Extremes"
+  others: 49 
+  doi: https://doi.org/10.1016/j.wace.2025.100796
+  keypoint1: "Propose a novel multi-task feature transfer deep learning-based TC center estimation (MFT-TC) algorithm" 
+  keypoint2: "It achieved an accuracy improvement of 12% to 39% and a 47% increase in efficiency compared to existing deep learning-based TC center determination."
+  keypoint3: "Using explainable AI (XAI), we demonstrate that the proposed model effectively captures both the overall cyclonic patterns and center-specific spatial characteristics, enabling accurate estimation of the TC center."
+  abstract: "Accurate and rapid tropical cyclone (TC) monitoring is crucial for precise forecasting and appropriate response to mitigate socio-economic damages. Geostationary satellite-based observations are the only tools that allow continuous monitoring of TCs throughout their entire lifetime, from formation to dissipation. However, owing to the diversity of TC structures, the automatic extraction of TC information using geostationary satellite-based cloud-top observations is still challenging. To address this limitation, several deep-learning-based approaches for extracting TC information have been developed. Here, we propose a novel deep learning-based TC center estimation approach using real-time geostationary satellite observations. To reduce computational costs while capturing both the entire TC structure and high-resolution spiral patterns, we propose a multi-task feature transfer deep learning-based TC center estimation (MFT–TC). This model effectively considers both the entire spiral band and focuses on specific local characteristics of TC while maintaining high computing efficiency, reducing computing costs by 47 %). Compared to the conventional single-CNN-based TC center determination model, which has been widely used in previous studies, the proposed model achieved significant improvements, with skill score increases ranging from 12 % to 39 %. Additionally, since there are significant structural differences between TCs with and without an eye, MFT–TC was evaluated under two different schemes based on the training sets: scheme 1, which uses separate training datasets depending on whether the TC has an eye (MFT–TC-div) and scheme 2, which uses all TC cases combined (MFT–TC-whl). Evaluation results showed scheme 1-based MFT–TC achieved a 14.8 % improvement over scheme 2-based MFT–TC, suggesting that separating training samples based on TC eye presence enhances the accuracy of TC center estimation. Furthermore, using the explainable artificial intelligence (XAI) approach, we demonstrated that MFT–TC efficiently captures both overall cyclonic structures and center-specific spatial characteristics to estimate the TC center accurately."
+  summary: false
+  image: false
+  caption: false
+  acknowledgement: 
+  bibtex: ../Publications/bibtex/Lee_etal_WCE_2025.bib
+  pdf: ../Publications/papers/Lee_etal_WCE_2025.pdf
+  keyword1: Typhoon center determination
+  keyword2: Novel deep learning
+  keyword3: Explainable AI
