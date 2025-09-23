@@ -1,13 +1,17 @@
 ---
 id: schluesche
 name: Isaac Schluesche
+time: M.S. in 2025
+thesis: >
+  Leveraging Machine Learning for Weather Radar Quality Control and Microphysical Retrievals 
+job: Meteorologist/Data Scientist at Millennium Management
 photo: './Group/isaac.jpg'
 email: 'mailto:islushy@colostate.edu'
 github: 'https://github.com/irslushy'
 webpage: false
 twitter: 'https://twitter.com/slushywx'
 bio: >
-  Isaac is a second year M.S. student originally from Sun Prairie, Wisconsin.
+  Isaac is originally from Sun Prairie, Wisconsin.
   He received his B.S. in Atmospheric and Oceanic Sciences and Computer Science from
   the University of Wisconsin-Madison. He developed an interest in tropical cyclones through
   an undergraduate internship at the National Hurricane Center, where he worked on creating
