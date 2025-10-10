@@ -1,0 +1,17 @@
+- id: Ju_etal_2025
+  year: 2025
+  title: "Mechanisms behind Seasonal Differences in the Recent Interdecadal Change in Tropical Cyclone Genesis Frequency over the Western North Pacific"
+  authors: Jinhui Ju and Doo-Sun R. Park and Dasol Kim and Minhee Chang and Chang-Kyun Park and Jong-Seong Kug and Daeok Youn
+  authors1: jju
+  author2: false
+  author3: false
+  journal: "Journal of Climate"
+  others: 38, 3787 - 3800
+  doi: 10.1175/JCLI-D-24-0604.1
+  url: "https://journals.ametsoc.org/view/journals/clim/38/15/JCLI-D-24-0604.1.xml"
+  abstract: In the late 1990s, tropical cyclone genesis over the western North Pacific (WNP) abruptly decreased, with seasonality that is significant only from October to December (OND). A previous study suggested that this seasonality can be attributed to the seasonal location of anomalous anticyclonic flow in the WNP, which are associated with increased pre- cipitation over the seasonal concentrated rainfall regions (SCRRs) within the Indo-Pacific Ocean under La Niña–like SST warming, which conforms to the “rich-get-richer” mechanism. However, this argument has not been explicitly verified. Here, by using dynamic models, i.e., the Model for Prediction Across Scales-Atmosphere (MPAS-A) and the linear baro- clinic model (LBM), we sought to validate the argument. Using the MPAS-A, we implemented two experiments, respec- tively, forced by the global daily climatological SST and by the La Niña–like SST warming. The results showed that the increased precipitation over the SCRRs corresponds closely to the rich-get-richer mechanism. However, the MPAS-A ex- periments poorly mimicked observed precipitation changes in the central to eastern Pacific, possibly because they are less sensitive to slightly warmer SSTs. The LBM experiments showed that the diabatic heating rates induced by tropical rainfall anomalies not only in the Indo-Pacific warm pool but also in the central to eastern Pacific were significant factors in the for- mation of the anomalous anticyclones over the WNP in OND. Hence, changes in diabatic heating rates in both basins, in- duced by the increase in precipitation, can contribute to the seasonality of changes in the large-scale circulation over the WNP.
+  keyword1: Tropical cyclones
+  keyword2: Decadal variability
+  keyword3: Interdecadal variability
+  bibtex: ../Publications/bibtex/Ju_etal_2025.bib
+  pdf: ../Publications/papers/Ju_etal_2025.pdf
