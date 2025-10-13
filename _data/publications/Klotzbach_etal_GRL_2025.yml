@@ -1,0 +1,20 @@
+- id: Klotzbach_etal_GRL_2025.yml
+  year: 2025
+  title: "The Remarkable 2024 North Atlantic Mid-Season Hurricane Lull"
+  authors: Klotzbach, P. J. and Bercos-Hickey, E. and Wood, K. M. and Schreck III, C. J. and Bell, M. M. and Blake, E. S. and Bowen, S. G. and Caron, L.-P. and Chavas, D. R. and Collins, J. M. and Gibney, E. J. and Hansen, K. A. and Hazelton, A. T. and Jones, J. J. and Lowry, M. R. and Nieves-Jimenez, A. T. and Patricola, C. M. and Silvers, L. G. and Truchelut, R. E. and Uehling, J.
+  author1: klotzbach
+  author2: silvers
+  author3: bell
+  journal: Geophysical Research Letters
+  others: 52, e2025GL116714 
+  doi: https://doi.org/10.1029/2025GL116714
+  keypoint1: Following an active start, the 2024 Atlantic hurricane was quiet during the climatological peak with only 1 tropical storm and 1 hurricane
+  keypoint2: The lull was not anticipated by seasonal forecasting agencies, which called for an extremely active 2024 Atlantic hurricane season
+  keypoint3: Factors reducing storm count included a northward shift in African easterly waves, broad‐scale subsidence, and reduced mid‐level moisture
+  abstract: "Abstract The 2024 North Atlantic (hereafter Atlantic) hurricane season started quickly, with the earliest Category 5 on record (Beryl) and three hurricanes forming through 14 August. Following Ernesto's dissipation on 20 August, the Atlantic hurricane season became extremely quiet during the climatological peak of hurricane season, with only one Category 2 hurricane (Francine) and one tropical storm through 23 September. Several environmental factors likely contributed to this unexpected, prolonged lull. During mid-to-late August, subseasonal conditions were broadly favorable for Atlantic hurricanes, but a northward shift in African easterly wave emergence latitude yielded fewer tropical cyclone seed disturbances that also traversed unfavorably cool ocean water. During early-to-mid September, subseasonal variability driven by the Madden-Julian oscillation was less conducive to hurricane activity, with several bouts of increased vertical wind shear across the central Atlantic. Throughout most of the lull, the tropical Atlantic was anomalously dry and subsident, suppressing hurricane formation chances."
+  keyword1: tropical cyclone  
+  keyword2: North Atlantic 
+  keyword3: seasonal forecasting 
+  bibtex: ../../Publications/bibtex/Klotzbach_etal_GRL_2025.bib 
+  pdf: ../../Publications/papers/Klotzbach_etal_GRL_2025.pdf
+

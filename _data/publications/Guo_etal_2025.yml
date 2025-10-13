@@ -1,0 +1,20 @@
+- id: Guo_etal_2025.yml
+  year: 2025
+  title: Assessing Clouds in GFDL's AM4.0 With Different Microphysical Parameterizations Using the Satellite Simulator Package COSP
+  author1: silvers
+  author2: false
+  author3: false
+  authors: Guo, Huan and Silvers, Levi G. and Paynter, David and Dong, Wenhao and Fan, Songmiao and Jing, Xianwen and Kramer, Ryan and Rand, Kristopher and Suzuki, Kentaroh and Zhang, Yuying and Zhao, Ming
+  journal: Earth and Space Science
+  others: 12, e2024EA004053
+  doi: https://doi.org/10.1029/2024EA004053
+  keypoint1: Cloud simulations from AM4.0 and AM4‐MG2 agree well with multiple satellite observations
+  keypoint2: Both models over‐predict optically thick clouds, but under‐predict thin/ intermediate clouds
+  keypoint3: The precipitation formation is too early and too frequent, which is alleviated in AM4‐MG2
+  abstract: "Abstract We evaluate cloud simulations using satellite simulators against multiple observational data sets. These simulators have been run within the Geophysical Fluid Dynamics Laboratory's Atmosphere Model version 4.0 (AM4.0), as well as an alternative configuration where a fully two-moment Morrison-Gettelman cloud microphysical parameterization with prognostic precipitation (MG2) is applied, denoted as AM4-MG2. The modeled cloud spatial distributions, vertical profiles, phase partitioning, cloud-to-precipitation transitions, and radiative effects compare reasonably well with satellite observations. Model biases include the under-prediction of total and low-level clouds, especially optically thin/intermediate clouds with cloud optical depth of less than 23, but the over-prediction of thick clouds, indicating “too few, too bright” biases. These biases counteract each other, and give rise to reasonable estimates of cloud radiative effects. The underestimate of low-level clouds is associated with too early and too frequent drizzle/precipitation formation. The precipitation bias is improved in AM4-MG2, where the autoconversion scheme initiates the precipitation more realistically. There also exist discrepancies between models and observations for midlevel and high-level clouds. Additional biases include the underestimate of liquid cloud fraction and the overestimate of ice cloud fraction."
+  bibtex: ../../Publications/bibtex/Guo_etal_2025.bib 
+  pdf: ../../Publications/papers/Guo_etal_2025.pdf
+  keyword1: cloud 
+  keyword2: GCM  
+  keyword3: satellite simulator 
+
