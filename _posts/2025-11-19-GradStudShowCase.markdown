@@ -2,7 +2,7 @@
 layout: post
 title: "Nick Mesa, Lauren Beard, and Delián Colón Burgos Present Research at the Graduate Student Showcase"
 date:   2025-11-19
-image: "https://tropical.colostate.edu/images/news/GradShow_1125.jpg"
+image: "https://tropical.colostate.edu/images/news/GradShow_1125.webp"
 author: "Levi Silvers"
 ---
 
