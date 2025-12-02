@@ -2,9 +2,9 @@
 layout: post
 title: "Nick Mesa, Lauren Beard, and Delián Colón Burgos Present Research at the Graduate Student Showcase"
 date:   2025-11-19
-image: "https://tropical.colostate.edu/images/news/GradShow_1125.webp"
-author: "Levi Silvers"
+image: "https://tropical.colostate.edu/images/news/GradShow2_1125.webp"
 ---
+
 
 Delián Colón Burgos, Nick Mesa, and Lauren Beard participated in the CSU Graduate Student Showcase.   This year's showcase provided them with the opportunity to present their research to a wide range of graduate students and judges while networking with other researchers.  Nice work Nick, Lauren, and Delián!  Delián earned an Honorable Mention Great Minds in Research in Research Award.  Congratulations Delián!
 
