@@ -1,0 +1,38 @@
+- id: DesRosiers_etal_2025.yml
+  year: 2025
+  title: Tropical Cyclone Surface Winds From Aircraft With a Neural Network
+  author1: bell 
+  author2: dehart
+  author3: false
+  authors: DesRosiers, Alexander J. and Bell, Michael M. and DeHart, Jennifer C. and Vigh, Jonathan L. and Rozoff, Christopher M. and Hendricks, Eric A.
+  journal: "Journal of Geophysical Research: Machine Learning and Computation"
+  others: 2 
+  doi: https://doi.org/10.1029/2025JH000584
+  keypoint1: Tropical cyclone (TC) surface wind reductions from air craft observations vary with flight altitude, TC motion, and intensity 
+  keypoint2: A neural network(NN) trained with aircraft observations is used to improve the reduction of TC winds from flight level to the surface 
+  keypoint3: The NN can predict observed surface winds with greater accuracy and better structural asymmetry than the current operational procedure
+  abstract: "Estimates of the surface wind field in a tropical cyclone (TC) are required in real time by operational forecast centers to warn the public about potential impacts to life and property. In-situ aircraft data must be adjusted from flight level to surface using wind reductions (WRs) since the aircraft cannot fly too low due to safety concerns. Current operational WRs do not capture all the variability in the TC surface wind field. In this study, an observational data set of Stepped Frequency Microwave Radiometer (SFMR) surface wind speeds that are collocated with flight-level predictors is used to analyze the variability of WRs with respect to aircraft altitude and TC storm motion and intensity. The Surface Winds from Aircraft with a Neural Network (SWANN) model is trained on the observations with a custom loss function that prioritizes accurate prediction of relatively rare high-wind observations and minimization of variance in the WRs. The model is capable of learning physical relationships that are consistent with theoretical understanding of the TC boundary layer. Radar-derived wind fields at flight level and independent dropwindsonde in-situ surface wind measurements are used to validate the SWANN model and show improvement over the current operational procedure. A test case shows that SWANN can produce a realistic asymmetric surface wind field from a radar-derived flight-level wind field which has a maximum wind speed similar to the operational intensity, suggesting promise for the method to lead to improved real-time TC intensity estimation and prediction in the future."
+  image: 
+  caption: 
+  acknowledgement: "This work is funded as part of the NOAA Hurricane and Ocean Testbed(HOT)
+program by award NA22OAR4590521 through the Colorado State University Cooperative Institute for Research in the
+Atmosphere(CIRA).A.DesRosiers and M.Bell were also supported by Office of NavalResearchaward N00014‐20‐1‐2069.
+We would like to thank our collaborators on this project Jun Zhang, Wallace Hogsett, Lisa Bucci,Jason Sippel,and
+forecasters at NHC for their helpful comments on the research. We thank Wallace Hogsett for providing greater
+detail on the NHC operational wind reduction methodology used to create the Simplified Franklin method. We 
+would also like to thank the U.S.Air Force and NOAA Hurricane Hunters for their tireless dedication to TC 
+reconnaissance and the collection of data used in this study.  FLIGHT+ was created by the Research Applications
+Laboratory at the National Science Foundation(NSF) National Center for Atmospheric Research(NCAR) from data 
+provided by HRD and the U.S.Air Force Reserve. We thank Neal Dorst and Heather Holbach for their contributions
+to FLIGHT+. The initial creation of this data set was funded through a grant from the Bermuda Institute of 
+Ocean Sciences Risk Prediction Initiative(RPI2.0). The extension of this data set was made possible due to 
+substantial funding support from the NOAA Hurricane Forecast Improvement Project(HFIP) through Grant 
+NA18NWS4680058, entitled “New Frameworks for Predicting Extreme Rapid Intensification.” This material is
+based in part upon work supported by NSF NCAR, which is a major facility sponsored by the U.S. NSF under
+CooperativeAgreement No.1852977." 
+  keyword1: tropical cyclone 
+  keyword2: machine learning
+  keyword3: neural network
+  bibtex: ../../Publications/bibtex/DesRosiers_etal_2025.bib 
+  pdf: ../../Publications/papers/DesRosiers_etal_2025.pdf
+
