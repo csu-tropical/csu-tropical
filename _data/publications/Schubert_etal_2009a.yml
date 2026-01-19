@@ -8,9 +8,9 @@
   journal: Journal of Advances in Modeling Earth Systems
   others:  1 
   doi: https://doi.org/10.3894/JAMES.2009.1.2
-  keypoint1: 
-  keypoint2: 
-  keypoint3: 
+  keypoint1: Derives a spherical version of quasigeostrophic theory based on the nondivergent and irrotational components of velocity.
+  keypoint2: The theory presented is valid over the full global domain. 
+  keypoint3: An anisotropic Rhines barrier is derived.
   abstract: Quasi-geostrophic theory forms the basis for much of our understanding of mid-latitude atmospheric dynam- ics. The theory is typically presented in either its f -plane form or its β-plane form. However, for many appli- cations, including diagnostic use in global climate modeling, a fully spherical version would be most useful. Such a global theory does in fact exist and has for many years, but few in the scientific community seem to have ever been aware of it. In the context of shallow water dynamics, it is shown that the spherical version of quasi- geostrophic theory is easily derived (re-derived) based on a partitioning of the flow between nondivergent and irrotational components, as opposed to a partitioning between geostrophic and ageostrophic components. In this way, the invertibility principle is expressed as a relation between the streamfunction and the potential vor- ticity, rather than between the geopotential and the potential vorticity. This global theory is then extended by showing that the invertibility principle can be solved analytically using spheroidal harmonic transforms, an advancement that greatly improves the usefulness of this “forgotten” theory. When the governing equation for the time evolution of the potential vorticity is linearized about a state of rest, a simple Rossby-Haurwitz wave dispersion relation is derived and examined. These waves have a horizontal structure described by spheroidal harmonics, and the Rossby-Haurwitz wave frequencies are given in terms of the eigenvalues of the spheroidal harmonic operator. Except for sectoral harmonics with low zonal wavenumber, the quasi-geostrophic Rossby- Haurwitz frequencies agree very well with those calculated from the primitive equations. One of the many possible applications of spherical quasi-geostrophic theory is to the study of quasi-geostrophic turbulence on the sphere. In this context, the theory is used to derive an anisotropic Rhines barrier in three-dimensional wavenumber space. 
   image: false
   caption: false 
