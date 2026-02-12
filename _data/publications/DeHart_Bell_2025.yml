@@ -1,0 +1,22 @@
+- id: DeHart_Bell_2025.yml
+  year: 2025
+  title: Quantifying the Relationships Between Dynamics and Rainfall Intensity Along the Mei-Yu Front During PRECIP 2022
+  author1: dehart 
+  author2: bell 
+  author3: false
+  authors: DeHart, Jennifer C. and Bell, Michael M.
+  journal: "Geophysical Research Letters"
+  doi: https://doi.org/10.1029/2025GL117992
+  keypoint1: Prediction of Rainfall Extremes Campaign in the Pacific 2022 analyses show the highest rain totals in oceanic Mei-Yu fronts preferentially occur in moderately strong rotating convection 
+  keypoint2: Five hundred forty-five Multi-Doppler analyses show increases in relative vorticity, vertical velocity, and low-level convergence with rain rate intensity 
+  keypoint3: "Forty-five percent of the volumetric rain accumulation comes from rain rates between 10 and 50 mm/hr  that comprise only 6% of the raining grid points"
+  abstract: "Multi-Doppler analyses from the joint Prediction of Rainfall Extremes Campaign in the Pacific 2022 and Taiwan-Area Heavy rain Observation and Prediction Experiment field campaign are used to examine the relationships between dynamics and rainfall intensity in two Mei-Yu frontal periods. Statistics from oceanic rainfall over 8 days show a mean increase and a positive shift of the distributions of vertical vorticity, vertical motion, and divergence with increasing rain rate intensity. In regions of higher rain rates, mean ascent maximizes in the upper troposphere, low-level convergence intensifies over a deeper layer, and upper-level divergence strengthens. Stratiform rainfall is frequent in light rain rates below 5 mm/hr  but contributes little to the total rainfall. Heavy convective rain rates between 10 and 50 mm/hr  are only 6% of the observed raining grid points over the ocean but contribute over 45% of the total volumetric rainfall. The radar analysis indicates that the highest rain accumulations in the oceanic Mei-Yu precipitation preferentially occur in moderately strong rotating convection." 
+  image: 
+  caption: 
+  acknowledgement: 
+  keyword1: Prediction of Rainfall Extremes Campaign 
+  keyword2: Multi-Doppler Radar
+  keyword3: heavy rainfall
+  bibtex: ../../Publications/bibtex/DeHart_Bell_2025.bib 
+  pdf: ../../Publications/papers/DeHart_Bell_2025.pdf
+
